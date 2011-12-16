@@ -6,7 +6,6 @@ Missing locales :
 * pt-BR
 * zh-CN
 * zh-TW
-* fr
 * de
 * pl
 * pt-PT
