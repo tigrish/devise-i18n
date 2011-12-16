@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{devise-i18n}
-  s.version = "0.0.4"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Christopher Dell}]
-  s.date = %q{2011-12-14}
+  s.date = %q{2011-12-16}
   s.description = %q{Translations for the devise gem}
   s.email = %q{chris@tigrish.com}
   s.extra_rdoc_files = [
@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
     "README.md"
   ]
   s.files = [
+    ".DS_Store",
     ".document",
     ".rspec",
     ".rvmrc",
@@ -27,24 +28,31 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "devise-i18n.gemspec",
     "lib/devise-i18n.rb",
-    "locale/bg.yml",
+    "locale/.DS_Store",
+    "locale/ca.yml",
+    "locale/cs.yml",
     "locale/da.yml",
-    "locale/de.yml",
-    "locale/en-AU.yml",
-    "locale/en-GB.yml",
     "locale/en-US.yml",
-    "locale/es.yml",
-    "locale/fr.yml",
+    "locale/fa.yml",
+    "locale/fi.yml",
+    "locale/he.yml",
+    "locale/hr.yml",
     "locale/hu.yml",
+    "locale/id.yml",
+    "locale/is.yml",
     "locale/it.yml",
     "locale/ja.yml",
+    "locale/lt.yml",
+    "locale/lv.yml",
+    "locale/my.yml",
+    "locale/nb.yml",
     "locale/nl.yml",
-    "locale/pt-PT.yml",
-    "locale/ru.yml",
-    "spec/spec_helper.rb",
+    "locale/sk.yml",
+    "locale/sv.yml",
     "spec/devise-i18n_spec.rb",
-    "devise-i18n.gemspec"
+    "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/tigrish/devise-i18n}
   s.licenses = [%q{MIT}]
