@@ -1,0 +1,41 @@
+nl:
+  devise:
+    confirmations:
+      confirmed: Je account is bevestigd.
+      send_instructions: Je ontvangt via e-mail instructies hoe je je account kan
+        bevestigen.
+    failure:
+      inactive: Je account is nog niet geactiveerd.
+      invalid: Ongeldig e-mail of wachtwoord.
+      invalid_token: Invalide authenticiteit token.
+      locked: Je account is gelocked.
+      timeout: Je sessie is verlopen, log a.u.b. opnieuw in.
+      unauthenticated: Je dient in te loggen of je in te schrijven.
+      unconfirmed: Je dient eerst je account te bevestigen.
+    mailer:
+      confirmation_instructions:
+        subject: Bevestiging
+      reset_password_instructions:
+        subject: Wachtwoord resetten
+      unlock_instructions:
+        subject: Unlock instructies
+    passwords:
+      send_instructions: Je ontvangt via e-mail instructies hoe je je wachtwoord moet
+        resetten.
+      updated: Je wachtwoord is gewijzigd. Je bent nu ingelogd.
+    registrations:
+      destroyed: Je account is verwijderd, wellicht tot ziens!
+      signed_up: Je bent inschreven.
+      updated: Je account gegevens zijn opgeslagen.
+    sessions:
+      signed_in: Je bent succesvol ingelogd.
+      signed_out: Je bent succesvol uitgelogd.
+    unlocks:
+      send_instructions: Je ontvangt via e-mail instructies hoe je je account kan
+        un-locken.
+      unlocked: Je account is ge-unlocked. Je kan nu weer inloggen.
+  errors:
+    messages:
+      already_confirmed: is reeds bevestigd
+      not_found: niet gevonden
+      not_locked: is niet gesloten

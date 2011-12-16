@@ -1,0 +1,38 @@
+ja:
+  devise:
+    confirmations:
+      confirmed: アカウントを登録しました。
+      send_instructions: 登録方法を数分以内にメールでご連絡します。
+    failure:
+      inactive: アカウントがアクティベートされていません。
+      invalid: メールアドレスかパスワードが違います。
+      invalid_token: 認証キーが不正です。
+      locked: あなたのアカウントは凍結されています。
+      timeout: セッションがタイムアウトしました。もう一度ログインしてください。
+      unauthenticated: ログインしてください。
+      unconfirmed: 本登録を行ってください。
+    mailer:
+      confirmation_instructions:
+        subject: アカウントの登録方法
+      reset_password_instructions:
+        subject: パスワードの再設定
+      unlock_instructions:
+        subject: アカウントの凍結解除
+    passwords:
+      send_instructions: パスワードのリセット方法を数分以内にメールでご連絡します。
+      updated: パスワードを変更しました。
+    registrations:
+      destroyed: アカウントを削除しました。またのご利用をお待ちしております。
+      signed_up: アカウント登録を受け付けました。確認のメールをお送りします。
+      updated: アカウントを更新しました。
+    sessions:
+      signed_in: ログインしました。
+      signed_out: ログアウトしました。
+    unlocks:
+      send_instructions: アカウントの凍結解除方法を数分以内にメールでご連絡します。
+      unlocked: アカウントを凍結解除しました。
+  errors:
+    messages:
+      already_confirmed: は既に登録済みです
+      not_found: は見つかりませんでした
+      not_locked: は凍結されていません

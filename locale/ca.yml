@@ -1,0 +1,67 @@
+ca:
+  devise:
+    confirmations:
+      confirmed: El teu compte ha estat confirmat correctament.  S'ha iniciat la sessió.
+      send_instructions: En breu rebràs un correu electrònic amb instruccions sobre
+        com confirmar el teu compte.
+      send_paranoid_instructions: Si la teva adreça electrònica existeix a la base
+        de dades, rebràs un correu electrònic amb instruccions sobre com confirmar
+        el teu compte.
+    failure:
+      already_authenticated: Ja estàs identificat.
+      inactive: El teu compte encara no ha estat activat.
+      invalid: Correu electrònic o contrasenya invàlids.
+      invalid_token: Codi d'autenticació invàlid.
+      locked: El teu compte està bloquejat.
+      timeout: La teva sessió ha caducat. Si us plau, torna a iniciar sessió per a
+        continuar.
+      unauthenticated: Has d'iniciar sessió o bé registrar-te abans de continuar.
+      unconfirmed: Has de confirmar el teu compte abans de continuar.
+    mailer:
+      confirmation_instructions:
+        subject: Instruccions de confirmació
+      reset_password_instructions:
+        subject: Instruccions de regeneració de contrasenya
+      unlock_instructions:
+        subject: Instruccions de desbloqueig
+    omniauth_callbacks:
+      failure: No hem pogut autoritzar el compte des de %{kind} perquè "%{reason}".
+      success: Autoritzat satisfactoriament el compte des de %{kind}.
+    passwords:
+      send_instructions: En breu rebràs un correu electrònic amb instruccions sobre
+        com restablir la teva contrasenya.
+      send_paranoid_instructions: Si la teva adreça electrònica existeix a la base
+        de dades, rebràs un correu electrònic amb un enllaç per reestablir la contrasenya.
+      updated: La teva contrasenya ha estat canviada correctament. S'ha iniciat la
+        sessió.
+      updated_not_active: La teva contrasenya ha estat canviada correctament.
+    registrations:
+      destroyed: Adéu! El teu compte ha estat cancel·lat correctament. Esperem tornar-te
+        a veure!
+      inactive_signed_up: Has estat registrat correctament. Tanmateix, no hem pogut
+        processar el teu compte perquẻ %{reason}.
+      reasons:
+        inactive: inactiu
+        locked: bloquejat
+        unconfirmed: no confirmat
+      signed_up: Has estat registrat correctament.
+      updated: Has actualitzat el teu compte correctament.
+    sessions:
+      signed_in: Sessió iniciada correctament.
+      signed_out: Sessió tancada correctament.
+    unlocks:
+      send_instructions: En breu rebràs un correu electrònic amb instruccions sobre
+        com desbloquejar el teu compte.
+      send_paranoid_instructions: Si el teu compte existeix, rebràs un correu electrònic
+        amb instruccions sobre com desbloquejar-lo.
+      unlocked: El teu compte ha estat desbloquejat correctament. S'ha iniciat la
+        sessió.
+  errors:
+    messages:
+      already_confirmed: ja està confirmat
+      expired: ha caducat, demana'n un de nou
+      not_found: no s'ha trobat
+      not_locked: no està bloquejat
+      not_saved:
+        one: ! '1 error ha evitat que %{resource} es pugui desar:'
+        other: ! '%{count} errors han evitat que %{resource} es pugui desar:'

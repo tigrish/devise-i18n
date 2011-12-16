@@ -1,0 +1,49 @@
+nb:
+  devise:
+    confirmations:
+      confirmed: Din konto er aktiveret og du er nå innlogget.
+      send_instructions: Du vil snart motta en epost med instruksjoner for å aktivere
+        din konto.
+    failure:
+      inactive: Din konto er ikke aktivert.
+      invalid: Epost-adresse eller passord er ikke gyldig.
+      invalid_token: Ugyldig autentiserings-token.
+      locked: Din konto er låst.
+      timeout: Din sesjon er utløpt. Logg inn igjen for å kunne fortsette.
+      unauthenticated: Du må logge inn eller registrere deg for å kunne fortsette.
+      unconfirmed: Du må bekrefte kontoen din for å kunne fortsette.
+    mailer:
+      confirmation_instructions:
+        subject: Bekreftelsesinstruksjoner
+      reset_password_instructions:
+        subject: Nullstilling av passord
+      unlock_instructions:
+        subject: Gjenåpning av konto
+    omniauth_callbacks:
+      failure: Kunne ikke autorisere deg fra %{kind} fordi "%{reason}".
+      success: Vellykket autorisering fra %{kind}.
+    passwords:
+      send_instructions: Du vil snart motta en epost med instruksjoner for å nullstille
+        passordet ditt.
+      updated: Ditt passord er endret og du er nå innlogget.
+    registrations:
+      destroyed: Farvel. Din konto er nå slettet.
+      inactive_signed_up: Din registrering er vellykket, men vi kunne ikke logge deg
+        inn på grunn av at din konto er %{reason}.
+      signed_up: Velkommen! Din registrering er vellykket.
+      updated: Din profil er oppdatert.
+    sessions:
+      signed_in: Du er nå innlogget.
+      signed_out: Du er nå logget ut.
+    unlocks:
+      send_instructions: Du vil snart motta en epost med instruksjon for å gjenåpne
+        din konto.
+      unlocked: Din konto er gjenåpnet og du er nå innlogget.
+  errors:
+    messages:
+      already_confirmed: har allerede blitt bekreftet. Prøv å logg inn.
+      not_found: ikke funnet
+      not_locked: var ikke låst
+      not_saved:
+        one: ! 'Én feil gjorde at %{resource} ikke kunne lagres:'
+        other: ! '%{count} feil gjorde at %{resource} ikke kunne lagres:'

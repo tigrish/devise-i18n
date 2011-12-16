@@ -1,0 +1,63 @@
+sv:
+  devise:
+    confirmations:
+      confirmed: Ditt konto har bekräftats. Du är nu inloggad.
+      send_instructions: Du kommer att få epost med instruktioner om hur du kan bekräfta
+        ditt konto inom några minuter.
+      send_paranoid_instructions: Om din email är i vår databas, kommer du att få
+        ett mail med instruktioner om hur du ska aktivera ditt konto inom några minuter.
+    failure:
+      already_authenticated: Du har redan loggat in.
+      inactive: Ditt konto har inte aktiverats ännu.
+      invalid: Ogiltig epost eller lösenord.
+      invalid_token: Ogiltig token för autentisering.
+      locked: Ditt konto är låst.
+      timeout: Din session är inte längre giltig, vänligen logga in igen för att fortsätta.
+      unauthenticated: Du måste logga in eller skapa ett konto innan du kan fortsätta.
+      unconfirmed: Du måste bekräfta ditt konto innan du kan fortsätta.
+    mailer:
+      confirmation_instructions:
+        subject: Instruktioner om bekräftning av konto
+      reset_password_instructions:
+        subject: Instrukionter om återställning av lösenord
+      unlock_instructions:
+        subject: Instruktioner om upplåsning av konto
+    omniauth_callbacks:
+      failure: Kunde inte autentisera dig med %{kind} för "%{reason}".
+      success: Autentiserat med %{kind}-konto.
+    passwords:
+      send_instructions: Du kommer få epost med instruktioner om hur du kan återställa
+        ditt lösenord inom några minuter.
+      send_paranoid_instructions: Om din email är i vår databas, kommer du att få
+        en lösenordslänk till din mail.
+      updated: Ditt lösenord har uppdaterats. Du är nu inloggad.
+    registrations:
+      destroyed: Hej då! Ditt konto har avregistrerats. Vi hoppas få se dig snart
+        igen.
+      inactive_signed_up: Ett nytt konto har skapats. Du kunde inte logga in, för
+        ditt konto är %{reason}.
+      reasons:
+        inactive: inaktivt
+        locked: låst
+        unconfirmed: inte aktiverat
+      signed_up: Ett nytt konto har skapats. En bekräftelse har skickats till din
+        epost.
+      updated: Ditt konto har uppdaterats.
+    sessions:
+      signed_in: Loggade in.
+      signed_out: Loggade ut.
+    unlocks:
+      send_instructions: Du kommer få epost med instruktioner om hur du kan låsa upp
+        ditt konto inom några minuter.
+      send_paranoid_instructions: Om ditt konto finns, kommer du att få ett email
+        med instruktioner om hur du låser upp det inom några minuter.
+      unlocked: Ditt konto har låsts upp. Du är nu inloggad.
+  errors:
+    messages:
+      already_confirmed: är redan bekräftad, vänligen logga in igen
+      expired: har löpt ut, var god begär en ny
+      not_found: hittades inte
+      not_locked: var inte låst
+      not_saved:
+        one: ! '1 fel hindrade denna %{resource} från att sparas:'
+        other: ! '%{count} fel hindrade denna %{resource} från att sparas:'

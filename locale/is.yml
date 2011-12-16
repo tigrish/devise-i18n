@@ -1,0 +1,40 @@
+is:
+  devise:
+    confirmations:
+      confirmed: Aðgangurinn hefur verið staðfestur. Þú ert núna skráður inn
+      send_instructions: Þú munt fá tölvupóst með upplýsingar hvernig þú staðfestir
+        aðganginn þinn eftir nokkrar mínútur
+    failure:
+      inactive: Aðgangurinn þinn hefur ekki verið staðfestur.
+      invalid: Rangt tölvupóstfang eða lykilorð.
+      invalid_token: Ógilt auðkenningartákn
+      locked: Aðgangurinn þinn er læstur.
+      timeout: Tíminn er runnninn út, vinsamlegast skráðu þig aftur inn til að halda
+        áfram.
+      unauthenticated: Þú þarft að innskrá eða nýskrá þig til að halda áfram.
+      unconfirmed: Þú verður að staðfesta aðganginn þinn áður en þú heldur áfram.
+    mailer:
+      confirmation_instructions:
+        subject: Staðfestinga upplýsingar
+      reset_password_instructions:
+        subject: Leiðbeiningar um endursetningu lykilorðs
+      unlock_instructions:
+        subject: Aflæsa upplýsingum
+    passwords:
+      send_instructions: Þú munt fá tölvupóst með upplýsingar hvernig þú endursetur
+        aðganginn þinn eftir nokkrar mínútur
+      updated: Lykilorðinu þínu var breytt. Þú ert núna skráður inn
+    registrations:
+      destroyed: Bless! Aðgangnum þínum hefur verið lokað. Vonandi sjáumst við aftur.
+      signed_up: Þú hefur innskráð þig. Ef valið færðu staðfestingu í tölvupósti
+      updated: Þú hefur uppfært aðganginn þinn
+    sessions:
+      signed_in: Innskráning tókst.
+      signed_out: Útskráning tókst.
+    unlocks:
+      send_instructions: Þú munnt fá tölvupóst með leiðbeiningum hvernig þú aflæsir
+        aðganginn þinn eftir örfáar mínútur
+      unlocked: Aðgangum þínum hefur verið ólæst. Þú ert núna innskráður.
+  errors:
+    messages:
+      not_found: Afsakið, síða ekki fundin.

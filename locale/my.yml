@@ -1,0 +1,41 @@
+# Additional translations at http://github.com/plataformatec/devise/wiki/I18n
+
+my:
+  errors:
+    messages:
+      not_found: "tidak dijumpai"
+      already_confirmed: "sudah disahkan"
+      not_locked: "tidak dikunci"
+
+  devise:
+    failure:
+      unauthenticated: 'Anda harus mendaftar atau sign in sebelum meneruskan .'
+      unconfirmed: 'Anda harus melakukan proses pengesahan sebalum meneruskan.'
+      locked: 'Akun anda terkunci.'
+      invalid: 'email atau password yang anda masukkan salah.'
+      invalid_token: 'Kesalahan pada authentication token.'
+      timeout: 'Sesi anda telah tamat, silahkan sign in bagi meneruskan sesi yang baru.'
+      inactive: 'Akun anda belum diaktifkan.'
+    sessions:
+      signed_in: 'Proses sign in berjaya.'
+      signed_out: 'Proses sign out berjaya.'
+    passwords:
+      send_instructions: 'Anda akan menerima e-mail mengenai langkah mengubah password sebentar lagi.'
+      updated: 'Password anda telah berjaya diubah. Anda telah sign in.'
+    confirmations:
+      send_instructions: 'Anda akan menerima e-mail mengenai langkah proses pengesahan akaun sebentar lagi.'
+      confirmed: 'Akaun anda telah berjaya disahkan. Anda telah sign in.'
+    registrations:
+      signed_up: 'Proses pendaftaran berjaya. Link untuk mengaktifkan akaun telah dihantar di e-mail.'
+      updated: 'Akaun anda telah dikemaskini'
+      destroyed: 'Selamat Tinggal, akaun anda telah di tutup'
+    unlocks:
+      send_instructions: 'Anda akan menerima e-mail mengenai langkah membuka akaun kembali sebentar lagi.'
+      unlocked: 'Akun anda telah berjaya dibuka. Anda telah sign in.'
+    mailer:
+      confirmation_instructions:
+        subject: 'Arahan proses pengesahan'
+      reset_password_instructions:
+        subject: 'Arahan mengubah password'
+      unlock_instructions:
+        subject: 'Arahan membuka akaun kembali'

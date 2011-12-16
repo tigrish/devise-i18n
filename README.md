@@ -2,6 +2,17 @@
 
 [![Build Status](https://secure.travis-ci.org/tigrish/devise-i18n.png)](http://travis-ci.org/tigrish/devise-i18n)
 
+Missing locales :
+* pt-BR
+* zh-CN
+* zh-TW
+* fr
+* de
+* pl
+* pt-PT
+* ru
+* es
+
 ## Contributing to devise-i18n
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
