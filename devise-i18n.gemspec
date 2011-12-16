@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{devise-i18n}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Christopher Dell}]
@@ -37,6 +37,7 @@ Gem::Specification.new do |s|
     "locale/en-US.yml",
     "locale/fa.yml",
     "locale/fi.yml",
+    "locale/fr.yml",
     "locale/he.yml",
     "locale/hr.yml",
     "locale/hu.yml",
