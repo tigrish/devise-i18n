@@ -2,7 +2,12 @@
 
 [![Build Status](https://secure.travis-ci.org/tigrish/devise-i18n.png)](http://travis-ci.org/tigrish/devise-i18n)
 
+Translations for the devise gem.
+
+These tranlsations can be included automatically using the [Locale](http://www.localeapp.com) localization app.
+
 Missing locales :
+
 * pt-BR
 * zh-CN
 * zh-TW
