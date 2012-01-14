@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/tigrish/devise-i18n.png)](http://travis-ci.org/tigrish/devise-i18n)
 
-Translations for the devise gem pulled from various sources.
+Translations for [Devise](https://github.com/plataformatec/devise) pulled from various sources.
 
 These translations can be included automatically using the [Locale](http://www.localeapp.com) localization app.
 
