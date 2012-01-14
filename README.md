@@ -2,20 +2,290 @@
 
 [![Build Status](https://secure.travis-ci.org/tigrish/devise-i18n.png)](http://travis-ci.org/tigrish/devise-i18n)
 
-Translations for the devise gem.
+Translations for the devise gem pulled from various sources.
 
-These tranlsations can be included automatically using the [Locale](http://www.localeapp.com) localization app.
+These translations can be included automatically using the [Locale](http://www.localeapp.com) localization app.
 
-Missing locales :
+----
 
-* pt-BR
-* zh-CN
-* zh-TW
-* de
-* pl
-* pt-PT
-* ru
-* es
+The following translations are missing - if you can, contribute!
+
+### locales/ca.yml
+
+- *MISSING* devise.registrations.update_needs_confirmation
+
+### locales/cs.yml
+
+- *MISSING* devise.confirmations.send_paranoid_instructions
+- *MISSING* devise.passwords.send_paranoid_instructions
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+- *MISSING* devise.unlocks.send_paranoid_instructions
+- *MISSING* errors.messages.expired
+
+### locales/da.yml
+
+- *MISSING* devise.registrations.update_needs_confirmation
+
+### locales/es.yml
+
+- *MISSING* devise.registrations.update_needs_confirmation
+
+### locales/fa.yml
+
+- *MISSING* devise.confirmations.send_paranoid_instructions
+- *MISSING* devise.passwords.send_paranoid_instructions
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+- *MISSING* devise.unlocks.send_paranoid_instructions
+- *MISSING* errors.messages.expired
+
+### locales/fi.yml
+
+- *MISSING* devise.confirmations.send_paranoid_instructions
+- *MISSING* devise.failure.already_authenticated
+- *MISSING* devise.passwords.send_paranoid_instructions
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+- *MISSING* devise.unlocks.send_paranoid_instructions
+- *MISSING* errors.messages.expired
+
+### locales/he.yml
+
+- *MISSING* devise.confirmations.send_paranoid_instructions
+- *MISSING* devise.failure.already_authenticated
+- *MISSING* devise.omniauth_callbacks.failure
+- *MISSING* devise.omniauth_callbacks.success
+- *MISSING* devise.passwords.send_paranoid_instructions
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.inactive_signed_up
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+- *MISSING* devise.unlocks.send_paranoid_instructions
+- *MISSING* errors.messages.already_confirmed
+- *MISSING* errors.messages.expired
+- *MISSING* errors.messages.not_found
+- *MISSING* errors.messages.not_locked
+- *MISSING* errors.messages.not_saved
+
+### locales/hr.yml
+
+- *MISSING* devise.confirmations.send_paranoid_instructions
+- *MISSING* devise.passwords.send_paranoid_instructions
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+- *MISSING* devise.unlocks.send_paranoid_instructions
+
+### locales/hu.yml
+
+- *MISSING* devise.failure.already_authenticated
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+
+### locales/id.yml
+
+- *MISSING* devise.confirmations.send_paranoid_instructions
+- *MISSING* devise.failure.already_authenticated
+- *MISSING* devise.omniauth_callbacks.failure
+- *MISSING* devise.omniauth_callbacks.success
+- *MISSING* devise.passwords.send_paranoid_instructions
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.inactive_signed_up
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+- *MISSING* devise.unlocks.send_paranoid_instructions
+- *MISSING* errors.messages.expired
+- *MISSING* errors.messages.not_saved
+
+### locales/is.yml
+
+- *MISSING* devise.confirmations.send_paranoid_instructions
+- *MISSING* devise.failure.already_authenticated
+- *MISSING* devise.omniauth_callbacks.failure
+- *MISSING* devise.omniauth_callbacks.success
+- *MISSING* devise.passwords.send_paranoid_instructions
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.inactive_signed_up
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+- *MISSING* devise.unlocks.send_paranoid_instructions
+- *MISSING* errors.messages.already_confirmed
+- *MISSING* errors.messages.expired
+- *MISSING* errors.messages.not_locked
+- *MISSING* errors.messages.not_saved
+
+### locales/it.yml
+
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.update_needs_confirmation
+
+### locales/ja.yml
+
+- *MISSING* devise.confirmations.send_paranoid_instructions
+- *MISSING* devise.failure.already_authenticated
+- *MISSING* devise.omniauth_callbacks.failure
+- *MISSING* devise.omniauth_callbacks.success
+- *MISSING* devise.passwords.send_paranoid_instructions
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.inactive_signed_up
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+- *MISSING* devise.unlocks.send_paranoid_instructions
+- *MISSING* errors.messages.expired
+- *MISSING* errors.messages.not_saved
+
+### locales/lt.yml
+
+- *MISSING* devise.confirmations.send_paranoid_instructions
+- *MISSING* devise.failure.already_authenticated
+- *MISSING* devise.omniauth_callbacks.failure
+- *MISSING* devise.omniauth_callbacks.success
+- *MISSING* devise.passwords.send_paranoid_instructions
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.inactive_signed_up
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+- *MISSING* devise.unlocks.send_paranoid_instructions
+- *MISSING* errors.messages.already_confirmed
+- *MISSING* errors.messages.expired
+- *MISSING* errors.messages.not_found
+- *MISSING* errors.messages.not_locked
+- *MISSING* errors.messages.not_saved
+
+### locales/lv.yml
+
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.update_needs_confirmation
+
+### locales/my.yml
+
+- *MISSING* devise.confirmations.send_paranoid_instructions
+- *MISSING* devise.failure.already_authenticated
+- *MISSING* devise.omniauth_callbacks.failure
+- *MISSING* devise.omniauth_callbacks.success
+- *MISSING* devise.passwords.send_paranoid_instructions
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.inactive_signed_up
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+- *MISSING* devise.unlocks.send_paranoid_instructions
+- *MISSING* errors.messages.expired
+- *MISSING* errors.messages.not_saved
+
+### locales/nb.yml
+
+- *MISSING* devise.confirmations.send_paranoid_instructions
+- *MISSING* devise.failure.already_authenticated
+- *MISSING* devise.passwords.send_paranoid_instructions
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+- *MISSING* devise.unlocks.send_paranoid_instructions
+- *MISSING* errors.messages.expired
+
+### locales/nl.yml
+
+- *MISSING* devise.confirmations.send_paranoid_instructions
+- *MISSING* devise.failure.already_authenticated
+- *MISSING* devise.omniauth_callbacks.failure
+- *MISSING* devise.omniauth_callbacks.success
+- *MISSING* devise.passwords.send_paranoid_instructions
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.inactive_signed_up
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+- *MISSING* devise.unlocks.send_paranoid_instructions
+- *MISSING* errors.messages.expired
+- *MISSING* errors.messages.not_saved
+
+### locales/pl.yml
+
+- *MISSING* devise.registrations.update_needs_confirmation
+
+### locales/pt-BR.yml
+
+- *MISSING* devise.confirmations.send_paranoid_instructions
+- *MISSING* devise.failure.already_authenticated
+- *MISSING* devise.passwords.send_paranoid_instructions
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+- *MISSING* devise.unlocks.send_paranoid_instructions
+- *MISSING* errors.messages.expired
+
+### locales/pt-PT.yml
+
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+
+### locales/ru.yml
+
+- *MISSING* devise.registrations.update_needs_confirmation
+
+### locales/sk.yml
+
+- *MISSING* devise.registrations.update_needs_confirmation
+
+### locales/sv.yml
+
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.update_needs_confirmation
+
+### locales/zh-CN.yml
+
+- *MISSING* devise.registrations.update_needs_confirmation
+
+### locales/zh-TW.yml
+
+- *MISSING* devise.confirmations.send_paranoid_instructions
+- *MISSING* devise.omniauth_callbacks.failure
+- *MISSING* devise.omniauth_callbacks.success
+- *MISSING* devise.passwords.send_paranoid_instructions
+- *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.reasons.inactive
+- *MISSING* devise.registrations.reasons.locked
+- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.update_needs_confirmation
+- *MISSING* devise.unlocks.send_paranoid_instructions
+- *MISSING* errors.messages.expired
+
+----
 
 ## Contributing to devise-i18n
  
