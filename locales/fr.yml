@@ -42,7 +42,7 @@ fr:
         pas pu vous identifier car votre compte est %{reason}.
       reasons:
         inactive: inactif
-        locked: ! 'verrouillé'
+        locked: verrouillé
         unconfirmed: non-confirmé
       signed_up: Bienvenue, vous êtes connectés avec succès
       update_needs_confirmation: Vous avez modifié votre compte avec succès, mais
