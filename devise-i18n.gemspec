@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{devise-i18n}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Christopher Dell}]
-  s.date = %q{2011-12-16}
+  s.date = %q{2012-01-14}
   s.description = %q{Translations for the devise gem}
   s.email = %q{chris@tigrish.com}
   s.extra_rdoc_files = [
@@ -17,7 +17,6 @@ Gem::Specification.new do |s|
     "README.md"
   ]
   s.files = [
-    ".DS_Store",
     ".document",
     ".rspec",
     ".rvmrc",
@@ -30,10 +29,10 @@ Gem::Specification.new do |s|
     "VERSION",
     "devise-i18n.gemspec",
     "lib/devise-i18n.rb",
-    "locale/.DS_Store",
     "locale/ca.yml",
     "locale/cs.yml",
     "locale/da.yml",
+    "locale/de.yml",
     "locale/en-US.yml",
     "locale/fa.yml",
     "locale/fi.yml",
@@ -50,8 +49,11 @@ Gem::Specification.new do |s|
     "locale/my.yml",
     "locale/nb.yml",
     "locale/nl.yml",
+    "locale/pt-BR.yml",
+    "locale/pt-PT.yml",
     "locale/sk.yml",
     "locale/sv.yml",
+    "locale/zh-CN.yml",
     "spec/devise-i18n_spec.rb",
     "spec/spec_helper.rb"
   ]
