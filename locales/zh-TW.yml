@@ -1,0 +1,43 @@
+zh-TW:
+  devise:
+    confirmations:
+      confirmed: 您的帳號已經過確認，現在您已成功登入。
+      send_instructions: 您將在幾分鐘後收到一封電子郵件，內有確認帳號的步驟說明。
+    failure:
+      already_authenticated: 你已經登入。
+      inactive: 您的帳號尚未被啟用。
+      invalid: Email 或密碼是無效的。
+      invalid_token: 無效的認證代碼。
+      locked: 您的帳號已被鎖定。
+      timeout: 您的登入時效過期，請重新登入，才能繼續。
+      unauthenticated: 您需要先註冊，登入後才能繼續。
+      unconfirmed: 您的帳號需需要經過確認後，才能繼續。
+    mailer:
+      confirmation_instructions:
+        subject: 確認步驟
+      reset_password_instructions:
+        subject: 重設密碼步驟
+      unlock_instructions:
+        subject: 解鎖步驟
+    passwords:
+      send_instructions: 您將在幾分鐘後收到一封電子郵件，內有重新設定密碼的步驟說明。
+      updated: 您的密碼已被修改，而您現在已重新登入。
+    registrations:
+      destroyed: 再會！您的帳號已被取消。有緣再會。
+      inactive_signed_up: 您已經成功註冊，但暫時你不能登入，因為%{reason}。
+      signed_up: 您已經成功註冊，確認信件已送至您的 Email 信箱。
+      updated: 您已經成功的更新帳號資訊。
+    sessions:
+      signed_in: 成功登入了。
+      signed_out: 成功登出了。
+    unlocks:
+      send_instructions: 您將在幾分鐘後收到一封電子郵件，內有將帳號解除鎖定的步驟說明。
+      unlocked: 您的帳號已被解鎖，現在您已成功登入。
+  errors:
+    messages:
+      already_confirmed: 已被確認過了
+      not_found: 沒有找到
+      not_locked: 被鎖定了
+      not_saved:
+        one: 有一個錯誤導致%{resource}不能被儲存：
+        other: 有 %{count} 個錯誤導致%{resource}不能被儲存：
