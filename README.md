@@ -297,8 +297,14 @@ The following translations are missing - if you can, contribute!
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
+
+## You might also like:
+
+* [rails-i18n](https://github.com/svenfuchs/rails-i18n)
+* [will-paginate-i18n](https://github.com/tigrish/will-paginate-i18n)
+* [Locale](http://www.localeapp.com)
+
 ## Copyright
 
 Copyright (c) 2011 Christopher Dell. See LICENSE.txt for
 further details.
-
