@@ -1,0 +1,69 @@
+de:
+  devise:
+    confirmations:
+      confirmed: Vielen Dank für Ihre Registrierung. Sie sind jetzt angemeldet.
+      send_instructions: Sie erhalten in wenigen Minuten eine E-Mail, mir der Sie
+        Ihre Registrierung bestätigen können.
+      send_paranoid_instructions: Falls Ihre E-Mail-Adresse in unserer Datenbank existiert
+        erhalten Sie in wenigen Minuten eine E-Mail mit der die Sie Ihre Registrierung
+        bestätigen können.
+    failure:
+      already_authenticated: Sie sind bereits angemeldet.
+      inactive: Ihr Account ist nicht aktiv.
+      invalid: Ungültige Anmeldedaten.
+      invalid_token: Der Anmelde-Token ist ungültig.
+      locked: Ihr Account ist gesperrt.
+      timeout: Ihre Sitzung ist abgelaufen, bitte melden Sie sich erneut an.
+      unauthenticated: Sie müssen sich anmelden oder registrieren, bevor Sie fortfahren
+        können.
+      unconfirmed: Sie müssen Ihren Account bestätigen, bevor Sie fortfahren können.
+    mailer:
+      confirmation_instructions:
+        subject: Anleitung zur Bestätigung Ihres Accounts
+      reset_password_instructions:
+        subject: Anleitung um Ihr Passwort zurückzusetzen
+      unlock_instructions:
+        subject: Anleitung um Ihren Account freizuschalten
+    omniauth_callbacks:
+      failure: Sie konnten nicht Ihrem %{kind}-Account angemeldet werden, weil "%{reason}".
+      success: Die haben sich erfolgreich mit Ihrem %{kind}-Account angemeldet.
+    passwords:
+      send_instructions: Sie erhalten in wenigen Minuten eine E-Mail mit der Anleitung,
+        wie Sie ihr Passwort zurücksetzen können.
+      send_paranoid_instructions: Falls Ihre E-Mail-Adresse in unserer Datenbank existiert
+        erhalten Sie in wenigen Minuten eine E-Mail mit der Anleitung, wie Sie Ihr
+        Passwort zurücksetzen können.
+      updated: Ihr Passwort wurde geändert. Sie sind jetzt angemeldet.
+      updated_not_active: Ihr Passwort wurde geändert.
+    registrations:
+      destroyed: Ihr Account wurde gelöscht.
+      inactive_signed_up: Sie haben sich erfolgreich registriert. Wir konnten Sie
+        noch nicht anmelden, da Ihr Account %{reason} ist.
+      reasons:
+        inactive: inaktiv
+        locked: gesperrt
+        unconfirmed: nicht bestätigt
+      signed_up: Sie haben sich erfolgreich registriert.
+      update_needs_confirmation: Ihre Daten wurden aktualisiert, aber Sie müssen Ihre
+        neue E-Mail-Adresse bestätigen. Sie erhalten in wenigen Minuten eine E-Mail,
+        mir der Sie die Änderung Ihrer E-Mail-Adresse abschließen können.
+      updated: Ihre Daten wurden aktualisiert.
+    sessions:
+      signed_in: Erfolgreich angemeldet.
+      signed_out: Erfolgreich abgemeldet.
+    unlocks:
+      send_instructions: Sie erhalten in wenigen Minuten eine E-Mail mit der Anleitung,
+        wie Sie Ihren Account entsperren können.
+      send_paranoid_instructions: Falls Ihre E-Mail-Adresse in unserer Datenbank existiert
+        erhalten Sie in wenigen Minuten eine E-Mail mit der Anleitung, wie Sie Ihren
+        Account entsperren können.
+      unlocked: Ihr Account wurde entsperrt. Sie sind jetzt angemeldet.
+  errors:
+    messages:
+      already_confirmed: wurde bereits bestätigt
+      expired: ist abgelaufen, bitte neu anfordern
+      not_found: nicht gefunden
+      not_locked: ist nicht gesperrt
+      not_saved:
+        one: ! 'Konnte %{resource} nicht speichern: ein Fehler.'
+        other: ! 'Konnte %{resource} nicht speichern: %{count} Fehler.'
