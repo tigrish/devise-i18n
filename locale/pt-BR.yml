@@ -1,0 +1,51 @@
+pt-BR:
+  devise:
+    confirmations:
+      confirmed: A sua conta foi confirmada com sucesso. Você está autenticado.
+      send_instructions: Dentro de minutos, você receberá um email com as instruções
+        de confirmação da sua conta.
+    failure:
+      inactive: A sua conta ainda não foi ativada.
+      invalid: Email ou senha inválidos.
+      invalid_token: O token de autenticação não é válido.
+      locked: A sua conta está bloqueada.
+      timeout: A sua sessão expirou, por favor, faça login novamente para continuar.
+      unauthenticated: Para continuar, faça login ou registre-se.
+      unconfirmed: Antes de continuar, confirme a sua conta.
+    mailer:
+      confirmation_instructions:
+        subject: Instruções de confirmação
+      reset_password_instructions:
+        subject: Instruções de reinicialização de senha
+      unlock_instructions:
+        subject: Instruções de desbloqueio
+    omniauth_callbacks:
+      failure: Não foi possível autorizar de uma conta de %{kind} porque "%{reason}".
+      success: Autorizado com sucesso de uma conta de %{kind}.
+    passwords:
+      send_instructions: Dentro de minutos, você receberá um email com as instruções
+        de reinicialização da sua senha.
+      updated: A sua senha foi alterada com sucesso. Você está autenticado.
+    registrations:
+      destroyed: Adeus! A sua conta foi cancelada com sucesso. Esperamos vê-lo novamente
+        em breve.
+      inactive_signed_up: A sua conta foi criada com sucesso. No entanto, não foi
+        possível fazer login, pois ela está %{reason}.
+      signed_up: Login efetuado com sucesso. Se não foi autorizado, a confirmação
+        será enviada por email.
+      updated: A sua conta foi atualizada com sucesso.
+    sessions:
+      signed_in: Login efetuado com sucesso.
+      signed_out: Logout efetuado com sucesso.
+    unlocks:
+      send_instructions: Dentro de minutos, você receberá um email com instruções
+        de desbloqueio da sua conta.
+      unlocked: A sua conta foi desbloqueada com sucesso. Você está autenticado.
+  errors:
+    messages:
+      already_confirmed: já foi confirmado
+      not_found: não encontrado
+      not_locked: não foi bloqueado
+      not_saved:
+        one: ! 'Não foi possível salvar %{resource}: 1 erro'
+        other: ! 'Não foi possível salvar %{resource}: %{count} erros.'

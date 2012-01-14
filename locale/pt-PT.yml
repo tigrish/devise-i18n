@@ -1,0 +1,59 @@
+pt-PT:
+  devise:
+    confirmations:
+      confirmed: A sua conta foi confirmada com sucesso. Agora está autenticado.
+      send_instructions: Dentro de alguns minutos irá receber um email com instruções
+        para confirmar  sua conta.
+      send_paranoid_instructions: Se o seu e-mail existir na nossa base de dados,
+        irá receber dentro de alguns minutos um email com instruções para confirmar
+        a sua conta.
+    failure:
+      already_authenticated: Já se encontra autenticado.
+      inactive: A sua conta ainda não foi activada.
+      invalid: O endereço de correio electrónico ou a palavra-passe são inválidos.
+      invalid_token: O "token" de autenticação é inválido.
+      locked: A sua conta está bloqueada.
+      timeout: A sua sessão expirou, por favor autentique-se novamente para continuar.
+      unauthenticated: Antes de continuar tem de se autenticar ou efectuar um registo.
+      unconfirmed: Tem de confirmar a sua conta antes de continuar.
+    mailer:
+      confirmation_instructions:
+        subject: Instruções de confirmação
+      reset_password_instructions:
+        subject: Instruções de recuperação de palavra-passe
+      unlock_instructions:
+        subject: Instruções de desbloqueio
+    omniauth_callbacks:
+      failure: Could not authorize you from %{kind} because "%{reason}".
+      success: Successfully authorized from %{kind} account.
+    passwords:
+      send_instructions: Dentro de alguns minutos irá receber um email com instruções
+        de reinicialização da palavra-passe.
+      send_paranoid_instructions: Se o seu e-mail existir na nossa base de dados,
+        irá receber dentro de alguns minutos um e-mail com instruções para recuperar
+        a sua senha.
+      updated: A sua palavra-passe foi alterada com sucesso. Agora está autenticado.
+    registrations:
+      destroyed: A sua conta foi cancelada com sucesso.
+      inactive_signed_up: A autenticação foi efectuada com sucesso. No entanto, não
+        foi possível autorizá-lo porque a sua conta está %{reason}.
+      signed_up: Bemvindo! A autenticação foi efectuada com sucesso.
+      updated: A sua conta foi actualizada com sucesso.
+    sessions:
+      signed_in: Autenticação efectuada com sucesso.
+      signed_out: Saíu da sessão com sucesso.
+    unlocks:
+      send_instructions: Dentro de alguns minutos irá receber um email com as instruções
+        para desbloquear a sua conta.
+      send_paranoid_instructions: Se a sua conta existir, irá receber dentro de alguns
+        minutos um email com instruções para a desbloquear.
+      unlocked: A sua conta foi desbloqueada com sucesso. Agora está autenticado.
+  errors:
+    messages:
+      already_confirmed: já foi confirmado, por favor tente efectuar a autenticação
+      expired: expirou, por favor solicite um novo
+      not_found: não foi encontrado
+      not_locked: não foi bloqueado
+      not_saved:
+        one: ! '1 erro impediu %{resource} de ser gravado:'
+        other: ! '%{count} erros impediram %{resource} de ser gravado:'
