@@ -4,6 +4,8 @@ cs:
       confirmed: Váš účet byl úspěšně potvrzen. Nyní jste přihlášen(a).
       send_instructions: Za několik minut obdržíte email s instrukcemi k potvrzení
         vašeho účtu.
+      send_paranoid_instructions: Pokud váš e-mail existuje v naší databázi, za několik
+      minut obdržíte e-mail s pokyny o tom, jak potvrdit svůj účet.
     failure:
       already_authenticated: Přihlášení již proběhlo.
       inactive: Váš účet ještě nebyl aktivován.
@@ -26,12 +28,22 @@ cs:
     passwords:
       send_instructions: Za několik minut obdržíte email s instrukcemi k nastavení
         nového hesla.
+      send_paranoid_instructions: Pokud váš e-mail existuje v naší databázi, za několik
+        minut obdržíte e-mail s instrukcemi k nastavení nového hesla.
       updated: Vaše heslo bylo úspěšně změněno. Nyní jste přihlášen(a).
+      updated_not_active: Vaše heslo bylo úspěšně změněno.
     registrations:
       destroyed: Nashle! Váš účet byl úspěšně zrušen. Doufáme, že se brzy opět uvidíme.
       inactive_signed_up: ! 'Registrace byla úspěšná. Nicméně, nemůžete se přihlásit,
         protože: "%{reason}".'
+      reasons:
+        inactive: je neaktivní
+        locked: je zamčený
+        unconfirmed: je nepotvrzený
       signed_up: Vítejte! Registrace byla úspěšná.
+      update_needs_confirmation: Úspěšně jste aktualizoval svů účet, ale ještě musíte
+        ověřit svou novou e-mailovou adresu. Zkontrolujte prosím svou schránku a klikněte
+        na odkaz pro dokončení ověření vaši nové e-mailové adresy.
       updated: Váš účet byl úspěšně aktualizován.
     sessions:
       signed_in: Přihlášení úspěšné.
@@ -39,10 +51,13 @@ cs:
     unlocks:
       send_instructions: Za několik minut obdržíte email s instrukcemi, jak odemknout
         svůj účet.
+      send_paranoid_instructions: Pokud váš e-mail existuje v naší databázi, za několik
+        minut obdržíte e-mail s instrukcemi pro odemknutí účtu.
       unlocked: Váš účet byl úspěšně odemknut. Nyní jste přihlášen(a).
   errors:
     messages:
       already_confirmed: byl již potvrzen, prosím, zkuste se přihlásit
+      expired: vypršela, prosím, požádejte o nové
       not_found: nenalezen
       not_locked: nebyl uzamčen
       not_saved:
