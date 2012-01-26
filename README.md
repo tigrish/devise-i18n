@@ -14,18 +14,6 @@ The following translations are missing - if you can, contribute!
 
 - *MISSING* devise.registrations.update_needs_confirmation
 
-### locales/cs.yml
-
-- *MISSING* devise.confirmations.send_paranoid_instructions
-- *MISSING* devise.passwords.send_paranoid_instructions
-- *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
-- *MISSING* devise.registrations.update_needs_confirmation
-- *MISSING* devise.unlocks.send_paranoid_instructions
-- *MISSING* errors.messages.expired
-
 ### locales/da.yml
 
 - *MISSING* devise.registrations.update_needs_confirmation
