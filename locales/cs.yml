@@ -5,9 +5,10 @@ cs:
       send_instructions: Za několik minut obdržíte email s instrukcemi k potvrzení
         vašeho účtu.
       send_paranoid_instructions: Pokud váš e-mail existuje v naší databázi, za několik
-      minut obdržíte e-mail s pokyny o tom, jak potvrdit svůj účet.
+        minut obdržíte e-mail s pokyny o tom, jak potvrdit svůj účet.
     failure:
-      already_authenticated: Přihlášení již proběhlo.
+      already_authenticated: ! 'Přihlášení již proběhlo. inactive: Váš účet ještě
+        nebyl aktivován.'
       inactive: Váš účet ještě nebyl aktivován.
       invalid: Neplatná identita nebo heslo.
       invalid_token: Neplatný ověřovací symbol.
