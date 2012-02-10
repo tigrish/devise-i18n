@@ -6,6 +6,7 @@ hu:
       send_paranoid_instructions: Ha az email cím már létezik az adatbázisban, egy
         emailt küldtünk a további teendőkkel a fiók megerősítéséhez.
     failure:
+      already_authenticated: Már belépett.
       inactive: A fiók még nincs aktiválva.
       invalid: Hibás email cím vagy jelszó.
       invalid_token: Hibás bejelentkező token.
@@ -21,18 +22,24 @@ hu:
       unlock_instructions:
         subject: Fiók zárolásának megszüntetése
     omniauth_callbacks:
-      failure: ! 'Nem sikerült azonosítani %{kind} fiókkal, az ok: "%{reason}".'
+      failure: Nem sikerült azonosítani %{kind} fiókkal, az ok: "%{reason}".
       success: Sikeres azonosítás %{kind} fiókkal.
     passwords:
       send_instructions: A megadott címre egy email érkezik hamarosan a további teendőkről.
       send_paranoid_instructions: Ha az email cím már létezik az adatbázisban, egy
         jelszó-visszaállító emailt küldtünk a megadott címre.
       updated: A jelszó megváltozott. Bejelentkezve a felhasználói fiókba
+      updated_not_active: A jelszó megváltozott
     registrations:
       destroyed: Felhasználói fiók törölve. Reméljük, még visszatér hozzánk.
       inactive_signed_up: Sikeres regisztráció, azonban még a bejelentkezés nem lehetséges,
         mert a felhasználói fiók %{reason}.
+      reasons:
+        inactive: még nincs aktiválva
+        locked: zárolt
+        unconfirmed: még nincs megerősítve
       signed_up: Sikeres regisztráció.
+      update_needs_confirmation: A fiók módosítása sikeres, de meg kell erősíteni az e-mail címet. Nézze meg az e-mailjeit, és kattintson a küldött linkre hogy megerősítse az e-mail cím létezését.
       updated: Sikeres fiók módosítás.
     sessions:
       signed_in: Sikeres bejelentkezés.
@@ -51,5 +58,5 @@ hu:
       not_found: nem található
       not_locked: nincs zárolva
       not_saved:
-        one: ! '1 hiba miatt %{resource} mentése nem lehetséges:'
-        other: ! '%{count} hiba miatt %{resource} mentése nem lehetésges:'
+        one: 1 hiba miatt %{resource} mentése nem lehetséges:
+        other: %{count} hiba miatt %{resource} mentése nem lehetsésges:
