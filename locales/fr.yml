@@ -1,21 +1,21 @@
 fr:
   devise:
     confirmations:
-      confirmed: Votre compte a été confirmé avec succès, vous êtes maintenant connectés
-      send_instructions: Vous allez recevoir un email comportant des instructions
-        sur la façon de confirmer votre compte sous quelques minutes.
-      send_paranoid_instructions: Si votre e-mail existe sur notre base de données,
-        vous recevrez sous quelques minutes un email avec des instructions sur la
+      confirmed: Votre compte a été confirmé avec succès. Vous êtes désormais connecté.
+      send_instructions: Vous allez recevoir sous quelques minutes un email comportant
+        des instructions sur la façon de confirmer votre compte.
+      send_paranoid_instructions: Si votre email existe sur notre base de données,
+        vous recevrez sous quelques minutes un message avec des instructions sur la
         façon de confirmer votre compte.
     failure:
       already_authenticated: Vous êtes déjà connecté.
       inactive: Votre compte n'est pas encore activé.
-      invalid: Courriel ou mot de passe incorrect.
+      invalid: Email ou mot de passe incorrect.
       invalid_token: Jeton d'authentification incorrect.
       locked: Votre compte est verrouillé.
-      timeout: Votre session est expirée, veuillez vous reconnecter pour continuer.
-      unauthenticated: Vous devez vous connecter ou vous inscrire pour continuer.
-      unconfirmed: Vous devez confirmer votre compte pour continuer.
+      timeout: Votre session est périmée, veuillez vous reconnecter pour continuer.
+      unauthenticated: Vous devez vous connecter ou vous enregistrer pour continuer.
+      unconfirmed: Vous devez confirmer votre compte par email.
     mailer:
       confirmation_instructions:
         subject: Instructions de confirmation
@@ -26,33 +26,39 @@ fr:
     omniauth_callbacks:
       failure: ! 'Nous n''avons pas pu vous authoriser à %{kind} pour la raison suivante:
         ''%{reason}''.'
-      success: Authorisé avec succès avec votre compte %{kind} .
+      success: Authorisé avec succès par votre compte %{kind} .
     passwords:
-      send_instructions: Vous allez recevoir contenant les instructions de réinitialisation
-        de mot de passe dans quelques minutes
+      send_instructions: Vous allez recevoir sous quelques minutes un email vous indiquant
+        comment réinitialiser votre mot de passe.
       send_paranoid_instructions: Si votre email existe dans notre base de données,
         vous recevrez un lien vous permettant de récupérer votre mot de passe.
-      updated: Votre mot de passe a été modifié avec succès, vous êtes maintenant
-        connectés
+      updated: Votre mot de passe a été modifié avec succès. Vous êtes maintenant
+        connecté.
       updated_not_active: Votre mot de pass a été modifié avec succès.
     registrations:
       destroyed: Au revoir! Votre compte a été annulé avec succès. Nous espérons vous
         revoir bientôt.
-      signed_up: Bienvenue, vous êtes connectés avec succès
+      signed_up: Bienvenue! Vous vous êtes enregistré avec succès
+      signed_up_but_inactive: Vous vous êtes enregistré avec succès. Cependant, nous
+        n'avons pas pu vous connecter car votre compte n'a pas encore été activé.
+      signed_up_but_locked: Vous vous êtes enregistré avec succès. Cependant, nous
+        n'avons pas pu vous connecter car votre compte est verrouillé.
+      signed_up_but_unconfirmed: Un message avec un lien de confirmation vous a été
+        envoyé par mail. Veuillez suivre ce lien pour activer votre compte.
       update_needs_confirmation: Vous avez modifié votre compte avec succès, mais
         nous devons vérifier votre nouvelle adresse email. Veuillez consulter vos
         emails et cliquer sur le lien de confirmation pour finalizer votre nouvelle
         adresse.
       updated: Votre compte a été modifié avec succès.
     sessions:
-      signed_in: Connecté.
-      signed_out: Déconnecté.
+      signed_in: Connecté avec succès.
+      signed_out: Déconnecté avec succès.
     unlocks:
-      send_instructions: Vous allez recevoir contenant les instructions nécessaires
-        au débloquage de votre compte dans quelques minutes
+      send_instructions: Vous allez recevoir un email sous quelques minutes contenant
+        les instructions nécessaires au débloquage de votre compte.
       send_paranoid_instructions: Si votre compte existe, vous recevrez un email indiquant
         comment le déverrouiller sous quelques minutes.
-      unlocked: Votre compte a été débloqué avec succès, vous êtes maintenant connectés.
+      unlocked: Votre compte a été débloqué avec succès. Veuillez vous connecter.
   errors:
     messages:
       already_confirmed: a déjà été confirmé(e)
@@ -60,5 +66,5 @@ fr:
       not_found: n'a pas été trouvé(e)
       not_locked: n'était pas verrouillé(e)
       not_saved:
-        one: ! '1 erreur a empéché ce %{resource} d''être sauvegardé:'
+        one: ! '%{count} erreur a empéché ce %{resource} d''être sauvegardé:'
         other: ! '%{count} erreurs ont empéché ce %{resource} d''être sauvegardé:'
