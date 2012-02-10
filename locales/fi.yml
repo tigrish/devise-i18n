@@ -28,8 +28,6 @@ fi:
     registrations:
       destroyed: Näkemiin! Tunnuksesi on nyt poistettu. Toivottavasti näemme sinut
         vielä uudelleen.
-      inactive_signed_up: Rekisteröintisi onnistui. Emme kuitenkaan voineet kirjata
-        sinua sisään koska tunnuksesi on %{reason}.
       signed_up: Tervetuloa! Rekisteröintisi onnistui.
       updated: Tunnuksesi on päivitetty.
     sessions:

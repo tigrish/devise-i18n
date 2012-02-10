@@ -35,12 +35,6 @@ cs:
       updated_not_active: Vaše heslo bylo úspěšně změněno.
     registrations:
       destroyed: Nashle! Váš účet byl úspěšně zrušen. Doufáme, že se brzy opět uvidíme.
-      inactive_signed_up: ! 'Registrace byla úspěšná. Nicméně, nemůžete se přihlásit,
-        protože: "%{reason}".'
-      reasons:
-        inactive: je neaktivní
-        locked: je zamčený
-        unconfirmed: je nepotvrzený
       signed_up: Vítejte! Registrace byla úspěšná.
       update_needs_confirmation: Úspěšně jste aktualizoval svů účet, ale ještě musíte
         ověřit svou novou e-mailovou adresu. Zkontrolujte prosím svou schránku a klikněte

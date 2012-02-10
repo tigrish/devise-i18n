@@ -35,12 +35,6 @@ da:
       updated_not_active: Dit kodeord er ændret.
     registrations:
       destroyed: Farvel. Din konto er nu lukket.
-      inactive_signed_up: Din registrering er godkendt men vi kunne ikke logge dig
-        ind da din konto er %{reason}.
-      reasons:
-        inactive: deaktiveret
-        locked: låst
-        unconfirmed: ikke-registreret
       signed_up: Din registrering er godkendt.
       updated: Din profil er opdateret.
     sessions:

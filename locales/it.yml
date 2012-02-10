@@ -35,12 +35,6 @@ it:
     registrations:
       destroyed: Arrivederci! L'account è stato cancellato. Speriamo di rivederci
         presto.
-      inactive_signed_up: Ti sei registrato correttamente. Tuttavia non puoi effettuare
-        l'accesso perchè il tuo account è %{reason}.
-      reasons:
-        inactive: disattivato
-        locked: bloccato
-        unconfirmed: da confermare
       signed_up: Iscrizione correttamente eseguita. Se abilitata, una conferma è stata
         inviata al tuo indirizzo email.
       updated: Il tuo account è stato aggiornato.

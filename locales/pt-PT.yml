@@ -35,8 +35,6 @@ pt-PT:
       updated: A sua palavra-passe foi alterada com sucesso. Agora está autenticado.
     registrations:
       destroyed: A sua conta foi cancelada com sucesso.
-      inactive_signed_up: A autenticação foi efectuada com sucesso. No entanto, não
-        foi possível autorizá-lo porque a sua conta está %{reason}.
       signed_up: Bemvindo! A autenticação foi efectuada com sucesso.
       updated: A sua conta foi actualizada com sucesso.
     sessions:

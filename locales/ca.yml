@@ -38,12 +38,6 @@ ca:
     registrations:
       destroyed: Adéu! El teu compte ha estat cancel·lat correctament. Esperem tornar-te
         a veure!
-      inactive_signed_up: Has estat registrat correctament. Tanmateix, no hem pogut
-        processar el teu compte perquẻ %{reason}.
-      reasons:
-        inactive: inactiu
-        locked: bloquejat
-        unconfirmed: no confirmat
       signed_up: Has estat registrat correctament.
       updated: Has actualitzat el teu compte correctament.
     sessions:

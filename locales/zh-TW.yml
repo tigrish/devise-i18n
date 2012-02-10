@@ -24,7 +24,6 @@ zh-TW:
       updated: 您的密碼已被修改，而您現在已重新登入。
     registrations:
       destroyed: 再會！您的帳號已被取消。有緣再會。
-      inactive_signed_up: 您已經成功註冊，但暫時你不能登入，因為%{reason}。
       signed_up: 您已經成功註冊，確認信件已送至您的 Email 信箱。
       updated: 您已經成功的更新帳號資訊。
     sessions:

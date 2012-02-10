@@ -28,8 +28,6 @@ nb:
       updated: Ditt passord er endret og du er nå innlogget.
     registrations:
       destroyed: Farvel. Din konto er nå slettet.
-      inactive_signed_up: Din registrering er vellykket, men vi kunne ikke logge deg
-        inn på grunn av at din konto er %{reason}.
       signed_up: Velkommen! Din registrering er vellykket.
       updated: Din profil er oppdatert.
     sessions:

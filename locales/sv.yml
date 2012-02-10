@@ -34,12 +34,6 @@ sv:
     registrations:
       destroyed: Hej då! Ditt konto har avregistrerats. Vi hoppas få se dig snart
         igen.
-      inactive_signed_up: Ett nytt konto har skapats. Du kunde inte logga in, för
-        ditt konto är %{reason}.
-      reasons:
-        inactive: inaktivt
-        locked: låst
-        unconfirmed: inte aktiverat
       signed_up: Ett nytt konto har skapats. En bekräftelse har skickats till din
         epost.
       updated: Ditt konto har uppdaterats.

@@ -38,12 +38,6 @@ fr:
     registrations:
       destroyed: Au revoir! Votre compte a été annulé avec succès. Nous espérons vous
         revoir bientôt.
-      inactive_signed_up: Vous vous êtes connectés avec succès. Cependant, nous n'avons
-        pas pu vous identifier car votre compte est %{reason}.
-      reasons:
-        inactive: inactif
-        locked: verrouillé
-        unconfirmed: non-confirmé
       signed_up: Bienvenue, vous êtes connectés avec succès
       update_needs_confirmation: Vous avez modifié votre compte avec succès, mais
         nous devons vérifier votre nouvelle adresse email. Veuillez consulter vos

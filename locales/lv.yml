@@ -34,12 +34,6 @@ lv:
     registrations:
       destroyed: Uz redzēšanos! Jūsu lietotājs ir veiksmīgi dzēsts. Ceram Jūs atkal
         redzēt drīzumā.
-      inactive_signed_up: Jūs esiet veiksmīgi reģistrējies. Tomēr Jūs neesiet pieslēdzies,
-        jo jūsu lietotājs ir %{reason}.
-      reasons:
-        inactive: neaktīvs
-        locked: nobloķēts
-        unconfirmed: neapstiprināts
       signed_up: Laipni lūgti! Jūs esiet veiksmīgi reģistrējies.
       updated: Jūsu lietotājs ir veiksmīgi labots.
     sessions:

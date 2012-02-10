@@ -36,12 +36,6 @@ es:
       updated_not_active: Tu contraseña fue cambiada.
     registrations:
       destroyed: Fue grato tenerte con nosotros. Tu cuenta fue cancelada.
-      inactive_signed_up: Tu cuenta fue creada. Sin embargo, no podemos iniciar tu
-        sesión porque tu cuenta está %{reason}.
-      reasons:
-        inactive: inactiva
-        locked: bloqueada
-        unconfirmed: sin confirmar
       signed_up: Bienvenido. Tu cuenta fue creada.
       updated: Tu cuenta fue actualizada.
     sessions:

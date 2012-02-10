@@ -30,8 +30,6 @@ hr:
     registrations:
       destroyed: Pozdrav! Vaš račun je uspješno obrisan. Nadamo se da ćete se brzo
         vratiti.
-      inactive_signed_up: Uspješno ste se registrirali. Nažalost nismo Vas u mogućnosti
-        prijaviti zbog %{reason}.
       signed_up: Dobrodošli! Uspješno ste se registrirali.
       updated: Uspješno ste izmjenili Vaš račun.
     sessions:

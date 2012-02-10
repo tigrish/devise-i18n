@@ -36,12 +36,6 @@ sk:
     registrations:
       destroyed: Dovidenia! Váš účet bol úspešne zrušený. Dúfame, že sa čoskoro opäť
         uvidíme.
-      inactive_signed_up: Registrácia bola úspešná. Avšak, nemôžeme vás prihlásiť,
-        pretože váš účet je %{reason}.
-      reasons:
-        inactive: neaktívny
-        locked: uzamknutý
-        unconfirmed: neoverený
       signed_up: Vitajte! Registrácia bola úspešná.
       updated: Váš účet bol úspešne aktualizovaný.
     sessions:

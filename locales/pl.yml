@@ -34,12 +34,6 @@ pl:
       updated_not_active: Hasło zmienione poprawnie.
     registrations:
       destroyed: Konto zostało usunięte.
-      inactive_signed_up: Rejestracja zakończyła się pomyślnie. Nie zostałeś jednak
-        zalogowany ponieważ konto jest %{reason}.
-      reasons:
-        inactive: nieaktywne
-        locked: zablokowane
-        unconfirmed: niepotwierdzone
       signed_up: Witaj! Rejestracja zakończyła się sukcesem.
       updated: Konto zostało pomyślnie zaktualizowane.
     sessions:

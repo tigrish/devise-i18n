@@ -37,12 +37,6 @@ de:
       updated_not_active: Ihr Passwort wurde geändert.
     registrations:
       destroyed: Ihr Account wurde gelöscht.
-      inactive_signed_up: Sie haben sich erfolgreich registriert. Wir konnten Sie
-        noch nicht anmelden, da Ihr Account %{reason} ist.
-      reasons:
-        inactive: inaktiv
-        locked: gesperrt
-        unconfirmed: nicht bestätigt
       signed_up: Sie haben sich erfolgreich registriert.
       update_needs_confirmation: Ihre Daten wurden aktualisiert, aber Sie müssen Ihre
         neue E-Mail-Adresse bestätigen. Sie erhalten in wenigen Minuten eine E-Mail,
