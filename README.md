@@ -2,9 +2,11 @@
 
 [![Build Status](https://secure.travis-ci.org/tigrish/devise-i18n.png)](http://travis-ci.org/tigrish/devise-i18n)
 
-Translations for [Devise](https://github.com/plataformatec/devise) pulled from various sources.
+Translations for **[Devise v2.+](https://github.com/plataformatec/devise)** pulled from various sources.
 
-These translations can be included automatically using the [Locale](http://www.localeapp.com) localization app.
+See the **[devise-1.5 branch](https://github.com/tigrish/devise-i18n/tree/devise-1.5)** for older translations.
+
+These translations can be included automatically using the **[Locale](http://www.localeapp.com)** localization app. Translation files formatted by [Locale](http://www.localeapp.com) are the preferred format.
 
 ----
 
@@ -12,14 +14,35 @@ The following translations are missing - if you can, contribute!
 
 ### locales/ca.yml
 
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
+
+### locales/cs.yml
+
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 
 ### locales/da.yml
 
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
+
+### locales/de.yml
+
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 
 ### locales/es.yml
 
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 
 ### locales/fa.yml
@@ -27,9 +50,9 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.confirmations.send_paranoid_instructions
 - *MISSING* devise.passwords.send_paranoid_instructions
 - *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
 - *MISSING* errors.messages.expired
@@ -40,9 +63,9 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.failure.already_authenticated
 - *MISSING* devise.passwords.send_paranoid_instructions
 - *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
 - *MISSING* errors.messages.expired
@@ -55,10 +78,9 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.omniauth_callbacks.success
 - *MISSING* devise.passwords.send_paranoid_instructions
 - *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.inactive_signed_up
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
 - *MISSING* errors.messages.already_confirmed
@@ -72,11 +94,17 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.confirmations.send_paranoid_instructions
 - *MISSING* devise.passwords.send_paranoid_instructions
 - *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
+
+### locales/hu.yml
+
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 
 ### locales/id.yml
 
@@ -86,10 +114,9 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.omniauth_callbacks.success
 - *MISSING* devise.passwords.send_paranoid_instructions
 - *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.inactive_signed_up
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
 - *MISSING* errors.messages.expired
@@ -103,10 +130,9 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.omniauth_callbacks.success
 - *MISSING* devise.passwords.send_paranoid_instructions
 - *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.inactive_signed_up
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
 - *MISSING* errors.messages.already_confirmed
@@ -117,6 +143,9 @@ The following translations are missing - if you can, contribute!
 ### locales/it.yml
 
 - *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 
 ### locales/ja.yml
@@ -127,10 +156,9 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.omniauth_callbacks.success
 - *MISSING* devise.passwords.send_paranoid_instructions
 - *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.inactive_signed_up
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
 - *MISSING* errors.messages.expired
@@ -144,10 +172,9 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.omniauth_callbacks.success
 - *MISSING* devise.passwords.send_paranoid_instructions
 - *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.inactive_signed_up
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
 - *MISSING* errors.messages.already_confirmed
@@ -159,6 +186,9 @@ The following translations are missing - if you can, contribute!
 ### locales/lv.yml
 
 - *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 
 ### locales/my.yml
@@ -169,10 +199,9 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.omniauth_callbacks.success
 - *MISSING* devise.passwords.send_paranoid_instructions
 - *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.inactive_signed_up
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
 - *MISSING* errors.messages.expired
@@ -184,9 +213,9 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.failure.already_authenticated
 - *MISSING* devise.passwords.send_paranoid_instructions
 - *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
 - *MISSING* errors.messages.expired
@@ -199,10 +228,9 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.omniauth_callbacks.success
 - *MISSING* devise.passwords.send_paranoid_instructions
 - *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.inactive_signed_up
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
 - *MISSING* errors.messages.expired
@@ -210,6 +238,9 @@ The following translations are missing - if you can, contribute!
 
 ### locales/pl.yml
 
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 
 ### locales/pt-BR.yml
@@ -218,9 +249,9 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.failure.already_authenticated
 - *MISSING* devise.passwords.send_paranoid_instructions
 - *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
 - *MISSING* errors.messages.expired
@@ -228,26 +259,38 @@ The following translations are missing - if you can, contribute!
 ### locales/pt-PT.yml
 
 - *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 
 ### locales/ru.yml
 
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 
 ### locales/sk.yml
 
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 
 ### locales/sv.yml
 
 - *MISSING* devise.passwords.updated_not_active
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 
 ### locales/zh-CN.yml
 
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 
 ### locales/zh-TW.yml
@@ -257,9 +300,9 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.omniauth_callbacks.success
 - *MISSING* devise.passwords.send_paranoid_instructions
 - *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
+- *MISSING* devise.registrations.signed_up_but_inactive
+- *MISSING* devise.registrations.signed_up_but_locked
+- *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
 - *MISSING* errors.messages.expired
