@@ -22,7 +22,7 @@ hu:
       unlock_instructions:
         subject: Fiók zárolásának megszüntetése
     omniauth_callbacks:
-      failure: "Nem sikerült azonosítani %{kind} fiókkal, az ok: \"%{reason}\"."
+      failure: ! 'Nem sikerült azonosítani %{kind} fiókkal, az ok: "%{reason}".'
       success: Sikeres azonosítás %{kind} fiókkal.
     passwords:
       send_instructions: A megadott címre egy email érkezik hamarosan a további teendőkről.
@@ -39,7 +39,9 @@ hu:
         locked: zárolt
         unconfirmed: még nincs megerősítve
       signed_up: Sikeres regisztráció.
-      update_needs_confirmation: A fiók módosítása sikeres, de meg kell erősíteni az e-mail címet. Nézze meg az e-mailjeit, és kattintson a küldött linkre hogy megerősítse az e-mail cím létezését.
+      update_needs_confirmation: A fiók módosítása sikeres, de meg kell erősíteni
+        az e-mail címet. Nézze meg az e-mailjeit, és kattintson a küldött linkre hogy
+        megerősítse az e-mail cím létezését.
       updated: Sikeres fiók módosítás.
     sessions:
       signed_in: Sikeres bejelentkezés.
@@ -58,5 +60,5 @@ hu:
       not_found: nem található
       not_locked: nincs zárolva
       not_saved:
-        one: "1 hiba miatt %{resource} mentése nem lehetséges:"
-        other: "%{count} hiba miatt %{resource} mentése nem lehetsésges:"
+        one: ! '1 hiba miatt %{resource} mentése nem lehetséges:'
+        other: ! '%{count} hiba miatt %{resource} mentése nem lehetsésges:'
