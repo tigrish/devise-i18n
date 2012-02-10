@@ -78,15 +78,6 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
 
-### locales/hu.yml
-
-- *MISSING* devise.failure.already_authenticated
-- *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.reasons.inactive
-- *MISSING* devise.registrations.reasons.locked
-- *MISSING* devise.registrations.reasons.unconfirmed
-- *MISSING* devise.registrations.update_needs_confirmation
-
 ### locales/id.yml
 
 - *MISSING* devise.confirmations.send_paranoid_instructions
