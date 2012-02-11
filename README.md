@@ -12,13 +12,6 @@ These translations can be included automatically using the **[Locale](http://www
 
 The following translations are missing - if you can, contribute!
 
-### locales/ca.yml
-
-- *MISSING* devise.registrations.signed_up_but_inactive
-- *MISSING* devise.registrations.signed_up_but_locked
-- *MISSING* devise.registrations.signed_up_but_unconfirmed
-- *MISSING* devise.registrations.update_needs_confirmation
-
 ### locales/cs.yml
 
 - *MISSING* devise.registrations.signed_up_but_inactive
@@ -37,13 +30,6 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.registrations.signed_up_but_inactive
 - *MISSING* devise.registrations.signed_up_but_locked
 - *MISSING* devise.registrations.signed_up_but_unconfirmed
-
-### locales/es.yml
-
-- *MISSING* devise.registrations.signed_up_but_inactive
-- *MISSING* devise.registrations.signed_up_but_locked
-- *MISSING* devise.registrations.signed_up_but_unconfirmed
-- *MISSING* devise.registrations.update_needs_confirmation
 
 ### locales/fa.yml
 
@@ -99,12 +85,6 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
-
-### locales/hu.yml
-
-- *MISSING* devise.registrations.signed_up_but_inactive
-- *MISSING* devise.registrations.signed_up_but_locked
-- *MISSING* devise.registrations.signed_up_but_unconfirmed
 
 ### locales/id.yml
 
