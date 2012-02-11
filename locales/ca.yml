@@ -39,6 +39,12 @@ ca:
       destroyed: Adéu! El teu compte ha estat cancel·lat correctament. Esperem tornar-te
         a veure!
       signed_up: Has estat registrat correctament.
+      signed_up_but_inactive: El teu compte ha estat creat correctament. Tanmateix, no hem pogut inciar la sessió perquè el teu compte encara no està activat.
+      signed_up_but_locked: El teu compte ha estat creat correctament. Tanmateix, no hem pogut inciar la sessió perquè el teu compte està bloquejat.
+      signed_up_but_unconfirmed: "S'ha enviat un missatge amb un enllaç de confirmació al teu correu electrònic. Obre l'enllaç per activar el teu compte."
+      update_needs_confirmation: Has actualitzat el teu compte correctament, però cal confirmar
+        el teu nou correu electrònic. Si us plau, comprova el teu correu i segueix l'enllaç
+        de confirmació per finalitzar la comprovació del nou correu eletrònic.
       updated: Has actualitzat el teu compte correctament.
     sessions:
       signed_in: Sessió iniciada correctament.
