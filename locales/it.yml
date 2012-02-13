@@ -32,11 +32,21 @@ it:
       send_paranoid_instructions: Se la tua e-mail esiste nel nostro database, riceverai
         un messaggio email contentente un link per il ripristino della password
       updated: La tua password è stata cambiata. Ora sei collegato.
+      updated_not_active: La tua password è stata cambiata.
     registrations:
       destroyed: Arrivederci! L'account è stato cancellato. Speriamo di rivederci
         presto.
-      signed_up: Iscrizione correttamente eseguita. Se abilitata, una conferma è stata
+      signed_up: Iscrizione eseguita correttamente. Se abilitata, una conferma è stata
         inviata al tuo indirizzo email.
+      signed_up_but_inactive: Iscrizione eseguita correttamente. Però non puoi accedere in quanto il 
+        tuo account non è ancora attivo.
+      signed_up_but_locked: Iscrizione eseguita correttamente. Però non puoi accedere in quanto il
+        tuo account è bloccato.
+      signed_up_but_unconfirmed: Ti è stato inviato un messaggio con un link di conferma.
+         Ti invitiamo a visitare il link per attivare il tuo account.
+      update_needs_confirmation: Il tuo account è stato aggiornato, ma dobbiamo verificare
+        la tua email. Ti invitiamo a consultare la tua email e cliccare sul link
+        di conferma.
       updated: Il tuo account è stato aggiornato.
     sessions:
       signed_in: Accesso effettuato con successo.
