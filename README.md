@@ -120,14 +120,6 @@ The following translations are missing - if you can, contribute!
 - *MISSING* errors.messages.not_locked
 - *MISSING* errors.messages.not_saved
 
-### locales/it.yml
-
-- *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.signed_up_but_inactive
-- *MISSING* devise.registrations.signed_up_but_locked
-- *MISSING* devise.registrations.signed_up_but_unconfirmed
-- *MISSING* devise.registrations.update_needs_confirmation
-
 ### locales/ja.yml
 
 - *MISSING* devise.confirmations.send_paranoid_instructions
