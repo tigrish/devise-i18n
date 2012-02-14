@@ -39,7 +39,7 @@ de:
       destroyed: Ihr Account wurde gelöscht.
       signed_up: Sie haben sich erfolgreich registriert.
       signed_up_but_inactive: Sie haben sich erfolgreich registriert. Wir konnten Sie jedoch 
-        nicht anmelden, weil Ihr Account noch nicht aktiviert wurde.
+        nicht anmelden, weil Ihr Account noch nicht aktiviert ist.
       signed_up_but_locked: Sie haben sich erfolgreich registriert. Wir konnten Sie jedoch
         nicht anmelden, weil Ihr Account gesperrt ist.
       signed_up_but_unconfirmed: Sie erhalten in wenigen Minuten eine E-Mail mit einem Link
