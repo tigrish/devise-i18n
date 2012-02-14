@@ -12,12 +12,6 @@ These translations can be included automatically using the **[Locale](http://www
 
 The following translations are missing - if you can, contribute!
 
-### locales/cs.yml
-
-- *MISSING* devise.registrations.signed_up_but_inactive
-- *MISSING* devise.registrations.signed_up_but_locked
-- *MISSING* devise.registrations.signed_up_but_unconfirmed
-
 ### locales/da.yml
 
 - *MISSING* devise.registrations.signed_up_but_inactive
