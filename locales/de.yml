@@ -38,6 +38,12 @@ de:
     registrations:
       destroyed: Ihr Account wurde gelöscht.
       signed_up: Sie haben sich erfolgreich registriert.
+      signed_up_but_inactive: Sie haben sich erfolgreich registriert. Wir konnten Sie jedoch 
+        nicht anmelden, weil Ihr Account noch nicht aktiviert wurde.
+      signed_up_but_locked: Sie haben sich erfolgreich registriert. Wir konnten Sie jedoch
+        nicht anmelden, weil Ihr Account gesperrt ist.
+      signed_up_but_unconfirmed: Sie erhalten in wenigen Minuten eine E-Mail mit einem Link
+        für die Bestätigung der Registrierung. Klicken Sie auf den Link um Ihren Account zu aktivieren.
       update_needs_confirmation: Ihre Daten wurden aktualisiert, aber Sie müssen Ihre
         neue E-Mail-Adresse bestätigen. Sie erhalten in wenigen Minuten eine E-Mail,
         mir der Sie die Änderung Ihrer E-Mail-Adresse abschließen können.
