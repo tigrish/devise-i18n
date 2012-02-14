@@ -24,8 +24,8 @@ fr:
       unlock_instructions:
         subject: Instructions pour déverrouiller le compte
     omniauth_callbacks:
-      failure: ! 'Nous n''avons pas pu vous autoriser à %{kind} pour la raison suivante :
-        ''%{reason}''.'
+      failure: ! 'Nous n''avons pas pu vous autoriser à %{kind} pour la raison suivante
+        : ''%{reason}''.'
       success: Autorisé avec succès par votre compte %{kind}.
     passwords:
       send_instructions: Vous allez recevoir sous quelques minutes un email vous indiquant
@@ -36,8 +36,8 @@ fr:
         connecté.
       updated_not_active: Votre mot de pass a été modifié avec succès.
     registrations:
-      destroyed: Au revoir ! Votre compte a été annulé avec succès. Nous espérons vous
-        revoir bientôt.
+      destroyed: Au revoir ! Votre compte a été annulé avec succès. Nous espérons
+        vous revoir bientôt.
       signed_up: Bienvenue ! Vous vous êtes enregistré avec succès
       signed_up_but_inactive: Vous vous êtes enregistré avec succès. Cependant, nous
         n'avons pas pu vous connecter car votre compte n'a pas encore été activé.
