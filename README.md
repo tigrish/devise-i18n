@@ -202,13 +202,6 @@ The following translations are missing - if you can, contribute!
 - *MISSING* errors.messages.expired
 - *MISSING* errors.messages.not_saved
 
-### locales/pl.yml
-
-- *MISSING* devise.registrations.signed_up_but_inactive
-- *MISSING* devise.registrations.signed_up_but_locked
-- *MISSING* devise.registrations.signed_up_but_unconfirmed
-- *MISSING* devise.registrations.update_needs_confirmation
-
 ### locales/pt-BR.yml
 
 - *MISSING* devise.confirmations.send_paranoid_instructions

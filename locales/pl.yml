@@ -35,6 +35,15 @@ pl:
     registrations:
       destroyed: Konto zostało usunięte.
       signed_up: Witaj! Rejestracja zakończyła się sukcesem.
+      signed_up_but_inactive: Konto zostało utworzone pomyślnie. Zanim się jednak
+        zalogujesz, musi ono zostać jeszcze aktywowane.
+      signed_up_but_locked: Konto zostało utworzone pomyślnie. Nie możesz się jednak
+        zalogować, ponieważ jest ono zablokowane.
+      signed_up_but_unconfirmed: Wiadomość z linkiem aktywacyjnym została wysłana
+        na podany adres email. Otwórz link w celu aktywacji konta.
+      update_needs_confirmation: Konto zostało zaktualizowane, musimy jednak potwierdzić
+        nowy adres email. Sprawdź swoją skrzynkę pocztową i otwórz link aktywacyjny
+        aby ukończyć zmianę adresu.
       updated: Konto zostało pomyślnie zaktualizowane.
     sessions:
       signed_in: Zalogowano pomyślnie.
