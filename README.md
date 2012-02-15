@@ -196,19 +196,6 @@ The following translations are missing - if you can, contribute!
 - *MISSING* errors.messages.expired
 - *MISSING* errors.messages.not_saved
 
-### locales/pt-BR.yml
-
-- *MISSING* devise.confirmations.send_paranoid_instructions
-- *MISSING* devise.failure.already_authenticated
-- *MISSING* devise.passwords.send_paranoid_instructions
-- *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.signed_up_but_inactive
-- *MISSING* devise.registrations.signed_up_but_locked
-- *MISSING* devise.registrations.signed_up_but_unconfirmed
-- *MISSING* devise.registrations.update_needs_confirmation
-- *MISSING* devise.unlocks.send_paranoid_instructions
-- *MISSING* errors.messages.expired
-
 ### locales/pt-PT.yml
 
 - *MISSING* devise.passwords.updated_not_active

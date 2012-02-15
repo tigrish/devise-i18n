@@ -4,8 +4,9 @@ pt-BR:
       confirmed: A sua conta foi confirmada com sucesso. Você está autenticado.
       send_instructions: Dentro de minutos, você receberá um email com as instruções
         de confirmação da sua conta.
-      send_paranoid_instructions: Se o seu email existir em nosso banco de dados, você 
-        receberá um email com instruções sobre como confirmar sua conta em alguns minutos.
+      send_paranoid_instructions: Se o seu email existir em nosso banco de dados,
+        você receberá um email com instruções sobre como confirmar sua conta em alguns
+        minutos.
     failure:
       already_authenticated: Você já está autenticado.
       inactive: A sua conta ainda não foi ativada.
@@ -28,8 +29,8 @@ pt-BR:
     passwords:
       send_instructions: Dentro de minutos, você receberá um email com as instruções
         de reinicialização da sua senha.
-      send_paranoid_instructions: Se o seu email existir em nosso banco de dados, você 
-        receberá um email com um link para recuperação da senha.
+      send_paranoid_instructions: Se o seu email existir em nosso banco de dados,
+        você receberá um email com um link para recuperação da senha.
       updated: A sua senha foi alterada com sucesso. Você está autenticado.
       updated_not_active: Sua senha foi alterada com sucesso.
     registrations:
@@ -37,15 +38,15 @@ pt-BR:
         em breve.
       signed_up: Login efetuado com sucesso. Se não foi autorizado, a confirmação
         será enviada por email.
-      signed_up_but_inactive: Você se inscreveu com sucesso, porém nós não podemos autenticá-lo
-        porque sua conta ainda não foi ativada.
+      signed_up_but_inactive: Você se inscreveu com sucesso, porém nós não podemos
+        autenticá-lo porque sua conta ainda não foi ativada.
       signed_up_but_locked: Você se inscreveu com sucesso. Porém nós não podemos autenticá-lo
         porque sua conta está bloqueada.
-      signed_up_but_unconfirmed: Uma mensagem com um link de confirmação foi enviada para o 
-        seu e-mail. Por favor, acesse o link para ativar sua conta.
-      update_needs_confirmation: Sua conta foi atualizada com sucesso, mas nós precisamos 
-        verificar o novo endereço de email. Por favor, verifique seu email e clique no link
-        de confirmação para finalizar confirmando o seu novo email.
+      signed_up_but_unconfirmed: Uma mensagem com um link de confirmação foi enviada
+        para o seu e-mail. Por favor, acesse o link para ativar sua conta.
+      update_needs_confirmation: Sua conta foi atualizada com sucesso, mas nós precisamos
+        verificar o novo endereço de email. Por favor, verifique seu email e clique
+        no link de confirmação para finalizar confirmando o seu novo email.
       updated: A sua conta foi atualizada com sucesso.
     sessions:
       signed_in: Login efetuado com sucesso.
@@ -53,8 +54,8 @@ pt-BR:
     unlocks:
       send_instructions: Dentro de minutos, você receberá um email com instruções
         de desbloqueio da sua conta.
-      send_paranoid_instructions: Se sua conta existir em nosso banco de dados, você receberá
-        em breve um email com instruções para desbloquear ela.
+      send_paranoid_instructions: Se sua conta existir em nosso banco de dados, você
+        receberá em breve um email com instruções para desbloquear ela.
       unlocked: A sua conta foi desbloqueada com sucesso. Você está autenticado.
   errors:
     messages:
