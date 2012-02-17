@@ -3,8 +3,7 @@ ja:
     confirmations:
       confirmed: アカウントを登録しました。
       send_instructions: 登録方法を数分以内にメールでご連絡します。
-      send_paranoid_instructions: 貴方のメールアドレスがデータベースに登録されていれば
-        数分以内にアカウントを確認する方法が記載されているメールが届きます。
+      send_paranoid_instructions: 貴方のメールアドレスがデータベースに登録されていれば 数分以内にアカウントを確認する方法が記載されているメールが届きます。
     failure:
       already_authenticated: もう既にログインされています。
       inactive: アカウントがアクティベートされていません。
@@ -23,30 +22,26 @@ ja:
         subject: アカウントの凍結解除
     omniauth_callbacks:
       failure: 「%{reason}」の為%{kind}により認証が出来ませんでした。
-      success: %{kind}による認証に成功しました。
+      success: ! '%{kind}による認証に成功しました。'
     passwords:
       send_instructions: パスワードのリセット方法を数分以内にメールでご連絡します。
-      send_paranoid_instructions: 貴方のメールアドレスがデータベースに登録されていれば
-        数分以内にパスワードを再設定出来るメールが届きます。
+      send_paranoid_instructions: 貴方のメールアドレスがデータベースに登録されていれば 数分以内にパスワードを再設定出来るメールが届きます。
       updated: パスワードを変更し、ログインされました。
       updated_not_active: パスワードを変更しました。
     registrations:
       destroyed: アカウントを削除しました。またのご利用をお待ちしております。
+      signed_up: アカウント登録を受け付けました。確認のメールをお送りします。
       signed_up_but_inactive: 登録に成功しました。ログインするにはアカウントの確認が必要です。
       signed_up_but_locked: 登録に成功しました。しかし、ログインするにはアカウントを有効にすることが必要てす。
-      signed_up_but_unconfirmed: アカウントの確認リンクが入っているメールが貴方のメールアドレスに送られました。
-        メール内のリンクによりアカウントの確認を行って下さい。
-      update_needs_confirmation: アカウント内容の変更を確認するにはメールアドレスを確認する必要があります。
-        登録のメールアドレスにメールが送られます。メール内のリンクによりメールアドレスの確認が出来ます。
-      signed_up: アカウント登録を受け付けました。確認のメールをお送りします。
+      signed_up_but_unconfirmed: アカウントの確認リンクが入っているメールが貴方のメールアドレスに送られました。 メール内のリンクによりアカウントの確認を行って下さい。
+      update_needs_confirmation: アカウント内容の変更を確認するにはメールアドレスを確認する必要があります。 登録のメールアドレスにメールが送られます。メール内のリンクによりメールアドレスの確認が出来ます。
       updated: アカウントを更新しました。
     sessions:
       signed_in: ログインしました。
       signed_out: ログアウトしました。
     unlocks:
       send_instructions: アカウントの凍結解除方法を数分以内にメールでご連絡します。
-      send_paranoid_instructions: 貴方のアカウントが登録されていれば数分以内にアカウントを有効にする
-        手順が書かれているメールが登録しているアドレスに届きます。
+      send_paranoid_instructions: 貴方のアカウントが登録されていれば数分以内にアカウントを有効にする 手順が書かれているメールが登録しているアドレスに届きます。
       unlocked: アカウントを凍結解除しました。
   errors:
     messages:
@@ -54,6 +49,4 @@ ja:
       expired: 期限が切れた為新しく取得する必要があります
       not_found: は見つかりませんでした
       not_locked: は凍結されていません
-      not_saved:
-        one: ! '一つのエラーにより%{resource}を保存することが出来ませんでした。'
-        other: ! '%{count}つのエラーにより%{resource}を保存することが出来ませんでした。'
+      not_saved: ! '%{count}つのエラーにより%{resource}を保存することが出来ませんでした。'
