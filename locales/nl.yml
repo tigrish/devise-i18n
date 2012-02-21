@@ -7,7 +7,7 @@ nl:
     failure:
       inactive: Je account is nog niet geactiveerd.
       invalid: Ongeldig e-mail of wachtwoord.
-      invalid_token: Invalide authenticiteit token.
+      invalid_token: Ongeldige authenticiteit token.
       locked: Je account is gelocked.
       timeout: Je sessie is verlopen, log a.u.b. opnieuw in.
       unauthenticated: Je dient in te loggen of je in te schrijven.
