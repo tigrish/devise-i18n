@@ -4,6 +4,9 @@ nl:
       confirmed: Je account is bevestigd.
       send_instructions: Je ontvangt via e-mail instructies hoe je je account kan
         bevestigen.
+      send_paranoid_instructions: Als we je e-mail adres terugvinden in onze database,
+        zal je binnen enkele ogenblikken via e-mail, de instructies ontvangen hoe je je
+        account kan bevestigen.
     failure:
       inactive: Je account is nog niet geactiveerd.
       invalid: Ongeldig e-mail of wachtwoord.
@@ -12,6 +15,7 @@ nl:
       timeout: Je sessie is verlopen, log a.u.b. opnieuw in.
       unauthenticated: Je dient in te loggen of je in te schrijven.
       unconfirmed: Je dient eerst je account te bevestigen.
+      already_authenticated: Je bent reeds ingelogd.
     mailer:
       confirmation_instructions:
         subject: Bevestiging
@@ -19,14 +23,29 @@ nl:
         subject: Wachtwoord resetten
       unlock_instructions:
         subject: Unlock instructies
+    omniauth_callbacks:
+      failure: We konden je niet inloggen op je %{kind} omdat "%{reason}".
+      success: Je bent succesvol ingelogd op je %{kind} account.
     passwords:
       send_instructions: Je ontvangt via e-mail instructies hoe je je wachtwoord moet
         resetten.
       updated: Je wachtwoord is gewijzigd. Je bent nu ingelogd.
+      send_paranoid_instructions: Als we je e-mail adres terugvinden in onze database,
+        zal je binnen enkele ogenblikken via e-mail een link ontvangen om 
+        je paswoord te resetten.
     registrations:
       destroyed: Je account is verwijderd, wellicht tot ziens!
       signed_up: Je bent inschreven.
       updated: Je account gegevens zijn opgeslagen.
+      signed_up_but_inactive: Je bent inschreven, maar we konden je niet inloggen
+        omdat je account nog niet is geactiveerd.
+      signed_up_but_locked: Je bent inschreven, maar we konden je niet inloggen
+        omdat je account is gelocked.
+      signed_up_but_unconfirmed: Een e-mail met een confirmatie link is naar je e-mail adres
+        gestuurd. Open de link in je browser om je account te activeren.
+      update_needs_confirmation: Je account is geüpdatet, maar we moet je e-mail adres nog
+        valideren. Een e-mail met een confirmatie link is naar je e-mail adres
+        gestuurd. Open de link in je browser om je e-mail adres te confirmeren.
     sessions:
       signed_in: Je bent succesvol ingelogd.
       signed_out: Je bent succesvol uitgelogd.
@@ -34,8 +53,15 @@ nl:
       send_instructions: Je ontvangt via e-mail instructies hoe je je account kan
         un-locken.
       unlocked: Je account is ge-unlocked. Je kan nu weer inloggen.
+      send_paranoid_instructions: Als we je e-mail adres terugvinden in onze database,
+        zal je binnen enkele ogenblikken via e-mail, de instructies ontvangen hoe je je
+        account kan unlocken.
   errors:
     messages:
       already_confirmed: is reeds bevestigd
       not_found: niet gevonden
       not_locked: is niet gesloten
+      expired: is verlopen, vraag een nieuwe aan
+      not_saved:
+        one: ! '1 error verhinderde het opslaan van deze %{resource}:'
+        other: ! '%{count} errors verhinderede het opslaan van deze %{resource}:'
