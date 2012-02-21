@@ -5,9 +5,10 @@ nl:
       send_instructions: Je ontvangt via e-mail instructies hoe je je account kan
         bevestigen.
       send_paranoid_instructions: Als we je e-mail adres terugvinden in onze database,
-        zal je binnen enkele ogenblikken via e-mail, de instructies ontvangen hoe je je
-        account kan bevestigen.
+        zal je binnen enkele ogenblikken via e-mail, de instructies ontvangen hoe
+        je je account kan bevestigen.
     failure:
+      already_authenticated: Je bent reeds ingelogd.
       inactive: Je account is nog niet geactiveerd.
       invalid: Ongeldig e-mail of wachtwoord.
       invalid_token: Ongeldige authenticiteit token.
@@ -15,7 +16,6 @@ nl:
       timeout: Je sessie is verlopen, log a.u.b. opnieuw in.
       unauthenticated: Je dient in te loggen of je in te schrijven.
       unconfirmed: Je dient eerst je account te bevestigen.
-      already_authenticated: Je bent reeds ingelogd.
     mailer:
       confirmation_instructions:
         subject: Bevestiging
@@ -29,40 +29,40 @@ nl:
     passwords:
       send_instructions: Je ontvangt via e-mail instructies hoe je je wachtwoord moet
         resetten.
-      updated: Je wachtwoord is gewijzigd. Je bent nu ingelogd.
       send_paranoid_instructions: Als we je e-mail adres terugvinden in onze database,
-        zal je binnen enkele ogenblikken via e-mail een link ontvangen om 
-        je paswoord te resetten.
+        zal je binnen enkele ogenblikken via e-mail een link ontvangen om je paswoord
+        te resetten.
+      updated: Je wachtwoord is gewijzigd. Je bent nu ingelogd.
       updated_not_active: Je wachtwoord werd met succes gewijzigd.
     registrations:
       destroyed: Je account is verwijderd, wellicht tot ziens!
       signed_up: Je bent inschreven.
-      updated: Je account gegevens zijn opgeslagen.
       signed_up_but_inactive: Je bent inschreven, maar we konden je niet inloggen
         omdat je account nog niet is geactiveerd.
-      signed_up_but_locked: Je bent inschreven, maar we konden je niet inloggen
-        omdat je account is gelocked.
-      signed_up_but_unconfirmed: Een e-mail met een confirmatie link is naar je e-mail adres
-        gestuurd. Open de link in je browser om je account te activeren.
-      update_needs_confirmation: Je account is geüpdatet, maar we moet je e-mail adres nog
-        valideren. Een e-mail met een confirmatie link is naar je e-mail adres
+      signed_up_but_locked: Je bent inschreven, maar we konden je niet inloggen omdat
+        je account is gelocked.
+      signed_up_but_unconfirmed: Een e-mail met een confirmatie link is naar je e-mail
+        adres gestuurd. Open de link in je browser om je account te activeren.
+      update_needs_confirmation: Je account is geüpdatet, maar we moet je e-mail adres
+        nog valideren. Een e-mail met een confirmatie link is naar je e-mail adres
         gestuurd. Open de link in je browser om je e-mail adres te confirmeren.
+      updated: Je account gegevens zijn opgeslagen.
     sessions:
       signed_in: Je bent succesvol ingelogd.
       signed_out: Je bent succesvol uitgelogd.
     unlocks:
       send_instructions: Je ontvangt via e-mail instructies hoe je je account kan
         un-locken.
-      unlocked: Je account is ge-unlocked. Je kan nu weer inloggen.
       send_paranoid_instructions: Als we je e-mail adres terugvinden in onze database,
-        zal je binnen enkele ogenblikken via e-mail, de instructies ontvangen hoe je je
-        account kan unlocken.
+        zal je binnen enkele ogenblikken via e-mail, de instructies ontvangen hoe
+        je je account kan unlocken.
+      unlocked: Je account is ge-unlocked. Je kan nu weer inloggen.
   errors:
     messages:
       already_confirmed: is reeds bevestigd
+      expired: is verlopen, vraag een nieuwe aan
       not_found: niet gevonden
       not_locked: is niet gesloten
-      expired: is verlopen, vraag een nieuwe aan
       not_saved:
         one: ! '1 error verhinderde het opslaan van deze %{resource}:'
         other: ! '%{count} errors verhinderede het opslaan van deze %{resource}:'
