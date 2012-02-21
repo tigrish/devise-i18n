@@ -33,6 +33,7 @@ nl:
       send_paranoid_instructions: Als we je e-mail adres terugvinden in onze database,
         zal je binnen enkele ogenblikken via e-mail een link ontvangen om 
         je paswoord te resetten.
+      updated_not_active: Je wachtwoord werd met succes gewijzigd.
     registrations:
       destroyed: Je account is verwijderd, wellicht tot ziens!
       signed_up: Je bent inschreven.
