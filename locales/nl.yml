@@ -12,7 +12,7 @@ nl:
       invalid: Ongeldig e-mail of wachtwoord.
       invalid_token: Ongeldige authenticiteit token.
       locked: Je account is gelocked.
-      timeout: Je sessie is verlopen, log a.u.b. opnieuw in.
+      timeout: Je sessie is verlopen, log alstublieft opnieuw in.
       unauthenticated: Je dient in te loggen of je in te schrijven.
       unconfirmed: Je dient eerst je account te bevestigen.
       already_authenticated: Je bent reeds ingelogd.
@@ -24,7 +24,7 @@ nl:
       unlock_instructions:
         subject: Unlock instructies
     omniauth_callbacks:
-      failure: We konden je niet inloggen op je %{kind} omdat "%{reason}".
+      failure: We konden je niet inloggen op je %{kind} account, omdat "%{reason}".
       success: Je bent succesvol ingelogd op je %{kind} account.
     passwords:
       send_instructions: Je ontvangt via e-mail instructies hoe je je wachtwoord moet
@@ -35,16 +35,16 @@ nl:
         je paswoord te resetten.
       updated_not_active: Je wachtwoord werd met succes gewijzigd.
     registrations:
-      destroyed: Je account is verwijderd, wellicht tot ziens!
+      destroyed: Je account is verwijderd, hopelijk tot ziens!
       signed_up: Je bent inschreven.
       updated: Je account gegevens zijn opgeslagen.
-      signed_up_but_inactive: Je bent inschreven, maar we konden je niet inloggen
+      signed_up_but_inactive: Je bent ingeschreven, maar we konden je niet inloggen
         omdat je account nog niet is geactiveerd.
-      signed_up_but_locked: Je bent inschreven, maar we konden je niet inloggen
+      signed_up_but_locked: Je bent ingeschreven, maar we konden je niet inloggen
         omdat je account is gelocked.
       signed_up_but_unconfirmed: Een e-mail met een confirmatie link is naar je e-mail adres
         gestuurd. Open de link in je browser om je account te activeren.
-      update_needs_confirmation: Je account is geüpdatet, maar we moet je e-mail adres nog
+      update_needs_confirmation: Je account is geüpdatet, maar we moeten je e-mail adres nog
         valideren. Een e-mail met een confirmatie link is naar je e-mail adres
         gestuurd. Open de link in je browser om je e-mail adres te confirmeren.
     sessions:
@@ -65,4 +65,4 @@ nl:
       expired: is verlopen, vraag een nieuwe aan
       not_saved:
         one: ! '1 error verhinderde het opslaan van deze %{resource}:'
-        other: ! '%{count} errors verhinderede het opslaan van deze %{resource}:'
+        other: ! '%{count} errors verhinderde het opslaan van deze %{resource}:'
