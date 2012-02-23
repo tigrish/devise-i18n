@@ -37,15 +37,15 @@ nl:
     registrations:
       destroyed: Je account is verwijderd, wellicht tot ziens!
       signed_up: Je bent inschreven.
-      signed_up_but_inactive: Je bent inschreven, maar we konden je niet inloggen
+      signed_up_but_inactive: Je bent ingeschreven, maar we konden je niet inloggen
         omdat je account nog niet is geactiveerd.
-      signed_up_but_locked: Je bent inschreven, maar we konden je niet inloggen omdat
-        je account is gelocked.
+      signed_up_but_locked: Je bent ingeschreven, maar we konden je niet inloggen
+        omdat je account is gelocked.
       signed_up_but_unconfirmed: Een e-mail met een confirmatie link is naar je e-mail
         adres gestuurd. Open de link in je browser om je account te activeren.
-      update_needs_confirmation: Je account is geüpdatet, maar we moet je e-mail adres
-        nog valideren. Een e-mail met een confirmatie link is naar je e-mail adres
-        gestuurd. Open de link in je browser om je e-mail adres te confirmeren.
+      update_needs_confirmation: Je account is geüpdatet, maar we moeten je e-mail
+        adres nog valideren. Een e-mail met een confirmatie link is naar je e-mail
+        adres gestuurd. Open de link in je browser om je e-mail adres te confirmeren.
       updated: Je account gegevens zijn opgeslagen.
     sessions:
       signed_in: Je bent succesvol ingelogd.
@@ -65,4 +65,4 @@ nl:
       not_locked: is niet gesloten
       not_saved:
         one: ! '1 error verhinderde het opslaan van deze %{resource}:'
-        other: ! '%{count} errors verhinderede het opslaan van deze %{resource}:'
+        other: ! '%{count} errors verhinderde het opslaan van deze %{resource}:'
