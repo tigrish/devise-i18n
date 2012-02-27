@@ -29,6 +29,10 @@ zh-CN:
       updated: 您的密码已修改成功，您现在已登录.
       updated_not_active: 您的密码已修改成功.
     registrations:
+      signed_up_but_inactive: 谢谢您！然而您的账号还未被激活，在这之前无法登陆。
+      signed_up_but_locked: 谢谢您！然而您的账号已被锁定，无法登陆。
+      signed_up_but_unconfirmed: 谢谢您！一封确认邮件已经发至您的邮箱，请点击其中的链接激活您的账号。
+      update_needs_confirmation: 新的账号信息已成功提交，一封确认邮件已经发至您的邮箱，请点击其中的链接以使您的新E-mail地址生效。
       destroyed: 再见！您的帐户已成功注销。我们希望很快可以再见到您.
       signed_up: 欢迎您！您已注册成功.
       updated: 帐号资料更新成功.
