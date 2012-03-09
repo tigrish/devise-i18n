@@ -52,7 +52,7 @@ nl:
       signed_out: Je bent succesvol uitgelogd.
     unlocks:
       send_instructions: Je ontvangt via e-mail instructies hoe je je account kan
-        un-locken.
+        unlocken.
       send_paranoid_instructions: Als we je e-mail adres terugvinden in onze database,
         zal je binnen enkele ogenblikken via e-mail, de instructies ontvangen hoe
         je je account kan unlocken.
