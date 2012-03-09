@@ -34,7 +34,13 @@ end
 
 task :default => :spec
 
-require 'rake/rdoctask'
+begin
+  # rake/rdoctask is deprecated in RDoc 2.4.2+
+  require 'rdoc/task'
+rescue LoadError
+  require 'rake/rdoctask'
+end
+
 Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
