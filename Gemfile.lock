@@ -12,7 +12,7 @@ GEM
       rake
       rdoc
     json (1.6.5)
-    localeapp (0.4.1)
+    localeapp (0.4.2)
       gli
       i18n
       json
