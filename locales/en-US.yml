@@ -24,8 +24,8 @@ en-US:
       unlock_instructions:
         subject: Unlock Instructions
     omniauth_callbacks:
-      failure: Could not authorize you from %{kind} because "%{reason}".
-      success: Successfully authorized from %{kind} account.
+      failure: Could not authenticate you from %{kind} because "%{reason}".
+      success: Successfully authenticated from %{kind} account.
     passwords:
       send_instructions: You will receive an email with instructions about how to
         reset your password in a few minutes.
