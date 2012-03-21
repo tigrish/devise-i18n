@@ -34,7 +34,7 @@ fr:
         vous recevrez un lien vous permettant de récupérer votre mot de passe.
       updated: Votre mot de passe a été modifié avec succès. Vous êtes maintenant
         connecté.
-      updated_not_active: Votre mot de pass a été modifié avec succès.
+      updated_not_active: Votre mot de passe a été modifié avec succès.
     registrations:
       destroyed: Au revoir ! Votre compte a été annulé avec succès. Nous espérons
         vous revoir bientôt.
