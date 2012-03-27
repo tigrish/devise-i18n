@@ -3,6 +3,7 @@ zh-TW:
     confirmations:
       confirmed: 您的帳號已經過確認，現在您已成功登入。
       send_instructions: 您將在幾分鐘後收到一封電子郵件，內有確認帳號的步驟說明。
+      send_paranoid_instructions: 如果此電子郵件信箱真存在於資料庫中的話，您將在幾分鐘後收到一封電子郵件， 說明確認帳號的手續。
     failure:
       already_authenticated: 你已經登入。
       inactive: 您的帳號尚未被啟用。
@@ -19,9 +20,14 @@ zh-TW:
         subject: 重設密碼步驟
       unlock_instructions:
         subject: 解鎖步驟
+    omniauth_callbacks:
+      failure: 因為「%{reason}」，無法認證您的 %{kind} 帳戶
+      success: 已成功認證您的 %{kind} 帳戶
     passwords:
       send_instructions: 您將在幾分鐘後收到一封電子郵件，內有重新設定密碼的步驟說明。
+      send_paranoid_instructions: 如果此電子郵件信箱真存在於資料庫中的話，您將在幾分鐘後收到一封電子郵件，內有回復密碼專用的網址。
       updated: 您的密碼已被修改，而您現在已重新登入。
+      updated_not_active: 您的密碼已被修改。
     registrations:
       destroyed: 再會！您的帳號已被註銷。有緣再會。
       signed_up: 歡迎！您已經成功註冊。
@@ -33,10 +39,12 @@ zh-TW:
       signed_out: 成功登出了。
     unlocks:
       send_instructions: 您將在幾分鐘後收到一封電子郵件，內有將帳號解除鎖定的步驟說明。
+      send_paranoid_instructions: 如果此帳號真的存在的話，您將在幾分鐘後收到一封電子郵件，內有將帳號解除鎖定的步驟說明。
       unlocked: 您的帳號已被解鎖，現在您已成功登入。
   errors:
     messages:
-      already_confirmed: 已被確認過了
+      already_confirmed: 已被確認過了，請試著登入看看
+      expired: 已經過期了，請再要一個新的
       not_found: 沒有找到
       not_locked: 被鎖定了
       not_saved:
