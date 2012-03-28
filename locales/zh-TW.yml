@@ -32,6 +32,7 @@ zh-TW:
       destroyed: 再會！您的帳號已被註銷。有緣再會。
       signed_up: 歡迎！您已經成功註冊。
       signed_up_but_inactive: 您已經成功註冊。但因帳號尚未啟用，目前暫時不能登入。
+      signed_up_but_locked: 您已經成功註冊。可是，因為帳號被鎖住，目前暫時不能登入。
       signed_up_but_unconfirmed: 已傳送帳號確認信件至您的 Email 信箱，請收信、並點擊信中確認網址，以便啟用您的帳號。
       update_needs_confirmation: 您的帳號資料已成功更新，但您的新 Email 信箱需要再次被確認。請收信、並點擊信中確認用的網址，以便完成信箱確認手續。
       updated: 您已經成功的更新帳號資訊。
