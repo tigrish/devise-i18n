@@ -194,10 +194,6 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 
-### locales/zh-TW.yml
-
-- *MISSING* devise.registrations.signed_up_but_locked
-
 ----
 
 ## Contributing to devise-i18n
