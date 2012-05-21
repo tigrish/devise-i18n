@@ -172,13 +172,6 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 
-### locales/ru.yml
-
-- *MISSING* devise.registrations.signed_up_but_inactive
-- *MISSING* devise.registrations.signed_up_but_locked
-- *MISSING* devise.registrations.signed_up_but_unconfirmed
-- *MISSING* devise.registrations.update_needs_confirmation
-
 ### locales/sk.yml
 
 - *MISSING* devise.registrations.signed_up_but_inactive
@@ -197,7 +190,7 @@ The following translations are missing - if you can, contribute!
 ----
 
 ## Contributing to devise-i18n
- 
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
 * Fork the project
