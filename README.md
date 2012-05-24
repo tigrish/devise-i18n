@@ -6,18 +6,14 @@ Translations for **[Devise v2.+](https://github.com/plataformatec/devise)** pull
 
 See the **[devise-1.5 branch](https://github.com/tigrish/devise-i18n/tree/devise-1.5)** for older translations.
 
-These translations can be included automatically using the **[Locale](http://www.localeapp.com)** localization app. Translation files formatted by [Locale](http://www.localeapp.com) are the preferred format.
+## Contributing to devise-i18n
+
+- Edit the translations directly on the [devise-i18n](http://www.localeapp.com/projects/377) project on Locale.
+- Periodically, the translations will be pulled and made into a gem release.
 
 ----
 
 The following translations are missing - if you can, contribute!
-
-### locales/da.yml
-
-- *MISSING* devise.registrations.signed_up_but_inactive
-- *MISSING* devise.registrations.signed_up_but_locked
-- *MISSING* devise.registrations.signed_up_but_unconfirmed
-- *MISSING* devise.registrations.update_needs_confirmation
 
 ### locales/fa.yml
 
@@ -43,6 +39,7 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
 - *MISSING* errors.messages.expired
+
 
 ### locales/he.yml
 
@@ -88,24 +85,6 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.registrations.update_needs_confirmation
 - *MISSING* devise.unlocks.send_paranoid_instructions
 - *MISSING* errors.messages.expired
-- *MISSING* errors.messages.not_saved
-
-### locales/is.yml
-
-- *MISSING* devise.confirmations.send_paranoid_instructions
-- *MISSING* devise.failure.already_authenticated
-- *MISSING* devise.omniauth_callbacks.failure
-- *MISSING* devise.omniauth_callbacks.success
-- *MISSING* devise.passwords.send_paranoid_instructions
-- *MISSING* devise.passwords.updated_not_active
-- *MISSING* devise.registrations.signed_up_but_inactive
-- *MISSING* devise.registrations.signed_up_but_locked
-- *MISSING* devise.registrations.signed_up_but_unconfirmed
-- *MISSING* devise.registrations.update_needs_confirmation
-- *MISSING* devise.unlocks.send_paranoid_instructions
-- *MISSING* errors.messages.already_confirmed
-- *MISSING* errors.messages.expired
-- *MISSING* errors.messages.not_locked
 - *MISSING* errors.messages.not_saved
 
 ### locales/lt.yml
@@ -187,17 +166,9 @@ The following translations are missing - if you can, contribute!
 - *MISSING* devise.registrations.signed_up_but_unconfirmed
 - *MISSING* devise.registrations.update_needs_confirmation
 
+
+
 ----
-
-## Contributing to devise-i18n
-
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
-* Fork the project
-* Start a feature/bugfix branch
-* Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
 
 ## You might also like:
