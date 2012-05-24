@@ -9,13 +9,10 @@ See the **[devise-1.5 branch](https://github.com/tigrish/devise-i18n/tree/devise
 ## Contributing to devise-i18n
 
 - Edit the translations directly on the [devise-i18n](http://www.localeapp.com/projects/377) project on Locale.
-- Periodically, the translations will be pulled and made into a gem release.
+- **That's it!**
+- The maintainer will then pull translations from the Locale project and push to Github.
 
-## You might also be interested in :
-
-* [rails-i18n](https://github.com/svenfuchs/rails-i18n)
-* [will-paginate-i18n](https://github.com/tigrish/will-paginate-i18n)
-* [Locale](http://www.localeapp.com)
+Happy translating!
 
 ## Copyright
 
