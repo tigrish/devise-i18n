@@ -1,0 +1,62 @@
+en-US:
+  devise:
+    confirmations:
+      confirmed: Tài khoản của bạn đã được xác nhận thành công. Bạn đang đăng nhập ngay bây giờ.
+      send_instructions: Bạn sẽ nhận được email hướng dẫn cách xác nhận tài khoản trong vòng vài phút nữa.
+      send_paranoid_instructions: Nếu email của bạn đã tồn tại trong cơ sở dữ liệu của chúng tôi, 
+        bạn sẽ nhận được email hướng dẫn cách xác nhận tài khoản trong vòng vài phút nữa.        
+    failure:
+      already_authenticated: Bạn đã đăng nhập.
+      inactive: Tài khoản của bạn chưa được kích hoạt.
+      invalid: Email hoặc mật khẩu không chính xác.
+      invalid_token: Mã xác nhận không chính xác.
+      locked: Tài khoản của bạn đã bị khóa.
+      timeout: Phiên làm việc của bạn đã hết hạn, vui lòng đăng nhập để tiếp tục.
+      unauthenticated: Bạn cần phải đăng nhập hoặc đăng ký trước khi tiếp tục.
+      unconfirmed: Bạn cần phải xác nhận tài khoản trước khi tiếp tục.
+    mailer:
+      confirmation_instructions:
+        subject: Hướng dẫn xác nhận tài khoản
+      reset_password_instructions:
+        subject: Hướng dẫn thiết lập lại mật khẩu
+      unlock_instructions:
+        subject: Hướng dẫn mở khóa tài khoản
+    omniauth_callbacks:
+      failure: Không từ xác nhận từ %{kind} vì "%{reason}".
+      success: Xác nhận thành công từ %{kind} tài khoản.
+    passwords:
+      send_instructions: Bạn sẽ nhận được email hướng dẫn cách thiết lập lại mật khẩu trong vòng vài phút nữa.
+      send_paranoid_instructions: Nếu email của bạn đã tồn tại trong cơ sở dữ liệu của chúng tôi, 
+        bạn sẽ nhận được email chứa liên kết tới trang phục hồi mật khẩu
+      updated: Mật khẩu của bạn đã được thay đổi thành công. Bạn đang đăng nhập ngay bây giờ.
+      updated_not_active: Mật khẩu của bạn đã được thay đổi thành công.
+    registrations:
+      destroyed: Tạm biệt! Tài khoản của bạn đã được hủy. Chúng tôi hy vọng sẽ sớm được gặp lại bạn.
+      signed_up: Xin chào! Tài khoản của bạn đã được đăng ký thành công.
+      signed_up_but_inactive: Tài khoản của bạn đã được đăng ký thành công. Tuy nhiên, 
+        bạn cần phải kích hoạt tài khoản trước khi có thể bắt đầu đăng nhập.
+      signed_up_but_locked: Tài khoản của bạn đã được đăng ký thành công. Tuy nhiên, 
+        tài khoản của bạn đã bị khóa vì vậy bạn chưa thể đăng nhập được.
+      signed_up_but_unconfirmed: Một tin nhắn chứa liên kết xác nhận tài khoản đã được gửi đến email của bạn.
+        Vui lòng mở liên kết đó để xác nhận tài khoản.
+      update_needs_confirmation: Tài khoản của bạn được cập nhật thành công, 
+        nhưng chúng tôi cần xác nhận lại địa chỉ email mới của bạn. 
+        Vui lòng kiểm tra email và nhấn vào liên kết xác nhận để hoàn tất quá trình xác nhận email mới của bạn.
+      updated: Tài khoản của bạn đã được cập nhật thành công.
+    sessions:
+      signed_in: Đăng nhập thành công.
+      signed_out: Đăng xuất thành công.
+    unlocks:
+      send_instructions: Bạn sẽ nhận được email hướng dẫn cách mở khóa tài khoản trong vòng vài phút nữa.
+      send_paranoid_instructions: Nếu tài khoản của bạn tồn tại, 
+        bạn sẽ nhận được email hướng dẫn cách mở khóa tài khoản trong vòng vài phút nữa.
+      unlocked: Tài khoản của bạn đã được mở khóa thành công. Vui lòng đăng nhập để tiếp tục.
+  errors:
+    messages:
+      already_confirmed: đã được xác nhận, hãy thử đăng nhập xem sao.
+      expired: đã hết hạn, vui lòng gửi yêu cầu mới.
+      not_found: không tìm thấy
+      not_locked: không bị khóa
+      not_saved:
+        one: ! '1 lỗi bị cấm %{resource} khi lưu:'
+        other: ! '%{count} lỗi bị cấm %{resource} khi lưu:'
