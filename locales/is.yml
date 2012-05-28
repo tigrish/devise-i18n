@@ -6,9 +6,8 @@ is:
       already_confirmed: var nú þegar staðfestur, prófaðu að skrá þig inn
       not_locked: var ekki læstur
       not_saved:
-        one: "1 villa kom í veg fyrir að hægt væri að vista þennan %{resource}:"
-        other: "%{count} villur komu í veg fyrir að hægt væri að vista þennan %{resource}:"
-
+        one: ! '1 villa kom í veg fyrir að hægt væri að vista þennan %{resource}:'
+        other: ! '%{count} villur komu í veg fyrir að hægt væri að vista þennan %{resource}:'
   devise:
     failure:
       already_authenticated: Þú ert nú þegar innskráð(ur).
@@ -23,29 +22,42 @@ is:
       signed_in: Innskráning tókst.
       signed_out: Útskráning tókst.
     passwords:
-      send_instructions: Innan nokkra mínútna færðu tölvupóst með leiðbeiningum um hvernig hægt sé að endurstilla aðganginn þinn.
+      send_instructions: Innan nokkra mínútna færðu tölvupóst með leiðbeiningum um
+        hvernig hægt sé að endurstilla aðganginn þinn.
       updated: Lykilorði þínu hefur nú verið breytt. Þú ert núna innskráð(ur).
       updated_not_active: Lykilorði þínu hefur nú verið breytt.
-      send_paranoid_instructions: Ef netfangið þitt er til í gagnagrunninum okkar munt þú fá leiðbeiningar um endurstillingu sendar í tölvupósti innan nokkra mínútna.
+      send_paranoid_instructions: Ef netfangið þitt er til í gagnagrunninum okkar
+        munt þú fá leiðbeiningar um endurstillingu sendar í tölvupósti innan nokkra
+        mínútna.
     confirmations:
-      send_instructions: Eftir nokkrar mínútur munt þú fá tölvupóst með leiðbeiningum um hverning eigi að staðfesta aðganginn.
-      send_paranoid_instructions: Ef netfangið þitt er til í gagnagrunninum okkar munt þú fá leiðbeiningar um hvernig eigi að staðfesta aðganginn sendar tölvupósti innan nokkurra mínútna.
+      send_instructions: Eftir nokkrar mínútur munt þú fá tölvupóst með leiðbeiningum
+        um hverning eigi að staðfesta aðganginn.
+      send_paranoid_instructions: Ef netfangið þitt er til í gagnagrunninum okkar
+        munt þú fá leiðbeiningar um hvernig eigi að staðfesta aðganginn sendar tölvupósti
+        innan nokkurra mínútna.
       confirmed: Aðgangurinn hefur verið staðfestur. Þú ert núna innskráð(ur).
     registrations:
       signed_up: Velkomin(n)! Þú hefur nýskráð þig.
-      signed_up_but_unconfirmed: Staðfestingartengill hefur verið sendur á netfangið þitt. Vinsamlegast smelltu á tengilinn til að virkja aðganginn.
-      signed_up_but_inactive: Þú hefur nýskráð þig. Hins vegar gátum við ekki innskráð þig því að aðgangurinn þinn hefur ekki verið virktur.
-      signed_up_but_locked: Þú hefur nýskráð þig. Hins vegar gátum við ekki innskráð þig því að aðgangurinn þinn er læstur.
+      signed_up_but_unconfirmed: Staðfestingartengill hefur verið sendur á netfangið
+        þitt. Vinsamlegast smelltu á tengilinn til að virkja aðganginn.
+      signed_up_but_inactive: Þú hefur nýskráð þig. Hins vegar gátum við ekki innskráð
+        þig því að aðgangurinn þinn hefur ekki verið virktur.
+      signed_up_but_locked: Þú hefur nýskráð þig. Hins vegar gátum við ekki innskráð
+        þig því að aðgangurinn þinn er læstur.
       updated: Aðgangurinn þinn hefur verið uppfærður.
-      update_needs_confirmation: Aðgangurinn þinn hefur verið uppfærður, en þú þarft að staðfesta netfangið þitt. Vinsamlegast skoðaðu tölvupóstinn þinn og smelltu á staðfestingartengilinn til þess að staðfesta netfangið.
+      update_needs_confirmation: Aðgangurinn þinn hefur verið uppfærður, en þú þarft
+        að staðfesta netfangið þitt. Vinsamlegast skoðaðu tölvupóstinn þinn og smelltu
+        á staðfestingartengilinn til þess að staðfesta netfangið.
       destroyed: Bless! Aðgangnum þínum hefur verið lokað. Vonandi sjáumst við aftur.
     unlocks:
-      send_instructions: Innan nokkurra mínútna færðu tölvupóst með leiðbeiningum um hvernig hægt er að aflæsa aðgangi þínum.
+      send_instructions: Innan nokkurra mínútna færðu tölvupóst með leiðbeiningum
+        um hvernig hægt er að aflæsa aðgangi þínum.
       unlocked: Aðgangnum þínum hefur verið aflæst. Þú ert innskráð(ur).
-      send_paranoid_instructions: Ef aðgangurinn þinn er til munt þú fá leiðbeiningar um hvernig hægt er að aflæsa honum sendar í tölvupósti innan nokkurra mínútna.
+      send_paranoid_instructions: Ef aðgangurinn þinn er til munt þú fá leiðbeiningar
+        um hvernig hægt er að aflæsa honum sendar í tölvupósti innan nokkurra mínútna.
     omniauth_callbacks:
-      success: "Innskráning með %{kind} aðgangi tókst."
-      failure: "Innskráning með %{kind} aðgangi mistókst: %{reason}."
+      success: Innskráning með %{kind} aðgangi tókst.
+      failure: ! 'Innskráning með %{kind} aðgangi mistókst: %{reason}.'
     mailer:
       confirmation_instructions:
         subject: Staðfestingarleiðbeiningar
