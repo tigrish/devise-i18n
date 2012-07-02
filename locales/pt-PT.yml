@@ -33,10 +33,20 @@ pt-PT:
         irá receber dentro de alguns minutos um e-mail com instruções para recuperar
         a sua senha.
       updated: A sua palavra-passe foi alterada com sucesso. Agora está autenticado.
+      updated_not_active: A sua password foi alterada com sucesso.
     registrations:
       destroyed: A sua conta foi cancelada com sucesso.
       signed_up: Bemvindo! A autenticação foi efectuada com sucesso.
       updated: A sua conta foi actualizada com sucesso.
+      signed_up_but_inactive: Registou-se com sucesso. No entanto, não podemos iniciar
+        a sua sessão porque ainda não confirmou a sua conta.
+      signed_up_but_locked: Registou-se com sucesso. No entanto, não podemos iniciar
+        a sua sessão porque a sua conta encontra-se bloqueada.
+      signed_up_but_unconfirmed: Foi enviado um email com um link para confirmar o
+        seu email. Por favor abra o link para activar a sua conta.
+      update_needs_confirmation: A sua conta foi actualizada com sucesso, mas precisamos
+        de confirmar o seu email. Por favor veja o seu email e clique no link para
+        finalizar a confirmação do seu email.
     sessions:
       signed_in: Autenticação efectuada com sucesso.
       signed_out: Saíu da sessão com sucesso.
