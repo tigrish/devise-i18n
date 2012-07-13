@@ -4,8 +4,9 @@ sv:
       confirmed: Ditt konto har bekräftats. Du är nu inloggad.
       send_instructions: Du kommer att få epost med instruktioner om hur du kan bekräfta
         ditt konto inom några minuter.
-      send_paranoid_instructions: Om din email är i vår databas, kommer du att få
-        ett mail med instruktioner om hur du ska aktivera ditt konto inom några minuter.
+      send_paranoid_instructions: Om din epostadress är i vår databas, kommer du att
+        få ett epost med instruktioner om hur du ska aktivera ditt konto inom några
+        minuter.
     failure:
       already_authenticated: Du har redan loggat in.
       inactive: Ditt konto har inte aktiverats ännu.
@@ -28,15 +29,24 @@ sv:
     passwords:
       send_instructions: Du kommer få epost med instruktioner om hur du kan återställa
         ditt lösenord inom några minuter.
-      send_paranoid_instructions: Om din email är i vår databas, kommer du att få
-        en lösenordslänk till din mail.
+      send_paranoid_instructions: Om din epostadress finns i vår databas, kommer du
+        att få en lösenordslänk till din epost.
       updated: Ditt lösenord har uppdaterats. Du är nu inloggad.
+      updated_not_active: Ditt lösenord uppdaterades.
     registrations:
       destroyed: Hej då! Ditt konto har avregistrerats. Vi hoppas få se dig snart
         igen.
-      signed_up: Ett nytt konto har skapats. En bekräftelse har skickats till din
-        epost.
+      signed_up: Välkommen! Ditt nya konto har skapats.
       updated: Ditt konto har uppdaterats.
+      signed_up_but_inactive: Du är nu registrerad. Däremot kunde vi inte logga in
+        dig, eftersom ditt konto ännu inte aktiverats.
+      signed_up_but_locked: Du är nu registrerad. Däremot kunde vi inte logga in dig,
+        eftersom ditt konto är låst.
+      signed_up_but_unconfirmed: Ett meddelande med en länk för att bekräfta din registrering
+        har skickats till din epostadress. Följ länken för att aktivera ditt konto.
+      update_needs_confirmation: Ditt konto uppdaterades, men vi behöver verifiera
+        din nya epostadress. Kontrollera din epost och klicka på länken för att bekräfta
+        din nya epostadress.
     sessions:
       signed_in: Loggade in.
       signed_out: Loggade ut.
