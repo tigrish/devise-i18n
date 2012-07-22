@@ -35,6 +35,9 @@ de:
         Passwort zurücksetzen können.
       updated: Ihr Passwort wurde geändert. Sie sind jetzt angemeldet.
       updated_not_active: Ihr Passwort wurde geändert.
+      no_token: Sie können sich nicht auf dieser Seite anmelden, wenn Sie nicht von
+        einer Paswort-Zurücksetzen-E-Mail kommen. Wenn Sie von solch einer E-Mail
+        kommen, überprüfen Sie bitte, ob Sie die gesamte URL verwendeten.
     registrations:
       destroyed: Ihr Account wurde gelöscht.
       signed_up: Sie haben sich erfolgreich registriert.

@@ -36,6 +36,8 @@ vi:
       updated: Mật khẩu của bạn đã được thay đổi thành công. Bạn đang đăng nhập ngay
         bây giờ.
       updated_not_active: Mật khẩu của bạn đã được thay đổi thành công.
+      no_token: Bạn chỉ có thể đến trang này từ email nhập lại mật khẩu. Nếu bạn thực
+        sự mở tử email nhập lại mật , vui lòng dùng đầy đủ địa chỉ đã được cung cấp
     registrations:
       destroyed: Tạm biệt! Tài khoản của bạn đã được hủy. Chúng tôi hy vọng sẽ sớm
         được gặp lại bạn.

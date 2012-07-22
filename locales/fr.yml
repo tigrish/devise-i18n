@@ -35,6 +35,9 @@ fr:
       updated: Votre mot de passe a été modifié avec succès. Vous êtes maintenant
         connecté.
       updated_not_active: Votre mot de passe a été modifié avec succès.
+      no_token: Vous ne pouvez pas accéder à cette page si vous ne provenez pas d'un
+        email de réinitialisation de mot de passe. Si vous venez en effet d'un tel
+        email, vérifiez que vous avez copié l'adresse URL en entier.
     registrations:
       destroyed: Au revoir ! Votre compte a été annulé avec succès. Nous espérons
         vous revoir bientôt.

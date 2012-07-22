@@ -34,6 +34,9 @@ tr:
         alacaksınız. '
       updated: Şifreniz başarıyla güncellendi. Şu an giriş yapmış bulunuyorsunuz.
       updated_not_active: Şifreniz başarıyla güncellendi.
+      no_token: Bu sayfaya şifre sıfırlama e-postasındaki linke tıklayarak gelmeniz
+        gerekmektedir. Linke tıklamak yerine kopyaladıysanız, hata yapmış olabilirsiniz.
+        Lütfen şifre sıfırlama e-postasındaki linke tıklayın.
     registrations:
       destroyed: Hesabınız başarıyla kapatıldı. En kısa sürede görüşmek üzere!
       signed_up: Başarıyla giriş yaptınız. Hoşgeldiniz!
