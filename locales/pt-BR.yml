@@ -33,6 +33,9 @@ pt-BR:
         você receberá um email com um link para recuperação da senha.
       updated: A sua senha foi alterada com sucesso. Você está autenticado.
       updated_not_active: Sua senha foi alterada com sucesso.
+      no_token: Você não pode acessar esta página sem estar logado. Se você veio de
+        um email de lembre de senha, por favor certifique-se de ter  digitado a URL
+        corretamente.
     registrations:
       destroyed: Adeus! A sua conta foi cancelada com sucesso. Esperamos vê-lo novamente
         em breve.

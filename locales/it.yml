@@ -33,6 +33,9 @@ it:
         un messaggio email contentente un link per il ripristino della password
       updated: La tua password è stata cambiata. Ora sei collegato.
       updated_not_active: La tua password è stata cambiata.
+      no_token: Puoi accedere a questa pagina solamente dalla email di reset della
+        password. Se vieni dalla email controlla di aver inserito l'url completo riportato
+        nella email.
     registrations:
       destroyed: Arrivederci! L'account è stato cancellato. Speriamo di rivederci
         presto.
