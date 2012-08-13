@@ -3,8 +3,8 @@ sl:
     confirmations:
       confirmed: Vaš račun je bil uspešno potrjen. Sedaj ste prijavljeni.
       send_instructions: Prejeli boste e-pošto z navodili kako potrditi vaš račun.
-      send_paranoid_instructions: Če vaša e-pošta obstaja v naši bazi, boste v
-        naslednjih minutah prejeli e-pošto z navodili kako potrditi vaš uporabniški račun.
+      send_paranoid_instructions: Če vaša e-pošta obstaja v naši bazi, boste v naslednjih
+        minutah prejeli e-pošto z navodili kako potrditi vaš uporabniški račun.
     failure:
       already_authenticated: Ste že prijavljeni.
       inactive: Vaš račun še ni bil aktiviran.
@@ -31,9 +31,9 @@ sl:
         minutah na vašo e-pošto prejeli povezavo za obnovitev gesla.
       updated: Vaše geslo je bilo uspešno spremenjeno. Sedaj ste prijavljeni.
       updated_not_active: Vaše geslo je bilo uspešno spremenjeno.
-      no_token: Do te strani lahko dostopate samo iz povezave v e-pošti za
-        ponastavitev gesla. Če pa ste prišli do te strani preko omenjene povezave,
-        preverite, da ste uporabili celotni URL.
+      no_token: Do te strani lahko dostopate samo iz povezave v e-pošti za ponastavitev
+        gesla. Če pa ste prišli do te strani preko omenjene povezave, preverite, da
+        ste uporabili celotni URL.
     registrations:
       destroyed: Nasvidenje. Vaš račun je bil uspešno preklican. Upamo, da se kmalu
         vrnete.
@@ -42,11 +42,12 @@ sl:
         je potrebno vaš račun še aktivirati.
       signed_up_but_locked: Uspešno ste se registrirali, vendar prijava ni mogoča,
         ker je vaš račun zaklenjen.
-      signed_up_but_unconfirmed: Sporočilo s potrditveno povezavo je bilo poslano na
-        vašo e-pošto. Prosimo, kliknite povezavo za aktivacijo vašega računa.
-      update_needs_confirmation: Vaš račun je uspešno posodobljen, vendar potrebno je
-        preveriti vaš novi e-poštni naslov. Prosimo, preverite vašo e-pošto in kliknite
-        na potrditveno povezavo za dokončanje potrditve vašega novega e-poštnega naslova.
+      signed_up_but_unconfirmed: Sporočilo s potrditveno povezavo je bilo poslano
+        na vašo e-pošto. Prosimo, kliknite povezavo za aktivacijo vašega računa.
+      update_needs_confirmation: Vaš račun je uspešno posodobljen, vendar potrebno
+        je preveriti vaš novi e-poštni naslov. Prosimo, preverite vašo e-pošto in
+        kliknite na potrditveno povezavo za dokončanje potrditve vašega novega e-poštnega
+        naslova.
       updated: Uspešno ste posodobili vaš račun.
     sessions:
       signed_in: Prijava je bila uspešna.
