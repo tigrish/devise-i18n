@@ -2,18 +2,15 @@ sk:
   devise:
     confirmations:
       confirmed: Váš účet bol úspešne overený. Teraz ste prihláseny.
-      send_instructions: O niekoľko minút obdržíte email s inštrukciami ako potvrdiť
-        váš účet.
-      send_paranoid_instructions: Ak sa váš email nachádza v našej databáze, obdržíte
-        email s inštrukciami ako potvrdiť váš účet.
+      send_instructions: O niekoľko minút obdržíte email s inštrukciami ako potvrdiť váš účet.
+      send_paranoid_instructions: Ak sa váš email nachádza v našej databáze, obdržíte email s inštrukciami ako potvrdiť váš účet.
     failure:
       already_authenticated: Už ste prihláseny.
       inactive: Váš účet ešte nebol aktivovaný.
       invalid: Nesprávny email alebo heslo.
       invalid_token: Nesprávny overovací symbol.
       locked: Váš účet je  uzamknutý.
-      timeout: Platnosť session vypršala, prosím prihláste sa znovu, potom môžete
-        pokračovať.
+      timeout: Platnosť session vypršala, prosím prihláste sa znovu, potom môžete pokračovať.
       unauthenticated: Musíte sa zaregistrovať alebo odhlásiť, potom možete pokračovať.
       unconfirmed: Musíte potvrdiť svoj účet, potom možete pokračovať.
     mailer:
@@ -27,25 +24,20 @@ sk:
       failure: Nie je možné vás autorizovať z %{kind}, pretože %{reason}.
       success: Úspešná autorizácia z účtu %{kind}.
     passwords:
-      send_instructions: O niekoľko minút obdržíte email s inštrukciami ako nastaviť
-        nové heslo.
-      send_paranoid_instructions: Ak sa váš email nachádza v našej databáze, obdržíte
-        odkaz na obnovu hesla na svoj email.
+      send_instructions: O niekoľko minút obdržíte email s inštrukciami ako nastaviť nové heslo.
+      send_paranoid_instructions: Ak sa váš email nachádza v našej databáze, obdržíte odkaz na obnovu hesla na svoj email.
       updated: Vaše heslo bolo úspešne zmenené. Teraz ste prihláseny.
       updated_not_active: Vaše heslo bolo úspešne zmenené.
     registrations:
-      destroyed: Dovidenia! Váš účet bol úspešne zrušený. Dúfame, že sa čoskoro opäť
-        uvidíme.
+      destroyed: Dovidenia! Váš účet bol úspešne zrušený. Dúfame, že sa čoskoro opäť uvidíme.
       signed_up: Vitajte! Registrácia bola úspešná.
       updated: Váš účet bol úspešne aktualizovaný.
     sessions:
       signed_in: Prihlásenie úspešné.
       signed_out: Odhlásenie úspešné.
     unlocks:
-      send_instructions: O niekoľko minút obdržíte email s inštrukciami ako odomknúť
-        vaš účet.
-      send_paranoid_instructions: Ak váš účet existuje, o niekoľko minút obdržíte
-        email s inštrukciami ako ho odomknúť.
+      send_instructions: O niekoľko minút obdržíte email s inštrukciami ako odomknúť vaš účet.
+      send_paranoid_instructions: Ak váš účet existuje, o niekoľko minút obdržíte email s inštrukciami ako ho odomknúť.
       unlocked: Váš účet bol úspešne odomknutý. Teraz ste prihláseny
   errors:
     messages:

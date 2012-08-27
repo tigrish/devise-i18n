@@ -24,6 +24,7 @@ zh-TW:
       failure: 因為「%{reason}」，無法認證您的 %{kind} 帳戶
       success: 已成功認證您的 %{kind} 帳戶
     passwords:
+      no_token: 您暫時不能訪問此頁面。您需要通過密碼重置郵件中的重置鏈接來訪問此頁面，如果您正是通過重置鏈接訪問，請確定鏈接的正確性。
       send_instructions: 您將在幾分鐘後收到一封電子郵件，內有重新設定密碼的步驟說明。
       send_paranoid_instructions: 如果此電子郵件信箱真存在於資料庫中的話，您將在幾分鐘後收到一封電子郵件，內有回復密碼專用的網址。
       updated: 您的密碼已被修改，而您現在已重新登入。

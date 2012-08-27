@@ -2,8 +2,7 @@ id:
   devise:
     confirmations:
       confirmed: Akun anda telah berhasil dikonfirmasi. Anda telah sign in.
-      send_instructions: Anda akan menerima e-mail berisi instruksi untuk melakukan
-        konfirmasi akun dalam beberapa menit lagi.
+      send_instructions: Anda akan menerima e-mail berisi instruksi untuk melakukan konfirmasi akun dalam beberapa menit lagi.
     failure:
       inactive: Akun anda belum diaktifkan.
       invalid: email atau password yang anda masukkan salah.
@@ -20,20 +19,17 @@ id:
       unlock_instructions:
         subject: Instruksi untuk membuka kembali akun anda
     passwords:
-      send_instructions: Anda akan menerima e-mail berisi instruksi untuk melakukan
-        reset password beberapa menit lagi.
+      send_instructions: Anda akan menerima e-mail berisi instruksi untuk melakukan reset password beberapa menit lagi.
       updated: Password anda telah berhasil diubah. Anda telah sign in.
     registrations:
       destroyed: Selamat Tinggal,  Akun anda telah di hapus
-      signed_up: Proses pendaftaran berhasil. Apabila diaktifkan, konfirmasi telah
-        dikirimkan ke e-mail anda.
+      signed_up: Proses pendaftaran berhasil. Apabila diaktifkan, konfirmasi telah dikirimkan ke e-mail anda.
       updated: Akun anda telah berhasil diperbaharui.
     sessions:
       signed_in: Proses sign in berhasil.
       signed_out: Proses sign out berhasil.
     unlocks:
-      send_instructions: Anda akan menerima e-mail berisi instruksi untuk membuka
-        kembali akun anda dalam beberapa menit lagi.
+      send_instructions: Anda akan menerima e-mail berisi instruksi untuk membuka kembali akun anda dalam beberapa menit lagi.
       unlocked: Akun anda telah berhasil dibuka kembali. Anda telah sign in.
   errors:
     messages:

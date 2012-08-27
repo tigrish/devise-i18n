@@ -2,8 +2,7 @@ my:
   devise:
     confirmations:
       confirmed: Akaun anda telah berjaya disahkan. Anda telah sign in.
-      send_instructions: Anda akan menerima e-mail mengenai langkah proses pengesahan
-        akaun sebentar lagi.
+      send_instructions: Anda akan menerima e-mail mengenai langkah proses pengesahan akaun sebentar lagi.
     failure:
       inactive: Akun anda belum diaktifkan.
       invalid: email atau password yang anda masukkan salah.
@@ -20,20 +19,17 @@ my:
       unlock_instructions:
         subject: Arahan membuka akaun kembali
     passwords:
-      send_instructions: Anda akan menerima e-mail mengenai langkah mengubah password
-        sebentar lagi.
+      send_instructions: Anda akan menerima e-mail mengenai langkah mengubah password sebentar lagi.
       updated: Password anda telah berjaya diubah. Anda telah sign in.
     registrations:
       destroyed: Selamat Tinggal, akaun anda telah di tutup
-      signed_up: Proses pendaftaran berjaya. Link untuk mengaktifkan akaun telah dihantar
-        di e-mail.
+      signed_up: Proses pendaftaran berjaya. Link untuk mengaktifkan akaun telah dihantar di e-mail.
       updated: Akaun anda telah dikemaskini
     sessions:
       signed_in: Proses sign in berjaya.
       signed_out: Proses sign out berjaya.
     unlocks:
-      send_instructions: Anda akan menerima e-mail mengenai langkah membuka akaun
-        kembali sebentar lagi.
+      send_instructions: Anda akan menerima e-mail mengenai langkah membuka akaun kembali sebentar lagi.
       unlocked: Akun anda telah berjaya dibuka. Anda telah sign in.
   errors:
     messages:

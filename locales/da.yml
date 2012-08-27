@@ -2,11 +2,8 @@ da:
   devise:
     confirmations:
       confirmed: Din konto er aktiveret og du er nu logget ind.
-      send_instructions: Om få minutter vil du modtage en email med instruktioner
-        om aktivering af din konto.
-      send_paranoid_instructions: Hvis din e-mail adresse findes i vores database
-        vil du modtage en e-mail med instruktioner om hvordan du kan aktivere din
-        konto.
+      send_instructions: Om få minutter vil du modtage en email med instruktioner om aktivering af din konto.
+      send_paranoid_instructions: Hvis din e-mail adresse findes i vores database vil du modtage en e-mail med instruktioner om hvordan du kan aktivere din konto.
     failure:
       already_authenticated: Du er allerede logget ind.
       inactive: Din konto er ikke bekræftet.
@@ -27,10 +24,8 @@ da:
       failure: Du kunne ikke logges ind med din %{kind} konto.
       success: Du er nu logget ind med din %{kind} konto.
     passwords:
-      send_instructions: Du vil om et øjeblik modtage en email vedrørende nulstilling
-        af kodeord.
-      send_paranoid_instructions: Hvis din e-mail adresse findes i vores database
-        vil du modtage et link til hvor du kan nulstille dit kodeord.
+      send_instructions: Du vil om et øjeblik modtage en email vedrørende nulstilling af kodeord.
+      send_paranoid_instructions: Hvis din e-mail adresse findes i vores database vil du modtage et link til hvor du kan nulstille dit kodeord.
       updated: Dit kodeord er ændret og du er nu logget ind.
       updated_not_active: Dit kodeord er ændret.
     registrations:
@@ -41,11 +36,8 @@ da:
       signed_in: Du er nu logget ind.
       signed_out: Du er nu logget ud.
     unlocks:
-      send_instructions: Om få minutter vil du modtage en email med instruktioner
-        om genåbning af din konto.
-      send_paranoid_instructions: Hvis din e-mail adresse findes i vores database
-        vil du modtage in e-mail med instutioner om hvordan du kan låse din konto
-        op.
+      send_instructions: Om få minutter vil du modtage en email med instruktioner om genåbning af din konto.
+      send_paranoid_instructions: Hvis din e-mail adresse findes i vores database vil du modtage in e-mail med instutioner om hvordan du kan låse din konto op.
       unlocked: Din konto er genåbnet og du er nu logget ind.
   errors:
     messages:

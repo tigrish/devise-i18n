@@ -2,10 +2,8 @@ lv:
   devise:
     confirmations:
       confirmed: Jūsu lietotājs ir veiksmīgi apstiprināts. Jūs esat pieslēdzies.
-      send_instructions: Pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts,
-        kā apstiprināt Jūsu lietotāju.
-      send_paranoid_instructions: Ja Jūsu parole eksistē mūsu datubāzē, tad pāris
-        minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā apstiprināt Jūsu lietotāju.
+      send_instructions: Pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā apstiprināt Jūsu lietotāju.
+      send_paranoid_instructions: Ja Jūsu parole eksistē mūsu datubāzē, tad pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā apstiprināt Jūsu lietotāju.
     failure:
       already_authenticated: Jūs jau esiet pieslēdzies.
       inactive: Jūsu lietotajs vēl nav aktivizēts.
@@ -26,24 +24,19 @@ lv:
       failure: ! 'Neizdevās autorizeties ar %{kind} lietotāju. Iemesls: "%{reason}".'
       success: Veiksmīgi autorizējis ar %{kind} lietotāju.
     passwords:
-      send_instructions: Pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts,
-        kā nomainīt jūsu paroli.
-      send_paranoid_instructions: Ja Jūsu parole eksistē mūsu datubāzē, tad jums tiks
-        nosūtīts paroles atjaunošanas apraksts uz epastu
+      send_instructions: Pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā nomainīt jūsu paroli.
+      send_paranoid_instructions: Ja Jūsu parole eksistē mūsu datubāzē, tad jums tiks nosūtīts paroles atjaunošanas apraksts uz epastu
       updated: Jūsu parole ir veiksmīgi nomainīta. Jūs esat pieslēdzies.
     registrations:
-      destroyed: Uz redzēšanos! Jūsu lietotājs ir veiksmīgi dzēsts. Ceram Jūs atkal
-        redzēt drīzumā.
+      destroyed: Uz redzēšanos! Jūsu lietotājs ir veiksmīgi dzēsts. Ceram Jūs atkal redzēt drīzumā.
       signed_up: Laipni lūgti! Jūs esiet veiksmīgi reģistrējies.
       updated: Jūsu lietotājs ir veiksmīgi labots.
     sessions:
       signed_in: Veiksmīgi pieslēdzies.
       signed_out: Veiksmīgi atslēdzies.
     unlocks:
-      send_instructions: Pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts,
-        kā atbloķēt Jūsu lietotāju.
-      send_paranoid_instructions: Ja Jūsu parole eksistē mūsu datubāzē, tad pāris
-        minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā atbloķēt jūsu lietotāju.
+      send_instructions: Pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā atbloķēt Jūsu lietotāju.
+      send_paranoid_instructions: Ja Jūsu parole eksistē mūsu datubāzē, tad pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā atbloķēt jūsu lietotāju.
       unlocked: Jūsu lietotājs ir veiksmīgi atbloķēts. Jūs esat pieslēdzies.
   errors:
     messages:

@@ -2,8 +2,7 @@ hr:
   devise:
     confirmations:
       confirmed: Vaš račun je uspješno potvrđen. Sad ste prijavljeni.
-      send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za potvrdu
-        Vašeg računa.
+      send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za potvrdu Vašeg računa.
     failure:
       already_authenticated: Već ste prijavljeni.
       inactive: Vaš račun još nije aktiviran.
@@ -24,20 +23,17 @@ hr:
       failure: Nismo Vas u mogućnosti autorizirati sa %{kind} računom zbog "%{reason}".
       success: Uspjena autorizacija sa %{kind} računa.
     passwords:
-      send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za promjenu
-        Vaše lozinke.
+      send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za promjenu Vaše lozinke.
       updated: Vaša lozinka je uspješno promjenjena. Sad ste prijavljeni.
     registrations:
-      destroyed: Pozdrav! Vaš račun je uspješno obrisan. Nadamo se da ćete se brzo
-        vratiti.
+      destroyed: Pozdrav! Vaš račun je uspješno obrisan. Nadamo se da ćete se brzo vratiti.
       signed_up: Dobrodošli! Uspješno ste se registrirali.
       updated: Uspješno ste izmjenili Vaš račun.
     sessions:
       signed_in: Uspješno ste se prijavili.
       signed_out: Uspješno ste se odjavili.
     unlocks:
-      send_instructions: U roku nekoliko minuta čete primiti e-mail s uputama za otključavanje
-        Vašeg računa.
+      send_instructions: U roku nekoliko minuta čete primiti e-mail s uputama za otključavanje Vašeg računa.
       unlocked: Vaš račun je uspješno otključan. Sad ste prijavljeni.
   errors:
     messages:

@@ -3,8 +3,7 @@ hu:
     confirmations:
       confirmed: Fiók megerősítve. Bejelentkezve a felhasználói fiókba.
       send_instructions: A megadott címre egy email érkezik a megerősítő linkkel.
-      send_paranoid_instructions: Ha az email cím már létezik az adatbázisban, egy
-        emailt küldtünk a további teendőkkel a fiók megerősítéséhez.
+      send_paranoid_instructions: Ha az email cím már létezik az adatbázisban, egy emailt küldtünk a további teendőkkel a fiók megerősítéséhez.
     failure:
       already_authenticated: Már belépett.
       inactive: A fiók még nincs aktiválva.
@@ -26,33 +25,24 @@ hu:
       success: Sikeres azonosítás %{kind} fiókkal.
     passwords:
       send_instructions: A megadott címre egy email érkezik hamarosan a további teendőkről.
-      send_paranoid_instructions: Ha az email cím már létezik az adatbázisban, egy
-        jelszó-visszaállító emailt küldtünk a megadott címre.
+      send_paranoid_instructions: Ha az email cím már létezik az adatbázisban, egy jelszó-visszaállító emailt küldtünk a megadott címre.
       updated: A jelszó megváltozott. Bejelentkezve a felhasználói fiókba
       updated_not_active: A jelszó megváltozott
     registrations:
       destroyed: Felhasználói fiók törölve. Reméljük, még visszatér hozzánk.
       signed_up: Sikeres regisztráció.
-      signed_up_but_inactive: A regisztráció sikerült, azonban a bejelentkezés még
-        nem lehetséges, mert a fiók nincs aktiválva.
-      signed_up_but_locked: A regisztráció sikerült, azonban a bejelentkezés még nem
-        lehetséges, mert a fiók zárolt.
-      signed_up_but_unconfirmed: Egy megerősítő linket küldtünk a megadott e-mail
-        címre. Nézze meg az e-mailjeit, és kattintson a küldött linkre a fiók aktiválásához.
-      update_needs_confirmation: A fiók módosítása sikeres, de meg kell erősíteni
-        az e-mail címet. Nézze meg az e-mailjeit, és kattintson a küldött linkre hogy
-        megerősítse az e-mail cím létezését.
+      signed_up_but_inactive: A regisztráció sikerült, azonban a bejelentkezés még nem lehetséges, mert a fiók nincs aktiválva.
+      signed_up_but_locked: A regisztráció sikerült, azonban a bejelentkezés még nem lehetséges, mert a fiók zárolt.
+      signed_up_but_unconfirmed: Egy megerősítő linket küldtünk a megadott e-mail címre. Nézze meg az e-mailjeit, és kattintson a küldött linkre a fiók aktiválásához.
+      update_needs_confirmation: A fiók módosítása sikeres, de meg kell erősíteni az e-mail címet. Nézze meg az e-mailjeit, és kattintson a küldött linkre hogy megerősítse az e-mail cím létezését.
       updated: Sikeres fiók módosítás.
     sessions:
       signed_in: Sikeres bejelentkezés.
       signed_out: A kijelentkezés sikeres.
     unlocks:
-      send_instructions: Hamarosan a megadott címre érkezik egy email a fiók zárolásának
-        megszüntetésével kapcsolatban.
-      send_paranoid_instructions: Ha a fiók létezik, egy emailt küldtünk a további
-        teendőkkel a fiók zárolásának megszüntetéséhez.
-      unlocked: A felhasználói fiók zárolása megszűnt. Bejelentkezve a felhasználói
-        fiókba.
+      send_instructions: Hamarosan a megadott címre érkezik egy email a fiók zárolásának megszüntetésével kapcsolatban.
+      send_paranoid_instructions: Ha a fiók létezik, egy emailt küldtünk a további teendőkkel a fiók zárolásának megszüntetéséhez.
+      unlocked: A felhasználói fiók zárolása megszűnt. Bejelentkezve a felhasználói fiókba.
   errors:
     messages:
       already_confirmed: már meg van erősítve

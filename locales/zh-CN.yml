@@ -24,6 +24,7 @@ zh-CN:
       failure: 因为%{reason}，所以您无法从%{kind}获得授权.
       success: 成功地从%{kind}获得授权.
     passwords:
+      no_token: 您暂时不能访问此页面。您需要通过密码重置邮件中的重置链接来访问此页面，如果您正是通过重置链接访问，请确定链接的正确性。
       send_instructions: 几分钟后，您将收到重置密码的电子邮件.
       send_paranoid_instructions: 如果您的邮箱存在于我们的数据库中，您将收到一封找回密码的邮件.
       updated: 您的密码已修改成功，您现在已登录.
