@@ -28,6 +28,7 @@ es:
       send_paranoid_instructions: Si tu correo existe en nuestra base de datos, vas a recibir un correo con instrucciones sobre cómo resetear tu contraseña en tu bandeja de entrada.
       updated: Tu contraseña fue cambiada. Ya iniciaste sesión.
       updated_not_active: Tu contraseña fue cambiada.
+      no_token: No puedes acceder a esta página si no es a través de un un enlace para resetear tu contraseña. Si has llegado hasta aquí desde el email para resetear tu contraseña, por favor asegúrate de que la URL introducida está completa.
     registrations:
       destroyed: Fue grato tenerte con nosotros. Tu cuenta fue cancelada.
       signed_up: Bienvenido. Tu cuenta fue creada.
