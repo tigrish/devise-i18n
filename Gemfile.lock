@@ -5,7 +5,10 @@ GEM
     git (1.2.5)
     gli (2.0.0)
     i18n (0.6.1)
-    i18n-spec (0.1.2)
+    i18n-spec (0.2.4)
+      iso
+    iso (0.0.5)
+      i18n
     jeweler (1.8.3)
       bundler (~> 1.0)
       git (>= 1.2.5)
