@@ -24,11 +24,11 @@ nb:
       failure: Kunne ikke autorisere deg fra %{kind} fordi "%{reason}".
       success: Vellykket autorisering fra %{kind}.
     passwords:
+      no_token: For å få tilgang til denne siden må du klikket deg inn fra en epost for å sette passord på nytt. Hvis du klikket deg inn fra en slik epost, sørg for at hele lenken ble brukt.
       send_instructions: Du vil snart motta en epost med instruksjoner for å nullstille passordet ditt.
       send_paranoid_instructions: Hvis e-postadressen allerede finnes i databasen, vil du motta en lenke for å sette passordet på nytt
       updated: Ditt passord er endret og du er nå innlogget.
       updated_not_active: Passordet er endret.
-      no_token: For å få tilgang til denne siden må du klikket deg inn fra en epost for å sette passord på nytt. Hvis du klikket deg inn fra en slik epost, sørg for at hele lenken ble brukt.
     registrations:
       destroyed: Farvel. Din konto er nå slettet.
       signed_up: Velkommen! Din registrering er vellykket.
