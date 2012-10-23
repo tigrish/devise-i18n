@@ -3,6 +3,7 @@ hr:
     confirmations:
       confirmed: Vaš račun je uspješno potvrđen. Sad ste prijavljeni.
       send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za potvrdu Vašeg računa.
+      send_paranoid_instructions: 
     failure:
       already_authenticated: Već ste prijavljeni.
       inactive: Vaš račun još nije aktiviran.
@@ -23,17 +24,25 @@ hr:
       failure: Nismo Vas u mogućnosti autorizirati sa %{kind} računom zbog "%{reason}".
       success: Uspjena autorizacija sa %{kind} računa.
     passwords:
+      no_token: 
       send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za promjenu Vaše lozinke.
+      send_paranoid_instructions: 
       updated: Vaša lozinka je uspješno promjenjena. Sad ste prijavljeni.
+      updated_not_active: 
     registrations:
       destroyed: Pozdrav! Vaš račun je uspješno obrisan. Nadamo se da ćete se brzo vratiti.
       signed_up: Dobrodošli! Uspješno ste se registrirali.
+      signed_up_but_inactive: 
+      signed_up_but_locked: 
+      signed_up_but_unconfirmed: 
+      update_needs_confirmation: 
       updated: Uspješno ste izmjenili Vaš račun.
     sessions:
       signed_in: Uspješno ste se prijavili.
       signed_out: Uspješno ste se odjavili.
     unlocks:
       send_instructions: U roku nekoliko minuta čete primiti e-mail s uputama za otključavanje Vašeg računa.
+      send_paranoid_instructions: 
       unlocked: Vaš račun je uspješno otključan. Sad ste prijavljeni.
   errors:
     messages:

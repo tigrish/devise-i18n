@@ -20,6 +20,9 @@ he:
         subject: הוראות לאיפוס סיסמא
       unlock_instructions:
         subject: הוראות להסרת נעילה
+    omniauth_callbacks:
+      failure: 
+      success: 
     passwords:
       no_token: אינך יכול/ה לגשת לעמוד זה אם לא הופנת מאימייל לשינוי סיסמא. אם את/ה כן מגיע משם, אנא ודא/י שהשתמשת בכתובת אינטרנט המלאה.
       send_instructions: בדקות הקרובות יגיע אליך אימייל עם הנחיות כיצד לאפס את סיסמתך.

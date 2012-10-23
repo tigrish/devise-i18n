@@ -24,6 +24,7 @@ is:
       failure: ! 'Innskráning með %{kind} aðgangi mistókst: %{reason}.'
       success: Innskráning með %{kind} aðgangi tókst.
     passwords:
+      no_token: 
       send_instructions: Innan nokkra mínútna færðu tölvupóst með leiðbeiningum um hvernig hægt sé að endurstilla aðganginn þinn.
       send_paranoid_instructions: Ef netfangið þitt er til í gagnagrunninum okkar munt þú fá leiðbeiningar um endurstillingu sendar í tölvupósti innan nokkra mínútna.
       updated: Lykilorði þínu hefur nú verið breytt. Þú ert núna innskráð(ur).

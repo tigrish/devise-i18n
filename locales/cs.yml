@@ -24,6 +24,7 @@ cs:
       failure: ! 'Není možné autorizovat z %{kind}, protože: "%{reason}".'
       success: Úspěšná autorizace z účtu %{kind}.
     passwords:
+      no_token: 
       send_instructions: Za několik minut obdržíte email s instrukcemi k nastavení nového hesla.
       send_paranoid_instructions: Pokud váš e-mail existuje v naší databázi, za několik minut obdržíte e-mail s instrukcemi k nastavení nového hesla.
       updated: Vaše heslo bylo úspěšně změněno. Nyní jste přihlášen(a).

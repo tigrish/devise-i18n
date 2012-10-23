@@ -24,6 +24,7 @@ sk:
       failure: Nie je možné vás autorizovať z %{kind}, pretože %{reason}.
       success: Úspešná autorizácia z účtu %{kind}.
     passwords:
+      no_token: 
       send_instructions: O niekoľko minút obdržíte email s inštrukciami ako nastaviť nové heslo.
       send_paranoid_instructions: Ak sa váš email nachádza v našej databáze, obdržíte odkaz na obnovu hesla na svoj email.
       updated: Vaše heslo bolo úspešne zmenené. Teraz ste prihláseny.
@@ -31,6 +32,10 @@ sk:
     registrations:
       destroyed: Dovidenia! Váš účet bol úspešne zrušený. Dúfame, že sa čoskoro opäť uvidíme.
       signed_up: Vitajte! Registrácia bola úspešná.
+      signed_up_but_inactive: 
+      signed_up_but_locked: 
+      signed_up_but_unconfirmed: 
+      update_needs_confirmation: 
       updated: Váš účet bol úspešne aktualizovaný.
     sessions:
       signed_in: Prihlásenie úspešné.

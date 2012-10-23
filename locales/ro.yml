@@ -24,6 +24,7 @@ ro:
       failure: Nu te-am putut autoriza de pe contul de %{kind} pentru că "%{reason}".
       success: Autorizat cu success din contul de %{kind}.
     passwords:
+      no_token: 
       send_instructions: Veţi primi un e-mail cu instrucţiunile pentru resetarea parolei dvs. în câteva minute.
       send_paranoid_instructions: Dacă e-mailul dvs. există în baza noastră de date, veţi primi un link de recuperare a parolei pe adresa de e-mail.
       updated: Parola dvs. a fost schimbată cu succes. Sunteţi autentificat.

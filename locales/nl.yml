@@ -24,11 +24,11 @@ nl:
       failure: We konden je niet inloggen op je %{kind} omdat "%{reason}".
       success: Je bent succesvol ingelogd op je %{kind} account.
     passwords:
+      no_token: Deze pagina is alleen bereikbaar via een wachtwoord reset e-mail. Als je wel via een wachtwoord reset email komt, zorg er dan voor dat je de volledige URL gebruikt.
       send_instructions: Je ontvangt via e-mail instructies hoe je je wachtwoord moet resetten.
       send_paranoid_instructions: Als we je e-mail adres terugvinden in onze database, zal je binnen enkele ogenblikken via e-mail een link ontvangen om je paswoord te resetten.
       updated: Je wachtwoord is gewijzigd. Je bent nu ingelogd.
       updated_not_active: Je wachtwoord werd met succes gewijzigd.
-      no_token: Deze pagina is alleen bereikbaar via een wachtwoord reset e-mail. Als je wel via een wachtwoord reset email komt, zorg er dan voor dat je de volledige URL gebruikt.
     registrations:
       destroyed: Je account is verwijderd, wellicht tot ziens!
       signed_up: Je bent inschreven.

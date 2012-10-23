@@ -24,6 +24,7 @@ da:
       failure: Du kunne ikke logges ind med din %{kind} konto.
       success: Du er nu logget ind med din %{kind} konto.
     passwords:
+      no_token: 
       send_instructions: Du vil om et øjeblik modtage en email vedrørende nulstilling af kodeord.
       send_paranoid_instructions: Hvis din e-mail adresse findes i vores database vil du modtage et link til hvor du kan nulstille dit kodeord.
       updated: Dit kodeord er ændret og du er nu logget ind.
@@ -31,6 +32,10 @@ da:
     registrations:
       destroyed: Farvel. Din konto er nu lukket.
       signed_up: Din registrering er godkendt.
+      signed_up_but_inactive: 
+      signed_up_but_locked: 
+      signed_up_but_unconfirmed: 
+      update_needs_confirmation: 
       updated: Din profil er opdateret.
     sessions:
       signed_in: Du er nu logget ind.

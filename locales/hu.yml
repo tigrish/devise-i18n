@@ -24,6 +24,7 @@ hu:
       failure: ! 'Nem sikerült azonosítani %{kind} fiókkal, az ok: "%{reason}".'
       success: Sikeres azonosítás %{kind} fiókkal.
     passwords:
+      no_token: 
       send_instructions: A megadott címre egy email érkezik hamarosan a további teendőkről.
       send_paranoid_instructions: Ha az email cím már létezik az adatbázisban, egy jelszó-visszaállító emailt küldtünk a megadott címre.
       updated: A jelszó megváltozott. Bejelentkezve a felhasználói fiókba
