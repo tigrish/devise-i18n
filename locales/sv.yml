@@ -24,6 +24,7 @@ sv:
       failure: Kunde inte autentisera dig med %{kind} för "%{reason}".
       success: Autentiserat med %{kind}-konto.
     passwords:
+      no_token: Tillgång till den här sidan kräver att du kommer från ett mejl som sätter tillbaka ditt lösenord. Om du kom hit från ett sånt mejl, säkerställ att du har använt hela URL:en.
       send_instructions: Du kommer få epost med instruktioner om hur du kan återställa ditt lösenord inom några minuter.
       send_paranoid_instructions: Om din epostadress finns i vår databas, kommer du att få en lösenordslänk till din epost.
       updated: Ditt lösenord har uppdaterats. Du är nu inloggad.

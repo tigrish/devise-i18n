@@ -24,6 +24,7 @@ pl:
       failure: Logowanie przez konto %{kind} zakończyło się błędem z powodu "%{reason}".
       success: Logowanie przez konto %{kind} zakończyło się sukcesem.
     passwords:
+      no_token: Do tej strony możesz dostać się tylko poprzez wiadomość e-mail resetującą hasło. Jeśli to z niej tu trafiłeś, upewnij się, że użyłeś pełnego adresu.
       send_instructions: Instrukcja zmiany hasła zostanie niezwłocznie wysłana na podany adres email.
       send_paranoid_instructions: Jeśli Twój mail istnieje w naszej bazie, otrzymasz zaraz email z instrukcjami odzyskiwania hasła
       updated: Hasło zmienione poprawnie. Zostałeś automatycznie zalogowany.
