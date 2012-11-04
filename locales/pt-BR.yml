@@ -31,7 +31,7 @@ pt-BR:
       updated_not_active: Sua senha foi alterada com sucesso.
     registrations:
       destroyed: Adeus! A sua conta foi cancelada com sucesso. Esperamos vê-lo novamente em breve.
-      signed_up: Login efetuado com sucesso. Se não foi autorizado, a confirmação será enviada por email.
+      signed_up: Bem vindo! Você realizou seu registro com sucesso.
       signed_up_but_inactive: Você se inscreveu com sucesso, porém nós não podemos autenticá-lo porque sua conta ainda não foi ativada.
       signed_up_but_locked: Você se inscreveu com sucesso. Porém nós não podemos autenticá-lo porque sua conta está bloqueada.
       signed_up_but_unconfirmed: Uma mensagem com um link de confirmação foi enviada para o seu e-mail. Por favor, acesse o link para ativar sua conta.
