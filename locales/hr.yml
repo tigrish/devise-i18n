@@ -3,7 +3,7 @@ hr:
     confirmations:
       confirmed: Vaš račun je uspješno potvrđen. Sad ste prijavljeni.
       send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za potvrdu Vašeg računa.
-      send_paranoid_instructions: 
+      send_paranoid_instructions: Ukoliko se Vaša email adresa nalazi u našoj bazi u roku od nekoliko minuta ćete primiti mail s uputama kako potvrditi Vaš račun.
     failure:
       already_authenticated: Već ste prijavljeni.
       inactive: Vaš račun još nije aktiviran.
@@ -24,16 +24,16 @@ hr:
       failure: Nismo Vas u mogućnosti autorizirati sa %{kind} računom zbog "%{reason}".
       success: Uspjena autorizacija sa %{kind} računa.
     passwords:
-      no_token: 
+      no_token: Ne možete pristupiti ovoj stranici ako niste kliknuli na link u emailu za restiranje lozinke.
       send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za promjenu Vaše lozinke.
-      send_paranoid_instructions: 
+      send_paranoid_instructions: Ukoliko se Vaša email adresa nalazi u našoj bazi, na istu ćete u roku od nekoliko minuta primiti link za resetiranje lozinke.
       updated: Vaša lozinka je uspješno promjenjena. Sad ste prijavljeni.
-      updated_not_active: 
+      updated_not_active: Vaša lozinka je uspješno promijenjena.
     registrations:
       destroyed: Pozdrav! Vaš račun je uspješno obrisan. Nadamo se da ćete se brzo vratiti.
       signed_up: Dobrodošli! Uspješno ste se registrirali.
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
+      signed_up_but_inactive: Uspješno ste se registrirali. Doduše, ne možete se prijaviti u sustav zato što Vaš račun još nije aktiviran.
+      signed_up_but_locked: Uspješno ste se registrirali. Nažalost ne možete se prijaviti jer Vam je račun zaključan.
       signed_up_but_unconfirmed: 
       update_needs_confirmation: 
       updated: Uspješno ste izmjenili Vaš račun.
@@ -42,7 +42,7 @@ hr:
       signed_out: Uspješno ste se odjavili.
     unlocks:
       send_instructions: U roku nekoliko minuta čete primiti e-mail s uputama za otključavanje Vašeg računa.
-      send_paranoid_instructions: 
+      send_paranoid_instructions: Ako Vaš račun postoji, na email ćete u roku nekoliko minuta primiti upute kako ga otključati.
       unlocked: Vaš račun je uspješno otključan. Sad ste prijavljeni.
   errors:
     messages:

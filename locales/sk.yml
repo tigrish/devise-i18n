@@ -9,9 +9,9 @@ sk:
       inactive: Váš účet ešte nebol aktivovaný.
       invalid: Nesprávny email alebo heslo.
       invalid_token: Nesprávny overovací symbol.
-      locked: Váš účet je  uzamknutý.
+      locked: Váš účet je uzamknutý.
       timeout: Platnosť session vypršala, prosím prihláste sa znovu, potom môžete pokračovať.
-      unauthenticated: Musíte sa zaregistrovať alebo odhlásiť, potom možete pokračovať.
+      unauthenticated: Musíte sa zaregistrovať alebo prihlásiť, potom možete pokračovať.
       unconfirmed: Musíte potvrdiť svoj účet, potom možete pokračovať.
     mailer:
       confirmation_instructions:
@@ -24,7 +24,7 @@ sk:
       failure: Nie je možné vás autorizovať z %{kind}, pretože %{reason}.
       success: Úspešná autorizácia z účtu %{kind}.
     passwords:
-      no_token: 
+      no_token: Túto stránku nemôžete navštíviť pokiaľ neprichádzate z emailu s inštrukciami na obnovu hesla. Pokiaľ prichádzate z tohto emailu, prosím uistite sa že ste použili celú URL z emailu.
       send_instructions: O niekoľko minút obdržíte email s inštrukciami ako nastaviť nové heslo.
       send_paranoid_instructions: Ak sa váš email nachádza v našej databáze, obdržíte odkaz na obnovu hesla na svoj email.
       updated: Vaše heslo bolo úspešne zmenené. Teraz ste prihláseny.
@@ -32,10 +32,10 @@ sk:
     registrations:
       destroyed: Dovidenia! Váš účet bol úspešne zrušený. Dúfame, že sa čoskoro opäť uvidíme.
       signed_up: Vitajte! Registrácia bola úspešná.
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
-      signed_up_but_unconfirmed: 
-      update_needs_confirmation: 
+      signed_up_but_inactive: Registrácia bola úspešná. Nemohli ste však byť prihlásený, pretože váš účet ešte nebol aktivovaný.
+      signed_up_but_locked: Registrácia bola úspešná. Nemohli ste však byť prihlásený, pretože váš účet je uzamknutý.
+      signed_up_but_unconfirmed: Správa s podvrdzovacou linkou bola odoslaná na vašu emailovú adresu. Pre aktiváciu vašeho účtu otvorte túto linku.
+      update_needs_confirmation: ! 'Váš účet bol úspešne aktualizovaný ale potrebujeme overiť vašu emailovú adresu. Pre potvrdenie adresy otvorte linku, ktorá vám bola zaslaná na vašu novú emailovú adresu. '
       updated: Váš účet bol úspešne aktualizovaný.
     sessions:
       signed_in: Prihlásenie úspešné.

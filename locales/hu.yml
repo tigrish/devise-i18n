@@ -24,7 +24,7 @@ hu:
       failure: ! 'Nem sikerült azonosítani %{kind} fiókkal, az ok: "%{reason}".'
       success: Sikeres azonosítás %{kind} fiókkal.
     passwords:
-      no_token: 
+      no_token: Ezt az oldalt csak a jelszóváltoztató e-mailben küldött linkre kattintva lehet elérni, és ellenőrizni kell, hogy a címsorban az e-mailben található teljes webcím szerepel-e.
       send_instructions: A megadott címre egy email érkezik hamarosan a további teendőkről.
       send_paranoid_instructions: Ha az email cím már létezik az adatbázisban, egy jelszó-visszaállító emailt küldtünk a megadott címre.
       updated: A jelszó megváltozott. Bejelentkezve a felhasználói fiókba

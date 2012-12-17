@@ -3,13 +3,13 @@ ja:
     confirmations:
       confirmed: アカウントを登録しました。
       send_instructions: 登録方法を数分以内にメールでご連絡します。
-      send_paranoid_instructions: 貴方のメールアドレスがデータベースに登録されていれば 数分以内にアカウントを確認する方法が記載されているメールが届きます。
+      send_paranoid_instructions: メールアドレスがデータベースに登録されていれば、数分以内にアカウントを確認する方法が記載されているメールが届きます。
     failure:
-      already_authenticated: もう既にログインされています。
-      inactive: アカウントがアクティベートされていません。
+      already_authenticated: もう既にログインしています。
+      inactive: アカウントが有効化されていません。
       invalid: メールアドレスかパスワードが違います。
-      invalid_token: 認証キーが不正です。
-      locked: あなたのアカウントは凍結されています。
+      invalid_token: 認証キーが無効です。
+      locked: アカウントは凍結されています。
       timeout: セッションがタイムアウトしました。もう一度ログインしてください。
       unauthenticated: ログインしてください。
       unconfirmed: 本登録を行ってください。
@@ -21,33 +21,33 @@ ja:
       unlock_instructions:
         subject: アカウントの凍結解除
     omniauth_callbacks:
-      failure: 「%{reason}」の為%{kind}により認証が出来ませんでした。
+      failure: 「%{reason}」のため、%{kind}による認証が出来ませんでした。
       success: ! '%{kind}による認証に成功しました。'
     passwords:
-      no_token: パスワードリセットのメール以外からこのページへアクセスする事はできません。もしパスワードリセットのメールに記載されたリンクをクリックしてこのページへ訪れた場合、不完全なURLのリンクをクリックしていないか確認してください。メーラーによっては、リンクのURLが途中で切れる可能性などがあります。
-      send_instructions: パスワードのリセット方法を数分以内にメールでご連絡します。
-      send_paranoid_instructions: 貴方のメールアドレスがデータベースに登録されていれば 数分以内にパスワードを再設定出来るメールが届きます。
-      updated: パスワードを変更し、ログインされました。
+      no_token: パスワード再設定のメール以外からこのページへアクセスする事はできません。もしパスワード再設定のメールに記載されたリンクをクリックしてこのページへ訪れた場合、不完全なURLのリンクをクリックしていないか確認してください。メーラーによっては、リンクのURLが途中で切れる可能性があります。
+      send_instructions: パスワードの再設定方法を数分以内にメールでご連絡します。
+      send_paranoid_instructions: メールアドレスがデータベースに登録されていれば、数分以内にパスワード再設定のメールが届きます。
+      updated: パスワードを変更し、ログインしました。
       updated_not_active: パスワードを変更しました。
     registrations:
       destroyed: アカウントを削除しました。またのご利用をお待ちしております。
       signed_up: アカウント登録を受け付けました。確認のメールをお送りします。
       signed_up_but_inactive: 登録に成功しました。ログインするにはアカウントの確認が必要です。
-      signed_up_but_locked: 登録に成功しました。しかし、ログインするにはアカウントを有効にすることが必要てす。
-      signed_up_but_unconfirmed: アカウントの確認リンクが入っているメールが貴方のメールアドレスに送られました。 メール内のリンクによりアカウントの確認を行って下さい。
-      update_needs_confirmation: アカウント内容の変更を確認するにはメールアドレスを確認する必要があります。 登録のメールアドレスにメールが送られます。メール内のリンクによりメールアドレスの確認が出来ます。
-      updated: アカウントを更新しました。
+      signed_up_but_locked: 登録に成功しました。しかし、ログインするにはアカウントを有効にする必要があります。
+      signed_up_but_unconfirmed: アカウントの確認リンクが入っているメールをメールアドレスに送りました。 メール内のリンクでアカウントを確認してください。
+      update_needs_confirmation: アカウント情報を変更しました。しかし、メールアドレスを確認する必要があります。メール内のリンクで新しいメールアドレスを確認してください。
+      updated: アカウント情報を更新しました。
     sessions:
       signed_in: ログインしました。
       signed_out: ログアウトしました。
     unlocks:
       send_instructions: アカウントの凍結解除方法を数分以内にメールでご連絡します。
-      send_paranoid_instructions: 貴方のアカウントが登録されていれば数分以内にアカウントを有効にする 手順が書かれているメールが登録しているアドレスに届きます。
+      send_paranoid_instructions: 貴方のアカウントが登録されていれば数分以内にアカウントの凍結を解除する手順が書かれているメールが登録しているアドレスに届きます。
       unlocked: アカウントを凍結解除しました。
   errors:
     messages:
       already_confirmed: は既に登録済みです
-      expired: 期限が切れた為新しく取得する必要があります
+      expired: は期限が切れたため、新しく取得する必要があります
       not_found: は見つかりませんでした
       not_locked: は凍結されていません
-      not_saved: ! '%{count}つのエラーにより%{resource}を保存することが出来ませんでした。'
+      not_saved: ! '%{count}個のエラーにより%{resource}を保存することが出来ませんでした。'
