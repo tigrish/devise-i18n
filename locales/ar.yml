@@ -1,0 +1,53 @@
+ar:
+  devise:
+    confirmations:
+      confirmed: تم تأكيد حسابك بنجاح، وتم تسجيل دخولك.
+      send_instructions: سوف تتلقى رسالة بريدية خلال دقائق، تتضمن الخطوات اللازمة لتأكيد حسابك.
+      send_paranoid_instructions: إذا كان عنوانك البريدي مسجلا في قاعدة بياناتنا، فسوف تتلقى رسالة بريدية خلال دقائق، تتضمن الخطوات اللازمة لتأكيد حسابك.
+    failure:
+      already_authenticated: تم تسجيل دخولك من قبل.
+      inactive: لم يتم تنشيط حسابك بعد.
+      invalid: 
+      invalid_token: 
+      locked: حسابك معلق.
+      timeout: 
+      unauthenticated: تحتاج إلى تسجيل دخولك قبل الاستمرار.
+      unconfirmed: لابد أن تؤكد حسابك قبل الاستمرار.
+    mailer:
+      confirmation_instructions:
+        subject: تعليمات تأكيد الحساب
+      reset_password_instructions:
+        subject: تعليمات إعادة تعيين كلمة المرور
+      unlock_instructions:
+        subject: تعليمات إعادة تفعيل الحساب
+    omniauth_callbacks:
+      failure: 
+      success: 
+    passwords:
+      no_token: 
+      send_instructions: 
+      send_paranoid_instructions: 
+      updated: 
+      updated_not_active: تم تعديل كلمة السر الخاصة بك بنجاح.
+    registrations:
+      destroyed: 
+      signed_up: مرحبا! تم تسجيلك في الموقع بنجاح.
+      signed_up_but_inactive: 
+      signed_up_but_locked: 
+      signed_up_but_unconfirmed: 
+      update_needs_confirmation: 
+      updated: 
+    sessions:
+      signed_in: تم تسجيل الدخول.
+      signed_out: تم تسجيل الخروج.
+    unlocks:
+      send_instructions: 
+      send_paranoid_instructions: 
+      unlocked: 
+  errors:
+    messages:
+      already_confirmed: 
+      expired: 
+      not_found: غير موجود
+      not_locked: 
+      not_saved: 
