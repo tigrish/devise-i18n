@@ -5,13 +5,13 @@ nl:
       send_instructions: Je ontvangt via e-mail instructies hoe je je account kan bevestigen.
       send_paranoid_instructions: Als we je e-mail adres terugvinden in onze database, zal je binnen enkele ogenblikken een e-mail ontvangen met de instructies  hoe je je account kan bevestigen.
     failure:
-      already_authenticated: Je bent reeds ingelogd.
+      already_authenticated: Je bent reeds aangemeld.
       inactive: Je account is nog niet geactiveerd.
       invalid: Ongeldig e-mail of wachtwoord.
       invalid_token: Ongeldige authenticiteit token.
-      locked: Je account is gelocked.
-      timeout: Je sessie is verlopen, log a.u.b. opnieuw in.
-      unauthenticated: Je dient in te loggen of je in te schrijven.
+      locked: Je account is vergrendeld.
+      timeout: Je sessie is verlopen, meld je opnieuw aan om door te gaan.
+      unauthenticated: Je dient je aan te melden of in te schrijven om door te gaan.
       unconfirmed: Je dient eerst je account te bevestigen.
     mailer:
       confirmation_instructions:
@@ -19,15 +19,15 @@ nl:
       reset_password_instructions:
         subject: Wachtwoord resetten
       unlock_instructions:
-        subject: Unlock instructies
+        subject: Ontgrendelinstructies
     omniauth_callbacks:
-      failure: We konden je niet inloggen op je %{kind} omdat "%{reason}".
+      failure: We konden je niet aanmelden op je %{kind} omdat "%{reason}".
       success: Je bent succesvol ingelogd op je %{kind} account.
     passwords:
       no_token: Deze pagina is alleen bereikbaar via een wachtwoord reset e-mail. Als je wel via een wachtwoord reset email komt, zorg er dan voor dat je de volledige URL gebruikt.
       send_instructions: Je ontvangt via e-mail instructies hoe je je wachtwoord moet resetten.
       send_paranoid_instructions: Als we je e-mail adres terugvinden in onze database, zal je binnen enkele ogenblikken via e-mail een link ontvangen om je paswoord te resetten.
-      updated: Je wachtwoord is gewijzigd. Je bent nu ingelogd.
+      updated: Je wachtwoord is gewijzigd. Je bent nu aangemeld.
       updated_not_active: Je wachtwoord werd met succes gewijzigd.
     registrations:
       destroyed: Je account is verwijderd, wellicht tot ziens!

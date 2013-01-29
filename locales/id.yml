@@ -3,7 +3,7 @@ id:
     confirmations:
       confirmed: Akun anda telah berhasil dikonfirmasi. Anda telah sign in.
       send_instructions: Anda akan menerima e-mail berisi instruksi untuk melakukan konfirmasi akun dalam beberapa menit lagi.
-      send_paranoid_instructions: 
+      send_paranoid_instructions: Jika alamat email Anda ada di database kami, anda akan menerima email dengan instruksi tentang bagaimana untuk mengkonfirmasi account Anda dalam beberapa menit.
     failure:
       already_authenticated: 
       inactive: Akun anda belum diaktifkan.

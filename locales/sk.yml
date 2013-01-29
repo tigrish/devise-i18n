@@ -1,11 +1,11 @@
 sk:
   devise:
     confirmations:
-      confirmed: Váš účet bol úspešne overený. Teraz ste prihláseny.
-      send_instructions: O niekoľko minút obdržíte email s inštrukciami ako potvrdiť váš účet.
-      send_paranoid_instructions: Ak sa váš email nachádza v našej databáze, obdržíte email s inštrukciami ako potvrdiť váš účet.
+      confirmed: Váš účet bol úspešne overený. Teraz ste prihlásený.
+      send_instructions: O niekoľko minút obdržíte email s inštrukciami, ako potvrdiť váš účet.
+      send_paranoid_instructions: Ak sa váš email nachádza v našej databáze, obdržíte email s inštrukciami, ako potvrdiť váš účet.
     failure:
-      already_authenticated: Už ste prihláseny.
+      already_authenticated: Už ste prihlásený.
       inactive: Váš účet ešte nebol aktivovaný.
       invalid: Nesprávny email alebo heslo.
       invalid_token: Nesprávny overovací symbol.

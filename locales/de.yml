@@ -24,7 +24,7 @@ de:
       failure: Sie konnten nicht Ihrem %{kind}-Account angemeldet werden, weil "%{reason}".
       success: Sie haben sich erfolgreich mit Ihrem %{kind}-Account angemeldet.
     passwords:
-      no_token: Sie können sich nicht auf dieser Seite anmelden, wenn Sie nicht von einer Paswort-Zurücksetzen-E-Mail kommen. Wenn Sie von solch einer E-Mail kommen, überprüfen Sie bitte, ob Sie die gesamte URL verwendeten.
+      no_token: Sie können sich nicht auf dieser Seite anmelden, wenn Sie nicht von einer Passwort-Zurücksetzen-E-Mail kommen. Wenn Sie von solch einer E-Mail kommen, überprüfen Sie bitte, ob Sie die gesamte URL verwendeten.
       send_instructions: Sie erhalten in wenigen Minuten eine E-Mail mit der Anleitung, wie Sie ihr Passwort zurücksetzen können.
       send_paranoid_instructions: Falls Ihre E-Mail-Adresse in unserer Datenbank existiert erhalten Sie in wenigen Minuten eine E-Mail mit der Anleitung, wie Sie Ihr Passwort zurücksetzen können.
       updated: Ihr Passwort wurde geändert. Sie sind jetzt angemeldet.
