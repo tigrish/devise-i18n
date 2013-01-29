@@ -10,6 +10,7 @@ sk:
       invalid: Nesprávny email alebo heslo.
       invalid_token: Nesprávny overovací symbol.
       locked: Váš účet je uzamknutý.
+      not_found_in_database: 
       timeout: Platnosť session vypršala, prosím prihláste sa znovu, potom môžete pokračovať.
       unauthenticated: Musíte sa zaregistrovať alebo prihlásiť, potom možete pokračovať.
       unconfirmed: Musíte potvrdiť svoj účet, potom možete pokračovať.
@@ -47,6 +48,7 @@ sk:
   errors:
     messages:
       already_confirmed: bol už potvrdený, skúste sa prihlásiť
+      confirmation_period_expired: 
       expired: expiroval, prosím, vyžiadajte si nový
       not_found: nenájdeny
       not_locked: nebol uzamknutý

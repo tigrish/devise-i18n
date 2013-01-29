@@ -10,6 +10,7 @@ ro:
       invalid: E-mail sau parolă invalide.
       invalid_token: Token de autentificare invalid.
       locked: Contul dvs. este blocat.
+      not_found_in_database: 
       timeout: Sesiunea dvs. a expirat, vă rugăm să vă autentificaţi din nou pentru a continua.
       unauthenticated: Trebuie să vă conectaţi sau să se înscrie înainte de a continua.
       unconfirmed: Trebuie să confirmaţi contul dvs. înainte de a continua.
@@ -47,6 +48,7 @@ ro:
   errors:
     messages:
       already_confirmed: a fost deja confirmat, vă rugăm să încercaţi să vă autentificați
+      confirmation_period_expired: 
       expired: a expirat, vă rugăm să solicitaţi unul nou
       not_found: nu există
       not_locked: nu este blocat

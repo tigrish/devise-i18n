@@ -10,6 +10,7 @@ fi:
       invalid: Epäkelpo sähköpostiosoite tai salasana.
       invalid_token: Epäkelpo autentikaatiopoletti.
       locked: Tunnuksesi on lukittu.
+      not_found_in_database: 
       timeout: Istuntosi on vanhentunut, ole hyvä ja kirjaudu sisään jatkaaksesi.
       unauthenticated: Sinun pitää kirjautua sisään tai rekisteröityä ennen kuin voit jatkaa.
       unconfirmed: Sinun täytyy vahvistaa tunnuksesi ennen kuin voit jatkaa.
@@ -47,6 +48,7 @@ fi:
   errors:
     messages:
       already_confirmed: on jo vahvistettu, yritä kirjautua sisään uudelleen
+      confirmation_period_expired: 
       expired: on vanhentunut, pyydä uutta.
       not_found: ei löytynyt
       not_locked: ei ollut lukittu

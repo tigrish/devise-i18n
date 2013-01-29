@@ -10,6 +10,7 @@ nb:
       invalid: Epost-adresse eller passord er ikke gyldig.
       invalid_token: Ugyldig autentiserings-token.
       locked: Din konto er låst.
+      not_found_in_database: 
       timeout: Din sesjon er utløpt. Logg inn igjen for å kunne fortsette.
       unauthenticated: Du må logge inn eller registrere deg for å kunne fortsette.
       unconfirmed: Du må bekrefte kontoen din for å kunne fortsette.
@@ -47,6 +48,7 @@ nb:
   errors:
     messages:
       already_confirmed: har allerede blitt bekreftet. Prøv å logg inn.
+      confirmation_period_expired: 
       expired: har utløpt, vennligst forespør en ny
       not_found: ikke funnet
       not_locked: var ikke låst

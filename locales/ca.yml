@@ -10,6 +10,7 @@ ca:
       invalid: Correu electrònic o contrasenya invàlids.
       invalid_token: Codi d'autenticació invàlid.
       locked: El teu compte està bloquejat.
+      not_found_in_database: 
       timeout: La teva sessió ha caducat. Si us plau, torna a iniciar sessió per a continuar.
       unauthenticated: Has d'iniciar sessió o bé registrar-te abans de continuar.
       unconfirmed: Has de confirmar el teu compte abans de continuar.
@@ -47,6 +48,7 @@ ca:
   errors:
     messages:
       already_confirmed: ja està confirmat
+      confirmation_period_expired: 
       expired: ha caducat, demana'n un de nou
       not_found: no s'ha trobat
       not_locked: no està bloquejat

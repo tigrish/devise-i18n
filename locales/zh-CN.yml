@@ -10,6 +10,7 @@ zh-CN:
       invalid: 邮箱或密码错误
       invalid_token: 认证码无效.
       locked: 您的帐号已被锁定.
+      not_found_in_database: 
       timeout: 您已登录超时，请重新登录.
       unauthenticated: 继续操作前请注册或者登录.
       unconfirmed: 继续操作前请先确认您的帐号.
@@ -47,6 +48,7 @@ zh-CN:
   errors:
     messages:
       already_confirmed: 已经确认，请重新登录.
+      confirmation_period_expired: 
       expired: 您已过期，请重新申请
       not_found: 没有找到
       not_locked: 未锁定

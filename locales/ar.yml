@@ -10,6 +10,7 @@ ar:
       invalid: 
       invalid_token: 
       locked: حسابك معلق.
+      not_found_in_database: 
       timeout: 
       unauthenticated: تحتاج إلى تسجيل دخولك قبل الاستمرار.
       unconfirmed: لابد أن تؤكد حسابك قبل الاستمرار.
@@ -47,6 +48,7 @@ ar:
   errors:
     messages:
       already_confirmed: 
+      confirmation_period_expired: 
       expired: 
       not_found: غير موجود
       not_locked: 

@@ -10,6 +10,7 @@ is:
       invalid: Ógilt notandanafn eða lykilorð.
       invalid_token: Ógilt auðkenningartákn.
       locked: Aðgangurinn þinn er læstur.
+      not_found_in_database: 
       timeout: Seta þín hefur runnið út, skráðu þig aftur inn til að halda áfram.
       unauthenticated: Þú þarft að vera innskráð(ur) til þess að halda áfram.
       unconfirmed: Þú verður að staðfesta aðganginn þinn áður en þú getur haldið áfram.
@@ -47,6 +48,7 @@ is:
   errors:
     messages:
       already_confirmed: var nú þegar staðfestur, prófaðu að skrá þig inn
+      confirmation_period_expired: 
       expired: hefur runnið út, vinsamlegast biðjið um nýtt
       not_found: fannst ekki
       not_locked: var ekki læstur

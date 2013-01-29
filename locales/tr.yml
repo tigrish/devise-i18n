@@ -10,6 +10,7 @@ tr:
       invalid: Yanlış e-posta adresi veya şifre girdiniz.
       invalid_token: Yanlış denetim anahtarı.
       locked: Hesabınız kilitlendi.
+      not_found_in_database: 
       timeout: Oturumunuz sonlandı. Lütfen giriş yapınız.
       unauthenticated: Devam etmeden önce giriş yapmanız veya kayıt olmanız gereklidir.
       unconfirmed: Devam etmeden önce hesabınızı onaylamalısınız.
@@ -47,6 +48,7 @@ tr:
   errors:
     messages:
       already_confirmed: zaten onaylanmış, lütfen giriş yapmayı deneyin
+      confirmation_period_expired: 
       expired: süresi doldu, lütfen yeni bir tane isteyin
       not_found: bulunamadı
       not_locked: kilitlenmemiş

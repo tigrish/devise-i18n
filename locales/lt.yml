@@ -10,6 +10,7 @@ lt:
       invalid: Neteisingas el. paštas arba slaptažodis.
       invalid_token: Neteisingas aktyvacijos kodas.
       locked: Jūsų prisijungimas blokuojamas.
+      not_found_in_database: 
       timeout: Jūsų prisijungimo laikas baigėsi, prašome prisijungti iš naujo.
       unauthenticated: Prieš tęsiant reikia prisijungti arba užsiregistruoti.
       unconfirmed: Prieš tęsiant reikia patvirtinti savo vartotoją.
@@ -47,6 +48,7 @@ lt:
   errors:
     messages:
       already_confirmed: jau buvo patvirtintas, pamėginkite prisijungti
+      confirmation_period_expired: 
       expired: nebegalioja, gaukite naują
       not_found: nerastas
       not_locked: nebuvo užrakintas

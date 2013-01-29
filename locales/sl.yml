@@ -10,6 +10,7 @@ sl:
       invalid: Neveljavna e-pošta ali geslo.
       invalid_token: Neveljaven žeton za preverjanje pristnosti.
       locked: Vaš račun je zaklenjen.
+      not_found_in_database: 
       timeout: Vaša seja je potekla. Prosimo, ponovno se prijavite za nadaljevanje.
       unauthenticated: Za nadaljevanje se morate prijaviti ali registrirati.
       unconfirmed: Pred nadaljevanjem morate potrditi vaš račun.
@@ -47,6 +48,7 @@ sl:
   errors:
     messages:
       already_confirmed: je bil že potrjen, prosimo poskusite se prijaviti
+      confirmation_period_expired: 
       expired: je poteklo. Prosimo, zahtevajte novo.
       not_found: ni najdeno
       not_locked: ni zaklenjeno

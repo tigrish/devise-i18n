@@ -10,6 +10,7 @@ ru:
       invalid: Неверный адрес e-mail или пароль.
       invalid_token: Неверный ключ аутентификации.
       locked: Ваша учётная запись заблокирована.
+      not_found_in_database: 
       timeout: Ваш сеанс закончился. Пожалуйста, войдите в систему снова.
       unauthenticated: Вам необходимо войти в систему или зарегистрироваться.
       unconfirmed: Вы должны подтвердить вашу учётную запись.
@@ -47,6 +48,7 @@ ru:
   errors:
     messages:
       already_confirmed: уже подтверждена. Пожалуйста, попробуйте войти в систему
+      confirmation_period_expired: 
       expired: устарела. Пожалуйста, запросите новую
       not_found: не найдена
       not_locked: не заблокирована

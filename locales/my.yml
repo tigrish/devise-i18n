@@ -10,6 +10,7 @@ my:
       invalid: email atau password yang anda masukkan salah.
       invalid_token: Kesalahan pada authentication token.
       locked: Akun anda terkunci.
+      not_found_in_database: 
       timeout: Sesi anda telah tamat, silahkan sign in bagi meneruskan sesi yang baru.
       unauthenticated: Anda harus mendaftar atau sign in sebelum meneruskan .
       unconfirmed: Anda harus melakukan proses pengesahan sebalum meneruskan.
@@ -47,6 +48,7 @@ my:
   errors:
     messages:
       already_confirmed: sudah disahkan
+      confirmation_period_expired: 
       expired: 
       not_found: tidak dijumpai
       not_locked: tidak dikunci

@@ -10,6 +10,7 @@ et:
       invalid: Vigane epost või salasõna.
       invalid_token: Vigane autentimise märgend.
       locked: Sinu konto lukustati.
+      not_found_in_database: 
       timeout: Sinu sessioon on aegunud, jätkamiseks logi palun sisse.
       unauthenticated: Sa pead sisse logima või registreeruma enne jätkamist.
       unconfirmed: Sa pead oma konto kinnitama, enne jätkamist.
@@ -47,6 +48,7 @@ et:
   errors:
     messages:
       already_confirmed: on juba kinnitatud, proovi sisse logida
+      confirmation_period_expired: 
       expired: on aegunud, palun küsi uus
       not_found: ei leitud
       not_locked: ei olnud lukus

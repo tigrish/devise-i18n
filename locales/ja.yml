@@ -10,6 +10,7 @@ ja:
       invalid: メールアドレスまたはパスワードが違います。
       invalid_token: 認証キーが無効です。
       locked: アカウントが凍結されています。
+      not_found_in_database: 
       timeout: セッションがタイムアウトしました。もう一度ログインしてください。
       unauthenticated: 続けるにはログインまたはアカウントを登録してください。
       unconfirmed: 本登録を行ってください。
@@ -47,6 +48,7 @@ ja:
   errors:
     messages:
       already_confirmed: は既に登録済みです
+      confirmation_period_expired: 
       expired: は期限が切れたため、新しく取得する必要があります
       not_found: は見つかりませんでした
       not_locked: は凍結されていません

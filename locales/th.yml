@@ -10,6 +10,7 @@ th:
       invalid: อีเมล์หรือรหัสผ่านไม่ถูกต้อง
       invalid_token: การพิสูจน์ไม่ถูกต้อง
       locked: บัญชีของคุณถูกล็อก
+      not_found_in_database: 
       timeout: หน้าเว็บเกินระยะเวลาที่กำหนด กรุณาเข้าสู่ระบบอีกครั้งเพื่อดำเนินการต่อ
       unauthenticated: คุณต้องเข้าสู่ระบบหรือลงทะเบียนก่อดำเนินการต่อ
       unconfirmed: คุณต้องยืนยันบัญชีก่อนดำเนินการต่อ
@@ -47,6 +48,7 @@ th:
   errors:
     messages:
       already_confirmed: ยืนยันแล้ว ลองเข้าสู่ระบบ
+      confirmation_period_expired: 
       expired: หมดอายุแล้ว กรุณาขอใหม่อีกครั้ง
       not_found: ไม่พบ
       not_locked: ไม่ถูกล็อก

@@ -10,6 +10,7 @@ pt-BR:
       invalid: Email ou senha inválidos.
       invalid_token: O token de autenticação não é válido.
       locked: A sua conta está bloqueada.
+      not_found_in_database: 
       timeout: A sua sessão expirou, por favor, faça login novamente para continuar.
       unauthenticated: Para continuar, faça login ou registre-se.
       unconfirmed: Antes de continuar, confirme a sua conta.
@@ -47,6 +48,7 @@ pt-BR:
   errors:
     messages:
       already_confirmed: já foi confirmado
+      confirmation_period_expired: 
       expired: expirou, por favor solicite uma nova
       not_found: não encontrado
       not_locked: não foi bloqueado

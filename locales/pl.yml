@@ -10,6 +10,7 @@ pl:
       invalid: Niepoprawny adres email lub hasło.
       invalid_token: Niepoprawny token.
       locked: Twoje konto jest zablokowane.
+      not_found_in_database: 
       timeout: Sesja wygasła, aby kontynuować zaloguj się ponownie.
       unauthenticated: Aby kontynuować zaloguj lub zarejestruj się.
       unconfirmed: Aby kontynuować aktywuj konto.
@@ -47,6 +48,7 @@ pl:
   errors:
     messages:
       already_confirmed: już został aktywowany, możesz się zalogować
+      confirmation_period_expired: 
       expired: stracił ważność, wyślij zapytanie o nowy
       not_found: nie znaleziono
       not_locked: nie był zablokowany
