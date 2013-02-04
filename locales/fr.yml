@@ -10,7 +10,7 @@ fr:
       invalid: Email ou mot de passe incorrect.
       invalid_token: Jeton d'authentification incorrect.
       locked: Votre compte est verrouillé.
-      not_found_in_database: Email ou mot de passe incorrecte.
+      not_found_in_database: Email ou mot de passe incorrect.
       timeout: Votre session est périmée, veuillez vous reconnecter pour continuer.
       unauthenticated: Vous devez vous connecter ou vous enregistrer pour continuer.
       unconfirmed: Vous devez confirmer votre compte par email.

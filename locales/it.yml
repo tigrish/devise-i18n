@@ -10,7 +10,7 @@ it:
       invalid: Indirizzo email o password non validi.
       invalid_token: Codice di autenticazione non valido.
       locked: Il tuo account è bloccato.
-      not_found_in_database: 
+      not_found_in_database: Email o password non validi.
       timeout: Sessione scaduta, accedere nuovamente per continuare.
       unauthenticated: Devi accedere o registrarti per continuare.
       unconfirmed: Devi confermare il tuo account per continuare.
