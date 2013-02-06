@@ -48,7 +48,7 @@ ja:
   errors:
     messages:
       already_confirmed: は既に登録済みです
-      confirmation_period_expired: 
+      confirmation_period_expired: は%{period}以内に確認が必要です。もう一度要求してください。
       expired: は期限が切れたため、新しく取得する必要があります
       not_found: は見つかりませんでした
       not_locked: は凍結されていません
