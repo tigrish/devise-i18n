@@ -1,57 +1,58 @@
+---
 lv:
   devise:
     confirmations:
-      confirmed: Jūsu lietotājs ir veiksmīgi apstiprināts. Jūs esat pieslēdzies.
-      send_instructions: Pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā apstiprināt Jūsu lietotāju.
-      send_paranoid_instructions: Ja Jūsu parole eksistē mūsu datubāzē, tad pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā apstiprināt Jūsu lietotāju.
+      confirmed: "Jūsu lietotājs ir veiksmīgi apstiprināts. Jūs esat pieslēdzies."
+      send_instructions: "Pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā apstiprināt Jūsu lietotāju."
+      send_paranoid_instructions: "Ja Jūsu parole eksistē mūsu datubāzē, tad pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā apstiprināt Jūsu lietotāju."
     failure:
-      already_authenticated: Jūs jau esiet pieslēdzies.
-      inactive: Jūsu lietotajs vēl nav aktivizēts.
-      invalid: Nekorekts epasts vai parole.
-      invalid_token: Nekoreta autentifikācijas atslēga.
-      locked: Jūsu lietotājs ir nobloķēts.
-      not_found_in_database: 
-      timeout: Jūsu sesijas laiks ir beidzies. Lūdzu pieslēdzieties vēlreiz, lai turpinātu.
-      unauthenticated: Jums ir jāpieslēdzas vai jāreģistrējas, lai turpinātu.
-      unconfirmed: Jums ir jāapstiprina reģistrācijas epasts, lai turpinātu.
+      already_authenticated: "Jūs jau esiet pieslēdzies."
+      inactive: "Jūsu lietotajs vēl nav aktivizēts."
+      invalid: "Nekorekts epasts vai parole."
+      invalid_token: "Nekoreta autentifikācijas atslēga."
+      locked: "Jūsu lietotājs ir nobloķēts."
+      not_found_in_database: "Invalid email or password."
+      timeout: "Jūsu sesijas laiks ir beidzies. Lūdzu pieslēdzieties vēlreiz, lai turpinātu."
+      unauthenticated: "Jums ir jāpieslēdzas vai jāreģistrējas, lai turpinātu."
+      unconfirmed: "Jums ir jāapstiprina reģistrācijas epasts, lai turpinātu."
     mailer:
       confirmation_instructions:
-        subject: Apstiprināšanas apraksts
+        subject: "Apstiprināšanas apraksts"
       reset_password_instructions:
-        subject: Paroles nomainīšanas apraksts
+        subject: "Paroles nomainīšanas apraksts"
       unlock_instructions:
-        subject: Atbloķēšanas apraksts
+        subject: "Atbloķēšanas apraksts"
     omniauth_callbacks:
-      failure: ! 'Neizdevās autorizeties ar %{kind} lietotāju. Iemesls: "%{reason}".'
-      success: Veiksmīgi autorizējis ar %{kind} lietotāju.
+      failure: "Neizdevās autorizeties ar %{kind} lietotāju. Iemesls: \"%{reason}\"."
+      success: "Veiksmīgi autorizējis ar %{kind} lietotāju."
     passwords:
-      no_token: 
-      send_instructions: Pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā nomainīt jūsu paroli.
-      send_paranoid_instructions: Ja Jūsu parole eksistē mūsu datubāzē, tad jums tiks nosūtīts paroles atjaunošanas apraksts uz epastu
-      updated: Jūsu parole ir veiksmīgi nomainīta. Jūs esat pieslēdzies.
-      updated_not_active: 
+      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: "Pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā nomainīt jūsu paroli."
+      send_paranoid_instructions: "Ja Jūsu parole eksistē mūsu datubāzē, tad jums tiks nosūtīts paroles atjaunošanas apraksts uz epastu"
+      updated: "Jūsu parole ir veiksmīgi nomainīta. Jūs esat pieslēdzies."
+      updated_not_active: "Your password was changed successfully."
     registrations:
-      destroyed: Uz redzēšanos! Jūsu lietotājs ir veiksmīgi dzēsts. Ceram Jūs atkal redzēt drīzumā.
-      signed_up: Laipni lūgti! Jūs esiet veiksmīgi reģistrējies.
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
-      signed_up_but_unconfirmed: 
-      update_needs_confirmation: 
-      updated: Jūsu lietotājs ir veiksmīgi labots.
+      destroyed: "Uz redzēšanos! Jūsu lietotājs ir veiksmīgi dzēsts. Ceram Jūs atkal redzēt drīzumā."
+      signed_up: "Laipni lūgti! Jūs esiet veiksmīgi reģistrējies."
+      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
+      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
+      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please open the link to activate your account."
+      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address."
+      updated: "Jūsu lietotājs ir veiksmīgi labots."
     sessions:
-      signed_in: Veiksmīgi pieslēdzies.
-      signed_out: Veiksmīgi atslēdzies.
+      signed_in: "Veiksmīgi pieslēdzies."
+      signed_out: "Veiksmīgi atslēdzies."
     unlocks:
-      send_instructions: Pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā atbloķēt Jūsu lietotāju.
-      send_paranoid_instructions: Ja Jūsu parole eksistē mūsu datubāzē, tad pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā atbloķēt jūsu lietotāju.
-      unlocked: Jūsu lietotājs ir veiksmīgi atbloķēts. Jūs esat pieslēdzies.
+      send_instructions: "Pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā atbloķēt Jūsu lietotāju."
+      send_paranoid_instructions: "Ja Jūsu parole eksistē mūsu datubāzē, tad pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā atbloķēt jūsu lietotāju."
+      unlocked: "Jūsu lietotājs ir veiksmīgi atbloķēts. Jūs esat pieslēdzies."
   errors:
     messages:
-      already_confirmed: ir jau apstiprināts, lūdzu mēģiniet pieslēgties
-      confirmation_period_expired: 
-      expired: derīgums beidzies, lūdzu piesakieties jaunam
-      not_found: netika atrasts
-      not_locked: netika nobloķēts
+      already_confirmed: "ir jau apstiprināts, lūdzu mēģiniet pieslēgties"
+      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
+      expired: "derīgums beidzies, lūdzu piesakieties jaunam"
+      not_found: "netika atrasts"
+      not_locked: "netika nobloķēts"
       not_saved:
-        one: ! '%{resource} netika saglabāts 1 kļūdas dēļ:'
-        other: ! '%{resource} netika saglabāts %{count} kļūdu dēl:'
+        one: "%{resource} netika saglabāts 1 kļūdas dēļ:"
+        other: "%{resource} netika saglabāts %{count} kļūdu dēl:"

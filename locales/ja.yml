@@ -1,3 +1,4 @@
+---
 ja:
   devise:
     confirmations:
@@ -22,8 +23,8 @@ ja:
       unlock_instructions:
         subject: アカウントの凍結解除
     omniauth_callbacks:
-      failure: 「%{reason}」のため、%{kind}による認証が出来ませんでした。
-      success: ! '%{kind}による認証に成功しました。'
+      failure: "「%{reason}」のため、%{kind}による認証が出来ませんでした。"
+      success: "%{kind}による認証に成功しました。"
     passwords:
       no_token: パスワード再設定のメール以外からこのページへアクセスする事はできません。もしパスワード再設定のメールに記載されたリンクをクリックしてこのページへ訪れた場合、不完全なURLのリンクをクリックしていないか確認してください。メーラーによっては、リンクのURLが途中で切れる可能性があります。
       send_instructions: パスワードの再設定方法を数分以内にメールでご連絡します。
@@ -35,7 +36,7 @@ ja:
       signed_up: アカウント登録を受け付けました。確認のメールをお送りします。
       signed_up_but_inactive: 登録に成功しました。しかし、アカウントが有効になっていないためログインできません。
       signed_up_but_locked: 登録に成功しました。しかし、アカウントがロックされているためログインできません。
-      signed_up_but_unconfirmed: アカウント確認のリンクが入っているメールを送りました。 メール内のリンクでアカウントを有効にしてください。
+      signed_up_but_unconfirmed: "アカウント確認のリンクが入っているメールを送りました。 メール内のリンクでアカウントを有効にしてください。"
       update_needs_confirmation: アカウント情報を変更しました。しかし、メールアドレスを確認する必要があります。メール内のリンクで新しいメールアドレスを確認してください。
       updated: アカウント情報を更新しました。
     sessions:
@@ -48,8 +49,8 @@ ja:
   errors:
     messages:
       already_confirmed: は既に登録済みです
-      confirmation_period_expired: は%{period}以内に確認が必要です。もう一度要求してください。
+      confirmation_period_expired: "は%{period}以内に確認が必要です。もう一度要求してください。"
       expired: は期限が切れたため、新しく取得する必要があります
       not_found: は見つかりませんでした
       not_locked: は凍結されていません
-      not_saved: ! '%{count}個のエラーにより%{resource}を保存することが出来ませんでした。'
+      not_saved: "%{count}個のエラーにより%{resource}を保存することが出来ませんでした。"

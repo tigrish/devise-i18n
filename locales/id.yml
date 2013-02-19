@@ -1,55 +1,58 @@
+---
 id:
   devise:
     confirmations:
-      confirmed: Akun anda telah berhasil dikonfirmasi. Anda telah sign in.
-      send_instructions: Anda akan menerima e-mail berisi instruksi untuk melakukan konfirmasi akun dalam beberapa menit lagi.
-      send_paranoid_instructions: Jika alamat email Anda ada di database kami, anda akan menerima email dengan instruksi tentang bagaimana untuk mengkonfirmasi account Anda dalam beberapa menit.
+      confirmed: "Akun anda telah berhasil dikonfirmasi. Anda telah sign in."
+      send_instructions: "Anda akan menerima e-mail berisi instruksi untuk melakukan konfirmasi akun dalam beberapa menit lagi."
+      send_paranoid_instructions: "Jika alamat email Anda ada di database kami, anda akan menerima email dengan instruksi tentang bagaimana untuk mengkonfirmasi account Anda dalam beberapa menit."
     failure:
-      already_authenticated: 
-      inactive: Akun anda belum diaktifkan.
-      invalid: email atau password yang anda masukkan salah.
-      invalid_token: Kesalahan pada authentication token.
-      locked: Akun anda terkunci.
-      not_found_in_database: 
-      timeout: Sesi anda telah kadaluarsa, silahkan sign in untuk melanjutkan.
-      unauthenticated: Anda harus mendaftar atau sign in sebelum melanjutkan .
-      unconfirmed: Anda harus melakukan konfirmasi sebalum melanjutkan.
+      already_authenticated: "You are already signed in."
+      inactive: "Akun anda belum diaktifkan."
+      invalid: "email atau password yang anda masukkan salah."
+      invalid_token: "Kesalahan pada authentication token."
+      locked: "Akun anda terkunci."
+      not_found_in_database: "Invalid email or password."
+      timeout: "Sesi anda telah kadaluarsa, silahkan sign in untuk melanjutkan."
+      unauthenticated: "Anda harus mendaftar atau sign in sebelum melanjutkan ."
+      unconfirmed: "Anda harus melakukan konfirmasi sebalum melanjutkan."
     mailer:
       confirmation_instructions:
-        subject: Instruksi untuk melakukan konfirmasi
+        subject: "Instruksi untuk melakukan konfirmasi"
       reset_password_instructions:
-        subject: Instruksi untuk melakukan Reset password
+        subject: "Instruksi untuk melakukan Reset password"
       unlock_instructions:
-        subject: Instruksi untuk membuka kembali akun anda
+        subject: "Instruksi untuk membuka kembali akun anda"
     omniauth_callbacks:
-      failure: 
-      success: 
+      failure: "Could not authenticate you from %{kind} because \"%{reason}\"."
+      success: "Successfully authenticated from %{kind} account."
     passwords:
-      no_token: 
-      send_instructions: Anda akan menerima e-mail berisi instruksi untuk melakukan reset password beberapa menit lagi.
-      send_paranoid_instructions: 
-      updated: Password anda telah berhasil diubah. Anda telah sign in.
-      updated_not_active: 
+      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: "Anda akan menerima e-mail berisi instruksi untuk melakukan reset password beberapa menit lagi."
+      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
+      updated: "Password anda telah berhasil diubah. Anda telah sign in."
+      updated_not_active: "Your password was changed successfully."
     registrations:
-      destroyed: Selamat Tinggal,  Akun anda telah di hapus
-      signed_up: Proses pendaftaran berhasil. Apabila diaktifkan, konfirmasi telah dikirimkan ke e-mail anda.
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
-      signed_up_but_unconfirmed: 
-      update_needs_confirmation: 
-      updated: Akun anda telah berhasil diperbaharui.
+      destroyed: "Selamat Tinggal,  Akun anda telah di hapus"
+      signed_up: "Proses pendaftaran berhasil. Apabila diaktifkan, konfirmasi telah dikirimkan ke e-mail anda."
+      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
+      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
+      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please open the link to activate your account."
+      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address."
+      updated: "Akun anda telah berhasil diperbaharui."
     sessions:
-      signed_in: Proses sign in berhasil.
-      signed_out: Proses sign out berhasil.
+      signed_in: "Proses sign in berhasil."
+      signed_out: "Proses sign out berhasil."
     unlocks:
-      send_instructions: Anda akan menerima e-mail berisi instruksi untuk membuka kembali akun anda dalam beberapa menit lagi.
-      send_paranoid_instructions: 
-      unlocked: Akun anda telah berhasil dibuka kembali. Anda telah sign in.
+      send_instructions: "Anda akan menerima e-mail berisi instruksi untuk membuka kembali akun anda dalam beberapa menit lagi."
+      send_paranoid_instructions: "If your account exists, you will receive an email with instructions about how to unlock it in a few minutes."
+      unlocked: "Akun anda telah berhasil dibuka kembali. Anda telah sign in."
   errors:
     messages:
-      already_confirmed: sudah di konfirmasi
-      confirmation_period_expired: 
-      expired: 
-      not_found: tidak ditemukan
-      not_locked: tidak dikunci
-      not_saved: 
+      already_confirmed: "sudah di konfirmasi"
+      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
+      expired: "has expired, please request a new one"
+      not_found: "tidak ditemukan"
+      not_locked: "tidak dikunci"
+      not_saved:
+        one: "1 error prohibited this %{resource} from being saved:"
+        other: "%{count} errors prohibited this %{resource} from being saved:"

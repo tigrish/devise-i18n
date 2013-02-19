@@ -1,55 +1,58 @@
+---
 ar:
   devise:
     confirmations:
-      confirmed: تم تأكيد حسابك بنجاح، وتم تسجيل دخولك.
-      send_instructions: سوف تتلقى رسالة بريدية خلال دقائق، تتضمن الخطوات اللازمة لتأكيد حسابك.
-      send_paranoid_instructions: إذا كان عنوانك البريدي مسجلا في قاعدة بياناتنا، فسوف تتلقى رسالة بريدية خلال دقائق، تتضمن الخطوات اللازمة لتأكيد حسابك.
+      confirmed: "تم تأكيد حسابك بنجاح، وتم تسجيل دخولك."
+      send_instructions: "سوف تتلقى رسالة بريدية خلال دقائق، تتضمن الخطوات اللازمة لتأكيد حسابك."
+      send_paranoid_instructions: "إذا كان عنوانك البريدي مسجلا في قاعدة بياناتنا، فسوف تتلقى رسالة بريدية خلال دقائق، تتضمن الخطوات اللازمة لتأكيد حسابك."
     failure:
-      already_authenticated: تم تسجيل دخولك من قبل.
-      inactive: لم يتم تنشيط حسابك بعد.
-      invalid: 
-      invalid_token: 
-      locked: حسابك معلق.
-      not_found_in_database: 
-      timeout: 
-      unauthenticated: تحتاج إلى تسجيل دخولك قبل الاستمرار.
-      unconfirmed: لابد أن تؤكد حسابك قبل الاستمرار.
+      already_authenticated: "تم تسجيل دخولك من قبل."
+      inactive: "لم يتم تنشيط حسابك بعد."
+      invalid: "Invalid email or password."
+      invalid_token: "Invalid authentication token."
+      locked: "حسابك معلق."
+      not_found_in_database: "Invalid email or password."
+      timeout: "Your session expired, please sign in again to continue."
+      unauthenticated: "تحتاج إلى تسجيل دخولك قبل الاستمرار."
+      unconfirmed: "لابد أن تؤكد حسابك قبل الاستمرار."
     mailer:
       confirmation_instructions:
-        subject: تعليمات تأكيد الحساب
+        subject: "تعليمات تأكيد الحساب"
       reset_password_instructions:
-        subject: تعليمات إعادة تعيين كلمة المرور
+        subject: "تعليمات إعادة تعيين كلمة المرور"
       unlock_instructions:
-        subject: تعليمات إعادة تفعيل الحساب
+        subject: "تعليمات إعادة تفعيل الحساب"
     omniauth_callbacks:
-      failure: 
-      success: 
+      failure: "Could not authenticate you from %{kind} because \"%{reason}\"."
+      success: "Successfully authenticated from %{kind} account."
     passwords:
-      no_token: 
-      send_instructions: 
-      send_paranoid_instructions: 
-      updated: 
-      updated_not_active: تم تعديل كلمة السر الخاصة بك بنجاح.
+      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."
+      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
+      updated: "Your password was changed successfully. You are now signed in."
+      updated_not_active: "تم تعديل كلمة السر الخاصة بك بنجاح."
     registrations:
-      destroyed: 
-      signed_up: مرحبا! تم تسجيلك في الموقع بنجاح.
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
-      signed_up_but_unconfirmed: 
-      update_needs_confirmation: 
-      updated: 
+      destroyed: "Bye! Your account was successfully cancelled. We hope to see you again soon."
+      signed_up: "مرحبا! تم تسجيلك في الموقع بنجاح."
+      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
+      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
+      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please open the link to activate your account."
+      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address."
+      updated: "You updated your account successfully."
     sessions:
-      signed_in: تم تسجيل الدخول.
-      signed_out: تم تسجيل الخروج.
+      signed_in: "تم تسجيل الدخول."
+      signed_out: "تم تسجيل الخروج."
     unlocks:
-      send_instructions: 
-      send_paranoid_instructions: 
-      unlocked: 
+      send_instructions: "You will receive an email with instructions about how to unlock your account in a few minutes."
+      send_paranoid_instructions: "If your account exists, you will receive an email with instructions about how to unlock it in a few minutes."
+      unlocked: "Your account has been unlocked successfully. Please sign in to continue."
   errors:
     messages:
-      already_confirmed: 
-      confirmation_period_expired: 
-      expired: 
-      not_found: غير موجود
-      not_locked: 
-      not_saved: 
+      already_confirmed: "was already confirmed, please try signing in"
+      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
+      expired: "has expired, please request a new one"
+      not_found: "غير موجود"
+      not_locked: "was not locked"
+      not_saved:
+        one: "1 error prohibited this %{resource} from being saved:"
+        other: "%{count} errors prohibited this %{resource} from being saved:"
