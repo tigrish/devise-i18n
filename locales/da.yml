@@ -1,57 +1,58 @@
+---
 da:
   devise:
     confirmations:
-      confirmed: Din konto er aktiveret og du er nu logget ind.
-      send_instructions: Om få minutter vil du modtage en email med instruktioner om aktivering af din konto.
-      send_paranoid_instructions: Hvis din e-mail adresse findes i vores database vil du modtage en e-mail med instruktioner om hvordan du kan aktivere din konto.
+      confirmed: "Din konto er aktiveret og du er nu logget ind."
+      send_instructions: "Om få minutter vil du modtage en email med instruktioner om aktivering af din konto."
+      send_paranoid_instructions: "Hvis din e-mail adresse findes i vores database vil du modtage en e-mail med instruktioner om hvordan du kan aktivere din konto."
     failure:
-      already_authenticated: Du er allerede logget ind.
-      inactive: Din konto er ikke bekræftet.
-      invalid: Email eller kodeord er ikke gyldig.
-      invalid_token: Ugyldig token til autorisering.
-      locked: Din konto er låst i de næste to timer.
-      not_found_in_database: 
-      timeout: Din session er udløbet. Log ind igen for at kunne fortsætte.
-      unauthenticated: Du skal logge ind for at kunne fortsætte.
-      unconfirmed: Du skal bekræfte din konto for at kunne fortsætte.
+      already_authenticated: "Du er allerede logget ind."
+      inactive: "Din konto er ikke bekræftet."
+      invalid: "Email eller kodeord er ikke gyldig."
+      invalid_token: "Ugyldig token til autorisering."
+      locked: "Din konto er låst i de næste to timer."
+      not_found_in_database: "Invalid email or password."
+      timeout: "Din session er udløbet. Log ind igen for at kunne fortsætte."
+      unauthenticated: "Du skal logge ind for at kunne fortsætte."
+      unconfirmed: "Du skal bekræfte din konto for at kunne fortsætte."
     mailer:
       confirmation_instructions:
         subject: Bekræftelsesinstruktioner
       reset_password_instructions:
-        subject: Nulstilling af kodeord
+        subject: "Nulstilling af kodeord"
       unlock_instructions:
-        subject: Genåbning af konto
+        subject: "Genåbning af konto"
     omniauth_callbacks:
-      failure: Du kunne ikke logges ind med din %{kind} konto.
-      success: Du er nu logget ind med din %{kind} konto.
+      failure: "Du kunne ikke logges ind med din %{kind} konto."
+      success: "Du er nu logget ind med din %{kind} konto."
     passwords:
-      no_token: 
-      send_instructions: Du vil om et øjeblik modtage en email vedrørende nulstilling af kodeord.
-      send_paranoid_instructions: Hvis din e-mail adresse findes i vores database vil du modtage et link til hvor du kan nulstille dit kodeord.
-      updated: Dit kodeord er ændret og du er nu logget ind.
-      updated_not_active: Dit kodeord er ændret.
+      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: "Du vil om et øjeblik modtage en email vedrørende nulstilling af kodeord."
+      send_paranoid_instructions: "Hvis din e-mail adresse findes i vores database vil du modtage et link til hvor du kan nulstille dit kodeord."
+      updated: "Dit kodeord er ændret og du er nu logget ind."
+      updated_not_active: "Dit kodeord er ændret."
     registrations:
-      destroyed: Farvel. Din konto er nu lukket.
-      signed_up: Din registrering er godkendt.
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
-      signed_up_but_unconfirmed: 
-      update_needs_confirmation: 
-      updated: Din profil er opdateret.
+      destroyed: "Farvel. Din konto er nu lukket."
+      signed_up: "Din registrering er godkendt."
+      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
+      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
+      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please open the link to activate your account."
+      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address."
+      updated: "Din profil er opdateret."
     sessions:
-      signed_in: Du er nu logget ind.
-      signed_out: Du er nu logget ud.
+      signed_in: "Du er nu logget ind."
+      signed_out: "Du er nu logget ud."
     unlocks:
-      send_instructions: Om få minutter vil du modtage en email med instruktioner om genåbning af din konto.
-      send_paranoid_instructions: Hvis din e-mail adresse findes i vores database vil du modtage in e-mail med instutioner om hvordan du kan låse din konto op.
-      unlocked: Din konto er genåbnet og du er nu logget ind.
+      send_instructions: "Om få minutter vil du modtage en email med instruktioner om genåbning af din konto."
+      send_paranoid_instructions: "Hvis din e-mail adresse findes i vores database vil du modtage in e-mail med instutioner om hvordan du kan låse din konto op."
+      unlocked: "Din konto er genåbnet og du er nu logget ind."
   errors:
     messages:
-      already_confirmed: er allerede bekræftet
-      confirmation_period_expired: 
-      expired: er udløbet. Vær venlig at bede om en ny
-      not_found: ikke fundet
-      not_locked: var ikke låst
+      already_confirmed: "er allerede bekræftet"
+      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
+      expired: "er udløbet. Vær venlig at bede om en ny"
+      not_found: "ikke fundet"
+      not_locked: "var ikke låst"
       not_saved:
-        one: ! '1 fejl medførte at denne %{resource} ikke kunne gemmes:'
-        other: ! '%{count} fejl medførte at denne %{resource} ikke kunne gemmes:'
+        one: "1 fejl medførte at denne %{resource} ikke kunne gemmes:"
+        other: "%{count} fejl medførte at denne %{resource} ikke kunne gemmes:"
