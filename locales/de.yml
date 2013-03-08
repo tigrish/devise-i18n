@@ -22,7 +22,7 @@ de:
       unlock_instructions:
         subject: Anleitung um Ihren Account freizuschalten
     omniauth_callbacks:
-      failure: Sie konnten nicht Ihrem %{kind}-Account angemeldet werden, weil "%{reason}".
+      failure: Sie konnten nicht mit Ihrem %{kind}-Account angemeldet werden, weil "%{reason}".
       success: Sie haben sich erfolgreich mit Ihrem %{kind}-Account angemeldet.
     passwords:
       no_token: Sie können sich nicht auf dieser Seite anmelden, wenn Sie nicht von einer Passwort-Zurücksetzen-E-Mail kommen. Wenn Sie von solch einer E-Mail kommen, überprüfen Sie bitte, ob Sie die gesamte URL verwendeten.
@@ -44,7 +44,7 @@ de:
     unlocks:
       send_instructions: Sie erhalten in wenigen Minuten eine E-Mail mit der Anleitung, wie Sie Ihren Account entsperren können.
       send_paranoid_instructions: Falls Ihre E-Mail-Adresse in unserer Datenbank existiert erhalten Sie in wenigen Minuten eine E-Mail mit der Anleitung, wie Sie Ihren Account entsperren können.
-      unlocked: Ihr Account wurde entsperrt. Sie sind jetzt angemeldet.
+      unlocked: Ihr Account wurde entsperrt. Sie können sich nun wieder anmelden.
   errors:
     messages:
       already_confirmed: wurde bereits bestätigt
