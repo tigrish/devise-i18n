@@ -10,7 +10,7 @@ sv:
       invalid: Ogiltig epost eller lösenord.
       invalid_token: Ogiltig token för autentisering.
       locked: Ditt konto är låst.
-      not_found_in_database: 
+      not_found_in_database: Ogiltig epost eller lösenord.
       timeout: Din session är inte längre giltig, vänligen logga in igen för att fortsätta.
       unauthenticated: Du måste logga in eller skapa ett konto innan du kan fortsätta.
       unconfirmed: Du måste bekräfta ditt konto innan du kan fortsätta.
@@ -48,7 +48,7 @@ sv:
   errors:
     messages:
       already_confirmed: är redan bekräftad, vänligen logga in igen
-      confirmation_period_expired: 
+      confirmation_period_expired: behöver bekräftas inom %{period}. Vänligen begär en ny
       expired: är inte längre giltig. Vänligen begär en ny
       not_found: hittades inte
       not_locked: var inte låst

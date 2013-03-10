@@ -44,7 +44,7 @@ es:
     unlocks:
       send_instructions: Vas a recibir instrucciones para desbloquear tu cuenta en unos pocos minutos.
       send_paranoid_instructions: Si tu cuenta existe, vas a recibir instrucciones para desbloquear tu cuenta en unos pocos minutos.
-      unlocked: Tu cuenta fue desbloqueada. Ya iniciaste sesión.
+      unlocked: Tu cuenta fue desbloqueada. Tu cuenta fue desbloqueada. Ya puedes iniciar sesión.
   errors:
     messages:
       already_confirmed: ya fue confirmada, por favor intenta iniciar sesión

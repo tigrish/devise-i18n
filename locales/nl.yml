@@ -10,7 +10,7 @@ nl:
       invalid: Ongeldig e-mail of wachtwoord.
       invalid_token: Ongeldige authenticiteit token.
       locked: Je account is vergrendeld.
-      not_found_in_database: 
+      not_found_in_database: Ongeldige email of wachtwoord.
       timeout: Je sessie is verlopen, meld je opnieuw aan om door te gaan.
       unauthenticated: Je dient je aan te melden of in te schrijven om door te gaan.
       unconfirmed: Je dient eerst je account te bevestigen.
@@ -48,7 +48,7 @@ nl:
   errors:
     messages:
       already_confirmed: is reeds bevestigd
-      confirmation_period_expired: 
+      confirmation_period_expired: moet binnen %{period} worden bevestigd, a.u.b. plaats een nieuw verzoek
       expired: is verlopen, vraag een nieuwe aan
       not_found: niet gevonden
       not_locked: is niet gesloten
