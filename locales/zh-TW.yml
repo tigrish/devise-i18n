@@ -10,7 +10,7 @@ zh-TW:
       invalid: Email 或密碼是無效的。
       invalid_token: 無效的認證代碼。
       locked: 您的帳號已被鎖定。
-      not_found_in_database: 
+      not_found_in_database: Email 或密碼是無效的。
       timeout: 您的登入時效過期，請重新登入，才能繼續。
       unauthenticated: 您需要先註冊，登入後才能繼續。
       unconfirmed: 您的帳號需需要經過確認後，才能繼續。
@@ -48,7 +48,7 @@ zh-TW:
   errors:
     messages:
       already_confirmed: 已被確認過了，請試著登入看看
-      confirmation_period_expired: 
+      confirmation_period_expired: 需要在%{period}以內確認，請再要一個新的。
       expired: 已經過期了，請再要一個新的
       not_found: 沒有找到
       not_locked: 被鎖定了
