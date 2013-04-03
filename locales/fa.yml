@@ -10,7 +10,7 @@ fa:
       invalid: ایمیل یا رمز عبور غیر معتبر.
       invalid_token: نشان اعتبار نامعتبر.
       locked: حسابتان قفل شده است.
-      not_found_in_database: 
+      not_found_in_database: ایمیل یا رمزعبور نامعتبر.
       timeout: نشست شما منقضی شده است. برای ادامه دوباره وارد شوید.
       unauthenticated: پیش از ادامه باید ورود یا ثبت نام کنید.
       unconfirmed: باید حسابتان را قبل از ادامه تایید کنید.
@@ -48,7 +48,7 @@ fa:
   errors:
     messages:
       already_confirmed: قبلا تایید شده است
-      confirmation_period_expired: 
+      confirmation_period_expired: باید در مدت %{period} تایید می‌شد، لطفا یکی دیگر درخواست نمایید
       expired: منقضی شده. لطفا یکی دیگر درخواست کنید.
       not_found: یافت نشد
       not_locked: قفل نشده است
