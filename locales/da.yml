@@ -26,24 +26,24 @@ da:
       success: Du er nu logget ind med din %{kind} konto.
     passwords:
       no_token: 
-      send_instructions: Du vil om et øjeblik modtage en email vedrørende nulstilling af kodeord.
-      send_paranoid_instructions: Hvis din e-mail adresse findes i vores database vil du modtage et link til hvor du kan nulstille dit kodeord.
+      send_instructions: Du vil om et øjeblik modtage en e-mail vedrørende nulstilling af kodeord.
+      send_paranoid_instructions: Hvis din e-mail-adresse findes i vores database vil du modtage et link til hvor du kan nulstille dit kodeord.
       updated: Dit kodeord er ændret og du er nu logget ind.
       updated_not_active: Dit kodeord er ændret.
     registrations:
       destroyed: Farvel. Din konto er nu lukket.
       signed_up: Din registrering er godkendt.
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
-      signed_up_but_unconfirmed: 
+      signed_up_but_inactive: Din registrering er godkendt, men vi kunne ikke logge dig ind, da din konto endnu ikke er blevet aktiveret.
+      signed_up_but_locked: Din registrering er godkendt, men vi kunne ikke logge dig ind, da din konto er låst.
+      signed_up_but_unconfirmed: En besked med bekræftelses link er blevet sendt til din e-mail-adresse. Åbn venligst linket for at aktivere din konto.
       update_needs_confirmation: 
       updated: Din profil er opdateret.
     sessions:
       signed_in: Du er nu logget ind.
       signed_out: Du er nu logget ud.
     unlocks:
-      send_instructions: Om få minutter vil du modtage en email med instruktioner om genåbning af din konto.
-      send_paranoid_instructions: Hvis din e-mail adresse findes i vores database vil du modtage in e-mail med instutioner om hvordan du kan låse din konto op.
+      send_instructions: Om få minutter vil du modtage en e-mail med instruktioner om genåbning af din konto.
+      send_paranoid_instructions: Hvis din e-mail-adresse findes i vores database vil du modtage in e-mail med instutioner om hvordan du kan låse din konto op.
       unlocked: Din konto er genåbnet og du er nu logget ind.
   errors:
     messages:
