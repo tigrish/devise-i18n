@@ -54,5 +54,6 @@ hr:
       not_locked: nije zaključan
       not_saved:
         few: ! '%{count} greške sprečavaju snimanje %{resource}:'
+        many: ! '%{count} grešaka sprečavaju snimanje %{resource}:'
         one: ! '1 greška sprečava snimanje %{resource}:'
         other: ! '%{count} grešaka sprečavaju snimanje %{resource}:'

@@ -55,3 +55,4 @@ lv:
       not_saved:
         one: ! '%{resource} netika saglabāts 1 kļūdas dēļ:'
         other: ! '%{resource} netika saglabāts %{count} kļūdu dēl:'
+        zero: ! '%{resource} netika saglabāts %{count} kļūdu dēl:'

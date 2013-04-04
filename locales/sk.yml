@@ -53,5 +53,6 @@ sk:
       not_found: nenájdeny
       not_locked: nebol uzamknutý
       not_saved:
+        few: ! '%{resource} nebol uložený kôli %{count} chybám:'
         one: ! '%{resource} nebol uložený kôli chybe:'
         other: ! '%{resource} nebol uložený kôli %{count} chybám:'

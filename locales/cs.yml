@@ -53,5 +53,6 @@ cs:
       not_found: nenalezen
       not_locked: nebyl uzamčen
       not_saved:
+        few: ! '%{resource} nebyl uložen kvůli %{count} chybám:'
         one: ! '%{resource} nebyl uložen kvůli chybě:'
         other: ! '%{resource} nebyl uložen kvůli %{count} chybám:'
