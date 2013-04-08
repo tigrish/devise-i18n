@@ -2,15 +2,15 @@ pt:
   devise:
     confirmations:
       confirmed: A sua conta foi confirmada com sucesso. Agora está autenticado.
-      send_instructions: Dentro de alguns minutos receberá um email com instruções para confirmar a sua conta.
-      send_paranoid_instructions: Se o seu email existir na nossa base de dados, receberá dentro de alguns minutos um email com instruções para confirmar a sua conta.
+      send_instructions: Dentro de alguns minutos receberá um e-mail com instruções para confirmar a sua conta.
+      send_paranoid_instructions: Se o seu e-mail existir na nossa base de dados, receberá dentro de alguns minutos um e-mail com instruções para confirmar a sua conta.
     failure:
       already_authenticated: Já se encontra autenticado.
       inactive: A sua conta ainda não foi activada.
-      invalid: O endereço de email ou a palavra-passe são inválidos.
+      invalid: O endereço de e-mail ou a palavra-passe são inválidos.
       invalid_token: A chave de autenticação é inválida.
       locked: A sua conta está bloqueada.
-      not_found_in_database: O endereço de email ou a palavra-passe são inválidos.
+      not_found_in_database: O endereço de e-mail ou a palavra-passe são inválidos.
       timeout: A sua sessão expirou, por favor autentique-se novamente para continuar.
       unauthenticated: Antes de continuar tem de se autenticar ou efectuar um registo.
       unconfirmed: Tem de confirmar a sua conta antes de continuar.
@@ -25,8 +25,8 @@ pt:
       failure: Could not authorize you from %{kind} because "%{reason}".
       success: Successfully authorized from %{kind} account.
     passwords:
-      no_token: Não pode aceder a esta página sem vir do email de redefinição da palavra-chave. Se vem dum email para redefinir a sena, por favor verifique que usou o URL completo que foi enviado.
-      send_instructions: Dentro de alguns minutos receberá um email com instruções de reinicialização da palavra-passe.
+      no_token: Não pode aceder a esta página sem vir do e-mail de redefinição da palavra-chave. Se vem dum e-mail para redefinir a sena, por favor verifique que usou o URL completo que foi enviado.
+      send_instructions: Dentro de alguns minutos receberá um e-mail com instruções de reinicialização da palavra-passe.
       send_paranoid_instructions: Se o seu e-mail existir na nossa base de dados, receberá dentro de alguns minutos um e-mail com instruções para recuperar a sua palavra-chave.
       updated: A sua palavra-passe foi alterada com sucesso. Agora está autenticado.
       updated_not_active: A sua palavra-chave foi alterada com sucesso.
@@ -35,15 +35,15 @@ pt:
       signed_up: Bem-vindo! A autenticação foi efectuada com sucesso.
       signed_up_but_inactive: Registou-se com sucesso. No entanto, não podemos iniciar a sua sessão porque ainda não confirmou a sua conta.
       signed_up_but_locked: Registou-se com sucesso. No entanto, não podemos iniciar a sua sessão porque a sua conta encontra-se bloqueada.
-      signed_up_but_unconfirmed: Foi enviado um email com um link para confirmar o seu endereço de email. Por favor abra o link para activar a sua conta.
-      update_needs_confirmation: A sua conta foi actualizada com sucesso, mas precisamos de confirmar o seu endereço de email. Por favor veja o seu email e clique no link para finalizar a confirmação.
+      signed_up_but_unconfirmed: Foi enviado um e-mail com um link para confirmar o seu endereço de e-mail. Por favor abra o link para activar a sua conta.
+      update_needs_confirmation: A sua conta foi actualizada com sucesso, mas precisamos de confirmar o seu endereço de e-mail. Por favor veja o seu e-mail e clique no link para finalizar a confirmação.
       updated: A sua conta foi actualizada com sucesso.
     sessions:
       signed_in: Autenticação efectuada com sucesso.
       signed_out: Terminou a sessão com sucesso.
     unlocks:
-      send_instructions: Dentro de alguns minutos receberá um email com as instruções para desbloquear a sua conta.
-      send_paranoid_instructions: Se a sua conta existir, receberá dentro de alguns minutos um email com instruções para a desbloquear.
+      send_instructions: Dentro de alguns minutos receberá um e-mail com as instruções para desbloquear a sua conta.
+      send_paranoid_instructions: Se a sua conta existir, receberá dentro de alguns minutos um e-mail com instruções para a desbloquear.
       unlocked: A sua conta foi desbloqueada com sucesso. Agora está autenticado.
   errors:
     messages:
