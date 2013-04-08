@@ -2,7 +2,7 @@ pt:
   devise:
     confirmations:
       confirmed: A sua conta foi confirmada com sucesso. Agora está autenticado.
-      send_instructions: Dentro de alguns minutos irá receber um email com instruções para confirmar  sua conta.
+      send_instructions: Dentro de alguns minutos irá receber um email com instruções para confirmar a sua conta.
       send_paranoid_instructions: Se o seu email existir na nossa base de dados, irá receber dentro de alguns minutos um email com instruções para confirmar a sua conta.
     failure:
       already_authenticated: Já se encontra autenticado.
@@ -32,7 +32,7 @@ pt:
       updated_not_active: A sua password foi alterada com sucesso.
     registrations:
       destroyed: A sua conta foi cancelada com sucesso.
-      signed_up: Bemvindo! A autenticação foi efectuada com sucesso.
+      signed_up: Bem-vindo! A autenticação foi efectuada com sucesso.
       signed_up_but_inactive: Registou-se com sucesso. No entanto, não podemos iniciar a sua sessão porque ainda não confirmou a sua conta.
       signed_up_but_locked: Registou-se com sucesso. No entanto, não podemos iniciar a sua sessão porque a sua conta encontra-se bloqueada.
       signed_up_but_unconfirmed: Foi enviado um email com um link para confirmar o seu email. Por favor abra o link para activar a sua conta.
