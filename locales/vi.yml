@@ -10,7 +10,7 @@ vi:
       invalid: Email hoặc mật khẩu không chính xác.
       invalid_token: Mã xác nhận không chính xác.
       locked: Tài khoản của bạn đã bị khóa.
-      not_found_in_database: 
+      not_found_in_database: Email hoặc mật khẩu không chính xác
       timeout: Phiên làm việc của bạn đã hết hạn, vui lòng đăng nhập để tiếp tục.
       unauthenticated: Bạn cần phải đăng nhập hoặc đăng ký trước khi tiếp tục.
       unconfirmed: Bạn cần phải xác nhận tài khoản trước khi tiếp tục.
@@ -48,7 +48,7 @@ vi:
   errors:
     messages:
       already_confirmed: đã được xác nhận, hãy thử đăng nhập xem sao.
-      confirmation_period_expired: 
+      confirmation_period_expired: cần được xác nhận trong khoảng thời gian %{period}, vui lòng yêu cầu xác nhận mới
       expired: đã hết hạn, vui lòng gửi yêu cầu mới.
       not_found: không tìm thấy
       not_locked: không bị khóa
