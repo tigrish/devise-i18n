@@ -2,57 +2,57 @@ sk:
   devise:
     confirmations:
       confirmed: Váš účet bol úspešne overený. Teraz ste prihlásený.
-      send_instructions: O niekoľko minút obdržíte email s inštrukciami, ako potvrdiť váš účet.
-      send_paranoid_instructions: Ak sa váš email nachádza v našej databáze, obdržíte email s inštrukciami, ako potvrdiť váš účet.
+      send_instructions: O niekoľko minút dostanete email s inštrukciami ako potvrdiť váš účet.
+      send_paranoid_instructions: Ak sa váš email nachádza v našej databáze, o niekoľko minút dostanete email s inštrukciami ako potvrdiť váš účet.
     failure:
       already_authenticated: Už ste prihlásený.
       inactive: Váš účet ešte nebol aktivovaný.
       invalid: Nesprávny email alebo heslo.
       invalid_token: Nesprávny overovací symbol.
-      locked: Váš účet je uzamknutý.
-      not_found_in_database: 
-      timeout: Platnosť session vypršala, prosím prihláste sa znovu, potom môžete pokračovať.
-      unauthenticated: Musíte sa zaregistrovať alebo prihlásiť, potom možete pokračovať.
-      unconfirmed: Musíte potvrdiť svoj účet, potom možete pokračovať.
+      locked: Váš účet je zamknutý.
+      not_found_in_database: Nesprávny email alebo heslo.
+      timeout: Vaša session vypršala. Na pokračovanie sa prosím znovu prihláste.
+      unauthenticated: Pred pokračovaním sa musíte zaregistrovať alebo prihlásiť.
+      unconfirmed: Pred pokračovaním musíte potvrdiť svoj účet.
     mailer:
       confirmation_instructions:
-        subject: Potvrdzovacie inštrukcie.
+        subject: Potvrdzovacie inštrukcie
       reset_password_instructions:
-        subject: Inštrukcie na obnovu hesla.
+        subject: Inštrukcie na obnovu hesla
       unlock_instructions:
-        subject: Inštrukcie na odomknutie účtu.
+        subject: Inštrukcie na odomknutie účtu
     omniauth_callbacks:
-      failure: Nie je možné vás autorizovať z %{kind}, pretože %{reason}.
-      success: Úspešná autorizácia z účtu %{kind}.
+      failure: Nebolo možné vás autentifikovať z %{kind} z dôvodu "%{reason}".
+      success: Úspešne autentifikovaný z účtu %{kind}.
     passwords:
-      no_token: Túto stránku nemôžete navštíviť pokiaľ neprichádzate z emailu s inštrukciami na obnovu hesla. Pokiaľ prichádzate z tohto emailu, prosím uistite sa že ste použili celú URL z emailu.
-      send_instructions: O niekoľko minút obdržíte email s inštrukciami ako nastaviť nové heslo.
-      send_paranoid_instructions: Ak sa váš email nachádza v našej databáze, obdržíte odkaz na obnovu hesla na svoj email.
-      updated: Vaše heslo bolo úspešne zmenené. Teraz ste prihláseny.
+      no_token: Túto stránku nemôžete navštíviť pokiaľ neprichádzate z emailu s inštrukciami na obnovu hesla. Ak z neho prichádzate, prosím uistite sa, že ste použili z odkazu celú adresu (URL).
+      send_instructions: O niekoľko minút dostanete email s inštrukciami ako nastaviť nové heslo.
+      send_paranoid_instructions: Ak sa váš email nachádza v našej databáze, o niekoľko minút dostanete na svoju emailovú adresu odkaz na obnovu hesla.
+      updated: Vaše heslo bolo úspešne zmenené. Teraz ste prihlásený.
       updated_not_active: Vaše heslo bolo úspešne zmenené.
     registrations:
       destroyed: Dovidenia! Váš účet bol úspešne zrušený. Dúfame, že sa čoskoro opäť uvidíme.
       signed_up: Vitajte! Registrácia bola úspešná.
-      signed_up_but_inactive: Registrácia bola úspešná. Nemohli ste však byť prihlásený, pretože váš účet ešte nebol aktivovaný.
-      signed_up_but_locked: Registrácia bola úspešná. Nemohli ste však byť prihlásený, pretože váš účet je uzamknutý.
-      signed_up_but_unconfirmed: Správa s podvrdzovacou linkou bola odoslaná na vašu emailovú adresu. Pre aktiváciu vašeho účtu otvorte túto linku.
-      update_needs_confirmation: ! 'Váš účet bol úspešne aktualizovaný ale potrebujeme overiť vašu emailovú adresu. Pre potvrdenie adresy otvorte linku, ktorá vám bola zaslaná na vašu novú emailovú adresu. '
-      updated: Váš účet bol úspešne aktualizovaný.
+      signed_up_but_inactive: Registrácia bola úspešná. Nemohli sme vás ale prihlásiť, lebo váš účet ešte nebol aktivovaný.
+      signed_up_but_locked: Registrácia bola úspešná. Nemohli sme vás ale prihlásiť, lebo váš účet je uzamknutý.
+      signed_up_but_unconfirmed: Správa s potvrdzovacím odkazom bola odoslaná na vašu emailovú adresu. Aby ste aktivovali váš účet, prosím otvorte odkaz..
+      update_needs_confirmation: Váš účet bol úspešne aktualizovaný ale potrebujeme overiť vašu novú emailovú adresu. Prosím skontrolujte si email a kliknite na potvrdzovací odkaz, aby ste potvrdili novú emailovú adresu.
+      updated: Úspešne ste aktualizovali váš účet.
     sessions:
-      signed_in: Prihlásenie úspešné.
-      signed_out: Odhlásenie úspešné.
+      signed_in: Úspešne prihlásený.
+      signed_out: Úspešne odhlásený.
     unlocks:
-      send_instructions: O niekoľko minút obdržíte email s inštrukciami ako odomknúť vaš účet.
-      send_paranoid_instructions: Ak váš účet existuje, o niekoľko minút obdržíte email s inštrukciami ako ho odomknúť.
-      unlocked: Váš účet bol úspešne odomknutý. Teraz ste prihláseny
+      send_instructions: O niekoľko minút dostanete email s inštrukciami ako odomknúť váš účet.
+      send_paranoid_instructions: Ak váš účet existuje, o niekoľko minút dostanete email s inštrukciami ako ho odomknúť.
+      unlocked: Váš účet bol úspešne odomknutý. Prosím prihláste sa, aby ste mohli pokračovať.
   errors:
     messages:
       already_confirmed: bol už potvrdený, skúste sa prihlásiť
-      confirmation_period_expired: 
-      expired: expiroval, prosím, vyžiadajte si nový
-      not_found: nenájdeny
-      not_locked: nebol uzamknutý
+      confirmation_period_expired: je potrebné overiť do %{period}, prosím vyžiadajte si nové overenie
+      expired: vypršal, prosím vyžiadajte si nový
+      not_found: nenájdený
+      not_locked: nebol zamknutý
       not_saved:
-        few: ! '%{resource} nebol uložený kôli %{count} chybám:'
-        one: ! '%{resource} nebol uložený kôli chybe:'
-        other: ! '%{resource} nebol uložený kôli %{count} chybám:'
+        few: ! '%{resource} nebol uložený kvôli %{count} chybám:'
+        one: ! '%{resource} nebol uložený kvôli chybe:'
+        other: ! '%{resource} nebol uložený kvôli %{count} chybám:'

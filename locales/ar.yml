@@ -7,10 +7,10 @@ ar:
     failure:
       already_authenticated: تم تسجيل دخولك من قبل.
       inactive: لم يتم تنشيط حسابك بعد.
-      invalid: 
+      invalid: ! ' خطأ فى البريد الكترونى أو كلمة السر'
       invalid_token: 
       locked: حسابك معلق.
-      not_found_in_database: 
+      not_found_in_database: ! ' خطأ فى البريد الكترونى أو كلمة السر'
       timeout: 
       unauthenticated: تحتاج إلى تسجيل دخولك قبل الاستمرار.
       unconfirmed: لابد أن تؤكد حسابك قبل الاستمرار.
@@ -26,7 +26,7 @@ ar:
       success: 
     passwords:
       no_token: 
-      send_instructions: 
+      send_instructions: سوف يصلك خلال دقائق بريد الكترونى يحتوى على التعليمات الضرورية لإعادة ضبط كلمة السر الخاصة بك
       send_paranoid_instructions: 
       updated: 
       updated_not_active: تم تعديل كلمة السر الخاصة بك بنجاح.

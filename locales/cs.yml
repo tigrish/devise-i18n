@@ -25,7 +25,7 @@ cs:
       failure: ! 'Není možné autorizovat z %{kind}, protože: "%{reason}".'
       success: Úspěšná autorizace z účtu %{kind}.
     passwords:
-      no_token: 
+      no_token: Na tuto stránku lze pouze z emailu, který nastavuje nové heslo. Pokud jste přišli z takového emailu, prosím, přesvěčte se že jste použili celou URL adresu.
       send_instructions: Za několik minut obdržíte email s instrukcemi k nastavení nového hesla.
       send_paranoid_instructions: Pokud váš e-mail existuje v naší databázi, za několik minut obdržíte e-mail s instrukcemi k nastavení nového hesla.
       updated: Vaše heslo bylo úspěšně změněno. Nyní jste přihlášen(a).
@@ -48,7 +48,7 @@ cs:
   errors:
     messages:
       already_confirmed: byl již potvrzen, prosím, zkuste se přihlásit
-      confirmation_period_expired: 
+      confirmation_period_expired: Je potřeba potvrdit do %{period}, prosím, požádejte o novou
       expired: vypršela, prosím, požádejte o nové
       not_found: nenalezen
       not_locked: nebyl uzamčen
