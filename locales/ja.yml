@@ -32,7 +32,7 @@ ja:
       updated_not_active: パスワードを変更しました。
     registrations:
       destroyed: アカウントを削除しました。またのご利用をお待ちしております。
-      signed_up: アカウント登録を受け付けました。確認のメールをお送りします。
+      signed_up: アカウント登録を受け付けました。
       signed_up_but_inactive: 登録に成功しました。しかし、アカウントが有効になっていないためログインできません。
       signed_up_but_locked: 登録に成功しました。しかし、アカウントがロックされているためログインできません。
       signed_up_but_unconfirmed: アカウント確認のリンクが入っているメールを送りました。 メール内のリンクでアカウントを有効にしてください。

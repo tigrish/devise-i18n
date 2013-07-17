@@ -48,7 +48,7 @@ pl:
   errors:
     messages:
       already_confirmed: już został aktywowany, możesz się zalogować
-      confirmation_period_expired: 
+      confirmation_period_expired: musi być potwierdzone w ciągu %{period}, zamów nową wiadomość aktywacyjną
       expired: stracił ważność, wyślij zapytanie o nowy
       not_found: nie znaleziono
       not_locked: nie był zablokowany
