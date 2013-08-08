@@ -22,7 +22,7 @@ ja:
       unlock_instructions:
         subject: アカウントの凍結解除
     omniauth_callbacks:
-      failure: 「%{reason}」のため、%{kind}による認証が出来ませんでした。
+      failure: 「%{reason}」のため、%{kind}による認証ができませんでした。
       success: ! '%{kind}による認証に成功しました。'
     passwords:
       no_token: パスワード再設定のメール以外からこのページへアクセスする事はできません。もしパスワード再設定のメールに記載されたリンクをクリックしてこのページへ訪れた場合、不完全なURLのリンクをクリックしていないか確認してください。メーラーによっては、リンクのURLが途中で切れる可能性があります。
@@ -52,4 +52,4 @@ ja:
       expired: は期限が切れたため、新しく取得する必要があります
       not_found: は見つかりませんでした
       not_locked: は凍結されていません
-      not_saved: ! '%{count}個のエラーにより%{resource}を保存することが出来ませんでした。'
+      not_saved: ! '%{count}個のエラーにより%{resource}を保存することができませんでした。'
