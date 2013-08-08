@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "devise-i18n"
-  s.version = "0.8.6"
+  s.version = "0.9.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Christopher Dell"]
-  s.date = "2013-07-17"
+  s.date = "2013-08-08"
   s.description = "Translations for the devise gem"
   s.email = "chris@tigrish.com"
   s.extra_rdoc_files = [
@@ -55,6 +55,7 @@ Gem::Specification.new do |s|
     "locales/my.yml",
     "locales/nb.yml",
     "locales/nl.yml",
+    "locales/no.yml",
     "locales/pl.yml",
     "locales/pt-BR.yml",
     "locales/pt.yml",
@@ -65,6 +66,7 @@ Gem::Specification.new do |s|
     "locales/sv.yml",
     "locales/th.yml",
     "locales/tr.yml",
+    "locales/uk.yml",
     "locales/vi.yml",
     "locales/zh-CN.yml",
     "locales/zh-HK.yml",
