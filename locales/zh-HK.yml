@@ -16,11 +16,11 @@ zh-HK:
       unconfirmed: 帳戶未啟用。
     mailer:
       confirmation_instructions:
-        subject: 確認步驟
+        subject: 啟用帳戶
       reset_password_instructions:
-        subject: 重設密碼步驟
+        subject: 重設密碼
       unlock_instructions:
-        subject: 解鎖步驟
+        subject: 帳戶解鎖
     omniauth_callbacks:
       failure: 由%{kind}登入唔到，原因︰%{reason}。
       success: ! '%{kind}登入成功。'

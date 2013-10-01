@@ -10,7 +10,7 @@ hr:
       invalid: Neispravan e-mail ili lozinka.
       invalid_token: Neispravan token za prijavu.
       locked: Vaš račun je zaključan.
-      not_found_in_database: 
+      not_found_in_database: Neispravan e-mail ili lozinka.
       timeout: Vrijeme trajanja Vaše sesije je isteklo. Za nastavak se prijavite ponovno.
       unauthenticated: Za nastavak se morate prijaviti ili registrirati.
       unconfirmed: Prije nastavka morate potvrditi Vaš račun.
