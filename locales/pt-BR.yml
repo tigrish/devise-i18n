@@ -1,7 +1,8 @@
 pt-BR:
   devise:
     confirmations:
-      confirmed: A sua conta foi confirmada com sucesso. Você está autenticado.
+      confirmed: A sua conta foi confirmada com sucesso.
+      confirmed_and_signed_in: A sua conta foi confirmada com sucesso. Você está autenticado.
       send_instructions: Dentro de minutos, você receberá um email com as instruções de confirmação da sua conta.
       send_paranoid_instructions: Se o seu email existir em nosso banco de dados, você receberá um email com instruções sobre como confirmar sua conta em alguns minutos.
     failure:
