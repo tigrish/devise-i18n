@@ -8,7 +8,7 @@ pt-BR:
       already_authenticated: Você já está autenticado.
       inactive: A sua conta ainda não foi ativada.
       invalid: Email ou senha inválidos.
-      invalid_token: O token de autenticação não é válido.
+      last_attempt: 
       locked: A sua conta está bloqueada.
       not_found_in_database: Email ou senha inválidos.
       timeout: A sua sessão expirou, por favor, faça login novamente para continuar.

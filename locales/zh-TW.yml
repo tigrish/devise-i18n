@@ -8,7 +8,7 @@ zh-TW:
       already_authenticated: 你已經登入。
       inactive: 您的帳號尚未被啟用。
       invalid: Email 或密碼是無效的。
-      invalid_token: 無效的認證代碼。
+      last_attempt: 
       locked: 您的帳號已被鎖定。
       not_found_in_database: Email 或密碼是無效的。
       timeout: 您的登入時效過期，請重新登入，才能繼續。

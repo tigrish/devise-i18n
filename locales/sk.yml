@@ -8,7 +8,7 @@ sk:
       already_authenticated: Už ste prihlásený.
       inactive: Váš účet ešte nebol aktivovaný.
       invalid: Nesprávny email alebo heslo.
-      invalid_token: Nesprávny overovací symbol.
+      last_attempt: 
       locked: Váš účet je zamknutý.
       not_found_in_database: Nesprávny email alebo heslo.
       timeout: Vaša session vypršala. Na pokračovanie sa prosím znovu prihláste.

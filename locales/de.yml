@@ -8,7 +8,7 @@ de:
       already_authenticated: Sie sind bereits angemeldet.
       inactive: Ihr Account ist nicht aktiv.
       invalid: Ungültige Anmeldedaten.
-      invalid_token: Der Anmelde-Token ist ungültig.
+      last_attempt: 
       locked: Ihr Account ist gesperrt.
       not_found_in_database: Ungültige Anmeldedaten.
       timeout: Ihre Sitzung ist abgelaufen, bitte melden Sie sich erneut an.

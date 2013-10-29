@@ -8,7 +8,7 @@ zh-CN:
       already_authenticated: 您已经登录.
       inactive: 您还没有激活帐户.
       invalid: 邮箱或密码错误
-      invalid_token: 认证码无效.
+      last_attempt: 
       locked: 您的帐号已被锁定.
       not_found_in_database: 邮箱或密码错误
       timeout: 您已登录超时，请重新登录.

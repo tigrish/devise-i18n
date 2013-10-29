@@ -8,7 +8,7 @@ cs:
       already_authenticated: Přihlášení již proběhlo.
       inactive: Váš účet ještě nebyl aktivován.
       invalid: Neplatná identita nebo heslo.
-      invalid_token: Neplatný ověřovací symbol.
+      last_attempt: 
       locked: Váš účet je uzamčen.
       not_found_in_database: Neplatná identita nebo heslo.
       timeout: Vaše relace vypršela, přihlašte se prosím znovu, pak můžete pokračovat.

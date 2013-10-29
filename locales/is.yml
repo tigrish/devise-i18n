@@ -8,7 +8,7 @@ is:
       already_authenticated: Þú ert nú þegar innskráð(ur).
       inactive: Aðgangurinn þinn hefur ekki verið staðfestur.
       invalid: Ógilt notandanafn eða lykilorð.
-      invalid_token: Ógilt auðkenningartákn.
+      last_attempt: 
       locked: Aðgangurinn þinn er læstur.
       not_found_in_database: 
       timeout: Seta þín hefur runnið út, skráðu þig aftur inn til að halda áfram.

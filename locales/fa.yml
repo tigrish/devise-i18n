@@ -8,7 +8,7 @@ fa:
       already_authenticated: وارد سیستم هستید.
       inactive: حساب شما هنوز فعال نشده است.
       invalid: ایمیل یا رمز عبور غیر معتبر.
-      invalid_token: نشان اعتبار نامعتبر.
+      last_attempt: 
       locked: حسابتان قفل شده است.
       not_found_in_database: ایمیل یا رمزعبور نامعتبر.
       timeout: نشست شما منقضی شده است. برای ادامه دوباره وارد شوید.

@@ -8,7 +8,7 @@ lt:
       already_authenticated: Jūs jau prisijungę.
       inactive: Jūsų prisijungimas dar neaktyvuotas.
       invalid: Neteisingas el. paštas arba slaptažodis.
-      invalid_token: Neteisingas aktyvacijos kodas.
+      last_attempt: 
       locked: Jūsų prisijungimas blokuojamas.
       not_found_in_database: 
       timeout: Jūsų prisijungimo laikas baigėsi, prašome prisijungti iš naujo.

@@ -8,10 +8,10 @@ tr:
       already_authenticated: Zaten giriş yaptınız.
       inactive: Hesabınız daha aktifleştirilmemiş.
       invalid: Yanlış e-posta adresi veya şifre girdiniz.
-      invalid_token: Yanlış denetim anahtarı.
+      last_attempt: 
       locked: Hesabınız kilitlendi.
       not_found_in_database: Geçersiz eposta adresi veya şifre.
-      timeout: Oturumunuz sonlandı. Lütfen giriş yapınız.
+      timeout: Oturumunuz sonlandı. Devam etmek için, lütfen yeniden giriş yapınız.
       unauthenticated: Devam etmeden önce giriş yapmanız veya kayıt olmanız gereklidir.
       unconfirmed: Devam etmeden önce hesabınızı onaylamalısınız.
     mailer:

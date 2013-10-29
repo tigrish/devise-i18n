@@ -8,7 +8,7 @@ lv:
       already_authenticated: Jūs jau esiet pieslēdzies.
       inactive: Jūsu lietotajs vēl nav aktivizēts.
       invalid: Nekorekts epasts vai parole.
-      invalid_token: Nekoreta autentifikācijas atslēga.
+      last_attempt: 
       locked: Jūsu lietotājs ir nobloķēts.
       not_found_in_database: 
       timeout: Jūsu sesijas laiks ir beidzies. Lūdzu pieslēdzieties vēlreiz, lai turpinātu.

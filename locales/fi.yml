@@ -8,7 +8,7 @@ fi:
       already_authenticated: Olet jo kirjautunut sisään.
       inactive: Tunnustasi ei ole vielä aktivoitu.
       invalid: Epäkelpo sähköpostiosoite tai salasana.
-      invalid_token: Epäkelpo autentikaatiopoletti.
+      last_attempt: 
       locked: Tunnuksesi on lukittu.
       not_found_in_database: Epäkelpo sähköpostiosoite tai salasana.
       timeout: Istuntosi on vanhentunut, ole hyvä ja kirjaudu sisään jatkaaksesi.

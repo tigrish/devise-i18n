@@ -8,7 +8,7 @@ he:
       already_authenticated: את/ה כבר מחובר/ת
       inactive: חשבונך טרם הופעל.
       invalid: כתובת אימייל או סיסמא שגויה.
-      invalid_token: מזהה התחברות שגוי.
+      last_attempt: 
       locked: חשבונך ננעל.
       not_found_in_database: כתובת אימייל או סיסמא לא תקינה
       timeout: פג תוקף החיבור לאתר, אנא התחבר מחדש.

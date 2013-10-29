@@ -8,7 +8,7 @@ ar:
       already_authenticated: تم تسجيل دخولك من قبل.
       inactive: لم يتم تنشيط حسابك بعد.
       invalid: البريد الإلكتروني أو كلمة السر غير صحيحة.
-      invalid_token: رمز المصادقة غير صالح.
+      last_attempt: 
       locked: حسابك معلق.
       not_found_in_database: ! ' خطأ فى البريد الكترونى أو كلمة السر'
       timeout: لقد انتهت صلاحية الجلسة، قم بتسجيل الدخول مجدداً من فضلك.

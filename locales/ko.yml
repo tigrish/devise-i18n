@@ -8,7 +8,7 @@ ko:
       already_authenticated: 이미 로그인되어 있습니다.
       inactive: 계정이 아직 활성화되지 않았습니다.
       invalid: 이메일 혹은 비밀번호가 틀립니다.
-      invalid_token: 인증 토큰이 유효하지 않습니다.
+      last_attempt: 
       locked: 계정이 잠겨있습니다.
       not_found_in_database: 이메일 주소나 비밀번호가 틀립니다.
       timeout: 로그아웃 되었습니다. 계속 하려면 다시 로그인 해야 합니다.

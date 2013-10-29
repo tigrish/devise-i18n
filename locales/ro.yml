@@ -8,7 +8,7 @@ ro:
       already_authenticated: Sunteţi deja autentificat
       inactive: Contul dvs. nu a fost activat încă.
       invalid: E-mail sau parolă invalide.
-      invalid_token: Token de autentificare invalid.
+      last_attempt: 
       locked: Contul dvs. este blocat.
       not_found_in_database: 
       timeout: Sesiunea dvs. a expirat, vă rugăm să vă autentificaţi din nou pentru a continua.

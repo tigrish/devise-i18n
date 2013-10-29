@@ -8,7 +8,7 @@ ja:
       already_authenticated: 既にログインしています。
       inactive: アカウントが有効化されていません。
       invalid: メールアドレスまたはパスワードが違います。
-      invalid_token: 認証キーが無効です。
+      last_attempt: 
       locked: アカウントが凍結されています。
       not_found_in_database: メールアドレスまたはパスワードが違います。
       timeout: セッションがタイムアウトしました。もう一度ログインしてください。

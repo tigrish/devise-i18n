@@ -8,7 +8,7 @@ az:
       already_authenticated: Siz hesabınıza artıq daxil olmuşsunuz.
       inactive: Sizin hesabınız hələ aktivləşdirilməmişdir.
       invalid: Yanlış email və ya şifrə.
-      invalid_token: Autentikasiya açarı yanlışdır.
+      last_attempt: 
       locked: Sizin hesabınız bloklanmışdır.
       not_found_in_database: Email və ya şifrə yanlışdır.
       timeout: Sessiyanızın vaxtı bitmişdir, davam etmək üçün zəhmət olmasa yenidən daxil olun.

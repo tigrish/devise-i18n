@@ -8,7 +8,7 @@ pt:
       already_authenticated: Já se encontra autenticado.
       inactive: A sua conta ainda não foi activada.
       invalid: O endereço de email ou a palavra-passe são inválidos.
-      invalid_token: A chave de autenticação é inválida.
+      last_attempt: 
       locked: A sua conta está bloqueada.
       not_found_in_database: O endereço de email ou a palavra-passe são inválidos.
       timeout: A sua sessão expirou, por favor autentique-se novamente para continuar.

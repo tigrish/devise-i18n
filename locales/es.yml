@@ -8,7 +8,7 @@ es:
       already_authenticated: Ya has iniciado una sesión.
       inactive: Tu cuenta aún no ha sido activada.
       invalid: Email o contraseña inválidos.
-      invalid_token: Código de autenticación inválido.
+      last_attempt: 
       locked: Tu cuenta está bloqueada.
       not_found_in_database: Email o contraseña inválidos.
       timeout: Tu sesión expiró, por favor inicia sesión nuevamente para continuar.

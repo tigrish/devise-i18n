@@ -8,7 +8,7 @@ my:
       already_authenticated: 
       inactive: Akun anda belum diaktifkan.
       invalid: email atau password yang anda masukkan salah.
-      invalid_token: Kesalahan pada authentication token.
+      last_attempt: 
       locked: Akun anda terkunci.
       not_found_in_database: 
       timeout: Sesi anda telah tamat, silahkan sign in bagi meneruskan sesi yang baru.

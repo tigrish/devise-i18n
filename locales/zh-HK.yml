@@ -8,7 +8,7 @@ zh-HK:
       already_authenticated: 已經登入咗。
       inactive: 帳戶未啟用。
       invalid: 電郵或者密碼唔啱。
-      invalid_token: 認證代碼無效。
+      last_attempt: 
       locked: 你個帳戶已經鎖咗。
       not_found_in_database: 電郵或者密碼唔啱。
       timeout: 超時，請重新登入。
