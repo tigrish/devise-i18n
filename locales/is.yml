@@ -22,7 +22,7 @@ is:
       unlock_instructions:
         subject: Aflæsingarleiðbeiningar
     omniauth_callbacks:
-      failure: ! 'Innskráning með %{kind} aðgangi mistókst: %{reason}.'
+      failure: 'Innskráning með %{kind} aðgangi mistókst: %{reason}.'
       success: Innskráning með %{kind} aðgangi tókst.
     passwords:
       no_token: 
@@ -53,5 +53,5 @@ is:
       not_found: fannst ekki
       not_locked: var ekki læstur
       not_saved:
-        one: ! '1 villa kom í veg fyrir að hægt væri að vista þennan %{resource}:'
-        other: ! '%{count} villur komu í veg fyrir að hægt væri að vista þennan %{resource}:'
+        one: '1 villa kom í veg fyrir að hægt væri að vista þennan %{resource}:'
+        other: '%{count} villur komu í veg fyrir að hægt væri að vista þennan %{resource}:'

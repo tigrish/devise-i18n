@@ -8,7 +8,7 @@ fr:
       already_authenticated: Vous êtes déjà connecté(e).
       inactive: Votre compte n’est pas encore activé.
       invalid: Email ou mot de passe incorrect.
-      last_attempt: 
+      last_attempt: Il vous reste une chance avant que votre compte soit bloqué.
       locked: Votre compte est verrouillé.
       not_found_in_database: Email ou mot de passe incorrect.
       timeout: Votre session est périmée, veuillez vous reconnecter pour continuer.
@@ -22,7 +22,7 @@ fr:
       unlock_instructions:
         subject: Instructions pour déverrouiller le compte
     omniauth_callbacks:
-      failure: ! 'Nous ne pouvons pas vous authentifier depuis %{kind} pour la raison suivante : ''%{reason}''.'
+      failure: 'Nous ne pouvons pas vous authentifier depuis %{kind} pour la raison suivante : ''%{reason}''.'
       success: Autorisé avec succès par votre compte %{kind}.
     passwords:
       no_token: Vous ne pouvez pas accéder à cette page si vous n’y accédez pas depuis un email de réinitialisation de mot de passe. Si vous venez en effet d’un tel email, vérifiez que vous avez copié l’adresse URL en entier.
@@ -53,5 +53,5 @@ fr:
       not_found: n’a pas été trouvé(e)
       not_locked: n’était pas verrouillé(e)
       not_saved:
-        one: ! 'une erreur a empêché ce (ou cette) %{resource} d’être enregistré(e) :'
-        other: ! '%{count} erreurs ont empêché ce (ou cette) %{resource} d’être enregistré(e) :'
+        one: 'une erreur a empêché ce (ou cette) %{resource} d’être enregistré(e) :'
+        other: '%{count} erreurs ont empêché ce (ou cette) %{resource} d’être enregistré(e) :'

@@ -8,11 +8,11 @@ fa:
       already_authenticated: وارد سیستم هستید.
       inactive: حساب شما هنوز فعال نشده است.
       invalid: ایمیل یا رمز عبور غیر معتبر.
-      last_attempt: 
+      last_attempt: شما تنها یک فرصت دیگر دارید قبل از این‎که حسابتان غیرفعال شود.
       locked: حسابتان قفل شده است.
       not_found_in_database: ایمیل یا رمزعبور نامعتبر.
       timeout: نشست شما منقضی شده است. برای ادامه دوباره وارد شوید.
-      unauthenticated: پیش از ادامه باید ورود یا ثبت نام کنید.
+      unauthenticated: پیش از ادامه باید وارد شوید یا ثبت نام کنید.
       unconfirmed: باید حسابتان را قبل از ادامه تایید کنید.
     mailer:
       confirmation_instructions:
@@ -53,5 +53,5 @@ fa:
       not_found: یافت نشد
       not_locked: قفل نشده است
       not_saved:
-        one: ! '۱ خطا جلوی ذخیره %{resource} را گرفت:'
-        other: ! '%{count} خطا جلوی ذخیره این %{resource} را گرفت:'
+        one: '۱ خطا جلوی ذخیره %{resource} را گرفت:'
+        other: '%{count} خطا جلوی ذخیره این %{resource} را گرفت:'

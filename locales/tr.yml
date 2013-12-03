@@ -8,7 +8,7 @@ tr:
       already_authenticated: Zaten giriş yaptınız.
       inactive: Hesabınız daha aktifleştirilmemiş.
       invalid: Yanlış e-posta adresi veya şifre girdiniz.
-      last_attempt: 
+      last_attempt: Hesabınız askıya alınmadan önce son bir deneme hakkınız kaldı.
       locked: Hesabınız kilitlendi.
       not_found_in_database: Geçersiz eposta adresi veya şifre.
       timeout: Oturumunuz sonlandı. Devam etmek için, lütfen yeniden giriş yapınız.
@@ -23,11 +23,11 @@ tr:
         subject: Kilit açma talimatları.
     omniauth_callbacks:
       failure: Sizi %{kind} aracılığıyla tanıyamadık çünkü "%{reason}".
-      success: ! '%{kind} aracılığıyla onaylandınız.'
+      success: '%{kind} aracılığıyla onaylandınız.'
     passwords:
       no_token: Bu sayfaya şifre sıfırlama e-postasındaki linke tıklayarak gelmeniz gerekmektedir. Linke tıklamak yerine kopyaladıysanız, hata yapmış olabilirsiniz. Lütfen şifre sıfırlama e-postasındaki linke tıklayın.
       send_instructions: Birkaç dakika içinde şifrenizi nasıl sıfırlayacağınız ile ilgili bir e-posta alacaksınız.
-      send_paranoid_instructions: ! 'Eğer e-posta adresiniz sistemimizde kayıtlı ise, birkaç dakika içinde şifrenizi nasıl sıfırlayacağınız ile ilgili bir e-posta alacaksınız. '
+      send_paranoid_instructions: 'Eğer e-posta adresiniz sistemimizde kayıtlı ise, birkaç dakika içinde şifrenizi nasıl sıfırlayacağınız ile ilgili bir e-posta alacaksınız. '
       updated: Şifreniz başarıyla güncellendi. Şu an giriş yapmış bulunuyorsunuz.
       updated_not_active: Şifreniz başarıyla güncellendi.
     registrations:
@@ -48,8 +48,8 @@ tr:
   errors:
     messages:
       already_confirmed: zaten onaylanmış, lütfen giriş yapmayı deneyin
-      confirmation_period_expired: ! '%{period} içinde onaylanması gerekmektedir, lütfen yeni bir tane isteyiniz.'
+      confirmation_period_expired: '%{period} içinde onaylanması gerekmektedir, lütfen yeni bir tane isteyiniz.'
       expired: süresi doldu, lütfen yeni bir tane isteyin
       not_found: bulunamadı
       not_locked: kilitlenmemiş
-      not_saved: ! '%{count} tane hata %{resource}''ın kaydını engelledi.'
+      not_saved: '%{count} tane hata %{resource}''ın kaydını engelledi.'

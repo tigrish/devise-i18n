@@ -53,5 +53,5 @@ ca:
       not_found: no s'ha trobat
       not_locked: no està bloquejat
       not_saved:
-        one: ! '1 error ha evitat que %{resource} es pugui desar:'
-        other: ! '%{count} errors han evitat que %{resource} es pugui desar:'
+        one: '1 error ha evitat que %{resource} es pugui desar:'
+        other: '%{count} errors han evitat que %{resource} es pugui desar:'

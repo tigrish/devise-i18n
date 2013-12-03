@@ -1,14 +1,14 @@
 et:
   devise:
     confirmations:
-      confirmed: Sinu konto on edukalt kinnitatud. Sa oled nüüd sisse logitud.
+      confirmed: Sinu konto on edukalt kinnitatud.
       send_instructions: Mõne minuti jooksul saad sa e-kirja juhistega oma konto kinnitamiseks.
       send_paranoid_instructions: Kui sinu e-post on meie andmebaasis, saad varsti e-kirja juhistega, kuidas oma konto kinnitada.
     failure:
       already_authenticated: Oled juba sisse loginud.
       inactive: Sinu konto polnud veel aktiveeritud.
       invalid: Vigane e-post või salasõna.
-      last_attempt: 
+      last_attempt: Sinul on jäänud veel üks katse enne kui su konto lukustatakse.
       locked: Sinu konto lukustati.
       not_found_in_database: Vigane e-post või salasõna.
       timeout: Sinu sessioon on aegunud, jätkamiseks logi palun sisse.
@@ -28,7 +28,7 @@ et:
       no_token: Sa ei saa seda lehte külastada mujalt kui salasõna taastamise e-kirjast. Kui sa tuled salasõna taastamise e-kirjast, palun kontrolli, et sa kasutasid täielikku URLi.
       send_instructions: Mõne minuti jooksul saad sa kirja juhistega, kuidas oma salasõna taastada.
       send_paranoid_instructions: Kui su e-post on meie andmebaasis, saad varsti e-kirja salasõna taastamise lingiga.
-      updated: Sinu salasõna vahetati edukalt. Oled sisse logitud.
+      updated: Sinu salasõna vahetati edukalt. Oled nüüd sisse logitud.
       updated_not_active: Sinu salasõna vahetati edukalt.
     registrations:
       destroyed: Nägemist! Sinu konto on edukalt tühistatud. Loodame sind peagi uuesti näha.
@@ -53,5 +53,5 @@ et:
       not_found: ei leitud
       not_locked: ei olnud lukus
       not_saved:
-        one: ! '1 viga takistas salvestamast objekti %{resource}:'
-        other: ! '%{count} viga takistasid salvestamast objekti %{resource}:'
+        one: '1 viga takistas salvestamast objekti %{resource}:'
+        other: '%{count} viga takistasid salvestamast objekti %{resource}:'

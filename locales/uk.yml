@@ -53,7 +53,7 @@ uk:
       not_found: не знайдено
       not_locked: не заблоковано
       not_saved:
-        few: ! '%{resource}: не вдалося зберегти через %{count} помилки'
-        many: ! '%{resource}: не вдалося зберегти через %{count} помилок'
-        one: ! '%{resource}: не вдалося зберегти через %{count} помилку'
-        other: ! '%{resource}: не вдалося зберегти через %{count} помилок'
+        few: '%{resource}: не вдалося зберегти через %{count} помилки'
+        many: '%{resource}: не вдалося зберегти через %{count} помилок'
+        one: '%{resource}: не вдалося зберегти через %{count} помилку'
+        other: '%{resource}: не вдалося зберегти через %{count} помилок'

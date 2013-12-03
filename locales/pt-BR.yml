@@ -8,7 +8,7 @@ pt-BR:
       already_authenticated: Você já está autenticado.
       inactive: A sua conta ainda não foi ativada.
       invalid: Email ou senha inválidos.
-      last_attempt: 
+      last_attempt: Você tem mais uma única tentativa antes de sua conta ser bloqueada.
       locked: A sua conta está bloqueada.
       not_found_in_database: Email ou senha inválidos.
       timeout: A sua sessão expirou, por favor, faça login novamente para continuar.
@@ -53,5 +53,5 @@ pt-BR:
       not_found: não encontrado
       not_locked: não foi bloqueado
       not_saved:
-        one: ! 'Não foi possível salvar %{resource}: 1 erro'
-        other: ! 'Não foi possível salvar %{resource}: %{count} erros.'
+        one: 'Não foi possível salvar %{resource}: 1 erro'
+        other: 'Não foi possível salvar %{resource}: %{count} erros.'

@@ -22,7 +22,7 @@ lv:
       unlock_instructions:
         subject: Atbloķēšanas apraksts
     omniauth_callbacks:
-      failure: ! 'Neizdevās autorizeties ar %{kind} lietotāju. Iemesls: "%{reason}".'
+      failure: 'Neizdevās autorizeties ar %{kind} lietotāju. Iemesls: "%{reason}".'
       success: Veiksmīgi autorizējis ar %{kind} lietotāju.
     passwords:
       no_token: 
@@ -53,6 +53,6 @@ lv:
       not_found: netika atrasts
       not_locked: netika nobloķēts
       not_saved:
-        one: ! '%{resource} netika saglabāts 1 kļūdas dēļ:'
-        other: ! '%{resource} netika saglabāts %{count} kļūdu dēl:'
-        zero: ! '%{resource} netika saglabāts %{count} kļūdu dēl:'
+        one: '%{resource} netika saglabāts 1 kļūdas dēļ:'
+        other: '%{resource} netika saglabāts %{count} kļūdu dēl:'
+        zero: '%{resource} netika saglabāts %{count} kļūdu dēl:'

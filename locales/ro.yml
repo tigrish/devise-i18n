@@ -53,6 +53,6 @@ ro:
       not_found: nu există
       not_locked: nu este blocat
       not_saved:
-        few: ! '%{count} erori nu au permis %{resource} să fie salvat:'
-        one: ! '1 eroare nu a permis %{resource} să fie salvat:'
-        other: ! '%{count} erori nu au permis %{resource} să fie salvat:'
+        few: '%{count} erori nu au permis %{resource} să fie salvat:'
+        one: '1 eroare nu a permis %{resource} să fie salvat:'
+        other: '%{count} erori nu au permis %{resource} să fie salvat:'

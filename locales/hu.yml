@@ -22,7 +22,7 @@ hu:
       unlock_instructions:
         subject: Fiók zárolásának megszüntetése
     omniauth_callbacks:
-      failure: ! 'Nem sikerült azonosítani %{kind} fiókkal, az ok: "%{reason}".'
+      failure: 'Nem sikerült azonosítani %{kind} fiókkal, az ok: "%{reason}".'
       success: Sikeres azonosítás %{kind} fiókkal.
     passwords:
       no_token: Ezt az oldalt csak a jelszóváltoztató e-mailben küldött linkre kattintva lehet elérni, és ellenőrizni kell, hogy a címsorban az e-mailben található teljes webcím szerepel-e.
@@ -53,5 +53,5 @@ hu:
       not_found: nem található
       not_locked: nincs zárolva
       not_saved:
-        one: ! '1 hiba miatt %{resource} mentése nem lehetséges:'
-        other: ! '%{count} hiba miatt %{resource} mentése nem lehetsésges:'
+        one: '1 hiba miatt %{resource} mentése nem lehetséges:'
+        other: '%{count} hiba miatt %{resource} mentése nem lehetsésges:'

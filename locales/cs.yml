@@ -8,7 +8,7 @@ cs:
       already_authenticated: Přihlášení již proběhlo.
       inactive: Váš účet ještě nebyl aktivován.
       invalid: Neplatná identita nebo heslo.
-      last_attempt: 
+      last_attempt: Zbývá Vám ještě jeden pokus než bude Váš účet uzamčen.
       locked: Váš účet je uzamčen.
       not_found_in_database: Neplatná identita nebo heslo.
       timeout: Vaše relace vypršela, přihlašte se prosím znovu, pak můžete pokračovat.
@@ -22,7 +22,7 @@ cs:
       unlock_instructions:
         subject: Instrukce k odemknutí účtu
     omniauth_callbacks:
-      failure: ! 'Není možné autorizovat z %{kind}, protože: "%{reason}".'
+      failure: 'Není možné autorizovat z %{kind}, protože: "%{reason}".'
       success: Úspěšná autorizace z účtu %{kind}.
     passwords:
       no_token: Na tuto stránku lze pouze z emailu, který nastavuje nové heslo. Pokud jste přišli z takového emailu, prosím, přesvěčte se že jste použili celou URL adresu.
@@ -53,6 +53,6 @@ cs:
       not_found: nenalezen
       not_locked: nebyl uzamčen
       not_saved:
-        few: ! '%{resource} nebyl uložen kvůli %{count} chybám:'
-        one: ! '%{resource} nebyl uložen kvůli chybě:'
-        other: ! '%{resource} nebyl uložen kvůli %{count} chybám:'
+        few: '%{resource} nebyl uložen kvůli %{count} chybám:'
+        one: '%{resource} nebyl uložen kvůli chybě:'
+        other: '%{resource} nebyl uložen kvůli %{count} chybám:'

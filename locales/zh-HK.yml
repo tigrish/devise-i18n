@@ -23,7 +23,7 @@ zh-HK:
         subject: 帳戶解鎖
     omniauth_callbacks:
       failure: 由%{kind}登入唔到，原因︰%{reason}。
-      success: ! '%{kind}登入成功。'
+      success: '%{kind}登入成功。'
     passwords:
       no_token: 請肯定網址係密碼重設電郵入面嗰個。唔經呢封電郵睇唔到呢版。
       send_instructions: 幾分鐘之後，你會收到一封電郵，入面有重設密碼嘅步驟。

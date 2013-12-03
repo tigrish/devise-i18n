@@ -44,7 +44,7 @@ pl:
     unlocks:
       send_instructions: Wkrótce powinieneś otrzymać email z instrukcją jak odblokować swoje konto.
       send_paranoid_instructions: Jeśli Twoje konto istnieje w naszej bazie, otrzymasz zaraz email z instrukcją jak odblokować swoje konto.
-      unlocked: Twoje konto zostało odblokowane. Jesteś już zalogowany.
+      unlocked: Twoje konto zostało odblokowane. Zaloguj się, aby kontynuować.
   errors:
     messages:
       already_confirmed: już został aktywowany, możesz się zalogować
@@ -53,6 +53,6 @@ pl:
       not_found: nie znaleziono
       not_locked: nie był zablokowany
       not_saved:
-        few: ! '%{resource} nie został zapisany z powodu %{count} błędów:'
-        one: ! '%{resource} nie został zapisany z powodu jednego błędu:'
-        other: ! '%{resource} nie został zapisany z powodu %{count} błędów:'
+        few: '%{resource} nie został zapisany z powodu %{count} błędów:'
+        one: '%{resource} nie został zapisany z powodu jednego błędu:'
+        other: '%{resource} nie został zapisany z powodu %{count} błędów:'

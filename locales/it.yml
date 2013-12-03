@@ -53,5 +53,5 @@ it:
       not_found: non trovato
       not_locked: non era bloccato
       not_saved:
-        one: ! 'Non posso salvare questo %{resource}: 1 errore'
-        other: ! 'Non posso salvare questo %{resource}: %{count} errori.'
+        one: 'Non posso salvare questo %{resource}: 1 errore'
+        other: 'Non posso salvare questo %{resource}: %{count} errori.'

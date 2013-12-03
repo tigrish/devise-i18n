@@ -53,5 +53,5 @@ es:
       not_found: no se encontró
       not_locked: no estaba bloqueada
       not_saved:
-        one: ! 'Un error ocurrió al tratar de guardar %{resource}:'
-        other: ! '%{count} errores ocurrieron al tratar de guardar %{resource}:'
+        one: 'Un error ocurrió al tratar de guardar %{resource}:'
+        other: '%{count} errores ocurrieron al tratar de guardar %{resource}:'

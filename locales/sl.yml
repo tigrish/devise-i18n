@@ -53,7 +53,7 @@ sl:
       not_found: ni najdeno
       not_locked: ni zaklenjeno
       not_saved:
-        few: ! '%{count} napak je onemogočilo shraniti %{resource}:'
-        one: ! '1 napaka je onemogočila shraniti %{resource}:'
-        other: ! '%{count} napake so onemogočile shraniti %{resource}:'
-        two: ! '2 napaki sta onemogočili shraniti %{resource}:'
+        few: '%{count} napak je onemogočilo shraniti %{resource}:'
+        one: '1 napaka je onemogočila shraniti %{resource}:'
+        other: '%{count} napake so onemogočile shraniti %{resource}:'
+        two: '2 napaki sta onemogočili shraniti %{resource}:'

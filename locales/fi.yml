@@ -53,5 +53,5 @@ fi:
       not_found: ei löytynyt
       not_locked: ei ollut lukittu
       not_saved:
-        one: ! '1 virhe esti %{resource} tallentamisen:'
-        other: ! '%{count} virhettä esti %{resource} tallentamisen:'
+        one: '1 virhe esti %{resource} tallentamisen:'
+        other: '%{count} virhettä esti %{resource} tallentamisen:'

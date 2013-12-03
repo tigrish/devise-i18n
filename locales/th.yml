@@ -52,4 +52,4 @@ th:
       expired: หมดอายุแล้ว กรุณาขอใหม่อีกครั้ง
       not_found: ไม่พบ
       not_locked: ไม่ถูกล็อก
-      not_saved: ! '%{count} ผิดพลาด %{resource} นี้ถูกห้ามบันทึก:'
+      not_saved: '%{count} ผิดพลาด %{resource} นี้ถูกห้ามบันทึก:'

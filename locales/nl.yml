@@ -53,5 +53,5 @@ nl:
       not_found: niet gevonden
       not_locked: is niet gesloten
       not_saved:
-        one: ! '1 error verhinderde het opslaan van deze %{resource}:'
-        other: ! '%{count} errors verhinderde het opslaan van deze %{resource}:'
+        one: '1 error verhinderde het opslaan van deze %{resource}:'
+        other: '%{count} errors verhinderde het opslaan van deze %{resource}:'
