@@ -2,18 +2,18 @@ fr:
   devise:
     confirmations:
       confirmed: Votre compte a été confirmé avec succès. Vous êtes désormais connecté(e).
-      send_instructions: Vous allez recevoir sous quelques minutes un email comportant des instructions pour confirmer votre compte.
-      send_paranoid_instructions: Si votre email existe sur notre base de données, vous recevrez sous quelques minutes un message avec des instructions pour confirmer votre compte.
+      send_instructions: Vous allez recevoir sous quelques minutes un courriel comportant des instructions pour confirmer votre compte.
+      send_paranoid_instructions: Si votre courriel existe sur notre base de données, vous recevrez sous quelques minutes un message avec des instructions pour confirmer votre compte.
     failure:
       already_authenticated: Vous êtes déjà connecté(e).
       inactive: Votre compte n’est pas encore activé.
-      invalid: Email ou mot de passe incorrect.
+      invalid: Courriel ou mot de passe incorrect.
       last_attempt: Il vous reste une chance avant que votre compte soit bloqué.
       locked: Votre compte est verrouillé.
-      not_found_in_database: Email ou mot de passe incorrect.
+      not_found_in_database: Courriel ou mot de passe incorrect.
       timeout: Votre session est périmée, veuillez vous reconnecter pour continuer.
       unauthenticated: Vous devez vous connecter ou vous enregistrer pour continuer.
-      unconfirmed: Vous devez confirmer votre compte par email.
+      unconfirmed: Vous devez confirmer votre compte par courriel.
     mailer:
       confirmation_instructions:
         subject: Instructions de confirmation
@@ -25,9 +25,9 @@ fr:
       failure: 'Nous ne pouvons pas vous authentifier depuis %{kind} pour la raison suivante : ''%{reason}''.'
       success: Autorisé avec succès par votre compte %{kind}.
     passwords:
-      no_token: Vous ne pouvez pas accéder à cette page si vous n’y accédez pas depuis un email de réinitialisation de mot de passe. Si vous venez en effet d’un tel email, vérifiez que vous avez copié l’adresse URL en entier.
-      send_instructions: Vous allez recevoir sous quelques minutes un email vous indiquant comment réinitialiser votre mot de passe.
-      send_paranoid_instructions: Si votre email existe dans notre base de données, vous recevrez un lien vous permettant de récupérer votre mot de passe.
+      no_token: Vous ne pouvez pas accéder à cette page si vous n’y accédez pas depuis un courriel de réinitialisation de mot de passe. Si vous venez en effet d’un tel courriel, vérifiez que vous avez copié l’adresse URL en entier.
+      send_instructions: Vous allez recevoir sous quelques minutes un courriel vous indiquant comment réinitialiser votre mot de passe.
+      send_paranoid_instructions: Si votre courriel existe dans notre base de données, vous recevrez un lien vous permettant de récupérer votre mot de passe.
       updated: Votre mot de passe a été modifié avec succès. Vous êtes maintenant connecté(e).
       updated_not_active: Votre mot de passe a été modifié avec succès.
     registrations:
