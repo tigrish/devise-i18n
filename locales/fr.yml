@@ -36,15 +36,15 @@ fr:
       signed_up_but_inactive: Vous vous êtes enregistré(e) avec succès. Cependant, nous n’avons pas pu vous connecter car votre compte n’a pas encore été activé.
       signed_up_but_locked: Vous vous êtes enregistré(e) avec succès. Cependant, nous n’avons pas pu vous connecter car votre compte est verrouillé.
       signed_up_but_unconfirmed: Un message avec un lien de confirmation vous a été envoyé par mail. Veuillez suivre ce lien pour activer votre compte.
-      update_needs_confirmation: Vous avez modifié votre compte avec succès, mais nous devons vérifier votre nouvelle adresse email. Veuillez consulter vos emails et cliquer sur le lien de confirmation pour finaliser votre nouvelle adresse.
+      update_needs_confirmation: Vous avez modifié votre compte avec succès, mais nous devons vérifier votre nouvelle adresse de courriel. Veuillez consulter vos courriels et cliquer sur le lien de confirmation pour confirmer votre nouvelle adresse.
       updated: Votre compte a été modifié avec succès.
     sessions:
       signed_in: Connecté(e) avec succès.
       signed_out: Déconnecté(e) avec succès.
     unlocks:
-      send_instructions: Vous allez recevoir un email sous quelques minutes contenant les instructions nécessaires au déblocage de votre compte.
-      send_paranoid_instructions: Si votre compte existe, vous recevrez un email indiquant comment le déverrouiller sous quelques minutes.
-      unlocked: Votre compte a été débloqué avec succès. Veuillez vous connecter.
+      send_instructions: Vous allez recevoir sous quelques minutes un courriel comportant des instructions pour déverrouiller votre compte.
+      send_paranoid_instructions: Si votre courriel existe sur notre base de données, vous recevrez sous quelques minutes un message avec des instructions pour déverrouiller votre compte.
+      unlocked: Votre compte a été déverrouillé avec succès. Veuillez vous connecter.
   errors:
     messages:
       already_confirmed: a déjà été confirmé(e)
