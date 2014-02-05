@@ -8,10 +8,10 @@ es:
       already_authenticated: Ya has iniciado una sesión.
       inactive: Tu cuenta aún no ha sido activada.
       invalid: Email o contraseña inválidos.
-      last_attempt: 
+      last_attempt: Tienes un intento más antes que tu cuenta sea bloqueada.
       locked: Tu cuenta está bloqueada.
       not_found_in_database: Email o contraseña inválidos.
-      timeout: Tu sesión expiró, por favor inicia sesión nuevamente para continuar.
+      timeout: Tu sesión expiró. Por favor inicia sesión nuevamente para continuar.
       unauthenticated: Tienes que iniciar sesión o registrarte para poder continuar.
       unconfirmed: Tienes que confirmar tu cuenta para poder continuar.
     mailer:
@@ -23,9 +23,9 @@ es:
         subject: Instrucciones para desbloquear
     omniauth_callbacks:
       failure: No has sido autorizado en la cuenta %{kind} porque "%{reason}".
-      success: Has sido autorizado satisfactoriamente de la cuenta %{kind}.
+      success: Has sido autorizado satisfactoriamente en la cuenta %{kind}.
     passwords:
-      no_token: No puedes acceder a esta página si no es a través de un un enlace para resetear tu contraseña. Si has llegado hasta aquí desde el email para resetear tu contraseña, por favor asegúrate de que la URL introducida está completa.
+      no_token: No puedes acceder a esta página si no es a través de un un enlace para resetear tu contraseña. Si has llegado hasta aquí desde el email para resetear tu contraseña, por favor asegúrate que la URL introducida está completa.
       send_instructions: Vas a recibir un correo con instrucciones sobre cómo resetear tu contraseña en unos pocos minutos.
       send_paranoid_instructions: Si tu correo existe en nuestra base de datos, vas a recibir un correo con instrucciones sobre cómo resetear tu contraseña en tu bandeja de entrada.
       updated: Tu contraseña fue cambiada. Ya iniciaste sesión.
@@ -44,7 +44,7 @@ es:
     unlocks:
       send_instructions: Vas a recibir instrucciones para desbloquear tu cuenta en unos pocos minutos.
       send_paranoid_instructions: Si tu cuenta existe, vas a recibir instrucciones para desbloquear tu cuenta en unos pocos minutos.
-      unlocked: Tu cuenta fue desbloqueada. Tu cuenta fue desbloqueada. Ya puedes iniciar sesión.
+      unlocked: Tu cuenta fue desbloqueada. Ya puedes iniciar sesión.
   errors:
     messages:
       already_confirmed: ya fue confirmada, por favor intenta iniciar sesión
