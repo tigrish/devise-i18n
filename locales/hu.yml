@@ -8,9 +8,9 @@ hu:
       already_authenticated: Már belépett.
       inactive: A fiók még nincs aktiválva.
       invalid: Hibás email cím vagy jelszó.
-      last_attempt: 
+      last_attempt: Már csak egy próbálkozási lehetőség maradt, mielőtt a fiók zárolásra kerül.
       locked: A fiók zárolva lett.
-      not_found_in_database: 
+      not_found_in_database: Hibás email cím vagy jelszó.
       timeout: A munkafolyamat lejárt. Újboli bejelentkezés szükséges.
       unauthenticated: A folytatáshoz bejelentkezés szükséges.
       unconfirmed: A folytatáshoz az email cím megerősítése szükséges.
@@ -48,10 +48,10 @@ hu:
   errors:
     messages:
       already_confirmed: már meg van erősítve
-      confirmation_period_expired: 
+      confirmation_period_expired: '%{period} letelte előtt kell megerősíteni, igényelj egy újat'
       expired: lejárt, igényelj egy újat
       not_found: nem található
       not_locked: nincs zárolva
       not_saved:
         one: '1 hiba miatt %{resource} mentése nem lehetséges:'
-        other: '%{count} hiba miatt %{resource} mentése nem lehetsésges:'
+        other: '%{count} hiba miatt %{resource} mentése nem lehetséges:'
