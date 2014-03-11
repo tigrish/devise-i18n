@@ -54,4 +54,4 @@ hu:
       not_locked: nincs zárolva
       not_saved:
         one: '1 hiba miatt %{resource} mentése nem lehetséges:'
-        other: '%{count} hiba miatt %{resource} mentése nem lehetsésges:'
+        other: '%{count} hiba miatt %{resource} mentése nem lehetséges:'
