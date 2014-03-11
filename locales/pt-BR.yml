@@ -48,7 +48,7 @@ pt-BR:
   errors:
     messages:
       already_confirmed: já foi confirmado
-      confirmation_period_expired: É necessário ser confirmado detro do periodo %{period}, por favor requisite um novo usuário.
+      confirmation_period_expired: É necessário ser confirmado dentro do período %{period}, por favor requisite um novo usuário.
       expired: expirou, por favor solicite uma nova
       not_found: não encontrado
       not_locked: não foi bloqueado

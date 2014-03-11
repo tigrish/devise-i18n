@@ -1,7 +1,7 @@
 fr:
   devise:
     confirmations:
-      confirmed: Votre compte a été confirmé avec succès. Vous êtes désormais connecté(e).
+      confirmed: Votre compte a été confirmé avec succès.
       send_instructions: Vous allez recevoir sous quelques minutes un courriel comportant des instructions pour confirmer votre compte.
       send_paranoid_instructions: Si votre courriel existe sur notre base de données, vous recevrez sous quelques minutes un message avec des instructions pour confirmer votre compte.
     failure:

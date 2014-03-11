@@ -8,9 +8,9 @@ lt:
       already_authenticated: Jūs jau prisijungę.
       inactive: Jūsų prisijungimas dar neaktyvuotas.
       invalid: Neteisingas el. paštas arba slaptažodis.
-      last_attempt: 
+      last_attempt: Galite bandyti dar vieną kartą, tačiau po nesėkmingo bandymo, jūsų vartotojo profilis bus užrakintas.
       locked: Jūsų prisijungimas blokuojamas.
-      not_found_in_database: 
+      not_found_in_database: Neteisingas el. pašto adresas arba slaptažodis.
       timeout: Jūsų prisijungimo laikas baigėsi, prašome prisijungti iš naujo.
       unauthenticated: Prieš tęsiant reikia prisijungti arba užsiregistruoti.
       unconfirmed: Prieš tęsiant reikia patvirtinti savo vartotoją.
@@ -48,7 +48,7 @@ lt:
   errors:
     messages:
       already_confirmed: jau buvo patvirtintas, pamėginkite prisijungti
-      confirmation_period_expired: 
+      confirmation_period_expired: privalo būti patvirtintas per %{period}.
       expired: nebegalioja, gaukite naują
       not_found: nerastas
       not_locked: nebuvo užrakintas

@@ -1,14 +1,14 @@
 zh-TW:
   devise:
     confirmations:
-      confirmed: 您的帳號已經過確認，現在您已成功登入。
+      confirmed: 您的帳號已經通過確認。
       send_instructions: 您將在幾分鐘後收到一封電子郵件，內有確認帳號的步驟說明。
       send_paranoid_instructions: 如果此電子郵件信箱真存在於資料庫中的話，您將在幾分鐘後收到一封電子郵件， 說明確認帳號的手續。
     failure:
-      already_authenticated: 你已經登入。
+      already_authenticated: 您已經登入。
       inactive: 您的帳號尚未被啟用。
       invalid: Email 或密碼是無效的。
-      last_attempt: 
+      last_attempt: 帳號鎖定前的最後一次嘗試。
       locked: 您的帳號已被鎖定。
       not_found_in_database: Email 或密碼是無效的。
       timeout: 您的登入時效過期，請重新登入，才能繼續。

@@ -1,16 +1,16 @@
 pl:
   devise:
     confirmations:
-      confirmed: Konto zostało poprawnie aktywowane. Zostałeś automatycznie zalogowany.
+      confirmed: Konto zostało poprawnie aktywowane.
       send_instructions: Instrukcja jak aktywować konto zostanie niezwłocznie wysłana na podany adres email.
       send_paranoid_instructions: Jeśli Twój email istnieje w naszej bazie, w ciągu najbliższych minut otrzymasz instrukcję jak aktywować konto.
     failure:
       already_authenticated: Jesteś już zalogowany.
       inactive: Konto nie zostało jeszcze aktywowane.
       invalid: Niepoprawny adres email lub hasło.
-      last_attempt: 
+      last_attempt: Masz jeszcze jedną próbę nim Twoje konto zostanie zablokowane.
       locked: Twoje konto jest zablokowane.
-      not_found_in_database: Nieprawidłowa nazwa użytkownika lub hasło.
+      not_found_in_database: Niepoprawny adres email lub hasło.
       timeout: Sesja wygasła, aby kontynuować zaloguj się ponownie.
       unauthenticated: Aby kontynuować zaloguj lub zarejestruj się.
       unconfirmed: Aby kontynuować aktywuj konto.

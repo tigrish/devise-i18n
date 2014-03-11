@@ -8,7 +8,7 @@ nl:
       already_authenticated: Je bent reeds aangemeld.
       inactive: Je account is nog niet geactiveerd.
       invalid: Ongeldig e-mail of wachtwoord.
-      last_attempt: 
+      last_attempt: Je hebt nog één poging voordat je account vergrendeld wordt.
       locked: Je account is vergrendeld.
       not_found_in_database: Ongeldige email of wachtwoord.
       timeout: Je sessie is verlopen, meld je opnieuw aan om door te gaan.
