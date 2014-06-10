@@ -51,7 +51,7 @@ zh-TW:
       confirmation_period_expired: 需要在%{period}以內確認，請再要一個新的。
       expired: 已經過期了，請再要一個新的
       not_found: 沒有找到
-      not_locked: 被鎖定了
+      not_locked: 沒有被鎖定了
       not_saved:
         one: 有一個錯誤導致%{resource}不能被儲存：
         other: 有 %{count} 個錯誤導致%{resource}不能被儲存：
