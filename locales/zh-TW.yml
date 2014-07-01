@@ -13,7 +13,7 @@ zh-TW:
       not_found_in_database: Email 或密碼是無效的。
       timeout: 您的登入時效過期，請重新登入，才能繼續。
       unauthenticated: 您需要先註冊，登入後才能繼續。
-      unconfirmed: 您的帳號需需要經過確認後，才能繼續。
+      unconfirmed: 您的帳號需要經過確認後，才能繼續。
     mailer:
       confirmation_instructions:
         subject: 確認步驟
