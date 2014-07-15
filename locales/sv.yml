@@ -3,7 +3,7 @@ sv:
     confirmations:
       confirmed: Ditt konto har bekräftats. Du är nu inloggad.
       send_instructions: Du kommer att få epost med instruktioner om hur du kan bekräfta ditt konto inom några minuter.
-      send_paranoid_instructions: Om din epostadress är i vår databas, kommer du att få ett epost med instruktioner om hur du ska aktivera ditt konto inom några minuter.
+      send_paranoid_instructions: Om din epostadress finns i vår databas, kommer du att få ett epost-meddelande inom några minuter med instruktioner om hur du ska göra för att aktivera ditt konto igen.
     failure:
       already_authenticated: Du är redan inloggad.
       inactive: Ditt konto har inte aktiverats ännu.

@@ -8,7 +8,7 @@ sk:
       already_authenticated: Už ste prihlásený.
       inactive: Váš účet ešte nebol aktivovaný.
       invalid: Nesprávny email alebo heslo.
-      last_attempt: 
+      last_attempt: Máte ešte posledný pokus pred tým, než sa vám zamkne konto.
       locked: Váš účet je zamknutý.
       not_found_in_database: Nesprávny email alebo heslo.
       timeout: Vaša session vypršala. Na pokračovanie sa prosím znovu prihláste.

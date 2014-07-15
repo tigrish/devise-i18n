@@ -1,9 +1,9 @@
 es:
   devise:
     confirmations:
-      confirmed: Tu cuenta ha sido satisfactoriamente confirmada.
-      send_instructions: Vas a recibir un correo con instrucciones sobre cómo confirmar tu cuenta en unos pocos minutos.
-      send_paranoid_instructions: Si tu correo existe en nuestra base de datos, vas a recibir un correo con instrucciones sobre cómo confirmar tu cuenta en unos pocos minutos.
+      confirmed: Tu cuenta ha sido confirmada satisfactoriamente.
+      send_instructions: Vas a recibir un correo con instrucciones sobre cómo confirmar tu cuenta en unos minutos.
+      send_paranoid_instructions: Si tu correo existe en nuestra base de datos, en unos minutos recibirás un correo con instrucciones sobre cómo confirmar tu cuenta.
     failure:
       already_authenticated: Ya has iniciado sesión.
       inactive: Tu cuenta aún no ha sido activada.

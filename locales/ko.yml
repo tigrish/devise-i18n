@@ -2,8 +2,8 @@ ko:
   devise:
     confirmations:
       confirmed: 가입을 축하드립니다. 지금부터 로그인 가능합니다.
-      send_instructions: 가입 승인 절차에 관한 안내 메일을 곧 받아 보실 수 있습니다.
-      send_paranoid_instructions: 메일주소가 이미 등록되어 있으면, 잠시 후에 계정을 등록 하는 방법이 담긴 메일을 받을 수 있습니다.
+      send_instructions: 가입 승인 절차에 대한 안내 메일을 곧 받아 보실 수 있습니다.
+      send_paranoid_instructions: 메일주소가 이미 등록되어 있으며, 계정 등록 방법이 담긴 메일을 잠시 후 받을 수 있습니다.
     failure:
       already_authenticated: 이미 로그인되어 있습니다.
       inactive: 계정이 아직 활성화되지 않았습니다.

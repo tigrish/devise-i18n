@@ -1,14 +1,14 @@
 pt:
   devise:
     confirmations:
-      confirmed: A sua conta foi confirmada com sucesso. Agora está autenticado.
+      confirmed: A sua conta foi confirmada com sucesso.
       send_instructions: Dentro de alguns minutos irá receber um email com instruções para confirmar  sua conta.
       send_paranoid_instructions: Se o seu email existir na nossa base de dados, irá receber dentro de alguns minutos um email com instruções para confirmar a sua conta.
     failure:
       already_authenticated: Já se encontra autenticado.
       inactive: A sua conta ainda não foi activada.
       invalid: O endereço de email ou a palavra-passe são inválidos.
-      last_attempt: 
+      last_attempt: Tem mais uma tentativa antes da sua conta ser bloqueada.
       locked: A sua conta está bloqueada.
       not_found_in_database: O endereço de email ou a palavra-passe são inválidos.
       timeout: A sua sessão expirou, por favor autentique-se novamente para continuar.

@@ -8,7 +8,7 @@ th:
       already_authenticated: คุณเข้าสู่ระบบแล้ว
       inactive: บัญชีของคุณยังไม่ถูกเปิดใช้งาน
       invalid: อีเมล์หรือรหัสผ่านไม่ถูกต้อง
-      last_attempt: 
+      last_attempt: คุณสามารถผิดพลาดได้อีกครั้งก่อนที่บัญชีของคุณจะถูกล็อก
       locked: บัญชีของคุณถูกล็อก
       not_found_in_database: อีเมล์หรือรหัสผ่านไม่ถูกต้อง
       timeout: หน้าเว็บเกินระยะเวลาที่กำหนด กรุณาเข้าสู่ระบบอีกครั้งเพื่อดำเนินการต่อ
@@ -48,7 +48,7 @@ th:
   errors:
     messages:
       already_confirmed: ยืนยันแล้ว ลองเข้าสู่ระบบ
-      confirmation_period_expired: 
+      confirmation_period_expired: จำเป็นต้องได้รับการยืนยันในเวลา %{period}, กรุณาทำใหม่อีกครั้ง
       expired: หมดอายุแล้ว กรุณาขอใหม่อีกครั้ง
       not_found: ไม่พบ
       not_locked: ไม่ถูกล็อก
