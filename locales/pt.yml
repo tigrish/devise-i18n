@@ -2,14 +2,14 @@ pt:
   devise:
     confirmations:
       confirmed: A sua conta foi confirmada com sucesso.
-      send_instructions: Dentro de alguns minutos irá receber um email com instruções para confirmar  sua conta.
+      send_instructions: Dentro de alguns minutos irá receber um email com instruções para confirmar a sua conta.
       send_paranoid_instructions: Se o seu email existir na nossa base de dados, irá receber dentro de alguns minutos um email com instruções para confirmar a sua conta.
     failure:
       already_authenticated: Já se encontra autenticado.
       inactive: A sua conta ainda não foi activada.
       invalid: O endereço de email ou a palavra-passe são inválidos.
-      last_attempt: Tem mais uma tentativa antes da sua conta ser bloqueada.
       locked: A sua conta está bloqueada.
+      last_attempt: Tem mais uma tentativa antes da sua conta ser bloqueada.
       not_found_in_database: O endereço de email ou a palavra-passe são inválidos.
       timeout: A sua sessão expirou, por favor autentique-se novamente para continuar.
       unauthenticated: Antes de continuar tem de se autenticar ou efectuar um registo.
@@ -22,10 +22,10 @@ pt:
       unlock_instructions:
         subject: Instruções de desbloqueio
     omniauth_callbacks:
-      failure: Could not authorize you from %{kind} because "%{reason}".
-      success: Successfully authorized from %{kind} account.
+      failure: Não foi possível autenticar a sua conta por %{kind} porque "%{reason}".
+      success: A sua conta foi autenticada por %{kind} com sucesso.
     passwords:
-      no_token: Não pode aceder a esta página sem vir do email de redefinição da senha. Se vem dum email para redefinir a sena, por favor verifique que usou o URL completo que foi enviado.
+      no_token: Não pode aceder a esta página sem vir do email de redefinição da senha. Se vem dum email para redefinir a senha, por favor certifique-se que usou o URL completo que foi enviado.
       send_instructions: Dentro de alguns minutos irá receber um email com instruções de reinicialização da palavra-passe.
       send_paranoid_instructions: Se o seu e-mail existir na nossa base de dados, irá receber dentro de alguns minutos um e-mail com instruções para recuperar a sua senha.
       updated: A sua palavra-passe foi alterada com sucesso. Agora está autenticado.
@@ -40,11 +40,11 @@ pt:
       updated: A sua conta foi actualizada com sucesso.
     sessions:
       signed_in: Autenticação efectuada com sucesso.
-      signed_out: Saíu da sessão com sucesso.
+      signed_out: Saiu da sessão com sucesso.
     unlocks:
       send_instructions: Dentro de alguns minutos irá receber um email com as instruções para desbloquear a sua conta.
       send_paranoid_instructions: Se a sua conta existir, irá receber dentro de alguns minutos um email com instruções para a desbloquear.
-      unlocked: A sua conta foi desbloqueada com sucesso. Agora está autenticado.
+      unlocked: A sua conta foi desbloqueada com sucesso. Por favor autentique-se para continuar.
   errors:
     messages:
       already_confirmed: já foi confirmado, por favor tente efectuar a autenticação
