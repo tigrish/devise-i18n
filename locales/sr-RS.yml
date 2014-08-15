@@ -48,7 +48,7 @@ sr-RS:
   errors:
     messages:
       already_confirmed: је већ потврђен, молимо покушајте се пријавити
-      confirmation_period_expired: је требао бити потврђен током периода %{период}, молим тражите нови
+      confirmation_period_expired: је требао бити потврђен током периода %{period}, молим тражите нови
       expired: је истекао, молим затражите нови
       not_found: није пронађено
       not_locked: није закључан
