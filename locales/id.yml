@@ -39,6 +39,7 @@ id:
       update_needs_confirmation: Berhasil memperbarui akun, namun Anda harus mengonfirmasi alamat email baru. Tolong cek email anda dan klik tautan konfirmasi untuk menyelesaikan konfirmasi email baru Anda.
       updated: Akun anda telah berhasil diperbaharui.
     sessions:
+      already_signed_out: 
       signed_in: Proses sign in berhasil.
       signed_out: Proses sign out berhasil.
     unlocks:

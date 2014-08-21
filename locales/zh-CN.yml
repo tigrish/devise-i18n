@@ -39,6 +39,7 @@ zh-CN:
       update_needs_confirmation: 新的账号信息已成功提交，一封确认邮件已经发至您的邮箱，请点击其中的链接以使您的新E-mail地址生效。
       updated: 帐号资料更新成功.
     sessions:
+      already_signed_out: 
       signed_in: 登录成功.
       signed_out: 退出成功.
     unlocks:

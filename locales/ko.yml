@@ -39,6 +39,7 @@ ko:
       update_needs_confirmation: '성공적으로 계정이 갱신되었습니다. 그러나 새 이메일 주소를 확인하여야 합니다. 변경된 메일을 확인하시고 확인 버튼을 눌러야 합니다. '
       updated: 당신의 계정을 성공적으로 업데이트 하였습니다.
     sessions:
+      already_signed_out: 
       signed_in: 성공적으로 로그인이 되었습니다.
       signed_out: 정상적으로 로그아웃 되었습니다.
     unlocks:

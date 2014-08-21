@@ -39,6 +39,7 @@ nl:
       update_needs_confirmation: Je account is geüpdatet, maar we moeten je e-mail adres nog valideren. Een e-mail met een confirmatie link is naar je e-mail adres gestuurd. Open de link in je browser om je e-mail adres te confirmeren.
       updated: Je account gegevens zijn opgeslagen.
     sessions:
+      already_signed_out: 
       signed_in: Je bent succesvol ingelogd.
       signed_out: Je bent succesvol uitgelogd.
     unlocks:

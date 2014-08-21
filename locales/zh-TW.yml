@@ -39,6 +39,7 @@ zh-TW:
       update_needs_confirmation: 您的帳號資料已成功更新，但您的新 Email 信箱需要再次被確認。請收信、並點擊信中確認用的網址，以便完成信箱確認手續。
       updated: 您已經成功的更新帳號資訊。
     sessions:
+      already_signed_out: 
       signed_in: 成功登入了。
       signed_out: 成功登出了。
     unlocks:

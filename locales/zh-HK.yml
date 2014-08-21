@@ -39,6 +39,7 @@ zh-HK:
       update_needs_confirmation: 更新咗帳戶。你會喺新電郵地址收到封電郵，入面有確認新電郵步驟。
       updated: 更新咗帳戶。
     sessions:
+      already_signed_out: 
       signed_in: 登入咗。
       signed_out: 登出咗。
     unlocks:

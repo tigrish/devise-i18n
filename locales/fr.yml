@@ -39,6 +39,7 @@ fr:
       update_needs_confirmation: Vous avez modifié votre compte avec succès, mais nous devons vérifier votre nouvelle adresse de courriel. Veuillez consulter vos courriels et cliquer sur le lien de confirmation pour confirmer votre nouvelle adresse.
       updated: Votre compte a été modifié avec succès.
     sessions:
+      already_signed_out: 
       signed_in: Connecté(e) avec succès.
       signed_out: Déconnecté(e) avec succès.
     unlocks:

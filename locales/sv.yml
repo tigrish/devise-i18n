@@ -39,6 +39,7 @@ sv:
       update_needs_confirmation: Ditt konto uppdaterades, men vi behöver verifiera din nya epostadress. Kontrollera din epost och klicka på länken för att bekräfta din nya epostadress.
       updated: Ditt konto har uppdaterats.
     sessions:
+      already_signed_out: 
       signed_in: Loggade in.
       signed_out: Loggade ut.
     unlocks:

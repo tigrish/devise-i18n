@@ -39,6 +39,7 @@ sk:
       update_needs_confirmation: Váš účet bol úspešne aktualizovaný ale potrebujeme overiť vašu novú emailovú adresu. Prosím skontrolujte si email a kliknite na potvrdzovací odkaz, aby ste potvrdili novú emailovú adresu.
       updated: Úspešne ste aktualizovali váš účet.
     sessions:
+      already_signed_out: 
       signed_in: Úspešne prihlásený.
       signed_out: Úspešne odhlásený.
     unlocks:

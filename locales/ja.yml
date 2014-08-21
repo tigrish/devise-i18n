@@ -39,6 +39,7 @@ ja:
       update_needs_confirmation: アカウント情報を変更しました。しかし、メールアドレスを確認する必要があります。メール内のリンクで新しいメールアドレスを確認してください。
       updated: アカウント情報を更新しました。
     sessions:
+      already_signed_out: 
       signed_in: ログインしました。
       signed_out: ログアウトしました。
     unlocks:

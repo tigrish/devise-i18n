@@ -39,6 +39,7 @@ pl:
       update_needs_confirmation: Konto zostało zaktualizowane, musimy jednak potwierdzić nowy adres email. Sprawdź swoją skrzynkę pocztową i otwórz link aktywacyjny aby ukończyć zmianę adresu.
       updated: Konto zostało pomyślnie zaktualizowane.
     sessions:
+      already_signed_out: 
       signed_in: Zalogowano pomyślnie.
       signed_out: Wylogowano pomyślnie.
     unlocks:

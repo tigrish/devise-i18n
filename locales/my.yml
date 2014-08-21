@@ -39,6 +39,7 @@ my:
       update_needs_confirmation: 
       updated: Akaun anda telah dikemaskini
     sessions:
+      already_signed_out: 
       signed_in: Proses sign in berjaya.
       signed_out: Proses sign out berjaya.
     unlocks:

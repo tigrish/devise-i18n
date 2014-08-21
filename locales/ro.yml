@@ -39,6 +39,7 @@ ro:
       update_needs_confirmation: Aţi actualizat contul dvs. de succes, dar avem nevoie să verificăm adresa dvs. de e-mail. Vă rugăm să verificați adresa de email şi faceţi clic pe link-ul de confirmă pentru a finaliza confirmarea adresei dvs. de e-mail.
       updated: Aţi actualizat contul dvs. cu succes.
     sessions:
+      already_signed_out: 
       signed_in: Autentificat cu succes.
       signed_out: Ieșire cu success.
     unlocks:

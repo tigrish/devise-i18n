@@ -39,6 +39,7 @@ pt:
       update_needs_confirmation: A sua conta foi actualizada com sucesso, mas precisamos de confirmar o seu email. Por favor veja o seu email e clique no link para finalizar a confirmação do seu email.
       updated: A sua conta foi actualizada com sucesso.
     sessions:
+      already_signed_out: 
       signed_in: Autenticação efectuada com sucesso.
       signed_out: Saiu da sessão com sucesso.
     unlocks:

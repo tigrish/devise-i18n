@@ -39,6 +39,7 @@ ca:
       update_needs_confirmation: Has actualitzat el teu compte correctament, però cal confirmar el teu nou correu electrònic. Si us plau, comprova el teu correu i segueix l'enllaç de confirmació per finalitzar la comprovació del nou correu eletrònic.
       updated: Has actualitzat el teu compte correctament.
     sessions:
+      already_signed_out: 
       signed_in: Sessió iniciada correctament.
       signed_out: Sessió tancada correctament.
     unlocks:

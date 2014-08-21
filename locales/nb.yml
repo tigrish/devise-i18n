@@ -39,6 +39,7 @@ nb:
       update_needs_confirmation: Kontoen er nå oppdatert. Men vi må bekrefte den nye adressen. Vennligst sjekk e-posten og klikk på lenken for å bekrefte din nye e-postadresse.
       updated: Din profil er oppdatert.
     sessions:
+      already_signed_out: 
       signed_in: Du er nå innlogget.
       signed_out: Du er nå logget ut.
     unlocks:

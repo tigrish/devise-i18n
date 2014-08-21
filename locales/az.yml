@@ -39,6 +39,7 @@ az:
       update_needs_confirmation: Hesabınızı uğurla yenilədiniz, ancaq biz sizin email ünvanınızı yoxlamalıyıq. Zəhmət olmasa email qutunuzu yoxlayın və təstiq linkinə daxil olaraq yeni email ünvanınızı təstiqləyin.
       updated: Hesabınızı uğurla yenilədiniz.
     sessions:
+      already_signed_out: 
       signed_in: Sistemə uğurla daxil oldunuz.
       signed_out: Sistemdən uğurla çıxdınız.
     unlocks:

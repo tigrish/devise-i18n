@@ -39,6 +39,7 @@ fi:
       update_needs_confirmation: Tiedot päivitettiin onnistuneesti, mutta meidän täytyy vielä varmistaa uusi sähköpostiosoitteesi. Tarkista sähköpostisi ja klikkaa varmistuslinkkiä varmistaaksesi uuden sähköpostiosoitteesti.
       updated: Tunnuksesi on päivitetty.
     sessions:
+      already_signed_out: 
       signed_in: Sisäänkirjautuminen onnistui.
       signed_out: Uloskirjautuminen onnistui.
     unlocks:
