@@ -39,10 +39,9 @@ de:
       update_needs_confirmation: Ihre Daten wurden aktualisiert, aber Sie müssen Ihre neue E-Mail-Adresse bestätigen. Sie erhalten in wenigen Minuten eine E-Mail, mir der Sie die Änderung Ihrer E-Mail-Adresse abschließen können.
       updated: Ihre Daten wurden aktualisiert.
     sessions:
-      already_signed_out: 
+      already_signed_out: Erfolgreich abgemeldet.
       signed_in: Erfolgreich angemeldet.
       signed_out: Erfolgreich abgemeldet.
-      already_signed_out: Erfolgreich abgemeldet.
     unlocks:
       send_instructions: Sie erhalten in wenigen Minuten eine E-Mail mit der Anleitung, wie Sie Ihren Account entsperren können.
       send_paranoid_instructions: Falls Ihre E-Mail-Adresse in unserer Datenbank existiert, erhalten Sie in wenigen Minuten eine E-Mail mit der Anleitung, wie Sie Ihren Account entsperren können.
