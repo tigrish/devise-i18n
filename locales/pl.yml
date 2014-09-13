@@ -55,6 +55,6 @@ pl:
       not_locked: nie był zablokowany
       not_saved:
         few: '%{resource} nie został zapisany z powodu %{count} błędów:'
+        many: '%{resource} nie został zapisany z powodu %{count} błędów:'
         one: '%{resource} nie został zapisany z powodu jednego błędu:'
         other: '%{resource} nie został zapisany z powodu %{count} błędów:'
-        many: '%{resource} nie został zapisany z powodu %{count} błędów:'
