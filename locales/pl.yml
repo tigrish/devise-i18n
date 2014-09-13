@@ -2,15 +2,15 @@ pl:
   devise:
     confirmations:
       confirmed: Konto zostało poprawnie aktywowane.
-      send_instructions: Instrukcja jak aktywować konto zostanie niezwłocznie wysłana na podany adres email.
-      send_paranoid_instructions: Jeśli Twój email istnieje w naszej bazie, w ciągu najbliższych minut otrzymasz instrukcję jak aktywować konto.
+      send_instructions: Instrukcja jak aktywować konto zostanie niezwłocznie wysłana na podany adres e-mail.
+      send_paranoid_instructions: Jeśli Twój adres e-mail istnieje w naszej bazie, w ciągu najbliższych minut otrzymasz instrukcje jak aktywować konto.
     failure:
       already_authenticated: Jesteś już zalogowany.
       inactive: Konto nie zostało jeszcze aktywowane.
-      invalid: Niepoprawny adres email lub hasło.
+      invalid: Niepoprawny adres e-mail lub hasło.
       last_attempt: Masz jeszcze jedną próbę nim Twoje konto zostanie zablokowane.
       locked: Twoje konto jest zablokowane.
-      not_found_in_database: Niepoprawny adres email lub hasło.
+      not_found_in_database: Niepoprawny adres e-mail lub hasło.
       timeout: Sesja wygasła, aby kontynuować zaloguj się ponownie.
       unauthenticated: Aby kontynuować zaloguj lub zarejestruj się.
       unconfirmed: Aby kontynuować aktywuj konto.
@@ -26,8 +26,8 @@ pl:
       success: Logowanie przez konto %{kind} zakończyło się sukcesem.
     passwords:
       no_token: Do tej strony możesz dostać się tylko poprzez wiadomość e-mail resetującą hasło. Jeśli to z niej tu trafiłeś, upewnij się, że użyłeś pełnego adresu.
-      send_instructions: Instrukcja zmiany hasła zostanie niezwłocznie wysłana na podany adres email.
-      send_paranoid_instructions: Jeśli Twój mail istnieje w naszej bazie, otrzymasz zaraz email z instrukcjami odzyskiwania hasła
+      send_instructions: Instrukcja zmiany hasła zostanie niezwłocznie wysłana na podany adres e-mail.
+      send_paranoid_instructions: Jeśli Twój adres e-mail istnieje w naszej bazie, otrzymasz zaraz wiadomość z instrukcjami odzyskiwania hasła.
       updated: Hasło zmienione poprawnie. Zostałeś automatycznie zalogowany.
       updated_not_active: Hasło zmienione poprawnie.
     registrations:
@@ -35,16 +35,16 @@ pl:
       signed_up: Witaj! Rejestracja zakończyła się sukcesem.
       signed_up_but_inactive: Konto zostało utworzone pomyślnie. Zanim się jednak zalogujesz, musi ono zostać jeszcze aktywowane.
       signed_up_but_locked: Konto zostało utworzone pomyślnie. Nie możesz się jednak zalogować, ponieważ jest ono zablokowane.
-      signed_up_but_unconfirmed: Wiadomość z linkiem aktywacyjnym została wysłana na podany adres email. Otwórz link w celu aktywacji konta.
-      update_needs_confirmation: Konto zostało zaktualizowane, musimy jednak potwierdzić nowy adres email. Sprawdź swoją skrzynkę pocztową i otwórz link aktywacyjny aby ukończyć zmianę adresu.
+      signed_up_but_unconfirmed: Wiadomość z linkiem aktywacyjnym została wysłana na podany adres e-mail. Otwórz link w celu aktywacji konta.
+      update_needs_confirmation: Konto zostało zaktualizowane, musimy jednak potwierdzić nowy adres e-mail. Sprawdź swoją skrzynkę pocztową i otwórz link aktywacyjny, aby ukończyć zmianę adresu.
       updated: Konto zostało pomyślnie zaktualizowane.
     sessions:
       already_signed_out: Wylogowano pomyślnie.
       signed_in: Zalogowano pomyślnie.
       signed_out: Wylogowano pomyślnie.
     unlocks:
-      send_instructions: Wkrótce powinieneś otrzymać email z instrukcją jak odblokować swoje konto.
-      send_paranoid_instructions: Jeśli Twoje konto istnieje w naszej bazie, otrzymasz zaraz email z instrukcją jak odblokować swoje konto.
+      send_instructions: Wkrótce powinieneś otrzymać e-mail z instrukcjami jak odblokować swoje konto.
+      send_paranoid_instructions: Jeśli Twoje konto istnieje w naszej bazie, otrzymasz zaraz eemail z instrukcjami jak odblokować swoje konto.
       unlocked: Twoje konto zostało odblokowane. Zaloguj się, aby kontynuować.
   errors:
     messages:
@@ -57,3 +57,4 @@ pl:
         few: '%{resource} nie został zapisany z powodu %{count} błędów:'
         one: '%{resource} nie został zapisany z powodu jednego błędu:'
         other: '%{resource} nie został zapisany z powodu %{count} błędów:'
+        many: '%{resource} nie został zapisany z powodu %{count} błędów:'
