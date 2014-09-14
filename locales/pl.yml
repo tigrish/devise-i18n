@@ -44,7 +44,7 @@ pl:
       signed_out: Wylogowano pomyślnie.
     unlocks:
       send_instructions: Wkrótce powinieneś otrzymać e-mail z instrukcjami jak odblokować swoje konto.
-      send_paranoid_instructions: Jeśli Twoje konto istnieje w naszej bazie, otrzymasz zaraz eemail z instrukcjami jak odblokować swoje konto.
+      send_paranoid_instructions: Jeśli Twoje konto istnieje w naszej bazie, otrzymasz zaraz e-mail z instrukcjami jak odblokować swoje konto.
       unlocked: Twoje konto zostało odblokowane. Zaloguj się, aby kontynuować.
   errors:
     messages:
