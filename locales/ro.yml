@@ -8,9 +8,9 @@ ro:
       already_authenticated: Sunteţi deja autentificat
       inactive: Contul dvs. nu a fost activat încă.
       invalid: E-mail sau parolă invalide.
-      last_attempt: 
+      last_attempt: Mai aveți o șansă până când accountul vă va fi blocat.
       locked: Contul dvs. este blocat.
-      not_found_in_database: 
+      not_found_in_database: Email sau parolă invalidă.
       timeout: Sesiunea dvs. a expirat, vă rugăm să vă autentificaţi din nou pentru a continua.
       unauthenticated: Trebuie să vă conectaţi sau să se înscrie înainte de a continua.
       unconfirmed: Trebuie să confirmaţi contul dvs. înainte de a continua.
@@ -25,7 +25,7 @@ ro:
       failure: Nu te-am putut autoriza de pe contul de %{kind} pentru că "%{reason}".
       success: Autorizat cu success din contul de %{kind}.
     passwords:
-      no_token: 
+      no_token: Nu puteți accesa această pagină dacă nu veniți de la un email de resetare a parolei. Dacă veniți de la un astfel de email, vă rugăm asigurați-vă că azi utilizat URL-ul complet furnizat către dumneavoastră.
       send_instructions: Veţi primi un e-mail cu instrucţiunile pentru resetarea parolei dvs. în câteva minute.
       send_paranoid_instructions: Dacă e-mailul dvs. există în baza noastră de date, veţi primi un link de recuperare a parolei pe adresa de e-mail.
       updated: Parola dvs. a fost schimbată cu succes. Sunteţi autentificat.

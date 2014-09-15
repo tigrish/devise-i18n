@@ -39,7 +39,7 @@ it:
       update_needs_confirmation: Il tuo account è stato aggiornato, ma dobbiamo verificare la tua email. Ti invitiamo a consultare la tua email e cliccare sul link di conferma.
       updated: Il tuo account è stato aggiornato.
     sessions:
-      already_signed_out: 
+      already_signed_out: Sei uscito correttamente.
       signed_in: Accesso effettuato con successo.
       signed_out: Sei uscito correttamente.
     unlocks:
