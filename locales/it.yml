@@ -1,7 +1,7 @@
 it:
   devise:
     confirmations:
-      confirmed: Il tuo account è stato correttamente confermato. Ora sei collegato.
+      confirmed: Il tuo account è stato correttamente confermato.
       send_instructions: Riceverai un messaggio email con le istruzioni per confermare il tuo account entro qualche minuto.
       send_paranoid_instructions: Se la tua e-mail esiste nel nostro database, riceverai un messaggio email con le istruzioni per confermare il tuo account entro qualche minuto.
     failure:
