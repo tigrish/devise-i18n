@@ -39,7 +39,7 @@ da:
       update_needs_confirmation: Du har nu opdateret din konto, men vi skal verificere din nye e-mail-adresse. Check venligst din e-mail og tryk på linket til bekræftelse for at færdiggøre verificeringen.
       updated: Din profil er opdateret.
     sessions:
-      already_signed_out: 
+      already_signed_out: ''
       signed_in: Du er nu logget ind.
       signed_out: Du er nu logget ud.
     unlocks:

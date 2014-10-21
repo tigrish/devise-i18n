@@ -39,7 +39,7 @@ sr:
       update_needs_confirmation: Uspešno ste ažurirali svoj nalog, ali trebamo potvrditi Vašu adresu ePošte. Proverite svoje sanduče sa porukama i kliknite na vezu za potvrdu.
       updated: Uspešno ste izmenili svoj nalog.
     sessions:
-      already_signed_out: 
+      already_signed_out: ''
       signed_in: Uspešno ste se prijavili.
       signed_out: Uspešno ste se odjavili.
     unlocks:
