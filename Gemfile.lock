@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.3.5)
     builder (3.2.2)
-    diff-lcs (1.1.3)
+    diff-lcs (1.2.5)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
     git (1.2.6)
@@ -19,9 +19,9 @@ GEM
     highline (1.6.20)
     httpauth (0.2.0)
     i18n (0.6.1)
-    i18n-spec (0.4.0)
+    i18n-spec (0.6.0)
       iso
-    iso (0.2.0)
+    iso (0.2.1)
       i18n
     jeweler (1.8.8)
       builder
@@ -59,14 +59,18 @@ GEM
       json (~> 1.4)
     rest-client (1.6.7)
       mime-types (>= 1.16)
-    rspec (2.8.0)
-      rspec-core (~> 2.8.0)
-      rspec-expectations (~> 2.8.0)
-      rspec-mocks (~> 2.8.0)
-    rspec-core (2.8.0)
-    rspec-expectations (2.8.0)
-      diff-lcs (~> 1.1.2)
-    rspec-mocks (2.8.0)
+    rspec (3.1.0)
+      rspec-core (~> 3.1.0)
+      rspec-expectations (~> 3.1.0)
+      rspec-mocks (~> 3.1.0)
+    rspec-core (3.1.7)
+      rspec-support (~> 3.1.0)
+    rspec-expectations (3.1.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.1.0)
+    rspec-mocks (3.1.3)
+      rspec-support (~> 3.1.0)
+    rspec-support (3.1.2)
     ya2yaml (0.31)
 
 PLATFORMS
@@ -74,7 +78,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.2)
-  i18n-spec (>= 0.4.0)
+  i18n-spec (~> 0.6.0)
   jeweler (> 1.6.4)
   localeapp
   rspec (>= 2.8.0)
