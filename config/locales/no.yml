@@ -39,7 +39,7 @@
       update_needs_confirmation: Din profil er oppdatert, men vi trenger å bekrefte din nye epost-adresse. Vennligst sjekk din innboks og klikk på lenken inneholdt i eposten for å bekrefte endring av din epost-adresse.
       updated: Din profil er oppdatert.
     sessions:
-      already_signed_out: 
+      already_signed_out: ''
       signed_in: Du er nå innlogget.
       signed_out: Du er nå logget ut.
     unlocks:

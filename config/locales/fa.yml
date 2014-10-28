@@ -39,7 +39,7 @@ fa:
       update_needs_confirmation: حساب شما با موفقیت به روز شد، اما شما باید ایمیل جدیدتان را را تایید کنید. لطفا ایمیل‌تان را چک کنید و روی لینک تایید حساب کاربری کلیک کنید تا ایمیل جدیدتان تایید شود.
       updated: به روز رسانی حسابتان با موفقیت انجام شد.
     sessions:
-      already_signed_out: 
+      already_signed_out: ''
       signed_in: ورود موفق.
       signed_out: خروج موفق.
     unlocks:

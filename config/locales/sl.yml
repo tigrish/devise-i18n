@@ -8,9 +8,9 @@ sl:
       already_authenticated: Ste že prijavljeni.
       inactive: Vaš račun še ni bil aktiviran.
       invalid: Neveljavna e-pošta ali geslo.
-      last_attempt: 
+      last_attempt: ''
       locked: Vaš račun je zaklenjen.
-      not_found_in_database: 
+      not_found_in_database: ''
       timeout: Vaša seja je potekla. Prosimo, ponovno se prijavite za nadaljevanje.
       unauthenticated: Za nadaljevanje se morate prijaviti ali registrirati.
       unconfirmed: Pred nadaljevanjem morate potrditi vaš račun.
@@ -39,7 +39,7 @@ sl:
       update_needs_confirmation: Vaš račun je uspešno posodobljen, vendar potrebno je preveriti vaš novi e-poštni naslov. Prosimo, preverite vašo e-pošto in kliknite na potrditveno povezavo za dokončanje potrditve vašega novega e-poštnega naslova.
       updated: Uspešno ste posodobili vaš račun.
     sessions:
-      already_signed_out: 
+      already_signed_out: ''
       signed_in: Prijava je bila uspešna.
       signed_out: Odjava je bila uspešna.
     unlocks:
@@ -49,7 +49,7 @@ sl:
   errors:
     messages:
       already_confirmed: je bil že potrjen, prosimo poskusite se prijaviti
-      confirmation_period_expired: 
+      confirmation_period_expired: ''
       expired: je poteklo. Prosimo, zahtevajte novo.
       not_found: ni najdeno
       not_locked: ni zaklenjeno

@@ -39,7 +39,7 @@ lv:
       update_needs_confirmation: Jūsu labotās izmaiņas ir veiksmīgi saglabātas, bet mums ir jāpārbauda Jūsu jaunā e-pasta adrese. Lūdzu pārbaudiet Jūsu e-pastu un uzklikšķiniet uz apstiprinājuma saites, lai pabeigtu Jūsu jaunās e-pasta adreses apstiprināšanu.
       updated: Jūsu labotās izmaiņas ir veiksmīgi saglabātas.
     sessions:
-      already_signed_out: 
+      already_signed_out: ''
       signed_in: Veiksmīgi pieslēdzies.
       signed_out: Veiksmīgi atslēdzies.
     unlocks:

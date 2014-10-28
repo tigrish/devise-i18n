@@ -23,7 +23,7 @@ he:
         subject: הוראות להסרת נעילה
     omniauth_callbacks:
       failure: לא הצלחנו לאמת את זהותך מסוג %{kind} בגלל "%{reason}"
-      success: 
+      success: ''
     passwords:
       no_token: אינך יכול/ה לגשת לעמוד זה אם לא הופנת מאימייל לשינוי סיסמא. אם את/ה כן מגיע משם, אנא ודא/י שהשתמשת בכתובת אינטרנט המלאה.
       send_instructions: בדקות הקרובות יגיע אליך אימייל עם הנחיות כיצד לאפס את סיסמתך.
@@ -39,7 +39,7 @@ he:
       update_needs_confirmation: עידכנת את חשבונך בהצלחה, אבל אנחנו צריכים לאשר את האימייל החדש שלך. אנא בדק/י את האימייל שלך ולחצ/י על הלינק על מנת לאשר את חשבון האימייל החדש.
       updated: עדכנת בהצלחה את חשבונך.
     sessions:
-      already_signed_out: 
+      already_signed_out: ''
       signed_in: התחברת בהצלחה
       signed_out: התנתקת בהצלחה.
     unlocks:
@@ -49,7 +49,7 @@ he:
   errors:
     messages:
       already_confirmed: כבר אושר. אני נסה להיכנס למערכת.
-      confirmation_period_expired: 
+      confirmation_period_expired: ''
       expired: פג תוקף, אנא בקש אחד חדש.
       not_found: לא נמצא.
       not_locked: לא היה נעול.
