@@ -39,7 +39,7 @@ cs:
       update_needs_confirmation: Úspěšně jste aktualizoval svů účet, ale ještě musíte ověřit svou novou e-mailovou adresu. Zkontrolujte prosím svou schránku a klikněte na odkaz pro dokončení ověření vaši nové e-mailové adresy.
       updated: Váš účet byl úspěšně aktualizován.
     sessions:
-      already_signed_out: 
+      already_signed_out: Úspěšně odhlášen
       signed_in: Přihlášení úspěšné.
       signed_out: Odhlášení úspěšné.
     unlocks:
