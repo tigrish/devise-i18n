@@ -8,7 +8,7 @@ zh-CN:
       already_authenticated: 您已经登录.
       inactive: 您还没有激活帐户.
       invalid: 邮箱或密码错误
-      last_attempt: 
+      last_attempt: 你还有多一次尝试正确的密码，过后你的帐户会被锁住
       locked: 您的帐号已被锁定.
       not_found_in_database: 邮箱或密码错误
       timeout: 您已登录超时，请重新登录.
@@ -39,7 +39,7 @@ zh-CN:
       update_needs_confirmation: 新的账号信息已成功提交，一封确认邮件已经发至您的邮箱，请点击其中的链接以使您的新E-mail地址生效。
       updated: 帐号资料更新成功.
     sessions:
-      already_signed_out: 
+      already_signed_out: 成功的登出
       signed_in: 登录成功.
       signed_out: 退出成功.
     unlocks:
