@@ -2,6 +2,11 @@
 
 [![Build Status](https://secure.travis-ci.org/tigrish/devise-i18n.png)](http://travis-ci.org/tigrish/devise-i18n)
 
+Add to your Gemfile:
+```ruby
+gem 'devise-i18n'
+```
+
 Translations for **[Devise v2.+](https://github.com/plataformatec/devise)** pulled from various sources.
 
 See the **[devise-1.5 branch](https://github.com/tigrish/devise-i18n/tree/devise-1.5)** for older translations.
