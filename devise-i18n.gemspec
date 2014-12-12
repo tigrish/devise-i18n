@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Christopher Dell"]
-  s.date = "2014-10-03"
+  s.date = "2014-12-12"
   s.description = "Translations for the devise gem"
   s.email = "chris@tigrish.com"
   s.extra_rdoc_files = [
@@ -28,55 +28,56 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "config/locales/ar.yml",
+    "config/locales/az.yml",
+    "config/locales/bg.yml",
+    "config/locales/bs.yml",
+    "config/locales/ca.yml",
+    "config/locales/cs.yml",
+    "config/locales/da.yml",
+    "config/locales/de.yml",
+    "config/locales/el.yml",
+    "config/locales/en-GB.yml",
+    "config/locales/en.yml",
+    "config/locales/es-MX.yml",
+    "config/locales/es.yml",
+    "config/locales/et.yml",
+    "config/locales/fa.yml",
+    "config/locales/fi.yml",
+    "config/locales/fr.yml",
+    "config/locales/he.yml",
+    "config/locales/hr.yml",
+    "config/locales/hu.yml",
+    "config/locales/id.yml",
+    "config/locales/is.yml",
+    "config/locales/it.yml",
+    "config/locales/ja.yml",
+    "config/locales/ko.yml",
+    "config/locales/lt.yml",
+    "config/locales/lv.yml",
+    "config/locales/my.yml",
+    "config/locales/nb.yml",
+    "config/locales/nl.yml",
+    "config/locales/no.yml",
+    "config/locales/pl.yml",
+    "config/locales/pt-BR.yml",
+    "config/locales/pt.yml",
+    "config/locales/ro.yml",
+    "config/locales/ru.yml",
+    "config/locales/sk.yml",
+    "config/locales/sl.yml",
+    "config/locales/sr-RS.yml",
+    "config/locales/sr.yml",
+    "config/locales/sv.yml",
+    "config/locales/th.yml",
+    "config/locales/tr.yml",
+    "config/locales/uk.yml",
+    "config/locales/vi.yml",
+    "config/locales/zh-CN.yml",
+    "config/locales/zh-HK.yml",
+    "config/locales/zh-TW.yml",
     "devise-i18n.gemspec",
     "lib/devise-i18n.rb",
-    "locales/ar.yml",
-    "locales/az.yml",
-    "locales/bg.yml",
-    "locales/bs.yml",
-    "locales/ca.yml",
-    "locales/cs.yml",
-    "locales/da.yml",
-    "locales/de.yml",
-    "locales/el.yml",
-    "locales/en-GB.yml",
-    "locales/en.yml",
-    "locales/es.yml",
-    "locales/et.yml",
-    "locales/fa.yml",
-    "locales/fi.yml",
-    "locales/fr.yml",
-    "locales/he.yml",
-    "locales/hr.yml",
-    "locales/hu.yml",
-    "locales/id.yml",
-    "locales/is.yml",
-    "locales/it.yml",
-    "locales/ja.yml",
-    "locales/ko.yml",
-    "locales/lt.yml",
-    "locales/lv.yml",
-    "locales/my.yml",
-    "locales/nb.yml",
-    "locales/nl.yml",
-    "locales/no.yml",
-    "locales/pl.yml",
-    "locales/pt-BR.yml",
-    "locales/pt.yml",
-    "locales/ro.yml",
-    "locales/ru.yml",
-    "locales/sk.yml",
-    "locales/sl.yml",
-    "locales/sr-RS.yml",
-    "locales/sr.yml",
-    "locales/sv.yml",
-    "locales/th.yml",
-    "locales/tr.yml",
-    "locales/uk.yml",
-    "locales/vi.yml",
-    "locales/zh-CN.yml",
-    "locales/zh-HK.yml",
-    "locales/zh-TW.yml",
     "spec/devise-i18n_spec.rb",
     "spec/spec_helper.rb"
   ]
@@ -93,20 +94,20 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rspec>, [">= 2.8.0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.2"])
       s.add_development_dependency(%q<jeweler>, ["> 1.6.4"])
-      s.add_development_dependency(%q<i18n-spec>, [">= 0.4.0"])
+      s.add_development_dependency(%q<i18n-spec>, ["~> 0.6.0"])
       s.add_development_dependency(%q<localeapp>, [">= 0"])
     else
       s.add_dependency(%q<rspec>, [">= 2.8.0"])
       s.add_dependency(%q<bundler>, ["~> 1.2"])
       s.add_dependency(%q<jeweler>, ["> 1.6.4"])
-      s.add_dependency(%q<i18n-spec>, [">= 0.4.0"])
+      s.add_dependency(%q<i18n-spec>, ["~> 0.6.0"])
       s.add_dependency(%q<localeapp>, [">= 0"])
     end
   else
     s.add_dependency(%q<rspec>, [">= 2.8.0"])
     s.add_dependency(%q<bundler>, ["~> 1.2"])
     s.add_dependency(%q<jeweler>, ["> 1.6.4"])
-    s.add_dependency(%q<i18n-spec>, [">= 0.4.0"])
+    s.add_dependency(%q<i18n-spec>, ["~> 0.6.0"])
     s.add_dependency(%q<localeapp>, [">= 0"])
   end
 end
