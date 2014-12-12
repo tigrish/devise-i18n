@@ -8,7 +8,7 @@ el:
       already_authenticated: Έχετε ήδη συνδεθεί.
       inactive: Ο λογαριασμός σας δεν έχει ενεργοποιηθεί ακόμη.
       invalid: Μη αποδεκτό email ή κωδικός.
-      last_attempt: 
+      last_attempt: Έχετε μία ακόμα προσπάθεια πριν κλειδωθεί ο λογαριασμός σας.
       locked: Ο λογαριασμός σας είναι κλειδωμένος.
       not_found_in_database: Μη αποδεκτό email ή κωδικός.
       timeout: Η συνεδρία σας έληξε, παρακαλώ συνδεθείτε ξανά για να συνεχίσετε.
@@ -16,11 +16,11 @@ el:
       unconfirmed: Πρέπει να επιβεβαιώσετε το λογαριασμό σας πριν συνεχίσετε.
     mailer:
       confirmation_instructions:
-        subject: 
+        subject: Οδηγίες επιβεβαίωσης
       reset_password_instructions:
         subject: Οδηγίες επαναφοράς κωδικού
       unlock_instructions:
-        subject: 
+        subject: Οδηγίες ξεκλειδώματος
     omniauth_callbacks:
       failure: Δεν γίνεται να ταυτοποιηθείτε από %{kind} επειδή "%{reason}".
       success: Ταυτοποιηθήκατε επιτυχώς από λογαριασμό %{kind}.
@@ -39,7 +39,7 @@ el:
       update_needs_confirmation: Ενημερώσατε το λογαριασμό σας επιτυχώς, αλλά πρέπει να επιβεβαιώσουμε το νέο σας email. Παρακαλώ ελέγξτε τα μηνύματά σας και ανοίξτε το σύνδεσμο για να επιβεβαιώσετε τη νέα διεύθυνση.
       updated: Ενημερώσατε το λογαριασμό σας επιτυχώς.
     sessions:
-      already_signed_out: 
+      already_signed_out: Αποσυνδεθήκατε επιτυχώς.
       signed_in: Συνδεθήκατε επιτυχώς.
       signed_out: Αποσυνδεθήκατε επιτυχώς.
     unlocks:
