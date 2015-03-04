@@ -32,7 +32,7 @@ nl:
       updated_not_active: Je wachtwoord werd met succes gewijzigd.
     registrations:
       destroyed: Je account is verwijderd, wellicht tot ziens!
-      signed_up: Je bent inschreven.
+      signed_up: Je bent ingeschreven.
       signed_up_but_inactive: Je bent ingeschreven, maar we konden je niet inloggen omdat je account nog niet is geactiveerd.
       signed_up_but_locked: Je bent ingeschreven, maar we konden je niet inloggen omdat je account is gelocked.
       signed_up_but_unconfirmed: Een e-mail met een confirmatie link is naar je e-mail adres gestuurd. Open de link in je browser om je account te activeren.
