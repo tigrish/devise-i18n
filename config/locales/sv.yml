@@ -8,7 +8,7 @@ sv:
       already_authenticated: Du är redan inloggad.
       inactive: Ditt konto har inte aktiverats ännu.
       invalid: Ogiltig epost eller lösenord.
-      last_attempt: 
+      last_attempt: Du har ett försök kvar, sen låser vi ditt konto.
       locked: Ditt konto är låst.
       not_found_in_database: Ogiltig epost eller lösenord.
       timeout: Din session är inte längre giltig, vänligen logga in igen för att fortsätta.
@@ -39,7 +39,7 @@ sv:
       update_needs_confirmation: Ditt konto uppdaterades, men vi behöver verifiera din nya epostadress. Kontrollera din epost och klicka på länken för att bekräfta din nya epostadress.
       updated: Ditt konto har uppdaterats.
     sessions:
-      already_signed_out: 
+      already_signed_out: Du är nu utloggad.
       signed_in: Loggade in.
       signed_out: Loggade ut.
     unlocks:

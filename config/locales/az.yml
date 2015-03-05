@@ -8,7 +8,7 @@ az:
       already_authenticated: Siz hesabınıza artıq daxil olmuşsunuz.
       inactive: Sizin hesabınız hələ aktivləşdirilməmişdir.
       invalid: Yanlış email və ya şifrə.
-      last_attempt: 
+      last_attempt: Account baglanmasından əvvəl sizin ancag birdənə şansıvız galıb.
       locked: Sizin hesabınız bloklanmışdır.
       not_found_in_database: Email və ya şifrə yanlışdır.
       timeout: Sessiyanızın vaxtı bitmişdir, davam etmək üçün zəhmət olmasa yenidən daxil olun.
@@ -39,7 +39,7 @@ az:
       update_needs_confirmation: Hesabınızı uğurla yenilədiniz, ancaq biz sizin email ünvanınızı yoxlamalıyıq. Zəhmət olmasa email qutunuzu yoxlayın və təstiq linkinə daxil olaraq yeni email ünvanınızı təstiqləyin.
       updated: Hesabınızı uğurla yenilədiniz.
     sessions:
-      already_signed_out: 
+      already_signed_out: Ugurlu cıxış.
       signed_in: Sistemə uğurla daxil oldunuz.
       signed_out: Sistemdən uğurla çıxdınız.
     unlocks:
@@ -53,4 +53,4 @@ az:
       expired: vaxtı bitmişdir, zəhmət olmasa yenisini istəyin
       not_found: tapılmadı
       not_locked: bloklanmış deyildi
-      not_saved: 
+      not_saved: '%{count} səhvlər %{resource} də geydə olunub. '
