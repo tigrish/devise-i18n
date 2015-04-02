@@ -17,3 +17,5 @@ pkg
 .DS_Store
 
 .localeapp/
+.ruby-gemset
+.ruby-version
