@@ -53,4 +53,4 @@ id:
       expired: telah kadaluarsa, tolong pesan lagi
       not_found: tidak ditemukan
       not_locked: tidak dikunci
-      not_saved: '%{count} kesalahan membuat %{resource} tidak bisa disimpan:'
+      not_saved: "%{count} kesalahan membuat %{resource} tidak bisa disimpan:"

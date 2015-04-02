@@ -48,11 +48,11 @@ sv:
       unlocked: Ditt konto har låsts upp. Du är nu inloggad.
   errors:
     messages:
-      already_confirmed: är redan bekräftad, vänligen logga in igen
+      already_confirmed: "är redan bekräftad, vänligen logga in igen"
       confirmation_period_expired: behöver bekräftas inom %{period}. Vänligen begär en ny
-      expired: är inte längre giltig. Vänligen begär en ny
+      expired: "är inte längre giltig. Vänligen begär en ny"
       not_found: hittades inte
       not_locked: var inte låst
       not_saved:
         one: '1 fel hindrade denna %{resource} från att sparas:'
-        other: '%{count} fel hindrade denna %{resource} från att sparas:'
+        other: "%{count} fel hindrade denna %{resource} från att sparas:"

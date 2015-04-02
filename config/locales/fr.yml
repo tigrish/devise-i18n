@@ -55,4 +55,4 @@ fr:
       not_locked: n’était pas verrouillé(e)
       not_saved:
         one: 'une erreur a empêché ce (ou cette) %{resource} d’être enregistré(e) :'
-        other: '%{count} erreurs ont empêché ce (ou cette) %{resource} d’être enregistré(e) :'
+        other: "%{count} erreurs ont empêché ce (ou cette) %{resource} d’être enregistré(e) :"

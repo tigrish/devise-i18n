@@ -55,4 +55,4 @@ fi:
       not_locked: ei ollut lukittu
       not_saved:
         one: '1 virhe esti %{resource} tallentamisen:'
-        other: '%{count} virhettä esti %{resource} tallentamisen:'
+        other: "%{count} virhettä esti %{resource} tallentamisen:"

@@ -23,7 +23,7 @@ sk:
         subject: Inštrukcie na odomknutie účtu
     omniauth_callbacks:
       failure: Nebolo možné vás autentifikovať z %{kind} z dôvodu "%{reason}".
-      success: Úspešne autentifikovaný z účtu %{kind}.
+      success: "Úspešne autentifikovaný z účtu %{kind}."
     passwords:
       no_token: Túto stránku nemôžete navštíviť pokiaľ neprichádzate z emailu s inštrukciami na obnovu hesla. Ak z neho prichádzate, prosím uistite sa, že ste použili z odkazu celú adresu (URL).
       send_instructions: O niekoľko minút dostanete email s inštrukciami ako nastaviť nové heslo.
@@ -37,11 +37,11 @@ sk:
       signed_up_but_locked: Registrácia bola úspešná. Nemohli sme vás ale prihlásiť, lebo váš účet je uzamknutý.
       signed_up_but_unconfirmed: Správa s potvrdzovacím odkazom bola odoslaná na vašu emailovú adresu. Aby ste aktivovali váš účet, prosím otvorte odkaz..
       update_needs_confirmation: Váš účet bol úspešne aktualizovaný ale potrebujeme overiť vašu novú emailovú adresu. Prosím skontrolujte si email a kliknite na potvrdzovací odkaz, aby ste potvrdili novú emailovú adresu.
-      updated: Úspešne ste aktualizovali váš účet.
+      updated: "Úspešne ste aktualizovali váš účet."
     sessions:
-      already_signed_out: Úspešne odhlásený.
-      signed_in: Úspešne prihlásený.
-      signed_out: Úspešne odhlásený.
+      already_signed_out: "Úspešne odhlásený."
+      signed_in: "Úspešne prihlásený."
+      signed_out: "Úspešne odhlásený."
     unlocks:
       send_instructions: O niekoľko minút dostanete email s inštrukciami ako odomknúť váš účet.
       send_paranoid_instructions: Ak váš účet existuje, o niekoľko minút dostanete email s inštrukciami ako ho odomknúť.
@@ -54,6 +54,6 @@ sk:
       not_found: nenájdený
       not_locked: nebol zamknutý
       not_saved:
-        few: '%{resource} nebol uložený kvôli %{count} chybám:'
-        one: '%{resource} nebol uložený kvôli chybe:'
-        other: '%{resource} nebol uložený kvôli %{count} chybám:'
+        few: "%{resource} nebol uložený kvôli %{count} chybám:"
+        one: "%{resource} nebol uložený kvôli chybe:"
+        other: "%{resource} nebol uložený kvôli %{count} chybám:"

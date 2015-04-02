@@ -54,7 +54,7 @@ bs:
       not_found: nije pronađeno
       not_locked: nije zaključan
       not_saved:
-        few: '%{count} greške sprječavaju sačuvanje %{resource}:'
-        many: '%{count} grešaka sprječavaju sačuvanje %{resource}:'
+        few: "%{count} greške sprječavaju sačuvanje %{resource}:"
+        many: "%{count} grešaka sprječavaju sačuvanje %{resource}:"
         one: '1 greška sprječava sačuvanje %{resource}:'
-        other: '%{count} grešaka sprječavaju sačuvanje %{resource}:'
+        other: "%{count} grešaka sprječavaju sačuvanje %{resource}:"

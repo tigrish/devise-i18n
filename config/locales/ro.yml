@@ -44,7 +44,7 @@ ro:
       signed_out: Ieșire cu success.
     unlocks:
       send_instructions: Veţi primi un e-mail cu instrucţiuni despre cum să deblocați contul dvs. în câteva minute.
-      send_paranoid_instructions: În cazul în care contul dvs. există, veţi primi un e-mail cu instrucţiuni despre cum să-l deblocați în câteva minute.
+      send_paranoid_instructions: "În cazul în care contul dvs. există, veţi primi un e-mail cu instrucţiuni despre cum să-l deblocați în câteva minute."
       unlocked: Contul dvs. a fost deblocat cu succes. Vă rugăm autentificați pentru a continua.
   errors:
     messages:
@@ -54,6 +54,6 @@ ro:
       not_found: nu există
       not_locked: nu este blocat
       not_saved:
-        few: '%{count} erori nu au permis %{resource} să fie salvat:'
+        few: "%{count} erori nu au permis %{resource} să fie salvat:"
         one: '1 eroare nu a permis %{resource} să fie salvat:'
-        other: '%{count} erori nu au permis %{resource} să fie salvat:'
+        other: "%{count} erori nu au permis %{resource} să fie salvat:"

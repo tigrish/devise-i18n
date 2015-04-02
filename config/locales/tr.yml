@@ -18,18 +18,18 @@ tr:
       confirmation_instructions:
         subject: Onaylama talimatları.
       reset_password_instructions:
-        subject: Şifre sıfırlama talimatları.
+        subject: "Şifre sıfırlama talimatları."
       unlock_instructions:
         subject: Kilit açma talimatları.
     omniauth_callbacks:
       failure: Sizi %{kind} aracılığıyla tanıyamadık çünkü "%{reason}".
-      success: '%{kind} aracılığıyla onaylandınız.'
+      success: "%{kind} aracılığıyla onaylandınız."
     passwords:
       no_token: Bu sayfaya şifre sıfırlama e-postasındaki linke tıklayarak gelmeniz gerekmektedir. Linke tıklamak yerine kopyaladıysanız, hata yapmış olabilirsiniz. Lütfen şifre sıfırlama e-postasındaki linke tıklayın.
       send_instructions: Birkaç dakika içinde şifrenizi nasıl sıfırlayacağınız ile ilgili bir e-posta alacaksınız.
       send_paranoid_instructions: 'Eğer e-posta adresiniz sistemimizde kayıtlı ise, birkaç dakika içinde şifrenizi nasıl sıfırlayacağınız ile ilgili bir e-posta alacaksınız. '
-      updated: Şifreniz başarıyla güncellendi. Şu an giriş yapmış bulunuyorsunuz.
-      updated_not_active: Şifreniz başarıyla güncellendi.
+      updated: "Şifreniz başarıyla güncellendi. Şu an giriş yapmış bulunuyorsunuz."
+      updated_not_active: "Şifreniz başarıyla güncellendi."
     registrations:
       destroyed: Hesabınız başarıyla kapatıldı. En kısa sürede görüşmek üzere!
       signed_up: Başarıyla giriş yaptınız. Hoşgeldiniz!
@@ -49,8 +49,8 @@ tr:
   errors:
     messages:
       already_confirmed: zaten onaylanmış, lütfen giriş yapmayı deneyin
-      confirmation_period_expired: '%{period} içinde onaylanması gerekmektedir, lütfen yeni bir tane isteyiniz.'
+      confirmation_period_expired: "%{period} içinde onaylanması gerekmektedir, lütfen yeni bir tane isteyiniz."
       expired: süresi doldu, lütfen yeni bir tane isteyin
       not_found: bulunamadı
       not_locked: kilitlenmemiş
-      not_saved: '%{count} tane hata %{resource}''ın kaydını engelledi.'
+      not_saved: "%{count} tane hata %{resource}'ın kaydını engelledi."

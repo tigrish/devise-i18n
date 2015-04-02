@@ -25,7 +25,7 @@ lv:
       failure: 'Neizdevās autorizēties ar %{kind} lietotāju. Iemesls: "%{reason}".'
       success: Veiksmīgi autorizējis ar %{kind} lietotāju.
     passwords:
-      no_token: Šī lapa ir pieejama tikai no paroles maiņas e-pasta. Ja Jūs atvērāt šo lapu no e-pasta, tad pārliecinieties, ka izmantojāt pilno URL adresi.
+      no_token: "Šī lapa ir pieejama tikai no paroles maiņas e-pasta. Ja Jūs atvērāt šo lapu no e-pasta, tad pārliecinieties, ka izmantojāt pilno URL adresi."
       send_instructions: Pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā nomainīt jūsu paroli.
       send_paranoid_instructions: Ja Jūsu parole eksistē mūsu datubāzē, tad jums tiks nosūtīts paroles atjaunošanas apraksts uz epastu
       updated: Jūsu parole ir veiksmīgi nomainīta. Jūs esat pieslēdzies.
@@ -54,6 +54,6 @@ lv:
       not_found: netika atrasts
       not_locked: netika nobloķēts
       not_saved:
-        one: '%{resource} netika saglabāts 1 kļūdas dēļ:'
-        other: '%{resource} netika saglabāts %{count} kļūdu dēļ:'
-        zero: '%{resource} netika saglabāts %{count} kļūdu dēļ:'
+        one: "%{resource} netika saglabāts 1 kļūdas dēļ:"
+        other: "%{resource} netika saglabāts %{count} kļūdu dēļ:"
+        zero: "%{resource} netika saglabāts %{count} kļūdu dēļ:"

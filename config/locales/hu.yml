@@ -49,10 +49,10 @@ hu:
   errors:
     messages:
       already_confirmed: már meg van erősítve
-      confirmation_period_expired: '%{period} letelte előtt kell megerősíteni, igényelj egy újat'
+      confirmation_period_expired: "%{period} letelte előtt kell megerősíteni, igényelj egy újat"
       expired: lejárt, igényelj egy újat
       not_found: nem található
       not_locked: nincs zárolva
       not_saved:
         one: '1 hiba miatt %{resource} mentése nem lehetséges:'
-        other: '%{count} hiba miatt %{resource} mentése nem lehetséges:'
+        other: "%{count} hiba miatt %{resource} mentése nem lehetséges:"
