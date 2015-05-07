@@ -1,6 +1,1 @@
-require 'rails'
-
-module DeviseI18n
-  class Engine < ::Rails::Engine #:nodoc:
-  end
-end
+require 'devise-i18n/railtie' if defined?(Rails)

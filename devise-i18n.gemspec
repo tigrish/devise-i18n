@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Christopher Dell"]
-  s.date = "2015-04-02"
+  s.date = "2015-06-03"
   s.description = "Translations for the devise gem"
   s.email = "chris@tigrish.com"
   s.extra_rdoc_files = [
@@ -78,12 +78,13 @@ Gem::Specification.new do |s|
     "config/locales/zh-TW.yml",
     "devise-i18n.gemspec",
     "lib/devise-i18n.rb",
+    "lib/devise-i18n/railtie.rb",
     "spec/devise-i18n_spec.rb",
     "spec/spec_helper.rb"
   ]
   s.homepage = "http://github.com/tigrish/devise-i18n"
   s.licenses = ["MIT"]
-  s.rubygems_version = "2.4.6"
+  s.rubygems_version = "2.4.7"
   s.summary = "Translations for the devise gem"
 
   if s.respond_to? :specification_version then
