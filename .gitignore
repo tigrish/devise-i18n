@@ -19,3 +19,6 @@ pkg
 .localeapp/
 .ruby-gemset
 .ruby-version
+
+# rails generated
+log/

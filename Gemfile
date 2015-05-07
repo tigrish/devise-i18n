@@ -6,4 +6,5 @@ group :development do
   gem "jeweler", "> 1.6.4"
   gem 'i18n-spec', "~> 0.6.0"
   gem 'localeapp'
+  gem 'railties'
 end

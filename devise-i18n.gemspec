@@ -80,7 +80,9 @@ Gem::Specification.new do |s|
     "rails/locales/zh-HK.yml",
     "rails/locales/zh-TW.yml",
     "spec/locale_files_spec.rb",
-    "spec/spec_helper.rb"
+    "spec/locale_loading_spec.rb",
+    "spec/spec_helper.rb",
+    "spec/support/fake_app.rb"
   ]
   s.homepage = "http://github.com/tigrish/devise-i18n"
   s.licenses = ["MIT"]
@@ -96,12 +98,14 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<jeweler>, ["> 1.6.4"])
       s.add_development_dependency(%q<i18n-spec>, ["~> 0.6.0"])
       s.add_development_dependency(%q<localeapp>, [">= 0"])
+      s.add_development_dependency(%q<railties>, [">= 0"])
     else
       s.add_dependency(%q<rspec>, [">= 2.8.0"])
       s.add_dependency(%q<bundler>, ["~> 1.2"])
       s.add_dependency(%q<jeweler>, ["> 1.6.4"])
       s.add_dependency(%q<i18n-spec>, ["~> 0.6.0"])
       s.add_dependency(%q<localeapp>, [">= 0"])
+      s.add_dependency(%q<railties>, [">= 0"])
     end
   else
     s.add_dependency(%q<rspec>, [">= 2.8.0"])
@@ -109,6 +113,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<jeweler>, ["> 1.6.4"])
     s.add_dependency(%q<i18n-spec>, ["~> 0.6.0"])
     s.add_dependency(%q<localeapp>, [">= 0"])
+    s.add_dependency(%q<railties>, [">= 0"])
   end
 end
 
