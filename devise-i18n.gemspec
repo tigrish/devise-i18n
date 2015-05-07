@@ -79,7 +79,7 @@ Gem::Specification.new do |s|
     "rails/locales/zh-CN.yml",
     "rails/locales/zh-HK.yml",
     "rails/locales/zh-TW.yml",
-    "spec/devise-i18n_spec.rb",
+    "spec/locale_files_spec.rb",
     "spec/spec_helper.rb"
   ]
   s.homepage = "http://github.com/tigrish/devise-i18n"
