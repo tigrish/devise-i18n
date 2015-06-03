@@ -19,16 +19,7 @@ Gem::Specification.new do |s|
     "README.md"
   ]
   s.files = [
-    ".document",
-    ".rspec",
-    ".travis.yml",
-    "Gemfile",
-    "Gemfile.lock",
-    "LICENSE.txt",
-    "README.md",
-    "Rakefile",
     "VERSION",
-    "devise-i18n.gemspec",
     "lib/devise-i18n.rb",
     "lib/devise-i18n/railtie.rb",
     "rails/locales/ar.yml",
@@ -78,11 +69,7 @@ Gem::Specification.new do |s|
     "rails/locales/vi.yml",
     "rails/locales/zh-CN.yml",
     "rails/locales/zh-HK.yml",
-    "rails/locales/zh-TW.yml",
-    "spec/locale_files_spec.rb",
-    "spec/locale_loading_spec.rb",
-    "spec/spec_helper.rb",
-    "spec/support/fake_app.rb"
+    "rails/locales/zh-TW.yml"
   ]
   s.homepage = "http://github.com/tigrish/devise-i18n"
   s.licenses = ["MIT"]
