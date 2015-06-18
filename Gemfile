@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source 'https://rubygems.org'
 
 group :development do
   gem "rspec", ">= 2.8.0"
@@ -6,4 +6,5 @@ group :development do
   gem "jeweler", "> 1.6.4"
   gem 'i18n-spec', "~> 0.6.0"
   gem 'localeapp'
+  gem 'railties'
 end

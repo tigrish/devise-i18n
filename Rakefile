@@ -22,6 +22,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{Translations for the devise gem}
   gem.email = "chris@tigrish.com"
   gem.authors = ["Christopher Dell"]
+  gem.files = Dir['rails/locales/*.yml', 'VERSION', 'lib/**/*.rb']
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
