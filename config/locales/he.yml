@@ -39,7 +39,7 @@ he:
       update_needs_confirmation: "עידכנת את חשבונך בהצלחה, אבל אנחנו צריכים לאשר את האימייל החדש שלך. אנא בדק/י את האימייל שלך ולחצ/י על הלינק על מנת לאשר את חשבון האימייל החדש."
       updated: "עדכנת בהצלחה את חשבונך."
     sessions:
-      already_signed_out: 
+      already_signed_out: "התנתקות מוצלחת"
       signed_in: "התחברת בהצלחה"
       signed_out: "התנתקת בהצלחה."
     unlocks:
