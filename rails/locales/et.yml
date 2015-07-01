@@ -39,7 +39,7 @@ et:
       update_needs_confirmation: Sa uuendasid edukalt oma kontot, kuid me peame kontrollima sinu e-posti aadressi. Palun kontrolli oma e-posti ja ava kinnitamise link, et viia lõpule aadressi kinnitamine.
       updated: Sa uuendasid edukalt oma kontot.
     sessions:
-      already_signed_out: 
+      already_signed_out: Edukalt välja logitud.
       signed_in: Edukalt sisse logitud.
       signed_out: Edukalt välja logitud.
     unlocks:
