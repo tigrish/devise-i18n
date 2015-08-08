@@ -1,6 +1,6 @@
 # Additional translations at https://github.com/plataformatec/devise/wiki/I18n
 
-en:
+bn:
   devise:
     confirmations:
       confirmed: "আপনার ইমেল ঠিকানা সফলভাবে নিশ্চিত করা হয়েছে।"
