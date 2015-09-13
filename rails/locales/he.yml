@@ -1,7 +1,7 @@
 he:
   devise:
     confirmations:
-      confirmed: "חשבונך אושר בהצלחה. כעת הנך מחובר/ת."
+      confirmed: "חשבונך אושר בהצלחה."
       send_instructions: "בדקות הקרובות יגיע אליך אימייל עם הנחיות כיצד לאשר את הרשמתך."
       send_paranoid_instructions: "אם האימייל שלך נמצא במאגר נתונים שלנו, נשלח לך אימייל עם הוראות כיצד לאשר את החשבון שלך בעוד כמה דקות."
     failure:
@@ -23,7 +23,7 @@ he:
         subject: "הוראות להסרת נעילה"
     omniauth_callbacks:
       failure: לא הצלחנו לאמת את זהותך מסוג %{kind} בגלל "%{reason}"
-      success: 
+      success:
     passwords:
       no_token: "אינך יכול/ה לגשת לעמוד זה אם לא הופנת מאימייל לשינוי סיסמא. אם את/ה כן מגיע משם, אנא ודא/י שהשתמשת בכתובת אינטרנט המלאה."
       send_instructions: "בדקות הקרובות יגיע אליך אימייל עם הנחיות כיצד לאפס את סיסמתך."
@@ -49,7 +49,7 @@ he:
   errors:
     messages:
       already_confirmed: "כבר אושר. אני נסה להיכנס למערכת."
-      confirmation_period_expired: 
+      confirmation_period_expired:
       expired: "פג תוקף, אנא בקש אחד חדש."
       not_found: "לא נמצא."
       not_locked: "לא היה נעול."
