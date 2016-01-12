@@ -21,8 +21,8 @@ Jeweler::Tasks.new do |gem|
   gem.summary = %Q{Translations for the devise gem}
   gem.description = %Q{Translations for the devise gem}
   gem.email = "chris@tigrish.com"
-  gem.authors = ["Christopher Dell"]
-  gem.files = Dir['rails/locales/*.yml', 'VERSION', 'lib/**/*.rb']
+  gem.authors = ["Christopher Dell", "mcasimir", "Jason Barnabe"]
+  gem.files = Dir['rails/locales/*.yml', 'VERSION', 'lib/**/*.rb', 'app/**/*']
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

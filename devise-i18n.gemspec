@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
-  s.authors = ["Christopher Dell"]
-  s.date = "2015-06-18"
+  s.authors = ["Christopher Dell", "mcasimir", "Jason Barnabe"]
+  s.date = "2016-01-12"
   s.description = "Translations for the devise gem"
   s.email = "chris@tigrish.com"
   s.extra_rdoc_files = [
@@ -20,11 +20,26 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     "VERSION",
+    "app/views/devise/_links.erb",
+    "app/views/devise/confirmations/new.html.erb",
+    "app/views/devise/mailer/confirmation_instructions.html.erb",
+    "app/views/devise/mailer/reset_password_instructions.html.erb",
+    "app/views/devise/mailer/unlock_instructions.html.erb",
+    "app/views/devise/passwords/edit.html.erb",
+    "app/views/devise/passwords/new.html.erb",
+    "app/views/devise/registrations/edit.html.erb",
+    "app/views/devise/registrations/new.html.erb",
+    "app/views/devise/sessions/new.html.erb",
+    "app/views/devise/shared/_links.erb",
+    "app/views/devise/unlocks/new.html.erb",
     "lib/devise-i18n.rb",
     "lib/devise-i18n/railtie.rb",
+    "lib/generators/devise/views/i18n_templates/i18n_templates_generator.rb",
+    "lib/generators/devise/views/locale/locale_generator.rb",
     "rails/locales/ar.yml",
     "rails/locales/az.yml",
     "rails/locales/bg.yml",
+    "rails/locales/bn.yml",
     "rails/locales/bs.yml",
     "rails/locales/ca.yml",
     "rails/locales/cs.yml",
@@ -73,7 +88,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/tigrish/devise-i18n"
   s.licenses = ["MIT"]
-  s.rubygems_version = "2.4.7"
+  s.rubygems_version = "2.4.6"
   s.summary = "Translations for the devise gem"
 
   if s.respond_to? :specification_version then
