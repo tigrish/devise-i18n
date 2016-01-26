@@ -110,5 +110,5 @@ de:
       not_found: nicht gefunden
       not_locked: ist nicht gesperrt
       not_saved:
-        one: 'Konnte %{resource} nicht speichern: ein Fehler.'
-        other: 'Konnte %{resource} nicht speichern: %{count} Fehler.'
+        one: "%{resource} konnte aufgrund eines Fehlers nicht gespeichert werden:"
+        other: "%{count} Fehler verhinderten das Speichern von %{resource}:"

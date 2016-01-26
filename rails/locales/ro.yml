@@ -1,9 +1,9 @@
 ro:
   devise:
     confirmations:
-      confirmed: Contul dvs. a fost confirmată cu succes. Sunteţi autentificat.
+      confirmed: Contul dvs. a fost confirmat cu succes. Sunteţi autentificat.
       send_instructions: Veţi primi un e-mail cu instrucţiuni despre cum să confirmați contul dvs. în câteva minute.
-      send_paranoid_instructions: Dacă e-mailul dvs. există în baza noastră de date, veţi primi un e-mail cu instrucţiuni despre cum să confirme contul dvs. în câteva minute.
+      send_paranoid_instructions: Dacă e-mailul dvs. există în baza noastră de date, veţi primi un e-mail cu instrucţiuni despre cum să vă confirmaţi contul în câteva minute.
     failure:
       already_authenticated: Sunteţi deja autentificat
       inactive: Contul dvs. nu a fost activat încă.
@@ -12,7 +12,7 @@ ro:
       locked: Contul dvs. este blocat.
       not_found_in_database: Email sau parolă invalidă.
       timeout: Sesiunea dvs. a expirat, vă rugăm să vă autentificaţi din nou pentru a continua.
-      unauthenticated: Trebuie să vă conectaţi sau să se înscrie înainte de a continua.
+      unauthenticated: Trebuie să vă conectaţi sau să vă înscrieţi înainte de a continua.
       unconfirmed: Trebuie să confirmaţi contul dvs. înainte de a continua.
     mailer:
       confirmation_instructions:
@@ -25,8 +25,8 @@ ro:
       failure: Nu te-am putut autoriza de pe contul de %{kind} pentru că "%{reason}".
       success: Autorizat cu success din contul de %{kind}.
     passwords:
-      no_token: Nu puteți accesa această pagină dacă nu veniți de la un email de resetare a parolei. Dacă veniți de la un astfel de email, vă rugăm asigurați-vă că azi utilizat URL-ul complet furnizat către dumneavoastră.
-      send_instructions: Veţi primi un e-mail cu instrucţiunile pentru resetarea parolei dvs. în câteva minute.
+      no_token: Nu puteți accesa această pagină dacă nu veniți de la un email de resetare a parolei. Dacă veniți de la un astfel de email, vă rugăm asigurați-vă că aţi utiliz at URL-ul complet furnizat către dumneavoastră.
+      send_instructions: Veţi primi un e-mail cu instrucţiuni pentru resetarea parolei dvs. în câteva minute.
       send_paranoid_instructions: Dacă e-mailul dvs. există în baza noastră de date, veţi primi un link de recuperare a parolei pe adresa de e-mail.
       updated: Parola dvs. a fost schimbată cu succes. Sunteţi autentificat.
       updated_not_active: Parola dvs. a fost schimbată cu succes.
