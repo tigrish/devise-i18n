@@ -32,6 +32,8 @@ en:
         greeting: Welcome %{recipient}!
         instruction: 'You can confirm your account email through the link below:'
         subject: Confirmation instructions
+      password_change:
+        subject: Password Changed
       reset_password_instructions:
         action: Change my password
         greeting: Hello %{recipient}!
