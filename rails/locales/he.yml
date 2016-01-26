@@ -11,7 +11,7 @@ he:
       user: "משתמש"
   devise:
     confirmations:
-      confirmed: "חשבונך אושר בהצלחה. כעת הנך מחובר/ת."
+      confirmed: "חשבונך אושר בהצלחה."
       new:
         resend_confirmation_instructions: "שלח מחדש הוראות אישור"
       send_instructions: "בדקות הקרובות יגיע אליך אימייל עם הנחיות כיצד לאשר את הרשמתך."
