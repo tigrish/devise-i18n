@@ -54,6 +54,7 @@ Gem::Specification.new do |s|
     "rails/locales/fa.yml",
     "rails/locales/fi.yml",
     "rails/locales/fr.yml",
+    "rails/locales/fr-CA.yml",
     "rails/locales/he.yml",
     "rails/locales/hr.yml",
     "rails/locales/hu.yml",
