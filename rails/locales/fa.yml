@@ -1,7 +1,19 @@
 fa:
+  activerecord:
+    attributes:
+      user:
+        current_password: 
+        email: 
+        password: 
+        password_confirmation: 
+        remember_me: 
+    models:
+      user: 
   devise:
     confirmations:
       confirmed: "حسابتان با موفقیت تایید شد. هم اکنون وارد شدید."
+      new:
+        resend_confirmation_instructions: 
       send_instructions: "ظرف چند دقیقه آینده ایمیلی حاوی راهنمای تایید حسابتان دریافت خواهید کرد."
       send_paranoid_instructions: "اگر ایمیل شما قبلا در سیستم ثبت شده باشد، تا چند دقیقه‌ی دیگر یک ایمیل حاوی توضیحات چگونگی فعال‌سازی حساب‌تان دریافت می‌کنید."
     failure:
@@ -16,15 +28,37 @@ fa:
       unconfirmed: "باید حسابتان را قبل از ادامه تایید کنید."
     mailer:
       confirmation_instructions:
+        action: 
+        greeting: 
+        instruction: 
         subject: "راهنمای تایید"
+      password_change:
+        subject: 
       reset_password_instructions:
+        action: 
+        greeting: 
+        instruction: 
+        instruction_2: 
+        instruction_3: 
         subject: "راهنمای بازنشانی رمز عبور"
       unlock_instructions:
+        action: 
+        greeting: 
+        instruction: 
+        message: 
         subject: "راهنمای باز کردن"
     omniauth_callbacks:
       failure: امکان استفاده از مجوز %{kind} نبود زیرا "%{reason}".
       success: "با موفقیت مجوز استفاده از  %{kind} دریافت شد."
     passwords:
+      edit:
+        change_my_password: 
+        change_your_password: 
+        confirm_new_password: 
+        new_password: 
+      new:
+        forgot_your_password: 
+        send_me_reset_password_instructions: 
       no_token: "شما نمی‌توانید بدون استفاده از یک لینک بازنشانی رمز به این صفحه دسترسی پیدا کنید. اگر از طریق یک ایمیل بازنشانی رمز عبور به این صفحه رسیده‌اید، مطمئن شوید که از کل URL فرستاده شده استفاده کرده‌اید."
       send_instructions: "ظرف چند دقیقه آینده ایمیلی حاوی راهنمای بازگرداندن رمز عبورتان دریافت خواهید کرد."
       send_paranoid_instructions: "اگر ایمیل شما قبلا در سیستم ثبت شده باشد، تا چند دقیقه‌ی دیگر یک لینک بازنشانی رمز عبور دریافت می‌کنید."
@@ -32,6 +66,17 @@ fa:
       updated_not_active: "رمز عبور با موفقیت تغییر یافت."
     registrations:
       destroyed: "بدرود! حسابتان لغو شد. به امید دیدار دوباره."
+      edit:
+        are_you_sure: 
+        cancel_my_account: 
+        currently_waiting_confirmation_for_email: 
+        leave_blank_if_you_don_t_want_to_change_it: 
+        title: 
+        unhappy: 
+        update: 
+        we_need_your_current_password_to_confirm_your_changes: 
+      new:
+        sign_up: 
       signed_up: "خوش آمدید! با موفقیت ثبت نام کردید."
       signed_up_but_inactive: "شما با موفقیت ثبت نام شده اید؛ ولی هنوز نمی‌توانید وارد شوید چون حساب‌تان هنوز فعال نشده."
       signed_up_but_locked: "شما با موفقیت ثبت نام شده اید؛ ولی هنوز نمی‌توانید وارد شوید چون حساب‌تان قفل شده."
@@ -40,9 +85,22 @@ fa:
       updated: "به روز رسانی حسابتان با موفقیت انجام شد."
     sessions:
       already_signed_out: 
+      new:
+        sign_in: 
       signed_in: "ورود موفق."
       signed_out: "خروج موفق."
+    shared:
+      links:
+        back: 
+        didn_t_receive_confirmation_instructions: 
+        didn_t_receive_unlock_instructions: 
+        forgot_your_password: 
+        sign_in: 
+        sign_in_with_provider: 
+        sign_up: 
     unlocks:
+      new:
+        resend_unlock_instructions: 
       send_instructions: "ایمیلی حاوی راهنمای باز کردن حسابتان در چند دقیقه آینده به شما ارسال خواهد شد."
       send_paranoid_instructions: "اگر حساب شما وجود داشته باشد، تا چند دقیقه‌ی دیگر یک ایمیل حاوی توضیحات نحوه‌ی باز کردن قفل حساب‌تان برای شما ارسال می‌شود."
       unlocked: "حسابتان با موفقیت باز شد. اکنون وارد شدید."

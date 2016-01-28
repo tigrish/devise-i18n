@@ -32,6 +32,8 @@ vi:
         greeting: Chào mừng %{recipient}!
         instruction: 'Bạn có thể xác nhận tài khoản email bằng liên kết dưới đây:'
         subject: Hướng dẫn xác nhận tài khoản
+      password_change:
+        subject: 
       reset_password_instructions:
         action: Thay đổi mật khẩu
         greeting: Xin chào %{recipient}!

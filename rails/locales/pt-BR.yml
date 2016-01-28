@@ -32,6 +32,8 @@ pt-BR:
         greeting: Bem-vindo %{recipient}!
         instruction: 'Você pode confirmar sua conta através do link abaixo:'
         subject: Instruções de confirmação
+      password_change:
+        subject: 
       reset_password_instructions:
         action: Redefinir minha senha
         greeting: Olá %{recipient}!

@@ -32,6 +32,8 @@ fi:
         greeting: Tervetuloa, %{recipient}!
         instruction: 'Vahvista sähköpostisi painamalla alla olevaa linkkiä:'
         subject: Vahvistusohjeet
+      password_change:
+        subject: 
       reset_password_instructions:
         action: Vaihda salasanani
         greeting: Hei, %{recipient}!

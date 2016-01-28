@@ -32,6 +32,8 @@ ko:
         greeting: "%{recipient}님 환영합니다!"
         instruction: "아래의 링크를 클릭하시면 이메일 인증이 완료됩니다:"
         subject: "이메일 인증 지침"
+      password_change:
+        subject: 
       reset_password_instructions:
         action: "비밀번호 변경"
         greeting: "%{recipient}님 안녕하세요!"

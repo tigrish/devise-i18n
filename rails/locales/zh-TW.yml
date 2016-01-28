@@ -32,6 +32,8 @@ zh-TW:
         greeting: "%{recipient} 你好!"
         instruction: "您可以利用下面的連結確認您的帳戶的電子郵件:"
         subject: "帳號驗證步驟"
+      password_change:
+        subject: 
       reset_password_instructions:
         action: "更改我的密碼"
         greeting: "你好 %{recipient}!"

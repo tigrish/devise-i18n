@@ -32,6 +32,8 @@ el:
         greeting: "Καλώς ήρθατε %{recipient}!"
         instruction: "Μπορείτε να επιβεβαιώσετε τον λογαριασμό σας μέσω του συνδέσμου παρακάτω:"
         subject: "Οδηγίες επιβεβαίωσης"
+      password_change:
+        subject: 
       reset_password_instructions:
         action: "Αλλαγή του κωδικού πρόσβασης"
         greeting: "Γεια σας %{recipient}!"

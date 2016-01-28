@@ -32,6 +32,8 @@ et:
         greeting: Teretulemast %{recipient}!
         instruction: 'Oma konto saad kinnitada alloleva lingi kaudu:'
         subject: Kinnitamise juhised
+      password_change:
+        subject: 
       reset_password_instructions:
         action: Muuda parooli
         greeting: Tere %{recipient}!

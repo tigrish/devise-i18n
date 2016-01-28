@@ -32,6 +32,8 @@ ru:
         greeting: "Привет %{recipient}!"
         instruction: "Вы можете активировать свою учетную запись, нажав ссылку снизу:"
         subject: "Инструкции по подтверждению учетной записи"
+      password_change:
+        subject: 
       reset_password_instructions:
         action: "Изменить пароль"
         greeting: "Привет, %{recipient}!"

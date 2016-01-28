@@ -32,6 +32,8 @@ nl:
         greeting: Welkom %{recipient}!
         instruction: 'U kunt uw email bevestigen via onderstaande link:'
         subject: Bevestiging
+      password_change:
+        subject: 
       reset_password_instructions:
         action: Verander mijn wachtwoord
         greeting: Hallo %{recipient}!

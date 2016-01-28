@@ -32,6 +32,8 @@ he:
         greeting: "ברוך הבא %{recipient}!"
         instruction: "אתה יכול לאשר את כתובת האימייל שלך בעזרת הקישור הנֿֿ״ל:"
         subject: "הוראות לאישור הרשמה"
+      password_change:
+        subject: 
       reset_password_instructions:
         action: "שנה סיסמא"
         greeting: "שלום %{recipient}!"

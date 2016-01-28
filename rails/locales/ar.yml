@@ -32,6 +32,8 @@ ar:
         greeting: "مرحبا %{recipient}"
         instruction: "يمكن تأكيد حساب بريدك الإلكتروني من خلال الرابط التّالي:"
         subject: "تعليمات تأكيد الحساب"
+      password_change:
+        subject: 
       reset_password_instructions:
         action: "غيّر كلمة السر"
         greeting: "مرحبا %{recipient}"

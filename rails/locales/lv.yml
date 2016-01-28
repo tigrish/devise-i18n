@@ -32,6 +32,8 @@ lv:
         greeting: Sveicināti, %{recipient}!
         instruction: 'Jūs varat apstiprināt, Jūsu konta epastu caur saiti zemāk:'
         subject: Apstiprināšanas apraksts
+      password_change:
+        subject: 
       reset_password_instructions:
         action: Veikt paroles maiņu
         greeting: Sveicināti, %{recipient}!

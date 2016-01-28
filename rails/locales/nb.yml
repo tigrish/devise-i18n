@@ -32,6 +32,8 @@ nb:
         greeting: Velkommen %{recipient}!
         instruction: 'Du kan aktivere '
         subject: Bekreftelsesinstruksjoner
+      password_change:
+        subject: 
       reset_password_instructions:
         action: Bytt passord
         greeting: Hei, %{recipient}!

@@ -32,6 +32,8 @@ fr:
         greeting: Bienvenue %{recipient}!
         instruction: 'Vous pouvez confirmer votre courriel grâce au lien ci-dessous:'
         subject: Instructions de confirmation
+      password_change:
+        subject: 
       reset_password_instructions:
         action: Changer mon mot de passe
         greeting: Bonjour %{recipient}!

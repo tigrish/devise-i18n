@@ -32,6 +32,8 @@ de:
         greeting: Willkommen %{recipient}!
         instruction: 'Folgen Sie dem untenstehenden Link, um Ihr Konto zu bestätigen:'
         subject: Anleitung zur Bestätigung Ihres Accounts
+      password_change:
+        subject: 
       reset_password_instructions:
         action: Passwort ändern
         greeting: Hallo %{recipient}!

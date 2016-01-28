@@ -32,6 +32,8 @@ th:
         greeting: "ยินดีต้อนรับคุณ %{recipient}!"
         instruction: "คุณสามารถยืนยันอีเมล์ที่ใช้สมัครสมาชิกได้จากลิงค์ข้างล่างนี้:"
         subject: "คำแนะนำการยืนยัน"
+      password_change:
+        subject: 
       reset_password_instructions:
         action: "เปลี่ยนรหัสผ่านของฉัน"
         greeting: "สวัสดีคุณ%{recipient}!"

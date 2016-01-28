@@ -1,7 +1,19 @@
 sv:
+  activerecord:
+    attributes:
+      user:
+        current_password: 
+        email: 
+        password: 
+        password_confirmation: 
+        remember_me: 
+    models:
+      user: 
   devise:
     confirmations:
       confirmed: Ditt konto har bekräftats. Du är nu inloggad.
+      new:
+        resend_confirmation_instructions: 
       send_instructions: Du kommer att få epost med instruktioner om hur du kan bekräfta ditt konto inom några minuter.
       send_paranoid_instructions: Om din epostadress finns i vår databas, kommer du att få ett epost-meddelande inom några minuter med instruktioner om hur du ska göra för att aktivera ditt konto igen.
     failure:
@@ -16,15 +28,37 @@ sv:
       unconfirmed: Du måste bekräfta ditt konto innan du kan fortsätta.
     mailer:
       confirmation_instructions:
+        action: 
+        greeting: 
+        instruction: 
         subject: Instruktioner för bekräftning av konto
+      password_change:
+        subject: 
       reset_password_instructions:
+        action: 
+        greeting: 
+        instruction: 
+        instruction_2: 
+        instruction_3: 
         subject: Instruktioner för återställning av lösenord
       unlock_instructions:
+        action: 
+        greeting: 
+        instruction: 
+        message: 
         subject: Instruktioner för upplåsning av konto
     omniauth_callbacks:
       failure: Kunde inte autentisera dig med %{kind} för "%{reason}".
       success: Autentiserat med %{kind}-konto.
     passwords:
+      edit:
+        change_my_password: 
+        change_your_password: 
+        confirm_new_password: 
+        new_password: 
+      new:
+        forgot_your_password: 
+        send_me_reset_password_instructions: 
       no_token: Tillgång till den här sidan kräver att du kommer från ett mejl som sätter tillbaka ditt lösenord. Om du kom hit från ett sånt mejl, säkerställ att du har använt hela URL:en.
       send_instructions: Du kommer få epost med instruktioner för hur du kan återställa ditt lösenord inom några minuter.
       send_paranoid_instructions: Om din epostadress finns i vår databas kommer du att få en lösenordslänk skickad till din epost.
@@ -32,6 +66,17 @@ sv:
       updated_not_active: Ditt lösenord uppdaterades.
     registrations:
       destroyed: Hej då! Ditt konto har avregistrerats. Vi hoppas få se dig snart igen.
+      edit:
+        are_you_sure: 
+        cancel_my_account: 
+        currently_waiting_confirmation_for_email: 
+        leave_blank_if_you_don_t_want_to_change_it: 
+        title: 
+        unhappy: 
+        update: 
+        we_need_your_current_password_to_confirm_your_changes: 
+      new:
+        sign_up: 
       signed_up: Välkommen! Ditt nya konto har skapats.
       signed_up_but_inactive: Du är nu registrerad. Däremot kunde vi inte logga in dig, eftersom ditt konto ännu inte aktiverats.
       signed_up_but_locked: Du är nu registrerad. Däremot kunde vi inte logga in dig, eftersom ditt konto är låst.
@@ -40,9 +85,22 @@ sv:
       updated: Ditt konto har uppdaterats.
     sessions:
       already_signed_out: Du är nu utloggad.
+      new:
+        sign_in: 
       signed_in: Loggade in.
       signed_out: Loggade ut.
+    shared:
+      links:
+        back: 
+        didn_t_receive_confirmation_instructions: 
+        didn_t_receive_unlock_instructions: 
+        forgot_your_password: 
+        sign_in: 
+        sign_in_with_provider: 
+        sign_up: 
     unlocks:
+      new:
+        resend_unlock_instructions: 
       send_instructions: Du kommer få epost med instruktioner om hur du kan låsa upp ditt konto inom några minuter.
       send_paranoid_instructions: Om ditt konto finns, kommer du att få ett email med instruktioner om hur du låser upp det inom några minuter.
       unlocked: Ditt konto har låsts upp. Du är nu inloggad.

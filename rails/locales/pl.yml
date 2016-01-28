@@ -32,6 +32,8 @@ pl:
         greeting: Witaj %{recipient}!
         instruction: 'Możesz potwierdzić swoje konto przy pomocy poniższego linku:'
         subject: Instrukcja aktywacji konta
+      password_change:
+        subject: 
       reset_password_instructions:
         action: Zmień swoje hasło
         greeting: Cześć %{recipient}!

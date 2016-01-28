@@ -1,7 +1,19 @@
 zh-HK:
+  activerecord:
+    attributes:
+      user:
+        current_password: 
+        email: 
+        password: 
+        password_confirmation: 
+        remember_me: 
+    models:
+      user: 
   devise:
     confirmations:
       confirmed: "啟用同埋登入咗帳戶。"
+      new:
+        resend_confirmation_instructions: 
       send_instructions: "幾分鐘之後，你會收到一封電郵，入面有啟用帳戶嘅步驟。"
       send_paranoid_instructions: "如果我哋既紀錄入面有呢個電郵的話，幾分鐘之後，你會收到一封電郵，入面有啟用帳戶嘅步驟。"
     failure:
@@ -16,15 +28,37 @@ zh-HK:
       unconfirmed: "帳戶未啟用。"
     mailer:
       confirmation_instructions:
+        action: 
+        greeting: 
+        instruction: 
         subject: "啟用帳戶"
+      password_change:
+        subject: 
       reset_password_instructions:
+        action: 
+        greeting: 
+        instruction: 
+        instruction_2: 
+        instruction_3: 
         subject: "重設密碼"
       unlock_instructions:
+        action: 
+        greeting: 
+        instruction: 
+        message: 
         subject: "帳戶解鎖"
     omniauth_callbacks:
       failure: "由%{kind}登入唔到，原因︰%{reason}。"
       success: "%{kind}登入成功。"
     passwords:
+      edit:
+        change_my_password: 
+        change_your_password: 
+        confirm_new_password: 
+        new_password: 
+      new:
+        forgot_your_password: 
+        send_me_reset_password_instructions: 
       no_token: "請肯定網址係密碼重設電郵入面嗰個。唔經呢封電郵睇唔到呢版。"
       send_instructions: "幾分鐘之後，你會收到一封電郵，入面有重設密碼嘅步驟。"
       send_paranoid_instructions: "如果我哋既紀錄入面有呢個電郵的話，幾分鐘之後，你會收到一封電郵，入面有重設密碼嘅步驟。"
@@ -32,6 +66,17 @@ zh-HK:
       updated_not_active: "成功改咗密碼。"
     registrations:
       destroyed: "帳戶已經註銷。有緣再會。"
+      edit:
+        are_you_sure: 
+        cancel_my_account: 
+        currently_waiting_confirmation_for_email: 
+        leave_blank_if_you_don_t_want_to_change_it: 
+        title: 
+        unhappy: 
+        update: 
+        we_need_your_current_password_to_confirm_your_changes: 
+      new:
+        sign_up: 
       signed_up: "註冊咗。歡迎！"
       signed_up_but_inactive: "註冊咗；不過要啟用埋帳戶先可以登入。"
       signed_up_but_locked: "註冊咗；不過帳戶鎖咗，未可以登入住。"
@@ -40,9 +85,22 @@ zh-HK:
       updated: "更新咗帳戶。"
     sessions:
       already_signed_out: "登出成功。"
+      new:
+        sign_in: 
       signed_in: "登入咗。"
       signed_out: "登出咗。"
+    shared:
+      links:
+        back: 
+        didn_t_receive_confirmation_instructions: 
+        didn_t_receive_unlock_instructions: 
+        forgot_your_password: 
+        sign_in: 
+        sign_in_with_provider: 
+        sign_up: 
     unlocks:
+      new:
+        resend_unlock_instructions: 
       send_instructions: "幾分鐘之後，你會收到一封電郵，入面有帳戶解鎖嘅步驟。"
       send_paranoid_instructions: "如果我哋既紀錄入面有呢個帳戶的話，幾分鐘之後，你會收到一封電郵，入面有帳戶解鎖嘅步驟。"
       unlocked: "帳戶解咗鎖；請重新登入。"

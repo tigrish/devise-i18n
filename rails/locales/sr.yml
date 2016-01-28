@@ -1,7 +1,19 @@
 sr:
+  activerecord:
+    attributes:
+      user:
+        current_password: 
+        email: 
+        password: 
+        password_confirmation: 
+        remember_me: 
+    models:
+      user: 
   devise:
     confirmations:
       confirmed: Vaš nalog je uspešno potvrđen. Sada ste prijavljeni.
+      new:
+        resend_confirmation_instructions: 
       send_instructions: U roku od nekoliko minuta primićete ePoruku sa uputstvom za potvrdu Vašeg naloga.
       send_paranoid_instructions: Ukoliko se Vaša adresa ePošte nalazi u našoj bazi u roku od nekoliko minuta primićete ePoruku sa uputstvom kako potvrditi Vaš nalog.
     failure:
@@ -16,15 +28,37 @@ sr:
       unconfirmed: Pre nastavka morate potvrditi svoj nalog.
     mailer:
       confirmation_instructions:
+        action: 
+        greeting: 
+        instruction: 
         subject: Uputstvo za potvrdu korisničkog naloga
+      password_change:
+        subject: 
       reset_password_instructions:
+        action: 
+        greeting: 
+        instruction: 
+        instruction_2: 
+        instruction_3: 
         subject: Uputstvo za promenu lozinke
       unlock_instructions:
+        action: 
+        greeting: 
+        instruction: 
+        message: 
         subject: Uputstvo za otključavanje korisničkog naloga
     omniauth_callbacks:
       failure: Nismo u mogućnosti autorizovati Vas sa %{kind} nalogom zbog "%{reason}".
       success: Uspešna autorizacija sa %{kind} naloga.
     passwords:
+      edit:
+        change_my_password: 
+        change_your_password: 
+        confirm_new_password: 
+        new_password: 
+      new:
+        forgot_your_password: 
+        send_me_reset_password_instructions: 
       no_token: Ne možete pristupiti ovoj stranici ako niste škljocnuli na vezu u ePoruci za resetovanje lozinke.
       send_instructions: U roku od nekoliko minuta primitićete ePoruku sa uputstvom za promenu Vaše lozinke.
       send_paranoid_instructions: Ukoliko se Vaša adresa ePošte nalazi u našoj bazi, na istu ćete u roku od nekoliko minuta primiti link za resetovanje lozinke.
@@ -32,6 +66,17 @@ sr:
       updated_not_active: Vaša lozinka je uspešno promenjena.
     registrations:
       destroyed: Pozdrav! Vaš nalog je uspešno obrisan. Nadamo se da ćete se uskoro vratiti.
+      edit:
+        are_you_sure: 
+        cancel_my_account: 
+        currently_waiting_confirmation_for_email: 
+        leave_blank_if_you_don_t_want_to_change_it: 
+        title: 
+        unhappy: 
+        update: 
+        we_need_your_current_password_to_confirm_your_changes: 
+      new:
+        sign_up: 
       signed_up: Dobrodošli! Uspešno ste se registrovali.
       signed_up_but_inactive: Uspešno ste se registrovali. Doduše, ne možete se prijaviti na sistem zato što Vaš nalog još nije aktiviran.
       signed_up_but_locked: Uspešno ste se registrovali. Nažalost ne možete se prijaviti jer Vam je nalog zaključan.
@@ -40,9 +85,22 @@ sr:
       updated: Uspešno ste izmenili svoj nalog.
     sessions:
       already_signed_out: 
+      new:
+        sign_in: 
       signed_in: Uspešno ste se prijavili.
       signed_out: Uspešno ste se odjavili.
+    shared:
+      links:
+        back: 
+        didn_t_receive_confirmation_instructions: 
+        didn_t_receive_unlock_instructions: 
+        forgot_your_password: 
+        sign_in: 
+        sign_in_with_provider: 
+        sign_up: 
     unlocks:
+      new:
+        resend_unlock_instructions: 
       send_instructions: U roku od nekoliko minuta ćete primiti ePoruku sa uputstvom za otključavanje Vašeg naloga.
       send_paranoid_instructions: Ako Vaš nalog postoji, na adresu svoje ePošte ćete u roku od nekoliko minuta primiti uputstvo kako ga otključati.
       unlocked: Vaš nalog je uspešno otključan. Sada se možete prijaviti.
