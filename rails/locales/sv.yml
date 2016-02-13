@@ -2,18 +2,18 @@ sv:
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
+        current_password: Nuvarande lösenord
+        email: Email
+        password: Lösenord
+        password_confirmation: Bekräfta lösenord
+        remember_me: Kom ihåg mig
     models:
-      user: 
+      user: Användare
   devise:
     confirmations:
       confirmed: Ditt konto har bekräftats. Du är nu inloggad.
       new:
-        resend_confirmation_instructions: 
+        resend_confirmation_instructions: Skicka instruktioner för att bekräfta konto igen
       send_instructions: Du kommer att få epost med instruktioner om hur du kan bekräfta ditt konto inom några minuter.
       send_paranoid_instructions: Om din epostadress finns i vår databas, kommer du att få ett epost-meddelande inom några minuter med instruktioner om hur du ska göra för att aktivera ditt konto igen.
     failure:
@@ -28,37 +28,37 @@ sv:
       unconfirmed: Du måste bekräfta ditt konto innan du kan fortsätta.
     mailer:
       confirmation_instructions:
-        action: 
-        greeting: 
-        instruction: 
+        action: Bekräfta mitt konto
+        greeting: Välkommen %{recipient}!
+        instruction: 'Du kan bekräfta ditt konto med länken nedan:'
         subject: Instruktioner för bekräftning av konto
       password_change:
-        subject: 
+        subject: Lösenorded uppdaterades
       reset_password_instructions:
-        action: 
-        greeting: 
-        instruction: 
-        instruction_2: 
-        instruction_3: 
+        action: Byt lösenord
+        greeting: Hej %{recipient}!
+        instruction: Någon har begärt att ändra ditt lösenordet. Du kan göra det genom länken nedan.
+        instruction_2: Om ändringen inte begärdes utav dig, var snäll att ignorera detta email.
+        instruction_3: Ditt lösenord ändras ej förrän du följer länken ovan och skapar ett nytt lösenord.
         subject: Instruktioner för återställning av lösenord
       unlock_instructions:
-        action: 
-        greeting: 
-        instruction: 
-        message: 
+        action: Lås upp mitt konto
+        greeting: Hej %{recipient}!
+        instruction: 'Följ länken nedan för att låsa upp ditt konto:'
+        message: Ditt konto har låsts på grund av för många felaktiga inloggningsförsök.
         subject: Instruktioner för upplåsning av konto
     omniauth_callbacks:
       failure: Kunde inte autentisera dig med %{kind} för "%{reason}".
       success: Autentiserat med %{kind}-konto.
     passwords:
       edit:
-        change_my_password: 
-        change_your_password: 
-        confirm_new_password: 
-        new_password: 
+        change_my_password: "Ändra mitt lösenord"
+        change_your_password: "Ändra ditt lösenord"
+        confirm_new_password: Bekräfta nytt lösenord
+        new_password: Nytt lösenord
       new:
-        forgot_your_password: 
-        send_me_reset_password_instructions: 
+        forgot_your_password: Glömt ditt lösenord?
+        send_me_reset_password_instructions: Skicka instruktion för återställning av lösenord
       no_token: Tillgång till den här sidan kräver att du kommer från ett mejl som sätter tillbaka ditt lösenord. Om du kom hit från ett sånt mejl, säkerställ att du har använt hela URL:en.
       send_instructions: Du kommer få epost med instruktioner för hur du kan återställa ditt lösenord inom några minuter.
       send_paranoid_instructions: Om din epostadress finns i vår databas kommer du att få en lösenordslänk skickad till din epost.
@@ -67,16 +67,16 @@ sv:
     registrations:
       destroyed: Hej då! Ditt konto har avregistrerats. Vi hoppas få se dig snart igen.
       edit:
-        are_you_sure: 
-        cancel_my_account: 
-        currently_waiting_confirmation_for_email: 
-        leave_blank_if_you_don_t_want_to_change_it: 
-        title: 
-        unhappy: 
-        update: 
-        we_need_your_current_password_to_confirm_your_changes: 
+        are_you_sure: "Är du säker?"
+        cancel_my_account: Avsluta mitt konto
+        currently_waiting_confirmation_for_email: 'Väntar på bekräftelse för: %{email}'
+        leave_blank_if_you_don_t_want_to_change_it: lämna tomt om du inte vill byta det
+        title: "Ändra %{resource}"
+        unhappy: Missnöjd
+        update: Uppdatera
+        we_need_your_current_password_to_confirm_your_changes: vi behöver ditt nuvarande lösenord för att bekräfta dina ändringar
       new:
-        sign_up: 
+        sign_up: Registrera dig
       signed_up: Välkommen! Ditt nya konto har skapats.
       signed_up_but_inactive: Du är nu registrerad. Däremot kunde vi inte logga in dig, eftersom ditt konto ännu inte aktiverats.
       signed_up_but_locked: Du är nu registrerad. Däremot kunde vi inte logga in dig, eftersom ditt konto är låst.
@@ -86,21 +86,21 @@ sv:
     sessions:
       already_signed_out: Du är nu utloggad.
       new:
-        sign_in: 
+        sign_in: Logga in
       signed_in: Loggade in.
       signed_out: Loggade ut.
     shared:
       links:
-        back: 
-        didn_t_receive_confirmation_instructions: 
-        didn_t_receive_unlock_instructions: 
-        forgot_your_password: 
-        sign_in: 
-        sign_in_with_provider: 
-        sign_up: 
+        back: Tillbaka
+        didn_t_receive_confirmation_instructions: Fick du inga bekräftelseinstruktioner?
+        didn_t_receive_unlock_instructions: Fick du inga instruktioner om hur du låser upp ditt konto?
+        forgot_your_password: Glömt ditt lösenord?
+        sign_in: Logga in
+        sign_in_with_provider: Logga in med %{provider}
+        sign_up: Registrera dig
     unlocks:
       new:
-        resend_unlock_instructions: 
+        resend_unlock_instructions: Skicka instruktioner för upplåsning av konto igen
       send_instructions: Du kommer få epost med instruktioner om hur du kan låsa upp ditt konto inom några minuter.
       send_paranoid_instructions: Om ditt konto finns, kommer du att få ett email med instruktioner om hur du låser upp det inom några minuter.
       unlocked: Ditt konto har låsts upp. Du är nu inloggad.

@@ -1,4 +1,4 @@
-de:
+de-CH:
   activerecord:
     attributes:
       user:
@@ -58,11 +58,11 @@ de:
         new_password: Neues Passwort
       new:
         forgot_your_password: Haben Sie Ihr Passwort vergessen?
-        send_me_reset_password_instructions: Schicken Sie mir die Anleitung, mein Passwort zurückzusetzen
+        send_me_reset_password_instructions: Schicken Sie mir die Anleitung, um mein Passwort zurückzusetzen
       no_token: Sie können sich nicht auf dieser Seite anmelden, wenn Sie nicht von einer Passwort-Zurücksetzen-E-Mail kommen. Wenn Sie von solch einer E-Mail kommen, überprüfen Sie bitte, ob Sie die gesamte URL verwendeten.
       send_instructions: Sie erhalten in wenigen Minuten eine E-Mail mit der Anleitung, wie Sie Ihr Passwort zurücksetzen können.
       send_paranoid_instructions: Falls Ihre E-Mail-Adresse in unserer Datenbank existiert, erhalten Sie in wenigen Minuten eine E-Mail, mit der Anleitung, wie Sie Ihr Passwort zurücksetzen können.
-      updated: Ihr Passwort wurde geändert. Sie sind jetzt angemeldet.
+      updated: "\t\nIhr Passwort wurde geändert. Sie sind jetzt angemeldet."
       updated_not_active: Ihr Passwort wurde geändert.
     registrations:
       destroyed: Ihr Account wurde gelöscht.
@@ -87,7 +87,7 @@ de:
       already_signed_out: Erfolgreich abgemeldet.
       new:
         sign_in: Anmelden
-      signed_in: Erfolgreich angemeldet.
+      signed_in: Erfolgreich abgemeldet.
       signed_out: Erfolgreich abgemeldet.
     shared:
       links:
@@ -95,7 +95,9 @@ de:
         didn_t_receive_confirmation_instructions: Keine Anleitung zur Bestätigung erhalten?
         didn_t_receive_unlock_instructions: Keine Anleitung zum Entsperren erhalten?
         forgot_your_password: Passwort vergessen?
-        sign_in: Anmelden
+        sign_in: |2
+
+          Anmelden
         sign_in_with_provider: Mit %{provider} anmelden
         sign_up: Registrieren
     unlocks:
@@ -107,7 +109,7 @@ de:
   errors:
     messages:
       already_confirmed: wurde bereits bestätigt, bitte versuchen Sie, sich anzumelden
-      confirmation_period_expired: musste innerhalb von %{period} bestätigt werden, bitte neu anfordern.
+      confirmation_period_expired: muss innerhalb von %{period} bestätigt werden, bitte neu anfordern.
       expired: ist abgelaufen, bitte neu anfordern
       not_found: nicht gefunden
       not_locked: ist nicht gesperrt
