@@ -33,6 +33,8 @@ pt:
         instruction: 'Pode confirmar a sua conta através do link:'
         subject: Instruções de confirmação
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: Repor a minha senha

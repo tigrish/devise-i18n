@@ -33,6 +33,8 @@ az:
         instruction: 
         subject: Hesabın təstiqlənməsi
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: 

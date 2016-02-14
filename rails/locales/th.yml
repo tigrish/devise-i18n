@@ -33,6 +33,8 @@ th:
         instruction: "คุณสามารถยืนยันอีเมล์ที่ใช้สมัครสมาชิกได้จากลิงค์ข้างล่างนี้:"
         subject: "คำแนะนำการยืนยัน"
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: "เปลี่ยนรหัสผ่านของฉัน"

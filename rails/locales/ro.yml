@@ -33,6 +33,8 @@ ro:
         instruction: 
         subject: Instrucţiuni de confirmare
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: 

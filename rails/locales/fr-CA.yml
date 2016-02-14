@@ -33,6 +33,8 @@ fr-CA:
         instruction: 
         subject: Instructions de confirmation
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: 

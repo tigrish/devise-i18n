@@ -33,6 +33,8 @@ de-CH:
         instruction: 'Folgen Sie dem untenstehenden Link, um Ihr Konto zu bestätigen:'
         subject: Anleitung zur Bestätigung Ihres Accounts
       password_change:
+        greeting: 
+        message: 
         subject: Passwort geändert
       reset_password_instructions:
         action: Passwort ändern

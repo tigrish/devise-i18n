@@ -33,6 +33,8 @@ pl:
         instruction: 'Możesz potwierdzić swoje konto przy pomocy poniższego linku:'
         subject: Instrukcja aktywacji konta
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: Zmień swoje hasło

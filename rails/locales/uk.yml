@@ -33,6 +33,8 @@ uk:
         instruction: "Ви можете підтвердити свою електронну пошту через посилання нижче:"
         subject: "Інструкції щодо підтвердження облікового запису"
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: "Зміна паролю"

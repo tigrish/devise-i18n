@@ -33,6 +33,8 @@ is:
         instruction: 
         subject: Staðfestingarleiðbeiningar
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: 

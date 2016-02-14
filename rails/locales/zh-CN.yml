@@ -33,6 +33,8 @@ zh-CN:
         instruction: "您可以通过下面的链接确认您的帐户的电子邮件:"
         subject: "确认信息"
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: "更改我的密码"

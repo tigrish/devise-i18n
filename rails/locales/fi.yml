@@ -33,6 +33,8 @@ fi:
         instruction: 'Vahvista sähköpostisi painamalla alla olevaa linkkiä:'
         subject: Vahvistusohjeet
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: Vaihda salasanani

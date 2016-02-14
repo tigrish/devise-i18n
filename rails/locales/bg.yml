@@ -33,6 +33,8 @@ bg:
         instruction: "Можете да потвърдите Вашия имейл адрес чрез долния линка:"
         subject: "Инструкции за потвърждаване"
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: "Смяна на парола"

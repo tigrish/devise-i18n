@@ -33,6 +33,8 @@ it:
         instruction: 'Puoi confermare il tuo account cliccando sul link qui sotto:'
         subject: Istruzioni per la conferma
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: Cambia la mia password

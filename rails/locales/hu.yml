@@ -33,6 +33,8 @@ hu:
         instruction: 'A fiók megerősítéséhez rá kell kattintani az alábbi linkre:'
         subject: Email cím megerősítés
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: Jelszó megváltoztatása

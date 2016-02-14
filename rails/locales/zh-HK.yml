@@ -33,6 +33,8 @@ zh-HK:
         instruction: 
         subject: "啟用帳戶"
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: 

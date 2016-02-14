@@ -33,6 +33,8 @@ ru:
         instruction: "Вы можете активировать свою учетную запись, нажав ссылку снизу:"
         subject: "Инструкции по подтверждению учетной записи"
       password_change:
+        greeting: 
+        message: 
         subject: "Пароль изменен"
       reset_password_instructions:
         action: "Изменить пароль"

@@ -33,6 +33,8 @@ nl:
         instruction: 'U kunt uw email bevestigen via onderstaande link:'
         subject: Bevestiging
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: Verander mijn wachtwoord

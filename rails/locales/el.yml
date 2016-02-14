@@ -33,6 +33,8 @@ el:
         instruction: "Μπορείτε να επιβεβαιώσετε τον λογαριασμό σας μέσω του συνδέσμου παρακάτω:"
         subject: "Οδηγίες επιβεβαίωσης"
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: "Αλλαγή του κωδικού πρόσβασης"

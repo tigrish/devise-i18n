@@ -33,6 +33,8 @@ sl:
         instruction: 
         subject: Navodila potrditve
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: 

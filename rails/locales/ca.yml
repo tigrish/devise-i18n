@@ -33,6 +33,8 @@ ca:
         instruction: 'Pots confirmar el correu electrònic del teu compte a través d''aquest enllaç:'
         subject: Instruccions de confirmació
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: Canviar la meva contrasenya

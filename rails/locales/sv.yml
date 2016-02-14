@@ -33,6 +33,8 @@ sv:
         instruction: 'Du kan bekräfta ditt konto med länken nedan:'
         subject: Instruktioner för bekräftning av konto
       password_change:
+        greeting: 
+        message: 
         subject: Lösenorded uppdaterades
       reset_password_instructions:
         action: Byt lösenord

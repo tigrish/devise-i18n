@@ -33,6 +33,8 @@ cs:
         instruction: Můžete potvrdit svůj účet pomocí odkazu níže
         subject: Potvrzovací instrukce
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: Změnit mé heslo

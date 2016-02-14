@@ -33,6 +33,8 @@ en-GB:
         instruction: 
         subject: Confirmation instructions
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: 

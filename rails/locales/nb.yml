@@ -33,6 +33,8 @@ nb:
         instruction: 'Du kan aktivere '
         subject: Bekreftelsesinstruksjoner
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: Bytt passord

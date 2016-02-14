@@ -33,6 +33,8 @@ fa:
         instruction: "شما می توانید ایمیل حساب کاربری خود را از طریق لینک زیر تایید کنید:"
         subject: "راهنمای تایید"
       password_change:
+        greeting: 
+        message: 
         subject: "تغییر رمز عبور"
       reset_password_instructions:
         action: "رمز عبور مرا تغییر بده"

@@ -33,6 +33,8 @@
         instruction: 
         subject: Bekreftelsesinstruksjoner
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: 

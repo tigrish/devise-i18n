@@ -33,6 +33,8 @@ et:
         instruction: 'Oma konto saad kinnitada alloleva lingi kaudu:'
         subject: Kinnitamise juhised
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: Muuda parooli

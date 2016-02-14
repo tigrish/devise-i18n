@@ -33,6 +33,8 @@ id:
         instruction: 
         subject: Instruksi untuk melakukan konfirmasi
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: 

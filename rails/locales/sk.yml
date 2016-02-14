@@ -33,6 +33,8 @@ sk:
         instruction: 'Môžete potvrdiť emailovú adresu vášho účtu pomocou odkazu nižšie:'
         subject: Potvrdzovacie inštrukcie
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: Zmeniť moje heslo

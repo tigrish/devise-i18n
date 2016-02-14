@@ -33,6 +33,8 @@ lv:
         instruction: 'Jūs varat apstiprināt, Jūsu konta epastu caur saiti zemāk:'
         subject: Apstiprināšanas apraksts
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: Veikt paroles maiņu

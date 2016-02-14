@@ -33,6 +33,8 @@ he:
         instruction: "אתה יכול לאשר את כתובת האימייל שלך בעזרת הקישור הנֿֿ״ל:"
         subject: "הוראות לאישור הרשמה"
       password_change:
+        greeting: 
+        message: 
         subject: 
       reset_password_instructions:
         action: "שנה סיסמא"
