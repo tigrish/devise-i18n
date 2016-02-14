@@ -52,7 +52,7 @@ fa:
       success: "با موفقیت مجوز استفاده از  %{kind} دریافت شد."
     passwords:
       edit:
-        change_my_password: "رمز عبور مرا تغییر بده" 
+        change_my_password: "رمز عبور مرا تغییر بده"
         change_your_password: "رمز عبور خود را تغییر دهید"
         confirm_new_password: "رمز عبور جدید را تایید کنید"
         new_password: "رمز عبور جدید"
