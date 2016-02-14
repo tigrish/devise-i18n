@@ -1,3 +1,4 @@
+---
 ja:
   activerecord:
     attributes:
@@ -33,7 +34,9 @@ ja:
         instruction: "次のリンクでメールアドレスの確認が完了します:"
         subject: "アカウントの有効化について"
       password_change:
-        subject: 
+        greeting: "こんにちは、%{recipient}さん!"
+        message: "あなたのパスワードが再設定されたことを通知します。"
+        subject: "パスワードの変更について"
       reset_password_instructions:
         action: "パスワード変更"
         greeting: "こんにちは、%{recipient}さん!"

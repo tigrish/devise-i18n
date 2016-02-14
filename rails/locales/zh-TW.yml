@@ -1,3 +1,4 @@
+---
 zh-TW:
   activerecord:
     attributes:
@@ -33,7 +34,9 @@ zh-TW:
         instruction: "您可以利用下面的連結確認您的帳戶的電子郵件:"
         subject: "帳號驗證步驟"
       password_change:
-        subject: 
+        greeting: "你好 %{recipient}!"
+        message: 它會通知您，您的密碼已被更改。
+        subject: 密碼已更改
       reset_password_instructions:
         action: "更改我的密碼"
         greeting: "你好 %{recipient}!"

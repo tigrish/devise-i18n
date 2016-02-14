@@ -33,6 +33,8 @@ en:
         instruction: 'You can confirm your account email through the link below:'
         subject: Confirmation instructions
       password_change:
+        greeting: Hello %{recipient}!
+        message: We're contacting you to notify you that your password has been changed.
         subject: Password Changed
       reset_password_instructions:
         action: Change my password
