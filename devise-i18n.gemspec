@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "app/views/devise/_links.erb",
     "app/views/devise/confirmations/new.html.erb",
     "app/views/devise/mailer/confirmation_instructions.html.erb",
+    "app/views/devise/mailer/password_change.html.erb",
     "app/views/devise/mailer/reset_password_instructions.html.erb",
     "app/views/devise/mailer/unlock_instructions.html.erb",
     "app/views/devise/passwords/edit.html.erb",
