@@ -33,9 +33,9 @@ et:
         instruction: 'Oma konto saad kinnitada alloleva lingi kaudu:'
         subject: Kinnitamise juhised
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Tere %{recipient}!
+        message: Anname teada, et sinu parool on ära muudetud.
+        subject: Parool muudetud
       reset_password_instructions:
         action: Muuda parooli
         greeting: Tere %{recipient}!
