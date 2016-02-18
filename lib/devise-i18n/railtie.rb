@@ -1,6 +1,10 @@
 require 'rails'
 
 module DeviseI18n
+  # This adds the views to view path
+  class Engine < ::Rails::Engine
+  end
+
   class Railtie < ::Rails::Railtie #:nodoc:
     initializer 'devise-i18n' do |app|
       DeviseI18n::Railtie.instance_eval do
