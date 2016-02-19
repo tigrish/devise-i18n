@@ -83,7 +83,7 @@ cs:
       signed_up_but_inactive: Vítejte! Registrace byla úspěšná. Bohužel se nemůžete přihlásit, protože váš účet ještě není aktivován.
       signed_up_but_locked: Vítejte! Registrace byla úspěšná. Bohužel se nemůžete přihlásit, protože váš účet je zamknutý.
       signed_up_but_unconfirmed: Vítejte! Registrace byla úspěšná. Pro dokončení otevřete aktivační odkaz zaslaný na váš email.
-      update_needs_confirmation: "Úspěšně jste aktualizoval svůj účet, ale ještě musíte ověřit svou novou e-mailovou adresu. Zkontrolujte prosím svou schránku a klikněte na odkaz pro dokončení ověření vaši nové e-mailové adresy."
+      update_needs_confirmation: "Úspěšně jste aktualizovali svůj účet, ale ještě musíte ověřit svou novou e-mailovou adresu. Zkontrolujte prosím svou schránku a klikněte na odkaz pro dokončení ověření vaši nové e-mailové adresy."
       updated: Váš účet byl úspěšně aktualizován.
     sessions:
       already_signed_out: "Úspěšně odhlášen"
