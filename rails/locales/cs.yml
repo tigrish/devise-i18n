@@ -72,11 +72,11 @@ cs:
         are_you_sure: Jste si jistý?
         cancel_my_account: Zrušit můj účet
         currently_waiting_confirmation_for_email: 'Momentálně čekám na potvrzení pro: %{email}'
-        leave_blank_if_you_don_t_want_to_change_it: nech prázdné, pokud to nechceš měnit
+        leave_blank_if_you_don_t_want_to_change_it: nech prázdné, pokud ho nechceš měnit
         title: Upravit %{resource}
-        unhappy: Nešťastný
+        unhappy: Nejste zde šťastni?
         update: Aktualizovat
-        we_need_your_current_password_to_confirm_your_changes: Potřebujeme vaše současné heslo pro potvrzení změn
+        we_need_your_current_password_to_confirm_your_changes: Je potřeba pro potvrzení změn
       new:
         sign_up: Registrovat
       signed_up: Vítejte! Registrace byla úspěšná.
