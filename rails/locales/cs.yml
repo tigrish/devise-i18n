@@ -71,9 +71,9 @@ cs:
       edit:
         are_you_sure: Jste si jisti?
         cancel_my_account: Zrušit můj účet
-        currently_waiting_confirmation_for_email: Momentálně čekám na potvrzení pro: %{email}
+        currently_waiting_confirmation_for_email: "Momentálně čekám na potvrzení pro: %{email}"
         leave_blank_if_you_don_t_want_to_change_it: nevyplňujte, pokud ho nechcete měnit
-        title: Upravit %{resource}
+        title: "Upravit %{resource}"
         unhappy: Nejste zde šťastni?
         update: Aktualizovat
         we_need_your_current_password_to_confirm_your_changes: Je vyžadováno pro potvrzení změn.
