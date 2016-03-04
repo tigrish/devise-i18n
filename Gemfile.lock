@@ -138,6 +138,3 @@ DEPENDENCIES
   localeapp
   railties
   rspec (>= 2.8.0)
-
-BUNDLED WITH
-   1.10.6
