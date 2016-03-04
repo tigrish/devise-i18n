@@ -4,7 +4,7 @@
 
 [Devise](https://github.com/plataformatec/devise) "is a flexible authentication solution for Rails based on Warden". Internationalization (aka i18n) is a "means of adapting computer software to different languages, regional differences and technical requirements of a target market".
 
-Devise supports i18n in controllers, models, and in other areas, but it does not have support for internaionalized views. devise-i18n adds this support. Devise also does not include the actual translations. devise-i18n does this too.
+Devise supports i18n in controllers, models, and in other areas, but it does not have support for internationalized views. devise-i18n adds this support. Devise also does not include the actual translations. devise-i18n does this too.
 
 devise-18n is for devise v2 and later. For devise v1.5, use the **[devise-1.5 branch](https://github.com/tigrish/devise-i18n/tree/devise-1.5)**.
 
