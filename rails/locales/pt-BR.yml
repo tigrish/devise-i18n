@@ -33,9 +33,9 @@ pt-BR:
         instruction: 'Você pode confirmar sua conta através do link abaixo:'
         subject: Instruções de confirmação
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Olá %{recipient}!
+        message: Estamos entrando em contato para te avisar que sua senha foi alterada.
+        subject: Senha Alterada
       reset_password_instructions:
         action: Redefinir minha senha
         greeting: Olá %{recipient}!
