@@ -33,9 +33,9 @@ uk:
         instruction: "Ви можете підтвердити свою електронну пошту через посилання нижче:"
         subject: "Інструкції щодо підтвердження облікового запису"
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: "Вітаємо %{recipient}!"
+        message: "Ми намагємося зв'язатися з вами, щоб сповістити, що ваш пароль було змінено."
+        subject: "Пароль Змінено"
       reset_password_instructions:
         action: "Зміна паролю"
         greeting: "Доброго дня %{recipient}!"
@@ -74,7 +74,7 @@ uk:
         currently_waiting_confirmation_for_email: "В даний час очікуємо підтвердження від: %{email}"
         leave_blank_if_you_don_t_want_to_change_it: "залиште порожнім, якщо ви не хочете змінити його"
         title: "Редагувати %{resource}"
-        unhappy: "Нещасний"
+        unhappy: "Незадоволені"
         update: "Оновити"
         we_need_your_current_password_to_confirm_your_changes: "введіть свій поточний пароль для підтвердження змін"
       new:

@@ -3,7 +3,7 @@ ru:
     attributes:
       user:
         current_password: "Текущий пароль"
-        email: 
+        email: Email
         password: "Пароль"
         password_confirmation: "Подтверждение пароля"
         remember_me: "Запомнить меня"
@@ -33,8 +33,8 @@ ru:
         instruction: "Вы можете активировать свою учетную запись, нажав ссылку снизу:"
         subject: "Инструкции по подтверждению учетной записи"
       password_change:
-        greeting: 
-        message: 
+        greeting: "Приветствуем %{recipient}!"
+        message: "Мы пытаемся связаться с вами, что бы сообщить, что ваш пароль был изменен."
         subject: "Пароль изменен"
       reset_password_instructions:
         action: "Изменить пароль"
@@ -72,7 +72,7 @@ ru:
         are_you_sure: "Вы уверены?"
         cancel_my_account: "Удалить учетную запись"
         currently_waiting_confirmation_for_email: "Ожидается подтверждение адреса E-mail: %{email}"
-        leave_blank_if_you_don_t_want_to_change_it: "оставьте поле пустым, если не хотите ничего менять"
+        leave_blank_if_you_don_t_want_to_change_it: "оставьте поле пустым, если не хотите его менять"
         title: "Редактировать %{resource}"
         unhappy: "Разочарованы"
         update: "Обновить"

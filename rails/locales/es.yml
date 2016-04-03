@@ -33,8 +33,8 @@ es:
         instruction: 'Usted puede confirmar el correo electrónico de su cuenta a través de este enlace:'
         subject: Instrucciones de confirmación
       password_change:
-        greeting: 
-        message: 
+        greeting: Hola %{recipient}!
+        message: Le estamos contactando para notificarle que su contraseña ha sido cambiada.
         subject: Contraseña cambiada
       reset_password_instructions:
         action: Cambiar mi contraseña

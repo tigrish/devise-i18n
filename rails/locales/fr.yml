@@ -33,9 +33,9 @@ fr:
         instruction: 'Vous pouvez confirmer votre courriel grâce au lien ci-dessous:'
         subject: Instructions de confirmation
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Bonjour %{recipient}!
+        message: Nous vous contactons pour vous notifier que votre mot de passe a été modifié.
+        subject: Mot de passe modifié.
       reset_password_instructions:
         action: Changer mon mot de passe
         greeting: Bonjour %{recipient}!

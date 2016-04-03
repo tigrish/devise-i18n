@@ -46,7 +46,7 @@ cs:
       unlock_instructions:
         action: Odblokovat můj účet
         greeting: Ahoj %{recipient}!
-        instruction: Účet odblokujete otevřením na odkazu níže.
+        instruction: "Účet odblokujete otevřením na odkazu níže."
         message: Váš účet byl zablokován pro nadměrný počet neúspěšných pokusů o přihlášení.
         subject: Instrukce k odemknutí účtu
     omniauth_callbacks:
@@ -71,9 +71,9 @@ cs:
       edit:
         are_you_sure: Jste si jisti?
         cancel_my_account: Zrušit můj účet
-        currently_waiting_confirmation_for_email: "Momentálně čekám na potvrzení pro: %{email}"
+        currently_waiting_confirmation_for_email: 'Momentálně čekám na potvrzení pro: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: nevyplňujte, pokud ho nechcete měnit
-        title: "Upravit %{resource}"
+        title: Upravit %{resource}
         unhappy: Nejste zde šťastni?
         update: Aktualizovat
         we_need_your_current_password_to_confirm_your_changes: Je vyžadováno pro potvrzení změn.
@@ -83,7 +83,7 @@ cs:
       signed_up_but_inactive: Vítejte! Registrace byla úspěšná. Bohužel se nemůžete přihlásit, protože váš účet ještě není aktivován.
       signed_up_but_locked: Vítejte! Registrace byla úspěšná. Bohužel se nemůžete přihlásit, protože váš účet je zamknutý.
       signed_up_but_unconfirmed: Vítejte! Registrace byla úspěšná. Pro dokončení otevřete aktivační odkaz zaslaný na váš email.
-      update_needs_confirmation: Úspěšně jste aktualizovali svůj účet, ale ještě musíte ověřit svou novou e-mailovou adresu. Zkontrolujte prosím svou schránku a klikněte na odkaz pro dokončení ověření vaši nové e-mailové adresy.
+      update_needs_confirmation: "Úspěšně jste aktualizovali svůj účet, ale ještě musíte ověřit svou novou e-mailovou adresu. Zkontrolujte prosím svou schránku a klikněte na odkaz pro dokončení ověření vaši nové e-mailové adresy."
       updated: Váš účet byl úspěšně aktualizován.
     sessions:
       already_signed_out: Nejste momentálně přihlášeni.
