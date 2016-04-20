@@ -96,7 +96,7 @@ pl:
         back: Powrót
         didn_t_receive_confirmation_instructions: Nie otrzymałeś instrukcji aktywacji konta?
         didn_t_receive_unlock_instructions: Nie otrzymałeś instrukcji odblokowania konta?
-        forgot_your_password: Zapomniałeś hasło?
+        forgot_your_password: Zapomniałeś hasła?
         sign_in: Zaloguj się
         sign_in_with_provider: Zaloguj się przez %{provider}
         sign_up: Zarejestruj się
