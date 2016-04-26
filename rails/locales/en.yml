@@ -7,6 +7,8 @@ en:
         password: Password
         password_confirmation: Password confirmation
         remember_me: Remember me
+        reset_password_token: Reset password token
+        unlock_token: Unlock token
     models:
       user: User
   devise:
