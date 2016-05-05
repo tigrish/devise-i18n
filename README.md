@@ -21,10 +21,10 @@ Assuming you have _not_ previously generated Devise's views into your project, t
 
 ## Customizing views
 
-The `devise:views:i18n_templates` generator will copy all devise-i18n's views to your application so that you can modify the files as you wish.
+The `devise:i18n:views` generator will copy all devise-i18n's views to your application so that you can modify the files as you wish.
 
 ``` sh
-rails g devise:views:i18n_templates
+rails g devise:i18n:views
 ```
 You should only do this if you really need to, though, because doing this will make it so that you won't get the updated views should they change in a future version of devise-i18n. To "uncustomize" the views, just delete them, and your app will go back to grabbing devise-i18n's default views.
 
@@ -33,7 +33,7 @@ You should only do this if you really need to, though, because doing this will m
 
 If, for whatever reason, you want to change devise-i18n's translations, you can generate the locale file into your project with 
 ``` sh
-rails g devise:views:locale it
+rails g devise:i18n:locale it
 ```
 
 which will generate `config/locales/devise.it.yml`. If you're doing this to add a missing translation or to improve an existing one, it'd be nice if you could share your suggestions with us!
