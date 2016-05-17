@@ -11,7 +11,7 @@ cs:
       user: Uživatel
   devise:
     confirmations:
-      confirmed: Váš účet byl úspěšně potvrzen. Nyní jste přihlášeni.
+      confirmed: Váš účet byl úspěšně potvrzen.
       new:
         resend_confirmation_instructions: Opět poslat instrukce pro potvrzení
       send_instructions: Za několik minut obdržíte email s instrukcemi k potvrzení vašeho účtu.
@@ -64,7 +64,7 @@ cs:
       no_token: Tuto stránku lze otevřít pouze z emailu, který nastavuje nové heslo. Pokud jste přišli z takového emailu, prosím, přesvěčte se že jste použili celou URL adresu.
       send_instructions: Za několik minut obdržíte email s instrukcemi pro nastavení nového hesla.
       send_paranoid_instructions: Pokud váš e-mail existuje v naší databázi, za několik minut obdržíte e-mail s instrukcemi pro nastavení nového hesla.
-      updated: Vaše heslo bylo úspěšně změněno. Nyní jste přihlášeni.
+      updated: Vaše heslo bylo úspěšně změněno.
       updated_not_active: Vaše heslo bylo úspěšně změněno.
     registrations:
       destroyed: Nashledanou! Váš účet byl úspěšně zrušen. Doufáme, že se brzy opět uvidíme.
@@ -105,7 +105,7 @@ cs:
         resend_unlock_instructions: Znovu odeslat instrukce pro odblokování
       send_instructions: Za několik minut obdržíte email s instrukcemi, jak odemknout svůj účet.
       send_paranoid_instructions: Pokud váš e-mail existuje v naší databázi, za několik minut obdržíte e-mail s instrukcemi pro odemknutí účtu.
-      unlocked: Váš účet byl úspěšně odemknut. Nyní jste přihlášen(a).
+      unlocked: Váš účet byl úspěšně odemknut.
   errors:
     messages:
       already_confirmed: byl již potvrzen, prosím, zkuste se přihlásit
