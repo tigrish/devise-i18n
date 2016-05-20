@@ -33,9 +33,9 @@ tr:
         instruction: 'E-postanızı aşağıdaki bağlantıyı takip ederek onaylayabilirsiniz:'
         subject: Onaylama talimatları.
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Merhaba %{recipient}!
+        message: Şifreniz az önce değiştirildi.
+        subject: Şifreniz Değişti
       reset_password_instructions:
         action: Parolamı değiştir
         greeting: Merhaba %{recipient}!
