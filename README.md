@@ -36,7 +36,7 @@ If, for whatever reason, you want to change devise-i18n's translations, you can 
 rails g devise:views:locale it
 ```
 
-which will generate `config/locales/devise.it.yml`. If you're doing this to add a missing translation or to improve an existing one, it'd be nice if you could share your suggestions with us!
+which will generate `config/locales/devise.views.it.yml`. If you're doing this to add a missing translation or to improve an existing one, it'd be nice if you could share your suggestions with us!
 
 
 ## Contributing translations to devise-i18n
