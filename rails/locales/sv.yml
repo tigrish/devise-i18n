@@ -7,6 +7,8 @@ sv:
         password: Lösenord
         password_confirmation: Bekräfta lösenord
         remember_me: Kom ihåg mig
+        reset_password_token: 
+        unlock_token: 
     models:
       user: Användare
   devise:

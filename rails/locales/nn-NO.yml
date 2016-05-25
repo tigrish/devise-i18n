@@ -1,0 +1,120 @@
+nn-NO:
+  activerecord:
+    attributes:
+      user:
+        current_password: Noverande passord
+        email: Epost
+        password: Passord
+        password_confirmation: Stadfest passord
+        remember_me: Hugs meg
+        reset_password_token: Nullstill passord-nøkkel
+        unlock_token: Lås opp nøkkel
+    models:
+      user: Brukar
+  devise:
+    confirmations:
+      confirmed: E-postadressen din har blitt stadfesta.
+      new:
+        resend_confirmation_instructions: Send instruksjonar for stadfesting på nytt
+      send_instructions: Du vil om få minutt motta ein epost med instruksjonar om korleis stadfeste e-postadressen din.
+      send_paranoid_instructions: Dersom e-postadressen finst i databasen vår, vil du om få minutt motta ein e-post med instruksjonar om korleis å stadfeste e-posten din.
+    failure:
+      already_authenticated: Du er allereie innlogga.
+      inactive: Kontoen din er ikkje aktivert enno.
+      invalid: Ugyldig e-post eller passord.
+      last_attempt: Du har eitt forsøk til før kontoen din blir låst.
+      locked: Kontoen din er låst.
+      not_found_in_database: Ugyldig e-postadresse eller passord.
+      timeout: "Økta di er utgått. Logg inn på nytt for å halde fram."
+      unauthenticated: Du må logge inn eller registrere deg før du kan halde fram.
+      unconfirmed: Du må stadfeste e-posten din før du kan halde fram.
+    mailer:
+      confirmation_instructions:
+        action: Stadfest konto
+        greeting: Velkommen %{recipient}!
+        instruction: 'Du kan stadfeste kontoen din med å klikke på lenka under:'
+        subject: Instruksjonar for å stadfeste
+      password_change:
+        greeting: Hei %{recipient}!
+        message: Vi kontaktar deg for å gi deg eit varsel om at passordet ditt har blitt endra.
+        subject: Passord endra
+      reset_password_instructions:
+        action: Endre passordet mitt
+        greeting: Hei %{recipient}!
+        instruction: Nokon ønskjer å endre passordet ditt, du kan gjere dette med å klikke på lenka under.
+        instruction_2: Dersom du ikkje har bedt om dette, sjå bort frå denne e-posten.
+        instruction_3: Passordet ditt vil ikkje endre seg før du klikker på lenka over og lagar eit nytt.
+        subject: Instruksjonar for å nullstille passord.
+      unlock_instructions:
+        action: Lås opp kontoen min
+        greeting: Hei %{recipient}!
+        instruction: 'Klikk på lenka under for å låse opp kontoen din:'
+        message: Kontoen din har blitt låst på grunn av for mange mislukka påloggingsforsøk.
+        subject: Instruksjonar for å låse opp
+    omniauth_callbacks:
+      failure: Kunne ikkje autentisere deg frå %{kind} på grunn av "%{reason}".
+      success: Vellukka autentisering frå kontoen %{kind}.
+    passwords:
+      edit:
+        change_my_password: Endre passordet mitt
+        change_your_password: Endre passordet ditt
+        confirm_new_password: Stadfest nytt passord
+        new_password: Nytt passord
+      new:
+        forgot_your_password: Gløymt passordet ditt?
+        send_me_reset_password_instructions: Send meg instruksjonar for å nullstille passord
+      no_token: Du har ikkje tilgang til denne sida utan å komme frå ein e-post med nullstill passord-lenke. Dersom du kjem frå ein slik ein, kontroller at du har brukt full URL.
+      send_instructions: Du vil om få minutt motta ein e-post med instruksjonar om å nullstille passordet ditt.
+      send_paranoid_instructions: Dersom e-postadressen din allereie finst i databasen vår, vil du om få minutt motta lenke for å motta passord på e-post.
+      updated: Passordet ditt har blitt endra. Du er no innlogga.
+      updated_not_active: Passordet ditt har blitt endra.
+    registrations:
+      destroyed: Hadet! Kontoen din har blitt kansellert. Vi håpar å sjå deg att snart.
+      edit:
+        are_you_sure: Er du sikker?
+        cancel_my_account: Kanseller kontoen min
+        currently_waiting_confirmation_for_email: 'Ventar stadfesting frå: %{email}'
+        leave_blank_if_you_don_t_want_to_change_it: la stå tomt dersom du ikkje ønskjer å endre
+        title: Rediger %{resource}
+        unhappy: Ikkje nøgd
+        update: Oppdater
+        we_need_your_current_password_to_confirm_your_changes: vi treng ditt noverande passord for å stadfeste endringar
+      new:
+        sign_up: Registrer
+      signed_up: Velkommen! Du er blitt registrert.
+      signed_up_but_inactive: Du er blitt registrert. Men, vi kunne ikkje logge deg inn sidan kontoen ikkje er aktivert enno.
+      signed_up_but_locked: Du er blitt registrert. Men, vi kunne ikkje logge deg inn sidan kontoen din er låst.
+      signed_up_but_unconfirmed: Ei melding med stadfestingslenke er blitt sendt til e-postadressen din. Følg lenka for å aktivere kontoen din.
+      update_needs_confirmation: Du har oppdatert kontoen din, men vi treng å stadfeste di nye e-postadresse. Sjekk e-posten din og følg lenka for å stadfeste di nye e-postadresse.
+      updated: Kontoen din har blitt oppdatert.
+    sessions:
+      already_signed_out: Du er utlogga.
+      new:
+        sign_in: Logg inn
+      signed_in: Du er innlogga.
+      signed_out: Du har logga ut.
+    shared:
+      links:
+        back: Tilbake
+        didn_t_receive_confirmation_instructions: Ikkje motteke instruksjonar for å stadfeste konto?
+        didn_t_receive_unlock_instructions: Ikkje motteke instruksjonar for å låse opp konto?
+        forgot_your_password: Gløymt passordet ditt?
+        sign_in: Logg inn
+        sign_in_with_provider: Logg inn med %{provider}
+        sign_up: Registrer
+    unlocks:
+      new:
+        resend_unlock_instructions: Send instruksjonar på nytt for å låse opp konto
+      send_instructions: Du vil om få minutt motta ein e-post med instruksjonar for å låse opp kontoen din.
+      send_paranoid_instructions: Dersom kontoen din finst, vil du om få minutt motta ein e-post med instruksjonar om korleis låse opp.
+      unlocked: Kontoen din har blitt låst opp. Logg inn for å halde fram.
+  errors:
+    messages:
+      already_confirmed: var allereie stadfesta, prøv å logg inn
+      confirmation_period_expired: treng å blir stadfesta innan %{period}, be om ei ny
+      expired: har blitt utdatert, be om ein ny
+      not_found: ikkje funnen
+      not_locked: var ikkje låst
+      not_saved:
+        one: '1 feil hindra %{resource} frå å bli lagra:'
+        other: "%{count} feil hindra %{resource} frå å bli lagra:"

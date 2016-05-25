@@ -7,6 +7,8 @@ zh-TW:
         password: "密碼"
         password_confirmation: "密碼確認"
         remember_me: "記憶登入訊息"
+        reset_password_token: 
+        unlock_token: 
     models:
       user: "用戶"
   devise:

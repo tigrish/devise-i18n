@@ -7,6 +7,8 @@ el:
         password: "Κωδικός πρόσβασης"
         password_confirmation: "Επιβεβαίωση κωδικού πρόσβασης"
         remember_me: "Απομνημόνευση"
+        reset_password_token: 
+        unlock_token: 
     models:
       user: "Χρήστης"
   devise:

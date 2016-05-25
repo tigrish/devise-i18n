@@ -7,6 +7,8 @@ sl:
         password: 
         password_confirmation: 
         remember_me: 
+        reset_password_token: 
+        unlock_token: 
     models:
       user: 
   devise:

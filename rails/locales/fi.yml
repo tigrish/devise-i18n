@@ -7,6 +7,8 @@ fi:
         password: Salasana
         password_confirmation: Salasanan vahvistus
         remember_me: Muista minut
+        reset_password_token: 
+        unlock_token: 
     models:
       user: Käyttäjä
   devise:

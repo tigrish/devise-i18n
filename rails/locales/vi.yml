@@ -7,6 +7,8 @@ vi:
         password: Mật khẩu
         password_confirmation: Xác nhận mật khẩu
         remember_me: Ghi nhớ đăng nhập
+        reset_password_token: 
+        unlock_token: 
     models:
       user: Người dùng
   devise:

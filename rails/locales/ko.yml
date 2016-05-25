@@ -7,6 +7,8 @@ ko:
         password: "비밀번호"
         password_confirmation: "비밀번호 확인"
         remember_me: "로그인 정보를 기억합니다"
+        reset_password_token: 
+        unlock_token: 
     models:
       user: "사용자"
   devise:

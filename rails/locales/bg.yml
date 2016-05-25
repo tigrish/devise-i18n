@@ -7,6 +7,8 @@ bg:
         password: "Парола"
         password_confirmation: "Потвърждаване на паролата"
         remember_me: "Запомни ме"
+        reset_password_token: 
+        unlock_token: 
     models:
       user: "Потребител"
   devise:

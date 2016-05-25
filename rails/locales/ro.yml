@@ -2,18 +2,20 @@ ro:
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
+        current_password: Parola curentă
+        email: Email
+        password: Parolă
+        password_confirmation: Confirmare parolă
+        remember_me: "Ține-mă minte"
+        reset_password_token: Resetează jetonul parolei
+        unlock_token: Deblochează jetonul
     models:
-      user: 
+      user: Utilizator
   devise:
     confirmations:
-      confirmed: Contul dvs. a fost confirmat cu succes. Sunteţi autentificat.
+      confirmed: Contul dvs. a fost confirmat cu succes.
       new:
-        resend_confirmation_instructions: 
+        resend_confirmation_instructions: Retrimite instrucțiunile de confirmare
       send_instructions: Veţi primi un e-mail cu instrucţiuni despre cum să confirmați contul dvs. în câteva minute.
       send_paranoid_instructions: Dacă e-mailul dvs. există în baza noastră de date, veţi primi un e-mail cu instrucţiuni despre cum să vă confirmaţi contul în câteva minute.
     failure:
@@ -28,39 +30,39 @@ ro:
       unconfirmed: Trebuie să confirmaţi contul dvs. înainte de a continua.
     mailer:
       confirmation_instructions:
-        action: 
-        greeting: 
-        instruction: 
+        action: Confirmă accontul meu
+        greeting: Bine ați venit %{recipient}!
+        instruction: 'Vă puteți confirma emailul prin link-ul de mai jos:'
         subject: Instrucţiuni de confirmare
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Bună %{recipient}!
+        message: Vă contactăm pentru a vă anunța ca parola dvs. a fost modificată.
+        subject: Parolă Schimbată
       reset_password_instructions:
-        action: 
-        greeting: 
-        instruction: 
-        instruction_2: 
-        instruction_3: 
+        action: Schimbă parola
+        greeting: Bună %{recipient}!
+        instruction: Cineva a cerut un link pentru a schimba parola, puteți să faceți acest lucru prin link-ul de mai jos.
+        instruction_2: Dacă nu ați cerut acest lucru, vă rugăm să ignorați acest email.
+        instruction_3: Parola dvs. nu se v-a schimba până când nu accesați link-ul de mai sus și setați una nouă.
         subject: Instrucțiuni pentru resetarea parolei
       unlock_instructions:
-        action: 
-        greeting: 
-        instruction: 
-        message: 
+        action: Deblochează-mi contul
+        greeting: Bună %{recipient}!
+        instruction: 'Apăsați pe link-ul de mai jos pentru a vă debloca contul:'
+        message: Contul dumneavoastră a fost blocat din cauza unui număr ridicat de încercări de autentificare eșuate.
         subject: Instrucțiuni pentru deblocarea contului
     omniauth_callbacks:
       failure: Nu te-am putut autoriza de pe contul de %{kind} pentru că "%{reason}".
       success: Autorizat cu success din contul de %{kind}.
     passwords:
       edit:
-        change_my_password: 
-        change_your_password: 
-        confirm_new_password: 
-        new_password: 
+        change_my_password: Schimbă parola mea
+        change_your_password: Schimbați parola dvs.
+        confirm_new_password: Confirmați parola nouă
+        new_password: Parolă nouă
       new:
-        forgot_your_password: 
-        send_me_reset_password_instructions: 
+        forgot_your_password: Ați uitat parola?
+        send_me_reset_password_instructions: Trimiteți instrucțiuni de resetare a parolei
       no_token: Nu puteți accesa această pagină dacă nu veniți de la un email de resetare a parolei. Dacă veniți de la un astfel de email, vă rugăm asigurați-vă că aţi utiliz at URL-ul complet furnizat către dumneavoastră.
       send_instructions: Veţi primi un e-mail cu instrucţiuni pentru resetarea parolei dvs. în câteva minute.
       send_paranoid_instructions: Dacă e-mailul dvs. există în baza noastră de date, veţi primi un link de recuperare a parolei pe adresa de e-mail.
@@ -69,16 +71,16 @@ ro:
     registrations:
       destroyed: Adio! Contul dvs. a fost anulat cu succes. Sperăm să vă vedem din nou în curând.
       edit:
-        are_you_sure: 
-        cancel_my_account: 
-        currently_waiting_confirmation_for_email: 
-        leave_blank_if_you_don_t_want_to_change_it: 
-        title: 
-        unhappy: 
-        update: 
-        we_need_your_current_password_to_confirm_your_changes: 
+        are_you_sure: Sunteți sigur?
+        cancel_my_account: Anulează contul
+        currently_waiting_confirmation_for_email: 'Se asteaptă confirmare pentru: %{email}'
+        leave_blank_if_you_don_t_want_to_change_it: lăsați gol dacă nu doriți să schimbați
+        title: Editează %{resource}
+        unhappy: Nefericit
+        update: Actualizați
+        we_need_your_current_password_to_confirm_your_changes: avem nevoie de parola curentă pentru a confirma schimbările
       new:
-        sign_up: 
+        sign_up: "Înregistrare"
       signed_up: Bine ai venit! V-aţi înscris cu succes.
       signed_up_but_inactive: V-aţi înscris cu succes. Cu toate acestea, nu am putut să vă autentificăm, deoarece contul dvs. nu este încă activată.
       signed_up_but_locked: V-aţi înscris cu succes. Cu toate acestea, nu am putut să vă autentificăm, deoarece contul dvs. este blocat.
@@ -88,21 +90,21 @@ ro:
     sessions:
       already_signed_out: Deautentificarea s-a efectuat cu success.
       new:
-        sign_in: 
+        sign_in: Autentificare
       signed_in: Autentificat cu succes.
-      signed_out: Ieșire cu success.
+      signed_out: Deautentificarea s-a efectuat cu success.
     shared:
       links:
-        back: 
-        didn_t_receive_confirmation_instructions: 
-        didn_t_receive_unlock_instructions: 
-        forgot_your_password: 
-        sign_in: 
-        sign_in_with_provider: 
-        sign_up: 
+        back: "Înapoi"
+        didn_t_receive_confirmation_instructions: Nu ați primit instrucțiuni de confirmare?
+        didn_t_receive_unlock_instructions: Nu ați primit instrucțiuni pentru deblocare?
+        forgot_your_password: Ați uitat parola?
+        sign_in: Autentificare
+        sign_in_with_provider: Autentificat cu %{provider}
+        sign_up: "Înregistrare"
     unlocks:
       new:
-        resend_unlock_instructions: 
+        resend_unlock_instructions: Retrimite instrucțiuni pentru deblocare
       send_instructions: Veţi primi un e-mail cu instrucţiuni despre cum să deblocați contul dvs. în câteva minute.
       send_paranoid_instructions: "În cazul în care contul dvs. există, veţi primi un e-mail cu instrucţiuni despre cum să-l deblocați în câteva minute."
       unlocked: Contul dvs. a fost deblocat cu succes. Vă rugăm autentificați pentru a continua.

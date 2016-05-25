@@ -7,6 +7,8 @@ fa:
         password: "رمز عبور"
         password_confirmation: "تکرار رمز عبور"
         remember_me: "مرا بخاطر بسپار"
+        reset_password_token: 
+        unlock_token: 
     models:
       user: "کاربر"
   devise:

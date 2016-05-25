@@ -7,6 +7,8 @@ id:
         password: Password
         password_confirmation: Konfirmasi password
         remember_me: Ingat saya
+        reset_password_token: 
+        unlock_token: 
     models:
       user: User
   devise:

@@ -7,6 +7,8 @@ ca:
         password: Contrasenya
         password_confirmation: Confirmar contrasenya
         remember_me: Recordar-me
+        reset_password_token: 
+        unlock_token: 
     models:
       user: Usuari
   devise:

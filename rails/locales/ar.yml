@@ -7,6 +7,8 @@ ar:
         password: "كلمة المرود"
         password_confirmation: "تأكيد كلمة المرور"
         remember_me: "تذكرني"
+        reset_password_token: 
+        unlock_token: 
     models:
       user: "المستخدم"
   devise:

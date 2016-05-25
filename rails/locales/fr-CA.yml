@@ -2,11 +2,13 @@ fr-CA:
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
+        current_password: Mot de passe courant
+        email: Courriel
+        password: Mot de passe
+        password_confirmation: Confirmation de mot de passe
+        remember_me: Se souvenir de moi
+        reset_password_token: 
+        unlock_token: 
     models:
       user: 
   devise:

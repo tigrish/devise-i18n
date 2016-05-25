@@ -7,6 +7,8 @@ sk:
         password: Heslo
         password_confirmation: Potvrdenie hesla
         remember_me: Zapamätať si ma
+        reset_password_token: 
+        unlock_token: 
     models:
       user: Používateľ
   devise:

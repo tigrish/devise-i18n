@@ -7,6 +7,8 @@ et:
         password: Parool
         password_confirmation: Parooli kinnitus
         remember_me: Hoia mind meeles
+        reset_password_token: 
+        unlock_token: 
     models:
       user: Kasutaja
   devise:

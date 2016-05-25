@@ -7,6 +7,8 @@ it:
         password: Password
         password_confirmation: Conferma password
         remember_me: Ricordami
+        reset_password_token: 
+        unlock_token: 
     models:
       user: Utente
   devise:

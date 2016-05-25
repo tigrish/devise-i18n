@@ -7,6 +7,8 @@ he:
         password: "סיסמא"
         password_confirmation: "אישור סיסמא"
         remember_me: "זכור אותי"
+        reset_password_token: 
+        unlock_token: 
     models:
       user: "משתמש"
   devise:

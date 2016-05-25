@@ -7,6 +7,8 @@ lv:
         password: Parole
         password_confirmation: Apstiprināt paroli
         remember_me: Atcerēties mani
+        reset_password_token: 
+        unlock_token: 
     models:
       user: Lietotājs
   devise:

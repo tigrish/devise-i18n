@@ -7,6 +7,8 @@ tr:
         password: Parola
         password_confirmation: Parola Doğrulama
         remember_me: Beni Hatırla
+        reset_password_token: 
+        unlock_token: 
     models:
       user: Kullanıcı
   devise:

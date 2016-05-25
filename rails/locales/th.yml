@@ -7,6 +7,8 @@ th:
         password: "รหัสผ่าน"
         password_confirmation: "ยืนยันรหัสผ่าน"
         remember_me: "จำชื่อผู้ใช้"
+        reset_password_token: 
+        unlock_token: 
     models:
       user: "ผู้ใช้งาน"
   devise:

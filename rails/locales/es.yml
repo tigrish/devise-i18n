@@ -7,6 +7,8 @@ es:
         password: Contraseña
         password_confirmation: Confirmación de la contraseña
         remember_me: Recordarme
+        reset_password_token: Restablecer token contraseña
+        unlock_token: Desbloquear token
     models:
       user: Usuario
   devise:
@@ -67,7 +69,7 @@ es:
       updated: Se ha cambiado tu contraseña. Ya iniciaste sesión.
       updated_not_active: Tu contraseña fue cambiada.
     registrations:
-      destroyed: Fue grato tenerte con nosotros. Tu cuenta fue cancelada.
+      destroyed: "¡Adiós! Tu cuenta ha sido cancelada correctamente. Esperamos verte pronto."
       edit:
         are_you_sure: "¿Está usted seguro?"
         cancel_my_account: Anular mi cuenta

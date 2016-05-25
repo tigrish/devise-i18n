@@ -7,6 +7,8 @@ de-CH:
         password: Passwort
         password_confirmation: Passwortbestätigung
         remember_me: Angemeldet bleiben
+        reset_password_token: Passwort-Zurücksetzen-Token
+        unlock_token: Entsperrungs-Token
     models:
       user: Benutzer
   devise:
@@ -33,8 +35,8 @@ de-CH:
         instruction: 'Folgen Sie dem untenstehenden Link, um Ihr Konto zu bestätigen:'
         subject: Anleitung zur Bestätigung Ihres Accounts
       password_change:
-        greeting: 
-        message: 
+        greeting: Hallo %{recipient}!
+        message: Wir kontaktieren Sie, um Ihnen mitzuteilen, dass Ihr Passwort geändert wurde.
         subject: Passwort geändert
       reset_password_instructions:
         action: Passwort ändern

@@ -7,6 +7,8 @@ es-MX:
         password: Contraseña
         password_confirmation: Confirmación de la contraseña
         remember_me: Recuerdame
+        reset_password_token: 
+        unlock_token: 
     models:
       user: Usuario
   devise:

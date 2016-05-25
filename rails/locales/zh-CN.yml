@@ -7,6 +7,8 @@ zh-CN:
         password: "密码"
         password_confirmation: "密码确认"
         remember_me: "记住登录信息"
+        reset_password_token: 
+        unlock_token: 
     models:
       user: "用户"
   devise:

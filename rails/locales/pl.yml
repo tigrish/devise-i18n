@@ -7,6 +7,8 @@ pl:
         password: Hasło
         password_confirmation: Potwierdzenie hasła
         remember_me: Zapamiętaj mnie
+        reset_password_token: 
+        unlock_token: 
     models:
       user: Użytkownik
   devise:

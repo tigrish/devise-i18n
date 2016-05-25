@@ -7,6 +7,8 @@ nl:
         password: Wachtwoord
         password_confirmation: Bevestig wachtwoord
         remember_me: Ingelogd blijven
+        reset_password_token: 
+        unlock_token: 
     models:
       user: Gebruiker
   devise:

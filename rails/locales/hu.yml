@@ -7,6 +7,8 @@ hu:
         password: Jelszó
         password_confirmation: Jelszó megerősítése
         remember_me: Megjegyez
+        reset_password_token: 
+        unlock_token: 
     models:
       user: Felhasználó
   devise:
