@@ -11,7 +11,7 @@ es-MX:
         unlock_token: 
     models:
       user: Usuario
-  devise:
+    devise:
     confirmations:
       confirmed: Tu cuenta ha sido confirmada exitosamente.
       new:
@@ -32,24 +32,24 @@ es-MX:
       confirmation_instructions:
         action: Confirmar mi cuenta
         greeting: "¡Bienvenido %{recipient}!"
-        instruction: 'Usted puede confirmar el correo electrónico de su cuenta a través de este enlace:'
+        instruction: 'Puedes confirmar el correo electrónico de tu cuenta a través de este enlace:'
         subject: Instrucciones de confirmación
       password_change:
         greeting: "¡Hola %{recipient}!"
-        message: Le estamos contactando para natificarle que su contraseña ha cambiado
+        message: Este aviso para notificarte que tu contraseña ha cambiado.
         subject: Contraseña cambiada
       reset_password_instructions:
         action: Cambiar mi contraseña
         greeting: "¡Hola %{recipient}!"
-        instruction: Alguien ha solicitado una liga para cambiar su contraseña, lo que se puede realizar a través del siguiente enlace.
-        instruction_2: Si usted no lo ha solicitado, por favor ignore este correo electrónico.
-        instruction_3: Su contraseña no será cambiada hasta que usted acceda el enlace y cree una nueva contraseña.
+        instruction: Alguien ha solicitado cambiar tu contraseña, lo cual puedes realizar a través del siguiente enlace.
+        instruction_2: Si no has solicitado este cambio, por favor ignora este correo electrónico.
+        instruction_3: Tu contraseña no será cambiada hasta que accedas al enlace y crees una nueva contraseña.
         subject: Instrucciones de recuperación de contraseña
       unlock_instructions:
         action: Desbloquear mi cuenta
         greeting: "¡Hola %{recipient}!"
-        instruction: 'Haga click en el siguiente enlace para desbloquear su cuenta:'
-        message: Su cuenta ha sido bloqueada debido a una cantidad excesiva de intentos infructuosos para ingresar.
+        instruction: 'Haz click en el siguiente enlace para desbloquear su cuenta:'
+        message: Tu cuenta ha sido bloqueada debido a una cantidad excesiva de intentos infructuosos para ingresar.
         subject: Instrucciones para desbloquear tu cuenta
     omniauth_callbacks:
       failure: No has sido autorizado en la cuenta %{kind} porque "%{reason}".
@@ -57,12 +57,12 @@ es-MX:
     passwords:
       edit:
         change_my_password: Cambiar mi contraseña
-        change_your_password: Cambie su contraseña
-        confirm_new_password: Confirme la nueva contraseña
+        change_your_password: Cambia tu contraseña
+        confirm_new_password: Confirma tu nueva contraseña
         new_password: Nueva contraseña
       new:
-        forgot_your_password: "¿Ha olvidado su contraseña?"
-        send_me_reset_password_instructions: Envíame las instrucciones para establecer mi nueva contraseña
+        forgot_your_password: "¿Olvidaste tu contraseña?"
+        send_me_reset_password_instructions: Enviar instrucciones para establecer una contraseña nueva
       no_token: No puedes acceder a esta página si no es a través de un enlace para restablecer tu contraseña. Si has llegado hasta aquí desde el email para restablecer tu contraseña, por favor asegúrate de que la URL introducida está completa.
       send_instructions: En unos minutos recibirás un correo con instrucciones sobre cómo restablecer tu contraseña.
       send_paranoid_instructions: Si tu correo existe en nuestra base de datos, recibirás en tu bandeja de entrada un correo con instrucciones sobre cómo restablecer tu contraseña.
@@ -71,36 +71,36 @@ es-MX:
     registrations:
       destroyed: "¡Adiós! Tu cuenta ha sido cancelada exitosamente. Esperamos verte pronto."
       edit:
-        are_you_sure: "¿Está usted seguro?"
+        are_you_sure: "¿Estás seguro?"
         cancel_my_account: Eliminar mi cuenta
         currently_waiting_confirmation_for_email: 'Actualmente esperando la confirmacion de: %{email} '
-        leave_blank_if_you_don_t_want_to_change_it: dejar en blanco si no desea cambiarlo
+        leave_blank_if_you_don_t_want_to_change_it: déjala en blanco si no deseas cambiarla
         title: Editar %{resource}
         unhappy: No se encuentra feliz
         update: Actualizar
-        we_need_your_current_password_to_confirm_your_changes: necesitamos su contraseña actual para confirmar los cambios
+        we_need_your_current_password_to_confirm_your_changes: necesitamos tu contraseña actual para confirmar los cambios
       new:
         sign_up: Registrarse
       signed_up: Bienvenido. Tu cuenta ha sido creada.
       signed_up_but_inactive: Tu cuenta ha sido creada exitosamente. Sin embargo, no puedes iniciar sesión ya que tu cuenta aún no está activada.
-      signed_up_but_locked: Tu cuenta ha sido creada correctamente. Sin embargo, no es posible iniciar la sesión porque que tu cuenta se encuentra bloqueada.
+      signed_up_but_locked: Tu cuenta ha sido creada correctamente. Sin embargo, no es posible iniciar sesión porque que tu cuenta se encuentra bloqueada.
       signed_up_but_unconfirmed: Se ha enviado un mensaje con un enlace de confirmación a tu correo electrónico. Abre el enlace para activar tu cuenta.
-      update_needs_confirmation: Has actualizado tu cuenta exitosamente, pero es necesario confirmar tu nuevo correo electrónico. Por favor, comprueba tu correo y sigue el enlace de confirmación para finalizar la comprobación del nuevo correo electrónico.
+      update_needs_confirmation: Has actualizado tu cuenta exitosamente, pero es necesario confirmar tu nuevo correo electrónico. Por favor, revisa tu correo y sigue el enlace de confirmación para finalizar la comprobación del nuevo correo electrónico.
       updated: Tu cuenta ha sido actualizada exitosamente.
     sessions:
       already_signed_out: Se ha cerrado la sesión con éxito.
       new:
-        sign_in: Iniciar sésion
+        sign_in: Iniciar sesión
       signed_in: Sesión iniciada.
       signed_out: Sesión finalizada.
     shared:
       links:
         back: Regresar
-        didn_t_receive_confirmation_instructions: "¿No ha recibido las instrucciones de confirmación?"
-        didn_t_receive_unlock_instructions: "¿No ha recibido instrucciones para desbloquear?"
-        forgot_your_password: "¿Ha olvidado su contraseña?"
-        sign_in: Iniciar sésion
-        sign_in_with_provider: Iniciar sésion con %{provider}
+        didn_t_receive_confirmation_instructions: "¿No has recibido las instrucciones de confirmación?"
+        didn_t_receive_unlock_instructions: "¿No has recibido las instrucciones para desbloquear tu cuenta?"
+        forgot_your_password: "¿Has olvidado tu contraseña?"
+        sign_in: Iniciar sesión
+        sign_in_with_provider: Iniciar sesión con %{provider}
         sign_up: Registrarse
     unlocks:
       new:
