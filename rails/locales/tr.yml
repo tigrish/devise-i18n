@@ -36,8 +36,8 @@ tr:
         subject: Onaylama talimatları.
       password_change:
         greeting: Merhaba %{recipient}!
-        message: Şifreniz az önce değiştirildi.
-        subject: Şifreniz Değişti
+        message: "Şifreniz az önce değiştirildi."
+        subject: "Şifreniz Değişti"
       reset_password_instructions:
         action: Parolamı değiştir
         greeting: Merhaba %{recipient}!
