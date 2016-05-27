@@ -18,6 +18,7 @@ gem 'devise-i18n'
 
 Assuming you have _not_ previously generated Devise's views into your project, that's all you need to do. If you _have_ previously done this, you will need to regenerate your views (see the next section) and then reapply whatever customizations that made you do this in the first place.
 
+NOTE: If you have the ```simple_form``` gem in your Gemfile, this command will generate the corresponding views using the simple_form form builder.
 
 ## Customizing views
 
