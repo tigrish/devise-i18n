@@ -1,3 +1,7 @@
+## Unreleased
+
+- Updated bg translations.
+
 ## 1.1.0
 
 - Support for devise 4.
