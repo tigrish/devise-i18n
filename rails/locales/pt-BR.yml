@@ -7,8 +7,8 @@ pt-BR:
         password: Senha
         password_confirmation: Confirme sua senha
         remember_me: Lembre-se de mim
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token: Resetar token de senha
+        unlock_token: Desbloquear token
     models:
       user: Usuário
   devise:

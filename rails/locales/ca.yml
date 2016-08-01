@@ -3,17 +3,17 @@ ca:
     attributes:
       user:
         current_password: Contrasenya actual
-        email: Email
+        email: Adreça electrònica
         password: Contrasenya
         password_confirmation: Confirmar contrasenya
-        remember_me: Recordar-me
+        remember_me: Recorda'm
         reset_password_token: 
         unlock_token: 
     models:
       user: Usuari
   devise:
     confirmations:
-      confirmed: El teu compte ha estat confirmat correctament.  S'ha iniciat la sessió.
+      confirmed: La vostra adreça electrònica ha estat confirmada correctament.
       new:
         resend_confirmation_instructions: Reenviar instruccions de confirmació
       send_instructions: En breu rebràs un correu electrònic amb instruccions sobre com confirmar el teu compte.
@@ -35,9 +35,9 @@ ca:
         instruction: 'Pots confirmar el correu electrònic del teu compte a través d''aquest enllaç:'
         subject: Instruccions de confirmació
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Hola, %{recipient}!
+        message: Us hem contactat per notificar-vos que s'ha modificat la vostra contrasenya.
+        subject: Contrasenya modificada
       reset_password_instructions:
         action: Canviar la meva contrasenya
         greeting: Hola %{recipient}!

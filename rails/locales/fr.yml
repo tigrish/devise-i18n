@@ -8,7 +8,7 @@ fr:
         password_confirmation: Confirmation du mot de passe
         remember_me: Se souvenir de moi
         reset_password_token: 
-        unlock_token: 
+        unlock_token: Clé de déblocage
     models:
       user: Utilisateur
   devise:

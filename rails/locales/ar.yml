@@ -4,7 +4,7 @@ ar:
       user:
         current_password: "كلمة المرور الحالية"
         email: "البريد الإلكتروني"
-        password: "كلمة المرود"
+        password: "كلمة المرور"
         password_confirmation: "تأكيد كلمة المرور"
         remember_me: "تذكرني"
         reset_password_token: 
