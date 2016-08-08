@@ -36,6 +36,7 @@ Gem::Specification.new do |s|
     "lib/devise-i18n/railtie.rb",
     "lib/generators/devise/i18n/locale_generator.rb",
     "lib/generators/devise/i18n/views_generator.rb",
+    "rails/locales/af.yml",
     "rails/locales/ar.yml",
     "rails/locales/az.yml",
     "rails/locales/bg.yml",
