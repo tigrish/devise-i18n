@@ -7,8 +7,8 @@ ca:
         password: Contrasenya
         password_confirmation: Confirmar contrasenya
         remember_me: Recorda'm
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token: Restabliment de token de la contrasenya
+        unlock_token: Desbloquejar el token
     models:
       user: Usuari
   devise:
