@@ -1,3 +1,4 @@
+---
 it:
   activerecord:
     attributes:
@@ -7,8 +8,8 @@ it:
         password: Password
         password_confirmation: Conferma password
         remember_me: Ricordami
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token: Resettare token di password
+        unlock_token: Token di sblocco
     models:
       user: Utente
   devise:
@@ -35,9 +36,9 @@ it:
         instruction: 'Puoi confermare il tuo account cliccando sul link qui sotto:'
         subject: Istruzioni per la conferma
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Ciao %{recipient}!
+        message: Vi scriviamo per informarvi che la password è stata modificata.
+        subject: Password Cambiato
       reset_password_instructions:
         action: Cambia la mia password
         greeting: Ciao %{recipient}!
@@ -56,7 +57,7 @@ it:
       success: Autorizzato con successo dall'account %{kind}.
     passwords:
       edit:
-        change_my_password: 
+        change_my_password: Cambia la mia password
         change_your_password: Cambia la tua password
         confirm_new_password: Conferma la nuova password
         new_password: Nuova password
@@ -73,11 +74,11 @@ it:
       edit:
         are_you_sure: Sei sicuro?
         cancel_my_account: Rimuovi il mio account
-        currently_waiting_confirmation_for_email: 
+        currently_waiting_confirmation_for_email: 'Al momento, in attesa di: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: lascia in bianco se non vuoi cambiarla
         title: Modifica %{resource}
-        unhappy: 
-        update: 
+        unhappy: Non è felice
+        update: Aggiornare
         we_need_your_current_password_to_confirm_your_changes: abbiamo bisogno della tua password attuale per confermare i cambiamenti
       new:
         sign_up: Registrati
