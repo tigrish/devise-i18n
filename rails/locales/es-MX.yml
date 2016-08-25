@@ -16,7 +16,7 @@ es-MX:
       confirmed: Se ha confirmado la dirección de correo electrónico correctamente.
       new:
         resend_confirmation_instructions: Reenviar instrucciones de confirmación
-      send_instructions: En unos pocos minutos recibirás un correo con instrucciones sobre cómo confirmar tu cuenta.
+      send_instructions: En unos minutos recibirás un correo con instrucciones sobre cómo confirmar tu cuenta.
       send_paranoid_instructions: Si tu correo existe en nuestra base de datos, en unos minutos recibirás un correo con instrucciones sobre cómo confirmar tu cuenta.
     failure:
       already_authenticated: Ya has iniciado sesión.
@@ -41,15 +41,15 @@ es-MX:
       reset_password_instructions:
         action: Cambiar mi contraseña
         greeting: "¡Hola, %{recipient}!"
-        instruction: Alguien ha solicitado una liga para cambiar su contraseña, lo que se puede realizar a través del siguiente enlace.
+        instruction: Alguien ha solicitado un enlace para cambiar su contraseña, lo que se puede realizar a través del siguiente enlace.
         instruction_2: Si usted no lo ha solicitado, por favor ignore este correo electrónico.
-        instruction_3: Su contraseña no será cambiada hasta que usted acceda el enlace y cree una nueva contraseña.
+        instruction_3: Su contraseña no será cambiada hasta que usted acceda al enlace y cree una nueva contraseña.
         subject: Instrucciones de recuperación de contraseña
       unlock_instructions:
         action: Desbloquear mi cuenta
         greeting: "¡Hola, %{recipient}!"
         instruction: 'Haga clic en el siguiente enlace para desbloquear su cuenta:'
-        message: Su cuenta ha sido bloqueada debido a una cantidad excesiva de intentos infructuosos para ingresar.
+        message: Su cuenta ha sido bloqueada debido a una cantidad excesiva de intentos fallidos para ingresar.
         subject: Instrucciones para desbloquear tu cuenta
     omniauth_callbacks:
       failure: No has sido autorizado en la cuenta %{kind} porque "%{reason}".
@@ -84,8 +84,8 @@ es-MX:
       signed_up: Bienvenido. Tu cuenta ha sido creada.
       signed_up_but_inactive: Tu cuenta ha sido creada exitosamente. Sin embargo, no puedes iniciar sesión ya que tu cuenta aún no está activada.
       signed_up_but_locked: Tu cuenta ha sido creada correctamente. Sin embargo, no es posible iniciar la sesión porque que tu cuenta se encuentra bloqueada.
-      signed_up_but_unconfirmed: Se ha enviado un mensaje con un enlace de confirmación a tu correo electrónico. Abre el enlace para activar tu cuenta.
-      update_needs_confirmation: Has actualizado tu cuenta exitosamente, pero es necesario confirmar tu nuevo correo electrónico. Por favor, comprueba tu correo y sigue el enlace de confirmación para finalizar la comprobación del nuevo correo electrónico.
+      signed_up_but_unconfirmed: Se ha enviado un mensaje con un enlace de confirmación a tu correo electrónico. Ingresa al enlace para activar tu cuenta.
+      update_needs_confirmation: Has actualizado tu cuenta exitosamente, pero es necesario confirmar tu nuevo correo electrónico. Por favor, comprueba tu correo e ingresa al enlace de confirmación para finalizar la comprobación del nuevo correo electrónico.
       updated: Tu cuenta ha sido actualizada exitosamente.
     sessions:
       already_signed_out: Se ha cerrado la sesión con éxito.
@@ -97,17 +97,17 @@ es-MX:
       links:
         back: Regresar
         didn_t_receive_confirmation_instructions: "¿No ha recibido las instrucciones de confirmación?"
-        didn_t_receive_unlock_instructions: "¿No ha recibido instrucciones para desbloquear?"
+        didn_t_receive_unlock_instructions: "¿No ha recibido instrucciones para desbloquear su cuenta?"
         forgot_your_password: "¿Ha olvidado su contraseña?"
         sign_in: Iniciar sesión
         sign_in_with_provider: Iniciar sesión con %{provider}
         sign_up: Registrarse
     unlocks:
       new:
-        resend_unlock_instructions: Reenviar instrucciones para desbloquear
+        resend_unlock_instructions: Reenviar instrucciones para desbloquear la cuenta
       send_instructions: En unos minutos recibirás instrucciones para desbloquear tu cuenta.
       send_paranoid_instructions: Si tu cuenta existe, en unos minutos recibirás instrucciones para desbloquear tu cuenta.
-      unlocked: Tu cuenta fue desbloqueada. Ya puedes iniciar sesión.
+      unlocked: Tu cuenta ha sido desbloqueada. Ya puedes iniciar sesión.
   errors:
     messages:
       already_confirmed: ya fue confirmada, por favor intenta iniciar sesión
