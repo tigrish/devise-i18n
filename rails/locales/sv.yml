@@ -7,8 +7,8 @@ sv:
         password: Lösenord
         password_confirmation: Bekräfta lösenord
         remember_me: Kom ihåg mig
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token: "Återställ token för lösenord"
+        unlock_token: Token för återaktivering
     models:
       user: Användare
   devise:
@@ -35,8 +35,8 @@ sv:
         instruction: 'Du kan bekräfta ditt konto med länken nedan:'
         subject: Instruktioner för bekräftning av konto
       password_change:
-        greeting: 
-        message: 
+        greeting: Hej %{recipient}!
+        message: Vi kontaktar dig för att meddela dig att att ditt lösenord har blivit ändrat.
         subject: Lösenorded uppdaterades
       reset_password_instructions:
         action: Byt lösenord
