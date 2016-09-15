@@ -24,6 +24,6 @@
 
 <h3><%= t(".cancel_my_account") %></h3>
 
-<p><%= t(".unhappy") %>? <%= link_to t(".cancel_my_account"), registration_path(resource_name), data: { confirm: t(".are_you_sure") }, method: :delete %></p>
+<p><%= t(".unhappy") %> <%= link_to t(".cancel_my_account"), registration_path(resource_name), data: { confirm: t(".are_you_sure") }, method: :delete %></p>
 
 <%= link_to t("devise.shared.links.back"), :back %>
