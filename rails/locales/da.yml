@@ -2,15 +2,15 @@ da:
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
+        current_password: Nuværende password
+        email: Email
+        password: Kodeord
+        password_confirmation: Gentag kodeord
+        remember_me: Husk mig
         reset_password_token: 
         unlock_token: 
     models:
-      user: 
+      user: Bruger
   devise:
     confirmations:
       confirmed: Din konto er aktiveret og du er nu logget ind.
@@ -35,11 +35,11 @@ da:
         instruction: 'Du kan bekræfte din email-konto igennem linket herunder:'
         subject: Bekræftelsesinstruktioner
       password_change:
-        greeting: 
+        greeting: Hej %{recipient}!
         message: 
-        subject: 
+        subject: Kodeordet er ændret
       reset_password_instructions:
-        action: "Ændre mit kodeord"
+        action: Skift mit kodeord
         greeting: Hej %{recipient}!
         instruction: Der er blevet anmodet om, at få tilsendt et link til ændring af dit kodeord. Det kan gøres ved hjælp af linket herunder.
         instruction_2: Hvis du ikke har anmodet om dette, så se venligst bort fra denne email.
@@ -56,10 +56,10 @@ da:
       success: Du er nu logget ind med din %{kind} konto.
     passwords:
       edit:
-        change_my_password: 
-        change_your_password: 
-        confirm_new_password: 
-        new_password: 
+        change_my_password: Skift mit kodeord
+        change_your_password: Skift dit kodeord
+        confirm_new_password: Bekræft nyt kodeord
+        new_password: Nyt kodeord
       new:
         forgot_your_password: Glemt kodeord?
         send_me_reset_password_instructions: Send mig instruktioner til gendannelse af password
@@ -73,11 +73,11 @@ da:
       edit:
         are_you_sure: Er du sikker?
         cancel_my_account: Slet min konto
-        currently_waiting_confirmation_for_email: 
+        currently_waiting_confirmation_for_email: 'Afventer bekræftelse af: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: 'efterlades blankt hvis det ikke ønskes ændret '
         title: Rediger %{resource}
-        unhappy: 
-        update: 
+        unhappy: Utilfreds?
+        update: Opdater
         we_need_your_current_password_to_confirm_your_changes: vi skal bruge dit nuværende kodeord for at bekræfte ændringerne.
       new:
         sign_up: Registrer
@@ -88,14 +88,14 @@ da:
       update_needs_confirmation: Du har nu opdateret din konto, men vi skal verificere din nye e-mail-adresse. Check venligst din e-mail og tryk på linket til bekræftelse for at færdiggøre verificeringen.
       updated: Din profil er opdateret.
     sessions:
-      already_signed_out: 
+      already_signed_out: Succesfuldt logget ud
       new:
         sign_in: Log-ind
       signed_in: Du er nu logget ind.
       signed_out: Du er nu logget ud.
     shared:
       links:
-        back: 
+        back: Tilbage
         didn_t_receive_confirmation_instructions: Har du ikke modtaget bekræftelses-instruktioner?
         didn_t_receive_unlock_instructions: Har du ikke modtaget aktiverings-instruktioner?
         forgot_your_password: Glemt kodeord?
