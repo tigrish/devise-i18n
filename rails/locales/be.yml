@@ -2,7 +2,7 @@ be:
   activerecord:
     attributes:
       user:
-        current_password: "Текущий пароль"
+        current_password: "Сучасны пароль"
         email: Email
         password: "Пароль"
         password_confirmation: "пацвердзіце пароль"
