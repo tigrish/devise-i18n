@@ -46,6 +46,7 @@ Gem::Specification.new do |s|
     "rails/locales/af.yml",
     "rails/locales/ar.yml",
     "rails/locales/az.yml",
+    "rails/locales/be.yml",
     "rails/locales/bg.yml",
     "rails/locales/bn.yml",
     "rails/locales/bs.yml",
