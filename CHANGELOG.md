@@ -1,6 +1,8 @@
-## Unreleased
+## 1.1.1
 
-- Updated bg translations.
+- Updated ar, bg, ca, da, de, de-CH, en, es, es-MX, fr, it, nb, pt-BR, ru, and sv translations.
+- Added af and be translations.
+- Fixed generation of simple_form-enabled views.
 
 ## 1.1.0
 
