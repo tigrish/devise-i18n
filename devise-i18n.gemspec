@@ -5,15 +5,15 @@
 # stub: devise-i18n 1.1.0 ruby lib
 
 Gem::Specification.new do |s|
-  s.name = "devise-i18n"
+  s.name = "devise-i18n".freeze
   s.version = "1.1.0"
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.require_paths = ["lib"]
-  s.authors = ["Christopher Dell", "mcasimir", "Jason Barnabe"]
-  s.date = "2016-06-15"
-  s.description = "Translations for the devise gem"
-  s.email = "chris@tigrish.com"
+  s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
+  s.require_paths = ["lib".freeze]
+  s.authors = ["Christopher Dell".freeze, "mcasimir".freeze, "Jason Barnabe".freeze]
+  s.date = "2016-10-30"
+  s.description = "Translations for the devise gem".freeze
+  s.email = "chris@tigrish.com".freeze
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
@@ -98,36 +98,36 @@ Gem::Specification.new do |s|
     "rails/locales/zh-HK.yml",
     "rails/locales/zh-TW.yml"
   ]
-  s.homepage = "http://github.com/tigrish/devise-i18n"
-  s.licenses = ["MIT"]
-  s.rubygems_version = "2.4.6"
-  s.summary = "Translations for the devise gem"
+  s.homepage = "http://github.com/tigrish/devise-i18n".freeze
+  s.licenses = ["MIT".freeze]
+  s.rubygems_version = "2.6.8".freeze
+  s.summary = "Translations for the devise gem".freeze
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<rspec>, [">= 2.8.0"])
-      s.add_development_dependency(%q<bundler>, ["~> 1.2"])
-      s.add_development_dependency(%q<jeweler>, ["> 1.6.4"])
-      s.add_development_dependency(%q<i18n-spec>, ["~> 0.6.0"])
-      s.add_development_dependency(%q<localeapp>, [">= 0"])
-      s.add_development_dependency(%q<railties>, [">= 0"])
+      s.add_development_dependency(%q<rspec>.freeze, [">= 2.8.0"])
+      s.add_development_dependency(%q<bundler>.freeze, ["~> 1.2"])
+      s.add_development_dependency(%q<jeweler>.freeze, ["> 1.6.4"])
+      s.add_development_dependency(%q<i18n-spec>.freeze, ["~> 0.6.0"])
+      s.add_development_dependency(%q<localeapp>.freeze, [">= 0"])
+      s.add_development_dependency(%q<railties>.freeze, [">= 0"])
     else
-      s.add_dependency(%q<rspec>, [">= 2.8.0"])
-      s.add_dependency(%q<bundler>, ["~> 1.2"])
-      s.add_dependency(%q<jeweler>, ["> 1.6.4"])
-      s.add_dependency(%q<i18n-spec>, ["~> 0.6.0"])
-      s.add_dependency(%q<localeapp>, [">= 0"])
-      s.add_dependency(%q<railties>, [">= 0"])
+      s.add_dependency(%q<rspec>.freeze, [">= 2.8.0"])
+      s.add_dependency(%q<bundler>.freeze, ["~> 1.2"])
+      s.add_dependency(%q<jeweler>.freeze, ["> 1.6.4"])
+      s.add_dependency(%q<i18n-spec>.freeze, ["~> 0.6.0"])
+      s.add_dependency(%q<localeapp>.freeze, [">= 0"])
+      s.add_dependency(%q<railties>.freeze, [">= 0"])
     end
   else
-    s.add_dependency(%q<rspec>, [">= 2.8.0"])
-    s.add_dependency(%q<bundler>, ["~> 1.2"])
-    s.add_dependency(%q<jeweler>, ["> 1.6.4"])
-    s.add_dependency(%q<i18n-spec>, ["~> 0.6.0"])
-    s.add_dependency(%q<localeapp>, [">= 0"])
-    s.add_dependency(%q<railties>, [">= 0"])
+    s.add_dependency(%q<rspec>.freeze, [">= 2.8.0"])
+    s.add_dependency(%q<bundler>.freeze, ["~> 1.2"])
+    s.add_dependency(%q<jeweler>.freeze, ["> 1.6.4"])
+    s.add_dependency(%q<i18n-spec>.freeze, ["~> 0.6.0"])
+    s.add_dependency(%q<localeapp>.freeze, [">= 0"])
+    s.add_dependency(%q<railties>.freeze, [">= 0"])
   end
 end
 
