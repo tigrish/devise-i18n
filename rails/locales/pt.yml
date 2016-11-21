@@ -6,7 +6,7 @@ pt:
         email: 
         password: 
         password_confirmation: 
-        remember_me: 
+        remember_me: Lembrar-se de mim
         reset_password_token: 
         unlock_token: 
     models:
