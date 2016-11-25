@@ -43,7 +43,7 @@ pt-BR:
         greeting: Olá %{recipient}!
         instruction: Alguém fez o pedido para redefinir sua senha, e você pode fazer isso clicando no link abaixo.
         instruction_2: Se você não fez este pedido, por favor ignore este e-mail.
-        instruction_3: Sua senha não será alterada até que você acesse o link abaixo e crie uma nova.
+        instruction_3: Sua senha não será alterada até que você acesse o link acima e crie uma nova.
         subject: Instruções de reinicialização de senha
       unlock_instructions:
         action: Desbloquear minha conta
