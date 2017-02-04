@@ -17,7 +17,7 @@ ko:
       new:
         resend_confirmation_instructions: "인증 안내 재발송"
       send_instructions: "이메일로 이메일 주소 인증 안내가 발송되었습니다."
-      send_paranoid_instructions: "이메일 주소가 이미 등록되어 있으며, 이메일 주소 인증 안내 메일을 잠시 후 받을 수 있습니다."
+      send_paranoid_instructions: "이메일 주소가 존재한다면 메일로 이메일 인증 안내 메일을 받을 수 있습니다."
     failure:
       already_authenticated: "이미 로그인되어 있습니다."
       inactive: "계정이 아직 활성화되지 않았습니다."
@@ -106,7 +106,7 @@ ko:
       new:
         resend_unlock_instructions: "계정 잠금 해제 재요청"
       send_instructions: "잠시 후 이메일로 계정 잠금 해제 안내를 받아보실 수 있습니다."
-      send_paranoid_instructions: "계정이 존재한다면, 잠시 후 이메일로 계정 잠금 해제 안내를 받아보실 수 있습니다."
+      send_paranoid_instructions: "계정이 존재한다면 메일로 계정 잠금 해제 안내를 받을 수 있습니다."
       unlocked: "계정이 성공적으로 잠금 해제되었습니다. 로그인하여 계속해 주세요."
   errors:
     messages:
