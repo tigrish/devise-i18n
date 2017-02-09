@@ -35,9 +35,9 @@ pl:
         instruction: 'Możesz potwierdzić swoje konto przy pomocy poniższego linku:'
         subject: Instrukcja aktywacji konta
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Witaj %{recipient}!
+        message: Kontaktujemy się z Tobą w celu poinformowania, że Twoje hasło zostało zmienione.
+        subject: Hasło zostało zmienione
       reset_password_instructions:
         action: Zmień swoje hasło
         greeting: Cześć %{recipient}!
@@ -61,7 +61,7 @@ pl:
         confirm_new_password: Powtórz nowe hasło
         new_password: Nowe hasło
       new:
-        forgot_your_password: Zapomniałeś swoje hasło?
+        forgot_your_password: Zapomniałeś swojego hasła?
         send_me_reset_password_instructions: Wyślij instrukcje zmiany hasła
       no_token: Do tej strony możesz dostać się tylko poprzez wiadomość e-mail resetującą hasło. Jeśli to z niej tu trafiłeś, upewnij się, że użyłeś pełnego adresu.
       send_instructions: Instrukcja zmiany hasła zostanie niezwłocznie wysłana na podany adres e-mail.
