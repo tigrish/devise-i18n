@@ -6,7 +6,7 @@ ko:
         email: "이메일"
         password: "비밀번호"
         password_confirmation: "비밀번호 확인"
-        remember_me: "로그인 정보를 기억합니다"
+        remember_me: "로그인 정보 기억하기"
         reset_password_token: 
         unlock_token: 
     models:
@@ -15,9 +15,9 @@ ko:
     confirmations:
       confirmed: "이메일 주소가 성공적으로 인증되었습니다."
       new:
-        resend_confirmation_instructions: "인증 지침 재발송"
-      send_instructions: "이메일로 이메일 주소 인증 지침이 전송되었습니다."
-      send_paranoid_instructions: "이메일 주소가 이미 등록되어 있으며, 이메일 주소 인증 지침 메일을 잠시 후 받을 수 있습니다."
+        resend_confirmation_instructions: "인증 안내 재발송"
+      send_instructions: "이메일로 이메일 주소 인증 안내가 발송되었습니다."
+      send_paranoid_instructions: "이메일 주소가 존재한다면 메일로 이메일 인증 안내 메일을 받을 수 있습니다."
     failure:
       already_authenticated: "이미 로그인되어 있습니다."
       inactive: "계정이 아직 활성화되지 않았습니다."
@@ -33,7 +33,7 @@ ko:
         action: "본인 계정 인증"
         greeting: "%{recipient}님 환영합니다!"
         instruction: "아래의 링크를 클릭하시면 이메일 인증이 완료됩니다:"
-        subject: "이메일 인증 지침"
+        subject: "이메일 인증 안내"
       password_change:
         greeting: 
         message: 
@@ -42,15 +42,15 @@ ko:
         action: "비밀번호 변경"
         greeting: "%{recipient}님 안녕하세요!"
         instruction: "누군가 당신의 비밀번호를 변경하는 링크를 요청했으며, 다음의 링크에서 비밀번호 변경이 가능합니다."
-        instruction_2: "이를 요청하지 않으셨다면, 이 메일을 무시하십시오."
-        instruction_3: "위 링크에 접속하여 새로운 비밀번호를 생성하기 전까지, 귀하의 비밀번호는 변경되지 않습니다."
-        subject: "비밀번호 재설정 지침"
+        instruction_2: "비밀번호 변경을 요청하지 않으셨다면 이 메일을 무시하십시오."
+        instruction_3: "위 링크에 접속하여 새로운 비밀번호를 생성하기 전까지 귀하의 비밀번호는 변경되지 않습니다."
+        subject: "비밀번호 재설정 안내"
       unlock_instructions:
         action: "본인 계정 잠금 해제"
         greeting: "%{recipient}님 안녕하세요!"
         instruction: "계정 잠금을 해제하려면 아래 링크를 클릭하세요."
         message: "로그인 실패 횟수 초과로 귀하의 계정이 잠금 처리되었습니다."
-        subject: "잠금 해제 지침"
+        subject: "잠금 해제 안내"
     omniauth_callbacks:
       failure: "%{reason}(으)로 인하여 %{kind}(으)로부터 인증받지 못했습니다."
       success: "%{kind} 계정으로부터 인증되었습니다."
@@ -62,9 +62,9 @@ ko:
         new_password: "새 비밀번호"
       new:
         forgot_your_password: "비밀번호를 잊으셨나요?"
-        send_me_reset_password_instructions: "비밀번호 재설정 지침을 요청합니다"
+        send_me_reset_password_instructions: "비밀번호 재설정 안내를 요청합니다"
       no_token: "비밀번호 재설정 이메일을 거치지 않고 이 페이지에 접근할 수 없습니다. 비밀번호 재설정 이메일에서 오셨다면, 주소가 제대로 되었는지 확인해 주세요."
-      send_instructions: "잠시 후에 비밀번호 재설정 지침 메일을 받을 수 있습니다."
+      send_instructions: "잠시 후에 비밀번호 재설정 안내 메일을 받을 수 있습니다."
       send_paranoid_instructions: "이메일이 데이터베이스에 존재할 경우, 몇 분 안에 비밀번호 재설정 주소를 이메일로 받으실 수 있습니다."
       updated: "성공적으로 비밀번호를 변경했습니다. 로그인 되었습니다."
       updated_not_active: "비밀번호가 성공적으로 변경되었습니다."
@@ -88,11 +88,11 @@ ko:
       update_needs_confirmation: "계정이 성공적으로 수정되었지만, 새로운 이메일 주소를 확인해야 합니다. 이메일로 전송된 이메일 인증 주소를 클릭하여 새로운 이메일 주소를 인증해 주세요."
       updated: "계정이 성공적으로 수정되었습니다."
     sessions:
-      already_signed_out: "성공적으로 로그아웃했습니다."
+      already_signed_out: "성공적으로 로그아웃되었습니다."
       new:
         sign_in: "로그인"
-      signed_in: "성공적으로 로그인했습니다."
-      signed_out: "성공적으로 로그아웃했습니다."
+      signed_in: "성공적으로 로그인되었습니다."
+      signed_out: "성공적으로 로그아웃되었습니다."
     shared:
       links:
         back: "돌아가기"
@@ -105,8 +105,8 @@ ko:
     unlocks:
       new:
         resend_unlock_instructions: "계정 잠금 해제 재요청"
-      send_instructions: "잠시 후 이메일로 계정 잠금 해제 지침을 받아보실 수 있습니다."
-      send_paranoid_instructions: "계정이 존재한다면, 잠시 후 이메일로 계정 잠금 해제 지침을 받아보실 수 있습니다."
+      send_instructions: "잠시 후 이메일로 계정 잠금 해제 안내를 받아보실 수 있습니다."
+      send_paranoid_instructions: "계정이 존재한다면 메일로 계정 잠금 해제 안내를 받을 수 있습니다."
       unlocked: "계정이 성공적으로 잠금 해제되었습니다. 로그인하여 계속해 주세요."
   errors:
     messages:
@@ -115,4 +115,4 @@ ko:
       expired: "이(가) 만료되었습니다 새로 요청해 주세요."
       not_found: "찾을 수 없습니다."
       not_locked: "은(는) 잠기지 않았습니다."
-      not_saved: "%{count}개의 오류로 인해 %{resource} 저장이 금지 되었습니다."
+      not_saved: "%{count}개의 오류로 인해 %{resource}이(가) 저장되지 못했습니다."
