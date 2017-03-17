@@ -44,7 +44,7 @@ pt-BR:
         instruction: Alguém fez o pedido para redefinir sua senha, e você pode fazer isso clicando no link abaixo.
         instruction_2: Se você não fez este pedido, por favor ignore este e-mail.
         instruction_3: Sua senha não será alterada até que você acesse o link acima e crie uma nova.
-        subject: Instruções de reinicialização de senha
+        subject: Instruções de redefinição de senha
       unlock_instructions:
         action: Desbloquear minha conta
         greeting: Olá %{recipient}!
@@ -64,7 +64,7 @@ pt-BR:
         forgot_your_password: Esqueceu sua senha?
         send_me_reset_password_instructions: Enviar instruções para redefinição da senha
       no_token: Você não pode acessar esta página sem estar logado. Se você veio de um email de redefinição de senha, por favor certifique-se de ter digitado a URL corretamente.
-      send_instructions: Dentro de minutos, você receberá um email com as instruções de reinicialização da sua senha.
+      send_instructions: Dentro de minutos, você receberá um email com as instruções de redefinição da sua senha.
       send_paranoid_instructions: Se o seu email existir em nosso banco de dados, você receberá um email com um link para recuperação da senha.
       updated: A sua senha foi alterada com sucesso. Você está autenticado.
       updated_not_active: Sua senha foi alterada com sucesso.
