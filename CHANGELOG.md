@@ -1,3 +1,8 @@
+## 1.1.2
+
+- Updated en-GB, fi, ko, nl, pl, pt, pt-BR, ru, uk, and zh-TW translations.
+- Added ka translation.
+
 ## 1.1.1
 
 - Updated ar, bg, ca, da, de, de-CH, en, es, es-MX, fr, it, nb, pt-BR, ru, and sv translations.
