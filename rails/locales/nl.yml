@@ -3,12 +3,12 @@ nl:
     attributes:
       user:
         current_password: Huidig wachtwoord
-        email: Email
+        email: E-mailadres
         password: Wachtwoord
         password_confirmation: Bevestig wachtwoord
         remember_me: Ingelogd blijven
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token: Reset wachtwoord token
+        unlock_token: Ontgrendel token
     models:
       user: Gebruiker
   devise:
@@ -32,24 +32,24 @@ nl:
       confirmation_instructions:
         action: Bevestig mijn account
         greeting: Welkom %{recipient}!
-        instruction: 'U kunt uw email bevestigen via onderstaande link:'
+        instruction: 'Je kunt je e-mailadres bevestigen via onderstaande link:'
         subject: Bevestiging
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Hallo %{recipient}!
+        message: We stellen je met deze e-mail ervan op de hoogte dat je wachtwoord is gewijzigd.
+        subject: Je wachtwoord is gewijzigd
       reset_password_instructions:
         action: Verander mijn wachtwoord
         greeting: Hallo %{recipient}!
         instruction: Iemand heeft een link gevraagd om uw wachtwoord te wijzigen; dit kan via onderstaande link.
-        instruction_2: Als u dit niet heeft gedaan, negeer deze mail alstublieft.
-        instruction_3: Uw wachtwoord zal niet wijzigen totdat u bovenstaande link heeft gevolgd en een nieuw wachtwoord heeft aangevraagd.
+        instruction_2: Als je dit niet zelf hebt gevraagd, negeer deze mail dan alsjeblieft.
+        instruction_3: Je wachtwoord zal niet wijzigen totdat je bovenstaande link hebt gevolgd en een nieuw wachtwoord hebt aangemaakt.
         subject: Instructies om je wachtwoord opnieuw in te stellen
       unlock_instructions:
         action: Ontgrendel mijn account
         greeting: Hallo %{recipient}!
-        instruction: 'U kunt uw account ontgrendelen via onderstaande link:'
-        message: Uw account is vergrendeld wegens te veel mislukte pogingen in te loggen.
+        instruction: 'Je kunt je account ontgrendelen via onderstaande link:'
+        message: Je account is vergrendeld door te veel mislukte pogingen om in te loggen.
         subject: Ontgrendelinstructies
     omniauth_callbacks:
       failure: We konden je niet aanmelden op je %{kind} omdat "%{reason}".
@@ -57,7 +57,7 @@ nl:
     passwords:
       edit:
         change_my_password: Verander mijn wachtwoord
-        change_your_password: Wijzig uw wachtwoord
+        change_your_password: Wijzig je wachtwoord
         confirm_new_password: Bevestig nieuw wachtwoord
         new_password: Nieuw wachtwoord
       new:
@@ -71,14 +71,14 @@ nl:
     registrations:
       destroyed: Je account is verwijderd, wellicht tot ziens!
       edit:
-        are_you_sure: Weet u het zeker?
+        are_you_sure: Weet je het zeker?
         cancel_my_account: Annuleer mijn account
         currently_waiting_confirmation_for_email: 'Aan het wachten op de bevestiging voor: %{email}'
-        leave_blank_if_you_don_t_want_to_change_it: laat leeg als u het niet wilt wijzigen
+        leave_blank_if_you_don_t_want_to_change_it: laat leeg als je het niet wilt wijzigen
         title: Bewerk %{resource}
         unhappy: Niet blij
         update: Bijwerken
-        we_need_your_current_password_to_confirm_your_changes: we hebben uw huidige wachtwoord nodig om uw veranderingen te bevestigen
+        we_need_your_current_password_to_confirm_your_changes: we hebben je huidige wachtwoord nodig om je veranderingen te bevestigen
       new:
         sign_up: Maak account aan
       signed_up: Je bent ingeschreven.
