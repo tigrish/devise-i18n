@@ -7,8 +7,8 @@ zh-TW:
         password: "密碼"
         password_confirmation: "密碼確認"
         remember_me: "記憶登入訊息"
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token:
+        unlock_token:
     models:
       user: "用戶"
   devise:
@@ -31,23 +31,23 @@ zh-TW:
     mailer:
       confirmation_instructions:
         action: "確認帳號"
-        greeting: "%{recipient} 你好!"
+        greeting: "%{recipient} 您好!"
         instruction: "您可以利用下面的連結確認您的帳戶的電子郵件:"
         subject: "帳號驗證步驟"
       password_change:
-        greeting: "你好 %{recipient}!"
+        greeting: "您好 %{recipient}!"
         message: "它會通知您，您的密碼已被更改。"
         subject: "密碼已更改"
       reset_password_instructions:
         action: "更改我的密碼"
-        greeting: "你好 %{recipient}!"
-        instruction: "有人要求更改密碼的連結，你可以利用下面的連結更改密碼。"
-        instruction_2: "如果你沒有要求，請忽略此電子郵件。"
-        instruction_3: "如果你沒有進入上面的連結，並建立新的密碼，你的密碼不會被改變。"
+        greeting: "您好 %{recipient}!"
+        instruction: "有人要求更改密碼的連結，您可以利用下面的連結更改密碼。"
+        instruction_2: "如果您沒有要求，請忽略此電子郵件。"
+        instruction_3: "如果您沒有進入上面的連結，並建立新的密碼，您的密碼不會被改變。"
         subject: "密碼重設步驟"
       unlock_instructions:
         action: "帳戶解鎖"
-        greeting: "你好 %{recipient}!"
+        greeting: "您好 %{recipient}!"
         instruction: "點擊下面的連結到您的帳戶進行解鎖:"
         message: "由於多次的不成功的登入嘗試，您的帳戶已被鎖定。"
         subject: "帳號解鎖步驟"
@@ -71,7 +71,7 @@ zh-TW:
     registrations:
       destroyed: "再會！您的帳號已被取消。有緣再會。"
       edit:
-        are_you_sure: "你確定嗎？"
+        are_you_sure: "您確定嗎？"
         cancel_my_account: "取消我的帳戶"
         currently_waiting_confirmation_for_email: "等待 %{email} 的確認"
         leave_blank_if_you_don_t_want_to_change_it: "不想修改的話就不需要填寫這個欄位"
