@@ -10,7 +10,9 @@ zh-TW:
         reset_password_token:
         unlock_token:
     models:
-      user: "用戶"
+      user:
+        one: "用戶"
+        other: "用户"
   devise:
     confirmations:
       confirmed: "您的帳號已通過驗證，現在您已成功登入。"

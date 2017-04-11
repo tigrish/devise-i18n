@@ -2,20 +2,24 @@ hr:
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
-        reset_password_token: 
-        unlock_token: 
+        current_password:
+        email:
+        password:
+        password_confirmation:
+        remember_me:
+        reset_password_token:
+        unlock_token:
     models:
-      user: 
+      user:
+        one:
+        few:
+        many:
+        other:
   devise:
     confirmations:
       confirmed: Vaš račun je uspješno potvrđen. Sad ste prijavljeni.
       new:
-        resend_confirmation_instructions: 
+        resend_confirmation_instructions:
       send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za potvrdu Vašeg računa.
       send_paranoid_instructions: Ukoliko se Vaša email adresa nalazi u našoj bazi u roku od nekoliko minuta ćete primiti mail s uputama kako potvrditi Vaš račun.
     failure:
@@ -30,39 +34,39 @@ hr:
       unconfirmed: Prije nastavka morate potvrditi Vaš račun.
     mailer:
       confirmation_instructions:
-        action: 
-        greeting: 
-        instruction: 
+        action:
+        greeting:
+        instruction:
         subject: Upute za potvrdu korisničkog računa
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting:
+        message:
+        subject:
       reset_password_instructions:
-        action: 
-        greeting: 
-        instruction: 
-        instruction_2: 
-        instruction_3: 
+        action:
+        greeting:
+        instruction:
+        instruction_2:
+        instruction_3:
         subject: Upute za promjenu lozinke
       unlock_instructions:
-        action: 
-        greeting: 
-        instruction: 
-        message: 
+        action:
+        greeting:
+        instruction:
+        message:
         subject: Upute za otključavanje korisničkog računa
     omniauth_callbacks:
       failure: Nismo Vas u mogućnosti autorizirati sa %{kind} računom zbog "%{reason}".
       success: Uspješna autorizacija sa %{kind} računa.
     passwords:
       edit:
-        change_my_password: 
-        change_your_password: 
-        confirm_new_password: 
-        new_password: 
+        change_my_password:
+        change_your_password:
+        confirm_new_password:
+        new_password:
       new:
-        forgot_your_password: 
-        send_me_reset_password_instructions: 
+        forgot_your_password:
+        send_me_reset_password_instructions:
       no_token: Ne možete pristupiti ovoj stranici ako niste kliknuli na link u emailu za resetiranje lozinke.
       send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za promjenu Vaše lozinke.
       send_paranoid_instructions: Ukoliko se Vaša email adresa nalazi u našoj bazi, na istu ćete u roku od nekoliko minuta primiti link za resetiranje lozinke.
@@ -71,16 +75,16 @@ hr:
     registrations:
       destroyed: Pozdrav! Vaš račun je uspješno obrisan. Nadamo se da ćete se brzo vratiti.
       edit:
-        are_you_sure: 
-        cancel_my_account: 
-        currently_waiting_confirmation_for_email: 
-        leave_blank_if_you_don_t_want_to_change_it: 
-        title: 
-        unhappy: 
-        update: 
-        we_need_your_current_password_to_confirm_your_changes: 
+        are_you_sure:
+        cancel_my_account:
+        currently_waiting_confirmation_for_email:
+        leave_blank_if_you_don_t_want_to_change_it:
+        title:
+        unhappy:
+        update:
+        we_need_your_current_password_to_confirm_your_changes:
       new:
-        sign_up: 
+        sign_up:
       signed_up: Dobrodošli! Uspješno ste se registrirali.
       signed_up_but_inactive: Uspješno ste se registrirali. Doduše, ne možete se prijaviti u sustav zato što Vaš račun još nije aktiviran.
       signed_up_but_locked: Uspješno ste se registrirali. Nažalost ne možete se prijaviti jer Vam je račun zaključan.
@@ -88,23 +92,23 @@ hr:
       update_needs_confirmation: Uspješno ste ažurirali Vaš račun, ali trebamo potvrditi Vašu novu e-mail adresu. Molimo provjerite svoje sanduče i kliknite na link za potvrdu.
       updated: Uspješno ste izmjenili Vaš račun.
     sessions:
-      already_signed_out: 
+      already_signed_out:
       new:
-        sign_in: 
+        sign_in:
       signed_in: Uspješno ste se prijavili.
       signed_out: Uspješno ste se odjavili.
     shared:
       links:
-        back: 
-        didn_t_receive_confirmation_instructions: 
-        didn_t_receive_unlock_instructions: 
-        forgot_your_password: 
-        sign_in: 
-        sign_in_with_provider: 
-        sign_up: 
+        back:
+        didn_t_receive_confirmation_instructions:
+        didn_t_receive_unlock_instructions:
+        forgot_your_password:
+        sign_in:
+        sign_in_with_provider:
+        sign_up:
     unlocks:
       new:
-        resend_unlock_instructions: 
+        resend_unlock_instructions:
       send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za otključavanje Vašeg računa.
       send_paranoid_instructions: Ako Vaš račun postoji, na email ćete u roku nekoliko minuta primiti upute kako ga otključati.
       unlocked: Vaš račun je uspješno otključan. Molimo prijavite se.

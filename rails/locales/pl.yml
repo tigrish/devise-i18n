@@ -7,10 +7,13 @@ pl:
         password: Hasło
         password_confirmation: Potwierdzenie hasła
         remember_me: Zapamiętaj mnie
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token:
+        unlock_token:
     models:
-      user: Użytkownik
+      user:
+        one: Użytkownik
+        few:
+        other: Użytkownicy
   devise:
     confirmations:
       confirmed: Konto zostało poprawnie aktywowane.

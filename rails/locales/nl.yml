@@ -10,7 +10,9 @@ nl:
         reset_password_token: Reset wachtwoord token
         unlock_token: Ontgrendel token
     models:
-      user: Gebruiker
+      user:
+        one: Gebruiker
+        other: Gebruikers
   devise:
     confirmations:
       confirmed: Je account is bevestigd.

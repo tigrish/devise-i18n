@@ -2,20 +2,22 @@
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
-        reset_password_token: 
-        unlock_token: 
+        current_password:
+        email:
+        password:
+        password_confirmation:
+        remember_me:
+        reset_password_token:
+        unlock_token:
     models:
-      user: 
+      user:
+        one:
+        other: 
   devise:
     confirmations:
       confirmed: Din konto er aktivert og du er nå innlogget.
       new:
-        resend_confirmation_instructions: 
+        resend_confirmation_instructions:
       send_instructions: Du vil innen få minutter motta en epost med instruksjoner for å aktivere din konto.
       send_paranoid_instructions: Hvis epostadressen din finnes i vår database vil du innen få minutter motta en epost med instruksjoner for å aktivere din konto.
     failure:
@@ -30,39 +32,39 @@
       unconfirmed: Du må bekrefte kontoen din for å kunne fortsette.
     mailer:
       confirmation_instructions:
-        action: 
-        greeting: 
-        instruction: 
+        action:
+        greeting:
+        instruction:
         subject: Bekreftelsesinstruksjoner
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting:
+        message:
+        subject:
       reset_password_instructions:
-        action: 
-        greeting: 
-        instruction: 
-        instruction_2: 
-        instruction_3: 
+        action:
+        greeting:
+        instruction:
+        instruction_2:
+        instruction_3:
         subject: Nullstilling av passord
       unlock_instructions:
-        action: 
-        greeting: 
-        instruction: 
-        message: 
+        action:
+        greeting:
+        instruction:
+        message:
         subject: Gjenåpning av konto
     omniauth_callbacks:
       failure: Kunne ikke autorisere deg fra %{kind} fordi "%{reason}".
       success: Vellykket autorisering fra %{kind}.
     passwords:
       edit:
-        change_my_password: 
-        change_your_password: 
-        confirm_new_password: 
-        new_password: 
+        change_my_password:
+        change_your_password:
+        confirm_new_password:
+        new_password:
       new:
-        forgot_your_password: 
-        send_me_reset_password_instructions: 
+        forgot_your_password:
+        send_me_reset_password_instructions:
       no_token: Du kan ikke aksessere denne siden uten å bli videresendt fra en epost med intrukssjoner for å tilbakestille passord. Hvis dette er tilfelle, vennligst sørg for at du brukte hele lenken inneholdt i eposten.
       send_instructions: Du vil innen få minutter motta en epost med instruksjoner for å nullstille passordet ditt.
       send_paranoid_instructions: Hvis epostadressen din finnes i vår database vil du innen få minutter motta en epost med instruksjoner for å nullstille passordet ditt.
@@ -71,16 +73,16 @@
     registrations:
       destroyed: Farvel! Din konto er nå slettet. Vi håper å se deg igjen snart.
       edit:
-        are_you_sure: 
-        cancel_my_account: 
-        currently_waiting_confirmation_for_email: 
-        leave_blank_if_you_don_t_want_to_change_it: 
-        title: 
-        unhappy: 
-        update: 
-        we_need_your_current_password_to_confirm_your_changes: 
+        are_you_sure:
+        cancel_my_account:
+        currently_waiting_confirmation_for_email:
+        leave_blank_if_you_don_t_want_to_change_it:
+        title:
+        unhappy:
+        update:
+        we_need_your_current_password_to_confirm_your_changes:
       new:
-        sign_up: 
+        sign_up:
       signed_up: Velkommen! Din registrering er vellykket.
       signed_up_but_inactive: Du er registrert. Vi kan derimot ikke logge deg på siden kontoen din ennå ikke er aktivert.
       signed_up_but_locked: Du er registrert. Vi kan derimot ikke logge deg på siden kontoen din er låst.
@@ -88,23 +90,23 @@
       update_needs_confirmation: Din profil er oppdatert, men vi trenger å bekrefte din nye epost-adresse. Vennligst sjekk din innboks og klikk på lenken inneholdt i eposten for å bekrefte endring av din epost-adresse.
       updated: Din profil er oppdatert.
     sessions:
-      already_signed_out: 
+      already_signed_out:
       new:
-        sign_in: 
+        sign_in:
       signed_in: Du er nå innlogget.
       signed_out: Du er nå logget ut.
     shared:
       links:
-        back: 
-        didn_t_receive_confirmation_instructions: 
-        didn_t_receive_unlock_instructions: 
-        forgot_your_password: 
-        sign_in: 
-        sign_in_with_provider: 
-        sign_up: 
+        back:
+        didn_t_receive_confirmation_instructions:
+        didn_t_receive_unlock_instructions:
+        forgot_your_password:
+        sign_in:
+        sign_in_with_provider:
+        sign_up:
     unlocks:
       new:
-        resend_unlock_instructions: 
+        resend_unlock_instructions:
       send_instructions: Du vil innen få minutter motta en epost med instruksjoner for å gjenåpne din konto.
       send_paranoid_instructions: Hvis kontoen din eksisterer vil du innen få minutter motta en epost med instruksjoner for å låse den opp.
       unlocked: Din konto er gjenåpnet. Vennligst logg inn for å fortsette.

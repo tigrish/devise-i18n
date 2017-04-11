@@ -10,7 +10,9 @@ bg:
         reset_password_token: "Код за промяна на парола"
         unlock_token: "Код за отключване на профил"
     models:
-      user: "Потребител"
+      user:
+        one: "Потребител"
+        other: "Потребители"
   devise:
     confirmations:
       confirmed: "Регистрацията Ви е потвърдена."

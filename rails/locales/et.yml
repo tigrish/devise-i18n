@@ -10,7 +10,9 @@ et:
         reset_password_token: Parooli ennistamise tähis
         unlock_token: Avamise tähis
     models:
-      user: Kasutaja
+      user:
+        one: Kasutaja
+        other: Kasutajad
   devise:
     confirmations:
       confirmed: Sinu konto on edukalt kinnitatud.

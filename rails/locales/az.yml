@@ -2,20 +2,22 @@ az:
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
-        reset_password_token: 
-        unlock_token: 
+        current_password:
+        email:
+        password:
+        password_confirmation:
+        remember_me:
+        reset_password_token:
+        unlock_token:
     models:
-      user: 
+      user:
+        one:
+        other: 
   devise:
     confirmations:
       confirmed: Hesabınız uğurla təstiqləndi. Hazırda siz hesabınıza daxil olmuşsunuz.
       new:
-        resend_confirmation_instructions: 
+        resend_confirmation_instructions:
       send_instructions: Bir neçə dəqiqə ərzində hesabınızı təstiqləmək üçün sizə email göndəriləcəkdir.
       send_paranoid_instructions: "Əgər sizin email ünvanı bazada varsa, bir neçə dəqiqə ərzində hesabınızı təstiqləmək üçün email sizə göndəriləcəkdir."
     failure:
@@ -30,39 +32,39 @@ az:
       unconfirmed: Davam etmək üçün hesabınızı təstiqləməlisiniz.
     mailer:
       confirmation_instructions:
-        action: 
-        greeting: 
-        instruction: 
+        action:
+        greeting:
+        instruction:
         subject: Hesabın təstiqlənməsi
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting:
+        message:
+        subject:
       reset_password_instructions:
-        action: 
-        greeting: 
-        instruction: 
-        instruction_2: 
-        instruction_3: 
+        action:
+        greeting:
+        instruction:
+        instruction_2:
+        instruction_3:
         subject: "Şifrənin yenilənməsi"
       unlock_instructions:
-        action: 
-        greeting: 
-        instruction: 
-        message: 
+        action:
+        greeting:
+        instruction:
+        message:
         subject: Hesabın blokdan çıxardılması
     omniauth_callbacks:
       failure: '"%{reason}" səbəbindən sizi %{kind} autentikasiya etmək mümkün olmadı.'
       success: "%{kind} hesabıyla uğurla daxil oldunuz."
     passwords:
       edit:
-        change_my_password: 
-        change_your_password: 
-        confirm_new_password: 
-        new_password: 
+        change_my_password:
+        change_your_password:
+        confirm_new_password:
+        new_password:
       new:
-        forgot_your_password: 
-        send_me_reset_password_instructions: 
+        forgot_your_password:
+        send_me_reset_password_instructions:
       no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
       send_instructions: Siz bir neçə dəqiqə ərazində, şifrənizi necə dəyişmək haqqında email qəbul edəcəksiniz.
       send_paranoid_instructions: "Əgər sizin email ünvanı bazada varsa, bir neçə dəqiqə ərazində, şifrənizi necə dəyişmək haqqında email qəbul edəcəksiniz."
@@ -71,16 +73,16 @@ az:
     registrations:
       destroyed: Hesabınız sistemimizdən uğurla çıxarıldı.
       edit:
-        are_you_sure: 
-        cancel_my_account: 
-        currently_waiting_confirmation_for_email: 
-        leave_blank_if_you_don_t_want_to_change_it: 
-        title: 
-        unhappy: 
-        update: 
-        we_need_your_current_password_to_confirm_your_changes: 
+        are_you_sure:
+        cancel_my_account:
+        currently_waiting_confirmation_for_email:
+        leave_blank_if_you_don_t_want_to_change_it:
+        title:
+        unhappy:
+        update:
+        we_need_your_current_password_to_confirm_your_changes:
       new:
-        sign_up: 
+        sign_up:
       signed_up: Təbriklər! Siz uğurla qeydiyyatdan keçdiniz.
       signed_up_but_inactive: Siz uğurla qeydiyyatdan keçdiniz. Halbuki, sistemə yalnız hesabınızı aktiv etdikdən sonra daxil ola bilərsiniz.
       signed_up_but_locked: Siz uğurla qeydiyyatdan keçdiniz. Ancaq hesabınız blokda olduğu üçün biz sizi sistemə daxil edə bilmirik.
@@ -90,21 +92,21 @@ az:
     sessions:
       already_signed_out: Ugurlu cıxış.
       new:
-        sign_in: 
+        sign_in:
       signed_in: Sistemə uğurla daxil oldunuz.
       signed_out: Sistemdən uğurla çıxdınız.
     shared:
       links:
-        back: 
-        didn_t_receive_confirmation_instructions: 
-        didn_t_receive_unlock_instructions: 
-        forgot_your_password: 
-        sign_in: 
-        sign_in_with_provider: 
-        sign_up: 
+        back:
+        didn_t_receive_confirmation_instructions:
+        didn_t_receive_unlock_instructions:
+        forgot_your_password:
+        sign_in:
+        sign_in_with_provider:
+        sign_up:
     unlocks:
       new:
-        resend_unlock_instructions: 
+        resend_unlock_instructions:
       send_instructions: Bir neçə dəqiqə ərzində hesabınızı blokdan çıxarmaq üçün sizə email göndəriləcəkdir.
       send_paranoid_instructions: "Əgər bazada belə hesab varsa, bir neçə dəqiqə ərzində hesabınızı blokdan çıxarmaq üçün sizə email göndəriləcəkdir."
       unlocked: Hesabınız uğurlar blokdan çıxarıldı, davam etmək üçün zəhmət olmasa daxil olun

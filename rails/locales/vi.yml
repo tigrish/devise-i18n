@@ -7,10 +7,12 @@ vi:
         password: Mật khẩu
         password_confirmation: Xác nhận mật khẩu
         remember_me: Ghi nhớ đăng nhập
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token:
+        unlock_token:
     models:
-      user: Người dùng
+      user:
+        one: Người dùng
+        other: Người sử dụng
   devise:
     confirmations:
       confirmed: Xác nhận tài khoản thành công! Bạn hiện đang đăng nhập.
@@ -35,9 +37,9 @@ vi:
         instruction: 'Bạn có thể xác nhận tài khoản email bằng liên kết dưới đây:'
         subject: Hướng dẫn xác nhận tài khoản
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting:
+        message:
+        subject:
       reset_password_instructions:
         action: Thay đổi mật khẩu
         greeting: Xin chào %{recipient}!

@@ -7,10 +7,12 @@ ko:
         password: "비밀번호"
         password_confirmation: "비밀번호 확인"
         remember_me: "로그인 정보 기억하기"
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token:
+        unlock_token:
     models:
-      user: "사용자"
+      user:
+        one: "사용자"
+        other: "사용자"
   devise:
     confirmations:
       confirmed: "이메일 주소가 성공적으로 인증되었습니다."
@@ -35,9 +37,9 @@ ko:
         instruction: "아래의 링크를 클릭하시면 이메일 인증이 완료됩니다:"
         subject: "이메일 인증 안내"
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting:
+        message:
+        subject:
       reset_password_instructions:
         action: "비밀번호 변경"
         greeting: "%{recipient}님 안녕하세요!"

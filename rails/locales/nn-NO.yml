@@ -10,7 +10,9 @@ nn-NO:
         reset_password_token: Nullstill passord-nøkkel
         unlock_token: Lås opp nøkkel
     models:
-      user: Brukar
+      user:
+        one: Brukar
+        other: Brukere
   devise:
     confirmations:
       confirmed: E-postadressen din har blitt stadfesta.

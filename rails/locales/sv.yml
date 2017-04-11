@@ -10,7 +10,9 @@ sv:
         reset_password_token: "Återställ token för lösenord"
         unlock_token: Token för återaktivering
     models:
-      user: Användare
+      user:
+        one: Användare
+        other: Användare
   devise:
     confirmations:
       confirmed: Ditt konto har bekräftats. Du är nu inloggad.

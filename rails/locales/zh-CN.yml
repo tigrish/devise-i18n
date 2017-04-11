@@ -7,10 +7,12 @@ zh-CN:
         password: "密码"
         password_confirmation: "密码确认"
         remember_me: "记住登录信息"
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token:
+        unlock_token:
     models:
-      user: "用户"
+      user:
+        one: "用户"
+        other: "用户"
   devise:
     confirmations:
       confirmed: "恭喜您，注册成功，现在可以登录了"
@@ -35,9 +37,9 @@ zh-CN:
         instruction: "您可以通过下面的链接确认您的帐户的电子邮件:"
         subject: "确认信息"
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting:
+        message:
+        subject:
       reset_password_instructions:
         action: "更改我的密码"
         greeting: "你好 %{recipient}!"

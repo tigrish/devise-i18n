@@ -7,10 +7,16 @@ ar:
         password: "كلمة المرور"
         password_confirmation: "تأكيد كلمة المرور"
         remember_me: "تذكرني"
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token:
+        unlock_token:
     models:
-      user: "المستخدم"
+      user:
+        zero:
+        one: "المستخدم"
+        two:
+        few:
+        many:
+        other: "المستخدمين"
   devise:
     confirmations:
       confirmed: "تمّ تأكيد الحساب بنجاح، وتمّ تسجيل الدّخول."
@@ -35,9 +41,9 @@ ar:
         instruction: "يمكن تأكيد حساب بريدك الإلكتروني من خلال الرابط التّالي:"
         subject: "تعليمات تأكيد الحساب"
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting:
+        message:
+        subject:
       reset_password_instructions:
         action: "غيّر كلمة السر"
         greeting: "مرحبا %{recipient}"
@@ -88,7 +94,7 @@ ar:
       update_needs_confirmation: "تُم تعديل الحساب بنجاح، يرجى تأكيد البريد الإلكتروني. الرجاء الذهاب الى البريد الإلكتروني والضغط على الرابط الموجود للانتهاء من عمليّة التاكيد."
       updated: "تمّ تعديل الحساب بنجاح."
     sessions:
-      already_signed_out: 
+      already_signed_out:
       new:
         sign_in: "سجّلْ الدخول"
       signed_in: "تمّ تسجيل الدخول."
@@ -121,4 +127,4 @@ ar:
         one: "مشكلة واحدة منعت %{resource} من التخزين بنجاح."
         other: "%{count} مشكلة منعت %{resource} من التخزين بنجاح."
         two: "مشكلتين منعتا %{resource} من التخزين بنجاح."
-        zero: 
+        zero:

@@ -10,8 +10,9 @@ ka:
         reset_password_token: "პაროლის მარკერის გადატვირთვა"
         unlock_token: "მარკერის გახსნა"
     models:
-      user: |
-        მომხმარებელი
+      user:
+        one: მომხმარებელი
+        other: მომხმარებელი
   devise:
     confirmations:
       confirmed: "თქვენი ელ-ფოსტა წარმატებულად დადასტურდა."

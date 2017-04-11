@@ -10,7 +10,9 @@ he:
         reset_password_token: 
         unlock_token: 
     models:
-      user: "משתמש"
+      user: 
+        one: "משתמש"
+        other: "משתמשים"
   devise:
     confirmations:
       confirmed: "חשבונך אושר בהצלחה."

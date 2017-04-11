@@ -10,7 +10,9 @@ fr:
         reset_password_token: Clé de Réinitialisation du Mot de Passe
         unlock_token: Clé de déblocage
     models:
-      user: Utilisateur
+      user:
+        one: Utilisateur
+        other: Utilisateurs
   devise:
     confirmations:
       confirmed: Votre compte a été confirmé avec succès.

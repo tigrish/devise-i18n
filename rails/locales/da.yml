@@ -7,10 +7,12 @@ da:
         password: Kodeord
         password_confirmation: Gentag kodeord
         remember_me: Husk mig
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token:
+        unlock_token:
     models:
-      user: Bruger
+      user:
+        one: Bruger
+        other: Brugere
   devise:
     confirmations:
       confirmed: Din konto er aktiveret og du er nu logget ind.
@@ -36,7 +38,7 @@ da:
         subject: Bekræftelsesinstruktioner
       password_change:
         greeting: Hej %{recipient}!
-        message: 
+        message:
         subject: Kodeordet er ændret
       reset_password_instructions:
         action: Skift mit kodeord

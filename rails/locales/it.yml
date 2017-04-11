@@ -10,7 +10,9 @@ it:
         reset_password_token: Token di reset password
         unlock_token: Token di sblocco
     models:
-      user: Utente
+      user:
+        one: Utente
+        other: Utenti
   devise:
     confirmations:
       confirmed: Il tuo account è stato correttamente confermato.

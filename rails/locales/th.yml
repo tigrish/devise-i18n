@@ -7,10 +7,12 @@ th:
         password: "รหัสผ่าน"
         password_confirmation: "ยืนยันรหัสผ่าน"
         remember_me: "จำชื่อผู้ใช้"
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token:
+        unlock_token:
     models:
-      user: "ผู้ใช้งาน"
+      user:
+        one: "ผู้ใช้งาน"
+        other: "ผู้ใช้"
   devise:
     confirmations:
       confirmed: "คุณได้ยืนยันบัญชีของคุณเรียบร้อยแล้ว ขณะนี้คุณสามารถเข้าสู่ระบบได้"
@@ -35,9 +37,9 @@ th:
         instruction: "คุณสามารถยืนยันอีเมล์ที่ใช้สมัครสมาชิกได้จากลิงค์ข้างล่างนี้:"
         subject: "คำแนะนำการยืนยัน"
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting:
+        message:
+        subject:
       reset_password_instructions:
         action: "เปลี่ยนรหัสผ่านของฉัน"
         greeting: "สวัสดีคุณ%{recipient}!"

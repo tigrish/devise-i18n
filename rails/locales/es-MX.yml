@@ -10,7 +10,9 @@ es-MX:
         reset_password_token: Restablecer autentificador de contraseña
         unlock_token: Autentificador de desbloqueo
     models:
-      user: Usuario
+      user:
+        one: Usuario
+        other: Usuarios
   devise:
     confirmations:
       confirmed: Se ha confirmado la dirección de correo electrónico correctamente.

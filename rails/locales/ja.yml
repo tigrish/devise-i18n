@@ -10,7 +10,9 @@ ja:
         reset_password_token: 
         unlock_token: 
     models:
-      user: "ユーザ"
+      user: 
+        one: "ユーザ"
+        other: "ユーザー"
   devise:
     confirmations:
       confirmed: "アカウントを登録しました。"

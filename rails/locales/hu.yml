@@ -7,10 +7,12 @@ hu:
         password: Jelszó
         password_confirmation: Jelszó megerősítése
         remember_me: Megjegyez
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token:
+        unlock_token:
     models:
-      user: Felhasználó
+      user:
+        one: Felhasználó
+        other: Felhasználók
   devise:
     confirmations:
       confirmed: Fiók megerősítve. Bejelentkezve a felhasználói fiókba.
@@ -35,9 +37,9 @@ hu:
         instruction: 'A fiók megerősítéséhez rá kell kattintani az alábbi linkre:'
         subject: Email cím megerősítés
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting:
+        message:
+        subject:
       reset_password_instructions:
         action: Jelszó megváltoztatása
         greeting: Kedves %{recipient}!

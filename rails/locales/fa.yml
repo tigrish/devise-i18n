@@ -10,7 +10,9 @@ fa:
         reset_password_token: 
         unlock_token: 
     models:
-      user: "کاربر"
+      user:
+        one: "کاربر"
+        other: "کاربران"
   devise:
     confirmations:
       confirmed: "حسابتان با موفقیت تایید شد. هم اکنون وارد شدید."

@@ -10,7 +10,9 @@ pt-BR:
         reset_password_token: Resetar token de senha
         unlock_token: Token de desbloqueio
     models:
-      user: Usuário
+      user:
+        one: Usuário
+        other: Usuários
   devise:
     confirmations:
       confirmed: A sua conta foi confirmada com sucesso.

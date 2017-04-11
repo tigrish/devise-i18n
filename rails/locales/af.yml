@@ -10,7 +10,9 @@ af:
         reset_password_token: Herstel wagwoord egtheidsbewys
         unlock_token: Ontsluit egtheidsbewys
     models:
-      user: Gebruiker
+      user:
+        one: Gebruiker
+        other: Gebruikers
   devise:
     confirmations:
       confirmed: Jou e-posadres is suksesvol bevestig.
