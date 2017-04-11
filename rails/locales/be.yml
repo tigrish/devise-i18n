@@ -10,7 +10,9 @@ be:
         reset_password_token: "Спасылка скіду пароля"
         unlock_token: "Токен разблакоўкі"
     models:
-      user: "Карыстальнік"
+      user:
+        one: "Карыстальнік"
+        other: "Карыстальнікаў"
   devise:
     confirmations:
       confirmed: "Ваш адрас эл. пошты паспяхова пацверджаны."

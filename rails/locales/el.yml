@@ -7,10 +7,12 @@ el:
         password: "Κωδικός πρόσβασης"
         password_confirmation: "Επιβεβαίωση κωδικού πρόσβασης"
         remember_me: "Απομνημόνευση"
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token:
+        unlock_token:
     models:
-      user: "Χρήστης"
+      user:
+        one: "Χρήστης"
+        other: "Χρήστες"
   devise:
     confirmations:
       confirmed: "Ο λογαριασμός σας επιβεβαιώθηκε επιτυχώς. Έχετε πλέον συνδεθεί."
@@ -35,9 +37,9 @@ el:
         instruction: "Μπορείτε να επιβεβαιώσετε τον λογαριασμό σας μέσω του συνδέσμου παρακάτω:"
         subject: "Οδηγίες επιβεβαίωσης"
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting:
+        message:
+        subject:
       reset_password_instructions:
         action: "Αλλαγή του κωδικού πρόσβασης"
         greeting: "Γεια σας %{recipient}!"

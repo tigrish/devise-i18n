@@ -7,10 +7,13 @@ lv:
         password: Parole
         password_confirmation: Apstiprināt paroli
         remember_me: Atcerēties mani
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token:
+        unlock_token:
     models:
-      user: Lietotājs
+      user:
+        zero: 
+        one: Lietotājs
+        other: Lietotāji
   devise:
     confirmations:
       confirmed: Jūsu lietotājs ir veiksmīgi apstiprināts. Jūs esat pieslēdzies.
@@ -35,9 +38,9 @@ lv:
         instruction: 'Jūs varat apstiprināt, Jūsu konta epastu caur saiti zemāk:'
         subject: Apstiprināšanas apraksts
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting:
+        message:
+        subject:
       reset_password_instructions:
         action: Veikt paroles maiņu
         greeting: Sveicināti, %{recipient}!

@@ -7,10 +7,13 @@ sk:
         password: Heslo
         password_confirmation: Potvrdenie hesla
         remember_me: Zapamätať si ma
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token:
+        unlock_token:
     models:
-      user: Používateľ
+      user:
+        one: Používateľ
+        few:
+        other: Používatelia
   devise:
     confirmations:
       confirmed: Váš účet bol úspešne overený. Teraz ste prihlásený.
@@ -35,9 +38,9 @@ sk:
         instruction: 'Môžete potvrdiť emailovú adresu vášho účtu pomocou odkazu nižšie:'
         subject: Potvrdzovacie inštrukcie
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting:
+        message:
+        subject:
       reset_password_instructions:
         action: Zmeniť moje heslo
         greeting: Ahoj %{recipient}!

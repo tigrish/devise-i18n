@@ -10,7 +10,9 @@ nb:
         reset_password_token: Nytt passord-kode
         unlock_token: Lås opp-kode
     models:
-      user: Brukerkonto
+      user:
+        one: Brukerkonto
+        other: Brukerkontoer
   devise:
     confirmations:
       confirmed: Din konto har blitt aktivert og du er nå logget inn
@@ -95,7 +97,7 @@ nb:
       signed_out: Du er nå logget ut.
     shared:
       links:
-        back: 
+        back:
         didn_t_receive_confirmation_instructions: Har du ikke mottatt bekreftelsesinstruksjoner?
         didn_t_receive_unlock_instructions: Har du ikke mottatt instruksjoner for å tilbakestille passordet?
         forgot_your_password: Har du glemt passordet ditt?

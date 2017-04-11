@@ -10,7 +10,10 @@ ro:
         reset_password_token: Resetează jetonul parolei
         unlock_token: Deblochează jetonul
     models:
-      user: Utilizator
+      user:
+        one: Utilizator
+        few:
+        other: Utilizatori
   devise:
     confirmations:
       confirmed: Contul dvs. a fost confirmat cu succes.

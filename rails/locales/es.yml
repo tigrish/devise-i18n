@@ -10,7 +10,9 @@ es:
         reset_password_token: Restablecer token contraseña
         unlock_token: Desbloquear token
     models:
-      user: Usuario
+      user:
+        one: Usuario
+        other: Usuarios
   devise:
     confirmations:
       confirmed: Tu cuenta ha sido confirmada satisfactoriamente.

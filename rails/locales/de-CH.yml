@@ -10,7 +10,9 @@ de-CH:
         reset_password_token: Passwort-Zurücksetzen-Token
         unlock_token: Entsperrungs-Token
     models:
-      user: Benutzer
+      user:
+        one: Benutzer
+        other: Benutzer
   devise:
     confirmations:
       confirmed: Ihre E-Mail Adresse wurde erfolgreich bestätigt.

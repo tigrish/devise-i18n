@@ -10,7 +10,9 @@ ca:
         reset_password_token: Restabliment de token de la contrasenya
         unlock_token: Desbloquejar el token
     models:
-      user: Usuari
+      user:
+        one: Usuari
+        other: Usuaris
   devise:
     confirmations:
       confirmed: La vostra adreça electrònica ha estat confirmada correctament.

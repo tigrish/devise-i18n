@@ -7,10 +7,12 @@ tr:
         password: Parola
         password_confirmation: Parola Doğrulama
         remember_me: Beni Hatırla
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token:
+        unlock_token:
     models:
-      user: Kullanıcı
+      user:
+        one: Kullanıcı
+        other: Kullanıcılar
   devise:
     confirmations:
       confirmed: Hesabınız başarıyla onaylandı. Şu an giriş yapmış bulunuyorsunuz.

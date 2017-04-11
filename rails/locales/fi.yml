@@ -10,7 +10,9 @@ fi:
         reset_password_token: Salasanan nollaamistunniste
         unlock_token: Lukituksen poistotunniste
     models:
-      user: Käyttäjä
+      user:
+        one: Käyttäjä
+        other: Käyttäjät
   devise:
     confirmations:
       confirmed: Tunnuksesi on nyt vahvistettu.

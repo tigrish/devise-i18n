@@ -10,7 +10,9 @@ en:
         reset_password_token: Reset password token
         unlock_token: Unlock token
     models:
-      user: User
+      user:
+        one: User
+        other: Users
   devise:
     confirmations:
       confirmed: Your email address has been successfully confirmed.

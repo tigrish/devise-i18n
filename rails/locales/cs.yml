@@ -7,10 +7,13 @@ cs:
         password: Heslo
         password_confirmation: Potvrzení hesla
         remember_me: Zapamatuj si mě
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token:
+        unlock_token:
     models:
-      user: Uživatel
+      user:
+        one: Uživatel
+        few: 
+        other: Uživatelé
   devise:
     confirmations:
       confirmed: Váš účet byl úspěšně potvrzen.
@@ -35,9 +38,9 @@ cs:
         instruction: Můžete potvrdit svůj účet pomocí odkazu níže
         subject: Instrukce k potvrzení účtu
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting:
+        message:
+        subject:
       reset_password_instructions:
         action: Změnit mé heslo
         greeting: Ahoj %{recipient}!

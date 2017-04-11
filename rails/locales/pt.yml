@@ -2,15 +2,17 @@ pt:
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
+        current_password:
+        email:
+        password:
+        password_confirmation:
         remember_me: Lembrar-se de mim
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token:
+        unlock_token:
     models:
-      user: 
+      user:
+        one: Usuário
+        other: Usuários
   devise:
     confirmations:
       confirmed: A sua conta foi confirmada com sucesso.
@@ -35,9 +37,9 @@ pt:
         instruction: 'Pode confirmar a sua conta através do link:'
         subject: Instruções de confirmação
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting:
+        message:
+        subject:
       reset_password_instructions:
         action: Repor a minha senha
         greeting: Olá %{recipient}!
@@ -56,10 +58,10 @@ pt:
       success: A sua conta foi autenticada por %{kind} com sucesso.
     passwords:
       edit:
-        change_my_password: 
-        change_your_password: 
-        confirm_new_password: 
-        new_password: 
+        change_my_password:
+        change_your_password:
+        confirm_new_password:
+        new_password:
       new:
         forgot_your_password: Esqueceu a sua senha?
         send_me_reset_password_instructions: Enviar-me instruções para repor a senha
@@ -73,11 +75,11 @@ pt:
       edit:
         are_you_sure: Tem a certeza?
         cancel_my_account: Cancelar a minha conta
-        currently_waiting_confirmation_for_email: 
+        currently_waiting_confirmation_for_email:
         leave_blank_if_you_don_t_want_to_change_it: deixe em branco caso não queira alterar
         title: Editar %{resource}
-        unhappy: 
-        update: 
+        unhappy:
+        update:
         we_need_your_current_password_to_confirm_your_changes: precisamos da sua senha actual para confirmar as alterações
       new:
         sign_up: Criar Conta
@@ -95,7 +97,7 @@ pt:
       signed_out: Saiu da sessão com sucesso.
     shared:
       links:
-        back: 
+        back:
         didn_t_receive_confirmation_instructions: Não recebeu instruções de confirmação?
         didn_t_receive_unlock_instructions: Não recebeu instruções de desbloqueio?
         forgot_your_password: Esqueceu a palavra-passe?

@@ -10,7 +10,11 @@ ru:
         reset_password_token: "Ссылка сброса пароля"
         unlock_token: "Токен разблокировки"
     models:
-      user: "Пользователь"
+      user:
+        one: "Пользователь"
+        few:
+        many:
+        other: "Пользователи"
   devise:
     confirmations:
       confirmed: "Ваш адрес эл. почты успешно подтвержден."
