@@ -2,29 +2,29 @@ es-MX:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: Fecha de envío de confirmación
+        confirmation_token: Autentificador de confirmación
+        confirmed_at: Fecha de confirmación
+        created_at: Fecha de creación
         current_password: Contraseña actual
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: Fecha del ingreso actual
+        current_sign_in_ip: IP del ingreso actual
         email: Correo electrónico
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: Contraseña cifrada
+        failed_attempts: Intentos fallidos
+        last_sign_in_at: Fecha del último ingreso
+        last_sign_in_ip: IP del último ingreso
+        locked_at: Fecha de bloqueo
         password: Contraseña
         password_confirmation: Confirmación de la contraseña
-        remember_created_at: 
+        remember_created_at: "Fecha de 'Recordarme'"
         remember_me: Recordarme
-        reset_password_sent_at: 
-        reset_password_token: Restablecer autentificador de contraseña
-        sign_in_count: 
-        unconfirmed_email: 
+        reset_password_sent_at: Fecha de envío de autentificador para contraseña
+        reset_password_token: Autentificador para restablecer contraseña
+        sign_in_count: Cantidad de ingresos
+        unconfirmed_email: Correo electrónico no confirmado
         unlock_token: Autentificador de desbloqueo
-        updated_at: 
+        updated_at: Fecha de actualización
     models:
       user: Usuario
   devise:
