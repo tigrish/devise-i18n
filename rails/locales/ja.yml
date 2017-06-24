@@ -32,7 +32,7 @@ ja:
       confirmation_instructions:
         action: "アカウント確認"
         greeting: "ようこそ、%{recipient}さん!"
-        instruction: "次のリンクでメールアドレスの確認が完了します:"
+        instruction: "次のリンクでメールアドレスの確認が完了します。"
         subject: "アカウントの有効化について"
       password_change:
         greeting: "こんにちは、%{recipient}さん!"
@@ -116,5 +116,5 @@ ja:
       not_found: "は見つかりませんでした。"
       not_locked: "は凍結されていません。"
       not_saved:
-        one: "エラーが発生したため %{resource} は保存されませんでした:"
-        other: "%{count} 件のエラーが発生したため %{resource} は保存されませんでした:"
+        one: "エラーが発生したため %{resource} は保存されませんでした。"
+        other: "%{count} 件のエラーが発生したため %{resource} は保存されませんでした。"
