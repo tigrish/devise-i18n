@@ -101,7 +101,8 @@ Gem::Specification.new do |s|
     "rails/locales/yo.yml",
     "rails/locales/zh-CN.yml",
     "rails/locales/zh-HK.yml",
-    "rails/locales/zh-TW.yml"
+    "rails/locales/zh-TW.yml",
+    "rails/locales/zh-YUE.yml"
   ]
   s.homepage = "http://github.com/tigrish/devise-i18n".freeze
   s.licenses = ["MIT".freeze]
