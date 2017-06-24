@@ -2,13 +2,29 @@ zh-CN:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: "当前密码"
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: "电子邮箱"
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: "密码"
         password_confirmation: "密码确认"
+        remember_created_at: 
         remember_me: "记住登录信息"
+        reset_password_sent_at: 
         reset_password_token: "密码重置令牌"
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: "帐户解锁令牌"
+        updated_at: 
     models:
       user: "用户"
   devise:

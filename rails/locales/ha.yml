@@ -2,13 +2,29 @@ ha:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: Mabudi na yan zu
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: I-mail
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: Mabudi
         password_confirmation: Mabudi ya tabbata
+        remember_created_at: 
         remember_me: tuna da ni
+        reset_password_sent_at: 
         reset_password_token: Gyara mabudi
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: Bode tokin ka
+        updated_at: 
     models:
       user: Mai amfani deshi
   devise:

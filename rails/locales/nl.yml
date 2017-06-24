@@ -2,13 +2,29 @@ nl:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: Huidig wachtwoord
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: E-mailadres
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: Wachtwoord
         password_confirmation: Bevestig wachtwoord
+        remember_created_at: 
         remember_me: Ingelogd blijven
+        reset_password_sent_at: 
         reset_password_token: Reset wachtwoord token
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: Ontgrendel token
+        updated_at: 
     models:
       user: Gebruiker
   devise:

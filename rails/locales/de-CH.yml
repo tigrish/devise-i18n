@@ -2,13 +2,29 @@ de-CH:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: Bisheriges Passwort
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: E-Mail
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: Passwort
         password_confirmation: Passwortbestätigung
+        remember_created_at: 
         remember_me: Angemeldet bleiben
+        reset_password_sent_at: 
         reset_password_token: Passwort-Zurücksetzen-Token
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: Entsperrungs-Token
+        updated_at: 
     models:
       user: Benutzer
   devise:

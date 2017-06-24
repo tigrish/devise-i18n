@@ -2,13 +2,29 @@ ro:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: Parola curentă
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: Email
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: Parolă
         password_confirmation: Confirmare parolă
+        remember_created_at: 
         remember_me: "Ține-mă minte"
+        reset_password_sent_at: 
         reset_password_token: Resetează jetonul parolei
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: Deblochează jetonul
+        updated_at: 
     models:
       user: Utilizator
   devise:

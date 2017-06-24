@@ -2,13 +2,29 @@ ko:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: "현재 비밀번호"
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: "이메일"
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: "비밀번호"
         password_confirmation: "비밀번호 확인"
+        remember_created_at: 
         remember_me: "로그인 정보 기억하기"
+        reset_password_sent_at: 
         reset_password_token: 
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: 
+        updated_at: 
     models:
       user: "사용자"
   devise:

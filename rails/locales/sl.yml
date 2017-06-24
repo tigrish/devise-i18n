@@ -2,13 +2,29 @@ sl:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: Trenutno geslo
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: 
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: Geslo
         password_confirmation: Potrditev gesla
+        remember_created_at: 
         remember_me: Zapomni se me
+        reset_password_sent_at: 
         reset_password_token: "Žeton za ponastavitev gesla"
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: "Žeton za odklep"
+        updated_at: 
     models:
       user: Uporabnik
   devise:

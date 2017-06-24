@@ -2,13 +2,29 @@ he:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: "סיסמא נוכחית"
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: "אימייל"
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: "סיסמא"
         password_confirmation: "אישור סיסמא"
+        remember_created_at: 
         remember_me: "זכור אותי"
+        reset_password_sent_at: 
         reset_password_token: 
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: 
+        updated_at: 
     models:
       user: "משתמש"
   devise:

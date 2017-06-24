@@ -2,13 +2,29 @@ zh-TW:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: "當前密碼"
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: "電子郵箱"
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: "密碼"
         password_confirmation: "密碼確認"
+        remember_created_at: 
         remember_me: "記憶登入訊息"
+        reset_password_sent_at: 
         reset_password_token: 
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: 
+        updated_at: 
     models:
       user: "用戶"
   devise:

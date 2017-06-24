@@ -2,13 +2,29 @@ pt-BR:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: Senha atual
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: Email
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: Senha
         password_confirmation: Confirme sua senha
+        remember_created_at: 
         remember_me: Lembre-se de mim
+        reset_password_sent_at: 
         reset_password_token: Resetar token de senha
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: Token de desbloqueio
+        updated_at: 
     models:
       user: Usuário
   devise:

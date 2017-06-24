@@ -2,13 +2,29 @@ fi:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: Nykyinen salasana
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: Sähköposti
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: Salasana
         password_confirmation: Salasanan vahvistus
+        remember_created_at: 
         remember_me: Muista minut
+        reset_password_sent_at: 
         reset_password_token: Salasanan nollaamistunniste
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: Lukituksen poistotunniste
+        updated_at: 
     models:
       user: Käyttäjä
   devise:

@@ -2,13 +2,29 @@ be:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: "Сучасны пароль"
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: Email
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: "Пароль"
         password_confirmation: "пацвердзіце пароль"
+        remember_created_at: 
         remember_me: "Запомніць мяне"
+        reset_password_sent_at: 
         reset_password_token: "Спасылка скіду пароля"
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: "Токен разблакоўкі"
+        updated_at: 
     models:
       user: "Карыстальнік"
   devise:

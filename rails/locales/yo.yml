@@ -2,13 +2,29 @@ yo:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: "ọ̀rọ̀ aṣínà lọ́wọ́lọ́wọ́"
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: "í-meèlì"
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: "ọ̀rọ̀ aṣínà "
         password_confirmation: "ìfàṣẹsí ọ̀rọ̀ aṣínà"
+        remember_created_at: 
         remember_me: Rántí mi
+        reset_password_sent_at: 
         reset_password_token: Tún ọ̀rọ̀ aṣínà tè
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: Síí àmì
+        updated_at: 
     models:
       user: aṣàmúlò
   devise:

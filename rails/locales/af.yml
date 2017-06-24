@@ -2,13 +2,29 @@ af:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: Huidige wagwoord
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: E-pos
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: Wagwoord
         password_confirmation: Wagwoord bevestiging
+        remember_created_at: 
         remember_me: Onthou my
+        reset_password_sent_at: 
         reset_password_token: Herstel wagwoord egtheidsbewys
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: Ontsluit egtheidsbewys
+        updated_at: 
     models:
       user: Gebruiker
   devise:

@@ -2,13 +2,29 @@ lv:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: Tagadējā parole
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: Epasts
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: Parole
         password_confirmation: Apstiprināt paroli
+        remember_created_at: 
         remember_me: Atcerēties mani
+        reset_password_sent_at: 
         reset_password_token: 
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: 
+        updated_at: 
     models:
       user: Lietotājs
   devise:

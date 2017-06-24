@@ -2,13 +2,29 @@ th:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: "รหัสผ่านปัจจุบัน"
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: "อีเมล์"
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: "รหัสผ่าน"
         password_confirmation: "ยืนยันรหัสผ่าน"
+        remember_created_at: 
         remember_me: "จำชื่อผู้ใช้"
+        reset_password_sent_at: 
         reset_password_token: 
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: 
+        updated_at: 
     models:
       user: "ผู้ใช้งาน"
   devise:
