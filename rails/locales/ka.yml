@@ -102,7 +102,7 @@ ka:
         forgot_your_password: "დაგავიწყდათ პაროლი?"
         sign_in: "ავთენტიკაცია"
         sign_in_with_provider: "%{provider}-ით ავთენტიკაცია"
-        sign_up: "ავთენტიკაცია"
+        sign_up: "რეგისტრაცია"
     unlocks:
       new:
         resend_unlock_instructions: "ხელახლა ანგარიშის გახსნის ინსტრუქციის გაგზავნა "

@@ -2,111 +2,111 @@ sl:
   activerecord:
     attributes:
       user:
-        current_password: 
+        current_password: Trenutno geslo
         email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
-        reset_password_token: 
-        unlock_token: 
+        password: Geslo
+        password_confirmation: Potrditev gesla
+        remember_me: Zapomni se me
+        reset_password_token: "Žeton za ponastavitev gesla"
+        unlock_token: "Žeton za odklep"
     models:
-      user: 
+      user: Uporabnik
   devise:
     confirmations:
-      confirmed: Vaš račun je bil uspešno potrjen. Sedaj ste prijavljeni.
+      confirmed: Vaš račun je bil uspešno potrjen.
       new:
-        resend_confirmation_instructions: 
-      send_instructions: Prejeli boste e-pošto z navodili kako potrditi vaš račun.
-      send_paranoid_instructions: "Če vaša e-pošta obstaja v naši bazi, boste v naslednjih minutah prejeli e-pošto z navodili kako potrditi vaš uporabniški račun."
+        resend_confirmation_instructions: Ponovno pošlji navodila za potrditev
+      send_instructions: Prejeli boste email z navodili za potrditev vašega računa.
+      send_paranoid_instructions: "Če vaš email obstaja v naši bazi, boste v naslednjih minutah prejeli email z navodili za potrditev vašega računa."
     failure:
       already_authenticated: Ste že prijavljeni.
       inactive: Vaš račun še ni bil aktiviran.
-      invalid: Neveljavna e-pošta ali geslo.
-      last_attempt: Imate še en poskus, preden se vam račun avtomatsko zaklene.
+      invalid: Neveljaven email ali geslo.
+      last_attempt: Imate še en poskus preden se vam račun avtomatsko zaklene.
       locked: Vaš račun je zaklenjen.
-      not_found_in_database: E-pošta ali geslo sta napačna.
-      timeout: Vaša seja je potekla. Prosimo, ponovno se prijavite za nadaljevanje.
+      not_found_in_database: Email ali geslo je napačno.
+      timeout: Vaša seja je potekla. Za nadaljevanje se prosim ponovno prijavite.
       unauthenticated: Za nadaljevanje se morate prijaviti ali registrirati.
       unconfirmed: Pred nadaljevanjem morate potrditi vaš račun.
     mailer:
       confirmation_instructions:
-        action: 
-        greeting: 
-        instruction: 
+        action: Potrdi moj račun
+        greeting: Pozdravljen %{recipient}!
+        instruction: 'Vaš račun lahko potrdite s spodnjo povezavo:'
         subject: Navodila potrditve
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Pozdravljen %{recipient}!
+        message: Obveščamo vas, da je bilo vaše geslo spremenjeno.
+        subject: Spremenjeno geslo
       reset_password_instructions:
-        action: 
-        greeting: 
-        instruction: 
-        instruction_2: 
-        instruction_3: 
+        action: Spremeni moje geslo
+        greeting: Pozdravljen %{recipient}!
+        instruction: Nekdo je zahteval spremembo gesla. To lahko storite s klikom na spodnjo povezavo.
+        instruction_2: "Če tega niste zahtevali vi, prosim ignorirajte ta email."
+        instruction_3: Vaše geslo se ne bo spremenilo dokler ne nastavite novega s klikom na zgornjo povezavo.
         subject: Navodila za ponastavitev gesla
       unlock_instructions:
-        action: 
-        greeting: 
-        instruction: 
-        message: 
-        subject: Navodila odklepa
+        action: Odkleni moj račun
+        greeting: Pozdravljen %{recipient}!
+        instruction: Kliknite na spodnji link, da odklenete vaš račun.
+        message: Vaš račun je bil zakljenjen zaradi prevečkratnega neuspešnega poskusa vpisa.
+        subject: Navodila za odklep
     omniauth_callbacks:
-      failure: Preverjanje pristnosti ni uspelo iz %{kind} zaradi "%{reason}".
-      success: Uspešno preverjena pristnost iz računa %{kind}.
+      failure: Prijava preko %{kind} računa ni uspela zaradi "%{reason}"
+      success: Uspešna prijava preko %{kind} računa.
     passwords:
       edit:
-        change_my_password: 
-        change_your_password: 
-        confirm_new_password: 
-        new_password: 
+        change_my_password: Spremeni moje geslo
+        change_your_password: Spremenite vaše geslo
+        confirm_new_password: Potrdite novo geslo
+        new_password: Novo geslo
       new:
-        forgot_your_password: 
-        send_me_reset_password_instructions: 
-      no_token: Do te strani lahko dostopate samo iz povezave v e-pošti za ponastavitev gesla. Če pa ste prišli do te strani preko omenjene povezave, preverite, da ste uporabili celotni URL.
-      send_instructions: V naslednjih minutah boste prejeli e-pošto z navodili kako ponastaviti vaše geslo.
-      send_paranoid_instructions: "Če vaša e-pošta obstaja v bazi, boste v naslednjih minutah na vašo e-pošto prejeli povezavo za obnovitev gesla."
+        forgot_your_password: Ste pozabili geslo?
+        send_me_reset_password_instructions: Pošljite mi navodila za ponastavitev gesla
+      no_token: Do te strani lahko dostopate samo iz povezave v emailu za ponastavitev gesla. Če pa ste prišli do te strani preko omenjene povezave, preverite ali ste uporabili celotni URL.
+      send_instructions: V naslednjih minutah boste prejeli email z navodili za ponastavitev gesla.
+      send_paranoid_instructions: "Če vaš email obstaja v bazi, boste v naslednjih minutah prejeli povezavo za ponastavitev gesla."
       updated: Vaše geslo je bilo uspešno spremenjeno. Sedaj ste prijavljeni.
       updated_not_active: Vaše geslo je bilo uspešno spremenjeno.
     registrations:
       destroyed: Nasvidenje. Vaš račun je bil uspešno preklican. Upamo, da se kmalu vrnete.
       edit:
-        are_you_sure: 
-        cancel_my_account: 
-        currently_waiting_confirmation_for_email: 
-        leave_blank_if_you_don_t_want_to_change_it: 
-        title: 
-        unhappy: 
-        update: 
-        we_need_your_current_password_to_confirm_your_changes: 
+        are_you_sure: Ste prepričani?
+        cancel_my_account: Prekličite moj račun
+        currently_waiting_confirmation_for_email: "Čakamo na potrditev: %{email}"
+        leave_blank_if_you_don_t_want_to_change_it: pustite prazno, če ne želite spremeniti
+        title: Uredi %{resource}
+        unhappy: Nezadovoljni?
+        update: Osveži
+        we_need_your_current_password_to_confirm_your_changes: potrebujemo vaše trenutno geslo za potrditev sprememb
       new:
-        sign_up: 
+        sign_up: Registracija
       signed_up: Dobrodošli. Uspešno ste se registrirali.
       signed_up_but_inactive: Uspešno ste se registrirali, vendar pred prvo prijavo je potrebno vaš račun še aktivirati.
       signed_up_but_locked: Uspešno ste se registrirali, vendar prijava ni mogoča, ker je vaš račun zaklenjen.
-      signed_up_but_unconfirmed: Sporočilo s potrditveno povezavo je bilo poslano na vašo e-pošto. Prosimo, kliknite povezavo za aktivacijo vašega računa.
-      update_needs_confirmation: Vaš račun je uspešno posodobljen, vendar potrebno je preveriti vaš novi e-poštni naslov. Prosimo, preverite vašo e-pošto in kliknite na potrditveno povezavo za dokončanje potrditve vašega novega e-poštnega naslova.
+      signed_up_but_unconfirmed: Sporočilo s potrditveno povezavo je bilo poslano na vaš email. Prosimo, kliknite povezavo za aktivacijo vašega računa.
+      update_needs_confirmation: Vaš račun je uspešno posodobljen, vendar potrebno je preveriti vaš novi email naslov. Prosimo, preverite vaš email in kliknite na potrditveno povezavo za dokončanje potrditve vašega novega email naslova.
       updated: Uspešno ste posodobili vaš račun.
     sessions:
-      already_signed_out: 
+      already_signed_out: Izpis uspešen
       new:
-        sign_in: 
+        sign_in: Prijava
       signed_in: Prijava je bila uspešna.
       signed_out: Odjava je bila uspešna.
     shared:
       links:
-        back: 
-        didn_t_receive_confirmation_instructions: 
-        didn_t_receive_unlock_instructions: 
-        forgot_your_password: 
-        sign_in: 
-        sign_in_with_provider: 
-        sign_up: 
+        back: Nazaj
+        didn_t_receive_confirmation_instructions: Niste prejeli navodil za potrditev?
+        didn_t_receive_unlock_instructions: Niste prejeli navodil za odklep?
+        forgot_your_password: Ste pozabili vaše geslo?
+        sign_in: Prijavite se
+        sign_in_with_provider: Prijavite se preko %{provider}
+        sign_up: Registriracija
     unlocks:
       new:
-        resend_unlock_instructions: 
-      send_instructions: V naslednjih minutah boste prejeli e-pošto z navodili, kako odkleniti vaš račun.
-      send_paranoid_instructions: "Če vaš račun obstaja, boste v naslednjih minutah prejeli e-pošto z navodili kako odkleniti vaš račun."
+        resend_unlock_instructions: Ponovno pošlji navodila za odklep
+      send_instructions: V naslednjih minutah boste prejeli email z navodili za odklep vašega računa.
+      send_paranoid_instructions: "Če vaš račun obstaja, boste v naslednjih minutah prejeli email z navodili za odklep vašega računa."
       unlocked: Vaš račun je bil uspešno odklenjen. Prosimo, prijavite se za nadaljevanje.
   errors:
     messages:

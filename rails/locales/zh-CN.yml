@@ -7,8 +7,8 @@ zh-CN:
         password: "密码"
         password_confirmation: "密码确认"
         remember_me: "记住登录信息"
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token: "密码重置令牌"
+        unlock_token: "帐户解锁令牌"
     models:
       user: "用户"
   devise:
@@ -17,43 +17,43 @@ zh-CN:
       new:
         resend_confirmation_instructions: "重新发送确认邮件"
       send_instructions: "几分钟后，您将收到确认帐号的电子邮件."
-      send_paranoid_instructions: "您将收到一封确认账号的邮件.，请注意查收"
+      send_paranoid_instructions: "如果您的邮箱存在于我们的数据库中，您将在几分钟内收到一封确认帐号的邮件。"
     failure:
       already_authenticated: "登录成功"
       inactive: "您的账号还未激活"
       invalid: "账号或密码错误"
-      last_attempt: "你还有一次尝试正确的密码，过后你的帐户会被锁住"
-      locked: "由于您登陆过于频繁，现在我们决定封锁您的账号，请过后再来"
-      not_found_in_database: "邮箱或密码错误"
-      timeout: "登录超时，请重新登录."
-      unauthenticated: "继续操作前请确保您已登录."
-      unconfirmed: "继续操作前请先确认您的帐号."
+      last_attempt: "您还有最后一次尝试机会，再次失败您的帐号将被锁定。"
+      locked: "您的帐户正被锁定。"
+      not_found_in_database: "邮箱或密码错误。"
+      timeout: "登录超时，请重新登录。"
+      unauthenticated: "继续操作前请确保您已登录。"
+      unconfirmed: "继续操作前请先确认您的帐号。"
     mailer:
       confirmation_instructions:
         action: "确认我的帐户"
-        greeting: "欢迎 %{recipient}!"
-        instruction: "您可以通过下面的链接确认您的帐户的电子邮件:"
+        greeting: "欢迎 %{recipient}！"
+        instruction: "您可以通过下面的链接确认您的帐户的电子邮件："
         subject: "确认信息"
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: "%{recipient}您好！"
+        message: "我们写这封信，是要告知阁下的帐户密码已被修改。"
+        subject: "密码已被修改"
       reset_password_instructions:
         action: "更改我的密码"
-        greeting: "你好 %{recipient}!"
+        greeting: "你好 %{recipient}！"
         instruction: "有人要求更改密码的链接，您可以通过下面的链接更改密码："
         instruction_2: "如果您没有要求请求更改密码，请忽略此电子邮件。"
         instruction_3: "如果你没有访问上面的链接并更改密码，你的密码就不会被改变。"
         subject: "重置密码信息"
       unlock_instructions:
         action: "帐户解锁"
-        greeting: "你好 %{recipient}!"
-        instruction: "点击下面的链接到您的帐户解锁:"
-        message: "由于多次的不成功的登入尝试，您的帐户已被锁定。"
+        greeting: "你好 %{recipient}！"
+        instruction: "点击下面的链接以解锁您的帐户："
+        message: "由于多次登录失败，您的帐户已被锁定。"
         subject: "解锁信息"
     omniauth_callbacks:
-      failure: "因为%{reason}，所以您无法从%{kind}获得授权."
-      success: "成功地从%{kind}获得授权."
+      failure: "由于%{reason}，无法从%{kind}获得授权。"
+      success: "成功地从%{kind}获得授权。"
     passwords:
       edit:
         change_my_password: "更改我的密码"
@@ -65,11 +65,11 @@ zh-CN:
         send_me_reset_password_instructions: "请给我发送重设密码的邮件"
       no_token: "您暂时不能访问此页面。您需要通过密码重置邮件中的重置链接来访问此页面，如果您正是通过重置链接访问，请确定链接的正确性。"
       send_instructions: "几分钟后，您将收到重置密码的电子邮件."
-      send_paranoid_instructions: "如果您的邮箱存在于我们的数据库中，您将收到一封找回密码的邮件."
-      updated: "您的密码已修改成功，您现在已登录."
-      updated_not_active: "密码修改成功."
+      send_paranoid_instructions: "如果您的邮箱存在于我们的数据库中，您将收到一封找回密码的邮件。"
+      updated: "您的密码已修改成功，您现在已登录。"
+      updated_not_active: "密码修改成功。"
     registrations:
-      destroyed: "再见！您的帐户已成功注销。我们希望很快可以再见到您."
+      destroyed: "再见！您的帐户已成功注销。我们希望很快可以再见到您。"
       edit:
         are_you_sure: "你确定吗？"
         cancel_my_account: "取消我的帐户"

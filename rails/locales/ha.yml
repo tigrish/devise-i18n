@@ -1,0 +1,120 @@
+ha:
+  activerecord:
+    attributes:
+      user:
+        current_password: Mabudi na yan zu
+        email: I-mail
+        password: Mabudi
+        password_confirmation: Mabudi ya tabbata
+        remember_me: tuna da ni
+        reset_password_token: Gyara mabudi
+        unlock_token: Bode tokin ka
+    models:
+      user: Mai amfani deshi
+  devise:
+    confirmations:
+      confirmed: Adireshin I-mail din ka ya karbu
+      new:
+        resend_confirmation_instructions: Sake turo bayanin ka
+      send_instructions: Zaka karbi sako daga wurin mu na yadda zaka tabbatar da I-mail din ka a kakkanin lokaci
+      send_paranoid_instructions: Idan adireshen I-mail din ka yana tare da data base din mu zaka karbi sakon yadda zaka tabbatar da I-mail din ka
+    failure:
+      already_authenticated: Ka shiga tuni
+      inactive: Akaut din ka bai karbu ba
+      invalid: Adireshin I-mail mara kyau ko kuma mabudi mara kyau
+      last_attempt: kana da dama guda daya kafin mu kulle akaut din ka
+      locked: Akaut din ka an kulle
+      not_found_in_database: Adireshin I-mail mara kyau ko mabudi mara kyau
+      timeout: lokacin ka ya kare, sake shigo wa kafin ka si gaba
+      unauthenticated: Shiga kafin ka ci gaba
+      unconfirmed: Sai ka tabbatar da adireshin I-mail din ka kafin ka ci gaba
+    mailer:
+      confirmation_instructions:
+        action: Tabbatar da akaut di na
+        greeting: 'Sannu da zuwa %{recipient} '
+        instruction: Zaka iya tabbatar da I-mail din ka daga sakon dake karkashin ka
+        subject: Bayanin tabbatar wa
+      password_change:
+        greeting: Hallo %{recipient}
+        message: Muna tura maka da sako cewa mabudin da ka canza ya tabbatar
+        subject: Mabudi ya canzu
+      reset_password_instructions:
+        action: canza mabudi na
+        greeting: Hallo %{recipient}
+        instruction: Wanni ya turo mana da sako mu canza mabudin ka, kuma zaka iya canzawa da sakon dake karkashin ka
+        instruction_2: idan baka turo da sakon canzawa ba kada ka bude sakon
+        instruction_3: mabudin ka bazai canzu ba idan baka bude sakon ba
+        subject: sake gyara bayanin mabudi
+      unlock_instructions:
+        action: bude akaunt di na
+        greeting: hallo %{recipient}!
+        instruction: danna sakon dake karshe domin ka bude akaut din ka
+        message: mun kulle akaut dinka sabo da yawan shige-shigen ka
+        subject: bayanin yadda zaka bude
+    omniauth_callbacks:
+      failure: bai tabbatar de kai ba %{kind} saboda “ %{reason}”
+      success: Tabbatar da bayanin ka %{kind} akaut
+    passwords:
+      edit:
+        change_my_password: Canza mabudi na
+        change_your_password: Canza mabudi ka
+        confirm_new_password: Tabbatar da sabon mobudin ka
+        new_password: Sabon mabudi
+      new:
+        forgot_your_password: Na matta mabudi na
+        send_me_reset_password_instructions: aiko mini da bayanin mabudi na
+      no_token: Ba zaka iya tabbater da wannan bayanin bude waba sai ka koma cikin I-mail da ka bamu idan baka shiga ta hanyar I-mail ba, zaka iya shiga ta ‘URL’ de muke da shi
+      send_instructions: Zaka karbi bayanin daga wurin mu, yadda naka canza mabudin ka a cikin kakkanin lokaci
+      send_paranoid_instructions: Idan adireshin I-mail din ka yana aiki da database din mu, zaka sako daga wurin mu zuwa I-mail din ka, yadda zaka bude akaut din ka a cikin kakkanin lokaci
+      updated: Sabon Mabudin ka ya karbu, zaka iya shiga yan zu
+      updated_not_active: Sabon mabudin ka ya karbu
+    registrations:
+      destroyed: Sai anjuma! Mun kunle akaut din ka, muna fatan zamu sake ganin ka
+      edit:
+        are_you_sure: Ka tabbater da haka
+        cancel_my_account: Kunle akaut di na
+        currently_waiting_confirmation_for_email: 'Muna Sauraron bayanin daga wurin ka: %{email}'
+        leave_blank_if_you_don_t_want_to_change_it: Karka danna komai idan baka canza ba
+        title: Gyara %{resource}
+        unhappy: Ba cin rai
+        update: Ci gaba
+        we_need_your_current_password_to_confirm_your_changes: Muna bukatar sabon mabudin ka domin mu sake tabbatar da canza war ka
+      new:
+        sign_up: 'Shigar da sabon bayanin akaut '
+      signed_up: Sannu da zuwa; sabon akaut din ka ya tabbatar
+      signed_up_but_inactive: Sabon akaut din ka ya tabbata, Ba zamu iya shigar da kai ba sabode akaut din ka bai kar bu ba
+      signed_up_but_locked: Sabon akaut din ka ya tabbata, amma Ba zamu iya shiga da kai ba sabode mun kuile akaut din ka
+      signed_up_but_unconfirmed: sako daga wurin mu zai shigo I-mail din ka, biyomu zaka bude akaut  din ka
+      update_needs_confirmation: Budewar akaut din ka ya tabbata, amma sai mun tabbatar da adireshin i-mail din ka. Duba i-mail din ka zaka ga sako sai ka bude
+      updated: Budewar akaut din ka ya tabbatar
+    sessions:
+      already_signed_out: ka fita daga akaut
+      new:
+        sign_in: shiga akaut
+      signed_in: ka shiga de sauki
+      signed_out: ka fita de sauki
+    shared:
+      links:
+        back: koma baya
+        didn_t_receive_confirmation_instructions: Ban karbi bayanin ka ba?
+        didn_t_receive_unlock_instructions: Ban karɓi bayanin buɗewar bayanin ka ba?
+        forgot_your_password: Na matta mabudi na
+        sign_in: shiga
+        sign_in_with_provider: shiga da %{provider}
+        sign_up: Bayar de sabon bayanin akaut
+    unlocks:
+      new:
+        resend_unlock_instructions: Sake  turo da bayanin bude akaut
+      send_instructions: Zaka karbi bayani daga wurin mu na yadda zaka bude akaut din ka
+      send_paranoid_instructions: Idan akaut din ka yana aiki, zaka karbi bayanin daga wurin mu na yadda zaka bude akaut din ka
+      unlocked: Akaut din ka ya budi, shiga doming a cigaba
+  errors:
+    messages:
+      already_confirmed: Mun karba, kana iya shiga yanzu
+      confirmation_period_expired: Ina so in tabbata da %{period}, tabbayi sabo
+      expired: 'lokacin ka ya kare, sake tambaya sabo '
+      not_found: Ba bayani
+      not_locked: Ba mu kunle ba
+      not_saved:
+        one: 1 me ya sa bayanin ka bai karbu ba %{resource}
+        other: "%{count} Me ya sa bayanin ka %{resource} bai karbu ba  "

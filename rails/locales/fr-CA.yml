@@ -7,15 +7,15 @@ fr-CA:
         password: Mot de passe
         password_confirmation: Confirmation de mot de passe
         remember_me: Se souvenir de moi
-        reset_password_token: 
-        unlock_token: 
+        reset_password_token: Clé de réinitialisation du mot de passe
+        unlock_token: Clé de déblocage
     models:
-      user: 
+      user: Utilisateur
   devise:
     confirmations:
       confirmed: Votre compte a été confirmé avec succès.
       new:
-        resend_confirmation_instructions: 
+        resend_confirmation_instructions: Renvoyer les instructions de confirmation
       send_instructions: Vous allez recevoir sous quelques minutes un courriel comportant des instructions pour confirmer votre compte.
       send_paranoid_instructions: Si votre courriel existe sur notre base de données, vous recevrez sous quelques minutes un message avec des instructions pour confirmer votre compte.
     failure:
