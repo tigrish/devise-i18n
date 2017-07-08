@@ -79,7 +79,7 @@ Gem::Specification.new do |s|
     "rails/locales/lo-LA.yml",
     "rails/locales/lt.yml",
     "rails/locales/lv.yml",
-    "rails/locales/my.yml",
+    "rails/locales/ms.yml",
     "rails/locales/nb.yml",
     "rails/locales/nl.yml",
     "rails/locales/nn-NO.yml",
