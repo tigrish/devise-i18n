@@ -2,29 +2,29 @@ sk:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: Potvrdenie poslané
+        confirmation_token: Potvrdzovací kľúč
+        confirmed_at: Potvrdené
+        created_at: Vytvorené
         current_password: Súčasné heslo
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: Súčasné prihlásenie
+        current_sign_in_ip: IP adresa súčasného prihlásenia
         email: Email
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: Zašifrované heslo
+        failed_attempts: Zlé pokusy
+        last_sign_in_at: Posledné prihlásenie
+        last_sign_in_ip: IP adresa posledného prihlásenia
+        locked_at: Zamknuté
         password: Heslo
         password_confirmation: Potvrdenie hesla
-        remember_created_at: 
+        remember_created_at: Pamätanie vytvorené
         remember_me: Zapamätať si ma
-        reset_password_sent_at: 
-        reset_password_token: 
-        sign_in_count: 
-        unconfirmed_email: 
-        unlock_token: 
-        updated_at: 
+        reset_password_sent_at: Reset hesla poslaný
+        reset_password_token: Kľúč resetu hesla
+        sign_in_count: Počet prihlásení
+        unconfirmed_email: Nepotvrdený email
+        unlock_token: Odomykací kľúč
+        updated_at: Aktualizované
     models:
       user: Používateľ
   devise:
@@ -51,9 +51,9 @@ sk:
         instruction: 'Môžete potvrdiť emailovú adresu vášho účtu pomocou odkazu nižšie:'
         subject: Potvrdzovacie inštrukcie
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Ahoj %{recipient}!
+        message: Upozorňujeme vás, že vaše heslo bolo zmenené.
+        subject: Heslo zmenené
       reset_password_instructions:
         action: Zmeniť moje heslo
         greeting: Ahoj %{recipient}!

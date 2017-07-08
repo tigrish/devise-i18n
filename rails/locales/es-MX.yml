@@ -17,7 +17,7 @@ es-MX:
         locked_at: Fecha de bloqueo
         password: Contraseña
         password_confirmation: Confirmación de la contraseña
-        remember_created_at: "Fecha de 'Recordarme'"
+        remember_created_at: Fecha de 'Recordarme'
         remember_me: Recordarme
         reset_password_sent_at: Fecha de envío de autentificador para contraseña
         reset_password_token: Autentificador para restablecer contraseña

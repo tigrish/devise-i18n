@@ -2,29 +2,29 @@ cs:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: Potvrzení zasláno
+        confirmation_token: Potvrzovací token
+        confirmed_at: Potvrzeno
+        created_at: Vytvořeno
         current_password: Současné heslo
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: Současné přihlášení
+        current_sign_in_ip: Současné přihlášení z IP
         email: Email
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: Zašifrované heslo
+        failed_attempts: Chybných pokusů
+        last_sign_in_at: Poslední přihlášení
+        last_sign_in_ip: Poslední přihlášení z IP
+        locked_at: Uzamčeno
         password: Heslo
         password_confirmation: Potvrzení hesla
-        remember_created_at: 
+        remember_created_at: Zapamatování vytvořeno
         remember_me: Zapamatuj si mě
-        reset_password_sent_at: 
-        reset_password_token: 
-        sign_in_count: 
-        unconfirmed_email: 
-        unlock_token: 
-        updated_at: 
+        reset_password_sent_at: Obnova hesla poslána
+        reset_password_token: Token obnovy hesla
+        sign_in_count: Počet přihlášení
+        unconfirmed_email: Nepotvrzený email
+        unlock_token: Odemykací token
+        updated_at: Upraveno
     models:
       user: Uživatel
   devise:
@@ -51,9 +51,9 @@ cs:
         instruction: Můžete potvrdit svůj účet pomocí odkazu níže
         subject: Instrukce k potvrzení účtu
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Ahoj %{recipient}!
+        message: Dáváme vám vedět, že vaše heslo bylo změněno.
+        subject: Heslo změněno.
       reset_password_instructions:
         action: Změnit mé heslo
         greeting: Ahoj %{recipient}!
