@@ -52,7 +52,7 @@ zh-CN:
         subject: "确认信息"
       password_change:
         greeting: "%{recipient}您好！"
-        message: "我们写这封信，是要告知阁下的帐户密码已被修改。"
+        message: "收到此邮件是因为您的帐户密码已被修改。"
         subject: "密码已被修改"
       reset_password_instructions:
         action: "更改我的密码"
@@ -90,21 +90,21 @@ zh-CN:
         are_you_sure: "你确定吗？"
         cancel_my_account: "取消我的帐户"
         currently_waiting_confirmation_for_email: "等待 %{email} 的确认"
-        leave_blank_if_you_don_t_want_to_change_it: "你不想去改变它，不需要填写"
+        leave_blank_if_you_don_t_want_to_change_it: "如不想更改，则不需要填写"
         title: "修改 %{resource}"
         unhappy: "不喜欢"
         update: "更新"
-        we_need_your_current_password_to_confirm_your_changes: "我们需要您的当前密码以确认您的更改"
+        we_need_your_current_password_to_confirm_your_changes: "我们需要您的当前密码以确认更改"
       new:
         sign_up: "注册"
       signed_up: "欢迎您！您已注册成功."
-      signed_up_but_inactive: "谢谢您！然而您的账号还未被激活，在这之前无法登陆。"
-      signed_up_but_locked: "谢谢您！然而您的账号已被锁定，无法登陆。"
+      signed_up_but_inactive: "您的账号还未被激活，激活前无法登陆。"
+      signed_up_but_locked: "您的账号已被锁定，无法登陆。"
       signed_up_but_unconfirmed: "谢谢您！一封确认邮件已经发至您的邮箱，请点击其中的链接激活您的账号。"
-      update_needs_confirmation: "新的账号信息已成功提交，一封确认邮件已经发至您的邮箱，请点击其中的链接以使您的新E-mail地址生效。"
+      update_needs_confirmation: "新的账号信息已成功提交，确认邮件已经发至您的邮箱，请点击其中的链接以使您的新E-mail地址生效。"
       updated: "帐号资料更新成功."
     sessions:
-      already_signed_out: "成功的登出"
+      already_signed_out: "已登出"
       new:
         sign_in: "登录"
       signed_in: "登录成功."
@@ -123,7 +123,7 @@ zh-CN:
         resend_unlock_instructions: "重发解锁邮件"
       send_instructions: "几分钟后，您将收到一封解锁帐号的邮件."
       send_paranoid_instructions: "如果您的邮箱存在于我们的数据库中，您将收到一封解锁账号的邮件."
-      unlocked: "您的帐号已成功解锁，您现在已登录."
+      unlocked: "您的帐号已成功解锁，现在已登录."
   errors:
     messages:
       already_confirmed: "已经确认，请重新登录."
