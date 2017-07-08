@@ -1,4 +1,4 @@
-my:
+ms:
   activerecord:
     attributes:
       user:
