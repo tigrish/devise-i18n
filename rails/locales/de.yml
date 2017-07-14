@@ -2,29 +2,29 @@ de:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: Bestätigung gesendet am
+        confirmation_token: Bestätigungs-Token
+        confirmed_at: Bestätigt am
+        created_at: Erstellt am
         current_password: Bisheriges Passwort
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: Aktuelle Anmeldung vom
+        current_sign_in_ip: IP aktueller Anmeldung
         email: E-Mail
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: Verschlüsseltes Passwort
+        failed_attempts: Fehlversuche
+        last_sign_in_at: Letzte Anmeldung am
+        last_sign_in_ip: IP der letzten Anmeldung
+        locked_at: Gesperrt am
         password: Passwort
         password_confirmation: Passwortbestätigung
-        remember_created_at: 
+        remember_created_at: Angemeldet bleiben vom
         remember_me: Angemeldet bleiben
-        reset_password_sent_at: 
+        reset_password_sent_at: Passwort-Zurücksetzen-E-Mail gesendet am
         reset_password_token: Passwort-Zurücksetzen-Token
-        sign_in_count: 
-        unconfirmed_email: 
+        sign_in_count: Anzahl Anmeldungend
+        unconfirmed_email: Unbestätigte E-Mail-Adresse
         unlock_token: Entsperrungs-Token
-        updated_at: 
+        updated_at: Aktualisiert am
     models:
       user: Benutzer
   devise:
