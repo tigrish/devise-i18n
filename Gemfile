@@ -9,4 +9,4 @@ group :development do
   gem 'railties'
 end
 
-gem 'devise', '>= 1.5'
+gem 'devise', '>= 2.0'
