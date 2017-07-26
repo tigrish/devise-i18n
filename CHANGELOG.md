@@ -1,3 +1,10 @@
+## 1.2.0
+
+- Made all possible attribute names from all devise modules localizable.
+- Added es, ha, ig, lo-LA, yo, and zh-YUE translations.
+- Updated bg, cs, de, es-MX, fr-CA, ja, ka, nl, pt-BR, sk, sl, zh-CN, and zh-TW translations.
+- Corrected Malay locale code (from my to ms).
+
 ## 1.1.2
 
 - Updated en-GB, fi, ko, nl, pl, pt, pt-BR, ru, uk, and zh-TW translations.
