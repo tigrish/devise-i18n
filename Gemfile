@@ -8,3 +8,5 @@ group :development do
   gem 'localeapp'
   gem 'railties'
 end
+
+gem 'devise', '>= 1.5'
