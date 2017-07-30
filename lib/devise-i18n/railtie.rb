@@ -14,6 +14,10 @@ module DeviseI18n
       end
     end
 
+    initializer 'devise-i18n.view_helpers' do
+      ActionView::Base.include(ViewHelpers)
+    end
+
     protected
 
     def self.add(pattern)
