@@ -2,133 +2,135 @@ ms:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
-        current_password: 
-        current_sign_in_at: 
-        current_sign_in_ip: 
-        email: 
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
-        password: 
-        password_confirmation: 
-        remember_created_at: 
-        remember_me: 
-        reset_password_sent_at: 
-        reset_password_token: 
-        sign_in_count: 
-        unconfirmed_email: 
-        unlock_token: 
-        updated_at: 
+        confirmation_sent_at: Pengesahan dihantar ke
+        confirmation_token: Token pengesahan
+        confirmed_at: Disahkan di
+        created_at: Dicipta di
+        current_password: Kata laluan kini
+        current_sign_in_at: Kini log masuk di
+        current_sign_in_ip: IP log masuk kini
+        email: E-mel
+        encrypted_password: Kata laluan tersulit
+        failed_attempts: Percubaan gagal
+        last_sign_in_at: Log masuk terakhir di
+        last_sign_in_ip: IP log masuk terakhir
+        locked_at: Dikunci di
+        password: Kata laluan
+        password_confirmation: Pengesahan kata laluan 
+        remember_created_at: Ingat dicipta di
+        remember_me: Ingat saya
+        reset_password_sent_at: Kata laluan set semula dihantar di
+        reset_password_token: Token kata laluan set semula
+        sign_in_count: Kiraan log masuk
+        unconfirmed_email: E-mel yang belum sah
+        unlock_token: Buka token
+        updated_at: Dikemaskinikan di
     models:
-      user: 
+      user: User
   devise:
     confirmations:
-      confirmed: Akaun anda telah berjaya disahkan. Anda telah sign in.
+      confirmed: Alamat e-mel anda telah berjaya disahkan.
       new:
-        resend_confirmation_instructions: 
-      send_instructions: Anda akan menerima e-mail mengenai langkah proses pengesahan akaun sebentar lagi.
-      send_paranoid_instructions: 
+        resend_confirmation_instructions: Hantar semula pengesahan arahan
+      send_instructions: Anda akan menerima e-mel dengan arahan untuk bagaimana untuk mengesahkan alamat e-mel anda dalam beberapa minit.
+      send_paranoid_instructions: Jika emel anda wujud di dalam pangkalan data kami, anda akan menerima e-mel dengan arahan untuk bagaimana mengesahkan alamat e-mel anda dalam beberapa minit.
     failure:
-      already_authenticated: 
-      inactive: Akun anda belum diaktifkan.
-      invalid: email atau password yang anda masukkan salah.
-      last_attempt: 
-      locked: Akun anda terkunci.
-      not_found_in_database: 
-      timeout: Sesi anda telah tamat, silahkan sign in bagi meneruskan sesi yang baru.
-      unauthenticated: Anda harus mendaftar atau sign in sebelum meneruskan .
-      unconfirmed: Anda harus melakukan proses pengesahan sebalum meneruskan.
+      already_authenticated: Anda telah log masuk.
+      inactive: Akaun anda belum diaktifkan lagi.
+      invalid: E-mel atau kata laluan yang tidak sah.
+      ast_attempt: Anda ada satu lagi percubaan sebelum akaun anda dikunci.
+      locked: Akaun anda telah dikunci.
+      not_found_in_database: Alamat e-mel atau kata laluan yang tidak sah.
+      timeout: Sesi anda telah tamat. Sila log masuk lagi untuk meneruskan.
+      unauthenticated: Anda perlu log masuk atau daftar sebelum meneruskan.
+      unconfirmed: Anda perlu mengesahkan alamat e-mel anda sebelum meneruskan.
     mailer:
       confirmation_instructions:
-        action: 
-        greeting: 
-        instruction: 
-        subject: Arahan proses pengesahan
+        action: Sahkan akaun saya
+        greeting: Selamat datang %{recipient}!
+        instruction: 'Anda boleh mengesahkan akaun e-mel anda melalui pautan di bawah:'
+        subject: Arahan pengesahan
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Helo %{recipient}!
+        message: Kami sedang menghubungi anda untuk memberitahu anda bahawa kata laluan anda telah ditukar.
+        subject: Kata Laluan Ditukar
       reset_password_instructions:
-        action: 
-        greeting: 
-        instruction: 
-        instruction_2: 
-        instruction_3: 
-        subject: Arahan mengubah password
+        action: Tukar kata laluan saya
+        greeting: Helo %{recipient}!
+        instruction: Seseorang telah meminta sebuah pautan untuk menukar kata laluan anda dan anda boleh melakukannya melalui pautan di bawah.
+        instruction_2: Jika anda tidak meminta ini, sila abaikan e-mel ini.
+        instruction_3: Kata laluan anda tidak akan ditukar sehingga anda mengakses pautan di atas dan membuat yang baru.
+        subject: Arahan kata laluan set semula
       unlock_instructions:
-        action: 
-        greeting: 
-        instruction: 
-        message: 
-        subject: Arahan membuka akaun kembali
+        action: Buka akaun saya
+        greeting: Helo %{recipient}!
+        instruction: 'Klik pautan di bawah untuk membuka akaun anda:'
+        message: Akaun anda telah dikunci disebabkan terlalu banyak kegagalan percubaan log masuk. 
+        subject: Arahan membuka
     omniauth_callbacks:
-      failure: 
-      success: 
+      failure: Tidak dapat mengesahkan anda daripada %{kind} kerana "%{reason}".
+      success: Berjaya mengesahkan daripada akaun %{kind}.
     passwords:
       edit:
-        change_my_password: 
-        change_your_password: 
-        confirm_new_password: 
-        new_password: 
+        change_my_password: Tukar kata laluan saya
+        change_your_password: Tukar kata laluan anda
+        confirm_new_password: Sahkan kata laluan baru
+        new_password: Kata laluan baru
       new:
-        forgot_your_password: 
-        send_me_reset_password_instructions: 
-      no_token: 
-      send_instructions: Anda akan menerima e-mail mengenai langkah mengubah password sebentar lagi.
-      send_paranoid_instructions: 
-      updated: Password anda telah berjaya diubah. Anda telah sign in.
-      updated_not_active: 
+        forgot_your_password: Lupa kata laluan anda?
+        send_me_reset_password_instructions: Hantar saya arahan kata laluan set semula
+      no_token: Anda tidak boleh mengakses halaman ini tanpa didatangi daripada e-mel kata laluan set semula. Jika anda datang daripada e-mel kata laluan set semula, sila pastikan anda telah menggunakan URL penuh yang diberikan.
+      send_instructions: Anda akan menerima sebuah e-mel dengan arahan mengenai bagaimana untuk menetapkan semula kata laluan anda dalam beberapa minit.
+      send_paranoid_instructions: Jika alamat e-mel anda wujud di dalam pangkalan data kami, anda akan menerima sebuah pemulihan kata laluan di alamat e-mel anda dalam beberapa minit.
+      updated: Kata laluan anda telah berjaya ditukar. Anda kini telah log masuk.
+      updated_not_active: Kata laluan anda telah berjaya ditukar
     registrations:
-      destroyed: Selamat Tinggal, akaun anda telah di tutup
+      destroyed: Selamat tinggal! Akaun anda telah berjaya dibatalkan. Kami berharap untuk berjumpa dengan anda lagi.
       edit:
-        are_you_sure: 
-        cancel_my_account: 
-        currently_waiting_confirmation_for_email: 
-        leave_blank_if_you_don_t_want_to_change_it: 
-        title: 
-        unhappy: 
-        update: 
-        we_need_your_current_password_to_confirm_your_changes: 
+        are_you_sure: Adakah anda pasti?
+        cancel_my_account: Batalkan akaun saya
+        currently_waiting_confirmation_for_email: 'Kini menunggu pengesahan untuk: %{email}'
+        leave_blank_if_you_don_t_want_to_change_it: tinggalkan kosong jika anda tidak ingin untuk mengubahnya
+        title: Edit %{resource}
+        unhappy: Tidak Gembira?
+        update: Kemas Kini
+        we_need_your_current_password_to_confirm_your_changes: kami memerlukan kata laluan anda yang kini untuk mengesahkan perubahan anda
       new:
-        sign_up: 
-      signed_up: Proses pendaftaran berjaya. Link untuk mengaktifkan akaun telah dihantar di e-mail.
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
-      signed_up_but_unconfirmed: 
-      update_needs_confirmation: 
-      updated: Akaun anda telah dikemaskini
+        sign_up: Daftar
+      signed_up: Selamat datang! Anda telah berjaya mendaftar.
+      signed_up_but_inactive: Anda telah berjaya mendaftar. Namun, kami tidak dapat melog masuk anda kerana akaun anda belum diaktifkan.
+      signed_up_but_locked: Anda telah berjaya mendaftar. Namun, kami tidak dapat melog masuk anda kerana akaun anda telah dikunci.
+      signed_up_but_unconfirmed: Sebuah mesej dengan pautan pengesahan telah dihantar ke alamat e-mel anda. Sila ikuti pautan tersebut untuk mengaktifkan akaun anda.
+      update_needs_confirmation: Anda telah mengemas kini akaun anda dengan berjaya, tetapi kami perlu mengesahkan alamat e-mel anda yang baharu. Sila periksa e-mel anda dan ikuti pautan pengesahan untuk mengesahkan alamat e-mel anda yang baharu.
+      updated: Akaun anda telah berjaya dikemaskinikan.
     sessions:
-      already_signed_out: 
+      already_signed_out: Berjaya dilog keluar.
       new:
-        sign_in: 
-      signed_in: Proses sign in berjaya.
-      signed_out: Proses sign out berjaya.
+        sign_in: Log masuk
+      signed_in: Berjaya dilog masuk .
+      signed_out: Berjaya dilog keluar.
     shared:
       links:
-        back: 
-        didn_t_receive_confirmation_instructions: 
-        didn_t_receive_unlock_instructions: 
-        forgot_your_password: 
-        sign_in: 
-        sign_in_with_provider: 
-        sign_up: 
+        back: Kembali
+        didn_t_receive_confirmation_instructions: Tidak mendapat arahan pengesahan?
+        didn_t_receive_unlock_instructions: Tidak mendapat arahan membuka akaun?
+        forgot_your_password: Lupa kata laluan anda?
+        sign_in: Log masuk
+        sign_in_with_provider: Log masuk dengan %{provider}
+        sign_up: Daftar
     unlocks:
       new:
-        resend_unlock_instructions: 
-      send_instructions: Anda akan menerima e-mail mengenai langkah membuka akaun kembali sebentar lagi.
-      send_paranoid_instructions: 
-      unlocked: Akun anda telah berjaya dibuka. Anda telah sign in.
+        resend_unlock_instructions: Hantar semula arahan buka akaun
+      send_instructions: Anda akan menerima sebuah e-mel dengan arahan untuk bagaimana untuk membuka akaun anda dalam beberapa minit.
+      send_paranoid_instructions: Jika akaun anda wujud, anda akan menerima sebuah e-mel dengan arahan untuk bagaimana untuk membukanya dalam beberapa minit.
+      unlocked: Akaun anda telah berjaya dibuka. Sila log masuk untuk meneruskan.
   errors:
     messages:
-      already_confirmed: sudah disahkan
-      confirmation_period_expired: 
-      expired: 
+      already_confirmed: telah disahkan, sila cuba untuk log masuk
+      confirmation_period_expired: perlu disahkan dalam %{period}, sila minta yang baharu
+      expired: telah tamat, sila minta yang baharu
       not_found: tidak dijumpai
       not_locked: tidak dikunci
-      not_saved: 
+      not_saved:
+        one: '1 ralat telah melarang %{resource} ini daripada disimpan:'
+        other: "%{count} ralat telah melarang %{resource} daripada disimpan:"
