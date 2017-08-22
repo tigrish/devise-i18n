@@ -4,27 +4,27 @@ ms:
       user:
         confirmation_sent_at: Pengesahan dihantar ke
         confirmation_token: Token pengesahan
-        confirmed_at: Disahkan di
-        created_at: Dicipta di
+        confirmed_at: Disahkan pada
+        created_at: Dicipta pada
         current_password: Kata laluan kini
-        current_sign_in_at: Kini log masuk di
+        current_sign_in_at: Kini log masuk pada
         current_sign_in_ip: IP log masuk kini
         email: E-mel
         encrypted_password: Kata laluan tersulit
         failed_attempts: Percubaan gagal
-        last_sign_in_at: Log masuk terakhir di
+        last_sign_in_at: Log masuk terakhir pada
         last_sign_in_ip: IP log masuk terakhir
-        locked_at: Dikunci di
+        locked_at: Dikunci pada
         password: Kata laluan
         password_confirmation: Pengesahan kata laluan 
-        remember_created_at: Ingat dicipta di
+        remember_created_at: Ingat dicipta pada
         remember_me: Ingat saya
-        reset_password_sent_at: Kata laluan set semula dihantar di
+        reset_password_sent_at: Kata laluan set semula dihantar pada
         reset_password_token: Token kata laluan set semula
         sign_in_count: Kiraan log masuk
         unconfirmed_email: E-mel yang belum sah
         unlock_token: Buka token
-        updated_at: Dikemaskinikan di
+        updated_at: Dikemaskinikan pada
     models:
       user: User
   devise:
@@ -38,7 +38,7 @@ ms:
       already_authenticated: Anda telah log masuk.
       inactive: Akaun anda belum diaktifkan lagi.
       invalid: E-mel atau kata laluan yang tidak sah.
-      ast_attempt: Anda ada satu lagi percubaan sebelum akaun anda dikunci.
+      last_attempt: Anda ada satu lagi percubaan sebelum akaun anda dikunci.
       locked: Akaun anda telah dikunci.
       not_found_in_database: Alamat e-mel atau kata laluan yang tidak sah.
       timeout: Sesi anda telah tamat. Sila log masuk lagi untuk meneruskan.
@@ -107,7 +107,7 @@ ms:
       already_signed_out: Berjaya dilog keluar.
       new:
         sign_in: Log masuk
-      signed_in: Berjaya dilog masuk .
+      signed_in: Berjaya dilog masuk.
       signed_out: Berjaya dilog keluar.
     shared:
       links:
