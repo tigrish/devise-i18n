@@ -2,31 +2,31 @@ sr:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
+        confirmation_sent_at: Potvrda poslata na
         confirmation_token: 
         confirmed_at: 
         created_at: 
-        current_password: 
+        current_password: Trenutna lozinka
         current_sign_in_at: 
         current_sign_in_ip: 
-        email: 
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
-        password: 
-        password_confirmation: 
+        email: Email
+        encrypted_password: Enkriptovana lozinka
+        failed_attempts: Neuspeli pokušaji
+        last_sign_in_at: Poslednji put ulogovan
+        last_sign_in_ip: Poslednja IP adresa
+        locked_at: Zaključano
+        password: Lozinka
+        password_confirmation: Potvrda lozinke
         remember_created_at: 
-        remember_me: 
-        reset_password_sent_at: 
+        remember_me: Zapamti me
+        reset_password_sent_at: Uputstvo za resetovanje lozinke poslato
         reset_password_token: 
         sign_in_count: 
         unconfirmed_email: 
         unlock_token: 
         updated_at: 
     models:
-      user: 
+      user: Korisnik
   devise:
     confirmations:
       confirmed: Vaš nalog je uspešno potvrđen. Sada ste prijavljeni.

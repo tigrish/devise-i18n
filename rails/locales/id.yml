@@ -2,31 +2,31 @@ id:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
-        current_password: Password saat ini
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        confirmation_sent_at: Konfirmasi terkirim pada
+        confirmation_token: Token konfirmasi
+        confirmed_at: Dikonfirmasi pada
+        created_at: Dibuat pada
+        current_password: Kata sandi saat ini
+        current_sign_in_at: Waktu masuk saat ini pada
+        current_sign_in_ip: Alamat IP masuk saat ini
         email: Email
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
-        password: Password
-        password_confirmation: Konfirmasi password
-        remember_created_at: 
+        encrypted_password: Kata sandi terenkripsi
+        failed_attempts: Percobaan gagal
+        last_sign_in_at: Terakhir masuk pada
+        last_sign_in_ip: Alamat IP terakhir masuk
+        locked_at: Dikunci pada
+        password: Kata sandi
+        password_confirmation: Konfirmasi kata sandi
+        remember_created_at: Ingat dibuat pada
         remember_me: Ingat saya
-        reset_password_sent_at: 
-        reset_password_token: 
-        sign_in_count: 
-        unconfirmed_email: 
-        unlock_token: 
-        updated_at: 
+        reset_password_sent_at: Setel ulang kata sandi dikirim pada
+        reset_password_token: Token setel ulang kata sandi
+        sign_in_count: Jumlah masuk
+        unconfirmed_email: Email belum terkonfirmasi
+        unlock_token: Token buka kunci
+        updated_at: Diubah pada
     models:
-      user: User
+      user: Pengguna
   devise:
     confirmations:
       confirmed: Akun anda telah berhasil dikonfirmasi. Anda telah sign in.
