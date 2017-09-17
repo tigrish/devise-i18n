@@ -21,7 +21,7 @@ it:
         remember_me: Ricordami
         reset_password_sent_at: Data di invio del reset password
         reset_password_token: Token di reset password
-        sign_in_count: Importo del reddito
+        sign_in_count: Numero dei login
         unconfirmed_email: Email non confermato
         unlock_token: Token di sblocco
         updated_at: Data aggiornata
