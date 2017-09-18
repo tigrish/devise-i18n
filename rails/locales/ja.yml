@@ -87,7 +87,7 @@ ja:
     registrations:
       destroyed: "アカウントを削除しました。またのご利用をお待ちしております。"
       edit:
-        are_you_sure: "本当に良いですか?"
+        are_you_sure: "本当によろしいですか?"
         cancel_my_account: "アカウント削除"
         currently_waiting_confirmation_for_email: "%{email} の確認待ち"
         leave_blank_if_you_don_t_want_to_change_it: "空欄のままなら変更しません"
