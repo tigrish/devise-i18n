@@ -51,7 +51,7 @@ zh-CN:
         instruction: "您可以通过下面的链接确认您的帐户的电子邮件："
         subject: "确认信息"
       password_change:
-        greeting: "%{recipient}您好！"
+        greeting: "你好 %{recipient}！"
         message: "收到此邮件是因为您的帐户密码已被修改。"
         subject: "密码已被修改"
       reset_password_instructions:
