@@ -33,13 +33,13 @@ ja:
       new:
         resend_confirmation_instructions: "アカウント確認メール再送"
       send_instructions: "アカウントの有効化について数分以内にメールでご連絡します。"
-      send_paranoid_instructions: "あなたのメールアドレスが登録済みの場合、本人確認用のメールが数分以内に送信されます。"
+      send_paranoid_instructions: "メールアドレスが登録済みの場合、本人確認用のメールが数分以内に送信されます。"
     failure:
       already_authenticated: "すでにログインしています。"
       inactive: "アカウントが有効化されていません。メールに記載された手順にしたがって、アカウントを有効化してください。"
       invalid: "メールアドレスまたはパスワードが違います。"
-      last_attempt: "あなたのアカウントが凍結される前に、複数回の操作がおこなわれています。"
-      locked: "あなたのアカウントは凍結されています。"
+      last_attempt: "アカウントが凍結される前に、複数回の操作がおこなわれています。"
+      locked: "アカウントは凍結されています。"
       not_found_in_database: "メールアドレスまたはパスワードが違います。"
       timeout: "セッションがタイムアウトしました。もう一度ログインしてください。"
       unauthenticated: "アカウント登録もしくはログインしてください。"
@@ -52,14 +52,14 @@ ja:
         subject: "アカウントの有効化について"
       password_change:
         greeting: "%{recipient}様"
-        message: "あなたのパスワードが再設定されたことを通知します。"
+        message: "パスワードが再設定されたことを通知します。"
         subject: "パスワードの変更について"
       reset_password_instructions:
         action: "パスワード変更"
         greeting: "%{recipient}様"
-        instruction: "誰かがパスワードの再設定を希望しました。次のリンクでパスワードの再設定が出来ます。"
-        instruction_2: "あなたが希望したのではないのなら、このメールは無視してください。"
-        instruction_3: "上のリンクにアクセスして新しいパスワードを設定するまで、パスワードは変更されません。"
+        instruction: "パスワード再設定の依頼を受けたため、メールを送信しています。下のリンクからパスワードの再設定ができます。"
+        instruction_2: "パスワード再設定の依頼をしていない場合、このメールを無視してください。"
+        instruction_3: "パスワードの再設定は、上のリンクから新しいパスワードを登録するまで完了しません。"
         subject: "パスワードの再設定について"
       unlock_instructions:
         action: "アカウントのロック解除"
@@ -81,7 +81,7 @@ ja:
         send_me_reset_password_instructions: "パスワードの再設定方法を送信する"
       no_token: "このページにはアクセスできません。パスワード再設定メールのリンクからアクセスされた場合には、URL をご確認ください。"
       send_instructions: "パスワードの再設定について数分以内にメールでご連絡いたします。"
-      send_paranoid_instructions: "あなたのメールアドレスが登録済みの場合、パスワード再設定用のメールが数分以内に送信されます。"
+      send_paranoid_instructions: "メールアドレスが登録済みの場合、パスワード再設定用のメールが数分以内に送信されます。"
       updated: "パスワードが正しく変更されました。"
       updated_not_active: "パスワードが正しく変更されました。"
     registrations:
