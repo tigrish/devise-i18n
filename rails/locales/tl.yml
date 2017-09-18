@@ -51,10 +51,6 @@ tl:
       new:
         forgot_your_password: Nakalimutang ang iyong password?
         send_me_reset_password_instructions: Padalhan mo ako ng mga tagubilin sa pag-reset ng password
-      expired:
-        renew_your_password: I-renew ang iyong password
-        change_required: Nag-expire na ang iyong password. Mangyaring baguhin ang iyong password.
-        change_required_days: Ang iyong password ay mas luma kaysa sa %{days} araw. Mangyaring baguhin ang iyong password.
       no_token: Hindi mo ma-access ang pahinang ito nang hindi nanggagaling sa isang email sa pag-reset ng password. Kung ikaw ay nagmula sa isang email ng pag-reset ng password, siguraduhin na ginamit mo ang buong URL na ibinigay.
       send_instructions: Makakatanggap ka ng isang email na may mga tagubilin kung paano i-reset ang iyong password sa loob ng mga ilang minuto.
       send_paranoid_instructions: Kung ang iyong email address ay nakikita sa aming database, makakatanggap ng isang password recovery link sa iyong email address sa loob ng mga ilang minuto.
