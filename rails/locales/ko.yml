@@ -2,29 +2,29 @@ ko:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at:
+        confirmation_token:
+        confirmed_at:
+        created_at:
         current_password: "현재 비밀번호"
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at:
+        current_sign_in_ip: "현재 접속 IP주소"
         email: "이메일"
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: "암호화된 비밀번호"
+        failed_attempts: "접속시도 실패"
+        last_sign_in_at: "마지막 접속위치"
+        last_sign_in_ip: "마지막 접속 IP주소"
+        locked_at:
         password: "비밀번호"
         password_confirmation: "비밀번호 확인"
-        remember_created_at: 
+        remember_created_at:
         remember_me: "로그인 정보 기억하기"
-        reset_password_sent_at: 
-        reset_password_token: 
-        sign_in_count: 
-        unconfirmed_email: 
-        unlock_token: 
-        updated_at: 
+        reset_password_sent_at: "재설정된 암호 발송"
+        reset_password_token: "재설정된 암호 토큰"
+        sign_in_count:
+        unconfirmed_email: "확인되지 않은 이메일 주소"
+        unlock_token:
+        updated_at:
     models:
       user: "사용자"
   devise:
@@ -52,8 +52,8 @@ ko:
         subject: "이메일 인증 안내"
       password_change:
         greeting: "%{recipient}님"
-        message:
-        subject:
+        message: "당신의 계정 비밀번호가 변경되었음을 알려드립니다."
+        subject: "비밀번호가 변경되었습니다"
       reset_password_instructions:
         action: "비밀번호 변경"
         greeting: "%{recipient}님"
