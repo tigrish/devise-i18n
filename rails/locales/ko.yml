@@ -79,10 +79,6 @@ ko:
       new:
         forgot_your_password: "비밀번호를 잊으셨나요?"
         send_me_reset_password_instructions: "비밀번호 재설정 안내를 요청합니다"
-      expired:
-        renew_your_password: "암호 변경"
-        change_required: "암호 사용 기간 만료되었습니다. 암호를 변경하십시오."
-        change_required_days: "암호 사용 기간 (%{days} 일) 만료되었습니다. 암호를 변경하십시오."
       no_token: "비밀번호 재설정 이메일을 거치지 않고 이 페이지에 접근할 수 없습니다. 비밀번호 재설정 이메일에서 오셨다면, 주소가 제대로 되었는지 확인해 주세요."
       send_instructions: "잠시 후에 비밀번호 재설정 안내 메일을 받을 수 있습니다."
       send_paranoid_instructions: "회원정보에 등록된 이메일 주소와 동일하면, 몇 분 안에 비밀번호 재설정 주소를 이메일로 받으실 수 있습니다."
