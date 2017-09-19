@@ -2,29 +2,29 @@ ko:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at:
-        confirmation_token:
-        confirmed_at:
-        created_at:
+        confirmation_sent_at: "확인 메일 전송 시간"
+        confirmation_token: "확인 토큰"
+        confirmed_at: "확인된 시간"
+        created_at: "생성된 시간"
         current_password: "현재 비밀번호"
-        current_sign_in_at:
+        current_sign_in_at: "현재 접속 시간"
         current_sign_in_ip: "현재 접속 IP주소"
         email: "이메일"
         encrypted_password: "암호화된 비밀번호"
         failed_attempts: "접속시도 실패"
-        last_sign_in_at: "마지막 접속위치"
+        last_sign_in_at: "마지막 접속 시간"
         last_sign_in_ip: "마지막 접속 IP주소"
-        locked_at:
+        locked_at: "접근 잠김 시간"
         password: "비밀번호"
         password_confirmation: "비밀번호 확인"
-        remember_created_at:
+        remember_created_at: "로그인 기록된  시간"
         remember_me: "로그인 정보 기억하기"
         reset_password_sent_at: "재설정된 암호 발송"
         reset_password_token: "재설정된 암호 토큰"
-        sign_in_count:
+        sign_in_count: "로그인 수"
         unconfirmed_email: "확인되지 않은 이메일 주소"
-        unlock_token:
-        updated_at:
+        unlock_token: "잠금해제 토큰"
+        updated_at: "업데이트된 시간"
     models:
       user: "사용자"
   devise:
