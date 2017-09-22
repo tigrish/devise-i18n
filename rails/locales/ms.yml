@@ -16,7 +16,7 @@ ms:
         last_sign_in_ip: IP log masuk terakhir
         locked_at: Dikunci pada
         password: Kata laluan
-        password_confirmation: Pengesahan kata laluan 
+        password_confirmation: Pengesahan kata laluan
         remember_created_at: Ingat dicipta pada
         remember_me: Ingat saya
         reset_password_sent_at: Kata laluan set semula dihantar pada
@@ -65,7 +65,7 @@ ms:
         action: Buka akaun saya
         greeting: Helo %{recipient}!
         instruction: 'Klik pautan di bawah untuk membuka akaun anda:'
-        message: Akaun anda telah dikunci disebabkan terlalu banyak kegagalan percubaan log masuk. 
+        message: Akaun anda telah dikunci disebabkan terlalu banyak kegagalan percubaan log masuk.
         subject: Arahan membuka
     omniauth_callbacks:
       failure: Tidak dapat mengesahkan anda daripada %{kind} kerana "%{reason}".
