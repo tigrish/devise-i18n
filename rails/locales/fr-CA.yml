@@ -2,29 +2,29 @@ fr-CA:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
-        current_password: Mot de passe courant
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        confirmation_sent_at: Date d'envoi de la confirmation
+        confirmation_token: Clé de confirmation du mot de passe
+        confirmed_at: Confirmé à
+        created_at: Enregistré à
+        current_password: Mot de passe actuel
+        current_sign_in_at: Date de la connexion actuelle
+        current_sign_in_ip: IP de la connexion actuelle
         email: Courriel
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: Mot de passe crypté
+        failed_attempts: Tentatives échouées
+        last_sign_in_at: Date de la dernière connexion
+        last_sign_in_ip: IP de la dernière connexion
+        locked_at: Verrouillé à
         password: Mot de passe
-        password_confirmation: Confirmation de mot de passe
-        remember_created_at: 
-        remember_me: Se souvenir de moi
-        reset_password_sent_at: 
+        password_confirmation: Confirmation du mot de passe
+        remember_created_at: Mémorisé à
+        remember_me: Se souvenir de moi?
+        reset_password_sent_at: Clé de réinitialisation créée à
         reset_password_token: Clé de réinitialisation du mot de passe
-        sign_in_count: 
-        unconfirmed_email: 
-        unlock_token: Clé de déblocage
-        updated_at: 
+        sign_in_count: Nombre des connexions
+        unconfirmed_email: Courriel non confirmé
+        unlock_token: Clé de déverrouillage
+        updated_at: Date de mise à jour
     models:
       user: Utilisateur
   devise:
