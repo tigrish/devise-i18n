@@ -1,35 +1,35 @@
-en:
+ur:
   activerecord:
     attributes:
       user:
         confirmation_sent_at:  تصدیق بیجھنے کا وقت
         confirmation_token: توثیقی ٹوکن.
-        confirmed_at:
-        created_at:
+        confirmed_at: تصدیق کا وقت
+        created_at: بنانے کا وقت
         current_password: موجودہ خفیہ لفظ
         current_sign_in_at: موجودہ سائن ان کا وقت
         current_sign_in_ip: موجودہ سائن ان کا  آی پی
-        email: Email
+        email: ای میل
         encrypted_password: خفیہ کردہ لفظ
         failed_attempts: ناکام کوششیں
-        last_sign_in_at: Last sign in at
-        last_sign_in_ip: Last sign in IP
-        locked_at: Locked at
+        last_sign_in_at: آخری سائن ان کا وقت
+        last_sign_in_ip: آخری سائن ان کا آی پی
+        locked_at: بند ھونے کا وقت
         password: خفیہ لفظ
         password_confirmation: پاسورڈ کی تو ثیق
-        remember_created_at: Remember created at
-        remember_me: Remember me
-        reset_password_sent_at: Reset password sent at
-        reset_password_token: Reset password token
-        sign_in_count: Sign in count
-        unconfirmed_email: Unconfirmed email
-        unlock_token: Unlock token
-        updated_at: Updated at
+        remember_created_at: بناۓ کو یاد رکھو
+        remember_me: مجھے یاد رکھیں
+        reset_password_sent_at: ترتیب شدہ پاسورڈ بیجھے جانے کا وقت
+        reset_password_token: ترتیب شدہ پاسورڈ کا ٹوکن
+        sign_in_count: سائن ان کا شمار
+        unconfirmed_email: غیر مصدقہ ای میل
+        unlock_token: غیر مقفل کرنے کا ٹوکن
+        updated_at: ترمیم کرنے کا وقت
     models:
-      user: User
+      user: صارف
   devise:
     confirmations:
-      confirmed: آپ کی ای میل کی تصدیق کامیابی سے  ھو گئی ہے
+      confirmed: آپ کی ای میل کی تصدیق کامیابی سے ھو گئی ہے
       new:
         resend_confirmation_instructions: تصدیقی ہدایات دوبارہ بھیجیں
       send_instructions: .آپ کو چند لمحات میں اپنے ای میل ایڈریس کی تصدیق کرنے کے لئے ہدایات کے ساتھ ایک ای میل وصول ھو جائے گا
@@ -56,14 +56,14 @@ en:
         subject: خفیہ لفظ تبدیل ھو چکا ھے۔
       reset_password_instructions:
         action: میرا خفیہ لفظ تبدیل کریں۔
-        greeting: Hello %{recipient}!
+        greeting: !%{recipient} آداب
         instruction: کسی نے آپ کا پاس ورڈ تبدیل کرنے کے لئے ایک لنک کی درخواست کی ہے، اور آپ نیچے دئیے گئے لنک کے ذریعے ایسا کر سکتے ہیں۔
         instruction_2: اگر آپ نے اس کی درخواست نہیں کی، تو براہ مہربانی اس ای میل کو نظر انداز کریں۔
         instruction_3: آپ کا پاس ورڈ تبدیل نہیں ہو گا جب تک آپ اوپر لنک پر نہ جایں اور ایک نیا بنائیں۔
         subject: پاسورڈ تبدیل کرنے کی ہدایات۔
       unlock_instructions:
         action: میرا اکاؤنٹ فعال کریں
-        greeting: %{recipient} آداب
+        greeting: !%{recipient} آداب
         instruction: 'اپنے اکاؤنٹ کو فعال کرنے کے لئے نیچے دیئے گئے لنک پر کلک کریں۔'
         message: یکے بعد دیگرے ناکام لاگ ان کوششوں کی وجہ سے آپ کا کھاتا بند کردیا گیا ہے۔
         subject:  غیر مقفل کرنے کی ہدایات
