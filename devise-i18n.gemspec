@@ -95,6 +95,7 @@ Gem::Specification.new do |s|
     "rails/locales/sr.yml",
     "rails/locales/sv.yml",
     "rails/locales/th.yml",
+    "rails/locales/tl.yml",
     "rails/locales/tr.yml",
     "rails/locales/uk.yml",
     "rails/locales/vi.yml",
