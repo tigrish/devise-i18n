@@ -42,11 +42,12 @@ which will generate `config/locales/devise.views.it.yml`. If you're doing this t
 
 ## Contributing translations to devise-i18n
 
-- Edit the translations directly on the [devise-i18n](http://www.localeapp.com/projects/377) project on Locale.
-- **That's it!**
-- The maintainer will then pull translations from the Locale project and push to Github.
+Edit the translations directly on the [devise-i18n](http://www.localeapp.com/projects/377) project on Locale. **That's it!**
+The maintainer will periodically pull translations from the Locale project and push to Github.
 
-Happy translating!
+Alternately, you can create a pull request on GitHub.
+
+In general, the tone of translations should be friendly, polite, and succinct. Certain languages (including Japanese and Korean) should use a more formal tone which is the standard for customer messages in those languages.
 
 ## Copyright
 
