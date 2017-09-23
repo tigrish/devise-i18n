@@ -2,31 +2,31 @@ ur:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: "تصدیق بیجھنے کا وقت"
-        confirmation_token: "توثیقی ٹوکن"
-        confirmed_at: "تصدیق کا وقت"
-        created_at: "بنانے کا وقت"
+        confirmation_sent_at:
+        confirmation_token:
+        confirmed_at:
+        created_at:
         current_password: "موجودہ خفیہ لفظ"
-        current_sign_in_at: "موجودہ سائن ان کا وقت"
-        current_sign_in_ip: "موجودہ سائن ان کا  آی پی"
+        current_sign_in_at:
+        current_sign_in_ip:
         email: "ای میل"
-        encrypted_password: "خفیہ کردہ لفظ"
-        failed_attempts: "ناکام کوششیں"
-        last_sign_in_at: "آخری سائن ان کا وقت"
-        last_sign_in_ip: "آخری سائن ان کا آی پی"
-        locked_at: "بند ھونے کا وقت"
+        encrypted_password:
+        failed_attempts:
+        last_sign_in_at:
+        last_sign_in_ip:
+        locked_at:
         password: "خفیہ لفظ"
-        password_confirmation: "پاسورڈ کی تو ثیق"
-        remember_created_at: "بناۓ کو یاد رکھو"
-        remember_me: "مجھے یاد رکھیں"
-        reset_password_sent_at: "ترتیب شدہ پاسورڈ بیجھے جانے کا وقت"
-        reset_password_token: "ترتیب شدہ پاسورڈ کا ٹوکن"
-        sign_in_count: "سائن ان کا شمار"
-        unconfirmed_email: "غیر مصدقہ ای میل"
-        unlock_token: "غیر مقفل کرنے کا ٹوکن"
-        updated_at: "ترمیم کرنے کا وقت"
-    models:
-      user: "صارف"
+        password_confirmation: "خفیہ لفظ کی تو ثیق"
+        remember_created_at:
+        remember_me:
+        reset_password_sent_at:
+        reset_password_token:
+        sign_in_count:
+        unconfirmed_email:
+        unlock_token:
+        updated_at:
+      models:
+        user: "صارف"
   devise:
     confirmations:
       confirmed: "آپ کی ای میل کی تصدیق کامیابی سے ھو گئی ہے"
@@ -51,9 +51,9 @@ ur:
         instruction: "آپ ذیل میں دیئے گئے لنک کے ذریعہ اپنا اکاؤنٹ ای میل کی تصدیق کرسکتے ہیں"
         subject: "تصدیقی ہدایات"
       password_change:
-        greeting: "%{recipient} آداب"
-        message:  "ہم آپ کو مطلع کرنے کے لئے آپ سے رابطہ کر رہے ہیں کہ آپ کا پاس ورڈ تبدیل ھو چکا ھے۔"
-        subject: "خفیہ لفظ تبدیل ھو چکا ھے۔"
+        greeting:
+        message:
+        subject:
       reset_password_instructions:
         action: "میرا خفیہ لفظ تبدیل کریں۔"
         greeting: "!%{recipient} آداب"
@@ -104,7 +104,7 @@ ur:
         update_needs_confirmation: "آپ نے اپنا اکاؤنٹ کامیابی سے اپ ڈیٹ کیا، لیکن ہمیں آپ کے نئے ای میل ایڈریس کی توثیق کرنے کی ضرورت ہے۔ براہ کرم اپنا ای میل دیکھیں اور اپنے نئے ای میل ایڈریس کی تصدیق کے لئے تصدیق شدہ لنک کی پیروی کریں۔"
       updated: "آپ کا اکاؤنٹ کامیابی سے اپ ڈیٹ ھو چکا ہے۔"
     sessions:
-      already_signed_out: "سائن آؤٹ کامیابی سے ھو چکا۔"
+      already_signed_out:
       new:
         sign_in: "سائن ان کریں"
       signed_in: "کامیابی سے سائن ان ھو چکا۔"
@@ -120,10 +120,10 @@ ur:
         sign_up: "سائن اپ کریں"
     unlocks:
       new:
-        resend_unlock_instructions: "انلاک ہدایات دوبارہ بھیجیں"
-        send_instructions: "آپ چند منٹوں میں آپنے اکاؤنٹ کو غیر مقفل کرنے کے طریقے کی ہدایات کے ساتھ ایک ای میل وصول کریں گے۔"
-        send_paranoid_instructions:  "اگر آپ کے اکاؤنٹ موجود ہے، تو آپ کو چند منٹ میں اس کو غیر مقفل کرنے کے طریقے کی ہدایات کے ساتھ ایک ای میل وصول ھو گی۔"
-        unlocked: "آپ کا اکاؤنٹ کامیابی سے فعال ہوگیا ہے. برائے مہربانی جاری رکھنے کیلئے سائن ان کریں۔"
+          resend_unlock_instructions: "انلاک ہدایات دوبارہ بھیجیں"
+      send_instructions: "آپ چند منٹوں میں آپنے اکاؤنٹ کو غیر مقفل کرنے کے طریقے کی ہدایات کے ساتھ ایک ای میل وصول کریں گے۔"
+      send_paranoid_instructions:  "اگر آپ کے اکاؤنٹ موجود ہے، تو آپ کو چند منٹ میں اس کو غیر مقفل کرنے کے طریقے کی ہدایات کے ساتھ ایک ای میل وصول ھو گی۔"
+      unlocked: "آپ کا اکاؤنٹ کامیابی سے فعال ہوگیا ہے. برائے مہربانی جاری رکھنے کیلئے سائن ان کریں۔"
   errors:
     messages:
       already_confirmed: "پہلے سے ہی تصدیق شدہ، براہ کرم سائن ان کرنے کی کوشش کریں۔"
