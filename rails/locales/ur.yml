@@ -47,29 +47,29 @@ ur:
     mailer:
       confirmation_instructions:
         action: کھاتا کی تصدیق کریں
-        greeting: "%{recipient}" خوش آمدید
+        greeting: "!%{recipient} خوش آمدید"
         instruction: 'آپ ذیل میں دیئے گئے لنک کے ذریعہ اپنا اکاؤنٹ ای میل کی تصدیق کرسکتے ہیں'
         subject: تصدیقی ہدایات
       password_change:
-        greeting: "%{recipient}" آداب
+        greeting: "%{recipient} آداب"
         message:  ہم آپ کو مطلع کرنے کے لئے آپ سے رابطہ کر رہے ہیں کہ آپ کا پاس ورڈ تبدیل ھو چکا ھے۔.
         subject: خفیہ لفظ تبدیل ھو چکا ھے۔
       reset_password_instructions:
         action: میرا خفیہ لفظ تبدیل کریں۔
-        greeting: "!%{recipient}" آداب
+        greeting: "!%{recipient} آداب"
         instruction: کسی نے آپ کا پاس ورڈ تبدیل کرنے کے لئے ایک لنک کی درخواست کی ہے، اور آپ نیچے دئیے گئے لنک کے ذریعے ایسا کر سکتے ہیں۔
         instruction_2: اگر آپ نے اس کی درخواست نہیں کی، تو براہ مہربانی اس ای میل کو نظر انداز کریں۔
         instruction_3: آپ کا پاس ورڈ تبدیل نہیں ہو گا جب تک آپ اوپر لنک پر نہ جایں اور ایک نیا بنائیں۔
         subject: پاسورڈ تبدیل کرنے کی ہدایات۔
       unlock_instructions:
         action: میرا اکاؤنٹ فعال کریں
-        greeting: "!%{recipient}" آداب
+        greeting: "!%{recipient} آداب"
         instruction: 'اپنے اکاؤنٹ کو فعال کرنے کے لئے نیچے دیئے گئے لنک پر کلک کریں۔'
         message: یکے بعد دیگرے ناکام لاگ ان کوششوں کی وجہ سے آپ کا کھاتا بند کردیا گیا ہے۔
         subject:  غیر مقفل کرنے کی ہدایات
     omniauth_callbacks:
-      failure: سے نہیں ھو سکی۔ "%{kind}" ،"%{reason}" آپ کی شناخت بوجہ.
-      success:  اکاونٹ سے کامیابی سے شناخت ھو گی ھے۔ "%{kind}"
+      failure: "سے نہیں ھو سکی۔ %{kind} ،%{reason} آپ کی شناخت بوجہ"
+      success:  "اکاونٹ سے کامیابی سے شناخت ھو گی ھے۔ %{kind}"
     passwords:
       edit:
         change_my_password: میرا خفیہ لفظ تبدیل کریں۔
@@ -89,9 +89,9 @@ ur:
       edit:
         are_you_sure: کیا آپ پر یقین ہیں؟
         cancel_my_account: میرا اکاؤنٹ منسوخ کریں۔
-        currently_waiting_confirmation_for_email: 'تصدیق کی منتظر ہے "%{email}" فی الحال'
+        currently_waiting_confirmation_for_email: "تصدیق کی منتظر ہے %{email} فی الحال"
         leave_blank_if_you_don_t_want_to_change_it: اگر آپ اسے تبدیل نہیں کرنا چاہتے تو خالی چھوڑ دیں۔
-        title: .%{resource} ترمیم کریں
+        title: "%{resource} ترمیم کریں"
         unhappy: ناخوش؟
         update: بدلیں
         we_need_your_current_password_to_confirm_your_changes: ہمیں آپ کی تبیلیوں کی تصدیق کے لئے آپ کے موجودہ پاسورڈ کی ضرورت ہے۔
@@ -100,8 +100,8 @@ ur:
         signed_up: خوش آمدید! آپ نے کامیابی سے سائن اپ کیا ہے۔
         signed_up_but_inactive: آپ نے کامیابی سے سائن اپ کر لیا ہے. تاہم، ہم آپ کو سائن ان نہیں کر سکتے کیونکہ آپ کا اکاؤنٹ ابھی تک فعال نہیں ہے۔
         signed_up_but_locked: آپ نے کامیابی سے سائن اپ کر لیا ہے. تاہم، ہم آپ کو سائن ان نہیں کر سکتے ہیں کیونکہ آپ کا اکاؤنٹ بند ہے۔
-        signed_up_but_unconfirmed: ایک توثیقی لنک کے ساتھ ایک پیغام آپ کے ای میل ایڈریس پر بھیج دیا گیا ہے. اپنا اکاؤنٹ چالو کرنے کے لئے لنک پر عمل کریں۔
-        update_needs_confirmation: آپ نے اپنا اکاؤنٹ کامیابی سے اپ ڈیٹ کیا، لیکن ہمیں آپ کے نئے ای میل ایڈریس کی توثیق کرنے کی ضرورت ہے۔ براہ کرم اپنا ای میل چیک کریں اور اپنے نئے ای میل ایڈریس کی تصدیق کے لئے تصدیق شدہ لنک کی پیروی کریں۔
+        signed_up_but_unconfirmed: ایک توثیقی لنک کے ساتھ ایک پیغام آپ کے ای میل پتہ پر بھیج دیا گیا ہے. اپنا اکاؤنٹ چالو کرنے کے لئے لنک پر عمل کریں۔
+        update_needs_confirmation: آپ نے اپنا اکاؤنٹ کامیابی سے اپ ڈیٹ کیا، لیکن ہمیں آپ کے نئے ای میل ایڈریس کی توثیق کرنے کی ضرورت ہے۔ براہ کرم اپنا ای میل دیکھیں اور اپنے نئے ای میل ایڈریس کی تصدیق کے لئے تصدیق شدہ لنک کی پیروی کریں۔
       updated: آپ کا اکاؤنٹ کامیابی سے اپ ڈیٹ ھو چکا ہے۔
     sessions:
       already_signed_out: سائن آؤٹ کامیابی سے ھو چکا۔
@@ -116,7 +116,7 @@ ur:
         didn_t_receive_unlock_instructions: انلاک ہدایات موصول نہیں ہوئی؟
         forgot_your_password: اپناخفیہ لفظ بھول گئے ہیں؟
         sign_in: سائن ان کریں
-        sign_in_with_provider: کے ساتھ سائن ان کریں "%{provider}"
+        sign_in_with_provider: "کے ساتھ سائن ان کریں %{provider}"
         sign_up: سائن اپ کریں
     unlocks:
       new:
@@ -127,10 +127,10 @@ ur:
   errors:
     messages:
       already_confirmed: پہلے سے ہی تصدیق شدہ، براہ کرم سائن ان کرنے کی کوشش کریں۔
-      confirmation_period_expired: اندر اندر تصدیق کرنے کی ضرورت ہے، براہ مہربانی ایک نیا درخواست کریں۔ "%{period}"
+      confirmation_period_expired: "اندر اندر تصدیق کرنے کی ضرورت ہے، براہ مہربانی ایک نیا درخواست کریں۔ %{period}"
       expired: ختم ہو گیا ہے، براہ کرم ایک نیا درخواست کریں۔
       not_found: نہیں ملا۔
       not_locked: مقفل نہیں کیا گیا تھا۔
       not_saved:
-        one: 'محفوظ نہیں کیا جا سکا۔ "%{resource}" ایک غلطی کی وجہ سے یہ'
-        other: " محفوظ نہیں کیا جا سکا "%{resource}"غلطیوں کی وجہ سے یہ۔ "%{count}""
+        one: "محفوظ نہیں کیا جا سکا۔ %{resource} ایک غلطی کی وجہ سے یہ"
+        other: "محفوظ نہیں کیا جا سکا %{resource}غلطیوں کی وجہ سے یہ %{count}"
