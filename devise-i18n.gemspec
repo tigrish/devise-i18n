@@ -98,6 +98,7 @@ Gem::Specification.new do |s|
     "rails/locales/tl.yml",
     "rails/locales/tr.yml",
     "rails/locales/uk.yml",
+    "rails/locales/ur.yml",
     "rails/locales/vi.yml",
     "rails/locales/yo.yml",
     "rails/locales/zh-CN.yml",
