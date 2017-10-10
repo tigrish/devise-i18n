@@ -6,19 +6,19 @@ zh-TW:
         confirmation_token: 
         confirmed_at: 
         created_at: 
-        current_password: "當前密碼"
+        current_password: "原始密碼"
         current_sign_in_at: 
         current_sign_in_ip: 
-        email: "電子郵箱"
+        email: "電子信箱"
         encrypted_password: 
         failed_attempts: 
         last_sign_in_at: 
         last_sign_in_ip: 
         locked_at: 
         password: "密碼"
-        password_confirmation: "密碼確認"
+        password_confirmation: "確認密碼"
         remember_created_at: 
-        remember_me: "記憶登入訊息"
+        remember_me: "記住我的資訊"
         reset_password_sent_at: 
         reset_password_token: 
         sign_in_count: 
@@ -26,12 +26,12 @@ zh-TW:
         unlock_token: 
         updated_at: 
     models:
-      user: "用戶"
+      user: "使用者"
   devise:
     confirmations:
       confirmed: "您的帳號已通過驗證，現在您已成功登入。"
       new:
-        resend_confirmation_instructions: "重新發送確認信"
+        resend_confirmation_instructions: "重新寄送確認信"
       send_instructions: "您將在幾分鐘後收到一封電子郵件，內有驗證帳號的步驟說明。"
       send_paranoid_instructions: "如果我們有您的信箱，您將會收到一封驗證您的帳號的電子郵件。"
     failure:
@@ -65,7 +65,7 @@ zh-TW:
         action: "帳戶解鎖"
         greeting: "您好 %{recipient}!"
         instruction: "點擊下面的連結到您的帳戶進行解鎖:"
-        message: "由於多次的不成功的登入嘗試，您的帳戶已被鎖定。"
+        message: "由於多次不成功的登入嘗試，您的帳戶已被鎖定。"
         subject: "帳號解鎖步驟"
     omniauth_callbacks:
       failure: 無法從 %{kind} 驗證，因為 "%{reason}"。
