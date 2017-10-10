@@ -5,15 +5,15 @@ zh-TW:
         confirmation_sent_at: 
         confirmation_token: 
         confirmed_at: 
-        created_at: 
+        created_at: "建立於"
         current_password: "原始密碼"
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: "現在登入狀態開始於"
+        current_sign_in_ip: "現在登入中的IP位址"
         email: "電子信箱"
         encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
+        failed_attempts: "錯誤嘗試次數"
+        last_sign_in_at: "上次登入於"
+        last_sign_in_ip: "上次登入的IP位址"
         locked_at: 
         password: "密碼"
         password_confirmation: "確認密碼"
@@ -21,10 +21,10 @@ zh-TW:
         remember_me: "記住我的資訊"
         reset_password_sent_at: 
         reset_password_token: 
-        sign_in_count: 
+        sign_in_count: "登入次數"
         unconfirmed_email: 
         unlock_token: 
-        updated_at: 
+        updated_at: "更新於"
     models:
       user: "使用者"
   devise:
