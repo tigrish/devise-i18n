@@ -7,7 +7,7 @@ pt-BR:
         confirmed_at: Confirmado em
         created_at: Criado em
         current_password: Senha atual
-        current_sign_in_at: 
+        current_sign_in_at: Atualmente logado em
         current_sign_in_ip: IP do acesso atual
         email: Email
         encrypted_password: Senha criptografada
