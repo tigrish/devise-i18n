@@ -2,139 +2,139 @@ ar:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: "تم إرسال رسالة التأكيد في"
+        confirmation_token: "رمز التوكن للتأكيد"
+        confirmed_at: "تم التأكيد في"
+        created_at: "تم الإنشاء في"
         current_password: "كلمة المرور الحالية"
-        current_sign_in_at: 
-        current_sign_in_ip: 
-        email: "البريد الإلكتروني"
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        current_sign_in_at: "تسجيل الدخول الحالي في"
+        current_sign_in_ip: "عنوان IP لتسجيل الدخول الحالي"
+        email: "بريد إلكتروني"
+        encrypted_password: "كلمة المرور المشفرة"
+        failed_attempts: "محاولات فاشلة"
+        last_sign_in_at: "آخر تسجيل دخول في"
+        last_sign_in_ip: "عنوان IP لآخر تسجيل دخول"
+        locked_at: "تم القفل في"
         password: "كلمة المرور"
         password_confirmation: "تأكيد كلمة المرور"
-        remember_created_at: 
+        remember_created_at: "تم إنشاء التذكير في"
         remember_me: "تذكرني"
-        reset_password_sent_at: 
-        reset_password_token: 
-        sign_in_count: 
-        unconfirmed_email: 
-        unlock_token: 
-        updated_at: 
+        reset_password_sent_at: "إعادة تعيين كلمة المرور مرسلة في"
+        reset_password_token: "رمز التوكن لإعادة تعيين كلمة المرور"
+        sign_in_count: "عدد تسجيلات الدخول"
+        unconfirmed_email: "البريد الإلكتروني غير مؤكد"
+        unlock_token: "فتح قفل رمز التوكن"
+        updated_at: "تم التحديث في"
     models:
       user: "المستخدم"
   devise:
     confirmations:
-      confirmed: "تمّ تأكيد الحساب بنجاح، وتمّ تسجيل الدّخول."
+      confirmed: "تم تأكيد عنوان بريدك الإلكتروني بنجاح."
       new:
-        resend_confirmation_instructions: "أعدْ إرسال تعليمات التأكيد"
-      send_instructions: "ستصل خلال دقائق رسالة على البريد الإلكتروني تتضمّن الخطوات اللازمة لتأكيد الحساب."
-      send_paranoid_instructions: "إذا كان البريد الإلكتروني مسجّلاً، فستصل خلال دقائق رسالة تتضمّن الخطوات اللازمة لتأكيد الحساب."
+        resend_confirmation_instructions: "إعادة إرسال تعليمات التأكيد"
+      send_instructions: "ستتلقى رسالة بريد إلكتروني بها تعليمات عن كيفية تأكيد عنوان بريدك الإلكتروني في غضون بضع دقائق."
+      send_paranoid_instructions: "إذا كان بريدك الإلكتروني موجود في قاعدة البيانات لدينا، ستتلقى رسالة بريد إلكتروني بها تعليمات عن كيفية تأكيد عنوان بريدك الإلكتروني في بضع دقائق."
     failure:
-      already_authenticated: "تم تسجيل الدخول من قَبل."
-      inactive: "لم يتمّ تنشيط الحساب بعد."
+      already_authenticated: "لقد قمت بتسجيل الدخول بالفعل."
+      inactive: "لم يتم تفعيل حسابك بعد."
       invalid: "البريد الإلكتروني أو كلمة السر غير صحيحة."
-      last_attempt: "بقيت محاولة أخيرة قبل غلق الحساب."
-      locked: "الحساب مُعلّق."
-      not_found_in_database: "خطأ فى البريد الإلكتروني أو كلمة السر"
-      timeout: "لقد انتهت صلاحيّة الجلسة، الرجاء تسجيل الدّخول مجدداً."
-      unauthenticated: "يجب إنشاء حساب أو تسجيل الدخول قبل المتابعة."
-      unconfirmed: "يجب تأكيد الحساب حتّى تتمكّن من المُتابعة."
+      last_attempt: "لديك محاولة أو أكثر قبل غلق حسابك."
+      locked: "تم غلق حسابك."
+      not_found_in_database: "البريد الإلكتروني أو كلمة السر غير صحيحة."
+      timeout: "انتهى الوقت المخصص للجلسة. الرجاء تسجيل الدخول مرة أخرى للمتابعة."
+      unauthenticated: "تحتاج إلى تسجيل الدخول أو التسجيل قبل المتابعة."
+      unconfirmed: "تحتاج إلى تأكيد عنوان بريدك الإلكتروني قبل المتابعة."
     mailer:
       confirmation_instructions:
-        action: "أكّد حسابي"
-        greeting: "مرحبا %{recipient}"
-        instruction: "يمكن تأكيد حساب بريدك الإلكتروني من خلال الرابط التّالي:"
-        subject: "تعليمات تأكيد الحساب"
+        action: "تأكيد حسابي"
+        greeting: "مرحباً %{recipient}"
+        instruction: "يُمكنك تأكيد بريدك الإلكتروني من خلال الرابط أدناه:"
+        subject: "تعليمات التأكيد"
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: "مرحباً %{recipient}"
+        message: "لقد قمنا بالاتصال بك لإخبارك أنه قد تم تغيير كلمة مرورك."
+        subject: "تم تغيير كلمة المرور"
       reset_password_instructions:
-        action: "غيّر كلمة السر"
-        greeting: "مرحبا %{recipient}"
-        instruction: "طلب أحدهم رابطًا لتغيير كلمة السر الخاصة بك، ويُمكن عمل ذلك من خلال الرابط التالي."
-        instruction_2: "إن لم تكن أنت من طلب هذا، من فضلك تجاهل هذه الرسالة."
-        instruction_3: "لن تتغيّر كلمة السر الخاصة بك حتى تتبع الرابط السابق وتُنشئ كلمة سر جديدة."
+        action: "تغيير كلمة مروري"
+        greeting: "مرحباً %{recipient}"
+        instruction: "لقد طلب شخص ما رابط لتغيير كلمة مرورك، ويُمكنك القيام بذلك من خلال الرابط أدناه."
+        instruction_2: "إذا لم تقم بطلب ذلك، الرجاء تجاهل هذه الرسالة."
+        instruction_3: "لن يتم تغيير كلمة مرورك حتى تقوم بفتح الرابط أعلاه وإنشاء كلمة مرور جديدة."
         subject: "تعليمات إعادة تعيين كلمة المرور"
       unlock_instructions:
-        action: "أزلْ الحظر عن حسابي"
-        greeting: "مرحبًا %{recipient}"
-        instruction: "انقرْ الرابط على الرابط التالي لفك الحظر عن حسابك:"
-        message: "قُفل حسابك بسبب المحاولات الفاشلة في تسجيل الدخول."
-        subject: "تعليمات إعادة تفعيل الحساب"
+        action: "إلغاء قفل حسابي"
+        greeting: "مرحباً %{recipient}"
+        instruction: "انقر فوق الرابط أدناه لإلغاء قفل حسابك:"
+        message: "تم غلق حسابك بسس العدد الكبير من محاولات تسجيل الدخول غير الناجحة."
+        subject: "تعليمات إلغاء القفل"
     omniauth_callbacks:
-      failure: "فشلت عمليّة التحقق عبر %{kind} للسبب التّالي: %{reason}"
-      success: "تمّ التحقّق من الحساب بنجاح بإستخدام %{kind}"
+      failure: 'تعذر التحقق منك من %{kind} بسبب "%{reason}".'
+      success: "تمت المصادقة بنجاح من حساب %{kind}."
     passwords:
       edit:
-        change_my_password: "غيّر كلمة المرور خاصتي"
-        change_your_password: "غيّر كلمة المرور الخاصة بك"
-        confirm_new_password: "أكّد كلمة السر الجديدة"
-        new_password: "كلمة سر جديدة"
+        change_my_password: "تغيير كلمة مروري"
+        change_your_password: "تغيير كلمة مرورك"
+        confirm_new_password: "تأكيد كلمة المرور الجديدة"
+        new_password: "كلمة المرور الجديدة"
       new:
-        forgot_your_password: "هل نسيت كلمة المرور؟"
-        send_me_reset_password_instructions: "أرسلْ لي تعليمات تصفير كلمة المرور"
-      no_token: "لا يُمكن الدّخول إلى هذه الصفحة إلّا بإستخدام رسالة إعادة ضبط كلمة المرور. إن كان الوصول لهذه الصفحة عبر تلك الرسالة فالرجاء التأكد من فتح كامل الرابط بشكل صحيح."
-      send_instructions: "ستصل خلال دقائق رسالة بريد إلكتروني تحوي التعليمات اللازمة لإعادة ضبط كلمة السر."
-      send_paranoid_instructions: "إذا كان بريدك الإلكتروني مسجلاً عندنا فستصل إليه خلال دقائق رسالة تتضمّن رابطاً لاستعادة كلمة المرور."
-      updated: "لقد تمّ تغيير كلمة المرور بنجاح، وتم تسجيل الدخول."
-      updated_not_active: "تمّ تعديل كلمة المرور بنجاح."
+        forgot_your_password: "نسيت كلمة مرورك؟"
+        send_me_reset_password_instructions: "أرسل لي تعليمات إعادة تعيين كلمة المرور"
+      no_token: "لا يُمكنك الوصول إلى هذه الصفحة دون تأكيد رسالة البريد الإلكتروني المحتوية على إعادة تعيين كلمة المرور. إذا كنت قد انتقلت من رسالة تعيين كلمة المرور، الرجاء التأكد من أنك استخدمت رابط URL الكامل الموجود في الرسالة."
+      send_instructions: "ستتلقى رسالة بريد إلكرتوني بها تعليمات ععن كيفية إعادة تعيين كلمة مرورك في غضون بضع دقائق."
+      send_paranoid_instructions: "إذا كان بريدك الإلكتروني موجود في قاعدة البيانات لدينا، ستتلقى رابط استعادة كلمة المرور على عنوان بريدك الإلكتروني في غضون بضع دقائق."
+      updated: "تم تغيير كلمة مرورك بنجاح. أنت الآن مُسجِّل الدخول."
+      updated_not_active: "تم تغيير كلمة مرورك بنجاح."
     registrations:
-      destroyed: "لقد تمّت إزالة الحساب، نأمل في نتقابل مجدداً في وقت قريب، إلى اللقاء! "
+      destroyed: "وداعاً! تم إلغاء حسابك بنجاح. نأمل أن نراك مرة أخرى في القريب العاجل."
       edit:
-        are_you_sure: "هل أنت متأكّد؟"
-        cancel_my_account: "ألغِ حسابي"
-        currently_waiting_confirmation_for_email: "في انتظار تفعيل البريد الإلكتروني %{email}"
-        leave_blank_if_you_don_t_want_to_change_it: "أبقه فارغًا إن كنت لا ترغب في تغييره"
-        title: "تعديل %{resource}"
-        unhappy: "غير راضٍ؟"
+        are_you_sure: "هل أنت متأكد؟"
+        cancel_my_account: "إلغاء حسابي"
+        currently_waiting_confirmation_for_email: "قيد انتظار التأكيد حالياً لـ: %{email}"
+        leave_blank_if_you_don_t_want_to_change_it: "اتركه فارغاً إذا كنت لا ترغب في تغييره"
+        title: "تحرير %{resource}"
+        unhappy: "غير سعيد؟"
         update: "تحديث"
-        we_need_your_current_password_to_confirm_your_changes: "نحتاج كلمة المرور الحالية خاصتك لتأكيد تغيراتك"
+        we_need_your_current_password_to_confirm_your_changes: "نحتاج إلى كلمة مرورك الحالية لتأكيد التغيرات التي قمت بها"
       new:
-        sign_up: "سجّلْ"
-      signed_up: "تمّ التسجيل في الموقع بنجاح، أهلاً وسهلاً!"
-      signed_up_but_inactive: "تمّ التسجيل في الموقع بنجاح، ولكن لا يُمكن تسجيل الدخول قبل تفعيل الحساب."
-      signed_up_but_locked: "تمّ التسجيل في الموقع بنجاح، ولكن لا يمكن تسجيل الدخول ﻷن الحساب مُعلّق."
-      signed_up_but_unconfirmed: "تمّ إرسال رسالة تحوي على رابط تأكيد الحساب باستخدام البريد الإلكتروني، يُرجى فتح الرابط لتفعيل الحساب."
-      update_needs_confirmation: "تُم تعديل الحساب بنجاح، يرجى تأكيد البريد الإلكتروني. الرجاء الذهاب الى البريد الإلكتروني والضغط على الرابط الموجود للانتهاء من عمليّة التاكيد."
-      updated: "تمّ تعديل الحساب بنجاح."
+        sign_up: "التسجيل"
+      signed_up: "مرحباً! لقد قمت بالتسجيل بنجاح."
+      signed_up_but_inactive: "لقد قمت بالتسجيل بنجاح. ومع ذلك، لن نتمكن من تسجيل دخولك لحسابك لأن حسابك لم يتم تفعيله بعد."
+      signed_up_but_locked: "لقد قمت بالتسجيل بنجاح. ومع ذلك، لن نتمكن من تسجيل دخولك لحسابك لأن حسابك مغلق."
+      signed_up_but_unconfirmed: "تم إرسال رسالة بها رابط التأكيد إلى عنوان بريدك الإلكتروني. الرجاء اتباع الرابط لتفعيل حسابك."
+      update_needs_confirmation: "لقد قمت بتحديث حسابك بنجاح، ولكن نحتاج إلى تأكيد عنوان بريدك الإلكتروني الجديد. الرجاء التحقق من بريدك الإلكتروني واتباع رابط التأكيد لتأكيد عنوان بريدك الإلكتروني الجديد."
+      updated: "تم تحديث حسابك بنجاح."
     sessions:
-      already_signed_out: 
+      already_signed_out: "تم تسجيل الخروج بنجاح."
       new:
-        sign_in: "سجّلْ الدخول"
-      signed_in: "تمّ تسجيل الدخول."
-      signed_out: "تمّ تسجيل الخروج."
+        sign_in: "تسجيل الدخول"
+      signed_in: "تم تسجيل الدخول بنجاح."
+      signed_out: "تم تسجيل الخروج بنجاح."
     shared:
       links:
-        back: "عودة"
-        didn_t_receive_confirmation_instructions: "ألم تستلم تعليمات التأكيد؟"
-        didn_t_receive_unlock_instructions: "ألم تستلم تعليمات فك الحظر؟"
-        forgot_your_password: "هل نسيت كلمة المرور؟"
-        sign_in: "سجّلْ الدخول"
-        sign_in_with_provider: "سجّلْ الدخول عن طريق %{provider}"
-        sign_up: "سجّلْ"
+        back: "رجوع"
+        didn_t_receive_confirmation_instructions: "لم تتلقى تعليمات التأكيد؟"
+        didn_t_receive_unlock_instructions: "لم تتلقى تعليمات إلغاء القفل؟"
+        forgot_your_password: "نسيت كلمة مرورك؟"
+        sign_in: "تسجيل الدخول"
+        sign_in_with_provider: "تسجيل الدخول باستخدام %{provider}"
+        sign_up: "التسجيل"
     unlocks:
       new:
-        resend_unlock_instructions: "أعدْ إرسال تعليمات فك الحظر"
-      send_instructions: "خلال بضعة دقائق، سوف تصل رسالة بالتعليمات اللازمة لإعادة تفعيل الحساب."
-      send_paranoid_instructions: "إذا كان الحساب موجوداً، ستصل رسالة خلال دقائق تتضمّن الارشادات عن كيفيّة التفعيل.  "
-      unlocked: "لقد تمّ فتح الحساب بنجاح. الرجاء الدخول للاستمرار."
+        resend_unlock_instructions: "إعادة إرسال تعليمات إلغاء القفل"
+      send_instructions: "ستتلقى رسالة بريد إلكتروني بها تعليمات عن كيفية إلغاء قفل حسابك في غضون بضع دقائق."
+      send_paranoid_instructions: "إذا كان حسابك موجود، ستتلقى رسالة بريد إلكتروني بها تعليمات عن كيفية إلغاء القفلل غي غضون دقائق."
+      unlocked: "تم إلغاء قفل حسابك بنجاح. الرجاء تسجيل الدخول للمتابعة."
   errors:
     messages:
-      already_confirmed: "الحساب مُفعّل، الرجاء محاولة تسجيل الدخول"
-      confirmation_period_expired: "بحاجة الى تفعيل خلال %{period}، الرجاء طلب تفعيل "
-      expired: "انتهت الصلاحيّة، الرجاء عمل طلب جديد"
+      already_confirmed: "تم تأكيده بالفعل، الرجاء محاولة تسجيل الدخول"
+      confirmation_period_expired: "يحتاج إلى التأكيد في غضون %{period}،الرجاء طلب رابط تأكيد جديد"
+      expired: "قد انتهت المدة، الرجاء طلب رابط تأكيد جديد"
       not_found: "غير موجود"
-      not_locked: "غير مقفل"
+      not_locked: "لم يتم إلغاء قفله"
       not_saved:
-        few: "%{count} مشكلة منعت %{resource} من التخزين بنجاح."
-        many: "%{count} مشاكل منعت %{resource} من التخزين بنجاح."
-        one: "مشكلة واحدة منعت %{resource} من التخزين بنجاح."
-        other: "%{count} مشكلة منعت %{resource} من التخزين بنجاح."
-        two: "مشكلتين منعتا %{resource} من التخزين بنجاح."
-        zero: 
+        few: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"
+        many: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"
+        one: "1 خطأ منع %{resource} هذا من أن يتم حفظه:"
+        other: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"
+        two: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"
+        zero: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"
