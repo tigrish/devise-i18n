@@ -15,6 +15,7 @@ doc
 pkg
 
 .DS_Store
+.idea
 
 .localeapp/
 .ruby-gemset
