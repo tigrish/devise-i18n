@@ -2,29 +2,29 @@ nb:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: Bekreftelse sendt
+        confirmation_token: Bekreftelseskode
+        confirmed_at: Bekreftet
+        created_at: Opprettet
         current_password: Gjeldende passord
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: Innlogget siden
+        current_sign_in_ip: Innlogget fra IP
         email: E-post
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: Kryptert passord
+        failed_attempts: Mislykkede forsøk
+        last_sign_in_at: Sist innlogget
+        last_sign_in_ip: Sist innlogget fra IP
+        locked_at: Låst
         password: Passord
         password_confirmation: Gjenta passordet
-        remember_created_at: 
+        remember_created_at: Husk meg opprettet den
         remember_me: Husk meg
-        reset_password_sent_at: 
+        reset_password_sent_at: Passordgjennoppretting sendt
         reset_password_token: Nytt passord-kode
-        sign_in_count: 
-        unconfirmed_email: 
+        sign_in_count: Antall innlogginger
+        unconfirmed_email: Ubekreftet epost
         unlock_token: Lås opp-kode
-        updated_at: 
+        updated_at: Oppdatert den
     models:
       user: Brukerkonto
   devise:
@@ -111,7 +111,7 @@ nb:
       signed_out: Du er nå logget ut.
     shared:
       links:
-        back: 
+        back: Tilbake
         didn_t_receive_confirmation_instructions: Har du ikke mottatt bekreftelsesinstruksjoner?
         didn_t_receive_unlock_instructions: Har du ikke mottatt instruksjoner for å tilbakestille passordet?
         forgot_your_password: Har du glemt passordet ditt?

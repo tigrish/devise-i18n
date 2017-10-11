@@ -2,29 +2,29 @@ nn-NO:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: Stadfesting sendt
+        confirmation_token: Stadfestingskode
+        confirmed_at: Stadfesta
+        created_at: Oppretta
         current_password: Noverande passord
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: Innlogga sidan
+        current_sign_in_ip: Innlogga frå IP
         email: Epost
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: Kryptert passord
+        failed_attempts: Mislykka forsøk
+        last_sign_in_at: Forrige innlogging
+        last_sign_in_ip: Forrige innlogging IP
+        locked_at: Låst den
         password: Passord
         password_confirmation: Stadfest passord
-        remember_created_at: 
+        remember_created_at: Hugs meg oppretta
         remember_me: Hugs meg
-        reset_password_sent_at: 
-        reset_password_token: Nullstill passord-nøkkel
-        sign_in_count: 
-        unconfirmed_email: 
-        unlock_token: Lås opp nøkkel
-        updated_at: 
+        reset_password_sent_at: Tilbakestilling av passord sendt
+        reset_password_token: Nullstill passordkode
+        sign_in_count: Tal på innloggingar
+        unconfirmed_email: Ikkje stadfesta e-post
+        unlock_token: Opplåsingskode
+        updated_at: Oppdatert
     models:
       user: Brukar
   devise:
@@ -38,7 +38,7 @@ nn-NO:
       already_authenticated: Du er allereie innlogga.
       inactive: Kontoen din er ikkje aktivert enno.
       invalid: Ugyldig e-post eller passord.
-      last_attempt: Du har eitt forsøk til før kontoen din blir låst.
+      last_attempt: Du har berre eitt forsøk til før kontoen din blir låst.
       locked: Kontoen din er låst.
       not_found_in_database: Ugyldig e-postadresse eller passord.
       timeout: "Økta di er utgått. Logg inn på nytt for å halde fram."
