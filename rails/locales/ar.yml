@@ -68,7 +68,7 @@ ar:
         message: "تم غلق حسابك بسس العدد الكبير من محاولات تسجيل الدخول غير الناجحة."
         subject: "تعليمات إلغاء القفل"
     omniauth_callbacks:
-      failure: 'تعذر التحقق منك من %{kind} بسبب "%{reason}".'
+      failure: تعذر التحقق منك من %{kind} بسبب "%{reason}".
       success: "تمت المصادقة بنجاح من حساب %{kind}."
     passwords:
       edit:
@@ -134,7 +134,7 @@ ar:
       not_saved:
         few: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"
         many: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"
-        one: "1 خطأ منع %{resource} هذا من أن يتم حفظه:"
+        one: '1 خطأ منع %{resource} هذا من أن يتم حفظه:'
         other: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"
         two: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"
         zero: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"

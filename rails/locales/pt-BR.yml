@@ -2,8 +2,8 @@ pt-BR:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: "Confirmação enviada em"
-        confirmation_token: "Token de confirmação"
+        confirmation_sent_at: Confirmação enviada em
+        confirmation_token: Token de confirmação
         confirmed_at: Confirmado em
         created_at: Criado em
         current_password: Senha atual
@@ -22,7 +22,7 @@ pt-BR:
         reset_password_sent_at: Resetar senha enviado em
         reset_password_token: Resetar token de senha
         sign_in_count: Contagem de acessos
-        unconfirmed_email: "E-mail não confirmado"
+        unconfirmed_email: E-mail não confirmado
         unlock_token: Token de desbloqueio
         updated_at: Atualizado em
     models:
