@@ -1,3 +1,10 @@
+## 1.3.0
+
+- Added a requirement for devise 2 and above. This is in preparation for upping the minimum devise version in a future release to support updated text in devise.
+- Fix reset_password_token for devise 4. #150
+- Added tl and ur translations.
+- Updated ar, fr, fr-CA, it, ja, ko, ms, nb, nn-NO, no, pt-BR, zh-CN, and zh-TW translations.
+
 ## 1.2.0
 
 - Made all possible attribute names from all devise modules localizable.
