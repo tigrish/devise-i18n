@@ -1,3 +1,8 @@
+## (Unreleased)
+
+- Add a requirement for devise 3.1 and above.
+- Removed backwards compatibility for mailer tokens for devise versions before 3.1.0. Any views generated into your app prior to this release of devise-i18n should continue to work. If, for some reason, you are otherwise calling `DeviseI18n::ViewHelpers` methods (`resource_confirmation_token`, `resource_reset_password_token`, and `resource_unlock_token`), you will need to replace these calls with `@token`.
+
 ## 1.3.0
 
 - Added a requirement for devise 2 and above. This is in preparation for upping the minimum devise version in a future release to support updated text in devise.

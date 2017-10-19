@@ -6,9 +6,6 @@
 
 Devise supports i18n in controllers, models, and in other areas, but it does not have support for internationalized views. devise-i18n adds this support. Devise also does not include the actual translations. devise-i18n does this too.
 
-devise-18n is for devise v2 and later. For devise v1.5, use the **[devise-1.5 branch](https://github.com/tigrish/devise-i18n/tree/devise-1.5)**.
-
-
 ## Installation
 
 Add to your Gemfile:
