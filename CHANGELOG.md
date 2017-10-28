@@ -1,3 +1,7 @@
+## Unreleased
+
+- Require devise 3.4 and above.
+
 ## 1.4.0
 
 - Add a requirement for devise 3.1 and above.
