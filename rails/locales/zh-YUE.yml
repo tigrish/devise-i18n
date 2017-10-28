@@ -37,10 +37,10 @@ zh-YUE:
     failure:
       already_authenticated: "已經登入咗。"
       inactive: "帳戶未啟用。"
-      invalid: "電郵或者密碼唔啱。"
+      invalid:
       last_attempt: "你仲有一次嘗試正確密碼嘅機會，過後你嘅帳戶會被鎖住。"
       locked: "你個帳戶已經鎖咗。"
-      not_found_in_database: "電郵或者密碼唔啱。"
+      not_found_in_database:
       timeout: "超時，請重新登入。"
       unauthenticated: "請登入，或者開個帳戶。"
       unconfirmed: "帳戶未啟用。"

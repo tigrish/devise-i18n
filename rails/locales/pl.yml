@@ -37,10 +37,10 @@ pl:
     failure:
       already_authenticated: Jesteś już zalogowany.
       inactive: Konto nie zostało jeszcze aktywowane.
-      invalid: Niepoprawny adres e-mail lub hasło.
+      invalid:
       last_attempt: Masz jeszcze jedną próbę nim Twoje konto zostanie zablokowane.
       locked: Twoje konto jest zablokowane.
-      not_found_in_database: Niepoprawny adres e-mail lub hasło.
+      not_found_in_database:
       timeout: Sesja wygasła, aby kontynuować zaloguj się ponownie.
       unauthenticated: Aby kontynuować zaloguj lub zarejestruj się.
       unconfirmed: Aby kontynuować aktywuj konto.

@@ -37,10 +37,10 @@ sv:
     failure:
       already_authenticated: Du är redan inloggad.
       inactive: Ditt konto har inte aktiverats ännu.
-      invalid: Ogiltig epost eller lösenord.
+      invalid:
       last_attempt: Du har ett försök kvar, sen låser vi ditt konto.
       locked: Ditt konto är låst.
-      not_found_in_database: Ogiltig epost eller lösenord.
+      not_found_in_database:
       timeout: Din session är inte längre giltig, vänligen logga in igen för att fortsätta.
       unauthenticated: Du måste logga in eller skapa ett konto innan du kan fortsätta.
       unconfirmed: Du måste bekräfta ditt konto innan du kan fortsätta.

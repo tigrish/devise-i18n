@@ -37,10 +37,10 @@ is:
     failure:
       already_authenticated: "Þú ert nú þegar innskráð(ur)."
       inactive: Aðgangurinn þinn hefur ekki verið staðfestur.
-      invalid: "Ógilt notandanafn eða lykilorð."
+      invalid:
       last_attempt: "Þú hefur eina tilraun í viðbót, áður en aðganginum verði læst."
       locked: Aðgangurinn þinn er læstur.
-      not_found_in_database: Vitlaust netfang eða lykilorð.
+      not_found_in_database:
       timeout: Seta þín hefur runnið út, skráðu þig aftur inn til að halda áfram.
       unauthenticated: "Þú þarft að vera innskráð(ur) til þess að halda áfram."
       unconfirmed: "Þú verður að staðfesta aðganginn þinn áður en þú getur haldið áfram."

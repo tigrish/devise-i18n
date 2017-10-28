@@ -37,10 +37,10 @@ zh-TW:
     failure:
       already_authenticated: "您已經登入。"
       inactive: "您的帳號尚未被啟用。"
-      invalid: "信箱或密碼是無效的。"
+      invalid:
       last_attempt: "您還有最後一次嘗試機會，再次失敗您的帳號將會被鎖定。"
       locked: "您的帳號已被鎖定。"
-      not_found_in_database: "信箱或密碼是無效的。"
+      not_found_in_database:
       timeout: "您的登入時效過期，請重新登入。"
       unauthenticated: "您需要先登入或註冊後才能繼續。"
       unconfirmed: "您的帳號需要經過驗證後，才能繼續。"

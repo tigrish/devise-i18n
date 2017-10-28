@@ -37,10 +37,10 @@ ja:
     failure:
       already_authenticated: "すでにログインしています。"
       inactive: "アカウントが有効化されていません。メールに記載された手順にしたがって、アカウントを有効化してください。"
-      invalid: "メールアドレスまたはパスワードが違います。"
+      invalid:
       last_attempt: "もう一回誤るとアカウントがロックされます。"
       locked: "アカウントは凍結されています。"
-      not_found_in_database: "メールアドレスまたはパスワードが違います。"
+      not_found_in_database:
       timeout: "セッションがタイムアウトしました。もう一度ログインしてください。"
       unauthenticated: "アカウント登録もしくはログインしてください。"
       unconfirmed: "メールアドレスの本人確認が必要です。"

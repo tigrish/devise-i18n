@@ -37,10 +37,10 @@ lt:
     failure:
       already_authenticated: Jūs jau prisijungęs.
       inactive: Jūsų paskyra dar neaktyvuota.
-      invalid: Neteisingas el. paštas arba slaptažodis.
+      invalid:
       last_attempt: Jums liko paskutinis bandymas prieš užblokuojant paskyrą.
       locked: Jūsų paskyra laikinai užblokuota.
-      not_found_in_database: Neteisingas el. pašto adresas arba slaptažodis.
+      not_found_in_database:
       timeout: Jūsų sesija baigta. Prisijunkite iš naujo norėdami tęsti.
       unauthenticated: Būtina prisijungti arba prisiregistruoti prieš tęsiant.
       unconfirmed: Būtina patvirtinti e-pašto adresą prieš tęsiant.

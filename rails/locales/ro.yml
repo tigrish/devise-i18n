@@ -37,10 +37,10 @@ ro:
     failure:
       already_authenticated: Sunteţi deja autentificat
       inactive: Contul dvs. nu a fost activat încă.
-      invalid: E-mail sau parolă invalide.
+      invalid:
       last_attempt: Mai aveți o șansă până când accountul vă va fi blocat.
       locked: Contul dvs. este blocat.
-      not_found_in_database: Email sau parolă invalidă.
+      not_found_in_database:
       timeout: Sesiunea dvs. a expirat, vă rugăm să vă autentificaţi din nou pentru a continua.
       unauthenticated: Trebuie să vă conectaţi sau să vă înscrieţi înainte de a continua.
       unconfirmed: Trebuie să confirmaţi contul dvs. înainte de a continua.

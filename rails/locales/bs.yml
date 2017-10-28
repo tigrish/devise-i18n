@@ -37,10 +37,10 @@ bs:
     failure:
       already_authenticated: Već ste prijavljeni.
       inactive: Vaš račun još nije aktiviran.
-      invalid: Neispravan e-mail ili lozinka.
+      invalid:
       last_attempt: Imate još jedan pokušaj prije nego Vaš račun bude zaključan.
       locked: Vaš račun je zaključan.
-      not_found_in_database: Neispravan e-mail ili lozinka.
+      not_found_in_database:
       timeout: Vrijeme trajanja Vaše sesije je isteklo. Molimo prijavite se ponovo.
       unauthenticated: Za nastavak se morate prijaviti ili registrovati.
       unconfirmed: Za nastavak morate potvrditi Vaš račun.

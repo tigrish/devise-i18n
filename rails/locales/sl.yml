@@ -37,10 +37,10 @@ sl:
     failure:
       already_authenticated: Ste že prijavljeni.
       inactive: Vaš račun še ni bil aktiviran.
-      invalid: Neveljaven email ali geslo.
+      invalid:
       last_attempt: Imate še en poskus preden se vam račun avtomatsko zaklene.
       locked: Vaš račun je zaklenjen.
-      not_found_in_database: Email ali geslo je napačno.
+      not_found_in_database:
       timeout: Vaša seja je potekla. Za nadaljevanje se prosim ponovno prijavite.
       unauthenticated: Za nadaljevanje se morate prijaviti ali registrirati.
       unconfirmed: Pred nadaljevanjem morate potrditi vaš račun.

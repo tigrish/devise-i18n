@@ -37,10 +37,10 @@ da:
     failure:
       already_authenticated: Du er allerede logget ind.
       inactive: Din konto er ikke bekræftet.
-      invalid: E-mail-adresse eller kodeord er ikke gyldig.
+      invalid:
       last_attempt: Du har ét forsøg mere, inden din konto vil blive låst.
       locked: Din konto er låst i de næste to timer.
-      not_found_in_database: E-mail-adresse eller kodeord er ikke gyldig.
+      not_found_in_database:
       timeout: Din session er udløbet. Log ind igen for at kunne fortsætte.
       unauthenticated: Du skal logge ind for at kunne fortsætte.
       unconfirmed: Du skal bekræfte din konto for at kunne fortsætte.

@@ -37,10 +37,10 @@ ca:
     failure:
       already_authenticated: Ja estàs identificat.
       inactive: El teu compte encara no ha estat activat.
-      invalid: Correu electrònic o contrasenya invàlids.
+      invalid:
       last_attempt: Disposa d'un intent més abans de que li bloquegem el compte.
       locked: El teu compte està bloquejat.
-      not_found_in_database: Correu electrònic o contrasenya invàlids.
+      not_found_in_database:
       timeout: La teva sessió ha caducat. Si us plau, torna a iniciar sessió per a continuar.
       unauthenticated: Has d'iniciar sessió o bé registrar-te abans de continuar.
       unconfirmed: Has de confirmar el teu compte abans de continuar.

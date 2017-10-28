@@ -37,10 +37,10 @@ az:
     failure:
       already_authenticated: Siz hesabınıza artıq daxil olmuşsunuz.
       inactive: Sizin hesabınız hələ aktivləşdirilməmişdir.
-      invalid: Yanlış email və ya şifrə.
+      invalid:
       last_attempt: Account baglanmasından əvvəl sizin ancag birdənə şansıvız galıb.
       locked: Sizin hesabınız bloklanmışdır.
-      not_found_in_database: Email və ya şifrə yanlışdır.
+      not_found_in_database:
       timeout: Sessiyanızın vaxtı bitmişdir, davam etmək üçün zəhmət olmasa yenidən daxil olun.
       unauthenticated: Davam etmək üçün hesabınıza daxil olmalı və ya qeydiyyatdan keməlisiniz.
       unconfirmed: Davam etmək üçün hesabınızı təstiqləməlisiniz.

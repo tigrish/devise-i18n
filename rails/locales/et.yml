@@ -37,10 +37,10 @@ et:
     failure:
       already_authenticated: Oled juba sisse loginud.
       inactive: Sinu konto polnud veel aktiveeritud.
-      invalid: Vigane e-post või salasõna.
+      invalid:
       last_attempt: Sinul on jäänud veel üks katse enne kui su konto lukustatakse.
       locked: Sinu konto lukustati.
-      not_found_in_database: Vigane e-post või salasõna.
+      not_found_in_database:
       timeout: Sinu sessioon on aegunud, jätkamiseks logi palun sisse.
       unauthenticated: Sa pead sisse logima või registreeruma enne jätkamist.
       unconfirmed: Sa pead oma konto kinnitama, enne jätkamist.
