@@ -37,10 +37,10 @@ pt:
     failure:
       already_authenticated: Já se encontra autenticado.
       inactive: A sua conta ainda não foi activada.
-      invalid:
+      invalid: 
       last_attempt: Tem mais uma tentativa antes da sua conta ser bloqueada.
       locked: A sua conta está bloqueada.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: A sua sessão expirou, por favor autentique-se novamente para continuar.
       unauthenticated: Antes de continuar tem de se autenticar ou efectuar um registo.
       unconfirmed: Tem de confirmar a sua conta antes de continuar.

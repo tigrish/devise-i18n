@@ -37,10 +37,10 @@ nb:
     failure:
       already_authenticated: Du er allerede innlogget.
       inactive: Din konto er ikke aktivert.
-      invalid:
+      invalid: 
       last_attempt: Du har ett forsøk til før din konto blir sperret.
       locked: Din konto er sperret.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Din sesjon er utløpt. Logg inn igjen for å gå videre.
       unauthenticated: Du må logge inn eller registrere deg for å gå videre.
       unconfirmed: Du må bekrefte kontoen din for å kunne fortsette.

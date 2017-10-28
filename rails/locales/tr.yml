@@ -37,10 +37,10 @@ tr:
     failure:
       already_authenticated: Zaten giriş yaptınız.
       inactive: Hesabınız daha aktifleştirilmemiş.
-      invalid:
+      invalid: 
       last_attempt: Hesabınız askıya alınmadan önce son bir deneme hakkınız kaldı.
       locked: Hesabınız kilitlendi.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Oturumunuz sonlandı. Devam etmek için, lütfen yeniden giriş yapınız.
       unauthenticated: Devam etmeden önce giriş yapmanız veya kayıt olmanız gereklidir.
       unconfirmed: Devam etmeden önce hesabınızı onaylamalısınız.

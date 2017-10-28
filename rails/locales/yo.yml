@@ -37,10 +37,10 @@ yo:
     failure:
       already_authenticated: "ẹ̀ ti wọlé síbẹ́síbẹ́"
       inactive: "àkántì rẹ  ko ṣiṣẹ síbẹ́síbẹ́"
-      invalid:
+      invalid: 
       last_attempt: O ní ànfààní ìgbìnyànjú kan si kí a tó tii àkántì rẹ pa
       locked: "àkántì re tii tì pa"
-      not_found_in_database:
+      not_found_in_database: 
       timeout: "ìgbà re tii parí. Jọ̀wọ́ wọlé lẹẹkan si láti tẹ̀síwájú"
       unauthenticated: O nílọ̀ láti wọlé kí o tó tẹ̀síwájú
       unconfirmed: Wà ni láti fi àṣẹsí  í-meèlì rẹ kí o tó tẹ̀síwájú

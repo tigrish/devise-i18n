@@ -37,10 +37,10 @@ cs:
     failure:
       already_authenticated: Přihlášení již proběhlo.
       inactive: Váš účet ještě nebyl aktivován.
-      invalid:
+      invalid: 
       last_attempt: Zbývá Vám ještě jeden pokus než bude Váš účet uzamčen.
       locked: Váš účet je uzamčen.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Vaše relace vypršela, přihlašte se prosím znovu, pak můžete pokračovat.
       unauthenticated: Musíte se zaregistrovat nebo přihlásit, teprve poté můžete pokračovat.
       unconfirmed: Musíte potvrdit svůj účet, teprve poté můžete pokračovat.

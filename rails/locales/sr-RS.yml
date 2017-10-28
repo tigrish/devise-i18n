@@ -37,10 +37,10 @@ sr-RS:
     failure:
       already_authenticated: "Већ сте пријављени."
       inactive: "Ваш налог још није активиран."
-      invalid:
+      invalid: 
       last_attempt: "Имате још један покушај пре него што Ваш налог буде закључан."
       locked: "Ваш налог је закључан."
-      not_found_in_database:
+      not_found_in_database: 
       timeout: "Време трајања Ваше сесије је истекло. За наставак пријавите се поново."
       unauthenticated: "За наставак се морате пријавити или регистровати."
       unconfirmed: "Пре наставка морате потврдити свој налог."

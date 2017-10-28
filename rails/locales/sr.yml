@@ -37,10 +37,10 @@ sr:
     failure:
       already_authenticated: Već ste prijavljeni.
       inactive: Vaš nalog još nije aktiviran.
-      invalid:
+      invalid: 
       last_attempt: Imate još jedan pokušaj pre nego što Vaš nalog bude zaključan.
       locked: Vaš nalog je zaključan.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Vreme trajanja Vaše sesije je isteklo. Za nastavak prijavite se ponovo.
       unauthenticated: Za nastavak se morate prijaviti ili registrovati.
       unconfirmed: Pre nastavka morate potvrditi svoj nalog.

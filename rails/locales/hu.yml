@@ -37,10 +37,10 @@ hu:
     failure:
       already_authenticated: Már belépett.
       inactive: A fiók még nincs aktiválva.
-      invalid:
+      invalid: 
       last_attempt: Már csak egy próbálkozási lehetőség maradt, mielőtt a fiók zárolásra kerül.
       locked: A fiók zárolva lett.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: A munkafolyamat lejárt. Újboli bejelentkezés szükséges.
       unauthenticated: A folytatáshoz bejelentkezés szükséges.
       unconfirmed: A folytatáshoz az email cím megerősítése szükséges.

@@ -37,10 +37,10 @@ nn-NO:
     failure:
       already_authenticated: Du er allereie innlogga.
       inactive: Kontoen din er ikkje aktivert enno.
-      invalid:
+      invalid: 
       last_attempt: Du har berre eitt forsøk til før kontoen din blir låst.
       locked: Kontoen din er låst.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: "Økta di er utgått. Logg inn på nytt for å halde fram."
       unauthenticated: Du må logge inn eller registrere deg før du kan halde fram.
       unconfirmed: Du må stadfeste e-posten din før du kan halde fram.

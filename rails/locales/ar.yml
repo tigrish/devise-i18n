@@ -37,10 +37,10 @@ ar:
     failure:
       already_authenticated: "لقد قمت بتسجيل الدخول بالفعل."
       inactive: "لم يتم تفعيل حسابك بعد."
-      invalid:
+      invalid: 
       last_attempt: "لديك محاولة أو أكثر قبل غلق حسابك."
       locked: "تم غلق حسابك."
-      not_found_in_database:
+      not_found_in_database: 
       timeout: "انتهى الوقت المخصص للجلسة. الرجاء تسجيل الدخول مرة أخرى للمتابعة."
       unauthenticated: "تحتاج إلى تسجيل الدخول أو التسجيل قبل المتابعة."
       unconfirmed: "تحتاج إلى تأكيد عنوان بريدك الإلكتروني قبل المتابعة."

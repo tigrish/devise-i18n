@@ -37,10 +37,10 @@ it:
     failure:
       already_authenticated: Hai già effettuato l'accesso.
       inactive: Il tuo account non è stato ancora attivato.
-      invalid:
+      invalid: 
       last_attempt: Hai ancora un tentativo prima che l'account venga bloccato.
       locked: Il tuo account è bloccato.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Sessione scaduta, accedere nuovamente per continuare.
       unauthenticated: Devi accedere o registrarti per continuare.
       unconfirmed: Devi confermare il tuo account per continuare.

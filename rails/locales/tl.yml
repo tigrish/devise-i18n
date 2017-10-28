@@ -37,10 +37,10 @@ tl:
     failure:
       already_authenticated: Naka-sign in ka na.
       inactive: Hindi pa na-activate ang iyong account.
-      invalid:
+      invalid: 
       last_attempt: Mayroon kang isa pang pagtatangka bago mai-lock ang iyong account.
       locked: Naka-lock ang iyong account.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Na-expire na ang iyong session. Mag-sign in ulit para magpatuloy.
       unauthenticated: Kailangan mong mag-sign in o mag-sign up bago magpatuloy.
       unconfirmed: Kailangan mong kumpirmahin ang iyong email address bago magpatuloy.

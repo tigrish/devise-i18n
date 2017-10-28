@@ -37,10 +37,10 @@ af:
     failure:
       already_authenticated: Jy is alreeds aangeteken.
       inactive: Jou rekening is nog nie geaktiveer nie.
-      invalid:
+      invalid: 
       last_attempt: Jy het nog een poging voor jou rekening gesluit sal word.
       locked: Jou rekening is gesluit.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Jou sessie het verstryk. Teken asseblief aan om voort te gaan.
       unauthenticated: Jy moet aanteken of inteken voor jy voortgaan.
       unconfirmed: Jy moet jou e-posadres bevestig voor jy voortgaan.

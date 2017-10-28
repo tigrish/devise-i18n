@@ -37,10 +37,10 @@ ig:
     failure:
       already_authenticated: ibanye la rii
       inactive: akauntu gi arubabeghi oru
-      invalid:
+      invalid: 
       last_attempt: " I nwere otu ohere tupu agbachie akauntu gi"
       locked: Agbachiela akauntu gi
-      not_found_in_database:
+      not_found_in_database: 
       timeout: oge enyere gi agwula biko bidokwa ozo wee banye, ka iwe gaba n’iru
       unauthenticated: ": I ga abanye, ma o bu debanye aha tupu I gabakwa n’iru"
       unconfirmed: I ga ekwetara imeel adreesi tupu igabakwa n’iru

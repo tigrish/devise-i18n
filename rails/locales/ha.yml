@@ -37,10 +37,10 @@ ha:
     failure:
       already_authenticated: Ka shiga tuni
       inactive: Akaut din ka bai karbu ba
-      invalid:
+      invalid: 
       last_attempt: kana da dama guda daya kafin mu kulle akaut din ka
       locked: Akaut din ka an kulle
-      not_found_in_database:
+      not_found_in_database: 
       timeout: lokacin ka ya kare, sake shigo wa kafin ka si gaba
       unauthenticated: Shiga kafin ka ci gaba
       unconfirmed: Sai ka tabbatar da adireshin I-mail din ka kafin ka ci gaba

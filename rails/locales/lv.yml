@@ -37,10 +37,10 @@ lv:
     failure:
       already_authenticated: Jūs jau esiet pieslēdzies.
       inactive: Jūsu lietotājs vēl nav aktivizēts.
-      invalid:
+      invalid: 
       last_attempt: Jums ir atlicis pēdējais mēģinājums, pirms jūsu lietotājs tiks bloķēts.
       locked: Jūsu lietotājs ir nobloķēts.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Jūsu sesijas laiks ir beidzies. Lūdzu pieslēdzieties vēlreiz, lai turpinātu.
       unauthenticated: Jums ir jāpieslēdzas vai jāreģistrējas, lai turpinātu.
       unconfirmed: Jums ir jāapstiprina reģistrācijas epasts, lai turpinātu.

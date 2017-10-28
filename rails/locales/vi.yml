@@ -37,10 +37,10 @@ vi:
     failure:
       already_authenticated: Bạn đã đăng nhập.
       inactive: Tài khoản của bạn chưa được kích hoạt.
-      invalid:
+      invalid: 
       last_attempt: Bạn còn một lần thử đăng nhập nữa trước khi tài khoản của bạn bị khóa.
       locked: Tài khoản của bạn đã bị khóa.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Phiên làm việc của bạn đã kết thúc, bạn cần đăng nhập lại để tiếp tục.
       unauthenticated: Bạn cần phải đăng nhập hoặc đăng ký trước khi tiếp tục.
       unconfirmed: Bạn cần phải xác nhận tài khoản trước khi tiếp tục.
