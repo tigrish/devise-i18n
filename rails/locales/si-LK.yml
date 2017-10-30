@@ -68,7 +68,7 @@ si-LK:
         message: "ඔබගේ ගිණුම අගුළුවැටී  ඇති අතර එය අසාර්ථක උත්සහයක් නිසාය."
         subject: "අගුළු හැරීමේ උපදෙස් "
     omniauth_callbacks:
-      failure: "ඔබට ඔබව සත්යාපනය කිරීමට නොහැකි විය %{kind} නිසා "%{reason}"."
+      failure: "ඔබට ඔබව සත්යාපනය කිරීමට නොහැකි විය %{kind} නිසා %{reason}."
       success: "ගිණුම සාර්ථක ලෙස සහතික කර ඇත %{kind}."
     passwords:
       edit:
