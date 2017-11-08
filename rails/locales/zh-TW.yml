@@ -48,7 +48,7 @@ zh-TW:
       confirmation_instructions:
         action: "確認帳號"
         greeting: "%{recipient} 您好!"
-        instruction: "您可以利用下面的連結確認您的帳戶的電子郵件:"
+        instruction: "您可以利用下面的連結確認您的帳戶的電子郵件："
         subject: "帳號驗證步驟"
       password_change:
         greeting: "您好 %{recipient}!"
@@ -64,7 +64,7 @@ zh-TW:
       unlock_instructions:
         action: "帳戶解鎖"
         greeting: "您好 %{recipient}!"
-        instruction: "點擊下面的連結到您的帳戶進行解鎖:"
+        instruction: "點擊下面的連結到您的帳戶進行解鎖："
         message: "由於多次不成功的登入嘗試，您的帳戶已被鎖定。"
         subject: "帳號解鎖步驟"
     omniauth_callbacks:
