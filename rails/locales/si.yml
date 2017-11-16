@@ -132,6 +132,6 @@ si:
       not_found: "සොයා ගත නොහැක"
       not_locked: "අගුළු වැටි නැත "
       not_saved:
-        one: '1 දෝෂයක් නිසා මෙම %{resource} සුරැකීමට නොහැක:'
-        other: "%{count} දෝෂ නිසා මෙම %{resource} සුරැකීමට නොහැක:"
+        one: '1 දෝෂයක් නිසා මෙම %{resource} සුරැකීමට නොහැක'
+        other: "%{count} දෝෂ නිසා මෙම %{resource} සුරැකීමට නොහැක"
 
