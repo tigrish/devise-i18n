@@ -2,29 +2,29 @@ si:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: "තහවුරු කිරීම යවනු ලැබුවේ" 
+        confirmation_sent_at: "තහවුරු කිරීම යවනු ලැබුවේ"
         confirmation_token: "තහවුරු ටෝකනය"
-        confirmed_at: "තහවුරු කලේ" 
-        created_at: "නිර්මාණය කල අවස්තාව" 
+        confirmed_at: "තහවුරු කලේ"
+        created_at: "නිර්මාණය කල අවස්තාව"
         current_password: "වත්මන් මුරපදය"
         current_sign_in_at: "වර්තමාන පිවිසුම"
         current_sign_in_ip: "වර්තමාන පිවිසුම් IP ලිපිනය"
         email: "විද්යුත් තැපෑල"
         encrypted_password: "සංකේතාංකන මුරපදය"
         failed_attempts: "අසාර්ථක ප්රයත්න"
-        last_sign_in_at: "අවසන් පිවිසුම" 
+        last_sign_in_at: "අවසන් පිවිසුම"
         last_sign_in_ip: "අවසන් පිවිසුම් IP ලිපිනය"
         locked_at: "අගුළු දමා ඇත"
         password: "මුරපදය"
         password_confirmation: "මුරපදය තහවුරු කිරීම"
-        remember_created_at: "මතක තබා ගැනීම නිර්මාණය කල අවස්තාව" 
+        remember_created_at: "මතක තබා ගැනීම නිර්මාණය කල අවස්තාව"
         remember_me: "මතක තබා ගන්න"
         reset_password_sent_at: "මුරපදය යළි පිහිටුවන්න යවනු ලැබුවේ"
         reset_password_token: "මුරපදය ටෝකනය නැවත සකසන්න"
         sign_in_count: "ඇතුළුවූ වාර ගණන"
         unconfirmed_email: "තහවුරු නොකළ විද්යුත් තැපෑල"
         unlock_token: "ටෝකනය ඇවුරුම"
-        updated_at: "යාවත්කාලීන කලේ" 
+        updated_at: "යාවත්කාලීන කලේ"
     models:
       user: "පරිශීලක"
   devise:
@@ -93,7 +93,7 @@ si:
         leave_blank_if_you_don_t_want_to_change_it: "ඔබට එය වෙනස් කිරීමට අවශ්ය නැතිනම් හිස්ව තබන්න"
         title: "සංස්කරණය කරන්න %{resource}"
         unhappy: "කණගාටුයි?"
-        update: "යාවත්කාලීන කරන්න" 
+        update: "යාවත්කාලීන කරන්න"
         we_need_your_current_password_to_confirm_your_changes: "ඔබගේ වෙනස්කම් තහවුරු කිරීමට ඔබගේ වර්තමාන මුරපදය අවශ්ය වේ"
       new:
         sign_up: "ලියාපදිංචි වන්න"
@@ -132,6 +132,5 @@ si:
       not_found: "සොයා ගත නොහැක"
       not_locked: "අගුළු වැටි නැත "
       not_saved:
-        one: '1 දෝෂයක් නිසා මෙම %{resource} සුරැකීමට නොහැක'
+        one: 1 දෝෂයක් නිසා මෙම %{resource} සුරැකීමට නොහැක
         other: "%{count} දෝෂ නිසා මෙම %{resource} සුරැකීමට නොහැක"
-
