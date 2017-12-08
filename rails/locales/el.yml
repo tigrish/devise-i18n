@@ -8,12 +8,12 @@ el:
         created_at: "Δημιουργήθηκε"
         current_password: "Τρέχων κωδικός πρόσβασης"
         current_sign_in_at: "Τρέχουσα σύνδεση"
-        current_sign_in_ip: "IP τρέχουσας σύνδεσης"
+        current_sign_in_ip: IP τρέχουσας σύνδεσης
         email: "Διεύθυνση email"
         encrypted_password: "Κρυπτογραφημένος κωδικός πρόσβασης"
         failed_attempts: "Αποτυχημένες προσπάθειες"
         last_sign_in_at: "Τελευταία σύνδεση"
-        last_sign_in_ip: "IP τελευταίας σύνδεσης"
+        last_sign_in_ip: IP τελευταίας σύνδεσης
         locked_at: "Κλειδώθηκε"
         password: "Κωδικός πρόσβασης"
         password_confirmation: "Επιβεβαίωση κωδικού πρόσβασης"
@@ -53,7 +53,7 @@ el:
       password_change:
         greeting: "Γεια σας %{recipient}!"
         message: "Επικοινωνούμε μαζί σας για να σας ειδοποιήσουμε ότι ο κωδικός πρόσβασής σας έχει αλλάξει."
-        subject:  "Ο κωδικός πρόσβασης άλλαξε"
+        subject: "Ο κωδικός πρόσβασης άλλαξε"
       reset_password_instructions:
         action: "Αλλαγή του κωδικού πρόσβασής μου"
         greeting: "Γεια σας %{recipient}!"
@@ -132,5 +132,5 @@ el:
       not_found: "δεν βρέθηκε"
       not_locked: "δεν κλειδώθηκε"
       not_saved:
-        one: "1 λάθος δεν επέτρεψε την αποθήκευση του %{resource}:"
+        one: '1 λάθος δεν επέτρεψε την αποθήκευση του %{resource}:'
         other: "%{count} λάθη δεν επέτρεψαν την αποθήκευση του %{resource}:"
