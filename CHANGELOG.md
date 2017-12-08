@@ -1,7 +1,9 @@
-## Unreleased
+## 1.5.0
 
 - Require devise 3.4 and above.
 - Updated error keys to use the devise-configured authentication keys instead of always "email" or translated equivalent (feature introduced in [devise#3201](https://github.com/plataformatec/devise/issues/3201)).
+- Added si translation.
+- Updated de, el, fi, fr, pl, pt-BR, zh-CN, and zh-TW translations.
 
 ## 1.4.0
 
