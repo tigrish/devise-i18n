@@ -2,29 +2,29 @@ vi:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: Xác nhận gửi lúc
+        confirmation_token: Mã xác nhận
+        confirmed_at: Xác nhận lúc
+        created_at: "Được tạo lúc"
         current_password: Mật khẩu hiện tại
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: "Đăng nhập lúc"
+        current_sign_in_ip: "Địa chỉ IP đăng nhập"
         email: Email
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: Mật khẩu mã hoá
+        failed_attempts: Số lần đăng nhập thất bại
+        last_sign_in_at: "Đăng nhập lần cuối"
+        last_sign_in_ip: "Địa chỉ IP đăng nhập lần cuối"
+        locked_at: Khoá lúc
         password: Mật khẩu
         password_confirmation: Xác nhận mật khẩu
-        remember_created_at: 
+        remember_created_at: Ghi nhớ được lưu lúc
         remember_me: Ghi nhớ đăng nhập
-        reset_password_sent_at: 
-        reset_password_token: 
-        sign_in_count: 
-        unconfirmed_email: 
-        unlock_token: 
-        updated_at: 
+        reset_password_sent_at: Yêu cầu đặt lại mật khẩu gửi lúc
+        reset_password_token: Mã đặt lại mật khẩu
+        sign_in_count: Số lần đăng nhập
+        unconfirmed_email: Email chưa xác nhận
+        unlock_token: Mã mở khoá
+        updated_at: "Được cập nhật lúc"
     models:
       user: Người dùng
   devise:
@@ -37,10 +37,10 @@ vi:
     failure:
       already_authenticated: Bạn đã đăng nhập.
       inactive: Tài khoản của bạn chưa được kích hoạt.
-      invalid: 
+      invalid: Tài khoản hay mật khẩu %{authentication_keys} không hợp lệ
       last_attempt: Bạn còn một lần thử đăng nhập nữa trước khi tài khoản của bạn bị khóa.
       locked: Tài khoản của bạn đã bị khóa.
-      not_found_in_database: 
+      not_found_in_database: Email hay mật khẩu %{authentication_keys} không hợp lệ
       timeout: Phiên làm việc của bạn đã kết thúc, bạn cần đăng nhập lại để tiếp tục.
       unauthenticated: Bạn cần phải đăng nhập hoặc đăng ký trước khi tiếp tục.
       unconfirmed: Bạn cần phải xác nhận tài khoản trước khi tiếp tục.
@@ -51,9 +51,9 @@ vi:
         instruction: 'Bạn có thể xác nhận tài khoản email bằng liên kết dưới đây:'
         subject: Hướng dẫn xác nhận tài khoản
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Xin chào %{recipient}!
+        message: 'Chúng tôi thông báo với bạn là mật khẩu của bạn đã được thay đổi. '
+        subject: 'Mật khẩu đã được thay đổi. '
       reset_password_instructions:
         action: Thay đổi mật khẩu
         greeting: Xin chào %{recipient}!
