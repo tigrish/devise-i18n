@@ -38,32 +38,32 @@ en:
       already_authenticated: Tashmw jeni tw lloguar.
       inactive: Llogaria juaj ende nuk wshtw aktivizuar.
       invalid: Invalid %{authentication_keys} or password.
-      last_attempt: You have one more attempt before your account is locked.
-      locked: Your account is locked.
+      last_attempt: Keni edhe njw shans para se tw bllokohet llogaria juaj.
+      locked: Llogaria juaj wshtw bllokuar.
       not_found_in_database: Invalid %{authentication_keys} address or password.
-      timeout: Your session expired. Please sign in again to continue.
-      unauthenticated: You need to sign in or sign up before continuing.
-      unconfirmed: You have to confirm your email address before continuing.
+      timeout: Sesioni juaj ka skaduar. Luteni tw llogoheni pwrswri pwr tw vazhduar.
+      unauthenticated: Duhet tw llogoheni apo tw regjistroheni para se tw vazhdoni.
+      unconfirmed: Duhet tw konfirmoni email adreswn tuaj para se tw vazhdoni.
     mailer:
       confirmation_instructions:
         action: Confirm my account
         greeting: Welcome %{recipient}!
-        instruction: 'You can confirm your account email through the link below:'
-        subject: Confirmation instructions
+        instruction: 'Mund tw konfirmoni llogarinw tuaj pwrmws linkut tw mwposhtwm:'
+        subject: Instruksionet e konfirmimit
       password_change:
-        greeting: Hello %{recipient}!
-        message: We're contacting you to notify you that your password has been changed.
-        subject: Password Changed
+        greeting: Tung %{recipient}!
+        message: Po ju kontaktojmw qw tw ju informojmw se fjalwkalimi juaj wshtw ndryshuar.
+        subject: Fjalwkalimi wshtw ndryshuar
       reset_password_instructions:
-        action: Change my password
-        greeting: Hello %{recipient}!
-        instruction: Someone has requested a link to change your password, and you can do this through the link below.
-        instruction_2: If you didn't request this, please ignore this email.
-        instruction_3: Your password won't change until you access the link above and create a new one.
-        subject: Reset password instructions
+        action: Ndrysho fjalwkalimin
+        greeting: Tung %{recipient}!
+        instruction: Dikush ka kwrkuar njw link qw tw ndryshoni fjalwkalimin tuaj, dhe mund ta bwni kwtw pwrmes linkukt tw mwpooshtwm.
+        instruction_2: Nse ju nuk e keni kwrkuar kwtw, ju lusim ta injoroni kwtw porosi.
+        instruction_3: Fjalwkalimi juaj nuk do tw ndryshohet pwrderisa nuk qaseni nw kwtw link pwr ta krijuar njw tw ri.
+        subject: Instruksionet pwr resetimin e fjalwkalimit
       unlock_instructions:
         action: Unlock my account
-        greeting: Hello %{recipient}!
+        greeting: Tung %{recipient}!
         instruction: 'Click the link below to unlock your account:'
         message: Your account has been locked due to an excessive amount of unsuccessful sign in attempts.
         subject: Unlock instructions
@@ -75,9 +75,9 @@ en:
         change_my_password: Change my password
         change_your_password: Change your password
         confirm_new_password: Confirm new password
-        new_password: New password
+        new_password: Fjalwkalimi i ri
       new:
-        forgot_your_password: Forgot your password?
+        forgot_your_password: Keni harruar fjalwkalimin?
         send_me_reset_password_instructions: Send me reset password instructions
       no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
       send_instructions: You will receive an email with instructions on how to reset your password in a few minutes.
