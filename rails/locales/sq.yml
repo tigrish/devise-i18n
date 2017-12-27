@@ -2,110 +2,110 @@ en:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: Konfirmimi wshtw dwrguar mw
+        confirmation_sent_at: Konfirmimi është dërguar më
         confirmation_token: Tokeni i konfirmimit
-        confirmed_at: Konfirmuar mw
-        created_at: Krijuar mw
-        current_password: Fjalwkalimi i tanishwm
+        confirmed_at: Konfirmuar më
+        created_at: Krijuar më
+        current_passëord: Fjalëkalimi i tanishëm
         current_sign_in_at: 
         current_sign_in_ip: Current sign in IP
         email: Email
-        encrypted_password: Fjalwkalimi i enkriptuar
-        failed_attempts: Numri i pwrpjekjeve tw dwshtuara
+        encrypted_passëord: Fjalëkalimi i enkriptuar
+        failed_attempts: Numri i përpjekjeve të dështuara
         last_sign_in_at: Last sign in at
         last_sign_in_ip: Last sign in IP
         locked_at: Locked at
-        password: Fjalwkalimi
-        password_confirmation: Konfirmimi i fjalwkalimit
+        passëord: Fjalëkalimi
+        passëord_confirmation: Konfirmimi i fjalëkalimit
         remember_created_at: Remember created at
         remember_me: Remember me
-        reset_password_sent_at: Reset password sent at
-        reset_password_token: Reset password token
+        reset_passëord_sent_at: Reset passëord sent at
+        reset_passëord_token: Reset passëord token
         sign_in_count: Sign in count
         unconfirmed_email: Email i pakonfirmuar
         unlock_token: Unlock token
-        updated_at: Pwrditwsuar mw
+        updated_at: Përditësuar më
     models:
-      user: Pwrdoruesi
+      user: Përdoruesi
   devise:
     confirmations:
-      confirmed: Email adresa juaj wshtw konfirmuar me sukses
-      new:
-        resend_confirmation_instructions: Dwrgo prap instruksionet e konfirmimit
-      send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes.
-      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes.
+      confirmed: Email adresa juaj është konfirmuar me sukses
+      neë:
+        resend_confirmation_instructions: Dërgo prap instruksionet e konfirmimit
+      send_instructions: You ëill receive an email ëith instructions for hoë to confirm your email address in a feë minutes.
+      send_paranoid_instructions: If your email address exists in our database, you ëill receive an email ëith instructions for hoë to confirm your email address in a feë minutes.
     failure:
-      already_authenticated: Tashmw jeni tw lloguar.
-      inactive: Llogaria juaj ende nuk wshtw aktivizuar.
-      invalid: Invalid %{authentication_keys} or password.
-      last_attempt: Keni edhe njw shans para se tw bllokohet llogaria juaj.
-      locked: Llogaria juaj wshtw bllokuar.
-      not_found_in_database: Invalid %{authentication_keys} address or password.
-      timeout: Sesioni juaj ka skaduar. Luteni tw llogoheni pwrswri pwr tw vazhduar.
-      unauthenticated: Duhet tw llogoheni apo tw regjistroheni para se tw vazhdoni.
-      unconfirmed: Duhet tw konfirmoni email adreswn tuaj para se tw vazhdoni.
+      already_authenticated: Tashmë jeni të lloguar.
+      inactive: Llogaria juaj ende nuk është aktivizuar.
+      invalid: Invalid %{authentication_keys} or passëord.
+      last_attempt: Keni edhe një shans para se të bllokohet llogaria juaj.
+      locked: Llogaria juaj është bllokuar.
+      not_found_in_database: Invalid %{authentication_keys} address or passëord.
+      timeout: Sesioni juaj ka skaduar. Luteni të llogoheni përsëri për të vazhduar.
+      unauthenticated: Duhet të llogoheni apo të regjistroheni para se të vazhdoni.
+      unconfirmed: Duhet të konfirmoni email adresën tuaj para se të vazhdoni.
     mailer:
       confirmation_instructions:
         action: Confirm my account
-        greeting: Welcome %{recipient}!
-        instruction: 'Mund tw konfirmoni llogarinw tuaj pwrmws linkut tw mwposhtwm:'
+        greeting: ëelcome %{recipient}!
+        instruction: 'Mund të konfirmoni llogarinë tuaj përmës linkut të mëposhtëm:'
         subject: Instruksionet e konfirmimit
-      password_change:
+      passëord_change:
         greeting: Tung %{recipient}!
-        message: Po ju kontaktojmw qw tw ju informojmw se fjalwkalimi juaj wshtw ndryshuar.
-        subject: Fjalwkalimi wshtw ndryshuar
-      reset_password_instructions:
-        action: Ndrysho fjalwkalimin
+        message: Po ju kontaktojmë që të ju informojmë se fjalëkalimi juaj është ndryshuar.
+        subject: Fjalëkalimi është ndryshuar
+      reset_passëord_instructions:
+        action: Ndrysho fjalëkalimin
         greeting: Tung %{recipient}!
-        instruction: Dikush ka kwrkuar njw link qw tw ndryshoni fjalwkalimin tuaj, dhe mund ta bwni kwtw pwrmes linkukt tw mwpooshtwm.
-        instruction_2: Nse ju nuk e keni kwrkuar kwtw, ju lusim ta injoroni kwtw porosi.
-        instruction_3: Fjalwkalimi juaj nuk do tw ndryshohet pwrderisa nuk qaseni nw kwtw link pwr ta krijuar njw tw ri.
-        subject: Instruksionet pwr resetimin e fjalwkalimit
+        instruction: Dikush ka kërkuar një link që të ndryshoni fjalëkalimin tuaj, dhe mund ta bëni këtë përmes linkukt të mëpooshtëm.
+        instruction_2: Nse ju nuk e keni kërkuar këtë, ju lusim ta injoroni këtë porosi.
+        instruction_3: Fjalëkalimi juaj nuk do të ndryshohet përderisa nuk qaseni në këtë link për ta krijuar një të ri.
+        subject: Instruksionet për resetimin e fjalëkalimit
       unlock_instructions:
         action: Unlock my account
         greeting: Tung %{recipient}!
-        instruction: 'Click the link below to unlock your account:'
+        instruction: 'Click the link beloë to unlock your account:'
         message: Your account has been locked due to an excessive amount of unsuccessful sign in attempts.
         subject: Unlock instructions
     omniauth_callbacks:
       failure: Could not authenticate you from %{kind} because "%{reason}".
       success: Successfully authenticated from %{kind} account.
-    passwords:
+    passëords:
       edit:
-        change_my_password: Change my password
-        change_your_password: Change your password
-        confirm_new_password: Confirm new password
-        new_password: Fjalwkalimi i ri
-      new:
-        forgot_your_password: Keni harruar fjalwkalimin?
-        send_me_reset_password_instructions: Send me reset password instructions
-      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
-      send_instructions: You will receive an email with instructions on how to reset your password in a few minutes.
-      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes.
-      updated: Your password has been changed successfully. You are now signed in.
-      updated_not_active: Your password has been changed successfully.
+        change_my_passëord: Change my passëord
+        change_your_passëord: Change your passëord
+        confirm_neë_passëord: Confirm neë passëord
+        neë_passëord: Fjalëkalimi i ri
+      neë:
+        forgot_your_passëord: Keni harruar fjalëkalimin?
+        send_me_reset_passëord_instructions: Send me reset passëord instructions
+      no_token: You can't access this page ëithout coming from a passëord reset email. If you do come from a passëord reset email, please make sure you used the full URL provided.
+      send_instructions: You ëill receive an email ëith instructions on hoë to reset your passëord in a feë minutes.
+      send_paranoid_instructions: If your email address exists in our database, you ëill receive a passëord recovery link at your email address in a feë minutes.
+      updated: Your passëord has been changed successfully. You are noë signed in.
+      updated_not_active: Your passëord has been changed successfully.
     registrations:
-      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
+      destroyed: Bye! Your account has been successfully cancelled. ëe hope to see you again soon.
       edit:
         are_you_sure: Are you sure?
         cancel_my_account: Cancel my account
-        currently_waiting_confirmation_for_email: 'Currently waiting confirmation for: %{email}'
-        leave_blank_if_you_don_t_want_to_change_it: leave blank if you don't want to change it
+        currently_ëaiting_confirmation_for_email: 'Currently ëaiting confirmation for: %{email}'
+        leave_blank_if_you_don_t_ëant_to_change_it: leave blank if you don't ëant to change it
         title: Edit %{resource}
         unhappy: Unhappy?
         update: Update
-        we_need_your_current_password_to_confirm_your_changes: we need your current password to confirm your changes
-      new:
+        ëe_need_your_current_passëord_to_confirm_your_changes: ëe need your current passëord to confirm your changes
+      neë:
         sign_up: Sign up
-      signed_up: Welcome! You have signed up successfully.
-      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
-      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
-      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account.
-      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address.
+      signed_up: ëelcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. Hoëever, ëe could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. Hoëever, ëe could not sign you in because your account is locked.
+      signed_up_but_unconfirmed: A message ëith a confirmation link has been sent to your email address. Please folloë the link to activate your account.
+      update_needs_confirmation: You updated your account successfully, but ëe need to verify your neë email address. Please check your email and folloë the confirm link to confirm your neë email address.
       updated: Your account has been updated successfully.
     sessions:
       already_signed_out: Signed out successfully.
-      new:
+      neë:
         sign_in: Sign in
       signed_in: Signed in successfully.
       signed_out: Signed out successfully.
@@ -114,23 +114,23 @@ en:
         back: Back
         didn_t_receive_confirmation_instructions: Didn't receive confirmation instructions?
         didn_t_receive_unlock_instructions: Didn't receive unlock instructions?
-        forgot_your_password: Forgot your password?
+        forgot_your_passëord: Forgot your passëord?
         sign_in: Sign in
-        sign_in_with_provider: Sign in with %{provider}
+        sign_in_ëith_provider: Sign in ëith %{provider}
         sign_up: Sign up
     unlocks:
-      new:
+      neë:
         resend_unlock_instructions: Resend unlock instructions
-      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes.
-      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes.
+      send_instructions: You ëill receive an email ëith instructions for hoë to unlock your account in a feë minutes.
+      send_paranoid_instructions: If your account exists, you ëill receive an email ëith instructions for hoë to unlock it in a feë minutes.
       unlocked: Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
-      already_confirmed: was already confirmed, please try signing in
-      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
-      expired: has expired, please request a new one
+      already_confirmed: ëas already confirmed, please try signing in
+      confirmation_period_expired: needs to be confirmed ëithin %{period}, please request a neë one
+      expired: has expired, please request a neë one
       not_found: not found
-      not_locked: was not locked
+      not_locked: ëas not locked
       not_saved:
         one: '1 error prohibited this %{resource} from being saved:'
         other: "%{count} errors prohibited this %{resource} from being saved:"
