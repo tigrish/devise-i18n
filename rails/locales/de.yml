@@ -35,9 +35,10 @@ de:
       send_instructions: Sie erhalten in wenigen Minuten eine E-Mail, mit der Sie Ihre Registrierung bestätigen können.
       send_paranoid_instructions: Falls Ihre E-Mail-Adresse in unserer Datenbank existiert, erhalten Sie in wenigen Minuten eine E-Mail, mit der Sie Ihre Registrierung bestätigen können.
     failure:
+      user:
+        invalid: "%{authentication_keys} ungültigt oder ungültiges Passwort."
       already_authenticated: Sie sind bereits angemeldet.
       inactive: Ihr Account ist nicht aktiv.
-      invalid: 
       last_attempt: Sie haben noch einen Versuch, bis Ihr Account gesperrt wird.
       locked: Ihr Account ist gesperrt.
       not_found_in_database: 
