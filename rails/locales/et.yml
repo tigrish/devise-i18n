@@ -2,29 +2,29 @@ et:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: Kinnitus saadetud
+        confirmation_token: Kinnitamise tähis
+        confirmed_at: Kinnitatud
+        created_at: Loodud
         current_password: Praegune parool
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: Sisselogimise aeg
+        current_sign_in_ip: Sisselogimise IP
         email: E-post
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: Krüpteeritud salasõna
+        failed_attempts: Ebaõnnestunud katsed
+        last_sign_in_at: Viimati sisselogitud
+        last_sign_in_ip: Viimase sisselogimise IP
+        locked_at: Lukustatud
         password: Parool
         password_confirmation: Parooli kinnitus
-        remember_created_at: 
+        remember_created_at: Hoia loomisaeg meeles
         remember_me: Hoia mind meeles
-        reset_password_sent_at: 
+        reset_password_sent_at: Lähtesta salasõna saatmise aeg
         reset_password_token: Parooli ennistamise tähis
-        sign_in_count: 
-        unconfirmed_email: 
+        sign_in_count: Sisselogimiste arv
+        unconfirmed_email: Kinnitamata e-posti aadress
         unlock_token: Avamise tähis
-        updated_at: 
+        updated_at: Uuendatud
     models:
       user: Kasutaja
   devise:
@@ -37,10 +37,10 @@ et:
     failure:
       already_authenticated: Oled juba sisse loginud.
       inactive: Sinu konto polnud veel aktiveeritud.
-      invalid: 
+      invalid: Vale %{authentication_keys} või salasõna
       last_attempt: Sinul on jäänud veel üks katse enne kui su konto lukustatakse.
       locked: Sinu konto lukustati.
-      not_found_in_database: 
+      not_found_in_database: Vale %{authentication_keys} aadress või salasõna
       timeout: Sinu sessioon on aegunud, jätkamiseks logi palun sisse.
       unauthenticated: Sa pead sisse logima või registreeruma enne jätkamist.
       unconfirmed: Sa pead oma konto kinnitama, enne jätkamist.
