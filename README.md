@@ -26,6 +26,14 @@ rails g devise:i18n:views
 ```
 You should only do this if you really need to, though, because doing this will make it so that you won't get the updated views should they change in a future version of devise-i18n. To "uncustomize" the views, just delete them, and your app will go back to grabbing devise-i18n's default views.
 
+## Scoped views
+
+If you need to use scoped views (for example, if you have different ones for users and admins), you can include the scope in this command.
+``` sh
+rails g devise:i18n:views user
+```
+
+You will additionally need to generate the the translations into your app per the following section and then add keys in each file for the scope you are using.
 
 ## Customizing translations
 
