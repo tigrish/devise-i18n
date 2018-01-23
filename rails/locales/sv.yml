@@ -2,29 +2,29 @@ sv:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: Bekräftelse skickad
+        confirmation_token: Bekräftelse-token
+        confirmed_at: Bekräftat
+        created_at: Skapad
         current_password: Nuvarande lösenord
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: Nuvarande inloggning vid
+        current_sign_in_ip: Nuvarande inloggnings-IP
         email: Email
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: Krypterat lösenord
+        failed_attempts: Misslyckade försök
+        last_sign_in_at: Senaste inloggning vid
+        last_sign_in_ip: Senaste inloggnings-IP
+        locked_at: Låst vid
         password: Lösenord
         password_confirmation: Bekräfta lösenord
-        remember_created_at: 
+        remember_created_at: Kom ihåg skapades vid
         remember_me: Kom ihåg mig
-        reset_password_sent_at: 
+        reset_password_sent_at: "Återställ lösenord skickat vid"
         reset_password_token: "Återställ token för lösenord"
-        sign_in_count: 
-        unconfirmed_email: 
+        sign_in_count: Antal inloggningar
+        unconfirmed_email: Obekräftad email
         unlock_token: Token för återaktivering
-        updated_at: 
+        updated_at: Uppdaterad
     models:
       user: Användare
   devise:
@@ -37,10 +37,10 @@ sv:
     failure:
       already_authenticated: Du är redan inloggad.
       inactive: Ditt konto har inte aktiverats ännu.
-      invalid: 
+      invalid: Ogiltig %{authentication_keys} eller lösenord
       last_attempt: Du har ett försök kvar, sen låser vi ditt konto.
       locked: Ditt konto är låst.
-      not_found_in_database: 
+      not_found_in_database: Ogiltig %{authentication_keys}-adress eller lösenord
       timeout: Din session är inte längre giltig, vänligen logga in igen för att fortsätta.
       unauthenticated: Du måste logga in eller skapa ett konto innan du kan fortsätta.
       unconfirmed: Du måste bekräfta ditt konto innan du kan fortsätta.
