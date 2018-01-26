@@ -2,29 +2,29 @@ ru:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: "Дата отправки подтверждения"
+        confirmation_token: "Токен подтверждения"
+        confirmed_at: "Дата подтверждения"
+        created_at: "Дата создания"
         current_password: "Текущий пароль"
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: "Дата текущего входа"
+        current_sign_in_ip: IP текущего входа
         email: Email
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: "Зашифрованный пароль"
+        failed_attempts: "Неудачные попытки"
+        last_sign_in_at: "Дата последнего входа"
+        last_sign_in_ip: IP последнего входа
+        locked_at: "Дата блокировки"
         password: "Пароль"
         password_confirmation: "Подтверждение пароля"
-        remember_created_at: 
+        remember_created_at: "Дата создания запоминания"
         remember_me: "Запомнить меня"
-        reset_password_sent_at: 
-        reset_password_token: "Ссылка сброса пароля"
-        sign_in_count: 
-        unconfirmed_email: 
+        reset_password_sent_at: "Дата отправки сброса пароля"
+        reset_password_token: "Токен сброса пароля"
+        sign_in_count: "Количество входов"
+        unconfirmed_email: "Неподтвержденный email"
         unlock_token: "Токен разблокировки"
-        updated_at: 
+        updated_at: "Дата обновления"
     models:
       user: "Пользователь"
   devise:
@@ -37,10 +37,10 @@ ru:
     failure:
       already_authenticated: "Вы уже вошли в систему."
       inactive: "Ваша учетная запись еще не активирована."
-      invalid: 
+      invalid: "Неправильный %{authentication_keys} или пароль."
       last_attempt: "У вас осталась последняя попытка ввода пароля до блокировки учетной записи."
       locked: "Ваша учетная запись заблокирована."
-      not_found_in_database: 
+      not_found_in_database: "Неправильный %{authentication_keys} или пароль."
       timeout: "Ваш сеанс закончился. Пожалуйста, войдите в систему снова."
       unauthenticated: "Вам необходимо войти в систему или зарегистрироваться."
       unconfirmed: "Вы должны подтвердить вашу учетную запись."
