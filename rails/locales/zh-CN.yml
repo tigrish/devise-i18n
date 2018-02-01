@@ -40,7 +40,7 @@ zh-CN:
       invalid: "%{authentication_keys}或密码错误。"
       last_attempt: "您还有最后一次尝试机会，再次失败您的帐户将被锁定。"
       locked: "您的帐户正被锁定。"
-      not_found_in_database: "%{authentication_keys}地址或密码错误。"
+      not_found_in_database: "%{authentication_keys}或密码错误。"
       timeout: "登录超时，请重新登录。"
       unauthenticated: "继续操作前请确保您已登录。"
       unconfirmed: "继续操作前请先确认您的帐户。"

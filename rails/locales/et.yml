@@ -40,7 +40,7 @@ et:
       invalid: Vale %{authentication_keys} või salasõna
       last_attempt: Sinul on jäänud veel üks katse enne kui su konto lukustatakse.
       locked: Sinu konto lukustati.
-      not_found_in_database: Vale %{authentication_keys} aadress või salasõna
+      not_found_in_database: Vale %{authentication_keys} või salasõna
       timeout: Sinu sessioon on aegunud, jätkamiseks logi palun sisse.
       unauthenticated: Sa pead sisse logima või registreeruma enne jätkamist.
       unconfirmed: Sa pead oma konto kinnitama, enne jätkamist.

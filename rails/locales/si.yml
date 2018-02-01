@@ -40,7 +40,7 @@ si:
       invalid: "අවලංගු %{authentication_keys} හෝ මුරපදයකි."
       last_attempt: "ඔබගේ ගිණුම අගුළු දැමීමට පෙර තවත් එක් උත්සාහයක් ඔබ සතුව ඇත."
       locked: "ඔබගේ ගිණුම අගුලු දමා ඇත."
-      not_found_in_database: "අවලංගු %{authentication_keys} ලිපිනය හෝ මුරපදයකි."
+      not_found_in_database: "අවලංගු %{authentication_keys} හෝ මුරපදයකි."
       timeout: "ඔබගේ සැසිය කල් ඉකුත් විය. දිගටම කරගෙන යාමට කරුණාකර පුරනය වන්න."
       unauthenticated: "දිගටම කරගෙන යෑමට පෙර ඔබ පුරනය වීමට හෝ ලියාපදිංචි විය යුතුය."
       unconfirmed: "දිගටම කරගෙන යාමට පෙර ඔබගේ ඊමේල් ලිපිනය තහවුරු කිරීමට සිදු වේ."
