@@ -1,3 +1,8 @@
+## 1.5.1
+
+- Devise looks up a different key on login failure if the user exists. This can be used by other users to determine if specific user is already registered, even if Devise is in paranoid mode (which normally tries to prevent this). This has been filed as [devise issue #4763](https://github.com/plataformatec/devise/issues/4763). Updated some translations that were using different strings for these keys to mitigate the issue.
+- Updated de, el, es, et, fa, ja, nl, pl, pt-BR, ru, si, sv, vi, and zh-CN translations.
+
 ## 1.5.0
 
 - Require devise 3.4 and above.
