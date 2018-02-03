@@ -51,6 +51,8 @@ ca:
         instruction: 'Pots confirmar el correu electrònic del teu compte a través d''aquest enllaç:'
         subject: Instruccions de confirmació
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Hola, %{recipient}!
@@ -120,6 +122,7 @@ ca:
         sign_in: Iniciar sessió
         sign_in_with_provider: Iniciar sessió amb %{provider}
         sign_up: Registrar-se
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instruccions de desbloqueig

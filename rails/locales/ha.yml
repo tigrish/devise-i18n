@@ -51,6 +51,8 @@ ha:
         instruction: Zaka iya tabbatar da I-mail din ka daga sakon dake karkashin ka
         subject: Bayanin tabbatar wa
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Hallo %{recipient}
@@ -120,6 +122,7 @@ ha:
         sign_in: shiga
         sign_in_with_provider: shiga da %{provider}
         sign_up: Bayar de sabon bayanin akaut
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Sake  turo da bayanin bude akaut

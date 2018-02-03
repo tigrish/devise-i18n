@@ -51,6 +51,8 @@ pt:
         instruction: 'Pode confirmar a sua conta através do link:'
         subject: Instruções de confirmação
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: 
@@ -120,6 +122,7 @@ pt:
         sign_in: Login
         sign_in_with_provider: Entrar com %{provider}
         sign_up: Criar conta
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Renviar instruções de desbloqueio

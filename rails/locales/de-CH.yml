@@ -51,6 +51,8 @@ de-CH:
         instruction: 'Folgen Sie dem untenstehenden Link, um Ihr Konto zu bestätigen:'
         subject: Anleitung zur Bestätigung Ihres Accounts
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Hallo %{recipient}!
@@ -122,6 +124,7 @@ de-CH:
           Anmelden
         sign_in_with_provider: Mit %{provider} anmelden
         sign_up: Registrieren
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Anleitung zum Entsperren noch mal schicken

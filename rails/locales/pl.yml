@@ -51,6 +51,8 @@ pl:
         instruction: 'Możesz potwierdzić swoje konto przy pomocy poniższego linku:'
         subject: Instrukcja aktywacji konta
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Witaj %{recipient}!
@@ -120,6 +122,7 @@ pl:
         sign_in: Zaloguj się
         sign_in_with_provider: Zaloguj się przez %{provider}
         sign_up: Zarejestruj się
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Wyślij instrukcje odblokowania konta

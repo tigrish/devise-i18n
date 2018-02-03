@@ -51,6 +51,8 @@ hu:
         instruction: 'A fiók megerősítéséhez rá kell kattintani az alábbi linkre:'
         subject: Email cím megerősítés
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: 
@@ -120,6 +122,7 @@ hu:
         sign_in: Belépés
         sign_in_with_provider: "%{provider} belépés"
         sign_up: Regisztráció
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Feloldási teendők újraküldése

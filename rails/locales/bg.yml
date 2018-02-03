@@ -51,6 +51,8 @@ bg:
         instruction: "Можете да потвърдите имейл адреса си чрез линка по-долу:"
         subject: "Инструкции за потвърждаване"
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: "Здравейте, %{recipient}!"
@@ -120,6 +122,7 @@ bg:
         sign_in: "Вход"
         sign_in_with_provider: "Вход с %{provider}"
         sign_up: "Регистрация"
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: "Повторно изпращане на инструкции за отключване"

@@ -51,6 +51,8 @@ lo-LA:
         instruction: "ທ່ານສາມາດຢືັນຢັນບັນຊີຂອງທ່ານຜ່ານລິ້ງລຸ່ມນີ້:"
         subject: "ຂັ້ນຕອນການຢືນຢັນ"
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: "ສະບາຍດີ %{recipient}!"
@@ -120,6 +122,7 @@ lo-LA:
         sign_in: "ເຂົ້າສູ່ລະບົບ"
         sign_in_with_provider: "ເຂົ້າສູ່ລະບົບດ້ວຍ %{provider}"
         sign_up: "ສະໝັກ"
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: "ສົ່ງຂັ້ນຕອນການປົດລັອກໃໝ່"

@@ -51,6 +51,8 @@ lv:
         instruction: 'Jūs varat apstiprināt, Jūsu konta epastu caur saiti zemāk:'
         subject: Apstiprināšanas apraksts
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: 
@@ -120,6 +122,7 @@ lv:
         sign_in: Pievienoties
         sign_in_with_provider: Pievienoties ar %{provider}
         sign_up: Reģistrēties
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Atkārtoti atsūtīt atbloķēšanas instrukciju

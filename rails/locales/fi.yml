@@ -51,6 +51,8 @@ fi:
         instruction: 'Vahvista sähköpostisi painamalla alla olevaa linkkiä:'
         subject: Vahvistusohjeet
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Hei %{recipient}!
@@ -120,6 +122,7 @@ fi:
         sign_in: Kirjaudu sisään
         sign_in_with_provider: Kirjaudu sisään (%{provider})
         sign_up: Rekisteröidy
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Uudelleenlähetä lukituksen poisto -ohjeet

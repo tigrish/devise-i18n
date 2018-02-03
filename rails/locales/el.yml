@@ -51,6 +51,8 @@ el:
         instruction: "Μπορείτε να επιβεβαιώσετε τη διεύθυνση email του λογαριασμού σας μέσω του συνδέσμου παρακάτω:"
         subject: "Οδηγίες επιβεβαίωσης"
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: "Γεια σας %{recipient}!"
@@ -120,6 +122,7 @@ el:
         sign_in: "Σύνδεση"
         sign_in_with_provider: "Σύνδεση με %{provider}"
         sign_up: "Εγγραφή"
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: "Επανάληψη αποστολής οδηγιών ξεκλειδώματος"

@@ -51,6 +51,8 @@ is:
         instruction: "Þú getur staðfest aðgang þinn með hlekknum hér fyrir neðan:"
         subject: Staðfestingarleiðbeiningar
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Halló %{recipient}!
@@ -120,6 +122,7 @@ is:
         sign_in: Skrá inn
         sign_in_with_provider: Skrá inn með %{provider}
         sign_up: Nýskrá
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Endursenda leiðbeiningar aflæsingar

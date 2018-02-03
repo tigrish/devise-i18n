@@ -51,6 +51,8 @@ it:
         instruction: 'Puoi confermare il tuo account cliccando sul link qui sotto:'
         subject: Istruzioni per la conferma
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Ciao %{recipient}!
@@ -120,6 +122,7 @@ it:
         sign_in: Accedi
         sign_in_with_provider: Accedi con %{provider}
         sign_up: Registrati
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Invia di nuovo le istruzioni per lo sblocco

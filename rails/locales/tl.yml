@@ -51,6 +51,8 @@ tl:
         instruction: 'Maaari mong kumpirmahin ang iyong account email sa pamamagitan ng link sa ibaba:'
         subject: Mga Tagubilin ng Pagkumpirma
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Hello %{recipient}!
@@ -120,6 +122,7 @@ tl:
         sign_in: Mag-sign in
         sign_in_with_provider: Mag-sign in gamit ang %{provider}
         sign_up: Mag-sign up
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Muling ipadala ang mga tagubilin sa pag-unlock

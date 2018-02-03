@@ -51,6 +51,8 @@ yo:
         instruction: O lé fi àṣẹsí àkántì í-meèlì rẹ pẹ̀lú ìtọ́kasí ni isalẹ
         subject: "ìmúdájú ìlànà"
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: "Ẹ ǹlẹ́ o %{recipient}"
@@ -131,6 +133,7 @@ yo:
         sign_in: Wọlé
         sign_in_with_provider: Wọlé pẹ̀lú %{provider}
         sign_up: Forúkọsílẹ̀
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: |

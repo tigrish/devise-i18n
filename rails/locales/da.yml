@@ -51,6 +51,8 @@ da:
         instruction: 'Du kan bekræfte din email-konto igennem linket herunder:'
         subject: Bekræftelsesinstruktioner
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Hej %{recipient}!
@@ -120,6 +122,7 @@ da:
         sign_in: Log-ind
         sign_in_with_provider: Log-ind med %{provider}
         sign_up: Registrer
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Få tilsendt aktiverings-instruktioner

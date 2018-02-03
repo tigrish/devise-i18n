@@ -51,6 +51,8 @@ id:
         instruction: 'Anda bisa melakukan konfirmasi email akun Anda menggunakan tautan berikut ini:'
         subject: Instruksi untuk melakukan konfirmasi
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Halo %{recipient}!
@@ -120,6 +122,7 @@ id:
         sign_in: Masuk
         sign_in_with_provider: Masuk dengan akun %{provider}
         sign_up: Mendaftar
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Kirim ulang instruksi untuk membuka kunci akun

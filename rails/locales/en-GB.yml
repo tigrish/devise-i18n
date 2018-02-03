@@ -51,6 +51,8 @@ en-GB:
         instruction: 'You can confirm your account email through the link below:'
         subject: Confirmation instructions
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Hello %{recipient}!
@@ -121,6 +123,7 @@ en-GB:
         sign_in: Sign in
         sign_in_with_provider: Sign in with %{provider}
         sign_up: Sign up
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Resend unlock instructions

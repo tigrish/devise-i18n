@@ -51,6 +51,8 @@ nb:
         instruction: Du kan aktivere din konto ved å trykke på lenken nedenfor.
         subject: Bekreftelsesinstruksjoner
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Hei %{recipient}!
@@ -120,6 +122,7 @@ nb:
         sign_in: Logg inn
         sign_in_with_provider: Logg inn med %{provider}
         sign_up: Registrering
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Send instrukser for gjenåpning av konto på nytt

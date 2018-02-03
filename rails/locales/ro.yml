@@ -51,6 +51,8 @@ ro:
         instruction: 'Vă puteți confirma emailul prin link-ul de mai jos:'
         subject: Instrucţiuni de confirmare
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Bună %{recipient}!
@@ -120,6 +122,7 @@ ro:
         sign_in: Autentificare
         sign_in_with_provider: Autentificat cu %{provider}
         sign_up: "Înregistrare"
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Retrimite instrucțiuni pentru deblocare

@@ -51,6 +51,8 @@ th:
         instruction: "คุณสามารถยืนยันอีเมล์ที่ใช้สมัครสมาชิกได้จากลิงค์ข้างล่างนี้:"
         subject: "คำแนะนำการยืนยัน"
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: 
@@ -120,6 +122,7 @@ th:
         sign_in: "เข้าสู่ระบบ"
         sign_in_with_provider: "เข้าสู่ระบบด้วย%{provider}"
         sign_up: "ออกจากระบบ"
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: "ส่งคำขอปลดล็อคอีกครั้ง"

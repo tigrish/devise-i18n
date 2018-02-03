@@ -51,6 +51,8 @@ et:
         instruction: 'Oma konto saad kinnitada alloleva lingi kaudu:'
         subject: Kinnitamise juhised
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Tere %{recipient}!
@@ -120,6 +122,7 @@ et:
         sign_in: Logi sisse
         sign_in_with_provider: Logi sisse %{provider}-ga
         sign_up: Loo konto
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Saada konto avamise juhised uuesti

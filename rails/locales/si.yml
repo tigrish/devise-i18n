@@ -51,6 +51,8 @@ si:
         instruction: "පහත දැක්වෙන සබැඳිය ඔස්සේ ඔබේ ගිණුමේ විද්යුත් තැපැල් ගිණුම තහවුරු කළ හැකිය:"
         subject: "තහවුරු කිරීමේ උපදෙස්"
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: "ආයුබෝවන් %{recipient}!"
@@ -120,6 +122,7 @@ si:
         sign_in: "ගිණුමට ඇතුළුවන්න"
         sign_in_with_provider: "ඇතුළුවන්න සමගින්  %{provider}"
         sign_up: "ලියාපදිංචි වන්න"
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: "ඇගුළු හැරීමේ උපදෙස් නැවත එවන්න "

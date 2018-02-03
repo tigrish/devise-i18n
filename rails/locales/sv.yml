@@ -51,6 +51,8 @@ sv:
         instruction: 'Du kan bekräfta ditt konto med länken nedan:'
         subject: Instruktioner för bekräftning av konto
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Hej %{recipient}!
@@ -120,6 +122,7 @@ sv:
         sign_in: Logga in
         sign_in_with_provider: Logga in med %{provider}
         sign_up: Registrera dig
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Skicka instruktioner för upplåsning av konto igen

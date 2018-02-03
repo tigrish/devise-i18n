@@ -51,6 +51,8 @@ es-MX:
         instruction: 'Se puede confirmar el correo electrónico de la cuenta a través de este enlace:'
         subject: Instrucciones de confirmación
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: "¡Hola, %{recipient}!"
@@ -120,6 +122,7 @@ es-MX:
         sign_in: Iniciar sesión
         sign_in_with_provider: Iniciar sesión con %{provider}
         sign_up: Registrarse
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instrucciones para desbloquear la cuenta

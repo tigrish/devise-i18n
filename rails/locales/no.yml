@@ -51,6 +51,8 @@
         instruction: 'Du kan bekrefte kontoen din gjennom linken nedenfor:'
         subject: Bekreftelsesinstruksjoner
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: Hallo %{recipient}!
@@ -120,6 +122,7 @@
         sign_in: Logg inn
         sign_in_with_provider: Logg inn med %{provider}
         sign_up: Opprett konto
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Send nye aktiveringsinstruksjoner

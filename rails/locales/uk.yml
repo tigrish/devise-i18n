@@ -51,6 +51,8 @@ uk:
         instruction: "Ви можете підтвердити свою електронну пошту через посилання нижче:"
         subject: "Інструкції щодо підтвердження облікового запису"
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: "Вітаємо, %{recipient}!"
@@ -120,6 +122,7 @@ uk:
         sign_in: "Увійти"
         sign_in_with_provider: "Увійти за допомогою %{provider}"
         sign_up: "Зареєструватись"
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: "Повторно надіслати інструкції з розблокування"

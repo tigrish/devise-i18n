@@ -52,6 +52,8 @@ ka:
         instruction: "თქვენ შეგიძლიათ დაადასტუროთ თქვენი ანგარიშის ელ-ფოსტა ქვემო ბმულით:"
         subject: "ინსტრუქცია დასადასტურებლად"
       email_changed:
+        greeting: 
+        message: 
         subject: 
       password_change:
         greeting: "გამარჯობა %{recipient}!"
@@ -121,6 +123,7 @@ ka:
         sign_in: "ავთენტიკაცია"
         sign_in_with_provider: "%{provider}-ით ავთენტიკაცია"
         sign_up: "რეგისტრაცია"
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: "ხელახლა ანგარიშის გახსნის ინსტრუქციის გაგზავნა "
