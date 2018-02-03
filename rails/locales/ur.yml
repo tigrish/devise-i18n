@@ -50,6 +50,8 @@ ur:
         greeting: "!%{recipient} خوش آمدید"
         instruction: "آپ ذیل میں دیئے گئے لنک کے ذریعہ اپنا اکاؤنٹ ای میل کی تصدیق کرسکتے ہیں"
         subject: "تصدیقی ہدایات"
+      email_changed:
+        subject: 
       password_change:
         greeting: "%{recipient} آداب"
         message: "ہم آپ کو مطلع کرنے کے لئے آپ سے رابطہ کر رہے ہیں کہ آپ کا پاس ورڈ تبدیل ھو چکا ھے۔"

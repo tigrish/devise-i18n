@@ -50,6 +50,8 @@ fr-CA:
         greeting: 
         instruction: 
         subject: Instructions de confirmation
+      email_changed:
+        subject: 
       password_change:
         greeting: 
         message: 

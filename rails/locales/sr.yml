@@ -50,6 +50,8 @@ sr:
         greeting: 
         instruction: 
         subject: Uputstvo za potvrdu korisničkog naloga
+      email_changed:
+        subject: 
       password_change:
         greeting: 
         message: 

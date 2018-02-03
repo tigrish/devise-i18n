@@ -50,6 +50,8 @@ nb:
         greeting: Velkommen %{recipient}!
         instruction: Du kan aktivere din konto ved å trykke på lenken nedenfor.
         subject: Bekreftelsesinstruksjoner
+      email_changed:
+        subject: 
       password_change:
         greeting: Hei %{recipient}!
         message: Vi ønsker å melde fra om at ditt passord har blitt forandret.

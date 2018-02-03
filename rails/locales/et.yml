@@ -50,6 +50,8 @@ et:
         greeting: Teretulemast %{recipient}!
         instruction: 'Oma konto saad kinnitada alloleva lingi kaudu:'
         subject: Kinnitamise juhised
+      email_changed:
+        subject: 
       password_change:
         greeting: Tere %{recipient}!
         message: Anname teada, et sinu parool on ära muudetud.

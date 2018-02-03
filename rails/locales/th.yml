@@ -50,6 +50,8 @@ th:
         greeting: "ยินดีต้อนรับคุณ %{recipient}!"
         instruction: "คุณสามารถยืนยันอีเมล์ที่ใช้สมัครสมาชิกได้จากลิงค์ข้างล่างนี้:"
         subject: "คำแนะนำการยืนยัน"
+      email_changed:
+        subject: 
       password_change:
         greeting: 
         message: 

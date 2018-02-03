@@ -50,6 +50,8 @@ af:
         greeting: Welkom %{recipient}!
         instruction: 'Jy kan jou rekening e-pos bevestig deur die onderstaande skakel:'
         subject: Bevestigingsinstruksies
+      email_changed:
+        subject: 
       password_change:
         greeting: Hallo %{recipient}!
         message: Ons kontak jou om jou in kennis te stel dat jou wagwoord verander is.

@@ -50,6 +50,8 @@ ms:
         greeting: Selamat datang %{recipient}!
         instruction: 'Anda boleh mengesahkan akaun e-mel anda melalui pautan di bawah:'
         subject: Arahan pengesahan
+      email_changed:
+        subject: 
       password_change:
         greeting: Helo %{recipient}!
         message: Kami sedang menghubungi anda untuk memberitahu anda bahawa kata laluan anda telah ditukar.

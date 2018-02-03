@@ -50,6 +50,8 @@ id:
         greeting: Selamat datang %{recipient}!
         instruction: 'Anda bisa melakukan konfirmasi email akun Anda menggunakan tautan berikut ini:'
         subject: Instruksi untuk melakukan konfirmasi
+      email_changed:
+        subject: 
       password_change:
         greeting: Halo %{recipient}!
         message: Kami menghubungi Anda untuk menyampaikan informasi bahwa password Anda telah diubah

@@ -50,6 +50,8 @@ ig:
         greeting: Nnoo! %{recipient}!
         instruction: I ga ekwetara akauntu gi site n’akara a di na-okpuru.
         subject: Usoro esi ekwenye
+      email_changed:
+        subject: 
       password_change:
         greeting: kedu %{recipient}!
         message: Anyi na-akpoturu gi, igwa gi na okwuntughe gi agbanweela

@@ -50,6 +50,8 @@ az:
         greeting: 
         instruction: 
         subject: Hesabın təstiqlənməsi
+      email_changed:
+        subject: 
       password_change:
         greeting: 
         message: 

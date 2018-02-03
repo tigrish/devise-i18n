@@ -50,6 +50,8 @@ tl:
         greeting: Maligayang pagdating %{recipient}!
         instruction: 'Maaari mong kumpirmahin ang iyong account email sa pamamagitan ng link sa ibaba:'
         subject: Mga Tagubilin ng Pagkumpirma
+      email_changed:
+        subject: 
       password_change:
         greeting: Hello %{recipient}!
         message: Kami'y nakikipag-ugnay sa iyo para abisuhan (notify) ka na nabago ang iyong password.

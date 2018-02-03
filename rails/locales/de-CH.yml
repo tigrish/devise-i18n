@@ -50,6 +50,8 @@ de-CH:
         greeting: Willkommen %{recipient}!
         instruction: 'Folgen Sie dem untenstehenden Link, um Ihr Konto zu bestätigen:'
         subject: Anleitung zur Bestätigung Ihres Accounts
+      email_changed:
+        subject: 
       password_change:
         greeting: Hallo %{recipient}!
         message: Wir kontaktieren Sie, um Ihnen mitzuteilen, dass Ihr Passwort geändert wurde.

@@ -50,6 +50,8 @@ fi:
         greeting: Tervetuloa, %{recipient}!
         instruction: 'Vahvista sähköpostisi painamalla alla olevaa linkkiä:'
         subject: Vahvistusohjeet
+      email_changed:
+        subject: 
       password_change:
         greeting: Hei %{recipient}!
         message: Tämä on ilmoitus salasananne vaihtumisesta.

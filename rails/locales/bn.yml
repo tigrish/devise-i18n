@@ -50,6 +50,8 @@ bn:
         greeting: 
         instruction: 
         subject: "নিশ্চিতকরণ নির্দেশাবলী"
+      email_changed:
+        subject: 
       password_change:
         greeting: 
         message: 

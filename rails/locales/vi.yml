@@ -50,6 +50,8 @@ vi:
         greeting: Chào mừng %{recipient}!
         instruction: 'Bạn có thể xác nhận tài khoản email bằng liên kết dưới đây:'
         subject: Hướng dẫn xác nhận tài khoản
+      email_changed:
+        subject: 
       password_change:
         greeting: Xin chào %{recipient}!
         message: 'Chúng tôi thông báo với bạn là mật khẩu của bạn đã được thay đổi. '

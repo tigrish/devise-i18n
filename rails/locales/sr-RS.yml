@@ -50,6 +50,8 @@ sr-RS:
         greeting: 
         instruction: 
         subject: "Упутство за потврду корисничког налога"
+      email_changed:
+        subject: 
       password_change:
         greeting: 
         message: 

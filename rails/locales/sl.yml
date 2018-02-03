@@ -50,6 +50,8 @@ sl:
         greeting: Pozdravljen %{recipient}!
         instruction: 'Vaš račun lahko potrdite s spodnjo povezavo:'
         subject: Navodila potrditve
+      email_changed:
+        subject: 
       password_change:
         greeting: Pozdravljen %{recipient}!
         message: Obveščamo vas, da je bilo vaše geslo spremenjeno.

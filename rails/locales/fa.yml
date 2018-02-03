@@ -50,6 +50,8 @@ fa:
         greeting: "خوش آمدید %{recipient}!"
         instruction: "شما می توانید ایمیل حساب کاربری خود را از طریق لینک زیر تایید کنید:"
         subject: "راهنمای تایید"
+      email_changed:
+        subject: 
       password_change:
         greeting: 
         message: 

@@ -50,6 +50,8 @@ lv:
         greeting: Sveicināti, %{recipient}!
         instruction: 'Jūs varat apstiprināt, Jūsu konta epastu caur saiti zemāk:'
         subject: Apstiprināšanas apraksts
+      email_changed:
+        subject: 
       password_change:
         greeting: 
         message: 

@@ -50,6 +50,8 @@ bg:
         greeting: "Добре дошли, %{recipient}!"
         instruction: "Можете да потвърдите имейл адреса си чрез линка по-долу:"
         subject: "Инструкции за потвърждаване"
+      email_changed:
+        subject: 
       password_change:
         greeting: "Здравейте, %{recipient}!"
         message: "Пишем Ви, за да Ви уведомим, че паролата Ви беше променена."

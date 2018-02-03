@@ -50,6 +50,8 @@ ro:
         greeting: Bine ați venit %{recipient}!
         instruction: 'Vă puteți confirma emailul prin link-ul de mai jos:'
         subject: Instrucţiuni de confirmare
+      email_changed:
+        subject: 
       password_change:
         greeting: Bună %{recipient}!
         message: Vă contactăm pentru a vă anunța ca parola dvs. a fost modificată.

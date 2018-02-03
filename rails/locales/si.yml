@@ -50,6 +50,8 @@ si:
         greeting: "ආයුබෝවන් %{recipient}!"
         instruction: "පහත දැක්වෙන සබැඳිය ඔස්සේ ඔබේ ගිණුමේ විද්යුත් තැපැල් ගිණුම තහවුරු කළ හැකිය:"
         subject: "තහවුරු කිරීමේ උපදෙස්"
+      email_changed:
+        subject: 
       password_change:
         greeting: "ආයුබෝවන් %{recipient}!"
         message: "ඔබගේ මුරපදය වෙනස් කර ඇති බව දැනුම් දෙන ලෙස අපි ඔබව අමතන්නෙමු."

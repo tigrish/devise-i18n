@@ -50,6 +50,8 @@
         greeting: Velkommen %{recipient}!
         instruction: 'Du kan bekrefte kontoen din gjennom linken nedenfor:'
         subject: Bekreftelsesinstruksjoner
+      email_changed:
+        subject: 
       password_change:
         greeting: Hallo %{recipient}!
         message: Vi kontakter deg for å meddele at ditt passord har blitt endret.

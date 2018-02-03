@@ -50,6 +50,8 @@ es:
         greeting: "¡Bienvenido %{recipient}!"
         instruction: 'Usted puede confirmar el correo electrónico de su cuenta a través de este enlace:'
         subject: Instrucciones de confirmación
+      email_changed:
+        subject: 
       password_change:
         greeting: Hola %{recipient}!
         message: Le estamos contactando para notificarle que su contraseña ha sido cambiada.

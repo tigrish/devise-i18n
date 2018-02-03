@@ -50,6 +50,8 @@ zh-TW:
         greeting: "%{recipient} 您好!"
         instruction: "您可以利用下面的連結確認您的帳戶的電子郵件："
         subject: "帳號驗證步驟"
+      email_changed:
+        subject: 
       password_change:
         greeting: "您好 %{recipient}!"
         message: "它會通知您，您的密碼已被更改。"

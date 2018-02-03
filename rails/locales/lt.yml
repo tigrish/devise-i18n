@@ -50,6 +50,8 @@ lt:
         greeting: 
         instruction: 
         subject: Paskyros patvirtinimo instrukcijos
+      email_changed:
+        subject: 
       password_change:
         greeting: 
         message: 

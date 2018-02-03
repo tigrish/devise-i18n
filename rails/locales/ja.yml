@@ -50,6 +50,8 @@ ja:
         greeting: "%{recipient}様"
         instruction: "次のリンクでメールアドレスの確認が完了します。"
         subject: "アカウントの有効化について"
+      email_changed:
+        subject: 
       password_change:
         greeting: "%{recipient}様"
         message: "パスワードが再設定されたことを通知します。"

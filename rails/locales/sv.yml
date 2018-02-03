@@ -50,6 +50,8 @@ sv:
         greeting: Välkommen %{recipient}!
         instruction: 'Du kan bekräfta ditt konto med länken nedan:'
         subject: Instruktioner för bekräftning av konto
+      email_changed:
+        subject: 
       password_change:
         greeting: Hej %{recipient}!
         message: Vi kontaktar dig för att meddela dig att att ditt lösenord har blivit ändrat.

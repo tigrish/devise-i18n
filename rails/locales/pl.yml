@@ -50,6 +50,8 @@ pl:
         greeting: Witaj %{recipient}!
         instruction: 'Możesz potwierdzić swoje konto przy pomocy poniższego linku:'
         subject: Instrukcja aktywacji konta
+      email_changed:
+        subject: 
       password_change:
         greeting: Witaj %{recipient}!
         message: Kontaktujemy się z Tobą w celu poinformowania, że Twoje hasło zostało zmienione.

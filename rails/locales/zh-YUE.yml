@@ -50,6 +50,8 @@ zh-YUE:
         greeting: 
         instruction: 
         subject: "啟用帳戶"
+      email_changed:
+        subject: 
       password_change:
         greeting: 
         message: 

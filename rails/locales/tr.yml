@@ -50,6 +50,8 @@ tr:
         greeting: Hoşgeldiniz %{recipient}!
         instruction: 'E-postanızı aşağıdaki bağlantıyı takip ederek onaylayabilirsiniz:'
         subject: Onaylama talimatları.
+      email_changed:
+        subject: 
       password_change:
         greeting: Merhaba %{recipient}!
         message: "Şifreniz az önce değiştirildi."

@@ -50,6 +50,8 @@ ko:
         greeting: "%{recipient}님"
         instruction: "아래 링크를 클릭하시면 이메일 인증이 완료됩니다:"
         subject: "이메일 인증 안내"
+      email_changed:
+        subject: 
       password_change:
         greeting: "%{recipient}님"
         message: "당신의 계정 비밀번호가 변경되었음을 알려드립니다."

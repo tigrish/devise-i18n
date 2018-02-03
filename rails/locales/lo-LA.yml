@@ -50,6 +50,8 @@ lo-LA:
         greeting: "ຍິນດີຕ້ອນຮັບ %{recipient}!"
         instruction: "ທ່ານສາມາດຢືັນຢັນບັນຊີຂອງທ່ານຜ່ານລິ້ງລຸ່ມນີ້:"
         subject: "ຂັ້ນຕອນການຢືນຢັນ"
+      email_changed:
+        subject: 
       password_change:
         greeting: "ສະບາຍດີ %{recipient}!"
         message: "ພວກເຮົາກຳລັງຕິດຕໍ່ຫາທ່ານເພື່ອເຕືອນໃຫ້ຮູ້ວ່າລະຫັດຜ່ານຂອງທ່ານໄດ້ຖືກປ່ຽນແລ້ວ."

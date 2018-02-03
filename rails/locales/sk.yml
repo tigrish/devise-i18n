@@ -50,6 +50,8 @@ sk:
         greeting: Vitaj %{recipient}!
         instruction: 'Môžete potvrdiť emailovú adresu vášho účtu pomocou odkazu nižšie:'
         subject: Potvrdzovacie inštrukcie
+      email_changed:
+        subject: 
       password_change:
         greeting: Ahoj %{recipient}!
         message: Upozorňujeme vás, že vaše heslo bolo zmenené.

@@ -50,6 +50,8 @@ ca:
         greeting: Benvingut %{recipient}!
         instruction: 'Pots confirmar el correu electrònic del teu compte a través d''aquest enllaç:'
         subject: Instruccions de confirmació
+      email_changed:
+        subject: 
       password_change:
         greeting: Hola, %{recipient}!
         message: Us hem contactat per notificar-vos que s'ha modificat la vostra contrasenya.

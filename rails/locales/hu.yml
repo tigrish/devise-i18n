@@ -50,6 +50,8 @@ hu:
         greeting: Kedves %{recipient}!
         instruction: 'A fiók megerősítéséhez rá kell kattintani az alábbi linkre:'
         subject: Email cím megerősítés
+      email_changed:
+        subject: 
       password_change:
         greeting: 
         message: 

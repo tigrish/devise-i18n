@@ -50,6 +50,8 @@ da:
         greeting: Velkommen %{recipient}!
         instruction: 'Du kan bekræfte din email-konto igennem linket herunder:'
         subject: Bekræftelsesinstruktioner
+      email_changed:
+        subject: 
       password_change:
         greeting: Hej %{recipient}!
         message: 

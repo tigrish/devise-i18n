@@ -51,6 +51,8 @@ ka:
         greeting: "მოგესალმებით %{recipient}!"
         instruction: "თქვენ შეგიძლიათ დაადასტუროთ თქვენი ანგარიშის ელ-ფოსტა ქვემო ბმულით:"
         subject: "ინსტრუქცია დასადასტურებლად"
+      email_changed:
+        subject: 
       password_change:
         greeting: "გამარჯობა %{recipient}!"
         message: "ჩვენ გატყობინებთ რომ თქვენი პაროლი შეიცვალა."

@@ -50,6 +50,8 @@ ar:
         greeting: "مرحباً %{recipient}"
         instruction: "يُمكنك تأكيد بريدك الإلكتروني من خلال الرابط أدناه:"
         subject: "تعليمات التأكيد"
+      email_changed:
+        subject: 
       password_change:
         greeting: "مرحباً %{recipient}"
         message: "لقد قمنا بالاتصال بك لإخبارك أنه قد تم تغيير كلمة مرورك."

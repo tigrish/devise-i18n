@@ -50,6 +50,8 @@ is:
         greeting: Velkominn %{recipient}!
         instruction: "Þú getur staðfest aðgang þinn með hlekknum hér fyrir neðan:"
         subject: Staðfestingarleiðbeiningar
+      email_changed:
+        subject: 
       password_change:
         greeting: Halló %{recipient}!
         message: Við viljum láta þig vita að lykilorði þínu hefur verið breytt.

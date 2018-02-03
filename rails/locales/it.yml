@@ -50,6 +50,8 @@ it:
         greeting: Benvenuto %{recipient}!
         instruction: 'Puoi confermare il tuo account cliccando sul link qui sotto:'
         subject: Istruzioni per la conferma
+      email_changed:
+        subject: 
       password_change:
         greeting: Ciao %{recipient}!
         message: Ti stiamo contattando per notificarti che la tua password è stata modificata.

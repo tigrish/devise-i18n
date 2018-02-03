@@ -50,6 +50,8 @@ ha:
         greeting: 'Sannu da zuwa %{recipient} '
         instruction: Zaka iya tabbatar da I-mail din ka daga sakon dake karkashin ka
         subject: Bayanin tabbatar wa
+      email_changed:
+        subject: 
       password_change:
         greeting: Hallo %{recipient}
         message: Muna tura maka da sako cewa mabudin da ka canza ya tabbatar

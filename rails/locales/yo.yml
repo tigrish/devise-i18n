@@ -50,6 +50,8 @@ yo:
         greeting: Káàbọ̀ %{recipient}!
         instruction: O lé fi àṣẹsí àkántì í-meèlì rẹ pẹ̀lú ìtọ́kasí ni isalẹ
         subject: "ìmúdájú ìlànà"
+      email_changed:
+        subject: 
       password_change:
         greeting: "Ẹ ǹlẹ́ o %{recipient}"
         message: A n kàn sí yin láti sọ fún yín wípé a ti pa ọ̀rọ̀ aṣínà yín padà
