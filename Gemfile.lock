@@ -26,7 +26,7 @@ GEM
     crass (1.0.2)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
-    devise (4.3.0)
+    devise (4.4.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 4.1.0, < 5.2)
@@ -148,7 +148,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.2)
-  devise (>= 3.4)
+  devise (>= 4.4)
   i18n-spec (~> 0.6.0)
   jeweler (> 1.6.4)
   localeapp

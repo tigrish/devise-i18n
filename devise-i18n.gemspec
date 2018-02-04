@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
   s.authors = ["Christopher Dell".freeze, "mcasimir".freeze, "Jason Barnabe".freeze]
-  s.date = "2018-02-01"
+  s.date = "2018-02-04"
   s.description = "Translations for the devise gem".freeze
   s.email = "chris@tigrish.com".freeze
   s.extra_rdoc_files = [
@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "app/views/devise/confirmations/new.html.erb",
     "app/views/devise/mailer/confirmation_instructions.html.erb",
+    "app/views/devise/mailer/email_changed.html.erb",
     "app/views/devise/mailer/password_change.html.erb",
     "app/views/devise/mailer/reset_password_instructions.html.erb",
     "app/views/devise/mailer/unlock_instructions.html.erb",
@@ -116,7 +117,7 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<devise>.freeze, [">= 3.4"])
+      s.add_runtime_dependency(%q<devise>.freeze, [">= 4.4"])
       s.add_development_dependency(%q<rspec>.freeze, [">= 2.8.0"])
       s.add_development_dependency(%q<bundler>.freeze, ["~> 1.2"])
       s.add_development_dependency(%q<jeweler>.freeze, ["> 1.6.4"])
@@ -124,7 +125,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<localeapp>.freeze, [">= 0"])
       s.add_development_dependency(%q<railties>.freeze, [">= 0"])
     else
-      s.add_dependency(%q<devise>.freeze, [">= 3.4"])
+      s.add_dependency(%q<devise>.freeze, [">= 4.4"])
       s.add_dependency(%q<rspec>.freeze, [">= 2.8.0"])
       s.add_dependency(%q<bundler>.freeze, ["~> 1.2"])
       s.add_dependency(%q<jeweler>.freeze, ["> 1.6.4"])
@@ -133,7 +134,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<railties>.freeze, [">= 0"])
     end
   else
-    s.add_dependency(%q<devise>.freeze, [">= 3.4"])
+    s.add_dependency(%q<devise>.freeze, [">= 4.4"])
     s.add_dependency(%q<rspec>.freeze, [">= 2.8.0"])
     s.add_dependency(%q<bundler>.freeze, ["~> 1.2"])
     s.add_dependency(%q<jeweler>.freeze, ["> 1.6.4"])
