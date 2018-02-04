@@ -1,4 +1,4 @@
-<h2><%= t(".title", resource: resource_class.model_name.human) %></h2>
+<h2><%= t(".title", resource: resource_name.to_s.humanize) %></h2>
 
 <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= f.error_notification %>
@@ -7,9 +7,7 @@
     <%= f.input :email, required: true, autofocus: true %>
 
     <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
-      <p>
-        <%= t(".currently_waiting_confirmation_for_email", email: resource.unconfirmed_email) %>
-      </p>
+      <p><%= t(".currently_waiting_confirmation_for_email", email: resource.unconfirmed_email) %></p>
     <% end %>
 
     <%= f.input :password, autocomplete: "off", hint: t(".leave_blank_if_you_don_t_want_to_change_it"), required: false %>
