@@ -37,10 +37,10 @@ nl:
     failure:
       already_authenticated: Je bent reeds aangemeld.
       inactive: Je account is nog niet geactiveerd.
-      invalid: Ongeldige %{authentication_keys} of wachtwoord.
+      invalid: Ongeldig %{authentication_keys} of wachtwoord.
       last_attempt: Je hebt nog één poging voordat je account vergrendeld wordt.
       locked: Je account is vergrendeld.
-      not_found_in_database: Ongeldige %{authentication_keys} of wachtwoord.
+      not_found_in_database: Ongeldig %{authentication_keys} of wachtwoord.
       timeout: Je sessie is verlopen, meld je opnieuw aan om door te gaan.
       unauthenticated: Je dient je aan te melden of in te schrijven om door te gaan.
       unconfirmed: Je dient eerst je account te bevestigen.
