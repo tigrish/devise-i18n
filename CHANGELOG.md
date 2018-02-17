@@ -1,3 +1,10 @@
+## 1.6.0
+
+- Updated views to match those in devise 4.4.0. Any views generated into your app prior to this release of devise-i18n should continue to work. 
+- Added and updated English strings to match those in devise 4.4.0.
+- Require devise 4.4 and above.
+- Updated nl translation.
+
 ## 1.5.1
 
 - Devise looks up a different key on login failure if the user exists. This can be used by other users to determine if specific user is already registered, even if Devise is in paranoid mode (which normally tries to prevent this). This has been filed as [devise issue #4763](https://github.com/plataformatec/devise/issues/4763). Updated some translations that were using different strings for these keys to mitigate the issue.
