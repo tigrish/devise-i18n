@@ -17,11 +17,11 @@ sq:
         locked_at: Bllokuar në
         password: Fjalëkalimi
         password_confirmation: Konfirmimi i fjalëkalimit
-        remember_created_at: Remember created at
-        remember_me: Remember me
-        reset_password_sent_at: Reset password sent at
+        remember_created_at: Mbaje në mend se është krijuar më
+        remember_me: Më mbaj në mend
+        reset_password_sent_at: Ricaktimi i fjalëkalimit është dërguar më
         reset_password_token: Tokeni për resetimin e fjalëkalimit
-        sign_in_count: Sign in count
+        sign_in_count: 
         unconfirmed_email: Email i pakonfirmuar
         unlock_token: Tokeni i zhbllokimit
         updated_at: Përditësuar më
@@ -33,14 +33,14 @@ sq:
       new:
         resend_confirmation_instructions: Dërgo prap instruksionet e konfirmimit
       send_instructions: Brenda disa minutave do të pranoni një email me instruksionet se si të konfirmoni email adresën tuaj.
-      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes.
+      send_paranoid_instructions: Nëse email adresa juaj është në bazën tonë të të dhënave, atëherë brenda disa minutave do të pranoni një porosi me instruksionet se si ta konfirmoni email adresën tuaj.
     failure:
       already_authenticated: Tashmë jeni të lloguar.
       inactive: Llogaria juaj ende nuk është aktivizuar.
-      invalid: Invalid %{authentication_keys} or password.
+      invalid: %{authentication_keys} apo fjalëkalimi jo valid.
       last_attempt: Keni edhe një shans para se të bllokohet llogaria juaj.
       locked: Llogaria juaj është bllokuar.
-      not_found_in_database: Invalid %{authentication_keys} address or password.
+      not_found_in_database: 
       timeout: Sesioni juaj ka skaduar. Luteni të llogoheni përsëri për të vazhduar.
       unauthenticated: Duhet të llogoheni apo të regjistroheni para se të vazhdoni.
       unconfirmed: Duhet të konfirmoni email adresën tuaj para se të vazhdoni.
@@ -62,14 +62,14 @@ sq:
         instruction_3: Fjalëkalimi juaj nuk do të ndryshohet përderisa nuk qaseni në këtë link për ta krijuar një të ri.
         subject: Instruksionet për resetimin e fjalëkalimit
       unlock_instructions:
-        action: Unlock my account
+        action: Zhblloko llogarinë time
         greeting: Tung %{recipient}!
         instruction: 'Klikoni lidhjen e mëposhtme për të zhbllokuar llogarinë tuaj:'
-        message: Your account has been locked due to an excessive amount of unsuccessful sign in attempts.
-        subject: Unlock instructions
+        message: Llogaria juaj është bllokuar për shkak të numrit të madh të përpjekjeve të passuksesshme për tu lloguar.
+        subject: Instruksionet për zhbllokim
     omniauth_callbacks:
-      failure: Could not authenticate you from %{kind} because "%{reason}".
-      success: Successfully authenticated from %{kind} account.
+      failure: Nuk kemi mundur të ju autentifikojmë nga %{kind} për shkak të "%{reason}".
+      success: Jeni autentifikuar me sukses nga llogaria %{kind}.
     passwords:
       edit:
         change_my_password: Ndrysho fjalëkalimin tim
@@ -78,59 +78,59 @@ sq:
         new_password: Fjalëkalimi i ri
       new:
         forgot_your_password: Keni harruar fjalëkalimin?
-        send_me_reset_password_instructions: Send me reset password instructions
-      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
-      send_instructions: You will receive an email with instructions on how to reset your password in a few minutes.
-      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes.
-      updated: Your password has been changed successfully. You are now signed in.
-      updated_not_active: Your password has been changed successfully.
+        send_me_reset_password_instructions: Më dërgo instruksionet për ricaktimin e fjalëkalimit
+      no_token: Nuk mund t'i qaseni kësaj faqeje pa ardhur nga nje email për ricaktimin e fjalëkalimit. Nëse në fakt po vini nga një email për ricaktimin e fjalëkalimit, atëherë ju lusim që të siguroheni se keni përdorur URL-in e plotë që ua kemi dërguar.
+      send_instructions: Brenda disa minutave do të pranoni një email me instruksionet se si të ricaktoni fjalëkalimin.
+      send_paranoid_instructions: Nëse email adresa juaj ekziston në bazën tonë të të dhënave, atëhere brenda disa minutave do të pranoni në email një link për të ricaktuar fjalëkalimin.
+      updated: Fjalëkalimi juaj është ndryshuar me sukses. Tashmë jeni të lloguar.
+      updated_not_active: Fjalëkalimi juaj është ndryshuar me sukses.
     registrations:
       destroyed: Tung! Llogaria juaj është anuluar me sukses. Shpresojmë të ju shohim prap së shpejti.
       edit:
-        are_you_sure: Are you sure?
-        cancel_my_account: Cancel my account
-        currently_waiting_confirmation_for_email: 'Currently waiting confirmation for: %{email}'
+        are_you_sure: Jeni të sigurt?
+        cancel_my_account: Anulo llogarinë time
+        currently_waiting_confirmation_for_email: 'Për momentin jemi duke pritur konfirmimin për: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: e lini të zbrazët nëse nuk dëshironi ta ndryshoni
         title: Edit %{resource}
-        unhappy: Unhappy?
-        update: Update
+        unhappy: Të pakënaqur?
+        update: Përditëso
         we_need_your_current_password_to_confirm_your_changes: Na duhet fjalëkalimi juaj i tanishëm për të konfirmuar ndryshimet
       new:
         sign_up: Sign up
       signed_up: Mirësevini! Jeni regjistruar me sukses.
       signed_up_but_inactive: Jeni regjistruar me sukses. Sidoqoftë, nuk kemi arritë t'ju llogojmë meqë llogaria juaj enden uk është aktivizuar.
-      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
-      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account.
-      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address.
-      updated: Your account has been updated successfully.
+      signed_up_but_locked: Jeni regjistruar me sukses. Sidoqoftë, nuk kemi mundur të ju llogojmë për shkak se llogaria juaj është e bllokuar.
+      signed_up_but_unconfirmed: Një porosi me një link për konfirmim është dërguar në email adresën tuaj. Ju lusim të përcillni atë link në mënyrë që të aktivizoni llogarinë tuaj.
+      update_needs_confirmation: Keni përditësuar llogarinë me sukses, por na duhet që të verifikojmë email adresën tuaj. Ju lusim të kontrolloni email tuaj dhe të përcllini linkun në mënyrë që të konfirmoni email adresën tuaj të re.
+      updated: Llogaria juaj është përditësuar me sukses.
     sessions:
-      already_signed_out: Signed out successfully.
+      already_signed_out: .
       new:
-        sign_in: Sign in
-      signed_in: Signed in successfully.
-      signed_out: Signed out successfully.
+        sign_in: Llogohu
+      signed_in: Jeni lloguar me sukses.
+      signed_out: 
     shared:
       links:
         back: Back
-        didn_t_receive_confirmation_instructions: Didn't receive confirmation instructions?
+        didn_t_receive_confirmation_instructions: Nuk i keni pranuar instruksionet për konfirmim?
         didn_t_receive_unlock_instructions: Nuk keni pranuar instruksionet për zhbllokim?
         forgot_your_password: Keni harruar fjalëkalimin?
-        sign_in: Sign in
-        sign_in_with_provider: Sign in with %{provider}
-        sign_up: Sign up
+        sign_in: Llogohu
+        sign_in_with_provider: Llogohu me %{provider}
+        sign_up: Regjistrohu
     unlocks:
       new:
-        resend_unlock_instructions: Resend unlock instructions
-      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes.
-      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes.
-      unlocked: Your account has been unlocked successfully. Please sign in to continue.
+        resend_unlock_instructions: Ridërgo instruksionet për zhbllokim
+      send_instructions: Brenda disa minutave do të pranoni një email me instruksionet se si ta zhbllokoni llogarinë tuaj.
+      send_paranoid_instructions: Nëse llogaria juaj ekziston, brenda disa minutave do ta pranoni nje email me instruksionet se si ta zhbllokoni.
+      unlocked: Llogaria juaj është zhbllokuar me sukses. Ju lusim të llogoheni që të vazhdoni.
   errors:
     messages:
       already_confirmed: Konfirmimi tashmë është bërë, lujteni te llogoheni
-      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
-      expired: has expired, please request a new one
-      not_found: not found
-      not_locked: was not locked
+      confirmation_period_expired: duhet të konfirmohet brenda %{period}, ju lusim të kërkoni një të ri
+      expired: ka skaduar, ju lusim të kërkoni një të ri
+      not_found: nuk është gjetur
+      not_locked: nuk është bllokuar
       not_saved:
-        one: '1 error prohibited this %{resource} from being saved:'
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: '1 gabim ka parandaluar që %{resource} të ruhet:'
+        other: "%{count} gabime kanë parandalular që %{resource} të ruhet:"
