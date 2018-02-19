@@ -37,7 +37,7 @@ sq:
     failure:
       already_authenticated: Tashmë jeni të lloguar.
       inactive: Llogaria juaj ende nuk është aktivizuar.
-      invalid: %{authentication_keys} apo fjalëkalimi jo valid.
+      invalid: "%{authentication_keys} apo fjalëkalimi jo valid."
       last_attempt: Keni edhe një shans para se të bllokohet llogaria juaj.
       locked: Llogaria juaj është bllokuar.
       not_found_in_database: 
@@ -91,12 +91,12 @@ sq:
         cancel_my_account: Anulo llogarinë time
         currently_waiting_confirmation_for_email: 'Për momentin jemi duke pritur konfirmimin për: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: e lini të zbrazët nëse nuk dëshironi ta ndryshoni
-        title: Edit %{resource}
+        title: Edito %{resource}
         unhappy: Të pakënaqur?
         update: Përditëso
         we_need_your_current_password_to_confirm_your_changes: Na duhet fjalëkalimi juaj i tanishëm për të konfirmuar ndryshimet
       new:
-        sign_up: Sign up
+        sign_up: Regjistrohu
       signed_up: Mirësevini! Jeni regjistruar me sukses.
       signed_up_but_inactive: Jeni regjistruar me sukses. Sidoqoftë, nuk kemi arritë t'ju llogojmë meqë llogaria juaj enden uk është aktivizuar.
       signed_up_but_locked: Jeni regjistruar me sukses. Sidoqoftë, nuk kemi mundur të ju llogojmë për shkak se llogaria juaj është e bllokuar.
@@ -104,14 +104,14 @@ sq:
       update_needs_confirmation: Keni përditësuar llogarinë me sukses, por na duhet që të verifikojmë email adresën tuaj. Ju lusim të kontrolloni email tuaj dhe të përcllini linkun në mënyrë që të konfirmoni email adresën tuaj të re.
       updated: Llogaria juaj është përditësuar me sukses.
     sessions:
-      already_signed_out: .
+      already_signed_out: 
       new:
         sign_in: Llogohu
       signed_in: Jeni lloguar me sukses.
       signed_out: 
     shared:
       links:
-        back: Back
+        back: Prapa
         didn_t_receive_confirmation_instructions: Nuk i keni pranuar instruksionet për konfirmim?
         didn_t_receive_unlock_instructions: Nuk keni pranuar instruksionet për zhbllokim?
         forgot_your_password: Keni harruar fjalëkalimin?
