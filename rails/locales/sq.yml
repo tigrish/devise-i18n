@@ -1,0 +1,136 @@
+sq:
+  activerecord:
+    attributes:
+      user:
+        confirmation_sent_at: Konfirmimi është dërguar më
+        confirmation_token: Tokeni i konfirmimit
+        confirmed_at: Konfirmuar më
+        created_at: Krijuar më
+        current_password: Fjalëkalimi i tanishëm
+        current_sign_in_at: 
+        current_sign_in_ip: IP prej nga jeni të lloguar
+        email: Email
+        encrypted_password: Fjalëkalimi i enkriptuar
+        failed_attempts: Numri i përpjekjeve të dështuara
+        last_sign_in_at: Llogimi i fundët në
+        last_sign_in_ip: IP e llogimit të fundit
+        locked_at: Bllokuar në
+        password: Fjalëkalimi
+        password_confirmation: Konfirmimi i fjalëkalimit
+        remember_created_at: Mbaje në mend se është krijuar më
+        remember_me: Më mbaj në mend
+        reset_password_sent_at: Ricaktimi i fjalëkalimit është dërguar më
+        reset_password_token: Tokeni për resetimin e fjalëkalimit
+        sign_in_count: 
+        unconfirmed_email: Email i pakonfirmuar
+        unlock_token: Tokeni i zhbllokimit
+        updated_at: Përditësuar më
+    models:
+      user: Përdoruesi
+  devise:
+    confirmations:
+      confirmed: Email adresa juaj është konfirmuar me sukses
+      new:
+        resend_confirmation_instructions: Dërgo prap instruksionet e konfirmimit
+      send_instructions: Brenda disa minutave do të pranoni një email me instruksionet se si të konfirmoni email adresën tuaj.
+      send_paranoid_instructions: Nëse email adresa juaj është në bazën tonë të të dhënave, atëherë brenda disa minutave do të pranoni një porosi me instruksionet se si ta konfirmoni email adresën tuaj.
+    failure:
+      already_authenticated: Tashmë jeni të lloguar.
+      inactive: Llogaria juaj ende nuk është aktivizuar.
+      invalid: "%{authentication_keys} apo fjalëkalimi jo valid."
+      last_attempt: Keni edhe një shans para se të bllokohet llogaria juaj.
+      locked: Llogaria juaj është bllokuar.
+      not_found_in_database: 
+      timeout: Sesioni juaj ka skaduar. Luteni të llogoheni përsëri për të vazhduar.
+      unauthenticated: Duhet të llogoheni apo të regjistroheni para se të vazhdoni.
+      unconfirmed: Duhet të konfirmoni email adresën tuaj para se të vazhdoni.
+    mailer:
+      confirmation_instructions:
+        action: Konfirmo llogarinë time
+        greeting: Mirësevini %{recipient}!
+        instruction: 'Mund të konfirmoni llogarinë tuaj përmës linkut të mëposhtëm:'
+        subject: Instruksionet e konfirmimit
+      password_change:
+        greeting: Tung %{recipient}!
+        message: Po ju kontaktojmë që të ju informojmë se fjalëkalimi juaj është ndryshuar.
+        subject: Fjalëkalimi është ndryshuar
+      reset_password_instructions:
+        action: Ndrysho fjalëkalimin
+        greeting: Tung %{recipient}!
+        instruction: Dikush ka kërkuar një link që të ndryshoni fjalëkalimin tuaj, dhe mund ta bëni këtë përmes linkukt të mëpooshtëm.
+        instruction_2: Nëse ju nuk e keni kërkuar këtë, ju lusim ta injoroni këtë porosi.
+        instruction_3: Fjalëkalimi juaj nuk do të ndryshohet përderisa nuk qaseni në këtë link për ta krijuar një të ri.
+        subject: Instruksionet për resetimin e fjalëkalimit
+      unlock_instructions:
+        action: Zhblloko llogarinë time
+        greeting: Tung %{recipient}!
+        instruction: 'Klikoni lidhjen e mëposhtme për të zhbllokuar llogarinë tuaj:'
+        message: Llogaria juaj është bllokuar për shkak të numrit të madh të përpjekjeve të passuksesshme për tu lloguar.
+        subject: Instruksionet për zhbllokim
+    omniauth_callbacks:
+      failure: Nuk kemi mundur të ju autentifikojmë nga %{kind} për shkak të "%{reason}".
+      success: Jeni autentifikuar me sukses nga llogaria %{kind}.
+    passwords:
+      edit:
+        change_my_password: Ndrysho fjalëkalimin tim
+        change_your_password: Ndyrshoni fjalëkalimin tuaj
+        confirm_new_password: Konfirmoni fjalëkalimin e ri
+        new_password: Fjalëkalimi i ri
+      new:
+        forgot_your_password: Keni harruar fjalëkalimin?
+        send_me_reset_password_instructions: Më dërgo instruksionet për ricaktimin e fjalëkalimit
+      no_token: Nuk mund t'i qaseni kësaj faqeje pa ardhur nga nje email për ricaktimin e fjalëkalimit. Nëse në fakt po vini nga një email për ricaktimin e fjalëkalimit, atëherë ju lusim që të siguroheni se keni përdorur URL-in e plotë që ua kemi dërguar.
+      send_instructions: Brenda disa minutave do të pranoni një email me instruksionet se si të ricaktoni fjalëkalimin.
+      send_paranoid_instructions: Nëse email adresa juaj ekziston në bazën tonë të të dhënave, atëhere brenda disa minutave do të pranoni në email një link për të ricaktuar fjalëkalimin.
+      updated: Fjalëkalimi juaj është ndryshuar me sukses. Tashmë jeni të lloguar.
+      updated_not_active: Fjalëkalimi juaj është ndryshuar me sukses.
+    registrations:
+      destroyed: Tung! Llogaria juaj është anuluar me sukses. Shpresojmë të ju shohim prap së shpejti.
+      edit:
+        are_you_sure: Jeni të sigurt?
+        cancel_my_account: Anulo llogarinë time
+        currently_waiting_confirmation_for_email: 'Për momentin jemi duke pritur konfirmimin për: %{email}'
+        leave_blank_if_you_don_t_want_to_change_it: e lini të zbrazët nëse nuk dëshironi ta ndryshoni
+        title: Edito %{resource}
+        unhappy: Të pakënaqur?
+        update: Përditëso
+        we_need_your_current_password_to_confirm_your_changes: Na duhet fjalëkalimi juaj i tanishëm për të konfirmuar ndryshimet
+      new:
+        sign_up: Regjistrohu
+      signed_up: Mirësevini! Jeni regjistruar me sukses.
+      signed_up_but_inactive: Jeni regjistruar me sukses. Sidoqoftë, nuk kemi arritë t'ju llogojmë meqë llogaria juaj enden uk është aktivizuar.
+      signed_up_but_locked: Jeni regjistruar me sukses. Sidoqoftë, nuk kemi mundur të ju llogojmë për shkak se llogaria juaj është e bllokuar.
+      signed_up_but_unconfirmed: Një porosi me një link për konfirmim është dërguar në email adresën tuaj. Ju lusim të përcillni atë link në mënyrë që të aktivizoni llogarinë tuaj.
+      update_needs_confirmation: Keni përditësuar llogarinë me sukses, por na duhet që të verifikojmë email adresën tuaj. Ju lusim të kontrolloni email tuaj dhe të përcllini linkun në mënyrë që të konfirmoni email adresën tuaj të re.
+      updated: Llogaria juaj është përditësuar me sukses.
+    sessions:
+      already_signed_out: 
+      new:
+        sign_in: Llogohu
+      signed_in: Jeni lloguar me sukses.
+      signed_out: 
+    shared:
+      links:
+        back: Prapa
+        didn_t_receive_confirmation_instructions: Nuk i keni pranuar instruksionet për konfirmim?
+        didn_t_receive_unlock_instructions: Nuk keni pranuar instruksionet për zhbllokim?
+        forgot_your_password: Keni harruar fjalëkalimin?
+        sign_in: Llogohu
+        sign_in_with_provider: Llogohu me %{provider}
+        sign_up: Regjistrohu
+    unlocks:
+      new:
+        resend_unlock_instructions: Ridërgo instruksionet për zhbllokim
+      send_instructions: Brenda disa minutave do të pranoni një email me instruksionet se si ta zhbllokoni llogarinë tuaj.
+      send_paranoid_instructions: Nëse llogaria juaj ekziston, brenda disa minutave do ta pranoni nje email me instruksionet se si ta zhbllokoni.
+      unlocked: Llogaria juaj është zhbllokuar me sukses. Ju lusim të llogoheni që të vazhdoni.
+  errors:
+    messages:
+      already_confirmed: Konfirmimi tashmë është bërë, lujteni te llogoheni
+      confirmation_period_expired: duhet të konfirmohet brenda %{period}, ju lusim të kërkoni një të ri
+      expired: ka skaduar, ju lusim të kërkoni një të ri
+      not_found: nuk është gjetur
+      not_locked: nuk është bllokuar
+      not_saved:
+        one: '1 gabim ka parandaluar që %{resource} të ruhet:'
+        other: "%{count} gabime kanë parandalular që %{resource} të ruhet:"
