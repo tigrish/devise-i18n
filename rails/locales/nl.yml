@@ -2,29 +2,29 @@ nl:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: Bevestiging verstuurd op
+        confirmation_token: Bevestigingstoken
+        confirmed_at: Bevestigd op
+        created_at: Aangemaakt op
         current_password: Huidig wachtwoord
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: Huidige login op
+        current_sign_in_ip: Huidige login IP
         email: E-mailadres
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: Versleuteld wachtwoord
+        failed_attempts: Mislukte pogingen
+        last_sign_in_at: Laatste login op
+        last_sign_in_ip: Laatste login IP
+        locked_at: Vergrendeld op
         password: Wachtwoord
         password_confirmation: Bevestig wachtwoord
-        remember_created_at: 
+        remember_created_at: Herinneren aangemaakt op
         remember_me: Ingelogd blijven
-        reset_password_sent_at: 
+        reset_password_sent_at: Reset wachtwoord verstuurd op
         reset_password_token: Reset wachtwoord token
-        sign_in_count: 
-        unconfirmed_email: 
+        sign_in_count: Aantal logins
+        unconfirmed_email: Onbevestigd e-mailadres
         unlock_token: Ontgrendel token
-        updated_at: 
+        updated_at: Bijgewerkt op
     models:
       user: Gebruiker
   devise:
@@ -51,9 +51,9 @@ nl:
         instruction: 'Je kunt je e-mailadres bevestigen via onderstaande link:'
         subject: Bevestiging
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Beste %{recipient}!
+        message: Het e-mailadres van uw account is gewijzigd in %{email}.
+        subject: E-mailadres veranderd
       password_change:
         greeting: Hallo %{recipient}!
         message: We stellen je met deze e-mail ervan op de hoogte dat je wachtwoord is gewijzigd.
@@ -122,7 +122,9 @@ nl:
         sign_in: Inloggen
         sign_in_with_provider: Inloggen met %{provider}
         sign_up: Maak account aan
-      minimum_password_length: 
+      minimum_password_length:
+        one: "(minimaal %{count} karakter)"
+        other: "(minimaal %{count} karakters)"
     unlocks:
       new:
         resend_unlock_instructions: Verstuur ontgrendel-instructies opnieuw
