@@ -29,7 +29,7 @@ cs:
       user: Uživatel
   devise:
     confirmations:
-      confirmed: Váš účet byl úspěšně potvrzen.
+      confirmed: Vaše e-mailová adresa byla úspěšně potvrzena.
       new:
         resend_confirmation_instructions: Opět poslat instrukce pro potvrzení
       send_instructions: Za několik minut obdržíte e-mail s instrukcemi k potvrzení vašeho účtu.
@@ -37,12 +37,12 @@ cs:
     failure:
       already_authenticated: Jste již přihlášen(a).
       inactive: Váš účet ještě nebyl aktivován.
-      invalid: 
+      invalid: Neplatné %{authentication_keys} nebo heslo.
       last_attempt: Máte ještě jeden pokus než bude váš účet uzamčen.
       locked: Váš účet je uzamčen.
-      not_found_in_database: 
-      timeout: Vaše relace vypršela, přihlašte se znovu, pak můžete pokračovat.
-      unauthenticated: Musíte se zaregistrovat nebo přihlásit, teprve poté můžete pokračovat.
+      not_found_in_database: Neplatné %{authentication_keys} nebo heslo.
+      timeout: Vaše relace vypršela, přihlaste se znovu, pak budete moct pokračovat.
+      unauthenticated: Musíte se zaregistrovat nebo přihlásit, teprve poté budete moct pokračovat.
       unconfirmed: Musíte potvrdit svoji e-mailovou adresu, teprve poté budete moct pokračovat.
     mailer:
       confirmation_instructions:
@@ -83,11 +83,11 @@ cs:
       new:
         forgot_your_password: Zapomněli jste své heslo?
         send_me_reset_password_instructions: Poslat instrukce pro obnovení hesla
-      no_token: Tuto stránku lze otevřít pouze z e-mailu, který nastavuje nové heslo. Pokud jste přišli z takového emailu, prosím, přesvěčte se že jste použili celou URL adresu.
+      no_token: Na tuto stránku se nelze dostat jinak než z e-mailu pro resetování hesla. Pokud jste přišli z takového e-mailu, přesvědčte se že jste použili celou URL adresu.
       send_instructions: Za několik minut obdržíte e-mail s instrukcemi pro nastavení nového hesla.
-      send_paranoid_instructions: Pokud váš e-mail existuje v naší databázi, za několik minut obdržíte e-mail s instrukcemi pro nastavení nového hesla.
-      updated: Vaše heslo bylo úspěšně změněno.
-      updated_not_active: Vaše heslo bylo úspěšně změněno.
+      send_paranoid_instructions: Pokud vaše e-mailová adresa existuje v naší databázi, za několik minut obdržíte e-mail s instrukcemi pro nastavení nového hesla.
+      updated: Vaše heslo bylo změněno. Nyní jste přihlášen(a).
+      updated_not_active: Vaše heslo bylo změněno.
     registrations:
       destroyed: Mějte se! Váš účet byl úspěšně zrušen. Doufáme, že se brzy opět uvidíme.
       edit:
@@ -122,7 +122,10 @@ cs:
         sign_in: Přihlásit se
         sign_in_with_provider: Přihlásit se přes %{provider}
         sign_up: Zaregistrovat se
-      minimum_password_length: 
+      minimum_password_length:
+        few: "(minimálně %{count} znaky)"
+        one: "(minimálně %{count} znak)"
+        other: "(minimálně %{count} znaků)"
     unlocks:
       new:
         resend_unlock_instructions: Znovu odeslat instrukce pro odblokování

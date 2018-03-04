@@ -122,7 +122,7 @@ zh-TW:
         sign_in: "登入"
         sign_in_with_provider: "用 %{provider} 登入"
         sign_up: "註冊"
-      minimum_password_length: 
+      minimum_password_length: "（最少%{count}個字符）"
     unlocks:
       new:
         resend_unlock_instructions: "重發解鎖說明信件"

@@ -122,7 +122,9 @@ es:
         sign_in: Iniciar sesión
         sign_in_with_provider: Iniciar sesión con %{provider}
         sign_up: Registrarse
-      minimum_password_length: 
+      minimum_password_length:
+        one: "(%{count} caractere como mínimo)"
+        other: "(%{count} caracteres como mínimo)"
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instrucciones para desbloquear

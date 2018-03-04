@@ -122,7 +122,7 @@ zh-CN:
         sign_in: "登录"
         sign_in_with_provider: "通过 %{provider} 登录"
         sign_up: "注册"
-      minimum_password_length: 
+      minimum_password_length: "（最少%{count}个字符）"
     unlocks:
       new:
         resend_unlock_instructions: "重发解锁邮件"
