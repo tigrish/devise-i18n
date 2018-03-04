@@ -1,3 +1,8 @@
+## 1.6.1
+
+- Added sq translation.
+- Updated cs, de-CH, es, fr, ja, nl, sv, zh-CN, and zh-TW translations.
+
 ## 1.6.0
 
 - Updated views to match those in devise 4.4.0. Any views generated into your app prior to this release of devise-i18n should continue to work. 
