@@ -2,29 +2,29 @@ ro:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: Confirmare trimisă la
+        confirmation_token: Cod de confirmare
+        confirmed_at: Confirmat la
+        created_at: Creat la
         current_password: Parola curentă
         current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_ip: IP-ul sesiunii curente
         email: Email
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: Parolă criptată
+        failed_attempts: "Încercări eșuate"
+        last_sign_in_at: Ultima autentificare la
+        last_sign_in_ip: IP-ul ultimei autentificări
+        locked_at: Blocat la
         password: Parolă
         password_confirmation: Confirmare parolă
         remember_created_at: 
         remember_me: "Ține-mă minte"
         reset_password_sent_at: 
         reset_password_token: Resetează jetonul parolei
-        sign_in_count: 
-        unconfirmed_email: 
+        sign_in_count: Contor autentificări
+        unconfirmed_email: Email neconfirmat
         unlock_token: Deblochează jetonul
-        updated_at: 
+        updated_at: Actualizat la
     models:
       user: Utilizator
   devise:
@@ -52,8 +52,8 @@ ro:
         subject: Instrucţiuni de confirmare
       email_changed:
         greeting: 
-        message: 
-        subject: 
+        message: Te contactăm pentru a te informa că adresa ta de email va fi înlocuită cu %{email}.
+        subject: Adresă de email actualizată
       password_change:
         greeting: Bună %{recipient}!
         message: Vă contactăm pentru a vă anunța ca parola dvs. a fost modificată.

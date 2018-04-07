@@ -2,29 +2,29 @@ lv:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: Apstiprinājums nosūtīts
+        confirmation_token: Apstiprinājuma marķieris
+        confirmed_at: Apstiprināts
+        created_at: Izveidots
         current_password: Tagadējā parole
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: Sesija sākta
+        current_sign_in_ip: Tagadējā IP adrese
         email: Epasts
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: Nošifrētā parole
+        failed_attempts: Kļudaini mēģinājumi
+        last_sign_in_at: Pēdējā sesija
+        last_sign_in_ip: Pēdējā IP adrese
+        locked_at: Nobloķēts
         password: Parole
         password_confirmation: Apstiprināt paroli
-        remember_created_at: 
+        remember_created_at: Atcerēties mani atjaunots
         remember_me: Atcerēties mani
-        reset_password_sent_at: 
-        reset_password_token: 
-        sign_in_count: 
-        unconfirmed_email: 
-        unlock_token: 
-        updated_at: 
+        reset_password_sent_at: Paroles maiņas ziņojums nosūtīts
+        reset_password_token: Paroles maiņas marķieris
+        sign_in_count: Pierakstīšanās reizes
+        unconfirmed_email: Neapstiprināts epasts
+        unlock_token: Atbloķēšanas marķieris
+        updated_at: Atjaunināts
     models:
       user: Lietotājs
   devise:
@@ -37,10 +37,10 @@ lv:
     failure:
       already_authenticated: Jūs jau esiet pieslēdzies.
       inactive: Jūsu lietotājs vēl nav aktivizēts.
-      invalid: 
+      invalid: Nepareizs %{authentication_keys} vai parole.
       last_attempt: Jums ir atlicis pēdējais mēģinājums, pirms jūsu lietotājs tiks bloķēts.
       locked: Jūsu lietotājs ir nobloķēts.
-      not_found_in_database: 
+      not_found_in_database: Nepareizs %{authentication_keys} vai parole.
       timeout: Jūsu sesijas laiks ir beidzies. Lūdzu pieslēdzieties vēlreiz, lai turpinātu.
       unauthenticated: Jums ir jāpieslēdzas vai jāreģistrējas, lai turpinātu.
       unconfirmed: Jums ir jāapstiprina reģistrācijas epasts, lai turpinātu.
@@ -51,13 +51,13 @@ lv:
         instruction: 'Jūs varat apstiprināt, Jūsu konta epastu caur saiti zemāk:'
         subject: Apstiprināšanas apraksts
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Sveicināti, %{recipient}!
+        message: Informējam, ka Jūsu epasts ir nomainīts uz %{email}.
+        subject: Epasts nomainīts
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Sveicināti, %{recipient}!
+        message: Informējam, ka Jūsu parole ir nomainīta.
+        subject: Parole nomainīta
       reset_password_instructions:
         action: Veikt paroles maiņu
         greeting: Sveicināti, %{recipient}!
@@ -69,7 +69,7 @@ lv:
         action: Atbloķēt kontu
         greeting: Sveicināti, %{recipient}!
         instruction: 'Nospiežiet uz saites zemāk, lai atbloķētu kontu:'
-        message: Jūsu konts tika bloķēts vairāku kļūdainu datu ievadīšanas rezultātā.
+        message: Jūsu konts tika bloķēts vairāku kļūdainu pieteikšanās mēģinājumu rezultātā.
         subject: Atbloķēšanas apraksts
     omniauth_callbacks:
       failure: 'Neizdevās autorizēties ar %{kind} lietotāju. Iemesls: "%{reason}".'
@@ -122,7 +122,10 @@ lv:
         sign_in: Pievienoties
         sign_in_with_provider: Pievienoties ar %{provider}
         sign_up: Reģistrēties
-      minimum_password_length: 
+      minimum_password_length:
+        one: "(vismaz %{count} zīme)"
+        other: "(vismaz %{count} zīmes)"
+        zero: "(vismaz %{count} zīmes)"
     unlocks:
       new:
         resend_unlock_instructions: Atkārtoti atsūtīt atbloķēšanas instrukciju
@@ -137,6 +140,6 @@ lv:
       not_found: netika atrasts
       not_locked: netika nobloķēts
       not_saved:
-        one: "%{resource} netika saglabāts 1 kļūdas dēļ:"
+        one: "%{resource} netika saglabāts %{count} kļūdas dēļ:"
         other: "%{resource} netika saglabāts %{count} kļūdu dēļ:"
         zero: "%{resource} netika saglabāts %{count} kļūdu dēļ:"

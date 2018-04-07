@@ -51,9 +51,9 @@ fr:
         instruction: 'Vous pouvez confirmer votre courriel grâce au lien ci-dessous:'
         subject: Instructions de confirmation
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Bonjour %{recipient}!
+        message: Nous vous contactons pour vous notifier que votre adresse de courriel a été changée en %{email}.
+        subject: Courriel modifié
       password_change:
         greeting: Bonjour %{recipient}!
         message: Nous vous contactons pour vous notifier que votre mot de passe a été modifié.

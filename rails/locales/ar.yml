@@ -51,9 +51,9 @@ ar:
         instruction: "يُمكنك تأكيد بريدك الإلكتروني من خلال الرابط أدناه:"
         subject: "تعليمات التأكيد"
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: "أهلا %{recipient} !"
+        message: "نتصل بك لإخبارك أنّ عنوان بريدك الإلكتروني قد تم تغييره إلى %{email}."
+        subject: "تم تغيير عنوان البريد الإلكتروني"
       password_change:
         greeting: "مرحباً %{recipient}"
         message: "لقد قمنا بالاتصال بك لإخبارك أنه قد تم تغيير كلمة مرورك."
