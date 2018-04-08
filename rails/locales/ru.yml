@@ -51,9 +51,9 @@ ru:
         instruction: "Вы можете активировать свою учетную запись, нажав ссылку снизу:"
         subject: "Инструкции по подтверждению учетной записи"
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: "Здравствуйте, %{recipient}!"
+        message: "Мы пытаемся связаться с вами, что бы сообщить, что ваш email был изменен на %{email}."
+        subject: Email изменен
       password_change:
         greeting: "Приветствуем, %{recipient}!"
         message: "Мы пытаемся связаться с вами, что бы сообщить, что ваш пароль был изменен."
@@ -122,7 +122,11 @@ ru:
         sign_in: "Войти"
         sign_in_with_provider: "Войти с помощью: %{provider}"
         sign_up: "Регистрация"
-      minimum_password_length: 
+      minimum_password_length:
+        few: "(минимум %{count} знака)"
+        many: "(минимум %{count} знаков)"
+        one: "(минимум %{count} знак)"
+        other: "(минимум %{count} знаков)"
     unlocks:
       new:
         resend_unlock_instructions: "Выслать подтверждение заново"

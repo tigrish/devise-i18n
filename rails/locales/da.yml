@@ -11,7 +11,7 @@ da:
         current_sign_in_ip: Nuværende log ind IP
         email: E-mail
         encrypted_password: Krypteret adgangskode
-        failed_attempts: Fejlede forsøg
+        failed_attempts: Mislykkede forsøg
         last_sign_in_at: Sidste log ind tidspunkt
         last_sign_in_ip: Sidste log ind IP
         locked_at: Låst

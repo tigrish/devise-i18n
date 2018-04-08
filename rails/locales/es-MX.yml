@@ -7,7 +7,7 @@ es-MX:
         confirmed_at: Fecha de confirmación
         created_at: Fecha de creación
         current_password: Contraseña actual
-        current_sign_in_at: Fecha del ingreso actual
+        current_sign_in_at: Inicia sesión en
         current_sign_in_ip: IP del ingreso actual
         email: Correo electrónico
         encrypted_password: Contraseña cifrada

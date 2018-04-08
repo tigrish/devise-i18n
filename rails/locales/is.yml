@@ -8,7 +8,7 @@ is:
         created_at: Búið til kl
         current_password: Núverandi lykilorð
         current_sign_in_at: Núverandi innskráning kl
-        current_sign_in_ip: Núverandi innskráning IP
+        current_sign_in_ip: Núverandi innskráningar IP tala
         email: Tölvupóstur
         encrypted_password: Dulkóðað lykilorð
         failed_attempts: Misheppnaðar tilraunir
@@ -37,10 +37,10 @@ is:
     failure:
       already_authenticated: "Þú ert nú þegar innskráð(ur)."
       inactive: Aðgangurinn þinn hefur ekki verið staðfestur.
-      invalid: 
+      invalid: Rangt %{authentication_keys} eða lykilorð.
       last_attempt: "Þú hefur eina tilraun í viðbót, áður en aðganginum verði læst."
       locked: Aðgangurinn þinn er læstur.
-      not_found_in_database: 
+      not_found_in_database: Rangt %{authentication_keys} eða lykilorð.
       timeout: Seta þín hefur runnið út, skráðu þig aftur inn til að halda áfram.
       unauthenticated: "Þú þarft að vera innskráð(ur) til þess að halda áfram."
       unconfirmed: "Þú verður að staðfesta aðganginn þinn áður en þú getur haldið áfram."
@@ -51,9 +51,9 @@ is:
         instruction: "Þú getur staðfest aðgang þinn með hlekknum hér fyrir neðan:"
         subject: Staðfestingarleiðbeiningar
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Halló %{recipient}!
+        message: Við erum að láta þig vita að  tölvupóstfangi þínu verði breytt í %{email}.
+        subject: Tölvupósti breytt
       password_change:
         greeting: Halló %{recipient}!
         message: Við viljum láta þig vita að lykilorði þínu hefur verið breytt.
@@ -122,7 +122,9 @@ is:
         sign_in: Skrá inn
         sign_in_with_provider: Skrá inn með %{provider}
         sign_up: Nýskrá
-      minimum_password_length: 
+      minimum_password_length:
+        one: "(%{count} stafa lágmark)"
+        other: "(%{count} stafir lágmark)"
     unlocks:
       new:
         resend_unlock_instructions: Endursenda leiðbeiningar aflæsingar

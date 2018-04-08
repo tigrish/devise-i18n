@@ -2,10 +2,10 @@ es:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: Fecha de envío de confirmación
+        confirmation_sent_at: Confirmación enviada a
         confirmation_token: Código de confirmación
-        confirmed_at: Fecha de confirmación
-        created_at: Fecha de creación
+        confirmed_at: Confirmado en
+        created_at: Creado en
         current_password: Contraseña actual
         current_sign_in_at: Fecha del ingreso actual
         current_sign_in_ip: IP del ingreso actual
@@ -13,7 +13,7 @@ es:
         encrypted_password: Contraseña cifrada
         failed_attempts: Intentos fallidos
         last_sign_in_at: Fecha del último ingreso
-        last_sign_in_ip: IP del último ingreso
+        last_sign_in_ip: IP del último inicio
         locked_at: Fecha de bloqueo
         password: Contraseña
         password_confirmation: Confirmación de la contraseña
@@ -24,7 +24,7 @@ es:
         sign_in_count: Cantidad de ingresos
         unconfirmed_email: Email no confirmado
         unlock_token: Código de desbloqueo
-        updated_at: Fecha de actualización
+        updated_at: Actualizado en
     models:
       user: Usuario
   devise:
@@ -37,10 +37,10 @@ es:
     failure:
       already_authenticated: Ya has iniciado sesión.
       inactive: Tu cuenta aún no ha sido activada.
-      invalid: "%{authentication_keys} o contraseña inválida."
+      invalid: Invalido %{authentication_keys} o contraseña.
       last_attempt: Tienes un intento más antes de que tu cuenta sea bloqueada.
       locked: Tu cuenta está bloqueada.
-      not_found_in_database: "%{authentication_keys} o contraseña inválida."
+      not_found_in_database: Invalidado %{authentication_keys} o contraseña.
       timeout: Tu sesión expiró. Por favor, inicia sesión nuevamente para continuar.
       unauthenticated: Tienes que iniciar sesión o registrarte para poder continuar.
       unconfirmed: Tienes que confirmar tu cuenta para poder continuar.
@@ -51,9 +51,9 @@ es:
         instruction: 'Usted puede confirmar el correo electrónico de su cuenta a través de este enlace:'
         subject: Instrucciones de confirmación
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: "¡Hola %{recipient}! "
+        message: Estamos contactando contigo para notificarte que tu email ha sido cambiado a %{email}.
+        subject: Email cambiado
       password_change:
         greeting: Hola %{recipient}!
         message: Le estamos contactando para notificarle que su contraseña ha sido cambiada.
