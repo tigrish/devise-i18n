@@ -1,3 +1,7 @@
+## 1.6.2
+
+- Updated ar, ca, da, de, es, es-MX, fr, is, it, lv, ro, and ru translations.
+
 ## 1.6.1
 
 - Added sq translation.
