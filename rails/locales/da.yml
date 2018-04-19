@@ -47,7 +47,7 @@ da:
     mailer:
       confirmation_instructions:
         action: Bekræft min konto
-        greeting: Velkommen %{recipient}
+        greeting: Hej %{recipient}
         instruction: 'Du kan bekræfte din konto og e-mail via linket herunder:'
         subject: Bekræftelsesinstruktioner
       email_changed:

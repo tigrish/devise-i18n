@@ -47,7 +47,7 @@ en-GB:
     mailer:
       confirmation_instructions:
         action: Confirm my account
-        greeting: Welcome %{recipient}!
+        greeting: Hello %{recipient}!
         instruction: 'You can confirm your account email through the link below:'
         subject: Confirmation instructions
       email_changed:
