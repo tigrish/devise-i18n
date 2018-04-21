@@ -51,9 +51,9 @@ pt-BR:
         instruction: 'Você pode confirmar sua conta através do link abaixo:'
         subject: Instruções de confirmação
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Olá %{recipient}!
+        message: Estamos entrando em contato para notificá-lo de que seu e-mail está sendo alterado para %{email}.
+        subject: E-mail alterado
       password_change:
         greeting: Olá %{recipient}!
         message: Estamos entrando em contato para notificá-lo de que sua senha foi alterada.
@@ -96,7 +96,7 @@ pt-BR:
         currently_waiting_confirmation_for_email: 'No momento esperando por: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: deixe em branco caso não queira alterá-la
         title: Editar %{resource}
-        unhappy: Não está contente
+        unhappy: Não está contente?
         update: Atualizar
         we_need_your_current_password_to_confirm_your_changes: precisamos da sua senha atual para confirmar suas mudanças
       new:
@@ -122,7 +122,9 @@ pt-BR:
         sign_in: Login
         sign_in_with_provider: Entrar com %{provider}
         sign_up: Inscrever-se
-      minimum_password_length: 
+      minimum_password_length:
+        one: "(Mínimo de %{count} caractere)"
+        other: "(Mínimo de %{count} caracteres)"
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instruções de desbloqueio
