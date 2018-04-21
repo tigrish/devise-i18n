@@ -2,29 +2,29 @@ fa:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: 'ارسال تایید در'
+        confirmation_token: 'نشان امنیتی تایید'
+        confirmed_at: 'تایید شده در'
+        created_at: 'ساخته شده در'
         current_password: "رمز عبور فعلی"
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: 'وارد شده در'
+        current_sign_in_ip: 'وارد شده با ‌ip'
         email: "ایمیل"
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: "کلمه عبور رمز نگاری شده"
+        failed_attempts: "تلاش های ناموفق"
+        last_sign_in_at: "آخرین ورود در"
+        last_sign_in_ip: "آخرین ورود با ip"
+        locked_at: "قفل شده در"
         password: "رمز عبور"
         password_confirmation: "تکرار رمز عبور"
-        remember_created_at: 
+        remember_created_at: "بخاطر سپاری در"
         remember_me: "مرا بخاطر بسپار"
-        reset_password_sent_at: 
-        reset_password_token: 
-        sign_in_count: 
-        unconfirmed_email: 
-        unlock_token: 
-        updated_at: 
+        reset_password_sent_at: "ارسال بازیابی کلمه عبور در"
+        reset_password_token: "نشان امنیتی بازیابی کلمه عبور"
+        sign_in_count: "تعداد دفعات ورود"
+        unconfirmed_email: "ایمیل تایید نشده"
+        unlock_token: "نشان امنیتی بازگشایی"
+        updated_at: "بروزرسانی در"
     models:
       user: "کاربر"
   devise:
@@ -37,10 +37,10 @@ fa:
     failure:
       already_authenticated: "وارد سیستم هستید."
       inactive: "حساب شما هنوز فعال نشده است."
-      invalid: 
+      invalid: "%{authentication_keys} یا کلمه عبور اشتباه است"
       last_attempt: "شما تنها یک فرصت دیگر دارید قبل از این‎که حسابتان غیرفعال شود."
       locked: "حسابتان قفل شده است."
-      not_found_in_database: 
+      not_found_in_database: "%{authentication_keys} یا کلمه عبور اشتباه است"
       timeout: "نشست شما منقضی شده است. برای ادامه دوباره وارد شوید."
       unauthenticated: "پیش از ادامه باید وارد شوید یا ثبت نام کنید."
       unconfirmed: "باید حسابتان را قبل از ادامه تایید کنید."
@@ -51,12 +51,12 @@ fa:
         instruction: "شما می توانید ایمیل حساب کاربری خود را از طریق لینک زیر تایید کنید:"
         subject: "راهنمای تایید"
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: "سلام %{recipient}!"
+        message: "با شما تماس گرفته ایم تا شما را مطلع کنیم که ایمیل شما به %{email} تغییر کرده است."
+        subject: "تغییر ایمیل"
       password_change:
-        greeting: 
-        message: 
+        greeting: "سلام %{recipient}!"
+        message: "با شما تماس گرفته ایم تا شما را مطلع کنیم که کلمه عبور شما تغییر کرده است."
         subject: "تغییر رمز عبور"
       reset_password_instructions:
         action: "رمز عبور مرا تغییر بده"
@@ -122,7 +122,7 @@ fa:
         sign_in: "ورود"
         sign_in_with_provider: "ورود با %{provider}"
         sign_up: "ثبت نام"
-      minimum_password_length: 
+      minimum_password_length: "(حداقل %{count} حرف)"
     unlocks:
       new:
         resend_unlock_instructions: "ارسال مجدد راهنمای بازکردن حساب"
