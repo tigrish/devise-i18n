@@ -2,13 +2,13 @@ fa:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 'ارسال تایید در'
-        confirmation_token: 'نشان امنیتی تایید'
-        confirmed_at: 'تایید شده در'
-        created_at: 'ساخته شده در'
+        confirmation_sent_at: "ارسال تایید در"
+        confirmation_token: "نشان امنیتی تایید"
+        confirmed_at: "تایید شده در"
+        created_at: "ساخته شده در"
         current_password: "رمز عبور فعلی"
-        current_sign_in_at: 'وارد شده در'
-        current_sign_in_ip: 'وارد شده با ‌ip'
+        current_sign_in_at: "وارد شده در"
+        current_sign_in_ip: "وارد شده با ‌ip"
         email: "ایمیل"
         encrypted_password: "کلمه عبور رمز نگاری شده"
         failed_attempts: "تلاش های ناموفق"
