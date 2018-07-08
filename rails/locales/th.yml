@@ -2,29 +2,29 @@ th:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: "คำแนะนำในการยืนยันตัวตนถูกส่งไปเมื่อ"
+        confirmation_token: "รหัสลับสำหรับยืนยันตัวตน"
+        confirmed_at: "ยืนยันตัวตนเมื่อ"
+        created_at: "สร้างขึ้นเมื่อ"
         current_password: "รหัสผ่านปัจจุบัน"
-        current_sign_in_at: 
-        current_sign_in_ip: 
-        email: "อีเมล์"
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        current_sign_in_at: "เข็าสู่ระบบเมื่อ"
+        current_sign_in_ip: IP ที่ใช้เข้าสู่ระบบ
+        email: "อีเมล"
+        encrypted_password: "รหัสผ่านที่ถูกเข้ารหัส"
+        failed_attempts: "การเข้าสู่ระบบล้มเหลว"
+        last_sign_in_at: "เข้าสู่ระบบล่าสุดเมื่อ"
+        last_sign_in_ip: IP ที่เข้าสู่ระบบล่าสุด
+        locked_at: "ถูกล็อกเมื่อ"
         password: "รหัสผ่าน"
         password_confirmation: "ยืนยันรหัสผ่าน"
-        remember_created_at: 
+        remember_created_at: "การจำผู้ใช้ครั้งล่าสุด"
         remember_me: "จำชื่อผู้ใช้"
-        reset_password_sent_at: 
-        reset_password_token: 
-        sign_in_count: 
-        unconfirmed_email: 
-        unlock_token: 
-        updated_at: 
+        reset_password_sent_at: "คำสั่งการเปลี่ยนรหัสผ่านถูกส่งไปเมื่อ"
+        reset_password_token: "รหัสลับสำหรับการเปลี่ยนรหัสผ่าน"
+        sign_in_count: "จำนวนครั้งที่เข้าสู่ระบบ"
+        unconfirmed_email: "อีเมลที่ไม่ได้รับการยืนยัน"
+        unlock_token: "รหัสลับสำหรับปลดล็อก"
+        updated_at: "แก้ไขเมื่อ"
     models:
       user: "ผู้ใช้งาน"
   devise:
@@ -37,10 +37,10 @@ th:
     failure:
       already_authenticated: "คุณเข้าสู่ระบบแล้ว"
       inactive: "บัญชีของคุณยังไม่ถูกเปิดใช้งาน"
-      invalid: 
+      invalid: "%{authentication_keys} หรือรหัสผ่านไม่ถูกต้อง"
       last_attempt: "คุณสามารถผิดพลาดได้อีกครั้งก่อนที่บัญชีของคุณจะถูกล็อก"
       locked: "บัญชีของคุณถูกล็อก"
-      not_found_in_database: 
+      not_found_in_database: "%{authentication_keys} หรือรหัสผ่านไม่ถูกต้อง"
       timeout: "หน้าเว็บเกินระยะเวลาที่กำหนด กรุณาเข้าสู่ระบบอีกครั้งเพื่อดำเนินการต่อ"
       unauthenticated: "คุณต้องเข้าสู่ระบบหรือลงทะเบียนก่อนดำเนินการต่อ"
       unconfirmed: "คุณต้องยืนยันบัญชีก่อนดำเนินการต่อ"
@@ -51,13 +51,13 @@ th:
         instruction: "คุณสามารถยืนยันอีเมล์ที่ใช้สมัครสมาชิกได้จากลิงค์ข้างล่างนี้:"
         subject: "คำแนะนำการยืนยัน"
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: "สวัสดี %{recipient}"
+        message: "เราติดต่อคุณในครั้งนี้เพื่อแจ้งให้ทราบว่าอีเมลของคุณได้ถูกเปลี่ยนเป็น %{email} สำเร็จแล้ว"
+        subject: "การเปลี่ยนแปลงอีเมลสำเร็จ"
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: "สวัสดี %{recipient}"
+        message: "เราติดต่อคุณในครั้งนี้เพื่อแจ้งให้ทราบว่ารหัสผ่านของคุณได้ถูกเปลี่ยนสำเร็จแล้ว"
+        subject: "การเปลี่ยนแปลงรหัสผ่านสำเร็จ"
       reset_password_instructions:
         action: "เปลี่ยนรหัสผ่านของฉัน"
         greeting: "สวัสดีคุณ%{recipient}!"
@@ -122,7 +122,7 @@ th:
         sign_in: "เข้าสู่ระบบ"
         sign_in_with_provider: "เข้าสู่ระบบด้วย%{provider}"
         sign_up: "ออกจากระบบ"
-      minimum_password_length: 
+      minimum_password_length: "(จำนวนตัวอักษรขั้นต่ำ %{count} ตัวอักษร)"
     unlocks:
       new:
         resend_unlock_instructions: "ส่งคำขอปลดล็อคอีกครั้ง"

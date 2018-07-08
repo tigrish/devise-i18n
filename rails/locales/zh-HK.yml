@@ -9,16 +9,16 @@ zh-HK:
         current_password: 
         current_sign_in_at: 
         current_sign_in_ip: 
-        email: 
+        email: "電郵"
         encrypted_password: 
         failed_attempts: 
         last_sign_in_at: 
         last_sign_in_ip: 
         locked_at: 
-        password: 
+        password: "密碼"
         password_confirmation: 
         remember_created_at: 
-        remember_me: 
+        remember_me: "記住我"
         reset_password_sent_at: 
         reset_password_token: 
         sign_in_count: 

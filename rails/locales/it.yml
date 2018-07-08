@@ -37,10 +37,10 @@ it:
     failure:
       already_authenticated: Hai già effettuato l'accesso.
       inactive: Il tuo account non è stato ancora attivato.
-      invalid: 
+      invalid: Credenziali %{authentication_keys} o password non valide.
       last_attempt: Hai ancora un tentativo prima che l'account venga bloccato.
       locked: Il tuo account è bloccato.
-      not_found_in_database: 
+      not_found_in_database: Credenziali %{authentication_keys} o password non valide.
       timeout: Sessione scaduta, accedere nuovamente per continuare.
       unauthenticated: Devi accedere o registrarti per continuare.
       unconfirmed: Devi confermare il tuo account per continuare.
@@ -51,9 +51,9 @@ it:
         instruction: 'Puoi confermare il tuo account cliccando sul link qui sotto:'
         subject: Istruzioni per la conferma
       email_changed:
-        greeting: 
+        greeting: Ciao %{recipient}!
         message: 
-        subject: 
+        subject: Email modificata
       password_change:
         greeting: Ciao %{recipient}!
         message: Ti stiamo contattando per notificarti che la tua password è stata modificata.
@@ -122,7 +122,9 @@ it:
         sign_in: Accedi
         sign_in_with_provider: Accedi con %{provider}
         sign_up: Registrati
-      minimum_password_length: 
+      minimum_password_length:
+        one: "(minimo %{count} carattere)"
+        other: "(minimo %{count} caratteri)"
     unlocks:
       new:
         resend_unlock_instructions: Invia di nuovo le istruzioni per lo sblocco

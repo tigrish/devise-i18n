@@ -46,10 +46,10 @@ ja:
       unconfirmed: "メールアドレスの本人確認が必要です。"
     mailer:
       confirmation_instructions:
-        action: "アカウント確認"
+        action: "メールアドレスの確認"
         greeting: "%{recipient}様"
-        instruction: "次のリンクでメールアドレスの確認が完了します。"
-        subject: "アカウントの有効化について"
+        instruction: "以下のリンクをクリックし、メールアドレスの確認手続を完了させてください。"
+        subject: "メールアドレス確認メール"
       email_changed:
         greeting: 
         message: 

@@ -2,29 +2,29 @@ uk:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: "Підтвердження вислано в"
+        confirmation_token: "Код підтвердження"
+        confirmed_at: "Підтверджено"
+        created_at: "Створено"
         current_password: "Поточний пароль"
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: "Поточна сесія відкрита"
+        current_sign_in_ip: IP поточної сесії
         email: Email
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: "Зашифрований пароль"
+        failed_attempts: "Хибниз спроб"
+        last_sign_in_at: "Останній раз заходив"
+        last_sign_in_ip: IP останнього заходу
+        locked_at: "Заблокований"
         password: "Пароль"
         password_confirmation: "Підтвердження пароля"
-        remember_created_at: 
+        remember_created_at: "Нагадування створене"
         remember_me: "Запам'ятати мене"
-        reset_password_sent_at: 
+        reset_password_sent_at: "Лист скидання пародя відправлений"
         reset_password_token: "Посилання на скидання пароля"
-        sign_in_count: 
-        unconfirmed_email: 
+        sign_in_count: "Кількість входів"
+        unconfirmed_email: "Не підтверджений email"
         unlock_token: "Токен розблокування"
-        updated_at: 
+        updated_at: "Змінений"
     models:
       user: "Користувач"
   devise:
@@ -37,10 +37,10 @@ uk:
     failure:
       already_authenticated: "Ви вже увійшли в систему."
       inactive: "Ваш обліковий запис ще не активовано."
-      invalid: 
+      invalid: "Некоректий %{authentication_keys} або пароль."
       last_attempt: "У вас залишилась ще одна спроба перед блокуванням облікового запису."
       locked: "Ваш обліковий запис заблоковано."
-      not_found_in_database: 
+      not_found_in_database: "Некоректий %{authentication_keys} або пароль."
       timeout: "Час вашої сесії вичерпано. Будь ласка, увійдіть в систему знову."
       unauthenticated: "Вам необхідно увійти в систему чи зареєструватися."
       unconfirmed: "Вам потрібно підтвердити Ваш обліковий запис."
@@ -51,9 +51,9 @@ uk:
         instruction: "Ви можете підтвердити свою електронну пошту через посилання нижче:"
         subject: "Інструкції щодо підтвердження облікового запису"
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: "Привіт %{recipient}!"
+        message: "Ми звертаємось до вас щоб повідомити про те що ваш email було змінено на %{email}."
+        subject: Email Змінено
       password_change:
         greeting: "Вітаємо, %{recipient}!"
         message: "Ми намагаємося зв'язатися з Вами, щоб сповістити, що Ваш пароль було змінено."
@@ -122,7 +122,11 @@ uk:
         sign_in: "Увійти"
         sign_in_with_provider: "Увійти за допомогою %{provider}"
         sign_up: "Зареєструватись"
-      minimum_password_length: 
+      minimum_password_length:
+        few: ''
+        many: ''
+        one: "(мінімум %{count} символ)"
+        other: "(мінімум %{count} символи/ів)"
     unlocks:
       new:
         resend_unlock_instructions: "Повторно надіслати інструкції з розблокування"

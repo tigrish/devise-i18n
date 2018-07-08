@@ -18,7 +18,7 @@ fr:
         password: Mot de passe
         password_confirmation: Confirmation du mot de passe
         remember_created_at: Mémorisé à
-        remember_me: Se souvenir de moi?
+        remember_me: Se souvenir de moi ?
         reset_password_sent_at: Clé de réinitialisation créée à
         reset_password_token: Clé de réinitialisation du mot de passe
         sign_in_count: Nombre des connexions
