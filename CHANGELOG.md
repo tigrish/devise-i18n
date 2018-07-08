@@ -1,3 +1,7 @@
+## 1.6.3
+
+- Updated fa, fr, it, ja, pt-BR, ro, th, uk, and zh-HK translations.
+
 ## 1.6.2
 
 - Updated ar, ca, da, de, es, es-MX, fr, is, it, lv, ro, and ru translations.
