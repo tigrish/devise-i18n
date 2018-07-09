@@ -1,3 +1,7 @@
+## 1.6.4
+
+- Fixes a file permission problem introduced in 1.6.3.
+
 ## 1.6.3
 
 - Updated fa, fr, it, ja, pt-BR, ro, th, uk, and zh-HK translations.
