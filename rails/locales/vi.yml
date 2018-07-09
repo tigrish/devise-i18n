@@ -51,9 +51,9 @@ vi:
         instruction: 'Bạn có thể xác nhận tài khoản email bằng liên kết dưới đây:'
         subject: Hướng dẫn xác nhận tài khoản
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Xin chào %{recipient}!
+        message: Chúng tôi liên hệ với bạn để thông báo cho bạn biết rằng email của bạn đang được thay đổi thành %{email}.
+        subject: Email đã được thay đổi.
       password_change:
         greeting: Xin chào %{recipient}!
         message: 'Chúng tôi thông báo với bạn là mật khẩu của bạn đã được thay đổi. '
@@ -122,7 +122,9 @@ vi:
         sign_in: "Đăng nhập"
         sign_in_with_provider: "Đăng nhập với %{provider}"
         sign_up: "Đăng ký"
-      minimum_password_length: 
+      minimum_password_length:
+        one: "(Tối thiểu %{count} ký tự)"
+        other: "(Tối thiểu %{count} ký tự)"
     unlocks:
       new:
         resend_unlock_instructions: Gửi lại hướng dẫn mở khoá tài khoản
