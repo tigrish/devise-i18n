@@ -37,10 +37,10 @@ es:
     failure:
       already_authenticated: Ya has iniciado sesión.
       inactive: Tu cuenta aún no ha sido activada.
-      invalid: Invalido %{authentication_keys} o contraseña.
+      invalid: "%{authentication_keys} o contraseña inválidos."
       last_attempt: Tienes un intento más antes de que tu cuenta sea bloqueada.
       locked: Tu cuenta está bloqueada.
-      not_found_in_database: Invalidado %{authentication_keys} o contraseña.
+      not_found_in_database: "%{authentication_keys} o contraseña inválidos."
       timeout: Tu sesión expiró. Por favor, inicia sesión nuevamente para continuar.
       unauthenticated: Tienes que iniciar sesión o registrarte para poder continuar.
       unconfirmed: Tienes que confirmar tu cuenta para poder continuar.

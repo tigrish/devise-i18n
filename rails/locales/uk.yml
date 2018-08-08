@@ -9,7 +9,7 @@ uk:
         current_password: "Поточний пароль"
         current_sign_in_at: "Поточна сесія відкрита"
         current_sign_in_ip: IP поточної сесії
-        email: Адреса електронної пошти
+        email: "Адреса електронної пошти"
         encrypted_password: "Зашифрований пароль"
         failed_attempts: "Хибних спроб"
         last_sign_in_at: "Останній раз заходив"
@@ -53,7 +53,7 @@ uk:
       email_changed:
         greeting: "Вітаємо, %{recipient}!"
         message: "Ми звертаємось до вас щоб повідомити про те, що вашу адресу електронної пошти було змінено на %{email}."
-        subject: Адресу електронної пошти змінено
+        subject: "Адресу електронної пошти змінено"
       password_change:
         greeting: "Вітаємо, %{recipient}!"
         message: "Ми намагаємося зв'язатися з Вами, щоб сповістити, що Ваш пароль було змінено."
