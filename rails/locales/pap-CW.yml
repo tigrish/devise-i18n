@@ -37,10 +37,10 @@ pap-CW:
     failure:
       already_authenticated: Bo seshon a kuminsá kaba.
       inactive: Bo kuenta no ta aktivá ainda.
-      invalid: %{authentication_keys} òf kódigo di akseso inbálido.
+      invalid: "%{authentication_keys} òf kódigo di akseso inbálido."
       last_attempt: Bo a sobra un intento promé ku bo kuenta bira inaksesibel.
       locked: Bo kuenta ta inaksesibel.
-      not_found_in_database: %{authentication_keys} òf kódigo di akseso inbálido.
+      not_found_in_database: "%{authentication_keys} òf kódigo di akseso inbálido."
       timeout: Bo seshon a kaduká, por fabor kuminsá un seshon nobo pa por sigui.
       unauthenticated: Pa haña akseso, bo mester kuminsá un seshon òf registrá.
       unconfirmed: Bo mester konfirmá bo kuenta di e-mail promé ku sigui.
