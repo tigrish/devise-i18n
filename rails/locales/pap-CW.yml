@@ -8,7 +8,7 @@ pap-CW:
         created_at: Kreá
         current_password: Kódigo di akseso aktual
         current_sign_in_at: Seshon aktual di
-        current_sign_in_ip:PI di seshon aktual
+        current_sign_in_ip: PI di seshon aktual
         email: E-mail
         encrypted_password: kódigo di akseso sifrá
         failed_attempts: Intentonan frakasá
