@@ -37,10 +37,10 @@ ko:
     failure:
       already_authenticated: "이미 로그인되어 있습니다."
       inactive: "계정이 아직 활성화되지 않았습니다."
-      invalid: 
+      invalid: "%{authentication_keys} 또는 비밀번호가 올바르지 않습니다."
       last_attempt: "이번 로그인 시도를 실패하면 계정이 잠깁니다."
       locked: "계정이 잠겨있습니다."
-      not_found_in_database: 
+      not_found_in_database: "%{authentication_keys} 또는 비밀번호가 올바르지 않습니다."
       timeout: "세션이 만료되었습니다. 계속하려면 다시 로그인해야 합니다."
       unauthenticated: "계속하려면 로그인하거나 가입해야 합니다."
       unconfirmed: "계속하기 전에 이메일 주소를 인증해야 합니다."
