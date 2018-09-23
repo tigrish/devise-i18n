@@ -122,7 +122,11 @@ pl:
         sign_in: Zaloguj się
         sign_in_with_provider: Zaloguj się przez %{provider}
         sign_up: Zarejestruj się
-      minimum_password_length: 
+      minimum_password_length:
+        few: "(minimum %{count} znaki)"
+        many: "(minimum %{count} znaków)"
+        one: "(minimum %{count} znak)"
+        other: "(minimum %{count} znaku)"
     unlocks:
       new:
         resend_unlock_instructions: Wyślij instrukcje odblokowania konta
