@@ -41,7 +41,7 @@ lv:
       last_attempt: Jums ir atlicis pēdējais mēģinājums, pirms jūsu lietotājs tiks bloķēts.
       locked: Jūsu lietotājs ir nobloķēts.
       not_found_in_database: Nepareizs %{authentication_keys} vai parole.
-      timeout: Jūsu sesijas laiks ir beidzies. Lūdzu pieslēdzieties vēlreiz, lai turpinātu.
+      timeout: Jūsu sesijas laiks ir beidzies. Lūdzu, pieslēdzieties vēlreiz, lai turpinātu.
       unauthenticated: Jums ir jāpieslēdzas vai jāreģistrējas, lai turpinātu.
       unconfirmed: Jums ir jāapstiprina reģistrācijas epasts, lai turpinātu.
     mailer:
@@ -62,7 +62,7 @@ lv:
         action: Veikt paroles maiņu
         greeting: Sveicināti, %{recipient}!
         instruction: Kāds ir nosūtijis pieprasijumu, Jūsu paroles maiņai, to var veikt caur saiti zemāk.
-        instruction_2: Ja Jūs neveicāt šo pieprasījumu, lūdzu ignorējiet šo ziņu.
+        instruction_2: Ja Jūs neveicāt šo pieprasījumu, lūdzu, ignorējiet šo ziņu.
         instruction_3: Jūsu parole netiks mainīta, kamēr Jūs neapstiprināsiet saiti augstāk un neizveidosiet jaunu.
         subject: Paroles nomainīšanas apraksts
       unlock_instructions:
@@ -104,8 +104,8 @@ lv:
       signed_up: Laipni lūgti! Jūs esiet veiksmīgi reģistrējies.
       signed_up_but_inactive: Jūs esat veiksmīgi reģistrējies. Tomēr Jūs neesat pieslēdzies, jo Jūsu lietotājs vēl nav aktivizēts.
       signed_up_but_locked: Jūs esat veiksmīgi reģistrējies. Tomēr Jūs neesat pieslēdzies, jo Jūsu lietotājs ir nobloķēts.
-      signed_up_but_unconfirmed: Jums ir nosūtīts e-pasts ar reģistrācijas apstiprinājuma saiti. Lūdzu atveriet šo saiti, lai aktivizētu Jūsu lietotāju.
-      update_needs_confirmation: Jūsu labotās izmaiņas ir veiksmīgi saglabātas, bet mums ir jāpārbauda Jūsu jaunā e-pasta adrese. Lūdzu pārbaudiet Jūsu e-pastu un uzklikšķiniet uz apstiprinājuma saites, lai pabeigtu Jūsu jaunās e-pasta adreses apstiprināšanu.
+      signed_up_but_unconfirmed: Jums ir nosūtīts e-pasts ar reģistrācijas apstiprinājuma saiti. Lūdzu, atveriet šo saiti, lai aktivizētu Jūsu lietotāju.
+      update_needs_confirmation: Jūsu labotās izmaiņas ir veiksmīgi saglabātas, bet mums ir jāpārbauda Jūsu jaunā e-pasta adrese. Lūdzu, pārbaudiet Jūsu e-pastu un uzklikšķiniet uz apstiprinājuma saites, lai pabeigtu Jūsu jaunās e-pasta adreses apstiprināšanu.
       updated: Jūsu labotās izmaiņas ir veiksmīgi saglabātas.
     sessions:
       already_signed_out: Veiksmīgi atslēdzies.
@@ -134,9 +134,9 @@ lv:
       unlocked: Jūsu lietotājs ir veiksmīgi atbloķēts. Jūs esat pieslēdzies.
   errors:
     messages:
-      already_confirmed: ir jau apstiprināts, lūdzu mēģiniet pieslēgties
-      confirmation_period_expired: nepieciešama apstiprināšana %{period} laikā, lūdzu piesakieties jaunam
-      expired: derīgums beidzies, lūdzu piesakieties jaunam
+      already_confirmed: ir jau apstiprināts, lūdzu, mēģiniet pieslēgties
+      confirmation_period_expired: nepieciešama apstiprināšana %{period} laikā, lūdzu, piesakieties jaunam
+      expired: derīgums beidzies, lūdzu, piesakieties jaunam
       not_found: netika atrasts
       not_locked: netika nobloķēts
       not_saved:
