@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
   s.authors = ["Christopher Dell".freeze, "mcasimir".freeze, "Jason Barnabe".freeze]
-  s.date = "2018-07-09"
+  s.date = "2018-09-23"
   s.description = "Translations for the devise gem".freeze
   s.email = "chris@tigrish.com".freeze
   s.extra_rdoc_files = [
@@ -85,6 +85,8 @@ Gem::Specification.new do |s|
     "rails/locales/nl.yml",
     "rails/locales/nn-NO.yml",
     "rails/locales/no.yml",
+    "rails/locales/pap-AW.yml",
+    "rails/locales/pap-CW.yml",
     "rails/locales/pl.yml",
     "rails/locales/pt-BR.yml",
     "rails/locales/pt.yml",
