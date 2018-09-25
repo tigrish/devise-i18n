@@ -1,3 +1,8 @@
+## 1.6.5
+
+- Added pap-AW and pap-CW translations.
+- Updated az, es, ko, lv, pl, uk, vi, zh-CN, and zh-TW translations.
+
 ## 1.6.4
 
 - Fixes a file permission problem introduced in 1.6.3.
