@@ -1,3 +1,7 @@
+## Unreleased
+
+- Add pluralizations of `activerecord.models.user` to allow it be used in other contexts. If you previously referenced this translation directly with `I18n.t`, you will now need to pass in a `count` parameter.
+
 ## 1.6.5
 
 - Added pap-AW and pap-CW translations.
