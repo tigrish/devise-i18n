@@ -1,6 +1,8 @@
 ## Unreleased
 
 - Add pluralizations of `activerecord.models.user` to allow it be used in other contexts. If you previously referenced this translation directly with `I18n.t`, you will now need to pass in a `count` parameter.
+- Update views to match devise 4.5.0. Any views generated into your app prior to this release of devise-i18n should continue to work.
+- Require devise 4.5 and above.
 
 ## 1.6.5
 
