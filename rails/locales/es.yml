@@ -26,7 +26,9 @@ es:
         unlock_token: Código de desbloqueo
         updated_at: Actualizado en
     models:
-      user: Usuario
+      user:
+        one: Usuario
+        other: Usuarios
   devise:
     confirmations:
       confirmed: Tu cuenta ha sido confirmada satisfactoriamente.

@@ -26,7 +26,9 @@ es-MX:
         unlock_token: Autentificador de desbloqueo
         updated_at: Fecha de actualización
     models:
-      user: Usuario
+      user:
+        one: Usuario
+        other: Usuarios
   devise:
     confirmations:
       confirmed: Se ha confirmado la dirección de correo electrónico correctamente.
