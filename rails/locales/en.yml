@@ -54,7 +54,7 @@ en:
         subject: Confirmation instructions
       email_changed:
         greeting: Hello %{recipient}!
-        message: We're contacting you to notify you that your email is being changed to %{email}.
+        message: We're contacting you to notify you that your email has been changed to %{email}.
         subject: Email Changed
       password_change:
         greeting: Hello %{recipient}!
@@ -63,7 +63,7 @@ en:
       reset_password_instructions:
         action: Change my password
         greeting: Hello %{recipient}!
-        instruction: Someone has requested a link to change your password, and you can do this through the link below.
+        instruction: Someone has requested a link to change your password. You can do this through the link below.
         instruction_2: If you didn't request this, please ignore this email.
         instruction_3: Your password won't change until you access the link above and create a new one.
         subject: Reset password instructions
@@ -71,7 +71,7 @@ en:
         action: Unlock my account
         greeting: Hello %{recipient}!
         instruction: 'Click the link below to unlock your account:'
-        message: Your account has been locked due to an excessive amount of unsuccessful sign in attempts.
+        message: Your account has been locked due to an excessive number of unsuccessful sign in attempts.
         subject: Unlock instructions
     omniauth_callbacks:
       failure: Could not authenticate you from %{kind} because "%{reason}".
