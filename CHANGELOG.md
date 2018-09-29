@@ -4,6 +4,7 @@
 - Update views to match devise 4.5.0. Any views generated into your app prior to this release of devise-i18n should continue to work.
 - Require devise 4.5 and above.
 - Updated views and English strings so the rendered views exactly match devise.
+- Fixed edit registration view to use translated model name.
 
 ## 1.6.5
 
