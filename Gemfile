@@ -8,6 +8,7 @@ group :development do
   gem 'i18n-spec', "~> 0.6.0"
   gem 'localeapp'
   gem 'railties'
+  gem 'activemodel'
 end
 
 gem 'devise', '>= 4.5'

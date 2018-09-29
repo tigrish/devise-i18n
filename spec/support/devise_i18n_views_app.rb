@@ -1,4 +1,5 @@
 require "action_controller/railtie"
+require "active_model"
 
 class User
   def email
@@ -21,6 +22,10 @@ class User
   end
   
   def reset_password_token
+  end
+
+  def model_name
+    ActiveModel::Name.new(self.class)
   end
 end
 USER = User.new
