@@ -39,10 +39,10 @@ es-MX:
     failure:
       already_authenticated: Ya has iniciado sesión.
       inactive: Tu cuenta aún no ha sido activada.
-      invalid: 
+      invalid: "%{authentication_keys} o password inválido(s)"
       last_attempt: Tienes un intento más antes de que tu cuenta sea bloqueada.
       locked: Tu cuenta está bloqueada.
-      not_found_in_database: 
+      not_found_in_database: "%{authentication_keys} o password inválido(s)"
       timeout: Tu sesión expiró. Por favor, inicia sesión nuevamente para continuar.
       unauthenticated: Tienes que iniciar sesión o registrarte para poder continuar.
       unconfirmed: Tienes que confirmar tu cuenta para poder continuar.
@@ -53,9 +53,9 @@ es-MX:
         instruction: 'Se puede confirmar el correo electrónico de la cuenta a través de este enlace:'
         subject: Instrucciones de confirmación
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Hola %{recipient}!
+        message: Te estamos contactando para notificarte que tu email ha cambiado a %{email}
+        subject: El email cambió
       password_change:
         greeting: "¡Hola, %{recipient}!"
         message: Le estamos contactando para notificarle que su contraseña ha cambiado
@@ -124,7 +124,9 @@ es-MX:
         sign_in: Iniciar sesión
         sign_in_with_provider: Iniciar sesión con %{provider}
         sign_up: Registrarse
-      minimum_password_length: 
+      minimum_password_length:
+        one: "(Mínimo %{count} caracter)"
+        other: "(Minimo %{count} caracteres)"
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instrucciones para desbloquear la cuenta
