@@ -3,28 +3,28 @@ pt:
     attributes:
       user:
         confirmation_sent_at: Confirmação enviada em
-        confirmation_token: Token de Confirmação
+        confirmation_token: Código de confirmação
         confirmed_at: Confirmado em
-        created_at: Criado a
-        current_password: Password atual
+        created_at: Criado em
+        current_password: Palavra-passe atual
         current_sign_in_at: Entrada atual em
-        current_sign_in_ip: IP Atual
+        current_sign_in_ip: Entrada atual com IP
         email: Email
-        encrypted_password: Password encriptada
+        encrypted_password: Palavra-passe cifrada
         failed_attempts: Tentativas falhadas
-        last_sign_in_at: Ultima entrada em
-        last_sign_in_ip: Ultimo IP de entrada
-        locked_at: Fechado em
-        password: Password
-        password_confirmation: Confirmação da password
-        remember_created_at: Lembrete criado em
+        last_sign_in_at: Última entrada em
+        last_sign_in_ip: Última entrada com IP
+        locked_at: Bloqueado em
+        password: Palavra-passe
+        password_confirmation: Confirmar palavra-passe
+        remember_created_at: Lembrança criada em
         remember_me: Lembrar-se de mim
-        reset_password_sent_at: 'Password reset enviado a '
-        reset_password_token: Token de reset de password
-        sign_in_count: Numero de Entradas
-        unconfirmed_email: email não confirmado
-        unlock_token: Token de desbloqueio
-        updated_at: Atualizado a
+        reset_password_sent_at: Recuperação de palavra-passe enviada em
+        reset_password_token: Código para recuperar palavra-passe
+        sign_in_count: Número de entradas
+        unconfirmed_email: Email não confirmado
+        unlock_token: Código de desbloqueio
+        updated_at: Atualizado em
     models:
       user:
         one: Utilizador
@@ -38,13 +38,13 @@ pt:
       send_paranoid_instructions: Se o seu email existir na nossa base de dados, irá receber dentro de alguns minutos um email com instruções para confirmar a sua conta.
     failure:
       already_authenticated: Já se encontra autenticado.
-      inactive: A sua conta ainda não foi activada.
-      invalid: "%{authentication_keys} inválidas ou password inválida"
+      inactive: A sua conta ainda não foi ativada.
+      invalid: '%{authentication_keys} ou palavra-passe inválidos.'
       last_attempt: Tem mais uma tentativa antes da sua conta ser bloqueada.
       locked: A sua conta está bloqueada.
-      not_found_in_database: "%{authentication_keys} inválidas ou password inválida"
+      not_found_in_database: '%{authentication_keys} ou palavra-passe inválidos.'
       timeout: A sua sessão expirou, por favor autentique-se novamente para continuar.
-      unauthenticated: Antes de continuar tem de se autenticar ou efectuar um registo.
+      unauthenticated: Antes de continuar tem de se autenticar ou efetuar um registo.
       unconfirmed: Tem de confirmar a sua conta antes de continuar.
     mailer:
       confirmation_instructions:
@@ -54,16 +54,16 @@ pt:
         subject: Instruções de confirmação
       email_changed:
         greeting: Olá %{recipient}!
-        message: Estamos a entrar em contato para notificar que o seu email foi alterado para %{email}
-        subject: Email alterado
+        message: Estamos a entrar em contacto para notificar que o seu endereço de email foi alterado para %{email}.
+        subject: Endereço de email alterado
       password_change:
         greeting: Olá %{recipient}!
-        message: Estamos a entrar em contato para notificar que a sua password foi alterada.
-        subject: Password alterada
+        message: Estamos a entrar em contacto para notificar que a sua palavra-passe foi alterada.
+        subject: Palavra-passe alterada
       reset_password_instructions:
-        action: Repor a minha senha
+        action: Repor a minha palavra-passe
         greeting: Olá %{recipient}!
-        instruction: Foi efectuado um pedido para repor a sua palavra-passe. Para o fazer click no link abaixo.
+        instruction: Foi efetuado um pedido para repor a sua palavra-passe. Para prosseguir clique no link abaixo.
         instruction_2: Se não fez este pedido, por favor ignore este e-mail.
         instruction_3: A sua palavra-passe só será alterada quando aceder ao link abaixo para a alterar.
         subject: Instruções de recuperação de palavra-passe
@@ -78,16 +78,16 @@ pt:
       success: A sua conta foi autenticada por %{kind} com sucesso.
     passwords:
       edit:
-        change_my_password: Alterar a minha password
-        change_your_password: Altere a sua password
-        confirm_new_password: Confirme a nova password
-        new_password: Nova password
+        change_my_password: Alterar a minha palavra-passe
+        change_your_password: Altere a sua palavra-passe
+        confirm_new_password: Confirme a nova palavra-passe
+        new_password: Nova palavra-passe
       new:
-        forgot_your_password: Esqueceu a sua senha?
-        send_me_reset_password_instructions: Enviar-me instruções para repor a senha
-      no_token: Não pode aceder a esta página sem vir do email de redefinição da senha. Se vem dum email para redefinir a senha, por favor certifique-se que usou o URL completo que foi enviado.
+        forgot_your_password: Esqueceu a sua palavra-passe?
+        send_me_reset_password_instructions: Enviar-me instruções para repor a palavra-passe
+      no_token: Não pode aceder a esta página sem vir do email de recuperação da palavra-passe. Se vem de um email para recuperar a palavra-passe, por favor certifique-se que usou o URL completo que foi enviado.
       send_instructions: Dentro de alguns minutos irá receber um email com instruções de reinicialização da palavra-passe.
-      send_paranoid_instructions: Se o seu e-mail existir na nossa base de dados, irá receber dentro de alguns minutos um e-mail com instruções para recuperar a sua senha.
+      send_paranoid_instructions: Se o seu e-mail existir na nossa base de dados, irá receber dentro de alguns minutos um e-mail com instruções para recuperar a sua palavra-passe.
       updated: A sua palavra-passe foi alterada com sucesso. Agora está autenticado.
       updated_not_active: A sua password foi alterada com sucesso.
     registrations:
@@ -95,25 +95,25 @@ pt:
       edit:
         are_you_sure: Tem a certeza?
         cancel_my_account: Cancelar a minha conta
-        currently_waiting_confirmation_for_email: Aguardando confirmação de:%{email}
+        currently_waiting_confirmation_for_email: 'A aguardar a confirmação de: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: deixe em branco caso não queira alterar
         title: Editar %{resource}
-        unhappy: Não está satisfeito?
+        unhappy: Descontente?
         update: Atualizar
-        we_need_your_current_password_to_confirm_your_changes: precisamos da sua senha actual para confirmar as alterações
+        we_need_your_current_password_to_confirm_your_changes: precisamos da sua palavra-passe atual para confirmar as alterações
       new:
         sign_up: Criar Conta
-      signed_up: Bemvindo! A autenticação foi efectuada com sucesso.
+      signed_up: Bemvindo! A autenticação foi efetuada com sucesso.
       signed_up_but_inactive: Registou-se com sucesso. No entanto, não podemos iniciar a sua sessão porque ainda não confirmou a sua conta.
       signed_up_but_locked: Registou-se com sucesso. No entanto, não podemos iniciar a sua sessão porque a sua conta encontra-se bloqueada.
-      signed_up_but_unconfirmed: Foi enviado um email com um link para confirmar o seu email. Por favor abra o link para activar a sua conta.
-      update_needs_confirmation: A sua conta foi actualizada com sucesso, mas precisamos de confirmar o seu email. Por favor veja o seu email e clique no link para finalizar a confirmação do seu email.
-      updated: A sua conta foi actualizada com sucesso.
+      signed_up_but_unconfirmed: Foi enviado um email com um link para confirmar o seu email. Por favor abra o link para ativar a sua conta.
+      update_needs_confirmation: A sua conta foi atualizada com sucesso, mas precisamos de confirmar o seu email. Por favor veja o seu email e clique no link para finalizar a confirmação do seu email.
+      updated: A sua conta foi atualizada com sucesso.
     sessions:
       already_signed_out: Sessão terminada com sucesso.
       new:
         sign_in: Entrar
-      signed_in: Autenticação efectuada com sucesso.
+      signed_in: Autenticação efetuada com sucesso.
       signed_out: Saiu da sessão com sucesso.
     shared:
       links:
@@ -125,21 +125,21 @@ pt:
         sign_in_with_provider: Entrar com %{provider}
         sign_up: Criar conta
       minimum_password_length:
-        one: "(numero minimo de caracteres:%{count})"
-        other: "(numero minimo de caracteres:%{count})"
+        one: "(mínimo de %{count} carácter)"
+        other: "(mínimo de %{count} caracteres)"
     unlocks:
       new:
-        resend_unlock_instructions: Renviar instruções de desbloqueio
+        resend_unlock_instructions: Reenviar instruções de desbloqueio
       send_instructions: Dentro de alguns minutos irá receber um email com as instruções para desbloquear a sua conta.
       send_paranoid_instructions: Se a sua conta existir, irá receber dentro de alguns minutos um email com instruções para a desbloquear.
       unlocked: A sua conta foi desbloqueada com sucesso. Por favor autentique-se para continuar.
   errors:
     messages:
-      already_confirmed: já foi confirmado, por favor tente efectuar a autenticação
+      already_confirmed: já foi confirmado, por favor tente efetuar a autenticação
       confirmation_period_expired: necessitava de confirmação até %{period}, por favor faça um novo pedido
       expired: expirou, por favor solicite um novo
       not_found: não foi encontrado
       not_locked: não foi bloqueado
       not_saved:
-        one: '1 erro impediu %{resource} de ser gravado:'
+        one: '%{count} erro impediu %{resource} de ser gravado:'
         other: "%{count} erros impediram %{resource} de ser gravado:"
