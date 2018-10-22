@@ -2,31 +2,33 @@ pt:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
-        current_password: 
-        current_sign_in_at: 
-        current_sign_in_ip: 
-        email: 
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
-        password: 
-        password_confirmation: 
-        remember_created_at: 
+        confirmation_sent_at: Confirmação enviada em
+        confirmation_token: Token de Confirmação
+        confirmed_at: Confirmado em
+        created_at: Criado a
+        current_password: Password atual
+        current_sign_in_at: Entrada atual em
+        current_sign_in_ip: IP Atual
+        email: Email
+        encrypted_password: Password encriptada
+        failed_attempts: Tentativas falhadas
+        last_sign_in_at: Ultima entrada em
+        last_sign_in_ip: Ultimo IP de entrada
+        locked_at: Fechado em
+        password: Password
+        password_confirmation: Confirmação da password
+        remember_created_at: Lembrete criado em
         remember_me: Lembrar-se de mim
-        reset_password_sent_at: 
-        reset_password_token: 
-        sign_in_count: 
-        unconfirmed_email: 
-        unlock_token: 
-        updated_at: 
+        reset_password_sent_at: 'Password reset enviado a '
+        reset_password_token: Token de reset de password
+        sign_in_count: Numero de Entradas
+        unconfirmed_email: email não confirmado
+        unlock_token: Token de desbloqueio
+        updated_at: Atualizado a
     models:
-      user: 
+      user:
+        one: Utilizador
+        other: Utilizadores
   devise:
     confirmations:
       confirmed: A sua conta foi confirmada com sucesso.
@@ -37,10 +39,10 @@ pt:
     failure:
       already_authenticated: Já se encontra autenticado.
       inactive: A sua conta ainda não foi activada.
-      invalid: 
+      invalid: "%{authentication_keys} inválidas ou password inválida"
       last_attempt: Tem mais uma tentativa antes da sua conta ser bloqueada.
       locked: A sua conta está bloqueada.
-      not_found_in_database: 
+      not_found_in_database: "%{authentication_keys} inválidas ou password inválida"
       timeout: A sua sessão expirou, por favor autentique-se novamente para continuar.
       unauthenticated: Antes de continuar tem de se autenticar ou efectuar um registo.
       unconfirmed: Tem de confirmar a sua conta antes de continuar.
@@ -51,13 +53,13 @@ pt:
         instruction: 'Pode confirmar a sua conta através do link:'
         subject: Instruções de confirmação
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Olá %{recipient}!
+        message: Estamos a entrar em contato para notificar que o seu email foi alterado para %{email}
+        subject: Email alterado
       password_change:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Olá %{recipient}!
+        message: Estamos a entrar em contato para notificar que a sua password foi alterada.
+        subject: Password alterada
       reset_password_instructions:
         action: Repor a minha senha
         greeting: Olá %{recipient}!
@@ -76,10 +78,10 @@ pt:
       success: A sua conta foi autenticada por %{kind} com sucesso.
     passwords:
       edit:
-        change_my_password: 
-        change_your_password: 
-        confirm_new_password: 
-        new_password: 
+        change_my_password: Alterar a minha password
+        change_your_password: Altere a sua password
+        confirm_new_password: Confirme a nova password
+        new_password: Nova password
       new:
         forgot_your_password: Esqueceu a sua senha?
         send_me_reset_password_instructions: Enviar-me instruções para repor a senha
@@ -93,11 +95,11 @@ pt:
       edit:
         are_you_sure: Tem a certeza?
         cancel_my_account: Cancelar a minha conta
-        currently_waiting_confirmation_for_email: 
+        currently_waiting_confirmation_for_email: Aguardando confirmação de:%{email}
         leave_blank_if_you_don_t_want_to_change_it: deixe em branco caso não queira alterar
         title: Editar %{resource}
-        unhappy: 
-        update: 
+        unhappy: Não está satisfeito?
+        update: Atualizar
         we_need_your_current_password_to_confirm_your_changes: precisamos da sua senha actual para confirmar as alterações
       new:
         sign_up: Criar Conta
@@ -115,14 +117,16 @@ pt:
       signed_out: Saiu da sessão com sucesso.
     shared:
       links:
-        back: 
+        back: Voltar
         didn_t_receive_confirmation_instructions: Não recebeu instruções de confirmação?
         didn_t_receive_unlock_instructions: Não recebeu instruções de desbloqueio?
         forgot_your_password: Esqueceu a palavra-passe?
         sign_in: Login
         sign_in_with_provider: Entrar com %{provider}
         sign_up: Criar conta
-      minimum_password_length: 
+      minimum_password_length:
+        one: "(numero minimo de caracteres:%{count})"
+        other: "(numero minimo de caracteres:%{count})"
     unlocks:
       new:
         resend_unlock_instructions: Renviar instruções de desbloqueio
