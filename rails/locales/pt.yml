@@ -12,8 +12,8 @@ pt:
         email: Email
         encrypted_password: Palavra-passe cifrada
         failed_attempts: Tentativas falhadas
-        last_sign_in_at: Última entrada em
-        last_sign_in_ip: Última entrada com IP
+        last_sign_in_at: "Última entrada em"
+        last_sign_in_ip: "Última entrada com IP"
         locked_at: Bloqueado em
         password: Palavra-passe
         password_confirmation: Confirmar palavra-passe
@@ -39,10 +39,10 @@ pt:
     failure:
       already_authenticated: Já se encontra autenticado.
       inactive: A sua conta ainda não foi ativada.
-      invalid: '%{authentication_keys} ou palavra-passe inválidos.'
+      invalid: "%{authentication_keys} ou palavra-passe inválidos."
       last_attempt: Tem mais uma tentativa antes da sua conta ser bloqueada.
       locked: A sua conta está bloqueada.
-      not_found_in_database: '%{authentication_keys} ou palavra-passe inválidos.'
+      not_found_in_database: "%{authentication_keys} ou palavra-passe inválidos."
       timeout: A sua sessão expirou, por favor autentique-se novamente para continuar.
       unauthenticated: Antes de continuar tem de se autenticar ou efetuar um registo.
       unconfirmed: Tem de confirmar a sua conta antes de continuar.
@@ -141,5 +141,5 @@ pt:
       not_found: não foi encontrado
       not_locked: não foi bloqueado
       not_saved:
-        one: '%{count} erro impediu %{resource} de ser gravado:'
+        one: "%{count} erro impediu %{resource} de ser gravado:"
         other: "%{count} erros impediram %{resource} de ser gravado:"
