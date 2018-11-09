@@ -51,9 +51,9 @@ ja:
         instruction: "以下のリンクをクリックし、メールアドレスの確認手続を完了させてください。"
         subject: "メールアドレス確認メール"
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: "こんにちは、%{recipient}様。"
+        message: "あなたのメール変更（%{email}）のお知らせいたします。"
+        subject: "メール変更完了。"
       password_change:
         greeting: "%{recipient}様"
         message: "パスワードが再設定されたことを通知します。"
