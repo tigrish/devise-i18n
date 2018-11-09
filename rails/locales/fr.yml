@@ -47,29 +47,29 @@ fr:
     mailer:
       confirmation_instructions:
         action: Confirmer mon courriel
-        greeting: Bienvenue %{recipient}!
-        instruction: 'Vous pouvez confirmer votre courriel grâce au lien ci-dessous:'
+        greeting: Bienvenue %{recipient} !
+        instruction: 'Vous pouvez confirmer votre courriel grâce au lien ci-dessous :'
         subject: Instructions de confirmation
       email_changed:
-        greeting: Bonjour %{recipient}!
+        greeting: Bonjour %{recipient} !
         message: Nous vous contactons pour vous notifier que votre adresse de courriel a été changée en %{email}.
         subject: Courriel modifié
       password_change:
-        greeting: Bonjour %{recipient}!
+        greeting: Bonjour %{recipient} !
         message: Nous vous contactons pour vous notifier que votre mot de passe a été modifié.
-        subject: Mot de passe modifié.
+        subject: Mot de passe modifié
       reset_password_instructions:
         action: Changer mon mot de passe
-        greeting: Bonjour %{recipient}!
+        greeting: Bonjour %{recipient} !
         instruction: 'Quelqu''un a demandé un lien pour changer votre mot de passe, le voici :'
         instruction_2: Si vous n'avez pas émis cette demande, merci d'ignorer ce courriel.
         instruction_3: Votre mot de passe ne changera pas tant que vous n'aurez pas cliqué sur ce lien et renseigné un nouveau mot de passe.
         subject: Instructions pour changer le mot de passe
       unlock_instructions:
         action: Débloquer mon compte
-        greeting: Bonjour %{recipient}!
-        instruction: 'Suivez ce lien pour débloquer votre compte:'
-        message: Votre compte a été bloqué suite à un nombre d'essais de connexions manquées trop important
+        greeting: Bonjour %{recipient} !
+        instruction: 'Suivez ce lien pour débloquer votre compte :'
+        message: Votre compte a été bloqué suite à un nombre d'essais de connexions manquées trop important.
         subject: Instructions pour déverrouiller le compte
     omniauth_callbacks:
       failure: 'Nous ne pouvons pas vous authentifier depuis %{kind} pour la raison suivante : ''%{reason}''.'
@@ -96,7 +96,7 @@ fr:
         currently_waiting_confirmation_for_email: 'Confirmation en attente pour: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: laissez ce champ vide pour le laisser inchangé
         title: "Éditer %{resource}"
-        unhappy: 'Pas content '
+        unhappy: 'Pas content ?'
         update: Modifier
         we_need_your_current_password_to_confirm_your_changes: nous avons besoin de votre mot de passe actuel pour valider ces modifications
       new:
