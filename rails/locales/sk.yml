@@ -37,10 +37,10 @@ sk:
     failure:
       already_authenticated: Už ste prihlásený.
       inactive: Váš účet ešte nebol aktivovaný.
-      invalid: 
+      invalid: Nesprávny %{authentication_keys} alebo heslo.
       last_attempt: Máte ešte posledný pokus pred tým, než sa vám zamkne konto.
       locked: Váš účet je zamknutý.
-      not_found_in_database: 
+      not_found_in_database: Nesprávny %{authentication_keys} alebo heslo.
       timeout: Vaša session vypršala. Na pokračovanie sa prosím znovu prihláste.
       unauthenticated: Pred pokračovaním sa musíte zaregistrovať alebo prihlásiť.
       unconfirmed: Pred pokračovaním musíte potvrdiť svoj účet.
@@ -51,9 +51,9 @@ sk:
         instruction: 'Môžete potvrdiť emailovú adresu vášho účtu pomocou odkazu nižšie:'
         subject: Potvrdzovacie inštrukcie
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Ahoj %{recipient}!
+        message: Kontaktujeme Vás aby sme Vám oznámili, že Váš e-mail bol zmenený na %{email}.
+        subject: Email bol zmenený
       password_change:
         greeting: Ahoj %{recipient}!
         message: Upozorňujeme vás, že vaše heslo bolo zmenené.
@@ -122,7 +122,10 @@ sk:
         sign_in: Prihlásiť sa
         sign_in_with_provider: Prihlásiť sa cez %{provider}
         sign_up: Zaregistrovať sa
-      minimum_password_length: 
+      minimum_password_length:
+        few: "(minimálne %{count} znaky)"
+        one: "(minimálne %{count} znak)"
+        other: "(minimálne %{count} znakov)"
     unlocks:
       new:
         resend_unlock_instructions: Poslať znovu inštrukcie na odomknutie účtu

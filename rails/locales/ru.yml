@@ -26,7 +26,11 @@ ru:
         unlock_token: "Токен разблокировки"
         updated_at: "Дата обновления"
     models:
-      user: "Пользователь"
+      user:
+        few: "Пользователя"
+        many: "Пользователей"
+        one: "Пользователь"
+        other: "Пользователи"
   devise:
     confirmations:
       confirmed: "Ваш адрес эл. почты успешно подтвержден."
