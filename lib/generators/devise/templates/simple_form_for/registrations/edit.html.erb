@@ -12,7 +12,7 @@
 
     <%= f.input :password,
                 hint: t(".leave_blank_if_you_don_t_want_to_change_it"),
-                required: false
+                required: false,
                 input_html: { autocomplete: "new-password" } %>
     <%= f.input :password_confirmation,
                 required: false,
