@@ -39,10 +39,10 @@ sq:
     failure:
       already_authenticated: E keni bërë hyrjen tashmë.
       inactive: Llogaria juaj s’është ende aktive.
-      invalid: %{authentication_keys} ose fjalëkalim i pavlefshëm.
+      invalid: "%{authentication_keys} ose fjalëkalim i pavlefshëm".
       last_attempt: Keni edhe një provë të fundit, përpara se llogaria juaj të kyçet.
       locked: Llogaria juaj është e kyçur.
-      not_found_in_database: %{authentication_keys} ose fjalëkalim i pavlefshëm.
+      not_found_in_database: "%{authentication_keys} ose fjalëkalim i pavlefshëm".
       timeout: Sesioni juaj skadoi. Ju lutemi, që të vazhdohet, ribëni hyrjen.
       unauthenticated: Përpara se të vazhdohet, lypset të bëni hyrjen ose të regjistroheni.
       unconfirmed: Përpara se të vazhdohet, duhet të ripohoni email-in tuaj.
