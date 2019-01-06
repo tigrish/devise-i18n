@@ -2,140 +2,140 @@ fa:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: "ارسال تایید در"
-        confirmation_token: "نشان امنیتی تایید"
-        confirmed_at: "تایید شده در"
-        created_at: "ساخته شده در"
-        current_password: "رمز عبور فعلی"
-        current_sign_in_at: "وارد شده در"
-        current_sign_in_ip: "وارد شده با ‌ip"
-        email: "ایمیل"
-        encrypted_password: "کلمه عبور رمز نگاری شده"
-        failed_attempts: "تلاش های ناموفق"
-        last_sign_in_at: "آخرین ورود در"
-        last_sign_in_ip: "آخرین ورود با ip"
-        locked_at: "قفل شده در"
-        password: "رمز عبور"
-        password_confirmation: "تکرار رمز عبور"
-        remember_created_at: "بخاطر سپاری در"
-        remember_me: "مرا بخاطر بسپار"
-        reset_password_sent_at: "ارسال بازیابی کلمه عبور در"
-        reset_password_token: "نشان امنیتی بازیابی کلمه عبور"
-        sign_in_count: "تعداد دفعات ورود"
-        unconfirmed_email: "ایمیل تایید نشده"
-        unlock_token: "نشان امنیتی بازگشایی"
-        updated_at: "بروزرسانی در"
+        confirmation_sent_at: ارسال تایید در
+        confirmation_token: نشان امنیتی تایید
+        confirmed_at: تایید شده در
+        created_at: ساخته شده در
+        current_password: رمز عبور فعلی
+        current_sign_in_at: وارد شده در
+        current_sign_in_ip: وارد شده با ‌ip
+        email: ایمیل
+        encrypted_password: کلمه عبور رمز نگاری شده
+        failed_attempts: تلاش های ناموفق
+        last_sign_in_at: آخرین ورود در
+        last_sign_in_ip: آخرین ورود با ip
+        locked_at: قفل شده در
+        password: رمز عبور
+        password_confirmation: تکرار رمز عبور
+        remember_created_at: بخاطر سپاری در
+        remember_me: مرا بخاطر بسپار
+        reset_password_sent_at: ارسال بازیابی کلمه عبور در
+        reset_password_token: نشان امنیتی بازیابی کلمه عبور
+        sign_in_count: تعداد دفعات ورود
+        unconfirmed_email: ایمیل تایید نشده
+        unlock_token: نشان امنیتی بازگشایی
+        updated_at: بروزرسانی در
     models:
-      user: "کاربر"
+      user: کاربر
   devise:
     confirmations:
-      confirmed: "حسابتان با موفقیت تایید شد. هم اکنون وارد شدید."
+      confirmed: حسابتان با موفقیت تایید شد. هم اکنون وارد شدید.
       new:
-        resend_confirmation_instructions: "ارسال مجدد راهنمای تایید حساب"
-      send_instructions: "ظرف چند دقیقه آینده ایمیلی حاوی راهنمای تایید حسابتان دریافت خواهید کرد."
-      send_paranoid_instructions: "اگر ایمیل شما قبلا در سیستم ثبت شده باشد، تا چند دقیقه‌ی دیگر یک ایمیل حاوی توضیحات چگونگی فعال‌سازی حساب‌تان دریافت می‌کنید."
+        resend_confirmation_instructions: ارسال مجدد راهنمای تایید حساب
+      send_instructions: ظرف چند دقیقه آینده ایمیلی حاوی راهنمای تایید حسابتان دریافت خواهید کرد.
+      send_paranoid_instructions: اگر ایمیل شما قبلا در سیستم ثبت شده باشد، تا چند دقیقه‌ی دیگر یک ایمیل حاوی توضیحات چگونگی فعال‌سازی حساب‌تان دریافت می‌کنید.
     failure:
-      already_authenticated: "وارد سیستم هستید."
-      inactive: "حساب شما هنوز فعال نشده است."
+      already_authenticated: وارد سیستم هستید.
+      inactive: حساب شما هنوز فعال نشده است.
       invalid: "%{authentication_keys} یا کلمه عبور اشتباه است"
-      last_attempt: "شما تنها یک فرصت دیگر دارید قبل از این‎که حسابتان غیرفعال شود."
-      locked: "حسابتان قفل شده است."
+      last_attempt: شما تنها یک فرصت دیگر دارید قبل از این‎که حسابتان غیرفعال شود.
+      locked: حسابتان قفل شده است.
       not_found_in_database: "%{authentication_keys} یا کلمه عبور اشتباه است"
-      timeout: "نشست شما منقضی شده است. برای ادامه دوباره وارد شوید."
-      unauthenticated: "پیش از ادامه باید وارد شوید یا ثبت نام کنید."
-      unconfirmed: "باید حسابتان را قبل از ادامه تایید کنید."
+      timeout: نشست شما منقضی شده است. برای ادامه دوباره وارد شوید.
+      unauthenticated: پیش از ادامه باید وارد شوید یا ثبت نام کنید.
+      unconfirmed: باید حسابتان را قبل از ادامه تایید کنید.
     mailer:
       confirmation_instructions:
-        action: "حساب مرا تایید کن"
-        greeting: "خوش آمدید %{recipient}!"
-        instruction: "شما می توانید ایمیل حساب کاربری خود را از طریق لینک زیر تایید کنید:"
-        subject: "راهنمای تایید"
+        action: حساب مرا تایید کن
+        greeting: خوش آمدید %{recipient}!
+        instruction: 'شما می توانید ایمیل حساب کاربری خود را از طریق لینک زیر تایید کنید:'
+        subject: راهنمای تایید
       email_changed:
-        greeting: "سلام %{recipient}!"
-        message: "با شما تماس گرفته ایم تا شما را مطلع کنیم که ایمیل شما به %{email} تغییر کرده است."
-        subject: "تغییر ایمیل"
+        greeting: سلام %{recipient}!
+        message: با شما تماس گرفته ایم تا شما را مطلع کنیم که ایمیل شما به %{email} تغییر کرده است.
+        subject: تغییر ایمیل
       password_change:
-        greeting: "سلام %{recipient}!"
-        message: "با شما تماس گرفته ایم تا شما را مطلع کنیم که کلمه عبور شما تغییر کرده است."
-        subject: "تغییر رمز عبور"
+        greeting: سلام %{recipient}!
+        message: با شما تماس گرفته ایم تا شما را مطلع کنیم که کلمه عبور شما تغییر کرده است.
+        subject: تغییر رمز عبور
       reset_password_instructions:
-        action: "رمز عبور مرا تغییر بده"
-        greeting: "سلام %{recipient}!"
-        instruction: "شخصی درخواست تغییر رمز عبور شما را داده و شما می توانید این کار را از طریق لینک زیر انجام دهید."
-        instruction_2: "اگر شما این درخواست را ارسال نکرده اید لطفا این ایمیل را نادیده بگیرید."
-        instruction_3: "رمز عبور شما تا زمانی که به لینک بالا مراجعه نکنید و رمز عبور جدید نسازید تغییر نخواهد کرد"
-        subject: "راهنمای بازنشانی رمز عبور"
+        action: رمز عبور مرا تغییر بده
+        greeting: سلام %{recipient}!
+        instruction: شخصی درخواست تغییر رمز عبور شما را داده و شما می توانید این کار را از طریق لینک زیر انجام دهید.
+        instruction_2: اگر شما این درخواست را ارسال نکرده اید لطفا این ایمیل را نادیده بگیرید.
+        instruction_3: رمز عبور شما تا زمانی که به لینک بالا مراجعه نکنید و رمز عبور جدید نسازید تغییر نخواهد کرد
+        subject: راهنمای بازنشانی رمز عبور
       unlock_instructions:
-        action: "حساب مرا باز کن"
-        greeting: "سلام %{recipient}!"
-        instruction: "برای باز کردن حساب خود بر روی لینک زیر کلیک کنید:"
-        message: "حساب شما بخاطر تلاش های ناموفق مکرر برای ورود قفل شد."
-        subject: "راهنمای باز کردن"
+        action: حساب مرا باز کن
+        greeting: سلام %{recipient}!
+        instruction: 'برای باز کردن حساب خود بر روی لینک زیر کلیک کنید:'
+        message: حساب شما بخاطر تلاش های ناموفق مکرر برای ورود قفل شد.
+        subject: راهنمای باز کردن
     omniauth_callbacks:
       failure: امکان استفاده از مجوز %{kind} نبود زیرا "%{reason}".
-      success: "با موفقیت مجوز استفاده از  %{kind} دریافت شد."
+      success: با موفقیت مجوز استفاده از  %{kind} دریافت شد.
     passwords:
       edit:
-        change_my_password: "رمز عبور مرا تغییر بده"
-        change_your_password: "رمز عبور خود را تغییر دهید"
-        confirm_new_password: "رمز عبور جدید را تایید کنید"
-        new_password: "رمز عبور جدید"
+        change_my_password: رمز عبور مرا تغییر بده
+        change_your_password: رمز عبور خود را تغییر دهید
+        confirm_new_password: رمز عبور جدید را تایید کنید
+        new_password: رمز عبور جدید
       new:
-        forgot_your_password: "رمز عبور خود را فراموش کرده اید؟"
-        send_me_reset_password_instructions: "راهنمای تغییر رمز عبور را برای من بفرست"
-      no_token: "شما نمی‌توانید بدون استفاده از یک لینک بازنشانی رمز به این صفحه دسترسی پیدا کنید. اگر از طریق یک ایمیل بازنشانی رمز عبور به این صفحه رسیده‌اید، مطمئن شوید که از کل URL فرستاده شده استفاده کرده‌اید."
-      send_instructions: "ظرف چند دقیقه آینده ایمیلی حاوی راهنمای بازگرداندن رمز عبورتان دریافت خواهید کرد."
-      send_paranoid_instructions: "اگر ایمیل شما قبلا در سیستم ثبت شده باشد، تا چند دقیقه‌ی دیگر یک لینک بازنشانی رمز عبور دریافت می‌کنید."
-      updated: "رمز عبورتان با موفقیت تغییر کرد. اکنون وارد شدید."
-      updated_not_active: "رمز عبور با موفقیت تغییر یافت."
+        forgot_your_password: رمز عبور خود را فراموش کرده اید؟
+        send_me_reset_password_instructions: راهنمای تغییر رمز عبور را برای من بفرست
+      no_token: شما نمی‌توانید بدون استفاده از یک لینک بازنشانی رمز به این صفحه دسترسی پیدا کنید. اگر از طریق یک ایمیل بازنشانی رمز عبور به این صفحه رسیده‌اید، مطمئن شوید که از کل URL فرستاده شده استفاده کرده‌اید.
+      send_instructions: ظرف چند دقیقه آینده ایمیلی حاوی راهنمای بازگرداندن رمز عبورتان دریافت خواهید کرد.
+      send_paranoid_instructions: اگر ایمیل شما قبلا در سیستم ثبت شده باشد، تا چند دقیقه‌ی دیگر یک لینک بازنشانی رمز عبور دریافت می‌کنید.
+      updated: رمز عبورتان با موفقیت تغییر کرد. اکنون وارد شدید.
+      updated_not_active: رمز عبور با موفقیت تغییر یافت.
     registrations:
-      destroyed: "بدرود! حسابتان لغو شد. به امید دیدار دوباره."
+      destroyed: بدرود! حسابتان لغو شد. به امید دیدار دوباره.
       edit:
-        are_you_sure: "آیا اطمینان دارید؟"
-        cancel_my_account: "حساب مرا لغو کن"
-        currently_waiting_confirmation_for_email: "در حال انتظار برای تایید :  %{email}"
-        leave_blank_if_you_don_t_want_to_change_it: "اگر نمی خواهید تغییر دهید خالی بگذارید"
-        title: "تغییر %{resource}"
-        unhappy: "ناراحت"
-        update: "بروز رسانی"
-        we_need_your_current_password_to_confirm_your_changes: "ما برای تایید تغییرات به کلمه عبور فعلی نیاز داریم:"
+        are_you_sure: آیا اطمینان دارید؟
+        cancel_my_account: حساب مرا لغو کن
+        currently_waiting_confirmation_for_email: 'در حال انتظار برای تایید :  %{email}'
+        leave_blank_if_you_don_t_want_to_change_it: اگر نمی خواهید تغییر دهید خالی بگذارید
+        title: تغییر %{resource}
+        unhappy: ناراحت
+        update: بروز رسانی
+        we_need_your_current_password_to_confirm_your_changes: 'ما برای تایید تغییرات به کلمه عبور فعلی نیاز داریم:'
       new:
-        sign_up: "ثبت نام"
-      signed_up: "خوش آمدید! با موفقیت ثبت نام کردید."
-      signed_up_but_inactive: "شما با موفقیت ثبت نام شده اید؛ ولی هنوز نمی‌توانید وارد شوید چون حساب‌تان هنوز فعال نشده."
-      signed_up_but_locked: "شما با موفقیت ثبت نام شده اید؛ ولی هنوز نمی‌توانید وارد شوید چون حساب‌تان قفل شده."
-      signed_up_but_unconfirmed: "یک ایمیل حاوی لینک تایید حساب برای شما فرستاده شده. لطفا برای فعال کردن حساب‌تان آن لینک را باز کنید."
-      update_needs_confirmation: "حساب شما با موفقیت به روز شد، اما شما باید ایمیل جدیدتان را را تایید کنید. لطفا ایمیل‌تان را چک کنید و روی لینک تایید حساب کاربری کلیک کنید تا ایمیل جدیدتان تایید شود."
-      updated: "به روز رسانی حسابتان با موفقیت انجام شد."
+        sign_up: ثبت نام
+      signed_up: خوش آمدید! با موفقیت ثبت نام کردید.
+      signed_up_but_inactive: شما با موفقیت ثبت نام شده اید؛ ولی هنوز نمی‌توانید وارد شوید چون حساب‌تان هنوز فعال نشده.
+      signed_up_but_locked: شما با موفقیت ثبت نام شده اید؛ ولی هنوز نمی‌توانید وارد شوید چون حساب‌تان قفل شده.
+      signed_up_but_unconfirmed: یک ایمیل حاوی لینک تایید حساب برای شما فرستاده شده. لطفا برای فعال کردن حساب‌تان آن لینک را باز کنید.
+      update_needs_confirmation: حساب شما با موفقیت به روز شد، اما شما باید ایمیل جدیدتان را را تایید کنید. لطفا ایمیل‌تان را چک کنید و روی لینک تایید حساب کاربری کلیک کنید تا ایمیل جدیدتان تایید شود.
+      updated: به روز رسانی حسابتان با موفقیت انجام شد.
     sessions:
-      already_signed_out: "خروج با موفقیت انجام شد."
+      already_signed_out: خروج با موفقیت انجام شد.
       new:
-        sign_in: "ورود"
-      signed_in: "ورود موفق."
-      signed_out: "خروج موفق."
+        sign_in: ورود
+      signed_in: ورود موفق.
+      signed_out: خروج موفق.
     shared:
       links:
-        back: "برگشت"
-        didn_t_receive_confirmation_instructions: "ایمیل راهنمای تایید را دریافت نکرده اید؟"
-        didn_t_receive_unlock_instructions: "ایمیل راهنمای بازکردن حساب را دریافت نکرده اید؟"
-        forgot_your_password: "کلمه عبور خود را فراموش کرده اید؟"
-        sign_in: "ورود"
-        sign_in_with_provider: "ورود با %{provider}"
-        sign_up: "ثبت نام"
+        back: برگشت
+        didn_t_receive_confirmation_instructions: ایمیل راهنمای تایید را دریافت نکرده اید؟
+        didn_t_receive_unlock_instructions: ایمیل راهنمای بازکردن حساب را دریافت نکرده اید؟
+        forgot_your_password: کلمه عبور خود را فراموش کرده اید؟
+        sign_in: ورود
+        sign_in_with_provider: ورود با %{provider}
+        sign_up: ثبت نام
       minimum_password_length: "(حداقل %{count} حرف)"
     unlocks:
       new:
-        resend_unlock_instructions: "ارسال مجدد راهنمای بازکردن حساب"
-      send_instructions: "ایمیلی حاوی راهنمای باز کردن حسابتان در چند دقیقه آینده به شما ارسال خواهد شد."
-      send_paranoid_instructions: "اگر حساب شما وجود داشته باشد، تا چند دقیقه‌ی دیگر یک ایمیل حاوی توضیحات نحوه‌ی باز کردن قفل حساب‌تان برای شما ارسال می‌شود."
-      unlocked: "حسابتان با موفقیت باز شد. اکنون وارد شدید."
+        resend_unlock_instructions: ارسال مجدد راهنمای بازکردن حساب
+      send_instructions: ایمیلی حاوی راهنمای باز کردن حسابتان در چند دقیقه آینده به شما ارسال خواهد شد.
+      send_paranoid_instructions: اگر حساب شما وجود داشته باشد، تا چند دقیقه‌ی دیگر یک ایمیل حاوی توضیحات نحوه‌ی باز کردن قفل حساب‌تان برای شما ارسال می‌شود.
+      unlocked: حسابتان با موفقیت باز شد. اکنون وارد شدید.
   errors:
     messages:
-      already_confirmed: "قبلا تایید شده است"
-      confirmation_period_expired: "باید در مدت %{period} تایید می‌شد، لطفا یکی دیگر درخواست نمایید"
-      expired: "منقضی شده. لطفا یکی دیگر درخواست کنید."
-      not_found: "یافت نشد"
-      not_locked: "قفل نشده است"
+      already_confirmed: قبلا تایید شده است
+      confirmation_period_expired: باید در مدت %{period} تایید می‌شد، لطفا یکی دیگر درخواست نمایید
+      expired: منقضی شده. لطفا یکی دیگر درخواست کنید.
+      not_found: یافت نشد
+      not_locked: قفل نشده است
       not_saved:
-        one: "۱ خطا جلوی ذخیره %{resource} را گرفت:"
+        one: '۱ خطا جلوی ذخیره %{resource} را گرفت:'
         other: "%{count} خطا جلوی ذخیره این %{resource} را گرفت:"

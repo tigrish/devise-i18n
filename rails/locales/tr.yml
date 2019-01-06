@@ -56,15 +56,15 @@ tr:
         subject: 
       password_change:
         greeting: Merhaba %{recipient}!
-        message: "Şifreniz az önce değiştirildi."
-        subject: "Şifreniz Değişti"
+        message: Şifreniz az önce değiştirildi.
+        subject: Şifreniz Değişti
       reset_password_instructions:
         action: Parolamı değiştir
         greeting: Merhaba %{recipient}!
         instruction: Birisi parolanızı değiştirmek için bir istek gönderdi, aşağıdaki bağlantıyı kullanarak bunu yapabilirsiniz.
         instruction_2: Eğer bu isteği siz yapmadıysanız, bu e-postayı görmezden gelebilirsiniz.
         instruction_3: Parolanız yukarıdaki bağlantıyı kullanıp, yeni bir parola oluşturmadığınız sürece değişmeyecektir.
-        subject: "Şifre sıfırlama talimatları."
+        subject: Şifre sıfırlama talimatları.
       unlock_instructions:
         action: Hesabımı geri aç
         greeting: Merhaba %{recipient}!
@@ -77,7 +77,7 @@ tr:
     passwords:
       edit:
         change_my_password: Parolamı değiştir
-        change_your_password: "Şifreni değiştir"
+        change_your_password: Şifreni değiştir
         confirm_new_password: Yeni parolanı doğrula
         new_password: Yeni Parola
       new:
@@ -86,8 +86,8 @@ tr:
       no_token: Bu sayfaya şifre sıfırlama e-postasındaki linke tıklayarak gelmeniz gerekmektedir. Linke tıklamak yerine kopyaladıysanız, hata yapmış olabilirsiniz. Lütfen şifre sıfırlama e-postasındaki linke tıklayın.
       send_instructions: Birkaç dakika içinde şifrenizi nasıl sıfırlayacağınız ile ilgili bir e-posta alacaksınız.
       send_paranoid_instructions: 'Eğer e-posta adresiniz sistemimizde kayıtlı ise, birkaç dakika içinde şifrenizi nasıl sıfırlayacağınız ile ilgili bir e-posta alacaksınız. '
-      updated: "Şifreniz başarıyla güncellendi. Şu an giriş yapmış bulunuyorsunuz."
-      updated_not_active: "Şifreniz başarıyla güncellendi."
+      updated: Şifreniz başarıyla güncellendi. Şu an giriş yapmış bulunuyorsunuz.
+      updated_not_active: Şifreniz başarıyla güncellendi.
     registrations:
       destroyed: Hesabınız başarıyla kapatıldı. En kısa sürede görüşmek üzere!
       edit:

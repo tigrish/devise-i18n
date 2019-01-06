@@ -65,8 +65,9 @@ en-GB:
         greeting: Hello %{recipient}!
         instruction: Someone has requested a link to change your password, and you can do this through the link below.
         instruction_2: If you didn't request this, please ignore this email.
-        instruction_3: |
-          Your password won't change until you access the link above and create a new one.
+        instruction_3: 'Your password won''t change until you access the link above and create a new one.
+
+'
         subject: Reset password instructions
       unlock_instructions:
         action: Unlock my account

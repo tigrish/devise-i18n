@@ -13,7 +13,7 @@ ca:
         encrypted_password: Contrasenya xifrada
         failed_attempts: Intents fallits
         last_sign_in_at: Darrere inici de sessió a les
-        last_sign_in_ip: "Última IP"
+        last_sign_in_ip: Última IP
         locked_at: Bloquejat a les
         password: Contrasenya
         password_confirmation: Confirmar contrasenya

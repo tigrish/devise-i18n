@@ -19,8 +19,8 @@ sv:
         password_confirmation: Bekräfta lösenord
         remember_created_at: Kom ihåg skapades vid
         remember_me: Kom ihåg mig
-        reset_password_sent_at: "Återställ lösenord skickat vid"
-        reset_password_token: "Återställ token för lösenord"
+        reset_password_sent_at: Återställ lösenord skickat vid
+        reset_password_token: Återställ token för lösenord
         sign_in_count: Antal inloggningar
         unconfirmed_email: Obekräftad e-post
         unlock_token: Token för återaktivering
@@ -76,8 +76,8 @@ sv:
       success: Autentiserat med %{kind}-konto.
     passwords:
       edit:
-        change_my_password: "Ändra mitt lösenord"
-        change_your_password: "Ändra ditt lösenord"
+        change_my_password: Ändra mitt lösenord
+        change_your_password: Ändra ditt lösenord
         confirm_new_password: Bekräfta nytt lösenord
         new_password: Nytt lösenord
       new:
@@ -91,11 +91,11 @@ sv:
     registrations:
       destroyed: Hej då! Ditt konto har avregistrerats. Vi hoppas få se dig snart igen.
       edit:
-        are_you_sure: "Är du säker?"
+        are_you_sure: Är du säker?
         cancel_my_account: Avsluta mitt konto
         currently_waiting_confirmation_for_email: 'Väntar på bekräftelse för: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: lämna tomt om du inte vill byta det
-        title: "Ändra %{resource}"
+        title: Ändra %{resource}
         unhappy: Missnöjd
         update: Uppdatera
         we_need_your_current_password_to_confirm_your_changes: vi behöver ditt nuvarande lösenord för att bekräfta dina ändringar
@@ -133,9 +133,9 @@ sv:
       unlocked: Ditt konto har låsts upp. Du är nu inloggad.
   errors:
     messages:
-      already_confirmed: "är redan bekräftad, vänligen logga in igen"
+      already_confirmed: är redan bekräftad, vänligen logga in igen
       confirmation_period_expired: behöver bekräftas inom %{period}. Vänligen begär en ny
-      expired: "är inte längre giltig. Vänligen begär en ny"
+      expired: är inte längre giltig. Vänligen begär en ny
       not_found: hittades inte
       not_locked: var inte låst
       not_saved:

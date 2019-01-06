@@ -142,4 +142,4 @@ sq:
       not_locked: s’qe e kyçur
       not_saved:
         one: 'Ruajtja e këtij %{resource} u pengua nga 1 gabim:'
-        other: "Ruajtja e këtij %{resource} u pengua nga %{count} gabime:"
+        other: 'Ruajtja e këtij %{resource} u pengua nga %{count} gabime:'

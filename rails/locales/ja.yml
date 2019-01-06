@@ -2,140 +2,140 @@ ja:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: "パスワード確認送信時刻"
-        confirmation_token: "パスワード確認用トークン"
-        confirmed_at: "パスワード確認時刻"
-        created_at: "作成日"
-        current_password: "現在のパスワード"
-        current_sign_in_at: "現在のログイン時刻"
-        current_sign_in_ip: "現在のログインIPアドレス"
+        confirmation_sent_at: パスワード確認送信時刻
+        confirmation_token: パスワード確認用トークン
+        confirmed_at: パスワード確認時刻
+        created_at: 作成日
+        current_password: 現在のパスワード
+        current_sign_in_at: 現在のログイン時刻
+        current_sign_in_ip: 現在のログインIPアドレス
         email: Eメール
-        encrypted_password: "暗号化パスワード"
-        failed_attempts: "失敗したログイン試行回数"
-        last_sign_in_at: "最終ログイン時刻"
-        last_sign_in_ip: "最終ログインIPアドレス"
-        locked_at: "ロック時刻"
-        password: "パスワード"
-        password_confirmation: "パスワード（確認用）"
-        remember_created_at: "ログイン記憶時刻"
-        remember_me: "ログインを記憶する"
-        reset_password_sent_at: "パスワードリセット送信時刻"
-        reset_password_token: "パスワードリセット用トークン"
-        sign_in_count: "ログイン回数"
-        unconfirmed_email: "未確認Eメール"
-        unlock_token: "ロック解除用トークン"
-        updated_at: "更新日"
+        encrypted_password: 暗号化パスワード
+        failed_attempts: 失敗したログイン試行回数
+        last_sign_in_at: 最終ログイン時刻
+        last_sign_in_ip: 最終ログインIPアドレス
+        locked_at: ロック時刻
+        password: パスワード
+        password_confirmation: パスワード（確認用）
+        remember_created_at: ログイン記憶時刻
+        remember_me: ログインを記憶する
+        reset_password_sent_at: パスワードリセット送信時刻
+        reset_password_token: パスワードリセット用トークン
+        sign_in_count: ログイン回数
+        unconfirmed_email: 未確認Eメール
+        unlock_token: ロック解除用トークン
+        updated_at: 更新日
     models:
-      user: "ユーザ"
+      user: ユーザ
   devise:
     confirmations:
-      confirmed: "アカウントを登録しました。"
+      confirmed: アカウントを登録しました。
       new:
-        resend_confirmation_instructions: "アカウント確認メール再送"
-      send_instructions: "アカウントの有効化について数分以内にメールでご連絡します。"
-      send_paranoid_instructions: "メールアドレスが登録済みの場合、本人確認用のメールが数分以内に送信されます。"
+        resend_confirmation_instructions: アカウント確認メール再送
+      send_instructions: アカウントの有効化について数分以内にメールでご連絡します。
+      send_paranoid_instructions: メールアドレスが登録済みの場合、本人確認用のメールが数分以内に送信されます。
     failure:
-      already_authenticated: "すでにログインしています。"
-      inactive: "アカウントが有効化されていません。メールに記載された手順にしたがって、アカウントを有効化してください。"
+      already_authenticated: すでにログインしています。
+      inactive: アカウントが有効化されていません。メールに記載された手順にしたがって、アカウントを有効化してください。
       invalid: "%{authentication_keys}またはパスワードが違います。"
-      last_attempt: "もう一回誤るとアカウントがロックされます。"
-      locked: "アカウントは凍結されています。"
+      last_attempt: もう一回誤るとアカウントがロックされます。
+      locked: アカウントは凍結されています。
       not_found_in_database: "%{authentication_keys}またはパスワードが違います。"
-      timeout: "セッションがタイムアウトしました。もう一度ログインしてください。"
-      unauthenticated: "アカウント登録もしくはログインしてください。"
-      unconfirmed: "メールアドレスの本人確認が必要です。"
+      timeout: セッションがタイムアウトしました。もう一度ログインしてください。
+      unauthenticated: アカウント登録もしくはログインしてください。
+      unconfirmed: メールアドレスの本人確認が必要です。
     mailer:
       confirmation_instructions:
-        action: "メールアドレスの確認"
+        action: メールアドレスの確認
         greeting: "%{recipient}様"
-        instruction: "以下のリンクをクリックし、メールアドレスの確認手続を完了させてください。"
-        subject: "メールアドレス確認メール"
+        instruction: 以下のリンクをクリックし、メールアドレスの確認手続を完了させてください。
+        subject: メールアドレス確認メール
       email_changed:
-        greeting: "こんにちは、%{recipient}様。"
-        message: "あなたのメール変更（%{email}）のお知らせいたします。"
-        subject: "メール変更完了。"
+        greeting: こんにちは、%{recipient}様。
+        message: あなたのメール変更（%{email}）のお知らせいたします。
+        subject: メール変更完了。
       password_change:
         greeting: "%{recipient}様"
-        message: "パスワードが再設定されたことを通知します。"
-        subject: "パスワードの変更について"
+        message: パスワードが再設定されたことを通知します。
+        subject: パスワードの変更について
       reset_password_instructions:
-        action: "パスワード変更"
+        action: パスワード変更
         greeting: "%{recipient}様"
-        instruction: "パスワード再設定の依頼を受けたため、メールを送信しています。下のリンクからパスワードの再設定ができます。"
-        instruction_2: "パスワード再設定の依頼をしていない場合、このメールを無視してください。"
-        instruction_3: "パスワードの再設定は、上のリンクから新しいパスワードを登録するまで完了しません。"
-        subject: "パスワードの再設定について"
+        instruction: パスワード再設定の依頼を受けたため、メールを送信しています。下のリンクからパスワードの再設定ができます。
+        instruction_2: パスワード再設定の依頼をしていない場合、このメールを無視してください。
+        instruction_3: パスワードの再設定は、上のリンクから新しいパスワードを登録するまで完了しません。
+        subject: パスワードの再設定について
       unlock_instructions:
-        action: "アカウントのロック解除"
+        action: アカウントのロック解除
         greeting: "%{recipient}様"
-        instruction: "アカウントのロックを解除するには下のリンクをクリックしてください。"
-        message: "ログイン失敗が繰り返されたため、アカウントはロックされています。"
-        subject: "アカウントの凍結解除について"
+        instruction: アカウントのロックを解除するには下のリンクをクリックしてください。
+        message: ログイン失敗が繰り返されたため、アカウントはロックされています。
+        subject: アカウントの凍結解除について
     omniauth_callbacks:
       failure: "%{kind} アカウントによる認証に失敗しました。理由：（%{reason}）"
       success: "%{kind} アカウントによる認証に成功しました。"
     passwords:
       edit:
-        change_my_password: "パスワードを変更する"
-        change_your_password: "パスワードを変更"
-        confirm_new_password: "確認用新しいパスワード"
-        new_password: "新しいパスワード"
+        change_my_password: パスワードを変更する
+        change_your_password: パスワードを変更
+        confirm_new_password: 確認用新しいパスワード
+        new_password: 新しいパスワード
       new:
-        forgot_your_password: "パスワードを忘れましたか?"
-        send_me_reset_password_instructions: "パスワードの再設定方法を送信する"
-      no_token: "このページにはアクセスできません。パスワード再設定メールのリンクからアクセスされた場合には、URL をご確認ください。"
-      send_instructions: "パスワードの再設定について数分以内にメールでご連絡いたします。"
-      send_paranoid_instructions: "メールアドレスが登録済みの場合、パスワード再設定用のメールが数分以内に送信されます。"
-      updated: "パスワードが正しく変更されました。"
-      updated_not_active: "パスワードが正しく変更されました。"
+        forgot_your_password: パスワードを忘れましたか?
+        send_me_reset_password_instructions: パスワードの再設定方法を送信する
+      no_token: このページにはアクセスできません。パスワード再設定メールのリンクからアクセスされた場合には、URL をご確認ください。
+      send_instructions: パスワードの再設定について数分以内にメールでご連絡いたします。
+      send_paranoid_instructions: メールアドレスが登録済みの場合、パスワード再設定用のメールが数分以内に送信されます。
+      updated: パスワードが正しく変更されました。
+      updated_not_active: パスワードが正しく変更されました。
     registrations:
-      destroyed: "アカウントを削除しました。またのご利用をお待ちしております。"
+      destroyed: アカウントを削除しました。またのご利用をお待ちしております。
       edit:
-        are_you_sure: "本当によろしいですか?"
-        cancel_my_account: "アカウント削除"
+        are_you_sure: 本当によろしいですか?
+        cancel_my_account: アカウント削除
         currently_waiting_confirmation_for_email: "%{email} の確認待ち"
-        leave_blank_if_you_don_t_want_to_change_it: "空欄のままなら変更しません"
+        leave_blank_if_you_don_t_want_to_change_it: 空欄のままなら変更しません
         title: "%{resource}編集"
-        unhappy: "気に入りません"
-        update: "更新"
-        we_need_your_current_password_to_confirm_your_changes: "変更を反映するには現在のパスワードを入力してください"
+        unhappy: 気に入りません
+        update: 更新
+        we_need_your_current_password_to_confirm_your_changes: 変更を反映するには現在のパスワードを入力してください
       new:
-        sign_up: "アカウント登録"
-      signed_up: "アカウント登録が完了しました。"
-      signed_up_but_inactive: "ログインするためには、アカウントを有効化してください。"
-      signed_up_but_locked: "アカウントが凍結されているためログインできません。"
-      signed_up_but_unconfirmed: "本人確認用のメールを送信しました。メール内のリンクからアカウントを有効化させてください。"
-      update_needs_confirmation: "アカウント情報を変更しました。変更されたメールアドレスの本人確認のため、本人確認用メールより確認処理をおこなってください。"
-      updated: "アカウント情報を変更しました。"
+        sign_up: アカウント登録
+      signed_up: アカウント登録が完了しました。
+      signed_up_but_inactive: ログインするためには、アカウントを有効化してください。
+      signed_up_but_locked: アカウントが凍結されているためログインできません。
+      signed_up_but_unconfirmed: 本人確認用のメールを送信しました。メール内のリンクからアカウントを有効化させてください。
+      update_needs_confirmation: アカウント情報を変更しました。変更されたメールアドレスの本人確認のため、本人確認用メールより確認処理をおこなってください。
+      updated: アカウント情報を変更しました。
     sessions:
-      already_signed_out: "既にログアウト済みです。"
+      already_signed_out: 既にログアウト済みです。
       new:
-        sign_in: "ログイン"
-      signed_in: "ログインしました。"
-      signed_out: "ログアウトしました。"
+        sign_in: ログイン
+      signed_in: ログインしました。
+      signed_out: ログアウトしました。
     shared:
       links:
-        back: "戻る"
-        didn_t_receive_confirmation_instructions: "アカウント確認のメールを受け取っていませんか?"
-        didn_t_receive_unlock_instructions: "アカウントの凍結解除方法のメールを受け取っていませんか?"
-        forgot_your_password: "パスワードを忘れましたか?"
-        sign_in: "ログイン"
+        back: 戻る
+        didn_t_receive_confirmation_instructions: アカウント確認のメールを受け取っていませんか?
+        didn_t_receive_unlock_instructions: アカウントの凍結解除方法のメールを受け取っていませんか?
+        forgot_your_password: パスワードを忘れましたか?
+        sign_in: ログイン
         sign_in_with_provider: "%{provider}でログイン"
-        sign_up: "アカウント登録"
+        sign_up: アカウント登録
       minimum_password_length: "（%{count}字以上）"
     unlocks:
       new:
-        resend_unlock_instructions: "アカウントの凍結解除方法を再送する"
-      send_instructions: "アカウントの凍結解除方法を数分以内にメールでご連絡します。"
-      send_paranoid_instructions: "アカウントが見つかった場合、アカウントの凍結解除方法を数分以内にメールでご連絡します。"
-      unlocked: "アカウントを凍結解除しました。"
+        resend_unlock_instructions: アカウントの凍結解除方法を再送する
+      send_instructions: アカウントの凍結解除方法を数分以内にメールでご連絡します。
+      send_paranoid_instructions: アカウントが見つかった場合、アカウントの凍結解除方法を数分以内にメールでご連絡します。
+      unlocked: アカウントを凍結解除しました。
   errors:
     messages:
-      already_confirmed: "は既に登録済みです。ログインしてください。"
-      confirmation_period_expired: "の期限が切れました。%{period} までに確認する必要があります。 新しくリクエストしてください。"
-      expired: "の有効期限が切れました。新しくリクエストしてください。"
-      not_found: "は見つかりませんでした。"
-      not_locked: "は凍結されていません。"
+      already_confirmed: は既に登録済みです。ログインしてください。
+      confirmation_period_expired: の期限が切れました。%{period} までに確認する必要があります。 新しくリクエストしてください。
+      expired: の有効期限が切れました。新しくリクエストしてください。
+      not_found: は見つかりませんでした。
+      not_locked: は凍結されていません。
       not_saved:
-        one: "エラーが発生したため %{resource} は保存されませんでした。"
+        one: エラーが発生したため %{resource} は保存されませんでした。
         other: "%{count} 件のエラーが発生したため %{resource} は保存されませんでした。"

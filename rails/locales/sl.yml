@@ -20,10 +20,10 @@ sl:
         remember_created_at: 
         remember_me: Zapomni se me
         reset_password_sent_at: 
-        reset_password_token: "Žeton za ponastavitev gesla"
+        reset_password_token: Žeton za ponastavitev gesla
         sign_in_count: 
         unconfirmed_email: 
-        unlock_token: "Žeton za odklep"
+        unlock_token: Žeton za odklep
         updated_at: 
     models:
       user: Uporabnik
@@ -33,7 +33,7 @@ sl:
       new:
         resend_confirmation_instructions: Ponovno pošlji navodila za potrditev
       send_instructions: Prejeli boste email z navodili za potrditev vašega računa.
-      send_paranoid_instructions: "Če vaš email obstaja v naši bazi, boste v naslednjih minutah prejeli email z navodili za potrditev vašega računa."
+      send_paranoid_instructions: Če vaš email obstaja v naši bazi, boste v naslednjih minutah prejeli email z navodili za potrditev vašega računa.
     failure:
       already_authenticated: Ste že prijavljeni.
       inactive: Vaš račun še ni bil aktiviran.
@@ -62,7 +62,7 @@ sl:
         action: Spremeni moje geslo
         greeting: Pozdravljen %{recipient}!
         instruction: Nekdo je zahteval spremembo gesla. To lahko storite s klikom na spodnjo povezavo.
-        instruction_2: "Če tega niste zahtevali vi, prosim ignorirajte ta email."
+        instruction_2: Če tega niste zahtevali vi, prosim ignorirajte ta email.
         instruction_3: Vaše geslo se ne bo spremenilo dokler ne nastavite novega s klikom na zgornjo povezavo.
         subject: Navodila za ponastavitev gesla
       unlock_instructions:
@@ -85,7 +85,7 @@ sl:
         send_me_reset_password_instructions: Pošljite mi navodila za ponastavitev gesla
       no_token: Do te strani lahko dostopate samo iz povezave v emailu za ponastavitev gesla. Če pa ste prišli do te strani preko omenjene povezave, preverite ali ste uporabili celotni URL.
       send_instructions: V naslednjih minutah boste prejeli email z navodili za ponastavitev gesla.
-      send_paranoid_instructions: "Če vaš email obstaja v bazi, boste v naslednjih minutah prejeli povezavo za ponastavitev gesla."
+      send_paranoid_instructions: Če vaš email obstaja v bazi, boste v naslednjih minutah prejeli povezavo za ponastavitev gesla.
       updated: Vaše geslo je bilo uspešno spremenjeno. Sedaj ste prijavljeni.
       updated_not_active: Vaše geslo je bilo uspešno spremenjeno.
     registrations:
@@ -93,7 +93,7 @@ sl:
       edit:
         are_you_sure: Ste prepričani?
         cancel_my_account: Prekličite moj račun
-        currently_waiting_confirmation_for_email: "Čakamo na potrditev: %{email}"
+        currently_waiting_confirmation_for_email: 'Čakamo na potrditev: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: pustite prazno, če ne želite spremeniti
         title: Uredi %{resource}
         unhappy: Nezadovoljni?
@@ -127,7 +127,7 @@ sl:
       new:
         resend_unlock_instructions: Ponovno pošlji navodila za odklep
       send_instructions: V naslednjih minutah boste prejeli email z navodili za odklep vašega računa.
-      send_paranoid_instructions: "Če vaš račun obstaja, boste v naslednjih minutah prejeli email z navodili za odklep vašega računa."
+      send_paranoid_instructions: Če vaš račun obstaja, boste v naslednjih minutah prejeli email z navodili za odklep vašega računa.
       unlocked: Vaš račun je bil uspešno odklenjen. Prosimo, prijavite se za nadaljevanje.
   errors:
     messages:

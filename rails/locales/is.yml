@@ -22,7 +22,7 @@ is:
         reset_password_sent_at: Núllstilling lykilorðs sent kl
         reset_password_token: Núllstilla lykilorðatákn
         sign_in_count: Fjöldi innskráninga
-        unconfirmed_email: "Óstaðfest netfang"
+        unconfirmed_email: Óstaðfest netfang
         unlock_token: Aflæsa tákni
         updated_at: Uppfært kl
     models:
@@ -35,20 +35,20 @@ is:
       send_instructions: Eftir nokkrar mínútur munt þú fá tölvupóst með leiðbeiningum um hvernig eigi að staðfesta aðganginn.
       send_paranoid_instructions: Ef netfangið þitt er til í gagnagrunninum okkar munt þú fá leiðbeiningar um hvernig eigi að staðfesta aðganginn sendar tölvupósti innan nokkurra mínútna.
     failure:
-      already_authenticated: "Þú ert nú þegar innskráð(ur)."
+      already_authenticated: Þú ert nú þegar innskráð(ur).
       inactive: Aðgangurinn þinn hefur ekki verið staðfestur.
       invalid: Rangt %{authentication_keys} eða lykilorð.
-      last_attempt: "Þú hefur eina tilraun í viðbót, áður en aðganginum verði læst."
+      last_attempt: Þú hefur eina tilraun í viðbót, áður en aðganginum verði læst.
       locked: Aðgangurinn þinn er læstur.
       not_found_in_database: Rangt %{authentication_keys} eða lykilorð.
       timeout: Seta þín hefur runnið út, skráðu þig aftur inn til að halda áfram.
-      unauthenticated: "Þú þarft að vera innskráð(ur) til þess að halda áfram."
-      unconfirmed: "Þú verður að staðfesta aðganginn þinn áður en þú getur haldið áfram."
+      unauthenticated: Þú þarft að vera innskráð(ur) til þess að halda áfram.
+      unconfirmed: Þú verður að staðfesta aðganginn þinn áður en þú getur haldið áfram.
     mailer:
       confirmation_instructions:
         action: Staðfesta minn aðgang
         greeting: Velkominn %{recipient}!
-        instruction: "Þú getur staðfest aðgang þinn með hlekknum hér fyrir neðan:"
+        instruction: 'Þú getur staðfest aðgang þinn með hlekknum hér fyrir neðan:'
         subject: Staðfestingarleiðbeiningar
       email_changed:
         greeting: Halló %{recipient}!
@@ -83,7 +83,7 @@ is:
       new:
         forgot_your_password: Gleymt lykilorð?
         send_me_reset_password_instructions: Senda mér leiðbeiningar til að endursetja lykilorð
-      no_token: "Þú getur ekki séð þessa síðu án þess að koma frá tölvupósti sem núllstillir lykilorð. Ef þú ert að koma frá slíkum pósti, vertu viss um að öll slóðin frá tölvupóstinum sé notuð."
+      no_token: Þú getur ekki séð þessa síðu án þess að koma frá tölvupósti sem núllstillir lykilorð. Ef þú ert að koma frá slíkum pósti, vertu viss um að öll slóðin frá tölvupóstinum sé notuð.
       send_instructions: Innan nokkra mínútna færðu tölvupóst með leiðbeiningum um hvernig hægt sé að endurstilla aðganginn þinn.
       send_paranoid_instructions: Ef netfangið þitt er til í gagnagrunninum okkar munt þú fá leiðbeiningar um endurstillingu sendar í tölvupósti innan nokkra mínútna.
       updated: Lykilorði þínu hefur nú verið breytt. Þú ert núna innskráð(ur).
@@ -96,23 +96,23 @@ is:
         currently_waiting_confirmation_for_email: 'Bíð eftir staðfestingu á: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: Skilja eftir autt ef þú vilt ekki breyta.
         title: Breyta %{resource}
-        unhappy: "Óánægður?"
+        unhappy: Óánægður?
         update: Uppfæra
         we_need_your_current_password_to_confirm_your_changes: Við þurfum núverandi lykilorð til að staðfesta breytingar.
       new:
         sign_up: Nýskrá
       signed_up: Velkomin(n)! Þú hefur nýskráð þig.
-      signed_up_but_inactive: "Þú hefur nýskráð þig. Hins vegar gátum við ekki innskráð þig því að aðgangurinn þinn hefur ekki verið virktur."
-      signed_up_but_locked: "Þú hefur nýskráð þig. Hins vegar gátum við ekki innskráð þig því að aðgangurinn þinn er læstur."
+      signed_up_but_inactive: Þú hefur nýskráð þig. Hins vegar gátum við ekki innskráð þig því að aðgangurinn þinn hefur ekki verið virktur.
+      signed_up_but_locked: Þú hefur nýskráð þig. Hins vegar gátum við ekki innskráð þig því að aðgangurinn þinn er læstur.
       signed_up_but_unconfirmed: Staðfestingartengill hefur verið sendur á netfangið þitt. Vinsamlegast smelltu á tengilinn til að virkja aðganginn.
       update_needs_confirmation: Aðgangurinn þinn hefur verið uppfærður, en þú þarft að staðfesta netfangið þitt. Vinsamlegast skoðaðu tölvupóstinn þinn og smelltu á staðfestingartengilinn til þess að staðfesta netfangið.
       updated: Aðgangurinn þinn hefur verið uppfærður.
     sessions:
-      already_signed_out: "Útskráning tókst."
+      already_signed_out: Útskráning tókst.
       new:
         sign_in: Skrá inn
       signed_in: Innskráning tókst.
-      signed_out: "Útskráning tókst."
+      signed_out: Útskráning tókst.
     shared:
       links:
         back: Tilbaka
@@ -134,7 +134,7 @@ is:
   errors:
     messages:
       already_confirmed: var nú þegar staðfestur, prófaðu að skrá þig inn
-      confirmation_period_expired: "þarf að vera staðfest innan %{period}, vinsamlegast biddu um nýjan"
+      confirmation_period_expired: þarf að vera staðfest innan %{period}, vinsamlegast biddu um nýjan
       expired: hefur runnið út, vinsamlegast biðjið um nýtt
       not_found: fannst ekki
       not_locked: var ekki læstur

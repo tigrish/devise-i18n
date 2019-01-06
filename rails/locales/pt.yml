@@ -12,8 +12,8 @@ pt:
         email: Email
         encrypted_password: Palavra-passe cifrada
         failed_attempts: Tentativas falhadas
-        last_sign_in_at: "Última entrada em"
-        last_sign_in_ip: "Última entrada com IP"
+        last_sign_in_at: Última entrada em
+        last_sign_in_ip: Última entrada com IP
         locked_at: Bloqueado em
         password: Palavra-passe
         password_confirmation: Confirmar palavra-passe

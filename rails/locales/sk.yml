@@ -73,7 +73,7 @@ sk:
         subject: Inštrukcie na odomknutie účtu
     omniauth_callbacks:
       failure: Nebolo možné vás autentifikovať z %{kind} z dôvodu "%{reason}".
-      success: "Úspešne autentifikovaný z účtu %{kind}."
+      success: Úspešne autentifikovaný z účtu %{kind}.
     passwords:
       edit:
         change_my_password: Zmeniť moje heslo
@@ -106,13 +106,13 @@ sk:
       signed_up_but_locked: Registrácia bola úspešná. Nemohli sme vás ale prihlásiť, lebo váš účet je uzamknutý.
       signed_up_but_unconfirmed: Správa s potvrdzovacím odkazom bola odoslaná na vašu emailovú adresu. Aby ste aktivovali váš účet, prosím otvorte odkaz..
       update_needs_confirmation: Váš účet bol úspešne aktualizovaný ale potrebujeme overiť vašu novú emailovú adresu. Prosím skontrolujte si email a kliknite na potvrdzovací odkaz, aby ste potvrdili novú emailovú adresu.
-      updated: "Úspešne ste aktualizovali váš účet."
+      updated: Úspešne ste aktualizovali váš účet.
     sessions:
-      already_signed_out: "Úspešne odhlásený."
+      already_signed_out: Úspešne odhlásený.
       new:
         sign_in: Prihlásiť sa
-      signed_in: "Úspešne prihlásený."
-      signed_out: "Úspešne odhlásený."
+      signed_in: Úspešne prihlásený.
+      signed_out: Úspešne odhlásený.
     shared:
       links:
         back: Späť

@@ -68,12 +68,12 @@ cs:
       unlock_instructions:
         action: Odblokovat můj účet
         greeting: Ahoj %{recipient}!
-        instruction: "Účet odblokujete kliknutím na níže uvedený odkazu:"
+        instruction: 'Účet odblokujete kliknutím na níže uvedený odkazu:'
         message: Váš účet byl zablokován pro nadměrný počet neúspěšných pokusů o přihlášení.
         subject: Instrukce k odemknutí účtu
     omniauth_callbacks:
       failure: Není možné autorizovat z %{kind}, protože "%{reason}".
-      success: "Úspěšná autorizace z účtu %{kind}."
+      success: Úspěšná autorizace z účtu %{kind}.
     passwords:
       edit:
         change_my_password: Změnit mé heslo
@@ -102,10 +102,10 @@ cs:
       new:
         sign_up: Zaregistrovat se
       signed_up: Vítejte! Úspěšně jste se zaregistroval(a).
-      signed_up_but_inactive: "Úspěšně jste se zaregistroval(a). Bohužel se nemůžete přihlásit, protože váš účet ještě není aktivován."
-      signed_up_but_locked: "Úspěšně jste se zaregistroval(a). Bohužel se nemůžete přihlásit, protože váš účet je zamknutý."
+      signed_up_but_inactive: Úspěšně jste se zaregistroval(a). Bohužel se nemůžete přihlásit, protože váš účet ještě není aktivován.
+      signed_up_but_locked: Úspěšně jste se zaregistroval(a). Bohužel se nemůžete přihlásit, protože váš účet je zamknutý.
       signed_up_but_unconfirmed: Byl vám zaslán potvrzovací e-mail. Pro dokončení klikněte na aktivační odkaz zaslaný na váš e-mail.
-      update_needs_confirmation: "Úspěšně jste aktualizovali svůj účet, ale ještě musíte ověřit svou novou e-mailovou adresu. Zkontrolujte svou schránku a klikněte na odkaz pro dokončení ověření vaši nové e-mailové adresy."
+      update_needs_confirmation: Úspěšně jste aktualizovali svůj účet, ale ještě musíte ověřit svou novou e-mailovou adresu. Zkontrolujte svou schránku a klikněte na odkaz pro dokončení ověření vaši nové e-mailové adresy.
       updated: Váš účet byl úspěšně aktualizován.
     sessions:
       already_signed_out: Odhlášen(a).

@@ -12,8 +12,8 @@ pt-BR:
         email: Email
         encrypted_password: Senha criptografada
         failed_attempts: Tentativas sem sucesso
-        last_sign_in_at: "Último acesso em"
-        last_sign_in_ip: "Último IP de acesso"
+        last_sign_in_at: Último acesso em
+        last_sign_in_ip: Último IP de acesso
         locked_at: Bloqueado em
         password: Senha
         password_confirmation: Confirme sua senha
@@ -134,7 +134,7 @@ pt-BR:
   errors:
     messages:
       already_confirmed: já foi confirmado
-      confirmation_period_expired: "É necessário ser confirmado dentro do período %{period}, por favor requisite um novo usuário."
+      confirmation_period_expired: É necessário ser confirmado dentro do período %{period}, por favor requisite um novo usuário.
       expired: expirou, por favor solicite uma nova
       not_found: não encontrado
       not_locked: não foi bloqueado

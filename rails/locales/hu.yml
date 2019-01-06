@@ -61,7 +61,7 @@ hu:
       reset_password_instructions:
         action: Jelszó megváltoztatása
         greeting: Kedves %{recipient}!
-        instruction: "Ön, vagy valaki más az ön nevében jelszóváltoztatást kérvényezett, mely a lenti linkre kattintva lehetséges."
+        instruction: Ön, vagy valaki más az ön nevében jelszóváltoztatást kérvényezett, mely a lenti linkre kattintva lehetséges.
         instruction_2: Amennyiben ön nem kezdeményezte a jelszavának megváltoztatását, kérem hagyja figyelmen kívül ezt a levelet.
         instruction_3: Amennyiben nem kattint az alábbi linkre, jelszava továbbra is ugyanaz marad, mint eddig.
         subject: Jelszó megváltoztatása
@@ -79,7 +79,7 @@ hu:
         change_my_password: Jelszó megváltoztatása
         change_your_password: Jelszó megváltoztatása
         confirm_new_password: Jelszó megerősítése
-        new_password: "Új jelszó"
+        new_password: Új jelszó
       new:
         forgot_your_password: Elfelejtette a jelszavát?
         send_me_reset_password_instructions: Jelszóviszaállítási teendők küldése

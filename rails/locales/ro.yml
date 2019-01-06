@@ -11,14 +11,14 @@ ro:
         current_sign_in_ip: IP-ul sesiunii curente
         email: Email
         encrypted_password: Parolă criptată
-        failed_attempts: "Încercări eșuate"
+        failed_attempts: Încercări eșuate
         last_sign_in_at: Ultima autentificare la
         last_sign_in_ip: IP-ul ultimei autentificări
         locked_at: Blocat la
         password: Parolă
         password_confirmation: Confirmare parolă
-        remember_created_at: "Ține minte creat la"
-        remember_me: "Ține-mă minte"
+        remember_created_at: Ține minte creat la
+        remember_me: Ține-mă minte
         reset_password_sent_at: Resetarea parolei trimisă la
         reset_password_token: Resetează jetonul parolei
         sign_in_count: Contor autentificări
@@ -100,7 +100,7 @@ ro:
         update: Actualizați
         we_need_your_current_password_to_confirm_your_changes: avem nevoie de parola curentă pentru a confirma schimbările
       new:
-        sign_up: "Înregistrare"
+        sign_up: Înregistrare
       signed_up: Bine ai venit! V-aţi înscris cu succes.
       signed_up_but_inactive: V-aţi înscris cu succes. Cu toate acestea, nu am putut să vă autentificăm, deoarece contul dvs. nu este încă activată.
       signed_up_but_locked: V-aţi înscris cu succes. Cu toate acestea, nu am putut să vă autentificăm, deoarece contul dvs. este blocat.
@@ -115,13 +115,13 @@ ro:
       signed_out: Deautentificarea s-a efectuat cu success.
     shared:
       links:
-        back: "Înapoi"
+        back: Înapoi
         didn_t_receive_confirmation_instructions: Nu ați primit instrucțiuni de confirmare?
         didn_t_receive_unlock_instructions: Nu ați primit instrucțiuni pentru deblocare?
         forgot_your_password: Ați uitat parola?
         sign_in: Autentificare
         sign_in_with_provider: Autentificat cu %{provider}
-        sign_up: "Înregistrare"
+        sign_up: Înregistrare
       minimum_password_length:
         few: "(minim %{count} caractere)"
         one: "(minim %{count} caracter)"
@@ -130,7 +130,7 @@ ro:
       new:
         resend_unlock_instructions: Retrimite instrucțiuni pentru deblocare
       send_instructions: Veţi primi un e-mail cu instrucţiuni despre cum să deblocați contul dvs. în câteva minute.
-      send_paranoid_instructions: "În cazul în care contul dvs. există, veţi primi un e-mail cu instrucţiuni despre cum să-l deblocați în câteva minute."
+      send_paranoid_instructions: În cazul în care contul dvs. există, veţi primi un e-mail cu instrucţiuni despre cum să-l deblocați în câteva minute.
       unlocked: Contul dvs. a fost deblocat cu succes. Vă rugăm autentificați pentru a continua.
   errors:
     messages:

@@ -96,7 +96,7 @@ et:
         currently_waiting_confirmation_for_email: 'Kinnituse ootel: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: jäta tühjaks, kui sa ei soovi seda muuta
         title: Muuda %{resource}
-        unhappy: "Õnnetu"
+        unhappy: Õnnetu
         update: Uuenda
         we_need_your_current_password_to_confirm_your_changes: meil on vaja sinu praegust parooli, et muutused kinnitada
       new:
