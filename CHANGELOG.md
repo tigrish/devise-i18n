@@ -1,3 +1,8 @@
+## 1.7.1
+
+- Fixed syntax error in simple_form templates.
+- Updated fr, ru, sk, and sq translations.
+
 ## 1.7.0
 
 - Add pluralizations of `activerecord.models.user` to allow it be used in other contexts. If you previously referenced this translation directly with `I18n.t`, you will now need to pass in a `count` parameter.
