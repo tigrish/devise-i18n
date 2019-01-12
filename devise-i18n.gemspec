@@ -113,7 +113,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/tigrish/devise-i18n".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "3.0.1".freeze
+  s.rubygems_version = "3.0.2".freeze
   s.summary = "Translations for the devise gem".freeze
 
   if s.respond_to? :specification_version then
