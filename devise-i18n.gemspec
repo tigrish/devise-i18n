@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
   s.authors = ["Christopher Dell".freeze, "mcasimir".freeze, "Jason Barnabe".freeze]
-  s.date = "2019-01-12"
+  s.date = "2019-02-06"
   s.description = "Translations for the devise gem".freeze
   s.email = "chris@tigrish.com".freeze
   s.extra_rdoc_files = [
@@ -68,6 +68,7 @@ Gem::Specification.new do |s|
     "rails/locales/fr.yml",
     "rails/locales/ha.yml",
     "rails/locales/he.yml",
+    "rails/locales/hi.yml",
     "rails/locales/hr.yml",
     "rails/locales/hu.yml",
     "rails/locales/id.yml",
@@ -113,7 +114,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/tigrish/devise-i18n".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "2.6.14.1".freeze
+  s.rubygems_version = "3.0.2".freeze
   s.summary = "Translations for the devise gem".freeze
 
   if s.respond_to? :specification_version then

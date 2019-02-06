@@ -2,41 +2,44 @@ pl:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at: Data wysłania potwierdzenia
+        confirmation_token: Token potwierdzający
+        confirmed_at: Data potwierdzenia
+        created_at: Data utworzenia
         current_password: Aktualne hasło
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: Data bieżącego logowania
+        current_sign_in_ip: Bieżący adres IP
         email: Adres e-mail
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password: Zaszyfrowane hasło
+        failed_attempts: Nieudanych prób
+        last_sign_in_at: Data ostatniego logowania
+        last_sign_in_ip: Ostatni adres IP
+        locked_at: Data zablokowania
         password: Hasło
         password_confirmation: Potwierdzenie hasła
-        remember_created_at: 
+        remember_created_at: Data utworzenia zapamiętania logowania
         remember_me: Zapamiętaj mnie
-        reset_password_sent_at: 
-        reset_password_token: 
-        sign_in_count: 
-        unconfirmed_email: 
-        unlock_token: 
-        updated_at: 
+        reset_password_sent_at: Data wysłania żądania resetu hasła
+        reset_password_token: Token umożliwiający reset hasła
+        sign_in_count: Liczba logowań
+        unconfirmed_email: Niepotwierdzony adres e-mail
+        unlock_token: Token odblokowywujący
+        updated_at: Data uaktualnienia
     models:
-      user: Użytkownik
+      user:
+        few: Użytkowników
+        one: Użytkownik
+        other: Użytkowników
   devise:
     confirmations:
-      confirmed: Konto zostało poprawnie aktywowane.
+      confirmed: Twój adres e-mail został potwierdzony.
       new:
         resend_confirmation_instructions: Wyślij ponownie instrukcje aktywacji
       send_instructions: Instrukcja jak aktywować konto zostanie niezwłocznie wysłana na podany adres e-mail.
       send_paranoid_instructions: Jeśli Twój adres e-mail istnieje w naszej bazie, w ciągu najbliższych minut otrzymasz instrukcje jak aktywować konto.
     failure:
       already_authenticated: Jesteś już zalogowany.
-      inactive: Konto nie zostało jeszcze aktywowane.
+      inactive: Twoje konto nie zostało jeszcze aktywowane.
       invalid: Błędny adres %{authentication_keys} lub hasło.
       last_attempt: Masz jeszcze jedną próbę nim Twoje konto zostanie zablokowane.
       locked: Twoje konto jest zablokowane.
@@ -51,9 +54,9 @@ pl:
         instruction: 'Możesz potwierdzić swoje konto przy pomocy poniższego linku:'
         subject: Instrukcja aktywacji konta
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Witaj %{recipient}!
+        message: Kontaktujemy się z Tobą, aby Cię poinformować o zmianie Twojego adresu e-mail na %{email}.
+        subject: E-mail zmieniony
       password_change:
         greeting: Witaj %{recipient}!
         message: Kontaktujemy się z Tobą w celu poinformowania, że Twoje hasło zostało zmienione.
@@ -69,11 +72,11 @@ pl:
         action: Odblokuj swoje konto
         greeting: Cześć %{recipient}!
         instruction: 'Kliknij poniższy link, aby odblokować swoje konto:'
-        message: Twoje konto zostało zablokowane z powodu zbyt dużej ilości nieprawidłowych prób zalogowania się na nie.
+        message: Twoje konto zostało zablokowane z powodu zbyt dużej liczby nieprawidłowych prób zalogowania się na nie.
         subject: Instrukcja odblokowania konta
     omniauth_callbacks:
       failure: Logowanie przez konto %{kind} zakończyło się błędem z powodu "%{reason}".
-      success: Logowanie przez konto %{kind} zakończyło się sukcesem.
+      success: Logowanie przez konto %{kind} zakończyło się pomyślnie.
     passwords:
       edit:
         change_my_password: Zmień moje hasło
@@ -87,9 +90,9 @@ pl:
       send_instructions: Instrukcja zmiany hasła zostanie niezwłocznie wysłana na podany adres e-mail.
       send_paranoid_instructions: Jeśli Twój adres e-mail istnieje w naszej bazie, otrzymasz zaraz wiadomość z instrukcjami odzyskiwania hasła.
       updated: Hasło zmienione poprawnie. Zostałeś automatycznie zalogowany.
-      updated_not_active: Hasło zmienione poprawnie.
+      updated_not_active: Twoje hasło zmienione poprawnie.
     registrations:
-      destroyed: Konto zostało usunięte.
+      destroyed: Twoje konto zostało usunięte.
       edit:
         are_you_sure: Jesteś pewny?
         cancel_my_account: Anuluj moje konto
@@ -97,11 +100,11 @@ pl:
         leave_blank_if_you_don_t_want_to_change_it: pozostaw puste, jeśli nie chcesz wprowadzać zmian
         title: Edytuj %{resource}
         unhappy: Niezadowolony
-        update: Zaktualizuj
+        update: Aktualizuj
         we_need_your_current_password_to_confirm_your_changes: potrzebujemy Twojego bieżącego hasła, aby potwierdzić zmiany
       new:
         sign_up: Zarejestruj się
-      signed_up: Witaj! Rejestracja zakończyła się sukcesem.
+      signed_up: Witaj! Rejestracja zakończyła się pomyślnie.
       signed_up_but_inactive: Konto zostało utworzone pomyślnie. Zanim się jednak zalogujesz, musi ono zostać jeszcze aktywowane.
       signed_up_but_locked: Konto zostało utworzone pomyślnie. Nie możesz się jednak zalogować, ponieważ jest ono zablokowane.
       signed_up_but_unconfirmed: Wiadomość z linkiem aktywacyjnym została wysłana na podany adres e-mail. Otwórz link w celu aktywacji konta.
