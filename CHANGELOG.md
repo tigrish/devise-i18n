@@ -1,3 +1,8 @@
+## 1.7.2
+
+- Added hi translation.
+- Updated pl translation.
+
 ## 1.7.1
 
 - Fixed syntax error in simple_form templates.
