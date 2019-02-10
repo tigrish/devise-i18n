@@ -27,6 +27,10 @@ class User
   def model_name
     ActiveModel::Name.new(self.class)
   end
+
+  def errors
+    ActiveModel::Errors.new(self)
+  end
 end
 USER = User.new
 
