@@ -107,6 +107,7 @@ tr:
       signed_up_but_unconfirmed: E-posta adresinize hesap aktifleştirme linkini içeren bir e-posta gönderdik. Hesabınızı aktifleştirmek için lütfen e-posta ile gönderdiğimiz linki açın.
       update_needs_confirmation: Hesabınızı başarıyla güncellediniz, fakat yeni e-posta adresinizin onaylanması gerek. Yeni e-posta hesabınızın onaylanması için lütfen size gönderdiğimiz e-postada bulunan onay linkini açın.
       updated: Hesabınız başarıyla güncellendi.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Başarıyla çıkış yapıldı.
       new:

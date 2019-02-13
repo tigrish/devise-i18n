@@ -107,6 +107,7 @@ zh-CN:
       signed_up_but_unconfirmed: 谢谢您！一封确认邮件已经发至您的邮箱，请点击其中的链接激活您的帐户。
       update_needs_confirmation: 新的帐户信息已成功提交，确认邮件已经发至您的邮箱，请点击其中的链接以使您的新电子邮箱地址生效。
       updated: 帐户资料更新成功。
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: 已登出
       new:

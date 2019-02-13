@@ -107,6 +107,7 @@ fi:
       signed_up_but_unconfirmed: Sähköpostiisi on lähetetty vahvistusviesti. Avaa viestissä oleva linkki aktivoidaksesi käyttäjätunnuksesi.
       update_needs_confirmation: Tiedot päivitettiin onnistuneesti, mutta meidän täytyy vielä varmistaa uusi sähköpostiosoitteesi. Tarkista sähköpostisi ja klikkaa varmistuslinkkiä varmistaaksesi uuden sähköpostiosoitteesti.
       updated: Käyttäjätunnuksesi on päivitetty.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Kirjauduttu ulos onnistuneesti.
       new:

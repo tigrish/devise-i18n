@@ -107,6 +107,7 @@ az:
       signed_up_but_unconfirmed: Təstiq linkini özündə saxlayan məktub sizə email vasitəsiylə göndərildi. Hesabınızı aktivləşdirmək üçün zəhmət olmasa linki açın.
       update_needs_confirmation: Hesabınızı uğurla yenilədiniz, ancaq biz sizin email ünvanınızı yoxlamalıyıq. Zəhmət olmasa email qutunuzu yoxlayın və təstiq linkinə daxil olaraq yeni email ünvanınızı təstiqləyin.
       updated: Hesabınızı uğurla yenilədiniz.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Ugurlu cıxış.
       new:

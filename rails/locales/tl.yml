@@ -107,6 +107,7 @@ tl:
       signed_up_but_unconfirmed: Isang mensahe na may link sa pagkumpirma ay ipinadala sa iyong email address. Paki-sundan ang link upang maisaaktibo ang iyong account.
       update_needs_confirmation: Matagumpay mong na-update ang iyong account, ngunit kailangan naming i-verify ang iyong bagong email address. Paki-suri ng iyong email at sundin ang link ng kumpirmasyon upang kumpirmahin ang iyong bagong email address..
       updated: Matagumpay na na-update ang iyong account.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Matagumpay na nakapag-sign out.
       new:

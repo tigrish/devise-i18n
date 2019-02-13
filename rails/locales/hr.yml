@@ -107,6 +107,7 @@ hr:
       signed_up_but_unconfirmed: Poruka s linkom za potvrdu je poslana na Vašu e-mail adresu. Molimo kliknite na link da aktivirate Vaš račun.
       update_needs_confirmation: Uspješno ste ažurirali Vaš račun, ali trebamo potvrditi Vašu novu e-mail adresu. Molimo provjerite svoje sanduče i kliknite na link za potvrdu.
       updated: Uspješno ste izmjenili Vaš račun.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: 
       new:

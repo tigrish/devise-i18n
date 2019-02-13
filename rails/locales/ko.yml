@@ -107,6 +107,7 @@ ko:
       signed_up_but_unconfirmed: 인증 주소가 포함된 메시지를 이메일 주소로 보냈습니다. 계정을 활성화하기 위해 메일을 확인하세요.
       update_needs_confirmation: 계정이 성공적으로 수정되었지만, 새로운 이메일 주소를 확인해야 합니다. 이메일로 전송된 인증 주소를 클릭하여 새로운 이메일 주소를 인증해 주세요.
       updated: 계정이 성공적으로 수정되었습니다.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: 성공적으로 로그아웃 되었습니다.
       new:

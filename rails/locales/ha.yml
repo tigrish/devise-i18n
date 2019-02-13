@@ -107,6 +107,7 @@ ha:
       signed_up_but_unconfirmed: sako daga wurin mu zai shigo I-mail din ka, biyomu zaka bude akaut  din ka
       update_needs_confirmation: Budewar akaut din ka ya tabbata, amma sai mun tabbatar da adireshin i-mail din ka. Duba i-mail din ka zaka ga sako sai ka bude
       updated: Budewar akaut din ka ya tabbatar
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: ka fita daga akaut
       new:

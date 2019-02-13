@@ -107,6 +107,7 @@ af:
       signed_up_but_unconfirmed: "'n Boodskap met 'n bevestigingsskakel was gestuur na jou e-posadres. Volg asseblief die skakel om jou rekening te aktiveer."
       update_needs_confirmation: Jy het jou rekening suksesvol opgedateer, maar ons moet eerst jou nuwe e-posadres verifieer. Kyk asseblief na jou e-posse en volg die bevestigingsskakel om jou nuwe e-posadres te bevestig.
       updated: Jou rekening was suksesvol opgedateer.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Suksesvol uitgeteken.
       new:

@@ -107,6 +107,7 @@ sr:
       signed_up_but_unconfirmed: Poruka s linkom za potvrdu je poslata na Vašu adresu ePošte. Kliknite na vezu da aktivirate svoj nalog.
       update_needs_confirmation: Uspešno ste ažurirali svoj nalog, ali trebamo potvrditi Vašu adresu ePošte. Proverite svoje sanduče sa porukama i kliknite na vezu za potvrdu.
       updated: Uspešno ste izmenili svoj nalog.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: 
       new:

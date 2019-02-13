@@ -107,6 +107,7 @@ id:
       signed_up_but_unconfirmed: Pesan dengan tautan konfirmasi telah dikirim ke email Anda. Harap buka tautan untuk mengaktifkan akun Anda.
       update_needs_confirmation: Berhasil memperbarui akun, namun Anda harus mengonfirmasi alamat email baru. Tolong cek email anda dan klik tautan konfirmasi untuk menyelesaikan konfirmasi email baru Anda.
       updated: Akun anda telah berhasil diperbaharui.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: 
       new:

@@ -107,6 +107,7 @@ nn-NO:
       signed_up_but_unconfirmed: Ei melding med stadfestingslenke er blitt sendt til e-postadressen din. Følg lenka for å aktivere kontoen din.
       update_needs_confirmation: Du har oppdatert kontoen din, men vi treng å stadfeste di nye e-postadresse. Sjekk e-posten din og følg lenka for å stadfeste di nye e-postadresse.
       updated: Kontoen din har blitt oppdatert.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Du er utlogga.
       new:

@@ -107,6 +107,7 @@ zh-TW:
       signed_up_but_unconfirmed: 確認信件已送至您的 Email 信箱，請點擊信件內連結以啓動您的帳號。
       update_needs_confirmation: 您已經成功的更新帳號資訊，但我們仍需確認您的電子信箱，請至新信箱收信並點擊連結以確認您的新電子郵件帳號。
       updated: 您已經成功的更新帳號資訊。
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: 成功登出了。
       new:

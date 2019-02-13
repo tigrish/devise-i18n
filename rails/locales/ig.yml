@@ -107,6 +107,7 @@ ig:
       signed_up_but_unconfirmed: Ezi jere la gi ozi nkweta na imeel adreesi gi. Biko, soro akara anyi were gbaghee akauntu gi
       update_needs_confirmation: Ibunitela akauntu gi nke ohuru nke oma, mana anyi choro inyocha imeel adreesi ohuru gi. Biko leta imeela gi ma soro akara nkweta wee kwetara imeel adreesi ohuru gi
       updated: Ebunitela akauntu gi na nke ohuru nke oma
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Emechiela ya nke oma
       new:

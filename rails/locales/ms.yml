@@ -107,6 +107,7 @@ ms:
       signed_up_but_unconfirmed: Sebuah mesej dengan pautan pengesahan telah dihantar ke alamat e-mel anda. Sila ikuti pautan tersebut untuk mengaktifkan akaun anda.
       update_needs_confirmation: Anda telah mengemas kini akaun anda dengan berjaya, tetapi kami perlu mengesahkan alamat e-mel anda yang baharu. Sila periksa e-mel anda dan ikuti pautan pengesahan untuk mengesahkan alamat e-mel anda yang baharu.
       updated: Akaun anda telah berjaya dikemaskinikan.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Berjaya dilog keluar.
       new:

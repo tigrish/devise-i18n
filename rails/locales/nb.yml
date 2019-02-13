@@ -107,6 +107,7 @@ nb:
       signed_up_but_unconfirmed: En bekreftelsesmelding er sendt til e-postadressen. Vennligst åpne lenken for å aktivere kontoen.
       update_needs_confirmation: Brukerkontoen er nå oppdatert, men vi må bekrefte den nye e-postadressen. Vennligst sjekk din e-post og klikk på lenken for å bekrefte din nye e-postadresse.
       updated: Din brukerkonto er oppdatert.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Du er nå logget ut.
       new:

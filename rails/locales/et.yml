@@ -107,6 +107,7 @@ et:
       signed_up_but_unconfirmed: Kiri kinnituslingiga on saadetud sinu e-posti aadressile. Palun ava see link oma konto kinnitamiseks.
       update_needs_confirmation: Sa uuendasid edukalt oma kontot, kuid me peame kontrollima sinu e-posti aadressi. Palun kontrolli oma e-posti ja ava kinnitamise link, et viia lõpule aadressi kinnitamine.
       updated: Sa uuendasid edukalt oma kontot.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Edukalt välja logitud.
       new:

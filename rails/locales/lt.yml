@@ -107,6 +107,7 @@ lt:
       signed_up_but_unconfirmed: El. laiškas buvo išsiųstas jūsų pateiktu adresu. Sekite nuorodą laiške paskyrai aktyvuoti.
       update_needs_confirmation: Jūsų paskyra sėkmingai atnaujinta, tačiau mums reikia patvirtinti jūsų naują el. pašto adresą. Prašome pasitikrinkite savo e-paštą ir sekite instrukcijas laiške.
       updated: Jūsų duomenys sėkmingai atnaujinti.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Jau esate atsijungę.
       new:

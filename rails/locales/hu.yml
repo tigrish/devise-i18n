@@ -107,6 +107,7 @@ hu:
       signed_up_but_unconfirmed: Egy megerősítő linket küldtünk a megadott e-mail címre. Nézze meg az e-mailjeit, és kattintson a küldött linkre a fiók aktiválásához.
       update_needs_confirmation: A fiók módosítása sikeres, de meg kell erősíteni az e-mail címet. Nézze meg az e-mailjeit, és kattintson a küldött linkre hogy megerősítse az e-mail cím létezését.
       updated: Sikeres fiók módosítás.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: A kijelentkezés már megtörtént.
       new:

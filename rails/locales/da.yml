@@ -107,6 +107,7 @@ da:
       signed_up_but_unconfirmed: En besked med et bekræftelses-link er blevet sendt til din e-mail. Tryk venligst på linket for at aktivere din konto.
       update_needs_confirmation: Du har nu opdateret din konto, men vi skal godkende din nye e-mail. Tjek venligst din mail og tryk på bekræftelses-linket for at godkende.
       updated: Din konto er opdateret.
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Logget ud
       new:

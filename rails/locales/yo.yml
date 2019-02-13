@@ -129,6 +129,7 @@ yo:
       updated: 'A ti ṣàfikún àkántì rẹ pẹ̀lú àṣeyọrí
 
 '
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: O jáde pẹ̀lú àṣeyọrí
       new:
