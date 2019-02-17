@@ -1,3 +1,9 @@
+## 1.8.0
+
+- Updated views for devise 4.6 as per https://github.com/plataformatec/devise/pull/4616. If you generated the views into your app (for customization), you may receive deprecation warnings until you regenerate or update your views.
+- Added en-US string for devise 4.6 per https://github.com/plataformatec/devise/pull/4569. This string has not yet been translated to other locales.
+- Require devise 4.6 and above.
+
 ## 1.7.2
 
 - Added hi translation.
