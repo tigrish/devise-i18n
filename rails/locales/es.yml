@@ -96,7 +96,7 @@ es:
         are_you_sure: "¿Está usted seguro?"
         cancel_my_account: Anular mi cuenta
         currently_waiting_confirmation_for_email: 'Actualmente esperando la confirmacion de: %{email} '
-        leave_blank_if_you_don_t_want_to_change_it: dejar en blanco si no desea cambiarlo
+        leave_blank_if_you_don_t_want_to_change_it: dejar en blanco si no desea cambiarla
         title: Editar %{resource}
         unhappy: "¿Disconforme?"
         update: Actualizar
