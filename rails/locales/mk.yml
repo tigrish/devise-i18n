@@ -1,0 +1,146 @@
+mk:
+  activerecord:
+    attributes:
+      user:
+        confirmation_sent_at: Потврдата е испратена во
+        confirmation_token: Токен за потврда
+        confirmed_at: Потврдена на
+        created_at: Креирана на
+        current_password: Моментална лозинка
+        current_sign_in_at: Current sign in at
+        current_sign_in_ip: Current sign in IP
+        email: Е-маил
+        encrypted_password: Енкриптирана лозинка
+        failed_attempts: Failed attempts
+        last_sign_in_at: Последно најавен на
+        last_sign_in_ip: Последно најавен во IP
+        locked_at: Заклучен на
+        password: Лозинка
+        password_confirmation: Потврда на лозинка
+        remember_created_at: Запомни ме креиран на
+        remember_me: Запомни ме
+        reset_password_sent_at: Промена на лозинка пратена на
+        reset_password_token: Токен за промена на лозинка
+        sign_in_count: Број на најавувања
+        unconfirmed_email: Непотврден е-маил
+        unlock_token: Токен за отклучување
+        updated_at: Ажуриран на
+    models:
+      user:
+        one: Корисник
+        other: Корисници
+  devise:
+    confirmations:
+      confirmed: Вашата е-маил адреса е успешно потврдена.
+      new:
+        resend_confirmation_instructions: Повторно испрати инструкции за потврда
+      send_instructions: Ќе добиете е-маил со инструкции како да ја потврдите Вашата е-маил адреса за неколку минути.
+      send_paranoid_instructions: Доколку Вашиот е-маил веќе постои во базата со податоци, ќе добиете е-маил со инструкции како да ја потврдите вашата е-маил адреса за неколку минути.
+    failure:
+      already_authenticated: Веќе сте најавени.
+      inactive: Вашиот профил сеуште не е активиран.
+      invalid: Невалиден %{authentication_keys} или лозинка.
+      last_attempt: Имате уште еден обид пред вашиот профил да биде заклучен.
+      locked: Вашиот профил е заклучен.
+      not_found_in_database: Невалиден %{authentication_keys} или лозинка.
+      timeout: Вашата сесија заврши. Ве молиме најавете се повторно за да продолжите.
+      unauthenticated: Мора да се најавите или да креирате профил за да можете да продолжите.
+      unconfirmed: Мора да ја потврдите Вашата е-маил адреса за да можете да продолжите.
+    mailer:
+      confirmation_instructions:
+        action: Потврди го мојот профил
+        greeting: Добредојде %{recipient}!
+        instruction: 'Може да ја потврдите Вашата е-маил адреса за Вашиот профил преку линкот кој е зададен подолу:'
+        subject: Инструкции за потврда на е-маил адреса
+      email_changed:
+        greeting: Здраво %{recipient}!
+        message: Ве контактираме за да Ве известиме дека Вашата е-маил адреса е заменета со %{email}.
+        subject: Промена на е-маил
+      password_change:
+        greeting: Здраво %{recipient}!
+        message: Ве контактираме за да ве известиме дека Вашата лозинка е променета.
+        subject: Промена на лозинка
+      reset_password_instructions:
+        action: Промена на моја лозинка
+        greeting: Здраво %{recipient}!
+        instruction: Некој побара линк за промена на Вашата лозинка. Промената може да ја направите преку подолу зададениот линк
+        instruction_2: Доколку Вие не сте побарале промена на Вашата лозинка, Ве замолуваме да го игнорирате овој е-маил.
+        instruction_3: Вашата лозинка нема да се промени се додека не пристапите до линкот зададен погоре и не креирате нова лозинка.
+        subject: Инструкции за промена на лозинка
+      unlock_instructions:
+        action: Отклучи го мојот профил
+        greeting: Здраво %{recipient}!
+        instruction: 'Кликнете не линкот зададен подолу за да го отклучите Вашиот профил:'
+        message: Вашиот профил е заклучен поради преминување на дозволениот број на обиди за најавување.
+        subject: Инструкции за отклучување на профил
+    omniauth_callbacks:
+      failure: Не можевме да Ве верификуваме од %{kind} профил поради "%{reason}".
+      success: Успешно сте верификувани од %{kind} профил.
+    passwords:
+      edit:
+        change_my_password: Промени ја мојата лозинката
+        change_your_password: Промени ја лозинката
+        confirm_new_password: Потврди ја новата лозинка
+        new_password: Нова лозинка
+      new:
+        forgot_your_password: Ја заборавивте лозинката?
+        send_me_reset_password_instructions: Испрати ми инструкции за промена на лозинка
+      no_token: Не можете да пристапите до оваа страна доколку не доаѓате од е-маил за промена на лозинка. Доколку доаѓате од е-маил за промена на лозинка, Ве замолуваме да проверите дали го имате целосниот URL.
+      send_instructions: Ќе добиете е-маил со инструкции за промена на Вашата лозинка во неколку минути.
+      send_paranoid_instructions: Доколку Вашата е-маил адреса веќе постои во базата со податоци, на Вашата е-маил адреса ќе добиете линк за обновување на лозинката во неколку минути.
+      updated: Вашата лозинка е успешно променета. Сега сте најавени.
+      updated_not_active: Вашата лозинка е успешно променета.
+    registrations:
+      destroyed: Довидување! Вашиот профил е успешно откажан. Се надеваме дека ќе се вратите.
+      edit:
+        are_you_sure: Дали сте сигурни?
+        cancel_my_account: Откажи го мојот профил
+        currently_waiting_confirmation_for_email: 'Моментално се чека потврда за: %{email}'
+        leave_blank_if_you_don_t_want_to_change_it: оставете празно доколку не сакате да извршите промена
+        title: Измени %{resource}
+        unhappy: Не сте задоволни?
+        update: Ажурирај
+        we_need_your_current_password_to_confirm_your_changes: потребна ни е Вашата моментална лозинка за да ги потврдиме измените
+      new:
+        sign_up: Креирај нов профил
+      signed_up: Добредојдовте! Успешно се регистриравте.
+      signed_up_but_inactive: Успешно се регистриравте. Но притоа, не можевме да Ве најавиме бидејќи Вашиот профил сеуште не е активиран.
+      signed_up_but_locked: Успешно се регистриравте. Но притоа, не можевме да Ве најавиме бидејќи Вашиот профил е заклучен.
+      signed_up_but_unconfirmed: Порака со линк за потврда е испратен на Вашата е-маил адреса. Ве замолуваме следете го линкот за да го активирате профилот.
+      update_needs_confirmation: Успешно го ажуриравте профилот, но ние мора да ја верифицираме Вашата нова е-маил адреса. Ве замолуваме проверете го е-маилот и следете го линкот за да ја потврдите Вашата нова е-маил адреса.
+      updated: Успешно го ажуриравте профилот.
+      updated_but_not_signed_in: Успешно го ажуриравте профилот, но бидејќи ја променивте лозинката мора да се најавите повторно
+    sessions:
+      already_signed_out: Успешно се одјавивте.
+      new:
+        sign_in: Најави се
+      signed_in: Успешно се најавивте.
+      signed_out: Успешно се одјавивте.
+    shared:
+      links:
+        back: Назад
+        didn_t_receive_confirmation_instructions: Не добивте инструкции за потврда?
+        didn_t_receive_unlock_instructions: Не добивте инструкции за отклучување?
+        forgot_your_password: Ја заборавивте Вашата лозинка?
+        sign_in: Најави се
+        sign_in_with_provider: Најави се со %{provider}
+        sign_up: Креирај профил
+      minimum_password_length:
+        one: "(%{count} карактер минимум)"
+        other: "(%{count} карактери минимум)"
+    unlocks:
+      new:
+        resend_unlock_instructions: Повторно испрати инструкции за отклучување
+      send_instructions: Ќе добиете е-маил со инструкции за отклучување на Вашиот профил во неколку минути.
+      send_paranoid_instructions: Доколку Вашата е-маил адреса веќе постои во базата со податоци, на Вашата е-маил адреса ќе добиете линк за отклучување ма профилот во неколку минути.
+      unlocked: Вашиот профил е успешно отклучен. Ве замолуваме најавите се за да продолжите.
+  errors:
+    messages:
+      already_confirmed: е веќе потврдена, Ве замолуваме пробајте да се најавите
+      confirmation_period_expired: мора да биде потврдена во период од %{period}, Ве замолуваме побарајте нова
+      expired: заврши, Ве замолуваме побарајте нова
+      not_found: не е пронајден
+      not_locked: е заклучен
+      not_saved:
+        one: '1 грешка спречија %{resource} да се зачува:'
+        other: "%{count} грешки спречија %{resource} да се зачува:"
