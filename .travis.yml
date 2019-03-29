@@ -5,5 +5,5 @@ rvm:
   - 2.6.2
 
 before_install:
-  - gem uninstall bundler
+  - gem uninstall bundler || true
   - gem install bundler --version '1.17.2'
