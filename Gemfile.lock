@@ -158,6 +158,7 @@ PLATFORMS
 
 DEPENDENCIES
   activemodel
+  bundler (~> 1.2)
   devise (>= 4.6)
   i18n-spec (~> 0.6.0)
   jeweler (> 1.6.4)
