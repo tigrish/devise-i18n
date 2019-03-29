@@ -109,7 +109,7 @@ es-MX:
       signed_up_but_unconfirmed: Se ha enviado un mensaje con un enlace de confirmación a tu correo electrónico. Ingresa al enlace para activar tu cuenta.
       update_needs_confirmation: Has actualizado tu cuenta exitosamente, pero es necesario confirmar tu nuevo correo electrónico. Por favor, comprueba tu correo e ingresa al enlace de confirmación para finalizar la comprobación del nuevo correo electrónico.
       updated: Tu cuenta ha sido actualizada exitosamente.
-      updated_but_not_signed_in: 
+      updated_but_not_signed_in: Tu cuenta ha sido actualizada exitosamente pero, como tu contraseña cambio, necesitas iniciar sesión nuevamente
     sessions:
       already_signed_out: Se ha cerrado la sesión con éxito.
       new:
