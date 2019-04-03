@@ -37,10 +37,10 @@ id:
     failure:
       already_authenticated: Anda sudah sign in.
       inactive: Akun anda belum diaktifkan.
-      invalid: 
+      invalid: Ketidaksesuaian %{authentication_keys} atau password.
       last_attempt: Kesempatan terakhir sebelum akun Anda dikunci.
       locked: Akun anda terkunci.
-      not_found_in_database: 
+      not_found_in_database: Ketidaksesuaian %{authentication_keys} atau password.
       timeout: Sesi anda telah kadaluarsa, silahkan sign in untuk melanjutkan.
       unauthenticated: Anda harus mendaftar atau sign in sebelum melanjutkan .
       unconfirmed: Anda harus melakukan konfirmasi sebalum melanjutkan.
@@ -51,9 +51,9 @@ id:
         instruction: 'Anda bisa melakukan konfirmasi email akun Anda menggunakan tautan berikut ini:'
         subject: Instruksi untuk melakukan konfirmasi
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Halo %{recipient}!
+        message: Kami menghubungi Anda untuk memberitahu, bahwa email terdaftar telah berubah menjadi %{email}.
+        subject: Email telah diubah
       password_change:
         greeting: Halo %{recipient}!
         message: Kami menghubungi Anda untuk menyampaikan informasi bahwa password Anda telah diubah
@@ -107,7 +107,7 @@ id:
       signed_up_but_unconfirmed: Pesan dengan tautan konfirmasi telah dikirim ke email Anda. Harap buka tautan untuk mengaktifkan akun Anda.
       update_needs_confirmation: Berhasil memperbarui akun, namun Anda harus mengonfirmasi alamat email baru. Tolong cek email anda dan klik tautan konfirmasi untuk menyelesaikan konfirmasi email baru Anda.
       updated: Akun anda telah berhasil diperbaharui.
-      updated_but_not_signed_in: 
+      updated_but_not_signed_in: Akun telah berhasil diperbarui, namun karena password telah diubah maka Anda harus mengulang sign in.
     sessions:
       already_signed_out: 
       new:
@@ -123,7 +123,7 @@ id:
         sign_in: Masuk
         sign_in_with_provider: Masuk dengan akun %{provider}
         sign_up: Mendaftar
-      minimum_password_length: 
+      minimum_password_length: "(%{count} karakter minimal)"
     unlocks:
       new:
         resend_unlock_instructions: Kirim ulang instruksi untuk membuka kunci akun
