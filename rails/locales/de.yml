@@ -26,7 +26,9 @@ de:
         unlock_token: Entsperrungs-Token
         updated_at: Aktualisiert am
     models:
-      user: Benutzer
+      user:
+        one: Benutzer
+        other: Benutzer
   devise:
     confirmations:
       confirmed: Ihre E-Mail-Adresse wurde erfolgreich bestätigt.
@@ -36,12 +38,12 @@ de:
       send_paranoid_instructions: Falls Ihre E-Mail-Adresse in unserer Datenbank existiert, erhalten Sie in wenigen Minuten eine E-Mail, mit der Sie Ihre Registrierung bestätigen können.
     failure:
       already_authenticated: Sie sind bereits angemeldet.
-      inactive: Ihr Konto ist nicht aktiv.
+      inactive: Ihr Konto ist noch nicht aktiv.
       invalid: "%{authentication_keys} oder Passwort ungültig."
       last_attempt: Sie haben noch einen Versuch, bis Ihr Konto gesperrt wird.
       locked: Ihr Konto ist gesperrt.
       not_found_in_database: "%{authentication_keys} oder Passwort ungültig."
-      timeout: Ihre Sitzung ist abgelaufen, bitte melden Sie sich erneut an.
+      timeout: Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an.
       unauthenticated: Sie müssen sich anmelden oder registrieren, bevor Sie fortfahren können.
       unconfirmed: Sie müssen Ihr Konto bestätigen, bevor Sie fortfahren können.
     mailer:
@@ -85,11 +87,11 @@ de:
         send_me_reset_password_instructions: Schicken Sie mir die Anleitung, mein Passwort zurückzusetzen
       no_token: Sie können sich nicht auf dieser Seite anmelden, wenn Sie nicht von einer Passwort-Zurücksetzen-E-Mail kommen. Wenn Sie von solch einer E-Mail kommen, überprüfen Sie bitte, ob Sie die gesamte URL verwendet haben.
       send_instructions: Sie erhalten in wenigen Minuten eine E-Mail mit der Anleitung, wie Sie Ihr Passwort zurücksetzen können.
-      send_paranoid_instructions: Falls Ihre E-Mail-Adresse in unserer Datenbank existiert, erhalten Sie in wenigen Minuten eine E-Mail, mit der Anleitung, wie Sie Ihr Passwort zurücksetzen können.
+      send_paranoid_instructions: Falls Ihre E-Mail-Adresse in unserer Datenbank existiert, erhalten Sie in wenigen Minuten eine E-Mail mit der Anleitung, wie Sie Ihr Passwort zurücksetzen können.
       updated: Ihr Passwort wurde geändert. Sie sind jetzt angemeldet.
-      updated_not_active: Ihr Passwort wurde geändert.
+      updated_not_active: Ihr Passwort wurde erfolgreich geändert.
     registrations:
-      destroyed: Ihr Konto wurde gelöscht.
+      destroyed: Ihr Konto wurde gelöscht. Wir hoffen, das wir Sie bald wiedersehen.
       edit:
         are_you_sure: Sind Sie sicher?
         cancel_my_account: Konto löschen
@@ -107,7 +109,7 @@ de:
       signed_up_but_unconfirmed: Sie erhalten in wenigen Minuten eine E-Mail mit einem Link für die Bestätigung der Registrierung. Klicken Sie auf den Link um Ihr Konto zu aktivieren.
       update_needs_confirmation: Ihre Daten wurden aktualisiert, aber Sie müssen Ihre neue E-Mail-Adresse bestätigen. Sie erhalten in wenigen Minuten eine E-Mail, mit der Sie die Änderung Ihrer E-Mail-Adresse abschließen können.
       updated: Ihre Daten wurden aktualisiert.
-      updated_but_not_signed_in: 
+      updated_but_not_signed_in: Ihre Daten wurden aktualisiert, aber da sich Ihr Passwort geändert hat, müssen Sie sich erneut anmelden
     sessions:
       already_signed_out: Erfolgreich abgemeldet.
       new:
@@ -134,7 +136,7 @@ de:
       unlocked: Ihr Konto wurde entsperrt. Bitte melden Sie sich an, um fortzufahren.
   errors:
     messages:
-      already_confirmed: wurde bereits bestätigt, bitte versuchen Sie, sich anzumelden
+      already_confirmed: wurde bereits bestätigt; bitte versuchen Sie, sich anzumelden
       confirmation_period_expired: musste innerhalb von %{period} bestätigt werden, bitte neu anfordern.
       expired: ist abgelaufen, bitte neu anfordern
       not_found: nicht gefunden
