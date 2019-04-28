@@ -42,8 +42,8 @@ id:
       locked: Akun anda terkunci.
       not_found_in_database: Ketidaksesuaian %{authentication_keys} atau password.
       timeout: Sesi anda telah kadaluarsa, silahkan sign in untuk melanjutkan.
-      unauthenticated: Anda harus mendaftar atau sign in sebelum melanjutkan .
-      unconfirmed: Anda harus melakukan konfirmasi sebalum melanjutkan.
+      unauthenticated: Anda harus mendaftar atau sign in sebelum melanjutkan.
+      unconfirmed: Anda harus melakukan konfirmasi sebelum melanjutkan.
     mailer:
       confirmation_instructions:
         action: Konfirmasi akun saya
