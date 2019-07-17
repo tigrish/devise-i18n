@@ -7,24 +7,24 @@ de-CH:
         confirmed_at: Bestätigt am
         created_at: Erstellt am
         current_password: Bisheriges Passwort
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at: Aktuelle Anmeldung vom
+        current_sign_in_ip: IP der aktuellen Anmeldung
         email: E-Mail
-        encrypted_password: 
+        encrypted_password: Verschlüsseltes Passwort
         failed_attempts: Fehlversuche
         last_sign_in_at: Letzte Anmeldung am
         last_sign_in_ip: IP der letzten Anmeldung
         locked_at: Gesperrt am
         password: Passwort
         password_confirmation: Passwortbestätigung
-        remember_created_at: 
+        remember_created_at: Angemeldet bleiben vom
         remember_me: Angemeldet bleiben
         reset_password_sent_at: Passwort-Zurücksetzen-E-Mail gesendet am
         reset_password_token: Passwort-Zurücksetzen-Token
         sign_in_count: Anzahl Anmeldungen
-        unconfirmed_email: 
+        unconfirmed_email: Unbestätigte E-Mail-Adresse
         unlock_token: Entsperrungs-Token
-        updated_at: 
+        updated_at: Aktualisiert am
     models:
       user: Benutzer
   devise:
@@ -37,10 +37,10 @@ de-CH:
     failure:
       already_authenticated: Sie sind bereits angemeldet.
       inactive: Ihr Account ist nicht aktiv.
-      invalid: 
+      invalid: "%{authentication_keys} oder Passwort ungültig."
       last_attempt: Sie haben noch einen Versuch, bis Ihr Account gesperrt wird.
       locked: Ihr Account ist gesperrt.
-      not_found_in_database: 
+      not_found_in_database: "%{authentication_keys} oder Passwort ungültig."
       timeout: Ihre Sitzung ist abgelaufen, bitte melden Sie sich erneut an.
       unauthenticated: Sie müssen sich anmelden oder registrieren, bevor Sie fortfahren können.
       unconfirmed: Sie müssen Ihren Account bestätigen, bevor Sie fortfahren können.
@@ -51,9 +51,9 @@ de-CH:
         instruction: 'Folgen Sie dem untenstehenden Link, um Ihr Konto zu bestätigen:'
         subject: Anleitung zur Bestätigung Ihres Accounts
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Hallo %{recipient}!
+        message: Wir schreiben Ihnen, um Sie darüber zu informieren, dass Ihre E-Mail-Adresse zu %{email} geändert wurde.
+        subject: E-Mail-Adresse geändert
       password_change:
         greeting: Hallo %{recipient}!
         message: Wir kontaktieren Sie, um Ihnen mitzuteilen, dass Ihr Passwort geändert wurde.
@@ -107,7 +107,7 @@ de-CH:
       signed_up_but_unconfirmed: Sie erhalten in wenigen Minuten eine E-Mail mit einem Link für die Bestätigung der Registrierung. Klicken Sie auf den Link um Ihren Account zu aktivieren.
       update_needs_confirmation: Ihre Daten wurden aktualisiert, aber Sie müssen Ihre neue E-Mail-Adresse bestätigen. Sie erhalten in wenigen Minuten eine E-Mail, mit der Sie die Änderung Ihrer E-Mail-Adresse abschließen können.
       updated: Ihre Daten wurden aktualisiert.
-      updated_but_not_signed_in: 
+      updated_but_not_signed_in: Ihre Daten wurden aktualisiert, aber da sich Ihr Passwort geändert hat, müssen Sie sich erneut anmelden
     sessions:
       already_signed_out: Erfolgreich abgemeldet.
       new:
@@ -125,7 +125,9 @@ de-CH:
           Anmelden
         sign_in_with_provider: Mit %{provider} anmelden
         sign_up: Registrieren
-      minimum_password_length: 
+      minimum_password_length:
+        one: "(mindestens %{count} Zeichen)"
+        other: "(mindestens %{count} Zeichen)"
     unlocks:
       new:
         resend_unlock_instructions: Anleitung zum Entsperren noch mal schicken
