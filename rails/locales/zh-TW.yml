@@ -10,19 +10,19 @@ zh-TW:
         current_sign_in_at: 現在登入狀態開始於
         current_sign_in_ip: 現在登入中的IP位址
         email: 電子信箱
-        encrypted_password: 
+        encrypted_password: 加密過的密碼
         failed_attempts: 錯誤嘗試次數
         last_sign_in_at: 上次登入於
         last_sign_in_ip: 上次登入的IP位址
-        locked_at: 
+        locked_at: 鎖定於
         password: 密碼
         password_confirmation: 確認密碼
         remember_created_at: 
         remember_me: 記住我的資訊
         reset_password_sent_at: 
-        reset_password_token: 
+        reset_password_token: 密碼重置金鑰
         sign_in_count: 登入次數
-        unconfirmed_email: 
+        unconfirmed_email: 電子信箱未確認
         unlock_token: 
         updated_at: 更新於
     models:
