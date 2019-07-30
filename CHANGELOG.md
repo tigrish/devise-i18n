@@ -1,3 +1,8 @@
+## 1.8.1
+
+- Added es-CO and mk translations.
+- Updated cs, de, de-CH, es, fr, id, ru, tr, and zh-TW translations.
+
 ## 1.8.0
 
 - Updated views for devise 4.6 as per https://github.com/plataformatec/devise/pull/4616. If you generated the views into your app (for customization), you may receive deprecation warnings until you regenerate or update your views.
