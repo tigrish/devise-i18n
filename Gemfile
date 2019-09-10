@@ -11,4 +11,4 @@ group :development do
   gem 'activemodel'
 end
 
-gem 'devise', '>= 4.6'
+gem 'devise', '>= 4.7.1'
