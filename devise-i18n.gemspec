@@ -145,7 +145,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<activemodel>.freeze, [">= 0"])
     end
   else
-    s.add_dependency(%q<devise>.freeze, [">= 4.6"])
+    s.add_dependency(%q<devise>.freeze, [">= 4.7.1"])
     s.add_dependency(%q<rspec>.freeze, [">= 2.8.0"])
     s.add_dependency(%q<rspec-rails>.freeze, [">= 0"])
     s.add_dependency(%q<bundler>.freeze, ["~> 1.2"])
