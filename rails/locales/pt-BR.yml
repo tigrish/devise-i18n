@@ -9,7 +9,7 @@ pt-BR:
         current_password: Senha atual
         current_sign_in_at: Atualmente logado em
         current_sign_in_ip: IP do acesso atual
-        email: Email
+        email: E-mail
         encrypted_password: Senha criptografada
         failed_attempts: Tentativas sem sucesso
         last_sign_in_at: Último acesso em
@@ -33,14 +33,14 @@ pt-BR:
       new:
         resend_confirmation_instructions: Reenviar instruções de confirmação
       send_instructions: Dentro de minutos, você receberá um email com as instruções de confirmação da sua conta.
-      send_paranoid_instructions: Se o seu email existir em nosso banco de dados, você receberá um email com instruções sobre como confirmar sua conta em alguns minutos.
+      send_paranoid_instructions: Se o seu e-mail existir em nosso banco de dados, você receberá um email com instruções sobre como confirmar sua conta em alguns minutos.
     failure:
       already_authenticated: Você já está autenticado.
       inactive: A sua conta ainda não foi ativada.
-      invalid: Invalido %{authentication_keys} ou senha.
+      invalid: Inválido %{authentication_keys} ou senha.
       last_attempt: Você tem mais uma única tentativa antes de sua conta ser bloqueada.
       locked: A sua conta está bloqueada.
-      not_found_in_database: Invalido %{authentication_keys} ou senha.
+      not_found_in_database: Inválido %{authentication_keys} ou senha.
       timeout: A sua sessão expirou, por favor, faça login novamente para continuar.
       unauthenticated: Para continuar, faça login ou registre-se.
       unconfirmed: Antes de continuar, confirme a sua conta.
@@ -84,7 +84,7 @@ pt-BR:
         forgot_your_password: Esqueceu sua senha?
         send_me_reset_password_instructions: Enviar instruções para redefinição da senha
       no_token: Você não pode acessar esta página sem estar logado. Se você veio de um email de redefinição de senha, por favor certifique-se de ter digitado a URL corretamente.
-      send_instructions: Dentro de minutos, você receberá um email com as instruções de redefinição da sua senha.
+      send_instructions: Dentro de minutos, você receberá um e-mail com as instruções de redefinição da sua senha.
       send_paranoid_instructions: Se o seu email existir em nosso banco de dados, você receberá um email com um link para recuperação da senha.
       updated: A sua senha foi alterada com sucesso. Você está autenticado.
       updated_not_active: Sua senha foi alterada com sucesso.
@@ -105,9 +105,9 @@ pt-BR:
       signed_up_but_inactive: Você se inscreveu com sucesso, porém nós não podemos autenticá-lo porque sua conta ainda não foi ativada.
       signed_up_but_locked: Você se inscreveu com sucesso. Porém nós não podemos autenticá-lo porque sua conta está bloqueada.
       signed_up_but_unconfirmed: Uma mensagem com um link de confirmação foi enviada para o seu e-mail. Por favor, acesse o link para ativar sua conta.
-      update_needs_confirmation: Sua conta foi atualizada com sucesso, mas nós precisamos verificar o novo endereço de email. Por favor, verifique seu email e clique no link de confirmação para finalizar confirmando o seu novo email.
+      update_needs_confirmation: Sua conta foi atualizada com sucesso, mas nós precisamos verificar o novo endereço de email. Por favor, verifique seu e-mail e clique no link de confirmação para finalizar confirmando o seu novo e-mail.
       updated: A sua conta foi atualizada com sucesso.
-      updated_but_not_signed_in: 
+      updated_but_not_signed_in: Sua conta foi atualizada com sucesso, uma vez que sua senha foi alterada será necessário realizar o login novamente.
     sessions:
       already_signed_out: Logout efetuado com sucesso.
       new:
@@ -129,8 +129,8 @@ pt-BR:
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instruções de desbloqueio
-      send_instructions: Dentro de minutos, você receberá um email com instruções de desbloqueio da sua conta.
-      send_paranoid_instructions: Se sua conta existir em nosso banco de dados, você receberá em breve um email com instruções para desbloquear ela.
+      send_instructions: Dentro de minutos, você receberá um e-mail com instruções de desbloqueio da sua conta.
+      send_paranoid_instructions: Se sua conta existir em nosso banco de dados, você receberá em breve um e-mail com instruções para desbloquear ela.
       unlocked: A sua conta foi desbloqueada com sucesso. Você está autenticado.
   errors:
     messages:
