@@ -100,7 +100,7 @@ class TestController < ActionController::Base
   helper TestHelper
 
   before_action do
-    self._view_paths = []
+    instance_variable_set(:@view_paths, [])
     prepend_view_path DeviseI18nViewsApp.view_path
   end
 
