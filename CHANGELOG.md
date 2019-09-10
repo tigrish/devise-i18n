@@ -1,3 +1,7 @@
+## 1.8.2
+
+- Updated ja, pt-BR, zh-CN, and zh-TW translations.
+
 ## 1.8.1
 
 - Added es-CO and mk translations.
