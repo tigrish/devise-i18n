@@ -91,7 +91,7 @@ de:
       updated: Ihr Passwort wurde geändert. Sie sind jetzt angemeldet.
       updated_not_active: Ihr Passwort wurde erfolgreich geändert.
     registrations:
-      destroyed: Ihr Konto wurde gelöscht. Wir hoffen, das wir Sie bald wiedersehen.
+      destroyed: Ihr Konto wurde gelöscht. Wir hoffen, dass wir Sie bald wiedersehen.
       edit:
         are_you_sure: Sind Sie sicher?
         cancel_my_account: Konto löschen
