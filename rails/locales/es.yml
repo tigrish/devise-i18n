@@ -136,7 +136,7 @@ es:
       unlocked: Tu cuenta ha sido desbloqueada. Ya puedes iniciar sesión.
   errors:
     messages:
-      already_confirmed: ya ha sido confirmada, por favor intenta iniciar sesión
+      already_confirmed: ya ha sido confirmado, por favor intenta iniciar sesión
       confirmation_period_expired: necesita confirmarse dentro de %{period}, por favor solicita una nueva
       expired: ha expirado, por favor solicita una nueva
       not_found: no se ha encontrado
