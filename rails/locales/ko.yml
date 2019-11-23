@@ -123,7 +123,7 @@ ko:
         sign_in: 로그인
         sign_in_with_provider: "%{provider}(으)로 로그인"
         sign_up: 회원 가입
-      minimum_password_length: 
+      minimum_password_length: 최소 길이 %{count} 자
     unlocks:
       new:
         resend_unlock_instructions: 계정 잠금 해제 재요청
