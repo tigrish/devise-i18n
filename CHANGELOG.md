@@ -1,3 +1,9 @@
+## 1.9.0
+
+- Updated views for devise 4.7 as per https://github.com/plataformatec/devise/pull/5054. Any views generated into your app prior to this release of devise-i18n should continue to work.
+- Added km translation.
+- Updated de, en, es, fa, and ja translations.
+
 ## 1.8.2
 
 - Updated ja, pt-BR, zh-CN, and zh-TW translations.
