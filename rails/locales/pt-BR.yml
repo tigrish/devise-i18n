@@ -131,7 +131,7 @@ pt-BR:
         resend_unlock_instructions: Reenviar instruções de desbloqueio
       send_instructions: Dentro de minutos, você receberá um e-mail com instruções de desbloqueio da sua conta.
       send_paranoid_instructions: Se sua conta existir em nosso banco de dados, você receberá em breve um e-mail com instruções para desbloquear ela.
-      unlocked: A sua conta foi desbloqueada com sucesso. Você está autenticado.
+      unlocked: A sua conta foi desbloqueada com sucesso. Efetue login para continuar.
   errors:
     messages:
       already_confirmed: já foi confirmado
