@@ -37,10 +37,10 @@ nb:
     failure:
       already_authenticated: Du er allerede innlogget.
       inactive: Din konto er ikke aktivert.
-      invalid: 
+      invalid: Ugyldig %{authentication_keys} eller passord.
       last_attempt: Du har ett forsøk til før din konto blir sperret.
       locked: Din konto er sperret.
-      not_found_in_database: 
+      not_found_in_database: Ugyldig %{authentication_keys} eller passord.
       timeout: Din sesjon er utløpt. Logg inn igjen for å gå videre.
       unauthenticated: Du må logge inn eller registrere deg for å gå videre.
       unconfirmed: Du må bekrefte kontoen din for å kunne fortsette.
@@ -51,9 +51,9 @@ nb:
         instruction: Du kan aktivere din konto ved å trykke på lenken nedenfor.
         subject: Bekreftelsesinstruksjoner
       email_changed:
-        greeting: 
-        message: 
-        subject: 
+        greeting: Hei! %{recipient}!
+        message: Vi kontakter deg for å varsle at e-post adressen din har blitt endret til %{email}.
+        subject: E-post adressen din ble endret
       password_change:
         greeting: Hei %{recipient}!
         message: Vi ønsker å melde fra om at ditt passord har blitt forandret.
@@ -107,7 +107,7 @@ nb:
       signed_up_but_unconfirmed: En bekreftelsesmelding er sendt til e-postadressen. Vennligst åpne lenken for å aktivere kontoen.
       update_needs_confirmation: Brukerkontoen er nå oppdatert, men vi må bekrefte den nye e-postadressen. Vennligst sjekk din e-post og klikk på lenken for å bekrefte din nye e-postadresse.
       updated: Din brukerkonto er oppdatert.
-      updated_but_not_signed_in: 
+      updated_but_not_signed_in: Kontoen din har blitt oppdatert, på grunn av passord endring må du logge inn på nytt.
     sessions:
       already_signed_out: Du er nå logget ut.
       new:
@@ -123,7 +123,9 @@ nb:
         sign_in: Logg inn
         sign_in_with_provider: Logg inn med %{provider}
         sign_up: Registrering
-      minimum_password_length: 
+      minimum_password_length:
+        one: "(Minimum %{count} tegn)"
+        other: "(Minimum %{count} tegn)"
     unlocks:
       new:
         resend_unlock_instructions: Send instrukser for gjenåpning av konto på nytt
