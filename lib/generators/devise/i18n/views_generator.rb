@@ -29,7 +29,8 @@ module Devise
       def view_directory(name, target_path = nil)
         directory name.to_s, target_path || "#{default_target_path}/#{name}" do |content|
           if scope
-            content.gsub "devise/shared/links", "#{plural_scope}/shared/links"
+            content.gsub("devise/shared/links", "#{plural_scope}/shared/links")
+                   .gsub("devise/shared/error_messages", "#{plural_scope}/shared/error_messages")
           else
             content
           end
