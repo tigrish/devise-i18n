@@ -51,7 +51,7 @@ ru:
     mailer:
       confirmation_instructions:
         action: Активировать
-        greeting: Здравствуйте, %{recipient} !
+        greeting: Здравствуйте, %{recipient}!
         instruction: 'Вы можете активировать свою учетную запись, нажав ссылку снизу:'
         subject: Инструкции по подтверждению учетной записи
       email_changed:
