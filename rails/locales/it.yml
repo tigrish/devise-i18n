@@ -54,7 +54,7 @@ it:
         subject: Istruzioni per la conferma
       email_changed:
         greeting: Ciao %{recipient}!
-        message: 
+        message: Ti stiamo contattando per notificarti che la tua email è stata cambiata in %{email}.
         subject: Email modificata
       password_change:
         greeting: Ciao %{recipient}!
@@ -109,7 +109,7 @@ it:
       signed_up_but_unconfirmed: Ti è stato inviato un messaggio con un link di conferma. Ti invitiamo a visitare il link per attivare il tuo account.
       update_needs_confirmation: Il tuo account è stato aggiornato, ma dobbiamo verificare la tua email. Ti invitiamo a consultare la tua email e cliccare sul link di conferma.
       updated: Il tuo account è stato aggiornato.
-      updated_but_not_signed_in: 
+      updated_but_not_signed_in: Il tuo account è stato aggiornato con successo, ma dato che la tua password è cambiata, devi accedere di nuovo.
     sessions:
       already_signed_out: Sei uscito correttamente.
       new:
