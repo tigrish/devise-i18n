@@ -10,7 +10,7 @@ fr:
         current_sign_in_at: Date de la connexion actuelle
         current_sign_in_ip: IP de la connexion actuelle
         email: Courriel
-        encrypted_password: Mot de passe crypté
+        encrypted_password: Mot de passe chiffré
         failed_attempts: Tentatives échouées
         last_sign_in_at: Date de la dernière connexion
         last_sign_in_ip: IP de la dernière connexion

@@ -57,8 +57,8 @@ es:
         message: Estamos contactando contigo para notificarte que tu email ha sido cambiado a %{email}.
         subject: Email cambiado
       password_change:
-        greeting: Hola %{recipient}!
-        message: Le estamos contactando para notificarle que su contraseña ha sido cambiada.
+        greeting: "¡Hola %{recipient}!"
+        message: Lo estamos contactando para notificarle que su contraseña ha sido cambiada.
         subject: Contraseña cambiada
       reset_password_instructions:
         action: Cambiar mi contraseña
