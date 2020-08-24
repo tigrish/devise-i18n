@@ -1,3 +1,7 @@
+## 1.9.2
+
+- Updated es, es-MX, fr, it, pt-BR, and ru translations.
+
 ## 1.9.1
 
 - Updated he, ko, nb, pl, pt-BR, sv, and tr translations.
