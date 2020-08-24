@@ -19,7 +19,7 @@ Assuming you have _not_ previously generated Devise's views into your project, t
 
 You will need to set a locale in your application as described in the [Rails Internationalization Guide](https://guides.rubyonrails.org/i18n.html).
 
-If you are setting the locale per request (because your application supports multiple locales), the suggested code in that guide (using `around_action`) will not work properly with devise-i18n. Due to [a bug in warden](https://github.com/wardencommunity/warden/issues/180), some error messages will not be translated. Instead, you need to set it in a `before_action`:
+If you are setting the locale per request (because your application supports multiple locales), the suggested code in that guide (using `I18n.with_locale` inside an `around_action`) will not work properly with devise-i18n. Due to [a bug in warden](https://github.com/wardencommunity/warden/issues/180), some error messages will not be translated. Instead, you can set the locale in a `before_action`:
 
 ```ruby
 before_action do
