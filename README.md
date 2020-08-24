@@ -13,9 +13,37 @@ Add to your Gemfile:
 gem 'devise-i18n'
 ```
 
-Assuming you have _not_ previously generated Devise's views into your project, that's all you need to do. If you _have_ previously done this, you will need to regenerate your views (see the next section) and then reapply whatever customizations that made you do this in the first place.
+Assuming you have _not_ previously generated Devise's views into your project, that's all you need to do. If you _have_ previously done this, you will need to regenerate your views (see "Customizing views" below) and then reapply whatever customizations that made you do this in the first place.
 
-NOTE: If you have the ```simple_form``` gem in your Gemfile, this command will generate the corresponding views using the simple_form form builder.
+## Setting your locale
+
+You will need to set a locale in your application as described in the [Rails Internationalization Guide](https://guides.rubyonrails.org/i18n.html).
+
+If you are setting the locale per request (because your application supports multiple locales), the suggested code in that guide (using `around_action`) will not work properly with devise-i18n. Due to [a bug in warden](https://github.com/wardencommunity/warden/issues/180), some error messages will not be translated. Instead, you need to set it in a `before_action`:
+
+```ruby
+before_action do
+  I18n.locale = :es # Or whatever logic you use to choose.
+end
+```
+
+or in middleware:
+
+```ruby
+class LocaleMiddleware
+  def initialize(app)
+    @app = app
+  end
+
+  def call(env)
+    I18n.locale = :es # Or whatever logic you use to choose.
+    status, headers, body = @app.call(env)
+  end
+end
+```
+```ruby
+config.middleware.use ::LocaleMiddleware
+```
 
 ## Customizing views
 
@@ -25,6 +53,8 @@ The `devise:i18n:views` generator will copy all devise-i18n's views to your appl
 rails g devise:i18n:views
 ```
 You should only do this if you really need to, though, because doing this will make it so that you won't get the updated views should they change in a future version of devise-i18n. To "uncustomize" the views, just delete them, and your app will go back to grabbing devise-i18n's default views.
+
+If you have ```simple_form``` in your Gemfile, this command will generate the corresponding views using the simple_form form builder.
 
 ## Scoped views
 
