@@ -5,6 +5,7 @@ en:
         confirmation_sent_at: Confirmation sent at
         confirmation_token: Confirmation token
         confirmed_at: Confirmed at
+        confirmed: Confirmed
         created_at: Created at
         current_password: Current password
         current_sign_in_at: Current sign in at
