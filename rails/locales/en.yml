@@ -55,6 +55,7 @@ en:
       email_changed:
         greeting: Hello %{recipient}!
         message: We're contacting you to notify you that your email has been changed to %{email}.
+        message_unconfirmed: We're contacting you to notify you that your email is being changed to %{email}.
         subject: Email Changed
       password_change:
         greeting: Hello %{recipient}!
