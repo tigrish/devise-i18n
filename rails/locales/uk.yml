@@ -53,6 +53,7 @@ uk:
       email_changed:
         greeting: Вітаємо, %{recipient}!
         message: Ми звертаємось до вас щоб повідомити про те, що вашу адресу електронної пошти було змінено на %{email}.
+        message_unconfirmed: 
         subject: Адресу електронної пошти змінено
       password_change:
         greeting: Вітаємо, %{recipient}!

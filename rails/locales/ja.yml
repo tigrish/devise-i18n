@@ -53,6 +53,7 @@ ja:
       email_changed:
         greeting: こんにちは、%{recipient}様。
         message: あなたのメール変更（%{email}）のお知らせいたします。
+        message_unconfirmed: 
         subject: メール変更完了。
       password_change:
         greeting: "%{recipient}様"

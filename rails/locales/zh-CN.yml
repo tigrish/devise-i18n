@@ -53,6 +53,7 @@ zh-CN:
       email_changed:
         greeting: 您好 %{recipient}！
         message: 收到此邮件是因为您的电子邮件地址已被更改为 %{email}。
+        message_unconfirmed: 
         subject: 电邮已被修改
       password_change:
         greeting: 您好 %{recipient}！

@@ -53,6 +53,7 @@ nb:
       email_changed:
         greeting: Hei! %{recipient}!
         message: Vi kontakter deg for å varsle at e-post adressen din har blitt endret til %{email}.
+        message_unconfirmed: 
         subject: E-post adressen din ble endret
       password_change:
         greeting: Hei %{recipient}!

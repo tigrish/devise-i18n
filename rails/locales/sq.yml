@@ -55,6 +55,7 @@ sq:
       email_changed:
         greeting: Tungjatjeta %{recipient}!
         message: Po lidhemi me ju për t’ju njoftuar se email-i juaj është ndryshuar në %{email}.
+        message_unconfirmed: 
         subject: Email-i u Ndryshua
       password_change:
         greeting: Tungjatjeta %{recipient}!

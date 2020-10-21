@@ -55,6 +55,7 @@ pt:
       email_changed:
         greeting: Olá %{recipient}!
         message: Estamos a entrar em contacto para notificar que o seu endereço de email foi alterado para %{email}.
+        message_unconfirmed: 
         subject: Endereço de email alterado
       password_change:
         greeting: Olá %{recipient}!

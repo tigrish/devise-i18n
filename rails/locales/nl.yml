@@ -53,6 +53,7 @@ nl:
       email_changed:
         greeting: Beste %{recipient}!
         message: Het e-mailadres van uw account is gewijzigd in %{email}.
+        message_unconfirmed: 
         subject: E-mailadres veranderd
       password_change:
         greeting: Hallo %{recipient}!

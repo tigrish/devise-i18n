@@ -53,6 +53,7 @@ si:
       email_changed:
         greeting: 
         message: 
+        message_unconfirmed: 
         subject: 
       password_change:
         greeting: ආයුබෝවන් %{recipient}!

@@ -53,6 +53,7 @@ id:
       email_changed:
         greeting: Halo %{recipient}!
         message: Kami menghubungi Anda untuk memberitahu, bahwa email terdaftar telah berubah menjadi %{email}.
+        message_unconfirmed: 
         subject: Email telah diubah
       password_change:
         greeting: Halo %{recipient}!

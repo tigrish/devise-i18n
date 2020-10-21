@@ -53,6 +53,7 @@ vi:
       email_changed:
         greeting: Xin chào %{recipient}!
         message: Chúng tôi liên hệ với bạn để thông báo cho bạn biết rằng email của bạn đang được thay đổi thành %{email}.
+        message_unconfirmed: 
         subject: Email đã được thay đổi.
       password_change:
         greeting: Xin chào %{recipient}!

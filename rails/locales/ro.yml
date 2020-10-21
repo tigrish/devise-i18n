@@ -53,6 +53,7 @@ ro:
       email_changed:
         greeting: Bună %{recipient}!
         message: Te contactăm pentru a te informa că adresa ta de email va fi înlocuită cu %{email}.
+        message_unconfirmed: 
         subject: Adresă de email actualizată
       password_change:
         greeting: Bună %{recipient}!

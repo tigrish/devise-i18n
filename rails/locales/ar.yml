@@ -53,6 +53,7 @@ ar:
       email_changed:
         greeting: أهلا %{recipient} !
         message: نتصل بك لإخبارك أنّ عنوان بريدك الإلكتروني قد تم تغييره إلى %{email}.
+        message_unconfirmed: 
         subject: تم تغيير عنوان البريد الإلكتروني
       password_change:
         greeting: مرحباً %{recipient}

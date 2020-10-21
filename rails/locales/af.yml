@@ -53,6 +53,7 @@ af:
       email_changed:
         greeting: 
         message: 
+        message_unconfirmed: 
         subject: 
       password_change:
         greeting: Hallo %{recipient}!

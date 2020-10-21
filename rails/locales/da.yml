@@ -53,6 +53,7 @@ da:
       email_changed:
         greeting: Hej %{recipient}
         message: Vi skriver til dig for at oplyse dig om, at din e-mail er blevet ændret til %{email}.
+        message_unconfirmed: 
         subject: E-mail ændret
       password_change:
         greeting: Hej %{recipient}

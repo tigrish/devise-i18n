@@ -57,6 +57,7 @@ hi:
       email_changed:
         greeting: नमस्ते! %{recipient}!
         message: हम आपको यह सूचित करने के लिए संपर्क कर रहे हैं कि आपका ईमेल %{email} में बदला जा रहा है।
+        message_unconfirmed: 
         subject: ईमेल बदला गया
       password_change:
         greeting: नमस्ते %{recipient}!

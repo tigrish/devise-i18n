@@ -53,6 +53,7 @@ cs:
       email_changed:
         greeting: Ahoj, %{recipient}!
         message: Kontaktovali jsme Vás, abychom Vás upozornili, že se Vaše e-mailová adresa mění na %{email}.
+        message_unconfirmed: 
         subject: E-mail změněn
       password_change:
         greeting: Ahoj %{recipient}!

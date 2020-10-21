@@ -53,6 +53,7 @@ th:
       email_changed:
         greeting: สวัสดี %{recipient}
         message: เราติดต่อคุณในครั้งนี้เพื่อแจ้งให้ทราบว่าอีเมลของคุณได้ถูกเปลี่ยนเป็น %{email} สำเร็จแล้ว
+        message_unconfirmed: 
         subject: การเปลี่ยนแปลงอีเมลสำเร็จ
       password_change:
         greeting: สวัสดี %{recipient}

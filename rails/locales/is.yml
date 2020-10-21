@@ -53,6 +53,7 @@ is:
       email_changed:
         greeting: Halló %{recipient}!
         message: Við erum að láta þig vita að  tölvupóstfangi þínu verði breytt í %{email}.
+        message_unconfirmed: 
         subject: Tölvupósti breytt
       password_change:
         greeting: Halló %{recipient}!

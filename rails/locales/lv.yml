@@ -53,6 +53,7 @@ lv:
       email_changed:
         greeting: Sveicināti, %{recipient}!
         message: Informējam, ka Jūsu epasts ir nomainīts uz %{email}.
+        message_unconfirmed: 
         subject: Epasts nomainīts
       password_change:
         greeting: Sveicināti, %{recipient}!

@@ -53,6 +53,7 @@ az:
       email_changed:
         greeting: Salam, %{recipient}!
         message: Bu məktub, elektron ünvanınızın %{email} ilə dəyişdirildiyini bildirmək üçün, sizə göndərilib.
+        message_unconfirmed: 
         subject: Elektron ünvanınız dəyişdirildi
       password_change:
         greeting: Salam, %{recipient}!
