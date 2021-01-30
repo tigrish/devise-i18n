@@ -53,7 +53,7 @@ vi:
       email_changed:
         greeting: Xin chào %{recipient}!
         message: Chúng tôi liên hệ với bạn để thông báo cho bạn biết rằng email của bạn đang được thay đổi thành %{email}.
-        message_unconfirmed: 
+        message_unconfirmed:
         subject: Email đã được thay đổi.
       password_change:
         greeting: Xin chào %{recipient}!
@@ -108,7 +108,7 @@ vi:
       signed_up_but_unconfirmed: Một email chứa đường dẫn xác nhận tài khoản đã được gửi cho bạn. Bạn vui lòng kiểm tra email.
       update_needs_confirmation: Tài khoản của bạn được cập nhật thành công, nhưng bạn cần xác nhận địa chỉ email mới. Vui lòng kiểm tra email và nhấn vào đường dẫn xác nhận tài khoản để hoàn tất việc thay đổi địa chỉ email.
       updated: Cập nhật tài khoản thành công.
-      updated_but_not_signed_in: 
+      updated_but_not_signed_in:
     sessions:
       already_signed_out: Đăng xuất thành công.
       new:

@@ -37,10 +37,10 @@ ur:
     failure:
       already_authenticated: آپ پہلے ہی سائن ان ہیں۔
       inactive: آپ کا کھاتہ ابھی تک فعال نہیں ہے۔
-      invalid: 
+      invalid:
       last_attempt: مزید ایک اور کوشش کے بعد آپ کا کھاتا بند ھو جاے گا۔
       locked: آپ کا کھاتا بند کر دیا گیا ہے۔
-      not_found_in_database: 
+      not_found_in_database:
       timeout: آپ کا سیشن ختم ہوگیا ھے۔ براے مہربانی دوبارہ لاگ ان کریں۔
       unauthenticated: آپ کو ویب سایٹ میں داخل ھونے سے پہلے سائن ان یا سائن اپ کرنا ہوگا۔
       unconfirmed: آپ کو ویب سایٹ میں داخل ھونے سے پہلے اپنے ای میل ایڈریس کی تصدیق کرنا ہو گی۔
@@ -51,10 +51,10 @@ ur:
         instruction: آپ ذیل میں دیئے گئے لنک کے ذریعہ اپنا اکاؤنٹ ای میل کی تصدیق کرسکتے ہیں
         subject: تصدیقی ہدایات
       email_changed:
-        greeting: 
-        message: 
-        message_unconfirmed: 
-        subject: 
+        greeting:
+        message:
+        message_unconfirmed:
+        subject:
       password_change:
         greeting: "%{recipient} آداب"
         message: ہم آپ کو مطلع کرنے کے لئے آپ سے رابطہ کر رہے ہیں کہ آپ کا پاس ورڈ تبدیل ھو چکا ھے۔
@@ -108,7 +108,7 @@ ur:
       signed_up_but_unconfirmed: ایک توثیقی لنک کے ساتھ ایک پیغام آپ کے ای میل پتہ پر بھیج دیا گیا ہے. اپنا اکاؤنٹ چالو کرنے کے لئے لنک پر عمل کریں۔
       update_needs_confirmation: آپ نے اپنا اکاؤنٹ کامیابی سے اپ ڈیٹ کیا، لیکن ہمیں آپ کے نئے ای میل ایڈریس کی توثیق کرنے کی ضرورت ہے۔ براہ کرم اپنا ای میل دیکھیں اور اپنے نئے ای میل ایڈریس کی تصدیق کے لئے تصدیق شدہ لنک کی پیروی کریں۔
       updated: آپ کا اکاؤنٹ کامیابی سے اپ ڈیٹ ھو چکا ہے۔
-      updated_but_not_signed_in: 
+      updated_but_not_signed_in:
     sessions:
       already_signed_out: سائن آؤٹ کامیابی سے ھو چکا۔
       new:
@@ -124,7 +124,7 @@ ur:
         sign_in: سائن ان کریں
         sign_in_with_provider: کے ساتھ سائن ان کریں %{provider}
         sign_up: سائن اپ کریں
-      minimum_password_length: 
+      minimum_password_length:
     unlocks:
       new:
         resend_unlock_instructions: انلاک ہدایات دوبارہ بھیجیں

@@ -53,7 +53,7 @@ uk:
       email_changed:
         greeting: Вітаємо, %{recipient}!
         message: Ми звертаємось до вас щоб повідомити про те, що вашу адресу електронної пошти було змінено на %{email}.
-        message_unconfirmed: 
+        message_unconfirmed:
         subject: Адресу електронної пошти змінено
       password_change:
         greeting: Вітаємо, %{recipient}!
@@ -108,7 +108,7 @@ uk:
       signed_up_but_unconfirmed: Ви отримаєте листа з вказівками щодо підтвердження облікового запису протягом декількох хвилин.
       update_needs_confirmation: Ваш обліковий запис оновлено, але необхідно підтвердити нову адресу електронної пошти. Будь ласка, перевірте свою електронну скриньку і перейдіть за посиланням "Підтвердити", шоб завершити оновлення адреси електронної пошти.
       updated: Ваш обліковий запис змінено.
-      updated_but_not_signed_in: 
+      updated_but_not_signed_in:
     sessions:
       already_signed_out: Успішний вихід з системи.
       new:

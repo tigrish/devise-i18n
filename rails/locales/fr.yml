@@ -53,7 +53,7 @@ fr:
       email_changed:
         greeting: Bonjour %{recipient} !
         message: Nous vous contactons pour vous notifier que votre adresse email a été changée en %{email}.
-        message_unconfirmed: 
+        message_unconfirmed:
         subject: Email modifié
       password_change:
         greeting: Bonjour %{recipient} !

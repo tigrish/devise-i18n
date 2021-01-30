@@ -51,10 +51,10 @@ el:
         instruction: 'Μπορείτε να επιβεβαιώσετε τη διεύθυνση email του λογαριασμού σας μέσω του συνδέσμου παρακάτω:'
         subject: Οδηγίες επιβεβαίωσης
       email_changed:
-        greeting: 
-        message: 
-        message_unconfirmed: 
-        subject: 
+        greeting:
+        message:
+        message_unconfirmed:
+        subject:
       password_change:
         greeting: Γεια σας %{recipient}!
         message: Επικοινωνούμε μαζί σας για να σας ειδοποιήσουμε ότι ο κωδικός πρόσβασής σας έχει αλλάξει.
@@ -108,7 +108,7 @@ el:
       signed_up_but_unconfirmed: Ένα μήνυμα με σύνδεσμο επιβεβαίωσης έχει σταλεί στη διεύθυνση email σας. Παρακαλώ ανοίξτε τον σύνδεσμο για να ενεργοποιήσετε τον λογαριασμό σας.
       update_needs_confirmation: Ενημερώσατε τον λογαριασμό σας επιτυχώς, αλλά χρειάζεται να επιβεβαιώσουμε τη νέα διεύθυνση email σας. Παρακαλώ ελέγξτε το email σας και ανοίξτε τον σύνδεσμο επιβεβαίωσης για να επιβεβαιώσετε τη νέα διεύθυνση email σας.
       updated: Ο λογαριασμός σας έχει ενημερωθεί επιτυχώς.
-      updated_but_not_signed_in: 
+      updated_but_not_signed_in:
     sessions:
       already_signed_out: Αποσυνδεθήκατε επιτυχώς.
       new:
@@ -124,7 +124,7 @@ el:
         sign_in: Σύνδεση
         sign_in_with_provider: Σύνδεση με %{provider}
         sign_up: Εγγραφή
-      minimum_password_length: 
+      minimum_password_length:
     unlocks:
       new:
         resend_unlock_instructions: Επανάληψη αποστολής οδηγιών ξεκλειδώματος

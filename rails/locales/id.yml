@@ -53,7 +53,7 @@ id:
       email_changed:
         greeting: Halo %{recipient}!
         message: Kami menghubungi Anda untuk memberitahu, bahwa email terdaftar telah berubah menjadi %{email}.
-        message_unconfirmed: 
+        message_unconfirmed:
         subject: Email telah diubah
       password_change:
         greeting: Halo %{recipient}!
@@ -110,7 +110,7 @@ id:
       updated: Akun anda telah berhasil diperbaharui.
       updated_but_not_signed_in: Akun telah berhasil diperbarui, namun karena password telah diubah maka Anda harus mengulang sign in.
     sessions:
-      already_signed_out: 
+      already_signed_out:
       new:
         sign_in: Masuk
       signed_in: Proses sign in berhasil.

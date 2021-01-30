@@ -2,29 +2,29 @@ yo:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: 
-        confirmation_token: 
-        confirmed_at: 
-        created_at: 
+        confirmation_sent_at:
+        confirmation_token:
+        confirmed_at:
+        created_at:
         current_password: ọ̀rọ̀ aṣínà lọ́wọ́lọ́wọ́
-        current_sign_in_at: 
-        current_sign_in_ip: 
+        current_sign_in_at:
+        current_sign_in_ip:
         email: í-meèlì
-        encrypted_password: 
-        failed_attempts: 
-        last_sign_in_at: 
-        last_sign_in_ip: 
-        locked_at: 
+        encrypted_password:
+        failed_attempts:
+        last_sign_in_at:
+        last_sign_in_ip:
+        locked_at:
         password: 'ọ̀rọ̀ aṣínà '
         password_confirmation: ìfàṣẹsí ọ̀rọ̀ aṣínà
-        remember_created_at: 
+        remember_created_at:
         remember_me: Rántí mi
-        reset_password_sent_at: 
+        reset_password_sent_at:
         reset_password_token: Tún ọ̀rọ̀ aṣínà tè
-        sign_in_count: 
-        unconfirmed_email: 
+        sign_in_count:
+        unconfirmed_email:
         unlock_token: Síí àmì
-        updated_at: 
+        updated_at:
     models:
       user: aṣàmúlò
   devise:
@@ -37,10 +37,10 @@ yo:
     failure:
       already_authenticated: ẹ̀ ti wọlé síbẹ́síbẹ́
       inactive: àkántì rẹ  ko ṣiṣẹ síbẹ́síbẹ́
-      invalid: 
+      invalid:
       last_attempt: O ní ànfààní ìgbìnyànjú kan si kí a tó tii àkántì rẹ pa
       locked: àkántì re tii tì pa
-      not_found_in_database: 
+      not_found_in_database:
       timeout: ìgbà re tii parí. Jọ̀wọ́ wọlé lẹẹkan si láti tẹ̀síwájú
       unauthenticated: O nílọ̀ láti wọlé kí o tó tẹ̀síwájú
       unconfirmed: Wà ni láti fi àṣẹsí  í-meèlì rẹ kí o tó tẹ̀síwájú
@@ -51,10 +51,10 @@ yo:
         instruction: O lé fi àṣẹsí àkántì í-meèlì rẹ pẹ̀lú ìtọ́kasí ni isalẹ
         subject: ìmúdájú ìlànà
       email_changed:
-        greeting: 
-        message: 
-        message_unconfirmed: 
-        subject: 
+        greeting:
+        message:
+        message_unconfirmed:
+        subject:
       password_change:
         greeting: Ẹ ǹlẹ́ o %{recipient}
         message: A n kàn sí yin láti sọ fún yín wípé a ti pa ọ̀rọ̀ aṣínà yín padà
@@ -69,7 +69,7 @@ yo:
       unlock_instructions:
         action: 'Síí àkántì mi
 
-'
+          '
         greeting: Ẹ ǹlẹ́ o %{recipient}!
         instruction: ṣíra tẹ̀ẹ́ ìtọ́kasí isalẹ láti síí àkántì rẹ
         message: àkántì re tii tì pa nítorí ìgbìyànjú ati wọlé nigba púpọ̀ to forí ṣánpọ́n
@@ -81,7 +81,7 @@ yo:
       edit:
         change_my_password: 'ṣàyípadà aṣínà mi
 
-'
+          '
         change_your_password: ṣàyípadà aṣínà rẹ
         confirm_new_password: Fi àṣẹsí aṣínà tuntun
         new_password: Aṣínà tuntun
@@ -89,48 +89,48 @@ yo:
         forgot_your_password: 'Ṣé o gbàgbé aṣínà rẹ? '
         send_me_reset_password_instructions: 'Fi ṣàtúntò aṣínà ìtọ́sọ́nà ránṣẹ́
 
-'
+          '
       no_token: O ko le wọlé síí ìwé yii láì se nípasẹ̀ àtúntò í-meèlì aṣínà re. Tí o bá wá láti aṣínà àtúntò í-meèlì, jọ̀wọ́ rii dáni loju pé o lo URL tí a pèsè
       send_instructions: O gba í-meèlì pelu àlàyé bí o se le ṣàtúntò aṣínà rẹ ní ìṣẹ́jú díẹ̀
       send_paranoid_instructions: Ti àdírẹ́ẹ̀sì í-meèlì rẹ ba wà ní àkójọpọ̀ data wa, ìwọ yóò gba ìtọ́kasí aṣínà ní í-meèlì rẹ ní ìṣẹ́jú díẹ̀
       updated: 'A ti sàyípadà aṣínà re. ẹ̀ ti wọlé
 
-'
+        '
       updated_not_active: A ti sàyípadà aṣínà re
     registrations:
       destroyed: 'òdàbö! A ti fagi lé àkántì re. A léro pé o maa padà wá
 
-'
+        '
       edit:
         are_you_sure: 'Ṣé o da ẹ lójú? '
         cancel_my_account: Fagi lé àkántì mi
         currently_waiting_confirmation_for_email: 'A n dúró lọ́wọ́lọ́wọ́ fún ìfàṣẹsí : %{email}
 
-'
+          '
         leave_blank_if_you_don_t_want_to_change_it: " Fi sílẹ̀ ti o ko ba fe yi padà"
         title: 'ṣàtúnṣe %{resource}
 
-'
+          '
         unhappy: ìbànújẹ́?
         update: ṣàfikùn
         we_need_your_current_password_to_confirm_your_changes: A nilo aṣínà ti o n lo lọ́wọ́lọ́wọ́ láti ṣàrídájú àyípadà rẹ
       new:
         sign_up: 'Forúkọsílẹ̀
 
-'
+          '
       signed_up: Káàbọ̀! iforúkọsílẹ̀ rẹ wọlé pẹ̀lú àṣeyọrí
       signed_up_but_inactive: " Iforúkọsílẹ̀ rẹ wọlé pẹ̀lú àṣeyọrí. Ṣùgbọ́n, a kò lé jẹ́ kí o wọlé nítoripe àkántì rẹ ko tí sọ di aṣiṣẹ́"
       signed_up_but_locked: 'Iforúkọsílẹ̀ rẹ wọlé pẹ̀lú àṣeyọrí. Ṣùgbọ́n, a kò lé jẹ́ kí o wọlé nítoripe àkántì re tii tì pa
 
-'
+        '
       signed_up_but_unconfirmed: 'O gba í-meèlì pelu àrídájú ìtọ́kasí. Jọ̀wọ́ tẹ̀lẹ́ ìtọ́kasí tí o sọ di aṣiṣẹ́ ki àkántì rẹ to le ṣiṣẹ́
 
-'
+        '
       update_needs_confirmation: 'O ti ṣàfikún àkántì rẹ pẹ̀lú àṣeyọrí, Ṣùgbọ́n, a nilo láti ṣàrídájú í-meèlì tuntun. Jọ̀wọ́ yẹ í-meèlì rẹ ki o si ṣàrídájú ìtọ́kasí láti ṣàrídájú í-meèlì tuntun   '
       updated: 'A ti ṣàfikún àkántì rẹ pẹ̀lú àṣeyọrí
 
-'
-      updated_but_not_signed_in: 
+        '
+      updated_but_not_signed_in:
     sessions:
       already_signed_out: O jáde pẹ̀lú àṣeyọrí
       new:
@@ -146,15 +146,15 @@ yo:
         sign_in: Wọlé
         sign_in_with_provider: Wọlé pẹ̀lú %{provider}
         sign_up: Forúkọsílẹ̀
-      minimum_password_length: 
+      minimum_password_length:
     unlocks:
       new:
         resend_unlock_instructions: 'Fi kọ́kọ́rọ́ ilana ṣọwó lẹ́ẹ̀kàn si
 
-'
+          '
       send_instructions: 'O gba í-meèlì pẹ̀lú ilana bí o ṣe le ṣe ṣi kọ́kọ́rọ́ àkántì rẹ ní ìṣẹ́jú díẹ̀
 
-'
+        '
       send_paranoid_instructions: Ti àkántì rẹ bá wà, O gba í-meèlì pẹ̀lú ilana bí o ṣe lè ṣe ṣi kọ́kọ́rọ́ àkántì rẹ ní ìṣẹ́jú díẹ̀
       unlocked: Kọ́kọ́rọ́ àkántì rẹ ti si pẹ̀lú àṣeyọrí. Jọ̀wọ́ wọlé láti tẹ̀ síwájú
   errors:
@@ -163,13 +163,13 @@ yo:
       confirmation_period_expired: A ni láti ṣe àrídájú rẹ %{period}, jọ̀wọ́ béèrè fún tuntun
       expired: 'O ti kú, Jọ̀wọ́ béèrè fún tuntun
 
-'
+        '
       not_found: 'Kò sí
 
-'
+        '
       not_locked: A kò tí
       not_saved:
         one: '1 àsìse sèdíwọ elè yìí %{resource} láti lè fi pamọ́
 
-'
+          '
         other: "%{count}àsìse sèdíwọ elè yìí %{resource} láti lè fi pamọ́"

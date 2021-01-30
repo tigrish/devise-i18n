@@ -53,7 +53,7 @@ nl:
       email_changed:
         greeting: Beste %{recipient}!
         message: Het e-mailadres van uw account is gewijzigd in %{email}.
-        message_unconfirmed: 
+        message_unconfirmed:
         subject: E-mailadres veranderd
       password_change:
         greeting: Hallo %{recipient}!
@@ -108,7 +108,7 @@ nl:
       signed_up_but_unconfirmed: Een e-mail met een confirmatielink is naar je e-mailadres gestuurd. Open de link in je browser om je account te activeren.
       update_needs_confirmation: Je account is bijgewerkt, maar we moeten je e-mailadres nog valideren. Een e-mail met een confirmatielink is naar je e-mailadres gestuurd. Open de link in je browser om je e-mailadres te confirmeren.
       updated: Je accountgegevens zijn opgeslagen.
-      updated_but_not_signed_in: 
+      updated_but_not_signed_in:
     sessions:
       already_signed_out: Je bent succesvol uitgelogd.
       new:

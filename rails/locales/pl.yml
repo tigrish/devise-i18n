@@ -56,7 +56,7 @@ pl:
       email_changed:
         greeting: Witaj %{recipient}!
         message: Kontaktujemy się z Tobą, aby Cię poinformować o zmianie Twojego adresu e-mail na %{email}.
-        message_unconfirmed: 
+        message_unconfirmed:
         subject: E-mail zmieniony
       password_change:
         greeting: Witaj %{recipient}!
