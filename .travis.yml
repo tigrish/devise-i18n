@@ -3,6 +3,8 @@ rvm:
   - 2.6.5
   - 2.7.0
 
+cache: bundler
+
 before_install:
   - gem uninstall bundler || true
   - gem install bundler --version '1.17.2'
