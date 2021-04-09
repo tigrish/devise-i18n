@@ -52,8 +52,8 @@ fr:
         subject: Instructions de confirmation
       email_changed:
         greeting: Bonjour %{recipient} !
-        message: Nous vous contactons pour vous notifier que votre adresse email a été changée en %{email}.
-        message_unconfirmed:
+        message: Nous vous contactons pour vous informer que votre email a été changée en %{email}.
+        message_unconfirmed: Nous vous contactons pour vous informer que votre email est en train d'être changée par %{email}.
         subject: Email modifié
       password_change:
         greeting: Bonjour %{recipient} !
