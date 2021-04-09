@@ -42,7 +42,7 @@ ja:
       locked: アカウントはロックされています。
       not_found_in_database: "%{authentication_keys}またはパスワードが違います。"
       timeout: セッションがタイムアウトしました。もう一度ログインしてください。
-      unauthenticated: アカウント登録もしくはログインしてください。
+      unauthenticated: ログインもしくはアカウント登録してください。
       unconfirmed: メールアドレスの本人確認が必要です。
     mailer:
       confirmation_instructions:
@@ -52,8 +52,8 @@ ja:
         subject: メールアドレス確認メール
       email_changed:
         greeting: こんにちは、%{recipient}様。
-        message: あなたのメールの変更（%{email}）をお知らせいたします。
-        message_unconfirmed:
+        message: メールアドレスの（%{email}）変更が完了したため、メールを送信しています。
+        message_unconfirmed: メールアドレスが（%{email}）変更されたため、メールを送信しています。
         subject: メール変更完了
       password_change:
         greeting: "%{recipient}様"

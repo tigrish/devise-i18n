@@ -2,31 +2,35 @@ sr:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: Potvrda poslata na
-        confirmation_token:
-        confirmed_at:
-        created_at:
+        confirmation_sent_at: Potvrda poslata u
+        confirmation_token: Kod za potvrđivanje
+        confirmed_at: Potvrđen u
+        created_at: Napravljen u
         current_password: Trenutna lozinka
-        current_sign_in_at:
-        current_sign_in_ip:
-        email: Email
-        encrypted_password: Enkriptovana lozinka
+        current_sign_in_at: Trenutno prijavljen u
+        current_sign_in_ip: Trenutno prijavljen sa IP
+        email: E-pošta
+        encrypted_password: Šifrovana lozinka
         failed_attempts: Neuspeli pokušaji
-        last_sign_in_at: Poslednji put ulogovan
-        last_sign_in_ip: Poslednja IP adresa
-        locked_at: Zaključano
+        last_sign_in_at: Poslednje prijavljivanje u
+        last_sign_in_ip: Poslednje prijavljivanje sa IP
+        locked_at: Zaključano u
         password: Lozinka
         password_confirmation: Potvrda lozinke
-        remember_created_at:
+        remember_created_at: Zapamti kreiran u
         remember_me: Zapamti me
-        reset_password_sent_at: Uputstvo za resetovanje lozinke poslato
-        reset_password_token:
-        sign_in_count:
-        unconfirmed_email:
-        unlock_token:
-        updated_at:
+        reset_password_sent_at: Obnova lozinke poslata u
+        reset_password_token: Kod za obnovu lozinke
+        sign_in_count: Broj prijavljivanja
+        unconfirmed_email: Nepotvrdjena adresa e-pošte
+        unlock_token: Kod za otključavanje
+        updated_at: Izmenjeno u
     models:
-      user: Korisnik
+      user:
+        few: Korisnika
+        many: Korisnika
+        one: Korisnik
+        other: Korisnika
   devise:
     confirmations:
       confirmed: Vaš nalog je uspešno potvrđen. Sada ste prijavljeni.
@@ -46,30 +50,30 @@ sr:
       unconfirmed: Pre nastavka morate potvrditi svoj nalog.
     mailer:
       confirmation_instructions:
-        action:
-        greeting:
-        instruction:
-        subject: Uputstvo za potvrdu korisničkog naloga
+        action: Potvrdi moj malog
+        greeting: Dobrodošli %{recipient}!
+        instruction: 'Možete potvrditi adresu e-pošte za vaš nalog na linku ispod:'
+        subject: Uputstvo za potvrdu
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: Zdravo %{recipient}!
+        message: Obaveštavamo vas da je vaša adresa e-pošte promenjena u %{email}.
+        message_unconfirmed: Obaveštavamo vas da je vaša adresa e-pošte promenjena u %{email}.
+        subject: Promenjena adresa e-pošte
       password_change:
-        greeting:
-        message:
-        subject:
+        greeting: Zdravo %{recipient}!
+        message: Obaveštavamo vas da je vaša lozinka promenjena.
+        subject: Lozinka promenjena
       reset_password_instructions:
-        action:
-        greeting:
-        instruction:
-        instruction_2:
-        instruction_3:
+        action: Promeni moju lozinku
+        greeting: Zdravo %{recipient}!
+        instruction: Neko je zatražio link za promenu vaše lozinke. To možete učiniti na linku ispod.
+        instruction_2: Ukoliko niste vi ovo zatražili, molim vas ignorišite ovu e-poruku.
+        instruction_3: Vaša lozinka neće biti promenjena dok ne pristupite linku iznad i napravite novu.
         subject: Uputstvo za promenu lozinke
       unlock_instructions:
-        action:
-        greeting:
-        instruction:
+        action: Otključaj moj nalog
+        greeting: Zdravo %{recipient}!
+        instruction: 'Klikni na link ispod za otključavanje svog naloga:'
         message:
         subject: Uputstvo za otključavanje korisničkog naloga
     omniauth_callbacks:
@@ -77,12 +81,12 @@ sr:
       success: Uspešna autorizacija sa %{kind} naloga.
     passwords:
       edit:
-        change_my_password:
-        change_your_password:
-        confirm_new_password:
-        new_password:
+        change_my_password: Izmeni moju lozinku
+        change_your_password: Izmeni tvoju lozinku
+        confirm_new_password: Potvrdi novu lozinku
+        new_password: Nova lozinka
       new:
-        forgot_your_password:
+        forgot_your_password: Zaboravljena lozinka?
         send_me_reset_password_instructions:
       no_token: Ne možete pristupiti ovoj stranici ako niste škljocnuli na vezu u ePoruci za resetovanje lozinke.
       send_instructions: U roku od nekoliko minuta primitićete ePoruku sa uputstvom za promenu Vaše lozinke.
@@ -92,16 +96,16 @@ sr:
     registrations:
       destroyed: Pozdrav! Vaš nalog je uspešno obrisan. Nadamo se da ćete se uskoro vratiti.
       edit:
-        are_you_sure:
-        cancel_my_account:
+        are_you_sure: Da li ste sigurni?
+        cancel_my_account: Otkaži moj nalog
         currently_waiting_confirmation_for_email:
         leave_blank_if_you_don_t_want_to_change_it:
         title:
-        unhappy:
-        update:
+        unhappy: Nezadovoljni?
+        update: Izmeni
         we_need_your_current_password_to_confirm_your_changes:
       new:
-        sign_up:
+        sign_up: Registruj se
       signed_up: Dobrodošli! Uspešno ste se registrovali.
       signed_up_but_inactive: Uspešno ste se registrovali. Doduše, ne možete se prijaviti na sistem zato što Vaš nalog još nije aktiviran.
       signed_up_but_locked: Uspešno ste se registrovali. Nažalost ne možete se prijaviti jer Vam je nalog zaključan.
@@ -112,7 +116,7 @@ sr:
     sessions:
       already_signed_out:
       new:
-        sign_in:
+        sign_in: Prijavi se
       signed_in: Uspešno ste se prijavili.
       signed_out: Uspešno ste se odjavili.
     shared:
@@ -121,7 +125,7 @@ sr:
         didn_t_receive_confirmation_instructions:
         didn_t_receive_unlock_instructions:
         forgot_your_password:
-        sign_in:
+        sign_in: Prijavi se
         sign_in_with_provider:
         sign_up:
       minimum_password_length:
@@ -134,7 +138,7 @@ sr:
   errors:
     messages:
       already_confirmed: je već potvrđen, molimo pokušajte se prijaviti
-      confirmation_period_expired: je trebao biti potvrđen tokom perioda %{period}, molim tražite novi
+      confirmation_period_expired: je trebao biti potvrđen tokom perioda %{period}, molim zatražite novi
       expired: je istekao, molim zatražite novi
       not_found: nije pronađeno
       not_locked: nije zaključan
