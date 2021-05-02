@@ -21,7 +21,7 @@ sq:
         remember_me: Mbamë mend
         reset_password_sent_at: Ricaktim fjalëkalimi dërguar më
         reset_password_token: Riujdisni token fjalëkalimi
-        sign_in_count: Nymër hyrjesh
+        sign_in_count: Numër hyrjesh
         unconfirmed_email: Email i paripohuar
         unlock_token: Shkyçe token-in
         updated_at: Përditësuar më
@@ -54,7 +54,7 @@ sq:
         subject: Udhëzime ripohimi
       email_changed:
         greeting: Tungjatjeta %{recipient}!
-        message: Po lidhemi me ju për t’ju njoftuar se email-i juaj është ndryshuar në %{email}.
+        message: Po lidhemi me ju për t’ju njoftuar se email-i juaj po ndryshohet në %{email}.
         message_unconfirmed:
         subject: Email-i u Ndryshua
       password_change:
