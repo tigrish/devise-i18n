@@ -55,7 +55,7 @@ de:
       email_changed:
         greeting: Hallo %{recipient}!
         message: Wir schreiben Ihnen, um Sie darüber zu informieren, dass Ihre E-Mail-Adresse zu %{email} geändert wurde.
-        message_unconfirmed:
+        message_unconfirmed: Wir schreiben Ihnen, um Sie darüber zu informieren, dass Ihre E-Mail-Adresse zu %{email} geändert wird.
         subject: E-Mail-Adresse geändert
       password_change:
         greeting: Hallo %{recipient}!
