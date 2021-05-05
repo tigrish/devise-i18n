@@ -1,3 +1,7 @@
+## 1.9.4
+
+- Updated de, el, fr, ja, sq, sr, and sr-RS translations.
+
 ## 1.9.3
 
 - Use a different message in email changed notification if email is unconfirmed. This is what devise does, but was missed here previously.
