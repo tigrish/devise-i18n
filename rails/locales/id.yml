@@ -40,7 +40,7 @@ id:
       invalid: "%{authentication_keys} atau password adalah tidak valid."
       last_attempt: Kesempatan terakhir sebelum akun Anda dikunci.
       locked: Akun anda terkunci.
-      not_found_in_database: "%{authentication_keys} atau password adalah tidak valid".
+      not_found_in_database: "%{authentication_keys} atau password adalah tidak valid."
       timeout: Sesi anda telah kadaluarsa, silahkan masuk lagi untuk melanjutkan.
       unauthenticated: Anda harus mendaftar atau masuk sebelum melanjutkan.
       unconfirmed: Anda harus melakukan konfirmasi email Anda sebelum melanjutkan.
@@ -73,7 +73,7 @@ id:
         message: Akun Anda telah dikunci karena terlalu banyak percobaan masuk yang gagal.
         subject: Instruksi untuk membuka kembali akun anda
     omniauth_callbacks:
-      failure: Tidak dapat melakukan autentikasi dari %{kind} karena "%{reason}".
+      failure: Tidak dapat melakukan autentikasi dari %{kind} karena "%{reason}."
       success: Berhasil melakukan autentikasi akun %{kind}.
     passwords:
       edit:
