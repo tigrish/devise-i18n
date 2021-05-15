@@ -53,7 +53,7 @@ tr:
       email_changed:
         greeting: Merhaba %{recipient}!
         message: E-posta adresin %{email} değiştirildiğinde seni bilgilendirmek için iletişime geçeceğiz.
-        message_unconfirmed:
+        message_unconfirmed: E-posta adresiniz %{email} olarak değiştirildiğinde sizi bilgilendirmek için iletişime geçeceğiz.
         subject: E-posta Değiştirildi
       password_change:
         greeting: Merhaba %{recipient}!
