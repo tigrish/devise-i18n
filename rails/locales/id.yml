@@ -37,7 +37,7 @@ id:
     failure:
       already_authenticated: Anda sudah masuk.
       inactive: Akun anda belum diaktifkan.
-      invalid: "%{authentication_keys} atau password adalah tidak valid".
+      invalid: "%{authentication_keys} atau password adalah tidak valid."
       last_attempt: Kesempatan terakhir sebelum akun Anda dikunci.
       locked: Akun anda terkunci.
       not_found_in_database: "%{authentication_keys} atau password adalah tidak valid".
