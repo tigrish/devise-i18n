@@ -9,6 +9,7 @@ group :development do
   gem 'localeapp'
   gem 'railties'
   gem 'activemodel'
+  gem 'omniauth-twitter'
 end
 
 gem 'devise', '>= 4.8.0'

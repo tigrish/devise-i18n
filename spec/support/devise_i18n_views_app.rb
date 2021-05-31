@@ -1,5 +1,6 @@
 require "action_controller/railtie"
 require "active_model"
+require 'omniauth-twitter'
 
 class User
   def email
@@ -15,7 +16,7 @@ class User
   end
   
   def self.omniauth_providers
-    []
+    [:twitter]
   end
   
   def remember_me

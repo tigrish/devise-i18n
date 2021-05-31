@@ -12,6 +12,9 @@ module DeviseI18n
         app = Class.new(Rails::Application)
         app.config.eager_load = false
         app.config.i18n.enforce_available_locales = false
+        app.config.middleware.use OmniAuth::Builder do
+          provider :twitter, "API_KEY", "API_SECRET"
+        end
 
         yield(app.config) if block_given?
 

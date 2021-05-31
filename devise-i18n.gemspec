@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
   s.authors = ["Christopher Dell".freeze, "mcasimir".freeze, "Jason Barnabe".freeze]
-  s.date = "2021-05-05"
+  s.date = "2021-05-31"
   s.description = "Translations for the devise gem".freeze
   s.email = "chris@tigrish.com".freeze
   s.extra_rdoc_files = [
@@ -134,6 +134,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<localeapp>.freeze, [">= 0"])
       s.add_development_dependency(%q<railties>.freeze, [">= 0"])
       s.add_development_dependency(%q<activemodel>.freeze, [">= 0"])
+      s.add_development_dependency(%q<omniauth-twitter>.freeze, [">= 0"])
     else
       s.add_dependency(%q<devise>.freeze, [">= 4.8.0"])
       s.add_dependency(%q<rspec>.freeze, [">= 2.8.0"])
@@ -144,6 +145,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<localeapp>.freeze, [">= 0"])
       s.add_dependency(%q<railties>.freeze, [">= 0"])
       s.add_dependency(%q<activemodel>.freeze, [">= 0"])
+      s.add_dependency(%q<omniauth-twitter>.freeze, [">= 0"])
     end
   else
     s.add_dependency(%q<devise>.freeze, [">= 4.8.0"])
@@ -155,6 +157,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<localeapp>.freeze, [">= 0"])
     s.add_dependency(%q<railties>.freeze, [">= 0"])
     s.add_dependency(%q<activemodel>.freeze, [">= 0"])
+    s.add_dependency(%q<omniauth-twitter>.freeze, [">= 0"])
   end
 end
 
