@@ -1,3 +1,9 @@
+## 1.10.0
+
+- Updated views for devise 4.8 as per https://github.com/heartcombo/devise/pull/5331. These changes are required to work with Omniauth v2 per https://github.com/heartcombo/devise/pull/5327, so if you generated views into your app (for customization), you should update or regenerate them.
+- Updated an English string per https://github.com/heartcombo/devise/pull/5315.
+- Updated id and tr translations.
+
 ## 1.9.4
 
 - Updated de, el, fr, ja, sq, sr, and sr-RS translations.
