@@ -53,7 +53,7 @@ pt-BR:
       email_changed:
         greeting: Olá %{recipient}!
         message: Estamos entrando em contato para notificá-lo de que seu e-mail está sendo alterado para %{email}.
-        message_unconfirmed:
+        message_unconfirmed: Estamos entrando em contato para notificá-lo de que seu e-mail está sendo alterado para %{email}.
         subject: E-mail alterado
       password_change:
         greeting: Olá %{recipient}!
