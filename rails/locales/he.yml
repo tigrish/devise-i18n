@@ -17,7 +17,7 @@ he:
         locked_at: ננעל ב
         password: סיסמא
         password_confirmation: אישור סיסמא
-        remember_created_at:
+        remember_created_at: זיכרון נוצר ב
         remember_me: זכור אותי
         reset_password_sent_at: איפוס סיסמא נשלח ב
         reset_password_token: טוקן איפוס סיסמא
@@ -53,7 +53,7 @@ he:
       email_changed:
         greeting: שלום %{recipient}!
         message: אנו כותבים אליך כדי ליידע אותך שהאימייל שלך שונה ל-%{email}.
-        message_unconfirmed:
+        message_unconfirmed: אנו כותבים אליך כדי ליידע אותך שאנחנו משנים את אימייל שלך ל-%{email}.
         subject: אימייל שונה
       password_change:
         greeting: שלום %{recipient}!
@@ -74,7 +74,7 @@ he:
         subject: הוראות להסרת נעילה
     omniauth_callbacks:
       failure: לא הצלחנו לאמת את זהותך מסוג %{kind} בגלל "%{reason}"
-      success:
+      success: אומת בהצלה מחשבון %{kind}
     passwords:
       edit:
         change_my_password: שנה סיסמא
