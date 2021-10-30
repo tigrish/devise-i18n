@@ -1,3 +1,5 @@
+
+
 ## 1.10.0
 
 - Updated views for devise 4.8 as per https://github.com/heartcombo/devise/pull/5331. These changes are required to work with Omniauth v2 per https://github.com/heartcombo/devise/pull/5327, so if you generated views into your app (for customization), you should update or regenerate them.
