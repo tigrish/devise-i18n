@@ -41,7 +41,7 @@ pl:
       already_authenticated: Jesteś już zalogowany.
       inactive: Twoje konto nie zostało jeszcze aktywowane.
       invalid: Błędny adres %{authentication_keys} lub hasło.
-      last_attempt: Masz jeszcze jedną próbę nim Twoje konto zostanie zablokowane.
+      last_attempt: Masz jeszcze jedną próbę, nim Twoje konto zostanie zablokowane.
       locked: Twoje konto jest zablokowane.
       not_found_in_database: Błędny adres %{authentication_keys} lub hasło.
       timeout: Sesja wygasła, aby kontynuować zaloguj się ponownie.
@@ -56,7 +56,7 @@ pl:
       email_changed:
         greeting: Witaj %{recipient}!
         message: Kontaktujemy się z Tobą, aby Cię poinformować o zmianie Twojego adresu e-mail na %{email}.
-        message_unconfirmed:
+        message_unconfirmed: Kontaktujemy się, by poinformować, że Twój adres e-mail został zmieniony na %{email}.
         subject: E-mail zmieniony
       password_change:
         greeting: Witaj %{recipient}!

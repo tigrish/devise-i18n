@@ -55,7 +55,7 @@ es-MX:
       email_changed:
         greeting: Hola %{recipient}!
         message: Te estamos contactando para notificarte que tu email ha cambiado a %{email}
-        message_unconfirmed:
+        message_unconfirmed: Te estamos contactando para notificarte que tu dirección de correo electrónico ha cambiado a %{email}
         subject: El email cambió
       password_change:
         greeting: "¡Hola %{recipient}!"

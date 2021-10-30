@@ -51,7 +51,7 @@
         instruction: 'Du kan bekrefte kontoen din gjennom linken nedenfor:'
         subject: Bekreftelsesinstruksjoner
       email_changed:
-        greeting:
+        greeting: Hei %{recipient}!
         message:
         message_unconfirmed:
         subject:
