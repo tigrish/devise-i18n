@@ -1,4 +1,6 @@
+## 1.10.1
 
+- Updated es-MX, fr, he, nb, no, pl, pt-BR, vi translations.
 
 ## 1.10.0
 
