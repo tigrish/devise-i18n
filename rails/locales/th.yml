@@ -37,10 +37,10 @@ th:
     failure:
       already_authenticated: คุณเข้าสู่ระบบแล้ว
       inactive: บัญชีของคุณยังไม่ถูกเปิดใช้งาน
-      invalid: "%{authentication_keys} หรือรหัสผ่านไม่ถูกต้อง"
+      invalid: '%{authentication_keys} หรือรหัสผ่านไม่ถูกต้อง'
       last_attempt: คุณสามารถผิดพลาดได้อีกครั้งก่อนที่บัญชีของคุณจะถูกล็อก
       locked: บัญชีของคุณถูกล็อก
-      not_found_in_database: "%{authentication_keys} หรือรหัสผ่านไม่ถูกต้อง"
+      not_found_in_database: '%{authentication_keys} หรือรหัสผ่านไม่ถูกต้อง'
       timeout: หน้าเว็บเกินระยะเวลาที่กำหนด กรุณาเข้าสู่ระบบอีกครั้งเพื่อดำเนินการต่อ
       unauthenticated: คุณต้องเข้าสู่ระบบหรือลงทะเบียนก่อนดำเนินการต่อ
       unconfirmed: คุณต้องยืนยันบัญชีก่อนดำเนินการต่อ
@@ -53,7 +53,7 @@ th:
       email_changed:
         greeting: สวัสดี %{recipient}
         message: เราติดต่อคุณในครั้งนี้เพื่อแจ้งให้ทราบว่าอีเมลของคุณได้ถูกเปลี่ยนเป็น %{email} สำเร็จแล้ว
-        message_unconfirmed:
+        message_unconfirmed: เราติดต่อคุณในครั้งนี้เพื่อแจ้งให้ทราบว่าอีเมลของคุณจะถูกเปลี่ยนเป็น %{email}
         subject: การเปลี่ยนแปลงอีเมลสำเร็จ
       password_change:
         greeting: สวัสดี %{recipient}
@@ -101,14 +101,14 @@ th:
         update: ปรับข้อมูล
         we_need_your_current_password_to_confirm_your_changes: เราต้องการรหัสผ่านปัจจุบันเพื่อยืนยันการเปลี่ยนรหัสของคุณ
       new:
-        sign_up: ออกจากระบบ
+        sign_up: สมัครสมาชิก
       signed_up: ยินดีต้อนรับ! คุณลงทะเบียนเรียบร้อยแล้ว
       signed_up_but_inactive: คุณลงทะเบียนเรียบร้อยแล้ว แต่การเข้าสู่ระบบล้มเหลวเนื่องจากบัญชีของคุณยังไม่ได้เปิดใช้งาน
       signed_up_but_locked: คุณลงทะเบียนเรียบร้อยแล้ว แต่การเข้าสู่ระบบล้มเหลวเนื่องจากบัญชีของคุณล็อก
       signed_up_but_unconfirmed: ข้อความพร้อมลิงค์สำหรับยืนยันได้ส่งไปยังอีเมล์ของคุณแล้ว กรุณาคลิกลิงค์นั้นเพื่อเปิดใช้งานบัญชี
       update_needs_confirmation: คุณได้อัพเดทบัญชีของคุณเรียบร้อยแล้ว แต่คุณต้องทำการยืนยันอีเมล์ใหม่นี้ กรุณาตรวจสอบอีเมล์และคลิกลิงค์เพื่อยืนยันที่อยู่อีเมล์ใหม่
-      updated: คุณอัพเดตบัญชีของคุณประสบความสำเร็จ
-      updated_but_not_signed_in:
+      updated: คุณอัพเดตบัญชีของคุณสำเร็จเรียบร้อยแล้ว
+      updated_but_not_signed_in: คุณอัพเดตบัญชีของคุณสำเร็จเรียบร้อยแล้ว แต่เนื่องจากคุณได้เปลี่ยนรหัสผ่าน คุณต้องเข้าสู่ระบบใหม่อีกครั้ง
     sessions:
       already_signed_out: ออกจากระบบเรียบร้อยแล้ว
       new:
@@ -123,8 +123,8 @@ th:
         forgot_your_password: ลืมรหัสผ่าน?
         sign_in: เข้าสู่ระบบ
         sign_in_with_provider: เข้าสู่ระบบด้วย%{provider}
-        sign_up: ออกจากระบบ
-      minimum_password_length: "(จำนวนตัวอักษรขั้นต่ำ %{count} ตัวอักษร)"
+        sign_up: สมัครสมาชิก
+      minimum_password_length: '(จำนวนตัวอักษรขั้นต่ำ %{count} ตัวอักษร)'
     unlocks:
       new:
         resend_unlock_instructions: ส่งคำขอปลดล็อคอีกครั้ง
@@ -138,4 +138,4 @@ th:
       expired: การยืนยันหมดอายุแล้ว กรุณาขอใหม่อีกครั้ง
       not_found: ไม่พบ
       not_locked: ไม่ถูกล็อก
-      not_saved: "%{count} ผิดพลาด %{resource} นี้ถูกห้ามบันทึก:"
+      not_saved: '%{count} ผิดพลาด %{resource} นี้ถูกห้ามบันทึก:'
