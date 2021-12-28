@@ -127,8 +127,8 @@ en:
         sign_in_with_provider: Sign in with %{provider}
         sign_up: Sign up
       minimum_password_length:
-        one: "(%{count} character minimum)"
-        other: "(%{count} characters minimum)"
+        one: '(%{count} character minimum)'
+        other: '(%{count} characters minimum)'
     unlocks:
       new:
         resend_unlock_instructions: Resend unlock instructions
@@ -144,4 +144,4 @@ en:
       not_locked: was not locked
       not_saved:
         one: '1 error prohibited this %{resource} from being saved:'
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        other: '%{count} errors prohibited this %{resource} from being saved:'
