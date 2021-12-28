@@ -66,7 +66,7 @@ it:
         greeting: Ciao %{recipient}!
         instruction: Qualcuno ha richiesto di resettare la tua password, se lo vuoi davvero puoi farlo cliccando sul link qui sotto.
         instruction_2: Se non sei stato tu ad effettuare questa richiesta puoi ignorare questa mail.
-        instruction_3: La tua password non cambierà finchè non accederai al link sopra.
+        instruction_3: La tua password non cambierà finché non accederai al link sopra.
         subject: Istruzioni per reimpostare la password
       unlock_instructions:
         action: Sblocca il mio account
@@ -75,7 +75,7 @@ it:
         message: Il tuo account è stato bloccato a seguito di un numero eccessivo di tentativi di accesso falliti.
         subject: Istruzioni per sbloccare l'account
     omniauth_callbacks:
-      failure: Non è stato possibile autorizzarti da %{kind} perchè "%{reason}".
+      failure: Non è stato possibile autorizzarti da %{kind} perché "%{reason}".
       success: Autorizzato con successo dall'account %{kind}.
     passwords:
       edit:
