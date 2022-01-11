@@ -1,6 +1,6 @@
 # devise-i18n
 
-[![Build Status](https://secure.travis-ci.org/tigrish/devise-i18n.png)](http://travis-ci.org/tigrish/devise-i18n)
+[![CI](https://github.com/tigrish/devise-i18n/actions/workflows/ci.yml/badge.svg)](https://github.com/tigrish/devise-i18n/actions/workflows/ci.yml)
 
 [Devise](https://github.com/plataformatec/devise) "is a flexible authentication solution for Rails based on Warden". Internationalization (aka i18n) is a "means of adapting computer software to different languages, regional differences and technical requirements of a target market".
 
