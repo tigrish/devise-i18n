@@ -37,10 +37,10 @@ th:
     failure:
       already_authenticated: คุณเข้าสู่ระบบแล้ว
       inactive: บัญชีของคุณยังไม่ถูกเปิดใช้งาน
-      invalid: '%{authentication_keys} หรือรหัสผ่านไม่ถูกต้อง'
+      invalid: "%{authentication_keys} หรือรหัสผ่านไม่ถูกต้อง"
       last_attempt: คุณสามารถผิดพลาดได้อีกครั้งก่อนที่บัญชีของคุณจะถูกล็อก
       locked: บัญชีของคุณถูกล็อก
-      not_found_in_database: '%{authentication_keys} หรือรหัสผ่านไม่ถูกต้อง'
+      not_found_in_database: "%{authentication_keys} หรือรหัสผ่านไม่ถูกต้อง"
       timeout: หน้าเว็บเกินระยะเวลาที่กำหนด กรุณาเข้าสู่ระบบอีกครั้งเพื่อดำเนินการต่อ
       unauthenticated: คุณต้องเข้าสู่ระบบหรือลงทะเบียนก่อนดำเนินการต่อ
       unconfirmed: คุณต้องยืนยันบัญชีก่อนดำเนินการต่อ
@@ -124,7 +124,7 @@ th:
         sign_in: เข้าสู่ระบบ
         sign_in_with_provider: เข้าสู่ระบบด้วย%{provider}
         sign_up: สมัครสมาชิก
-      minimum_password_length: '(จำนวนตัวอักษรขั้นต่ำ %{count} ตัวอักษร)'
+      minimum_password_length: "(จำนวนตัวอักษรขั้นต่ำ %{count} ตัวอักษร)"
     unlocks:
       new:
         resend_unlock_instructions: ส่งคำขอปลดล็อคอีกครั้ง
@@ -138,4 +138,4 @@ th:
       expired: การยืนยันหมดอายุแล้ว กรุณาขอใหม่อีกครั้ง
       not_found: ไม่พบ
       not_locked: ไม่ถูกล็อก
-      not_saved: '%{count} ผิดพลาด %{resource} นี้ถูกห้ามบันทึก:'
+      not_saved: "%{count} ผิดพลาด %{resource} นี้ถูกห้ามบันทึก:"
