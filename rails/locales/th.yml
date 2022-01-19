@@ -7,7 +7,7 @@ th:
         confirmed_at: ยืนยันตัวตนเมื่อ
         created_at: สร้างขึ้นเมื่อ
         current_password: รหัสผ่านปัจจุบัน
-        current_sign_in_at: เข็าสู่ระบบเมื่อ
+        current_sign_in_at: เข้าสู่ระบบเมื่อ
         current_sign_in_ip: IP ที่ใช้เข้าสู่ระบบ
         email: อีเมล
         encrypted_password: รหัสผ่านที่ถูกเข้ารหัส
