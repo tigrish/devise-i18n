@@ -116,7 +116,7 @@ Gem::Specification.new do |s|
     "rails/locales/zh-TW.yml",
     "rails/locales/zh-YUE.yml"
   ]
-  s.homepage = "http://github.com/tigrish/devise-i18n".freeze
+  s.homepage = "https://github.com/tigrish/devise-i18n".freeze
   s.licenses = ["MIT".freeze]
   s.rubygems_version = "3.0.3".freeze
   s.summary = "Translations for the devise gem".freeze
@@ -160,4 +160,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<omniauth-twitter>.freeze, [">= 0"])
   end
 end
-
