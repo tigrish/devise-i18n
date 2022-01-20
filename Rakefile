@@ -16,7 +16,7 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "devise-i18n"
-  gem.homepage = "http://github.com/tigrish/devise-i18n"
+  gem.homepage = "https://github.com/tigrish/devise-i18n"
   gem.license = "MIT"
   gem.summary = %Q{Translations for the devise gem}
   gem.description = %Q{Translations for the devise gem}
