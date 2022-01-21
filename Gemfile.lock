@@ -185,7 +185,6 @@ PLATFORMS
 
 DEPENDENCIES
   activemodel
-  bundler (~> 1.2)
   devise (>= 4.8.0)
   i18n-spec (~> 0.6.0)
   jeweler!
@@ -196,4 +195,4 @@ DEPENDENCIES
   rspec-rails
 
 BUNDLED WITH
-   1.17.2
+   2.3.5
