@@ -1,3 +1,7 @@
+## 1.10.2
+
+- Updated es, hr, it, nl, pt-BR, and th translations.
+
 ## 1.10.1
 
 - Updated es-MX, fr, he, nb, no, pl, pt-BR, vi translations.
