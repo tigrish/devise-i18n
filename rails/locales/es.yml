@@ -127,7 +127,7 @@ es:
         sign_in_with_provider: Iniciar sesión con %{provider}
         sign_up: Registrarse
       minimum_password_length:
-        one: "(%{count} caractere como mínimo)"
+        one: "(%{count} caracter como mínimo)"
         other: "(%{count} caracteres como mínimo)"
     unlocks:
       new:
