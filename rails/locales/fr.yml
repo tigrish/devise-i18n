@@ -4,8 +4,8 @@ fr:
       user:
         confirmation_sent_at: Date d'envoi de la confirmation
         confirmation_token: Clé de confirmation du mot de passe
-        confirmed_at: Confirmé à
-        created_at: Enregistré à
+        confirmed_at: Date de confirmation
+        created_at: "Date d'enregistrement"
         current_password: Mot de passe actuel
         current_sign_in_at: Date de la connexion actuelle
         current_sign_in_ip: IP de la connexion actuelle
