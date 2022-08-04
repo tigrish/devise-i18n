@@ -1,0 +1,147 @@
+eo:
+  activerecord:
+    attributes:
+      user:
+        confirmation_sent_at: Konfirmo sendita je
+        confirmation_token: Konfirma ĵetono
+        confirmed_at: Konfirmita je
+        created_at: Kreita je
+        current_password: Nuna pasvorto
+        current_sign_in_at: Nuna ensaluto je
+        current_sign_in_ip: Nuna ensaluto en IP
+        email: Retadreso
+        encrypted_password: Ĉifrita pasvorto
+        failed_attempts: Malsukcesaj provoj
+        last_sign_in_at: Lasta ensaluto je
+        last_sign_in_ip: Lasta ensaluto en IP
+        locked_at: Ŝlosita je
+        password: Pasvorto
+        password_confirmation: Konfirmo de pasvorto
+        remember_created_at: Memoru min kreita je
+        remember_me: Memoru min
+        reset_password_sent_at: Instrukcioj por ŝanĝi pasvorton sendita je
+        reset_password_token: Ĵetono por ŝanĝi pasvorton
+        sign_in_count: Nombro da ensalutoj
+        unconfirmed_email: Nekonfirmita retadreso
+        unlock_token: Ĵetono por malŝlosi
+        updated_at: Ĝisdatigita je
+    models:
+      user:
+        one: Uzanto
+        other: Uzantoj
+  devise:
+    confirmations:
+      confirmed: Via retadreso estis sukcese konfirmita.
+      new:
+        resend_confirmation_instructions: Sendi konfirminstrukciojn denove
+      send_instructions: Vi ricevos retmesaĝon kun instrukcioj por konfirmi vian retadreson ene de kelkaj minutoj. Bonvolu kontroli vian spamujon se vi ne ricevis ĉi tiun retmesaĝon.
+      send_paranoid_instructions: Se via retadreso ekzistas en nia datumbazo, vi ricevos retmesaĝon kun instrukcioj por konfirmi vian retadreson ene de kelkaj minutoj. Bonvolu kontroli vian spamujon se vi ne ricevis ĉi tiun retmesaĝon.
+    failure:
+      already_authenticated: Vi jam salutis.
+      inactive: Via konto ankoraŭ ne estas konfirmita.
+      invalid: Nevalida %{authentication_keys} aŭ pasvorto.
+      last_attempt: Vi ankoraŭ povas provi unufoje antaŭ ol via konto estos ŝlosita.
+      locked: Via konto estas ŝlosita.
+      not_found_in_database: Nevalida %{authentication_keys} aŭ pasvorto.
+      timeout: Via seanco eksvalidiĝis. Bonvolu ensaluti denove por daŭrigi.
+      unauthenticated: Vi devas ensaluti aŭ registriĝi antaŭ ol daŭrigi.
+      unconfirmed: Vi devas konfirmi vian retadreson antaŭ ol daŭrigi.
+    mailer:
+      confirmation_instructions:
+        action: Konfirmi mian konton
+        greeting: Bonvenon %{recipient}!
+        instruction: 'Vi povas konfirmi vian retadreson per la suba ligilo:'
+        subject: Konfirminstrukcioj
+      email_changed:
+        greeting: Saluton %{recipient}!
+        message: Ni kontaktas vin por sciigi vin, ke via retadreso estas ŝanĝita al %{email}.
+        message_unconfirmed: Ni kontaktas vin por sciigi vin, ke via retadreso estas ŝanĝanta al %{email}.
+        subject: Retadreso ŝanĝita
+      password_change:
+        greeting: Saluton %{recipient}!
+        message: Ni kontaktas vin por sciigi vin, ke via pasvorto estas ŝanĝita.
+        subject: Pasvorto ŝanĝita
+      reset_password_instructions:
+        action: Ŝanĝi mian pasvorton
+        greeting: Saluton %{recipient}!
+        instruction: Iu petis ligilon por ŝanĝi vian pasvorton. Vi povas fari tion per la suba ligilo.
+        instruction_2: Se vi ne petis tion, bonvolu ignori ĉi tiun retmesaĝon.
+        instruction_3: Via pasvorto ne ŝanĝiĝos ĝis vi aliros la supran ligilon kaj kreos novan.
+        subject: Instrukcioj por ŝanĝi pasvorton
+      unlock_instructions:
+        action: Malŝlosi mian konton
+        greeting: Saluton %{recipient}!
+        instruction: 'Alklaku la suban ligilon por malŝlosi vian konton:'
+        message: Via konto estis ŝlosita pro troa nombro da malsukcesaj ensalutprovoj.
+        subject: Instrukcioj por malŝlosi
+    omniauth_callbacks:
+      failure: 'Ni ne povis aŭtentigi vin per %{kind}: ''%{reason}''.'
+      success: Aŭtentigita sukcese per %{kind}.
+    passwords:
+      edit:
+        change_my_password: Ŝanĝi mian pasvorton
+        change_your_password: Ŝanĝi vian pasvorton
+        confirm_new_password: Konfirmi novan pasvorton
+        new_password: Nova pasvorto
+      new:
+        forgot_your_password: Ĉu vi forgesis vian pasvorton?
+        send_me_reset_password_instructions: Sendu al mi instrukciojn por ŝanĝi mian pasvorton
+      no_token: Vi ne povas aliri al ĉi tiu paĝo alimaniere ol per retmesaĝo por ŝanĝi pasvorton. Se vi venas de tia retmesaĝo, bonvolu certiĝi, ke vi uzas la tutan URL-on donitan.
+      send_instructions: Vi ricevos ligilon por havi novan pasvorton ĉe via retadreso ene de kelkaj minutoj. Bonvolu kontroli vian spamujon se vi ne ricevis ĉi tiun retmesaĝon.
+      send_paranoid_instructions: Se via retadreso ekzistas en nia datumbazo, vi ricevos ligilon por havi novan pasvorton ĉe via retadreso ene de kelkaj minutoj. Bonvolu kontroli vian spamujon se vi ne ricevis ĉi tiun retmesaĝon.
+      updated: Via pasvorto estis sukcese ŝanĝita. Vi nun estas ensalutinta.
+      updated_not_active: Via pasvorto estis sukcese ŝanĝita.
+    registrations:
+      destroyed: Ĝis! Via konto estis sukcese forigita. Ni esperas revidi vin baldaŭ.
+      edit:
+        are_you_sure: Ĉu vi certas?
+        cancel_my_account: Nuligi mian konton
+        currently_waiting_confirmation_for_email: 'Nuntempe atendas konfirmon por: %{email}'
+        leave_blank_if_you_don_t_want_to_change_it: lasu malplena se vi ne volas ŝanĝi ĝin
+        title: Modifi %{resource}
+        unhappy: Malfeliĉa?
+        update: Ĝisdatigi
+        we_need_your_current_password_to_confirm_your_changes: ni bezonas vian nunan pasvorton por konfirmi viajn ŝanĝojn
+      new:
+        sign_up: Registriĝi
+      signed_up: Bonvenon! Vi sukcese registriĝis.
+      signed_up_but_inactive: Vi sukcese registriĝis. Tamen, ni ne povis ensalutigi vin, ĉar via konto ankoraŭ ne estas konfirmita.
+      signed_up_but_locked: Vi sukcese registriĝis. Tamen, ni ne povis ensalutigi vin, ĉar via konto estas ŝlosita.
+      signed_up_but_unconfirmed: Mesaĝo kun konfirma ligilo estis sendita al via retpoŝta adreso. Bonvolu alklaki la ligilon por konfirmi vian retadreson.
+      update_needs_confirmation: Vi sukcese ĝisdatigis vian konton, sed ni bezonas kontroli vian novan retadreson. Bonvolu kontroli viajn retmesaĝojn kaj sekvi la konfirman ligilon por konfirmi vian novan retadreson. Bonvolu kontroli vian spamujon, se vi ne ricevis ĉi tiun retmesaĝon.
+      updated: Via konto estis sukcese ĝisdatigita.
+      updated_but_not_signed_in: Via konto estis sukcese ĝisdatigita, sed ĉar via pasvorto estis ŝanĝita, vi devas ensaluti denove.
+    sessions:
+      already_signed_out: Sukcese adiaŭis.
+      new:
+        sign_in: Saluti
+      signed_in: Sukcese salutis.
+      signed_out: Sukcese adiaŭis.
+    shared:
+      links:
+        back: Reveni
+        didn_t_receive_confirmation_instructions: Ĉu vi ne ricevis konfirminstrukciojn?
+        didn_t_receive_unlock_instructions: Ĉu vi ne ricevis instrukciojn por malŝlosi vian konton?
+        forgot_your_password: Ĉu vi forgesis vian pasvorton?
+        sign_in: Saluti
+        sign_in_with_provider: Saluti per %{provider}
+        sign_up: Registriĝi
+      minimum_password_length:
+        one: "(minimume %{count} signo)"
+        other: "(minimume %{count} signoj)"
+    unlocks:
+      new:
+        resend_unlock_instructions: Sendi instrukciojn por malŝlosi denove
+      send_instructions: Vi ricevos retmesaĝon kun instrukcioj por malŝlosi vian konton ene de kelkaj minutoj. Bonvolu kontroli vian spamujon, se vi ne ricevis ĉi tiun retmesaĝon.
+      send_paranoid_instructions: Se via konto ekzistas, vi ricevos retmesaĝon kun instrukcioj por malŝlosi ĝin ene de kelkaj minutoj. Bonvolu kontroli vian spamujon se vi ne ricevis ĉi tiun retmesaĝon.
+      unlocked: Via konto estis sukcese malŝlosita. Bonvolu ensaluti por daŭrigi.
+  errors:
+    messages:
+      already_confirmed: jam estis konfirmita, bonvolu provi saluti
+      confirmation_period_expired: devas esti konfirmita ene de %{period}, bonvolu peti denove
+      expired: eksvalidiĝis, bonvolu peti denove
+      not_found: ne estis trovita
+      not_locked: ne estis ŝlosita
+      not_saved:
+        one: '1 eraro malpermesis al ĉi tiu %{resource} esti konservita:'
+        other: "%{count} eraroj malpermesis al ĉi tiu %{resource} esti konservita:"
