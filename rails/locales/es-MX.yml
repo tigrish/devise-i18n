@@ -127,8 +127,8 @@ es-MX:
         sign_in_with_provider: Iniciar sesión con %{provider}
         sign_up: Registrarse
       minimum_password_length:
-        one: "(Mínimo %{count} caracter)"
-        other: "(Minimo %{count} caracteres)"
+        one: "(Mínimo %{count} carácter)"
+        other: "(Mínimo %{count} caracteres)"
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instrucciones para desbloquear la cuenta
