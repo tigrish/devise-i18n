@@ -85,7 +85,6 @@ es-CL:
         new_password: Contraseña nueva
       new:
         forgot_your_password: "¿Has olvidado tu contraseña?"
-        send_instructions: Enviarme instrucciones
       no_token: No puedes acceder a esta página si no es a través de un enlace para restablecer tu contraseña. Si has llegado hasta aquí desde el correo para restablecer tu contraseña, por favor asegúrate de que la URL introducida está completa.
       send_instructions: En unos minutos recibirás un correo con instrucciones sobre cómo restablecer tu contraseña.
       send_paranoid_instructions: Si tu correo existe en nuestra base de datos, recibirás en tu bandeja de entrada un correo con instrucciones sobre cómo restablecer tu contraseña.
@@ -104,7 +103,6 @@ es-CL:
         we_need_your_current_password_to_confirm_your_changes: necesitamos tu contraseña actual para confirmar los cambios
       new:
         sign_up: Crear cuenta
-        minimum_length: "Largo mínimo: %{len}"
       signed_up: Bienvenida/o. Tu cuenta ha sido creada.
       signed_up_but_inactive: Tu cuenta ha sido creada. Sin embargo, no puedes iniciar sesión ya que tu cuenta aún no ha sido activada.
       signed_up_but_locked: Tu cuenta ha sido creada. Sin embargo, no es posible iniciar la sesión porque que tu cuenta se encuentra bloqueada.
@@ -115,23 +113,24 @@ es-CL:
     sessions:
       already_signed_out: Se ha cerrado la sesión con éxito.
       new:
-        log_in: Iniciar sesión
+        sign_in: Iniciar sesión
       signed_in: Sesión iniciada.
       signed_out: Sesión finalizada.
+    shared:
+      links:
+        back: Regresar
+        didn_t_receive_confirmation_instructions: "¿No has recibido las instrucciones de confirmación?"
+        didn_t_receive_unlock_instructions: "¿No has recibido instrucciones para desbloquear tu cuenta?"
+        forgot_your_password: ¿Olvidaste tu contraseña?
+        sign_in: Iniciar sesión
+        sign_in_with_provider: Iniciar sesión con %{provider}
+        sign_up: Registrarse
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instrucciones para desbloquear la cuenta
       send_instructions: En unos minutos recibirás instrucciones para desbloquear tu cuenta.
       send_paranoid_instructions: Si tu cuenta existe, en unos minutos recibirás instrucciones para desbloquear tu cuenta.
       unlocked: Tu cuenta ha sido desbloqueada. Ya puedes iniciar sesión.
-    common:
-      forgot_your_password: ¿Olvidaste tu contraseña?
-      back: Regresar
-      didn_t_receive_confirmation_instructions: "¿No has recibido las instrucciones de confirmación?"
-      didn_t_receive_unlock_instructions: "¿No has recibido instrucciones para desbloquear tu cuenta?"
-      login: Iniciar sesión
-      sign_in_with_provider: Iniciar sesión con %{provider}
-      sign_up: Registrarse
   errors:
     messages:
       already_confirmed: ya fue confirmada, por favor intenta iniciar sesión
