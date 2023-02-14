@@ -61,14 +61,14 @@ th:
         subject: การเปลี่ยนแปลงรหัสผ่านสำเร็จ
       reset_password_instructions:
         action: เปลี่ยนรหัสผ่านของฉัน
-        greeting: สวัสดีคุณ%{recipient}!
+        greeting: สวัสดีคุณ %{recipient}!
         instruction: ทางเวบได้รับคำขอเปลี่ยนรหัสผ่านของคุณ และคุณสามารถตั้งรหัสผ่านใหม่จากลิงค์ข้างล่างนี้
         instruction_2: ถ้าคุณไม่ได้ขอเปลี่ยนรหัสผ่าน กรุณาเพิกเฉยต่อเมล์ฉบับนี้
         instruction_3: รหัสผ่านของคุณยังไม่ได้ถูกเปลี่ยนแปลง จนกว่าคุณจะเข้าลิงค์ด้านบนนี้และตั้งรหัสผ่านใหม่
         subject: คำแนะนำการตั้งค่ารหัสผ่าน
       unlock_instructions:
         action: ปลดล็อคบัญชีของฉัน
-        greeting: สวัสดีคุณ%{recipient}!
+        greeting: สวัสดีคุณ %{recipient}!
         instruction: 'คลิกลิงค์ทางด้านล่างนี้เพื่อปลดล็อคบัญชีของคุณ:'
         message: บัญชีของคุณโดนล็อค เนื่องจากคุณใส่รหัสผ่านผิดเกินจำนวนครั้งที่ทางเรากำหนด
         subject: คำแนะนำการปลดล็อก
@@ -96,7 +96,7 @@ th:
         cancel_my_account: ยกเลิกบัญชีของฉัน
         currently_waiting_confirmation_for_email: ขณะนี้ ระบบรอการยืนยันอีเมล์ %{email} อยู่
         leave_blank_if_you_don_t_want_to_change_it: เว้นว่างไว้ถ้าคุณไม่ต้องการจะเปลี่ยนแปลง
-        title: แก้ไข%{resource}
+        title: แก้ไข %{resource}
         unhappy: ไม่พอใจ
         update: ปรับข้อมูล
         we_need_your_current_password_to_confirm_your_changes: เราต้องการรหัสผ่านปัจจุบันเพื่อยืนยันการเปลี่ยนรหัสของคุณ
@@ -122,7 +122,7 @@ th:
         didn_t_receive_unlock_instructions: ไม่ได้รับคำขอปลดล็อค?
         forgot_your_password: ลืมรหัสผ่าน?
         sign_in: เข้าสู่ระบบ
-        sign_in_with_provider: เข้าสู่ระบบด้วย%{provider}
+        sign_in_with_provider: เข้าสู่ระบบด้วย %{provider}
         sign_up: สมัครสมาชิก
       minimum_password_length: "(จำนวนตัวอักษรขั้นต่ำ %{count} ตัวอักษร)"
     unlocks:
