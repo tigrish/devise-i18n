@@ -1,3 +1,9 @@
+## 1.10.3
+
+- Updated ar (Arabic), es (Spanish), es-CO (Spanish - Columbia), es-MX (Spanish - Mexico), fr (French), th (Thai), and uk (Ukrainian) translations.
+- Added es-CL (Spanish - Chile) and eo (Esperanto) translation.
+- Fixed a bug with relative paths when creating scoped views - https://github.com/tigrish/devise-i18n/pull/318
+
 ## 1.10.2
 
 - Updated es, hr, it, nl, pt-BR, and th translations.
