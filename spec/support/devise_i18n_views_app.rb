@@ -25,12 +25,22 @@ class User
   def reset_password_token
   end
 
-  def model_name
+  def self.model_name
     ActiveModel::Name.new(self.class)
   end
 
+  def model_name
+    self.class.model_name
+  end
+
   def errors
-    ActiveModel::Errors.new(self)
+    errors = ActiveModel::Errors.new(self)
+    errors.add(:base, :invalid)
+    errors
+  end
+
+  def self.human_attribute_name(attribute, options = {})
+    attribute
   end
 end
 USER = User.new

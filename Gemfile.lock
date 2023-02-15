@@ -1,4 +1,15 @@
 GIT
+  remote: https://github.com/heartcombo/devise.git
+  revision: 2d655ea46e0267c05fd6a389fa3156f33fcc9856
+  specs:
+    devise (4.9.0.alpha)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 4.1.0)
+      responders
+      warden (~> 1.2.3)
+
+GIT
   remote: https://github.com/technicalpickles/jeweler
   revision: 2ab86309fc2494ba2a4e9c86c514742cd4f681c2
   ref: 2ab86309fc2494ba2a4e9c86c514742cd4f681c2
@@ -46,12 +57,6 @@ GEM
     crass (1.0.6)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
-    devise (4.8.1)
-      bcrypt (~> 3.0)
-      orm_adapter (~> 0.1)
-      railties (>= 4.1.0)
-      responders
-      warden (~> 1.2.3)
     diff-lcs (1.5.0)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
@@ -194,7 +199,7 @@ PLATFORMS
 
 DEPENDENCIES
   activemodel
-  devise (>= 4.8.0)
+  devise (>= 4.9.0.alpha)!
   i18n-spec (~> 0.6.0)
   jeweler!
   localeapp
