@@ -1,3 +1,11 @@
+## 1.11.0
+
+- Updated views for devise 4.9 per:
+  - https://github.com/heartcombo/devise/commit/f08e0ad24aa6fec6f585247c0465e0d46c6d8a94
+  - https://github.com/heartcombo/devise/commit/88625d488f43bfc804b3c63437b463e71e9211b5
+  - https://github.com/heartcombo/devise/commit/49ed129c4057569761278467ea2ab331223a1b80
+- Adjust how the resource name is looked up in registrations/edit.html.erb to match devise's lookup.
+
 ## 1.10.3
 
 - Updated ar (Arabic), es (Spanish), es-CO (Spanish - Columbia), es-MX (Spanish - Mexico), fr (French), th (Thai), and uk (Ukrainian) translations.
