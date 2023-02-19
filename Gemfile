@@ -11,4 +11,4 @@ group :development do
   gem 'omniauth-twitter'
 end
 
-gem 'devise', '>= 4.9.0.alpha', github: 'heartcombo/devise'
+gem 'devise', '>= 4.9.0'
