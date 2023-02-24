@@ -55,7 +55,7 @@ sq:
       email_changed:
         greeting: Tungjatjeta %{recipient}!
         message: Po lidhemi me ju për t’ju njoftuar se email-i juaj po ndryshohet në %{email}.
-        message_unconfirmed:
+        message_unconfirmed: 
         subject: Email-i u Ndryshua
       password_change:
         greeting: Tungjatjeta %{recipient}!
@@ -110,7 +110,7 @@ sq:
       signed_up_but_unconfirmed: Te adresa juaj email është dërguar një mesazh me një lidhje ripohimi. Që të aktivizoni llogarinë tuaj, ju lutemi, ndiqni lidhjen.
       update_needs_confirmation: E përditësuat me sukses llogarinë tuaj, por na duhet të verifikojmë adresën tuaj të re email. Ju lutemi, për të ripohuar adresën tuaj të re email, shihni te email-et tuaj dhe ndiqni lidhjen e ripohimit.
       updated: Llogaria juaj u përditësua me sukses.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Dolët me sukses.
       new:

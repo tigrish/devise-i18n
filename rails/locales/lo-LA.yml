@@ -2,29 +2,29 @@ lo-LA:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at:
-        confirmation_token:
-        confirmed_at:
-        created_at:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: ລະຫັດຜ່ານປັດຈຸບັນ
-        current_sign_in_at:
-        current_sign_in_ip:
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: ອີເມລ
-        encrypted_password:
-        failed_attempts:
-        last_sign_in_at:
-        last_sign_in_ip:
-        locked_at:
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: ລະຫັດຜ່ານ
         password_confirmation: ການຢືນຢັນລະຫັດຜ່ານ
-        remember_created_at:
+        remember_created_at: 
         remember_me: ຈື່ຂ້ອຍໄວ້
-        reset_password_sent_at:
+        reset_password_sent_at: 
         reset_password_token: ຕັ້ງ token ລະຫັດຜ່ານຄືນໃໝ່
-        sign_in_count:
-        unconfirmed_email:
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: ປົດລັອກ token
-        updated_at:
+        updated_at: 
     models:
       user: ຜູ່ໃຊ້
   devise:
@@ -37,10 +37,10 @@ lo-LA:
     failure:
       already_authenticated: ທ່ານໄດ້ເຂົ້າສູ່ລະບົບແລ້ວ.
       inactive: ບັນຊີຂອງທ່ານຖືກເປີດໃຊ້ງານເທື່ອ.
-      invalid:
+      invalid: 
       last_attempt: ທ່ານສາມາດລອງໄດ້ອີກຄັ້ງນຶ່ງ ກ່ອນທີ່ບັນຊີຂອງທ່ານຈະຖືກລັອກ.
       locked: ບັນຊີຂອງທ່ານຖືກລັອກ.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: ກຳນົດເວລານຳໃຊ້ຂອງທ່ານໝົດລົງແລ້ວ. ກະລຸນາເຂົ້າສູ່ລະບົບອີກຄັ້ງເພື່ອດຳເນີນການຕໍ່.
       unauthenticated: ທ່ານຕ້ອງເຂົ້າສູ່ລະບົບ ຫຼື ສະໝັກກ່ອນຈະດຳເນີນການຕໍ່ໄດ້.
       unconfirmed: ທ່ານຕ້ອງຢືນຢັນທີ່ຢູ່ອີເມວກ່ອນຈະດຳເນີນການຕໍ່ໄດ້.
@@ -51,10 +51,10 @@ lo-LA:
         instruction: 'ທ່ານສາມາດຢືັນຢັນບັນຊີຂອງທ່ານຜ່ານລິ້ງລຸ່ມນີ້:'
         subject: ຂັ້ນຕອນການຢືນຢັນ
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: 
+        message: 
+        message_unconfirmed: 
+        subject: 
       password_change:
         greeting: ສະບາຍດີ %{recipient}!
         message: ພວກເຮົາກຳລັງຕິດຕໍ່ຫາທ່ານເພື່ອເຕືອນໃຫ້ຮູ້ວ່າລະຫັດຜ່ານຂອງທ່ານໄດ້ຖືກປ່ຽນແລ້ວ.
@@ -108,7 +108,7 @@ lo-LA:
       signed_up_but_unconfirmed: ຂໍ້ຄວາມພ້ອມລິ້ງຢືນຢັນໄດ້ຖືກສົ່ງໄປທີ່ທີ່ຢູ່ອີເມວຂອງທ່ານ. ກະລຸນານຳລິ້ງໄປເພື່ອເປີດນຳໃຊ້ບັນຊີຂອງທ່ານ.
       update_needs_confirmation: ທ່ານໄດ້ອັບເດດບັນຊີຂອງທ່ານສຳເລັດແລ້ວ, ແຕ່ພວກເຮົາຕ້ອງໄດ້ຢັ້ງຢືນທີ່ຢູ່ອີເມວໃໝ່ຂອງທ່ານໄດ້. ກະລຸນາກວດອີເມວຂອງທ່ານຄືນ ແລະ ຕາມລິ້ງໄປເພື່ອຢືນຢັນທີ່ຢູ່ອີເມວໃໝ່ຂອງທ່ານ.
       updated: ບັນຊີຂອງທ່ານໄດ້ຖືກອັບເດດສຳເລັດແລ້ວ.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: ອອກຈາກລະບົບສຳເລັດແລ້ວ.
       new:
@@ -124,7 +124,7 @@ lo-LA:
         sign_in: ເຂົ້າສູ່ລະບົບ
         sign_in_with_provider: ເຂົ້າສູ່ລະບົບດ້ວຍ %{provider}
         sign_up: ສະໝັກ
-      minimum_password_length:
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: ສົ່ງຂັ້ນຕອນການປົດລັອກໃໝ່

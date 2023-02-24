@@ -53,7 +53,7 @@ ca:
       email_changed:
         greeting: Hola %{recipient}!
         message: Et contactem per avisar-vos que el vostre correu electrònic s'ha modificat a %{email}.
-        message_unconfirmed:
+        message_unconfirmed: 
         subject: S'ha canviat el correu electrònic
       password_change:
         greeting: Hola, %{recipient}!
@@ -108,7 +108,7 @@ ca:
       signed_up_but_unconfirmed: S'ha enviat un missatge amb un enllaç de confirmació al teu correu electrònic. Obre l'enllaç per activar el teu compte.
       update_needs_confirmation: Has actualitzat el teu compte correctament, però cal confirmar el teu nou correu electrònic. Si us plau, comprova el teu correu i segueix l'enllaç de confirmació per finalitzar la comprovació del nou correu eletrònic.
       updated: Has actualitzat el teu compte correctament.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Desconnectat satisfactoriament.
       new:

@@ -2,29 +2,29 @@ en-GB:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at:
-        confirmation_token:
-        confirmed_at:
-        created_at:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: Current password
-        current_sign_in_at:
-        current_sign_in_ip:
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: Email
-        encrypted_password:
-        failed_attempts:
-        last_sign_in_at:
-        last_sign_in_ip:
-        locked_at:
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: Password
         password_confirmation: Password confirmation
-        remember_created_at:
+        remember_created_at: 
         remember_me: Remember me
-        reset_password_sent_at:
+        reset_password_sent_at: 
         reset_password_token: Reset password token
-        sign_in_count:
-        unconfirmed_email:
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: Unlock token
-        updated_at:
+        updated_at: 
     models:
       user:
         one: User
@@ -39,10 +39,10 @@ en-GB:
     failure:
       already_authenticated: You are already signed in.
       inactive: Your account was not activated yet.
-      invalid:
+      invalid: 
       last_attempt: You have one more attempt before your account will be locked.
       locked: Your account is locked.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Your session expired, please sign in again to continue.
       unauthenticated: You need to sign in or sign up before continuing.
       unconfirmed: You have to confirm your account before continuing.
@@ -53,10 +53,10 @@ en-GB:
         instruction: 'You can confirm your account email through the link below:'
         subject: Confirmation instructions
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: 
+        message: 
+        message_unconfirmed: 
+        subject: 
       password_change:
         greeting: Hello %{recipient}!
         message: We're contacting you to notify you that your password has been changed.
@@ -112,7 +112,7 @@ en-GB:
       signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please open the link to activate your account.
       update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalise confirming your new email address.
       updated: You updated your account successfully.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Signed out successfully.
       new:
@@ -128,7 +128,7 @@ en-GB:
         sign_in: Sign in
         sign_in_with_provider: Sign in with %{provider}
         sign_up: Sign up
-      minimum_password_length:
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Resend unlock instructions

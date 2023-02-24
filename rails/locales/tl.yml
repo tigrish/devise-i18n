@@ -2,31 +2,31 @@ tl:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at:
-        confirmation_token:
-        confirmed_at:
-        created_at:
-        current_password:
-        current_sign_in_at:
-        current_sign_in_ip:
-        email:
-        encrypted_password:
-        failed_attempts:
-        last_sign_in_at:
-        last_sign_in_ip:
-        locked_at:
-        password:
-        password_confirmation:
-        remember_created_at:
-        remember_me:
-        reset_password_sent_at:
-        reset_password_token:
-        sign_in_count:
-        unconfirmed_email:
-        unlock_token:
-        updated_at:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
+        current_password: 
+        current_sign_in_at: 
+        current_sign_in_ip: 
+        email: 
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
+        password: 
+        password_confirmation: 
+        remember_created_at: 
+        remember_me: 
+        reset_password_sent_at: 
+        reset_password_token: 
+        sign_in_count: 
+        unconfirmed_email: 
+        unlock_token: 
+        updated_at: 
     models:
-      user:
+      user: 
   devise:
     confirmations:
       confirmed: Ang iyong email address ay matagumpay na nakumpirma.
@@ -37,10 +37,10 @@ tl:
     failure:
       already_authenticated: Naka-sign in ka na.
       inactive: Hindi pa na-activate ang iyong account.
-      invalid:
+      invalid: 
       last_attempt: Mayroon kang isa pang pagtatangka bago mai-lock ang iyong account.
       locked: Naka-lock ang iyong account.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Na-expire na ang iyong session. Mag-sign in ulit para magpatuloy.
       unauthenticated: Kailangan mong mag-sign in o mag-sign up bago magpatuloy.
       unconfirmed: Kailangan mong kumpirmahin ang iyong email address bago magpatuloy.
@@ -51,10 +51,10 @@ tl:
         instruction: 'Maaari mong kumpirmahin ang iyong account email sa pamamagitan ng link sa ibaba:'
         subject: Mga Tagubilin ng Pagkumpirma
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: 
+        message: 
+        message_unconfirmed: 
+        subject: 
       password_change:
         greeting: Hello %{recipient}!
         message: Kami'y nakikipag-ugnay sa iyo para abisuhan (notify) ka na nabago ang iyong password.
@@ -108,7 +108,7 @@ tl:
       signed_up_but_unconfirmed: Isang mensahe na may link sa pagkumpirma ay ipinadala sa iyong email address. Paki-sundan ang link upang maisaaktibo ang iyong account.
       update_needs_confirmation: Matagumpay mong na-update ang iyong account, ngunit kailangan naming i-verify ang iyong bagong email address. Paki-suri ng iyong email at sundin ang link ng kumpirmasyon upang kumpirmahin ang iyong bagong email address..
       updated: Matagumpay na na-update ang iyong account.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Matagumpay na nakapag-sign out.
       new:
@@ -124,7 +124,7 @@ tl:
         sign_in: Mag-sign in
         sign_in_with_provider: Mag-sign in gamit ang %{provider}
         sign_up: Mag-sign up
-      minimum_password_length:
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Muling ipadala ang mga tagubilin sa pag-unlock

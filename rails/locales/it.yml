@@ -55,7 +55,7 @@ it:
       email_changed:
         greeting: Ciao %{recipient}!
         message: Ti stiamo contattando per notificarti che la tua email è stata cambiata in %{email}.
-        message_unconfirmed:
+        message_unconfirmed: 
         subject: Email modificata
       password_change:
         greeting: Ciao %{recipient}!

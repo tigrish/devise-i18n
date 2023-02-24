@@ -35,16 +35,16 @@ sr:
     confirmations:
       confirmed: Vaš nalog je uspešno potvrđen. Sada ste prijavljeni.
       new:
-        resend_confirmation_instructions:
+        resend_confirmation_instructions: 
       send_instructions: U roku od nekoliko minuta primićete ePoruku sa uputstvom za potvrdu Vašeg naloga.
       send_paranoid_instructions: Ukoliko se Vaša adresa ePošte nalazi u našoj bazi u roku od nekoliko minuta primićete ePoruku sa uputstvom kako potvrditi Vaš nalog.
     failure:
       already_authenticated: Već ste prijavljeni.
       inactive: Vaš nalog još nije aktiviran.
-      invalid:
+      invalid: 
       last_attempt: Imate još jedan pokušaj pre nego što Vaš nalog bude zaključan.
       locked: Vaš nalog je zaključan.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Vreme trajanja Vaše sesije je isteklo. Za nastavak prijavite se ponovo.
       unauthenticated: Za nastavak se morate prijaviti ili registrovati.
       unconfirmed: Pre nastavka morate potvrditi svoj nalog.
@@ -74,7 +74,7 @@ sr:
         action: Otključaj moj nalog
         greeting: Zdravo %{recipient}!
         instruction: 'Klikni na link ispod za otključavanje svog naloga:'
-        message:
+        message: 
         subject: Uputstvo za otključavanje korisničkog naloga
     omniauth_callbacks:
       failure: Nismo u mogućnosti autorizovati Vas sa %{kind} nalogom zbog "%{reason}".
@@ -87,7 +87,7 @@ sr:
         new_password: Nova lozinka
       new:
         forgot_your_password: Zaboravljena lozinka?
-        send_me_reset_password_instructions:
+        send_me_reset_password_instructions: 
       no_token: Ne možete pristupiti ovoj stranici ako niste škljocnuli na vezu u ePoruci za resetovanje lozinke.
       send_instructions: U roku od nekoliko minuta primitićete ePoruku sa uputstvom za promenu Vaše lozinke.
       send_paranoid_instructions: Ukoliko se Vaša adresa ePošte nalazi u našoj bazi, na istu ćete u roku od nekoliko minuta primiti link za resetovanje lozinke.
@@ -98,12 +98,12 @@ sr:
       edit:
         are_you_sure: Da li ste sigurni?
         cancel_my_account: Otkaži moj nalog
-        currently_waiting_confirmation_for_email:
-        leave_blank_if_you_don_t_want_to_change_it:
-        title:
+        currently_waiting_confirmation_for_email: 
+        leave_blank_if_you_don_t_want_to_change_it: 
+        title: 
         unhappy: Nezadovoljni?
         update: Izmeni
-        we_need_your_current_password_to_confirm_your_changes:
+        we_need_your_current_password_to_confirm_your_changes: 
       new:
         sign_up: Registruj se
       signed_up: Dobrodošli! Uspešno ste se registrovali.
@@ -112,26 +112,26 @@ sr:
       signed_up_but_unconfirmed: Poruka s linkom za potvrdu je poslata na Vašu adresu ePošte. Kliknite na vezu da aktivirate svoj nalog.
       update_needs_confirmation: Uspešno ste ažurirali svoj nalog, ali trebamo potvrditi Vašu adresu ePošte. Proverite svoje sanduče sa porukama i kliknite na vezu za potvrdu.
       updated: Uspešno ste izmenili svoj nalog.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
-      already_signed_out:
+      already_signed_out: 
       new:
         sign_in: Prijavi se
       signed_in: Uspešno ste se prijavili.
       signed_out: Uspešno ste se odjavili.
     shared:
       links:
-        back:
-        didn_t_receive_confirmation_instructions:
-        didn_t_receive_unlock_instructions:
-        forgot_your_password:
+        back: 
+        didn_t_receive_confirmation_instructions: 
+        didn_t_receive_unlock_instructions: 
+        forgot_your_password: 
         sign_in: Prijavi se
-        sign_in_with_provider:
-        sign_up:
-      minimum_password_length:
+        sign_in_with_provider: 
+        sign_up: 
+      minimum_password_length: 
     unlocks:
       new:
-        resend_unlock_instructions:
+        resend_unlock_instructions: 
       send_instructions: U roku od nekoliko minuta ćete primiti ePoruku sa uputstvom za otključavanje Vašeg naloga.
       send_paranoid_instructions: Ako Vaš nalog postoji, na adresu svoje ePošte ćete u roku od nekoliko minuta primiti uputstvo kako ga otključati.
       unlocked: Vaš nalog je uspešno otključan. Sada se možete prijaviti.

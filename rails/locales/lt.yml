@@ -2,88 +2,88 @@ lt:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at:
-        confirmation_token:
-        confirmed_at:
-        created_at:
-        current_password:
-        current_sign_in_at:
-        current_sign_in_ip:
-        email:
-        encrypted_password:
-        failed_attempts:
-        last_sign_in_at:
-        last_sign_in_ip:
-        locked_at:
-        password:
-        password_confirmation:
-        remember_created_at:
-        remember_me:
-        reset_password_sent_at:
-        reset_password_token:
-        sign_in_count:
-        unconfirmed_email:
-        unlock_token:
-        updated_at:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
+        current_password: 
+        current_sign_in_at: 
+        current_sign_in_ip: 
+        email: 
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
+        password: 
+        password_confirmation: 
+        remember_created_at: 
+        remember_me: 
+        reset_password_sent_at: 
+        reset_password_token: 
+        sign_in_count: 
+        unconfirmed_email: 
+        unlock_token: 
+        updated_at: 
     models:
-      user:
+      user: 
   devise:
     confirmations:
       confirmed: Jūsų e-pašto adresas sėkmingai patvirtintas.
       new:
-        resend_confirmation_instructions:
+        resend_confirmation_instructions: 
       send_instructions: Už keleto minučių sulauksite elektroninio laiško su instrukcijomis kaip patvirtinti jūsų vartotojo paskyrą.
       send_paranoid_instructions: Jei esatę prisiregistravę šiuo e-pašto adresu, už keleto minučių sulauksite elektroninio laiško su instrukcijomis kaip patvirtinti jūsų vartotojo paskyrą
     failure:
       already_authenticated: Jūs jau prisijungęs.
       inactive: Jūsų paskyra dar neaktyvuota.
-      invalid:
+      invalid: 
       last_attempt: Jums liko paskutinis bandymas prieš užblokuojant paskyrą.
       locked: Jūsų paskyra laikinai užblokuota.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Jūsų sesija baigta. Prisijunkite iš naujo norėdami tęsti.
       unauthenticated: Būtina prisijungti arba prisiregistruoti prieš tęsiant.
       unconfirmed: Būtina patvirtinti e-pašto adresą prieš tęsiant.
     mailer:
       confirmation_instructions:
-        action:
-        greeting:
-        instruction:
+        action: 
+        greeting: 
+        instruction: 
         subject: Paskyros patvirtinimo instrukcijos
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: 
+        message: 
+        message_unconfirmed: 
+        subject: 
       password_change:
-        greeting:
-        message:
-        subject:
+        greeting: 
+        message: 
+        subject: 
       reset_password_instructions:
-        action:
-        greeting:
-        instruction:
-        instruction_2:
-        instruction_3:
+        action: 
+        greeting: 
+        instruction: 
+        instruction_2: 
+        instruction_3: 
         subject: Slaptažodžio keitimo instrukcijos
       unlock_instructions:
-        action:
-        greeting:
-        instruction:
-        message:
+        action: 
+        greeting: 
+        instruction: 
+        message: 
         subject: Paskyros atblokavimo instrukcijos
     omniauth_callbacks:
       failure: 'Nepavyko autentikaciją per %{kind}, klaida: "%{reason}".'
       success: Sėkmingai prisijungėte su savo %{kind} paskyra.
     passwords:
       edit:
-        change_my_password:
-        change_your_password:
-        confirm_new_password:
-        new_password:
+        change_my_password: 
+        change_your_password: 
+        confirm_new_password: 
+        new_password: 
       new:
-        forgot_your_password:
-        send_me_reset_password_instructions:
+        forgot_your_password: 
+        send_me_reset_password_instructions: 
       no_token: Jūs negalite pasiekti šio puslapio tiesiogiai, tą turite padaryti iš slaptažodžio keitimo laiško. Jei jūs atėjote naudodami nuorodą, pateiktą slaptažodžio keitimo laiške, įsitikinkite, kad nukopijavote ją visą.
       send_instructions: Jūs gausite el. laišką su slaptažodžio pakeitimo instrukcijomis netrukus.
       send_paranoid_instructions: Jei prisiregistravote šiuo e-pašto adresu, netrukus gausite el. laišką su slaptažodžio pakeitimo instrukcijomis.
@@ -92,42 +92,42 @@ lt:
     registrations:
       destroyed: Iki! Jūsų paskyra dabar yra panaikinta. Tikimės, kad ateityje sugrįšite.
       edit:
-        are_you_sure:
-        cancel_my_account:
-        currently_waiting_confirmation_for_email:
-        leave_blank_if_you_don_t_want_to_change_it:
-        title:
-        unhappy:
-        update:
-        we_need_your_current_password_to_confirm_your_changes:
+        are_you_sure: 
+        cancel_my_account: 
+        currently_waiting_confirmation_for_email: 
+        leave_blank_if_you_don_t_want_to_change_it: 
+        title: 
+        unhappy: 
+        update: 
+        we_need_your_current_password_to_confirm_your_changes: 
       new:
-        sign_up:
+        sign_up: 
       signed_up: Sveiki, jūs sėkmingai prisiregistravote.
       signed_up_but_inactive: Jūs sėkmingai prisiregistravote. Deja dar negalime jūsų prijungti, nes jūsų paskyra nėra aktyvuota.
       signed_up_but_locked: Jūs sėkmingai prisiregistravote. Deja dar negalime jūsų prijungti, nes jūsų paskyra laikinai užblokuota.
       signed_up_but_unconfirmed: El. laiškas buvo išsiųstas jūsų pateiktu adresu. Sekite nuorodą laiške paskyrai aktyvuoti.
       update_needs_confirmation: Jūsų paskyra sėkmingai atnaujinta, tačiau mums reikia patvirtinti jūsų naują el. pašto adresą. Prašome pasitikrinkite savo e-paštą ir sekite instrukcijas laiške.
       updated: Jūsų duomenys sėkmingai atnaujinti.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Jau esate atsijungę.
       new:
-        sign_in:
+        sign_in: 
       signed_in: Jūs prisijungėte.
       signed_out: Sėkmingai atsijungėte iš savo paskyros.
     shared:
       links:
-        back:
-        didn_t_receive_confirmation_instructions:
-        didn_t_receive_unlock_instructions:
-        forgot_your_password:
-        sign_in:
-        sign_in_with_provider:
-        sign_up:
-      minimum_password_length:
+        back: 
+        didn_t_receive_confirmation_instructions: 
+        didn_t_receive_unlock_instructions: 
+        forgot_your_password: 
+        sign_in: 
+        sign_in_with_provider: 
+        sign_up: 
+      minimum_password_length: 
     unlocks:
       new:
-        resend_unlock_instructions:
+        resend_unlock_instructions: 
       send_instructions: Netrukus sulauksite el. laiško su instrukcijomis, kaip atblokuoti paskyrą.
       send_paranoid_instructions: Jei registracijai naudojote šį e-pašto adresą, netrukus sulauksite el. laiško su instrukcijomis, kaip atblokuoti paskyrą.
       unlocked: Jūsų paskyra atblokuota. Prisijunkite prie paskyros darbui tęsti.

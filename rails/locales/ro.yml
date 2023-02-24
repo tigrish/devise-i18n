@@ -53,7 +53,7 @@ ro:
       email_changed:
         greeting: Bună %{recipient}!
         message: Te contactăm pentru a te informa că adresa ta de email va fi înlocuită cu %{email}.
-        message_unconfirmed:
+        message_unconfirmed: 
         subject: Adresă de email actualizată
       password_change:
         greeting: Bună %{recipient}!
@@ -108,7 +108,7 @@ ro:
       signed_up_but_unconfirmed: Un mesaj cu un link de confirmare a fost trimis la adresa dvs. de e-mail. Vă rugăm sa deschideți link-ul pentru a activa contul.
       update_needs_confirmation: Aţi actualizat contul dvs. de succes, dar avem nevoie să verificăm adresa dvs. de e-mail. Vă rugăm să verificați adresa de email şi faceţi clic pe link-ul de confirmă pentru a finaliza confirmarea adresei dvs. de e-mail.
       updated: Aţi actualizat contul dvs. cu succes.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Deautentificarea s-a efectuat cu success.
       new:

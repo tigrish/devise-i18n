@@ -53,7 +53,7 @@ km:
       email_changed:
         greeting: សួស្តី! %{recipient}
         message: សូមជូនដំណឹងអំពីការផ្លាស់ប្តូរអ៊ីមែល %{email} របស់អ្នក។
-        message_unconfirmed:
+        message_unconfirmed: 
         subject: ការផ្លាស់ប្តូរអ៊ីមែលត្រូវបានបញ្ចប់រួចរាល់ហើយ។
       password_change:
         greeting: សួស្តី! %{recipient}

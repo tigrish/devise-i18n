@@ -2,29 +2,29 @@ af:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at:
-        confirmation_token:
-        confirmed_at:
-        created_at:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: Huidige wagwoord
-        current_sign_in_at:
-        current_sign_in_ip:
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: E-pos
-        encrypted_password:
-        failed_attempts:
-        last_sign_in_at:
-        last_sign_in_ip:
-        locked_at:
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: Wagwoord
         password_confirmation: Wagwoord bevestiging
-        remember_created_at:
+        remember_created_at: 
         remember_me: Onthou my
-        reset_password_sent_at:
+        reset_password_sent_at: 
         reset_password_token: Herstel wagwoord egtheidsbewys
-        sign_in_count:
-        unconfirmed_email:
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: Ontsluit egtheidsbewys
-        updated_at:
+        updated_at: 
     models:
       user: Gebruiker
   devise:
@@ -37,10 +37,10 @@ af:
     failure:
       already_authenticated: Jy is alreeds aangeteken.
       inactive: Jou rekening is nog nie geaktiveer nie.
-      invalid:
+      invalid: 
       last_attempt: Jy het nog een poging voor jou rekening gesluit sal word.
       locked: Jou rekening is gesluit.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Jou sessie het verstryk. Teken asseblief aan om voort te gaan.
       unauthenticated: Jy moet aanteken of inteken voor jy voortgaan.
       unconfirmed: Jy moet jou e-posadres bevestig voor jy voortgaan.
@@ -51,10 +51,10 @@ af:
         instruction: 'Jy kan jou rekening e-pos bevestig deur die onderstaande skakel:'
         subject: Bevestigingsinstruksies
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: 
+        message: 
+        message_unconfirmed: 
+        subject: 
       password_change:
         greeting: Hallo %{recipient}!
         message: Ons kontak jou om jou in kennis te stel dat jou wagwoord verander is.
@@ -108,7 +108,7 @@ af:
       signed_up_but_unconfirmed: "'n Boodskap met 'n bevestigingsskakel was gestuur na jou e-posadres. Volg asseblief die skakel om jou rekening te aktiveer."
       update_needs_confirmation: Jy het jou rekening suksesvol opgedateer, maar ons moet eerst jou nuwe e-posadres verifieer. Kyk asseblief na jou e-posse en volg die bevestigingsskakel om jou nuwe e-posadres te bevestig.
       updated: Jou rekening was suksesvol opgedateer.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Suksesvol uitgeteken.
       new:
@@ -124,7 +124,7 @@ af:
         sign_in: Teken aan
         sign_in_with_provider: Teken aan met %{provider}
         sign_up: Teken in
-      minimum_password_length:
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Stuur weer ontsluitingsinstruksies

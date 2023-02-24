@@ -53,7 +53,7 @@ lv:
       email_changed:
         greeting: Sveicināti, %{recipient}!
         message: Informējam, ka Jūsu epasts ir nomainīts uz %{email}.
-        message_unconfirmed:
+        message_unconfirmed: 
         subject: Epasts nomainīts
       password_change:
         greeting: Sveicināti, %{recipient}!
@@ -108,7 +108,7 @@ lv:
       signed_up_but_unconfirmed: Jums ir nosūtīts e-pasts ar reģistrācijas apstiprinājuma saiti. Lūdzu, atveriet šo saiti, lai aktivizētu Jūsu lietotāju.
       update_needs_confirmation: Jūsu labotās izmaiņas ir veiksmīgi saglabātas, bet mums ir jāpārbauda Jūsu jaunā e-pasta adrese. Lūdzu, pārbaudiet Jūsu e-pastu un uzklikšķiniet uz apstiprinājuma saites, lai pabeigtu Jūsu jaunās e-pasta adreses apstiprināšanu.
       updated: Jūsu labotās izmaiņas ir veiksmīgi saglabātas.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Veiksmīgi atslēdzies.
       new:

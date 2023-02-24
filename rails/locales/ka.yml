@@ -2,29 +2,29 @@ ka:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at:
-        confirmation_token:
-        confirmed_at:
-        created_at:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: მიმდინარე პაროლი
-        current_sign_in_at:
-        current_sign_in_ip:
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: ელ-ფოსტა
-        encrypted_password:
-        failed_attempts:
-        last_sign_in_at:
-        last_sign_in_ip:
-        locked_at:
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: პაროლი
         password_confirmation: პაროლის დადასტურება
-        remember_created_at:
+        remember_created_at: 
         remember_me: დამიმახსოვრე
-        reset_password_sent_at:
+        reset_password_sent_at: 
         reset_password_token: პაროლის მარკერის გადატვირთვა
-        sign_in_count:
-        unconfirmed_email:
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: მარკერის გახსნა
-        updated_at:
+        updated_at: 
     models:
       user: 'მომხმარებელი
 
@@ -39,10 +39,10 @@ ka:
     failure:
       already_authenticated: თქვენ უკვე ავტორიზირებული ხართ.
       inactive: თქვენი ანგარი ჯერ არ არის აქტივირებული.
-      invalid:
+      invalid: 
       last_attempt: თქვენ გაქვთ კიდევ ერთი ცდა სანამ თქვენი ანგარიში ჩაიკეტება.
       locked: თქვენი ანგარიში ჩაკეტილია.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: თქვენი სეანსი დასრულებულია.
       unauthenticated: გასაგრძელებლად თქვენ უნდა გაიაროთ ავტორიზაცია ან დარეგისტრირდეთ.
       unconfirmed: გაგრძელებისთვის თქვენ უნდა დაადასტუროთ თქვენი ელ-ფოსტის მისამართი.
@@ -53,10 +53,10 @@ ka:
         instruction: 'თქვენ შეგიძლიათ დაადასტუროთ თქვენი ანგარიშის ელ-ფოსტა ქვემო ბმულით:'
         subject: ინსტრუქცია დასადასტურებლად
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: 
+        message: 
+        message_unconfirmed: 
+        subject: 
       password_change:
         greeting: გამარჯობა %{recipient}!
         message: ჩვენ გატყობინებთ რომ თქვენი პაროლი შეიცვალა.
@@ -110,7 +110,7 @@ ka:
       signed_up_but_unconfirmed: დამადასტურებელი ბმული გამოიგზავნა თქვენს ელ-ფოსტის მისამართზე. გთხოვთ მიჰყვეთ ბმულს თქვენი ანგარიშის გასააქტიურებლად.
       update_needs_confirmation: თქვენ წარმატებით განაახლეთ თქვენი ანგარიში, მაგრამ ჩვენ უნდა დავადასტუროთ თქვენი ახალი ელ-ფოსტის მისამართი. გთხოვთ შეამოწმოთ თქვენი ელ-ფოსტა და მიჰყვეთ დამადასტურებელ ბმულს რათა დაადასტუროთ თქვენი ახალი ელ-ფოსტის მისამართი.
       updated: თქვენი ანგარიში განახლებულია წარმატებით.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: თქვენ წარმატებით გამოხვედით სისტემიდან.
       new:
@@ -126,7 +126,7 @@ ka:
         sign_in: ავთენტიკაცია
         sign_in_with_provider: "%{provider}-ით ავთენტიკაცია"
         sign_up: რეგისტრაცია
-      minimum_password_length:
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: 'ხელახლა ანგარიშის გახსნის ინსტრუქციის გაგზავნა '

@@ -53,7 +53,7 @@ zh-TW:
       email_changed:
         greeting: "%{recipient} 您好！"
         message: 我們寫信是爲了通知您，您的信箱已被修改爲 %{email}。
-        message_unconfirmed:
+        message_unconfirmed: 
         subject: 信箱已被修改
       password_change:
         greeting: "%{recipient} 您好！"

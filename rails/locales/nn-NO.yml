@@ -37,10 +37,10 @@ nn-NO:
     failure:
       already_authenticated: Du er allereie innlogga.
       inactive: Kontoen din er ikkje aktivert enno.
-      invalid:
+      invalid: 
       last_attempt: Du har berre eitt forsøk til før kontoen din blir låst.
       locked: Kontoen din er låst.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Økta di er utgått. Logg inn på nytt for å halde fram.
       unauthenticated: Du må logge inn eller registrere deg før du kan halde fram.
       unconfirmed: Du må stadfeste e-posten din før du kan halde fram.
@@ -51,10 +51,10 @@ nn-NO:
         instruction: 'Du kan stadfeste kontoen din med å klikke på lenka under:'
         subject: Instruksjonar for å stadfeste
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: 
+        message: 
+        message_unconfirmed: 
+        subject: 
       password_change:
         greeting: Hei %{recipient}!
         message: Vi kontaktar deg for å gi deg eit varsel om at passordet ditt har blitt endra.
@@ -108,7 +108,7 @@ nn-NO:
       signed_up_but_unconfirmed: Ei melding med stadfestingslenke er blitt sendt til e-postadressen din. Følg lenka for å aktivere kontoen din.
       update_needs_confirmation: Du har oppdatert kontoen din, men vi treng å stadfeste di nye e-postadresse. Sjekk e-posten din og følg lenka for å stadfeste di nye e-postadresse.
       updated: Kontoen din har blitt oppdatert.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Du er utlogga.
       new:
@@ -124,7 +124,7 @@ nn-NO:
         sign_in: Logg inn
         sign_in_with_provider: Logg inn med %{provider}
         sign_up: Registrer
-      minimum_password_length:
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Send instruksjonar på nytt for å låse opp konto

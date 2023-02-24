@@ -53,7 +53,7 @@ is:
       email_changed:
         greeting: Halló %{recipient}!
         message: Við erum að láta þig vita að  tölvupóstfangi þínu verði breytt í %{email}.
-        message_unconfirmed:
+        message_unconfirmed: 
         subject: Tölvupósti breytt
       password_change:
         greeting: Halló %{recipient}!
@@ -108,7 +108,7 @@ is:
       signed_up_but_unconfirmed: Staðfestingartengill hefur verið sendur á netfangið þitt. Vinsamlegast smelltu á tengilinn til að virkja aðganginn.
       update_needs_confirmation: Aðgangurinn þinn hefur verið uppfærður, en þú þarft að staðfesta netfangið þitt. Vinsamlegast skoðaðu tölvupóstinn þinn og smelltu á staðfestingartengilinn til þess að staðfesta netfangið.
       updated: Aðgangurinn þinn hefur verið uppfærður.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Útskráning tókst.
       new:

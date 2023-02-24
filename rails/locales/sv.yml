@@ -53,7 +53,7 @@ sv:
       email_changed:
         greeting: Hej %{recipient}!
         message: Vi kontaktar dig för att meddela att din e-post ändras till %{email}.
-        message_unconfirmed:
+        message_unconfirmed: 
         subject: E-post ändrades
       password_change:
         greeting: Hej %{recipient}!

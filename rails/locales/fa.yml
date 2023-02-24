@@ -53,7 +53,7 @@ fa:
       email_changed:
         greeting: سلام %{recipient}!
         message: با شما تماس گرفته ایم تا شما را مطلع کنیم که ایمیل شما به %{email} تغییر کرده است.
-        message_unconfirmed:
+        message_unconfirmed: 
         subject: تغییر ایمیل
       password_change:
         greeting: سلام %{recipient}!

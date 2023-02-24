@@ -53,7 +53,7 @@ ar:
       email_changed:
         greeting: أهلا %{recipient} !
         message: نتصل بك لإخبارك أنّ عنوان بريدك الإلكتروني قد تم تغييره إلى %{email}.
-        message_unconfirmed:
+        message_unconfirmed: 
         subject: تم تغيير عنوان البريد الإلكتروني
       password_change:
         greeting: مرحباً %{recipient}
@@ -108,7 +108,7 @@ ar:
       signed_up_but_unconfirmed: تم إرسال رسالة بها رابط التأكيد إلى عنوان بريدك الإلكتروني. الرجاء اتباع الرابط لتفعيل حسابك.
       update_needs_confirmation: لقد قمت بتحديث حسابك بنجاح، ولكن نحتاج إلى تأكيد عنوان بريدك الإلكتروني الجديد. الرجاء التحقق من بريدك الإلكتروني واتباع رابط التأكيد لتأكيد عنوان بريدك الإلكتروني الجديد.
       updated: تم تحديث حسابك بنجاح.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: تم تسجيل الخروج بنجاح.
       new:
@@ -124,7 +124,7 @@ ar:
         sign_in: تسجيل الدخول
         sign_in_with_provider: تسجيل الدخول باستخدام %{provider}
         sign_up: التسجيل
-      minimum_password_length:
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: إعادة إرسال تعليمات إلغاء القفل

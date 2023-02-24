@@ -85,7 +85,7 @@ es-CL:
         new_password: Contraseña nueva
       new:
         forgot_your_password: "¿Has olvidado tu contraseña?"
-        send_me_reset_password_instructions:
+        send_me_reset_password_instructions: 
       no_token: No puedes acceder a esta página si no es a través de un enlace para restablecer tu contraseña. Si has llegado hasta aquí desde el correo para restablecer tu contraseña, por favor asegúrate de que la URL introducida está completa.
       send_instructions: En unos minutos recibirás un correo con instrucciones sobre cómo restablecer tu contraseña.
       send_paranoid_instructions: Si tu correo existe en nuestra base de datos, recibirás en tu bandeja de entrada un correo con instrucciones sobre cómo restablecer tu contraseña.
@@ -126,7 +126,7 @@ es-CL:
         sign_in: Iniciar sesión
         sign_in_with_provider: Iniciar sesión con %{provider}
         sign_up: Registrarse
-      minimum_password_length:
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instrucciones para desbloquear la cuenta

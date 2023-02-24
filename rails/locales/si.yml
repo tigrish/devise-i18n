@@ -51,10 +51,10 @@ si:
         instruction: 'පහත දැක්වෙන සබැඳිය ඔස්සේ ඔබේ ගිණුමේ විද්යුත් තැපැල් ගිණුම තහවුරු කළ හැකිය:'
         subject: තහවුරු කිරීමේ උපදෙස්
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: 
+        message: 
+        message_unconfirmed: 
+        subject: 
       password_change:
         greeting: ආයුබෝවන් %{recipient}!
         message: ඔබගේ මුරපදය වෙනස් කර ඇති බව දැනුම් දෙන ලෙස අපි ඔබව අමතන්නෙමු.
@@ -108,7 +108,7 @@ si:
       signed_up_but_unconfirmed: තහවුරු කිරීමේ සබැඳියක් සහිත පණිවිඩයක් ඔබගේ ඊමේල් ලිපිනය වෙත යවා ඇත. කරුණාකර ඔබගේ ගිණුම ක්රියාත්මක කිරීම සඳහා සබැඳිය අනුගමනය කරන්න.
       update_needs_confirmation: ඔබගේ ගිණුම සාර්ථකව යාවත්කාලීන කර ඇත, නමුත් අප ඔබගේ නව ඊ-තැපැල් ලිපිනය සත්යාපනය කළ යුතුය. කරුණාකර ඔබගේ ඊමේල් ලිපිනය පරීක්ෂා කර තහවුරු කිරීමේ සබැඳිය අනුගමනය කරන්න.
       updated: ඔබගේ ගිණුම සාර්ථකව යාවත්කාලීන කර ඇත.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: සාර්ථකව ගිණුමෙන් පිටවෙන ලදී.
       new:
@@ -124,7 +124,7 @@ si:
         sign_in: ගිණුමට ඇතුළුවන්න
         sign_in_with_provider: ඇතුළුවන්න සමගින්  %{provider}
         sign_up: ලියාපදිංචි වන්න
-      minimum_password_length:
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: 'ඇගුළු හැරීමේ උපදෙස් නැවත එවන්න '

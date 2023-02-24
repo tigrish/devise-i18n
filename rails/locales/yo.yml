@@ -2,29 +2,29 @@ yo:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at:
-        confirmation_token:
-        confirmed_at:
-        created_at:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: ọ̀rọ̀ aṣínà lọ́wọ́lọ́wọ́
-        current_sign_in_at:
-        current_sign_in_ip:
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: í-meèlì
-        encrypted_password:
-        failed_attempts:
-        last_sign_in_at:
-        last_sign_in_ip:
-        locked_at:
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: 'ọ̀rọ̀ aṣínà '
         password_confirmation: ìfàṣẹsí ọ̀rọ̀ aṣínà
-        remember_created_at:
+        remember_created_at: 
         remember_me: Rántí mi
-        reset_password_sent_at:
+        reset_password_sent_at: 
         reset_password_token: Tún ọ̀rọ̀ aṣínà tè
-        sign_in_count:
-        unconfirmed_email:
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: Síí àmì
-        updated_at:
+        updated_at: 
     models:
       user: aṣàmúlò
   devise:
@@ -37,10 +37,10 @@ yo:
     failure:
       already_authenticated: ẹ̀ ti wọlé síbẹ́síbẹ́
       inactive: àkántì rẹ  ko ṣiṣẹ síbẹ́síbẹ́
-      invalid:
+      invalid: 
       last_attempt: O ní ànfààní ìgbìnyànjú kan si kí a tó tii àkántì rẹ pa
       locked: àkántì re tii tì pa
-      not_found_in_database:
+      not_found_in_database: 
       timeout: ìgbà re tii parí. Jọ̀wọ́ wọlé lẹẹkan si láti tẹ̀síwájú
       unauthenticated: O nílọ̀ láti wọlé kí o tó tẹ̀síwájú
       unconfirmed: Wà ni láti fi àṣẹsí  í-meèlì rẹ kí o tó tẹ̀síwájú
@@ -51,10 +51,10 @@ yo:
         instruction: O lé fi àṣẹsí àkántì í-meèlì rẹ pẹ̀lú ìtọ́kasí ni isalẹ
         subject: ìmúdájú ìlànà
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: 
+        message: 
+        message_unconfirmed: 
+        subject: 
       password_change:
         greeting: Ẹ ǹlẹ́ o %{recipient}
         message: A n kàn sí yin láti sọ fún yín wípé a ti pa ọ̀rọ̀ aṣínà yín padà
@@ -130,7 +130,7 @@ yo:
       updated: 'A ti ṣàfikún àkántì rẹ pẹ̀lú àṣeyọrí
 
         '
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: O jáde pẹ̀lú àṣeyọrí
       new:
@@ -146,7 +146,7 @@ yo:
         sign_in: Wọlé
         sign_in_with_provider: Wọlé pẹ̀lú %{provider}
         sign_up: Forúkọsílẹ̀
-      minimum_password_length:
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: 'Fi kọ́kọ́rọ́ ilana ṣọwó lẹ́ẹ̀kàn si

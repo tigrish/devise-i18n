@@ -57,7 +57,7 @@ hi:
       email_changed:
         greeting: नमस्ते! %{recipient}!
         message: हम आपको यह सूचित करने के लिए संपर्क कर रहे हैं कि आपका ईमेल %{email} में बदला जा रहा है।
-        message_unconfirmed:
+        message_unconfirmed: 
         subject: ईमेल बदला गया
       password_change:
         greeting: नमस्ते %{recipient}!
@@ -112,7 +112,7 @@ hi:
       signed_up_but_unconfirmed: आपके ईमेल पते पर एक पुष्टिकरण लिंक के साथ एक संदेश भेजा गया है। कृपया अपने खाते को सक्रिय करने के लिए लिंक का अनुसरण करें।
       update_needs_confirmation: आपने अपना खाता सफलतापूर्वक अपडेट कर दिया है, लेकिन हमें आपके नए ईमेल पते को सत्यापित करना होगा। कृपया अपना ईमेल देखें और अपने नए ईमेल पते की पुष्टि करने के लिए पुष्टि लिंक का अनुसरण करें।
       updated: आपका खाता सफलतापूर्वक अपडेट कर दिया गया है।
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: सफलतापूर्वक साइन आउट किए गए।
       new:

@@ -2,29 +2,29 @@ be:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at:
-        confirmation_token:
-        confirmed_at:
-        created_at:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: Сучасны пароль
-        current_sign_in_at:
-        current_sign_in_ip:
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: Email
-        encrypted_password:
-        failed_attempts:
-        last_sign_in_at:
-        last_sign_in_ip:
-        locked_at:
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: Пароль
         password_confirmation: пацвердзіце пароль
-        remember_created_at:
+        remember_created_at: 
         remember_me: Запомніць мяне
-        reset_password_sent_at:
+        reset_password_sent_at: 
         reset_password_token: Спасылка скіду пароля
-        sign_in_count:
-        unconfirmed_email:
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: Токен разблакоўкі
-        updated_at:
+        updated_at: 
     models:
       user: Карыстальнік
   devise:
@@ -37,10 +37,10 @@ be:
     failure:
       already_authenticated: Вы ўжо ўвайшлі ў сістэму.
       inactive: Ваш уліковы запіс яшчэ не актываваны.
-      invalid:
+      invalid: 
       last_attempt: У вас засталася апошняя спроба ўводу пароля да блакавання ўліковага запісу.
       locked: Ваш уліковы запіс заблакаваны.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Ваш сеанс скончыўся. Калі ласка, увайдзіце ў сістэму зноў.
       unauthenticated: Вам трэба ўвайсці ў сістэму ці зарэгістравацца
       unconfirmed: Вы павінны пацвердзіць ваш уліковы запіс.
@@ -51,10 +51,10 @@ be:
         instruction: 'Вы можаце актываваць свой уліковы запіс, націснуўшы спасылку знізу:'
         subject: Інструкцыі па пацверджанні ўліковага запісу
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: 
+        message: 
+        message_unconfirmed: 
+        subject: 
       password_change:
         greeting: Вітаны, %{recipient}!
         message: Мы спрабуем звязацца з вамі, каб паведаміць, што ваш пароль быў зменены.
@@ -108,7 +108,7 @@ be:
       signed_up_but_unconfirmed: Ліст са спасылкай для пацверджання быў адпраўлена на ваш адрас эл. пошты. Калі ласка, перайдзіце па спасылцы, каб пацвердзіць уліковы запіс.
       update_needs_confirmation: Вы паспяхова абнавілі дадзеныя ўліковага запісу, але трэба пацвердзіць новы адрас эл. пошты. Калі ласка, праверце паштовую скрынку і перайдзіце па спасылцы, каб скончыць працэдуру праверкі новага адраса
       updated: Ваш уліковы запіс зменены.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Выйсце з сістэмы ўжо выкананае.
       new:
@@ -124,7 +124,7 @@ be:
         sign_in: Увайсці
         sign_in_with_provider: 'Увайсці з дапамогай:  %{provider}'
         sign_up: Рэгістрацыя
-      minimum_password_length:
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Выслаць пацверджанне зноўку

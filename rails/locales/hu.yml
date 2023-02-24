@@ -2,29 +2,29 @@ hu:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at:
-        confirmation_token:
-        confirmed_at:
-        created_at:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: Jelenlegi jelszó
-        current_sign_in_at:
-        current_sign_in_ip:
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: E-mail
-        encrypted_password:
-        failed_attempts:
-        last_sign_in_at:
-        last_sign_in_ip:
-        locked_at:
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: Jelszó
         password_confirmation: Jelszó megerősítése
-        remember_created_at:
+        remember_created_at: 
         remember_me: Megjegyez
-        reset_password_sent_at:
-        reset_password_token:
-        sign_in_count:
-        unconfirmed_email:
-        unlock_token:
-        updated_at:
+        reset_password_sent_at: 
+        reset_password_token: 
+        sign_in_count: 
+        unconfirmed_email: 
+        unlock_token: 
+        updated_at: 
     models:
       user: Felhasználó
   devise:
@@ -37,10 +37,10 @@ hu:
     failure:
       already_authenticated: Már belépett.
       inactive: A fiók még nincs aktiválva.
-      invalid:
+      invalid: 
       last_attempt: Már csak egy próbálkozási lehetőség maradt, mielőtt a fiók zárolásra kerül.
       locked: A fiók zárolva lett.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: A munkafolyamat lejárt. Újboli bejelentkezés szükséges.
       unauthenticated: A folytatáshoz bejelentkezés szükséges.
       unconfirmed: A folytatáshoz az email cím megerősítése szükséges.
@@ -51,14 +51,14 @@ hu:
         instruction: 'A fiók megerősítéséhez rá kell kattintani az alábbi linkre:'
         subject: Email cím megerősítés
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: 
+        message: 
+        message_unconfirmed: 
+        subject: 
       password_change:
-        greeting:
-        message:
-        subject:
+        greeting: 
+        message: 
+        subject: 
       reset_password_instructions:
         action: Jelszó megváltoztatása
         greeting: Kedves %{recipient}!
@@ -108,7 +108,7 @@ hu:
       signed_up_but_unconfirmed: Egy megerősítő linket küldtünk a megadott e-mail címre. Nézze meg az e-mailjeit, és kattintson a küldött linkre a fiók aktiválásához.
       update_needs_confirmation: A fiók módosítása sikeres, de meg kell erősíteni az e-mail címet. Nézze meg az e-mailjeit, és kattintson a küldött linkre hogy megerősítse az e-mail cím létezését.
       updated: Sikeres fiók módosítás.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: A kijelentkezés már megtörtént.
       new:
@@ -124,7 +124,7 @@ hu:
         sign_in: Belépés
         sign_in_with_provider: "%{provider} belépés"
         sign_up: Regisztráció
-      minimum_password_length:
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Feloldási teendők újraküldése

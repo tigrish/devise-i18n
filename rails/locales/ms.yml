@@ -37,10 +37,10 @@ ms:
     failure:
       already_authenticated: Anda telah log masuk.
       inactive: Akaun anda belum diaktifkan lagi.
-      invalid:
+      invalid: 
       last_attempt: Anda ada satu lagi percubaan sebelum akaun anda dikunci.
       locked: Akaun anda telah dikunci.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Sesi anda telah tamat. Sila log masuk lagi untuk meneruskan.
       unauthenticated: Anda perlu log masuk atau daftar sebelum meneruskan.
       unconfirmed: Anda perlu mengesahkan alamat e-mel anda sebelum meneruskan.
@@ -51,10 +51,10 @@ ms:
         instruction: 'Anda boleh mengesahkan akaun e-mel anda melalui pautan di bawah:'
         subject: Arahan pengesahan
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: 
+        message: 
+        message_unconfirmed: 
+        subject: 
       password_change:
         greeting: Helo %{recipient}!
         message: Kami sedang menghubungi anda untuk memberitahu anda bahawa kata laluan anda telah ditukar.
@@ -108,7 +108,7 @@ ms:
       signed_up_but_unconfirmed: Sebuah mesej dengan pautan pengesahan telah dihantar ke alamat e-mel anda. Sila ikuti pautan tersebut untuk mengaktifkan akaun anda.
       update_needs_confirmation: Anda telah mengemas kini akaun anda dengan berjaya, tetapi kami perlu mengesahkan alamat e-mel anda yang baharu. Sila periksa e-mel anda dan ikuti pautan pengesahan untuk mengesahkan alamat e-mel anda yang baharu.
       updated: Akaun anda telah berjaya dikemaskinikan.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Berjaya dilog keluar.
       new:
@@ -124,7 +124,7 @@ ms:
         sign_in: Log masuk
         sign_in_with_provider: Log masuk dengan %{provider}
         sign_up: Daftar
-      minimum_password_length:
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Hantar semula arahan buka akaun

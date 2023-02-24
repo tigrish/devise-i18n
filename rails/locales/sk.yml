@@ -53,7 +53,7 @@ sk:
       email_changed:
         greeting: Ahoj %{recipient}!
         message: Kontaktujeme Vás aby sme Vám oznámili, že Váš e-mail bol zmenený na %{email}.
-        message_unconfirmed:
+        message_unconfirmed: 
         subject: Email bol zmenený
       password_change:
         greeting: Ahoj %{recipient}!
@@ -108,7 +108,7 @@ sk:
       signed_up_but_unconfirmed: Správa s potvrdzovacím odkazom bola odoslaná na vašu emailovú adresu. Aby ste aktivovali váš účet, prosím otvorte odkaz..
       update_needs_confirmation: Váš účet bol úspešne aktualizovaný ale potrebujeme overiť vašu novú emailovú adresu. Prosím skontrolujte si email a kliknite na potvrdzovací odkaz, aby ste potvrdili novú emailovú adresu.
       updated: Úspešne ste aktualizovali váš účet.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Úspešne odhlásený.
       new:

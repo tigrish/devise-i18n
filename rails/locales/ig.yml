@@ -2,29 +2,29 @@ ig:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at:
-        confirmation_token:
-        confirmed_at:
-        created_at:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: Okwuntughe nke di ire ugbua
-        current_sign_in_at:
-        current_sign_in_ip:
+        current_sign_in_at: 
+        current_sign_in_ip: 
         email: Imeel
-        encrypted_password:
-        failed_attempts:
-        last_sign_in_at:
-        last_sign_in_ip:
-        locked_at:
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: Okwuntughe
         password_confirmation: Nkwenta okwuntughe
-        remember_created_at:
+        remember_created_at: 
         remember_me: Cheta m
-        reset_password_sent_at:
+        reset_password_sent_at: 
         reset_password_token: Tugharia Okwuntughe
-        sign_in_count:
-        unconfirmed_email:
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: Mee hie obere
-        updated_at:
+        updated_at: 
     models:
       user: Onye nwe
   devise:
@@ -37,10 +37,10 @@ ig:
     failure:
       already_authenticated: ibanye la rii
       inactive: akauntu gi arubabeghi oru
-      invalid:
+      invalid: 
       last_attempt: " I nwere otu ohere tupu agbachie akauntu gi"
       locked: Agbachiela akauntu gi
-      not_found_in_database:
+      not_found_in_database: 
       timeout: oge enyere gi agwula biko bidokwa ozo wee banye, ka iwe gaba n’iru
       unauthenticated: ": I ga abanye, ma o bu debanye aha tupu I gabakwa n’iru"
       unconfirmed: I ga ekwetara imeel adreesi tupu igabakwa n’iru
@@ -51,10 +51,10 @@ ig:
         instruction: I ga ekwetara akauntu gi site n’akara a di na-okpuru.
         subject: Usoro esi ekwenye
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: 
+        message: 
+        message_unconfirmed: 
+        subject: 
       password_change:
         greeting: kedu %{recipient}!
         message: Anyi na-akpoturu gi, igwa gi na okwuntughe gi agbanweela
@@ -108,7 +108,7 @@ ig:
       signed_up_but_unconfirmed: Ezi jere la gi ozi nkweta na imeel adreesi gi. Biko, soro akara anyi were gbaghee akauntu gi
       update_needs_confirmation: Ibunitela akauntu gi nke ohuru nke oma, mana anyi choro inyocha imeel adreesi ohuru gi. Biko leta imeela gi ma soro akara nkweta wee kwetara imeel adreesi ohuru gi
       updated: Ebunitela akauntu gi na nke ohuru nke oma
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Emechiela ya nke oma
       new:
@@ -124,7 +124,7 @@ ig:
         sign_in: Banye
         sign_in_with_provider: Were %{provider} banye
         sign_up: Dabanye aha
-      minimum_password_length:
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Zighachi usoro mgbaghe

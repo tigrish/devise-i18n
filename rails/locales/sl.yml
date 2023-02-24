@@ -2,29 +2,29 @@ sl:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at:
-        confirmation_token:
-        confirmed_at:
-        created_at:
+        confirmation_sent_at: 
+        confirmation_token: 
+        confirmed_at: 
+        created_at: 
         current_password: Trenutno geslo
-        current_sign_in_at:
-        current_sign_in_ip:
-        email:
-        encrypted_password:
-        failed_attempts:
-        last_sign_in_at:
-        last_sign_in_ip:
-        locked_at:
+        current_sign_in_at: 
+        current_sign_in_ip: 
+        email: 
+        encrypted_password: 
+        failed_attempts: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        locked_at: 
         password: Geslo
         password_confirmation: Potrditev gesla
-        remember_created_at:
+        remember_created_at: 
         remember_me: Zapomni se me
-        reset_password_sent_at:
+        reset_password_sent_at: 
         reset_password_token: Žeton za ponastavitev gesla
-        sign_in_count:
-        unconfirmed_email:
+        sign_in_count: 
+        unconfirmed_email: 
         unlock_token: Žeton za odklep
-        updated_at:
+        updated_at: 
     models:
       user: Uporabnik
   devise:
@@ -37,10 +37,10 @@ sl:
     failure:
       already_authenticated: Ste že prijavljeni.
       inactive: Vaš račun še ni bil aktiviran.
-      invalid:
+      invalid: 
       last_attempt: Imate še en poskus preden se vam račun avtomatsko zaklene.
       locked: Vaš račun je zaklenjen.
-      not_found_in_database:
+      not_found_in_database: 
       timeout: Vaša seja je potekla. Za nadaljevanje se prosim ponovno prijavite.
       unauthenticated: Za nadaljevanje se morate prijaviti ali registrirati.
       unconfirmed: Pred nadaljevanjem morate potrditi vaš račun.
@@ -51,10 +51,10 @@ sl:
         instruction: 'Vaš račun lahko potrdite s spodnjo povezavo:'
         subject: Navodila potrditve
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: 
+        message: 
+        message_unconfirmed: 
+        subject: 
       password_change:
         greeting: Pozdravljen %{recipient}!
         message: Obveščamo vas, da je bilo vaše geslo spremenjeno.
@@ -108,7 +108,7 @@ sl:
       signed_up_but_unconfirmed: Sporočilo s potrditveno povezavo je bilo poslano na vaš email. Prosimo, kliknite povezavo za aktivacijo vašega računa.
       update_needs_confirmation: Vaš račun je uspešno posodobljen, vendar potrebno je preveriti vaš novi email naslov. Prosimo, preverite vaš email in kliknite na potrditveno povezavo za dokončanje potrditve vašega novega email naslova.
       updated: Uspešno ste posodobili vaš račun.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: 
     sessions:
       already_signed_out: Izpis uspešen
       new:
@@ -124,7 +124,7 @@ sl:
         sign_in: Prijavite se
         sign_in_with_provider: Prijavite se preko %{provider}
         sign_up: Registriracija
-      minimum_password_length:
+      minimum_password_length: 
     unlocks:
       new:
         resend_unlock_instructions: Ponovno pošlji navodila za odklep
