@@ -53,5 +53,23 @@ RSpec.describe TestController, type: :controller do
       end
     end
   end
+
+  describe 'capitalization special cases' do
+    before do
+      DeviseI18nViewsApp.view_to_render = 'devise/registrations/edit'
+      allow(I18n).to receive(:load_path).and_return(Dir[Rails.root.join('rails', 'locales', '*.yml')])
+    end
+
+    it 'retains capitalization of German nouns' do
+      I18n.locale = :de
+      # This should be capitalized regardless because it's the start of the sentence...
+      expect(render_devise_i18n_view).to include('User konnte aufgrund eines Fehlers nicht gespeichert werden:')
+    end
+
+    it 'downcases non-German nouns' do
+      I18n.locale = :en
+      expect(render_devise_i18n_view).to include('1 error prohibited this user from being saved:')
+    end
+  end
 end
 

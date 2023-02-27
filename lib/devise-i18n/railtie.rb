@@ -1,8 +1,14 @@
 require 'rails'
+require 'devise-i18n/view_helpers'
 
 module DeviseI18n
-  # This adds the views to view path
   class Engine < ::Rails::Engine
+    isolate_namespace DeviseI18n
+    initializer 'devise_i18n.action_controller' do
+      ActiveSupport.on_load :action_controller do
+        helper DeviseI18n::ViewHelpers
+      end
+    end
   end
 
   class Railtie < ::Rails::Railtie #:nodoc:
