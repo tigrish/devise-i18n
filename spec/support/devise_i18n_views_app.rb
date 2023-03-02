@@ -1,6 +1,7 @@
 require "action_controller/railtie"
 require "active_model"
 require 'omniauth-twitter'
+require 'devise-i18n/view_helpers'
 
 class User
   def email
@@ -109,6 +110,7 @@ end
 
 class TestController < ActionController::Base
   helper TestHelper
+  helper DeviseI18n::ViewHelpers
 
   before_action do
     instance_variable_set(:@view_paths, [])
