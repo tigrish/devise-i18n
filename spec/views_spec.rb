@@ -63,7 +63,7 @@ RSpec.describe TestController, type: :controller do
     it 'retains capitalization of German nouns' do
       I18n.locale = :de
       # This should be capitalized regardless because it's the start of the sentence...
-      expect(render_devise_i18n_view).to include('User konnte aufgrund eines Fehlers nicht gespeichert werden:')
+      expect(render_devise_i18n_view).to include('User konnte wegen eines Fehlers nicht gespeichert werden:')
     end
 
     it 'downcases non-German nouns' do
