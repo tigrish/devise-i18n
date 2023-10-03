@@ -122,3 +122,6 @@ class TestController < ActionController::Base
     render DeviseI18nViewsApp.view_to_render
   end
 end
+
+class TestApiController < ActionController::API
+end

@@ -6,7 +6,7 @@ module DeviseI18n
     isolate_namespace DeviseI18n
     initializer 'devise_i18n.action_controller' do
       ActiveSupport.on_load :action_controller do
-        helper DeviseI18n::ViewHelpers
+        helper DeviseI18n::ViewHelpers if respond_to?(:helper)
       end
     end
   end
