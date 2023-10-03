@@ -1,3 +1,9 @@
+## 1.11.1
+
+- Fixed a regression where model names were not translated.
+- Fixed the model name being inappropriately downcased in the errors partial in German.
+- Updated ar, cs, da, de, and en-GB translations. 
+
 ## 1.11.0
 
 - Updated views for devise 4.9 per:
