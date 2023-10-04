@@ -1,3 +1,8 @@
+## 1.12.0
+
+- Fixed a regression that broke API-based controllers.
+- Dropped Ruby 2.6 from test matrix.
+
 ## 1.11.1
 
 - Fixed a regression where model names were not translated.
