@@ -8,8 +8,9 @@ Devise supports i18n in controllers, models, and in other areas, but it does not
 
 ## Installation
 
-Add to your Gemfile:
+Add `devise-i18n` your Gemfile *after* `devise`:
 ```ruby
+gem 'devise'
 gem 'devise-i18n'
 ```
 
