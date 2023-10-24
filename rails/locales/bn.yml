@@ -138,7 +138,7 @@ bn:
   errors:
     messages:
       already_confirmed: ইতিমধ্যে নিশ্চিত হয়েছে, সাইন ইন করার চেষ্টা করুন
-      confirmation_period_expired: %{period}এর মধ্যে নিশ্চিত করা প্রয়োজন, একটি নতুন অনুরোধ করুন
+      confirmation_period_expired: '%{period}এর মধ্যে নিশ্চিত করা প্রয়োজন, একটি নতুন অনুরোধ করুন'
       expired: মেয়াদ শেষ হয়ে গেছে, একটি নতুন অনুরোধ করুন
       not_found: খুঁজে পাওয়া যায় নি
       not_locked: লক করা ছিল না
