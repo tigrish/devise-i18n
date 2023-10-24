@@ -96,9 +96,9 @@ bn:
       edit:
         are_you_sure: আপনি কি নিশ্চিত?
         cancel_my_account: আমার অ্যাকাউন্ট বাতিল করুন
-        currently_waiting_confirmation_for_email: '%{email} এর জন্য নিশ্চিতকরণ অপেক্ষা করছেন।'
+        currently_waiting_confirmation_for_email: "%{email} এর জন্য নিশ্চিতকরণ অপেক্ষা করছেন।"
         leave_blank_if_you_don_t_want_to_change_it: আপনি যদি এটি পরিবর্তন করতে না চান তাহলে খালি রাখুন।
-        title: '%{resource} সম্পাদনা করুন'
+        title: "%{resource} সম্পাদনা করুন"
         unhappy: অসন্তুষ্ট?
         update: আপডেট করুন
         we_need_your_current_password_to_confirm_your_changes: আপনার পরিবর্তন নিশ্চিত করতে আমাদের আপনার বর্তমান পাসওয়ার্ড দরকার।
@@ -124,7 +124,7 @@ bn:
         didn_t_receive_unlock_instructions: আনলক নির্দেশাবলী পাননি?
         forgot_your_password: আপনি পাসওয়ার্ড ভুলে গেছেন?
         sign_in: লগইন করুন
-        sign_in_with_provider: '%{provider} দিয়ে সাইন ইন করুন'
+        sign_in_with_provider: "%{provider} দিয়ে সাইন ইন করুন"
         sign_up: সাইন আপ করুন
       minimum_password_length:
         one: "(%{count} অক্ষর সর্বনিম্ন)"
@@ -138,7 +138,7 @@ bn:
   errors:
     messages:
       already_confirmed: ইতিমধ্যে নিশ্চিত হয়েছে, সাইন ইন করার চেষ্টা করুন
-      confirmation_period_expired: '%{period}এর মধ্যে নিশ্চিত করা প্রয়োজন, একটি নতুন অনুরোধ করুন'
+      confirmation_period_expired: "%{period}এর মধ্যে নিশ্চিত করা প্রয়োজন, একটি নতুন অনুরোধ করুন"
       expired: মেয়াদ শেষ হয়ে গেছে, একটি নতুন অনুরোধ করুন
       not_found: খুঁজে পাওয়া যায় নি
       not_locked: লক করা ছিল না
