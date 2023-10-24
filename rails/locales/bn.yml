@@ -22,9 +22,9 @@ bn:
         reset_password_sent_at: পাসওয়ার্ড পুনরুদ্ধার পাঠানোর সময়
         reset_password_token: পাসওয়ার্ড পুনরুদ্ধার টোকেন
         sign_in_count: সাইন ইন সংখ্যা
-        unconfirmed_email: নিশ্চিত না ইমেইল
+        unconfirmed_email: অনিশ্চিত ইমেইল
         unlock_token: আনলক টোকেন
-        updated_at: আপডেট সময়
+        updated_at: আপডেটেড সময়
     models:
       user:
         one: ব্যবহারকারী
@@ -138,10 +138,10 @@ bn:
   errors:
     messages:
       already_confirmed: ইতিমধ্যে নিশ্চিত হয়েছে, সাইন ইন করার চেষ্টা করুন
-      confirmation_period_expired: নিশ্চিত করা প্রয়োজন %{period} মধ্যে, একটি নতুন অনুরোধ করুন
+      confirmation_period_expired: %{period}এর মধ্যে নিশ্চিত করা প্রয়োজন, একটি নতুন অনুরোধ করুন
       expired: মেয়াদ শেষ হয়ে গেছে, একটি নতুন অনুরোধ করুন
       not_found: খুঁজে পাওয়া যায় নি
       not_locked: লক করা ছিল না
       not_saved:
         one: '১ টি ভুলের কারনে এই %{resource} কে সংরক্ষিণ করা যাচ্ছে না:'
-        other: "%{count} টি ভুলের কারনে এই %{resource} কে সংরক্ষিণ করা যাচ্ছে না:"
+        other: "%{count} টি ভুলের কারনে এই %{resource} কে সংরক্ষণ করা যাচ্ছে না:"
