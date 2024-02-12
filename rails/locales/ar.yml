@@ -124,7 +124,7 @@ ar:
         sign_in: تسجيل الدخول
         sign_in_with_provider: تسجيل الدخول باستخدام %{provider}
         sign_up: التسجيل
-      minimum_password_length: 
+      minimum_password_length:
     unlocks:
       new:
         resend_unlock_instructions: إعادة إرسال تعليمات إلغاء القفل
