@@ -29,5 +29,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency(%q<railties>.freeze, [">= 0"])
   s.add_development_dependency(%q<activemodel>.freeze, [">= 0"])
   s.add_development_dependency(%q<omniauth-twitter>.freeze, [">= 0"])
+  s.add_development_dependency(%q<appraisal>.freeze, [">= 0"])
 end
 
