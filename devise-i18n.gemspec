@@ -24,7 +24,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency(%q<devise>.freeze, [">= 4.9.0"])
   s.add_development_dependency(%q<rspec>.freeze, [">= 2.8.0"])
   s.add_development_dependency(%q<rspec-rails>.freeze, [">= 0"])
-  s.add_development_dependency(%q<jeweler>.freeze, [">= 0"])
   s.add_development_dependency(%q<i18n-spec>.freeze, ["~> 0.6.0"])
   s.add_development_dependency(%q<localeapp>.freeze, [">= 0"])
   s.add_development_dependency(%q<railties>.freeze, [">= 0"])

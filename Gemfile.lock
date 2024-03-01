@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    devise-i18n (1.12.0)
+      devise (>= 4.9.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -178,7 +184,7 @@ PLATFORMS
 
 DEPENDENCIES
   activemodel
-  devise (>= 4.9.0)
+  devise-i18n!
   i18n-spec (~> 0.6.0)
   localeapp
   omniauth-twitter
