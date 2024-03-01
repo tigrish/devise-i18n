@@ -16,7 +16,8 @@ jobs:
           - 3.1
           - 3.2
           - 3.3
-
+    env:
+      BUNDLE_GEMFILE: ${{ github.workspace }}/gemfiles/ruby_${{ matrix.ruby-version }}.gemfile
     steps:
       - uses: actions/checkout@v3
       - uses: ruby/setup-ruby@v1

@@ -12,20 +12,7 @@ rescue Bundler::BundlerError => e
 end
 require 'rake'
 
-require 'jeweler'
-Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "devise-i18n"
-  gem.homepage = "https://github.com/tigrish/devise-i18n"
-  gem.license = "MIT"
-  gem.summary = %Q{Translations for the devise gem}
-  gem.description = %Q{Translations for the devise gem}
-  gem.email = "chris@tigrish.com"
-  gem.authors = ["Christopher Dell", "mcasimir", "Jason Barnabe"]
-  gem.files = Dir['rails/locales/*.yml', 'VERSION', 'lib/**/*.rb', 'lib/generators/devise/templates/**/*', 'app/**/*']
-  # dependencies defined in Gemfile
-end
-Jeweler::RubygemsDotOrgTasks.new
+require "bundler/gem_tasks"
 
 require 'rspec/core'
 require 'rspec/core/rake_task'
