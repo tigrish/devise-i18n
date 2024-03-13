@@ -56,8 +56,8 @@ ru:
         subject: Инструкции по подтверждению учетной записи
       email_changed:
         greeting: Здравствуйте, %{recipient}!
-        message: Мы пытаемся связаться с вами, что бы сообщить, что ваш email был изменен на %{email}.
-        message_unconfirmed: 
+        message: Мы пытаемся связаться с вами, чтобы сообщить, что ваш email был изменен на %{email}.
+        message_unconfirmed: Мы пытаемся связаться с вами, чтобы сообщить, что ваш email будет изменен на %{email}.
         subject: Email изменен
       password_change:
         greeting: Приветствуем, %{recipient}!
