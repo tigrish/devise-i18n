@@ -70,8 +70,8 @@ class DeviseI18nViewsApp < Rails::Application
   @view_to_render = nil
   attr_accessor :view_to_render
 
-  secrets.secret_token    = "secret_token"
-  secrets.secret_key_base = "secret_key_base"
+  credentials.secret_token    = "secret_token"
+  credentials.secret_key_base = "secret_key_base"
 
   config.logger = Logger.new($stdout)
   Rails.logger = config.logger

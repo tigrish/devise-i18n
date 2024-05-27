@@ -10,6 +10,7 @@ module DeviseI18n
         require 'devise-i18n'
 
         app = Class.new(Rails::Application)
+        app.config.load_defaults 7.1
         app.config.eager_load = false
         app.config.i18n.enforce_available_locales = false
         app.config.middleware.use OmniAuth::Builder do
