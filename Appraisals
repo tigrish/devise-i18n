@@ -1,6 +1,6 @@
 # This only exists to specify an earlier version of nokogiri that is installable with Ruby 2.7.
 appraise "ruby-2.7" do
-  gem "nokogiri", "<1.16.0"
+  gem "nokogiri", "1.15.5"
 end
 
 appraise "ruby-3.0" do
