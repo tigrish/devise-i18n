@@ -87,7 +87,7 @@ GEM
     minitest (5.23.1)
     mutex_m (0.2.0)
     netrc (0.11.0)
-    nokogiri (1.15.6)
+    nokogiri (1.15.5)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     oauth (1.1.0)
@@ -192,7 +192,7 @@ DEPENDENCIES
   devise-i18n!
   i18n-spec (~> 0.6.0)
   localeapp
-  nokogiri (< 1.16.0)
+  nokogiri (= 1.15.5)
   omniauth-twitter
   railties
   rspec (>= 2.8.0)
