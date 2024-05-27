@@ -1,3 +1,8 @@
+## 1.12.1
+
+- Updated bn, et, fr, and ru translations.
+- Added Ruby 3.3 to test matrix.
+
 ## 1.12.0
 
 - Fixed a regression that broke API-based controllers.
