@@ -30,5 +30,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency(%q<activemodel>.freeze, [">= 0"])
   s.add_development_dependency(%q<omniauth-twitter>.freeze, [">= 0"])
   s.add_development_dependency(%q<appraisal>.freeze, [">= 0"])
-end
 
+  s.metadata["changelog_uri"] = s.homepage + "/blob/master/CHANGELOG.md"
+end
