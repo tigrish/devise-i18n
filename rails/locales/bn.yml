@@ -33,16 +33,16 @@ bn:
     confirmations:
       confirmed: আপনার ইমেল ঠিকানা সফলভাবে নিশ্চিত করা হয়েছে।
       new:
-        resend_confirmation_instructions: 
+        resend_confirmation_instructions:
       send_instructions: আপনি কয়েক মিনিটের মধ্যে আপনার ইমেল ঠিকানা নিশ্চিত করার জন্যে নির্দেশাবলী সহ একটি ইমেল পাবেন।
       send_paranoid_instructions: আপনার ইমেল ঠিকানা আমাদের ডাটাবেসের মধ্যে উপস্থিত থাকলে, আপনি কয়েক মিনিটের মধ্যে আপনার ইমেল ঠিকানা নিশ্চিত করার জন্যে নির্দেশাবলী সহ একটি ইমেল পাবেন।
     failure:
       already_authenticated: আপনি ইতিমধ্যে সাইন ইন করেছেন।
       inactive: আপনার অ্যাকাউন্ট এখনো সক্রিয় হয়নি।
-      invalid: 
+      invalid:
       last_attempt: আপনার অ্যাকাউন্ট লক হওয়ার আগে আপনার আরও একটি চেষ্টা বাকি আছে।
       locked: আপনার অ্যাকাউন্ট লক করা আছে।
-      not_found_in_database: 
+      not_found_in_database:
       timeout: আপনার অধিবেশনের মেয়াদ শেষ. অব্যাহত রাখার জন্য আবার সাইন ইন করুন.
       unauthenticated: আপনি চালিয়ে যাওয়ার আগে আপনার সাইন ইন বা সাইন আপ করতে হবে।
       unconfirmed: আপনি চালিয়ে যাওয়ার আগে আপনার ইমেল ঠিকানা নিশ্চিত করতে হবে।
@@ -131,7 +131,7 @@ bn:
         other: "(%{count} অক্ষর সর্বনিম্ন)"
     unlocks:
       new:
-        resend_unlock_instructions: 
+        resend_unlock_instructions:
       send_instructions: আপনি কয়েক মিনিটের মধ্যে আপনার অ্যাকাউন্ট আনলক করার জন্যে নির্দেশাবলী সহ একটি ইমেল পাবেন।
       send_paranoid_instructions: আপনার অ্যাকাউন্ট উপস্থিত থাকলে, আপনি কয়েক মিনিটের মধ্যে এটি আনলক করার জন্যে নির্দেশাবলী সহ একটি ইমেল পাবেন।
       unlocked: আপনার অ্যাকাউন্ট সফলভাবে উদ্ঘাটিত হয়েছে। চালিয়ে যাওয়ার জন্য সাইন ইন করুন।
