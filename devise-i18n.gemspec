@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors = ["Christopher Dell".freeze, "mcasimir".freeze, "Jason Barnabe".freeze]
   s.date = "2023-10-04"
   s.description = "Translations for the devise gem".freeze
-  s.email = "chris@tigrish.com".freeze
+  s.email = "jason.barnabe@gmail.com".freeze
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
     `git ls-files -z app lib rails LICENSE.txt README.md VERSION`.split("\x0")
   end
 
-  s.homepage = "https://github.com/tigrish/devise-i18n".freeze
+  s.homepage = "https://github.com/devise-i18n/devise-i18n".freeze
   s.licenses = ["MIT".freeze]
   s.rubygems_version = "3.1.6".freeze
   s.summary = "Translations for the devise gem".freeze
