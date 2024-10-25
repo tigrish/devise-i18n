@@ -1,7 +1,8 @@
 require "action_controller/railtie"
 require "active_model"
 require 'omniauth-twitter'
-require 'devise-i18n/view_helpers'
+require 'devise-i18n'
+require 'rails_i18n'
 
 class User
   def email
@@ -76,8 +77,18 @@ class DeviseI18nViewsApp < Rails::Application
   config.logger = Logger.new($stdout)
   Rails.logger = config.logger
 
-  routes.draw do
-    get :index, to: 'test#index'
+  config.eager_load = false
+
+  config.log_level = :warn
+end
+
+def initialize_views_app!
+  unless DeviseI18nViewsApp.initialized?
+    DeviseI18nViewsApp.initialize!
+
+    DeviseI18nViewsApp.routes.draw do
+      get :index, to: 'test#index'
+    end
   end
 end
 

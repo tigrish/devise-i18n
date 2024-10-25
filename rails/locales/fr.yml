@@ -27,9 +27,9 @@ fr:
         updated_at: Date de mise à jour
     models:
       user:
-        one: 'Utilisateur'
-        many: 'Utilisateur'
-        other: 'Utilisateur'
+        one: Utilisateur
+        many: Utilisateur
+        other: Utilisateur
   devise:
     confirmations:
       confirmed: Votre compte a bien été confirmé.

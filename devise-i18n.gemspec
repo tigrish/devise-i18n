@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
   s.summary = "Translations for the devise gem".freeze
 
   s.add_runtime_dependency(%q<devise>.freeze, [">= 4.9.0"])
+  s.add_runtime_dependency(%q<rails-i18n>.freeze, [">= 0"])
   s.add_development_dependency(%q<rspec>.freeze, [">= 2.8.0"])
   s.add_development_dependency(%q<rspec-rails>.freeze, [">= 0"])
   s.add_development_dependency(%q<i18n-spec>.freeze, ["~> 0.6.0"])

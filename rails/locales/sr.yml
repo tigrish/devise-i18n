@@ -128,11 +128,7 @@ sr:
         sign_in: Prijavi se
         sign_in_with_provider: ""
         sign_up: ""
-      minimum_password_length:
-        one: ""
-        few: ""
-        many: ""
-        other: ""
+      minimum_password_length: ""
     unlocks:
       new:
         resend_unlock_instructions: ""

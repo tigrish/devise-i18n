@@ -26,7 +26,8 @@ zh-TW:
         unlock_token: 解鎖令牌
         updated_at: 更新於
     models:
-      user: 使用者
+      user:
+        other: 使用者
   devise:
     confirmations:
       confirmed: 您的信箱已通過驗證，現在您已成功登入。
@@ -124,7 +125,8 @@ zh-TW:
         sign_in: 登入
         sign_in_with_provider: "用 %{provider} 登入"
         sign_up: 註冊
-      minimum_password_length: "（最少%{count}個字符）"
+      minimum_password_length:
+        other: "（最少%{count}個字符）"
     unlocks:
       new:
         resend_unlock_instructions: 重發解鎖說明信件
@@ -138,4 +140,5 @@ zh-TW:
       expired: 已經過期，請重新申請。
       not_found: 找不到。
       not_locked: 並未被鎖定。
-      not_saved: "有 %{count} 個錯誤導致 %{resource} 不能被儲存："
+      not_saved:
+        other: "有 %{count} 個錯誤導致 %{resource} 不能被儲存："

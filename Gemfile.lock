@@ -3,6 +3,7 @@ PATH
   specs:
     devise-i18n (1.12.1)
       devise (>= 4.9.0)
+      rails-i18n
 
 GEM
   remote: https://rubygems.org/
@@ -131,6 +132,9 @@ GEM
     rails-html-sanitizer (1.6.0)
       loofah (~> 2.21)
       nokogiri (~> 1.14)
+    rails-i18n (7.0.8)
+      i18n (>= 0.7, < 2)
+      railties (>= 6.0.0, < 8)
     railties (7.2.1)
       actionpack (= 7.2.1)
       activesupport (= 7.2.1)

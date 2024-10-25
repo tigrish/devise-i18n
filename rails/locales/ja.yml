@@ -26,7 +26,8 @@ ja:
         unlock_token: ロック解除用トークン
         updated_at: 更新日
     models:
-      user: ユーザー
+      user:
+        other: ユーザー
   devise:
     confirmations:
       confirmed: メールアドレスが確認できました。
@@ -124,7 +125,8 @@ ja:
         sign_in: ログイン
         sign_in_with_provider: "%{provider}でログイン"
         sign_up: アカウント登録
-      minimum_password_length: "（%{count}字以上）"
+      minimum_password_length:
+        other: "（%{count}字以上）"
     unlocks:
       new:
         resend_unlock_instructions: アカウントのロック解除方法を再送する
@@ -138,4 +140,5 @@ ja:
       expired: の有効期限が切れました。新しくリクエストしてください。
       not_found: は見つかりませんでした。
       not_locked: はロックされていません。
-      not_saved: "%{count} 件のエラーが発生したため %{resource} は保存されませんでした。"
+      not_saved:
+        other: "%{count} 件のエラーが発生したため %{resource} は保存されませんでした。"

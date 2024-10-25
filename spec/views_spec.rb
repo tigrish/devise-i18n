@@ -31,15 +31,16 @@ RSpec.describe TestController, type: :controller do
   devise_views.each do |view_path|
     describe "#{view_path}" do
       before do
+        initialize_views_app!
         DeviseI18nViewsApp.view_to_render = view_path
-        allow(I18n).to receive(:load_path).and_return(Dir[Rails.root.join('rails', 'locales', '*.yml')])
+        I18n.available_locales = available_locales
       end
       
       it 'is the same as the devise view when rendered with English' do
         I18n.locale = :en
         expect(render_devise_i18n_view).to eq(render_devise_view)
       end
-      
+
       available_locales.each do |locale|
         context locale do
           before do

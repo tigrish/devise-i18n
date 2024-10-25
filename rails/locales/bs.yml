@@ -26,11 +26,7 @@ bs:
         unlock_token: ""
         updated_at: ""
     models:
-      user:
-        one: ''
-        few: ''
-        many: ''
-        other: ''
+      user: ''
   devise:
     confirmations:
       confirmed: Vaš račun je potvrđen.
@@ -128,11 +124,7 @@ bs:
         sign_in: ""
         sign_in_with_provider: ""
         sign_up: ""
-      minimum_password_length:
-        one: ""
-        few: ""
-        many: ""
-        other: ""
+      minimum_password_length: ""
     unlocks:
       new:
         resend_unlock_instructions: ""
