@@ -26,7 +26,10 @@ lv:
         unlock_token: Atbloķēšanas marķieris
         updated_at: Atjaunināts
     models:
-      user: Lietotājs
+      user:
+        one: Lietotājs
+        other: Lietotājs
+        zero: Lietotājs
   devise:
     confirmations:
       confirmed: Jūsu lietotājs ir veiksmīgi apstiprināts. Jūs esat pieslēdzies.

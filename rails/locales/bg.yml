@@ -26,7 +26,9 @@ bg:
         unlock_token: Код за отключване на профил
         updated_at:
     models:
-      user: Потребител
+      user:
+        one: Потребител
+        other: Потребител
   devise:
     confirmations:
       confirmed: Регистрацията Ви е потвърдена.

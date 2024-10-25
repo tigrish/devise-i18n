@@ -26,7 +26,9 @@ he:
         unlock_token: טוקן שחרור
         updated_at: עודכן ב
     models:
-      user: משתמש
+      user:
+        one: משתמש
+        other: משתמש
   devise:
     confirmations:
       confirmed: חשבונך אושר בהצלחה.

@@ -26,7 +26,9 @@ de-CH:
         unlock_token: Entsperrungs-Token
         updated_at: Aktualisiert am
     models:
-      user: Benutzer
+      user:
+        one: Benutzer
+        other: Benutzer
   devise:
     confirmations:
       confirmed: Ihre E-Mail Adresse wurde erfolgreich bestätigt.

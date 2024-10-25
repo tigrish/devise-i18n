@@ -26,7 +26,9 @@ da:
         unlock_token: Låse-op nøgle
         updated_at: Opdateret
     models:
-      user: Bruger
+      user:
+        one: Bruger
+        other: Bruger
   devise:
     confirmations:
       confirmed: Din e-mail er nu bekræftet.

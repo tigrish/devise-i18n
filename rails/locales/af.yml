@@ -26,7 +26,9 @@ af:
         unlock_token: Ontsluit egtheidsbewys
         updated_at:
     models:
-      user: Gebruiker
+      user:
+        one: Gebruiker
+        other: Gebruiker
   devise:
     confirmations:
       confirmed: Jou e-posadres is suksesvol bevestig.

@@ -26,7 +26,11 @@ sl:
         unlock_token: Žeton za odklep
         updated_at:
     models:
-      user: Uporabnik
+      user:
+        few: Uporabnik
+        one: Uporabnik
+        other: Uporabnik
+        two: Uporabnik
   devise:
     confirmations:
       confirmed: Vaš račun je bil uspešno potrjen.
@@ -125,6 +129,10 @@ sl:
         sign_in_with_provider: Prijavite se preko %{provider}
         sign_up: Registriracija
       minimum_password_length:
+        few:
+        one:
+        other:
+        two:
     unlocks:
       new:
         resend_unlock_instructions: Ponovno pošlji navodila za odklep

@@ -26,7 +26,10 @@ sk:
         unlock_token: Odomykací kľúč
         updated_at: Aktualizované
     models:
-      user: Používateľ
+      user:
+        few: Používateľ
+        one: Používateľ
+        other: Používateľ
   devise:
     confirmations:
       confirmed: Váš účet bol úspešne overený. Teraz ste prihlásený.

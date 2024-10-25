@@ -26,7 +26,9 @@ ha:
         unlock_token: Bode tokin ka
         updated_at:
     models:
-      user: Mai amfani deshi
+      user:
+        one: Mai amfani deshi
+        other: Mai amfani deshi
   devise:
     confirmations:
       confirmed: Adireshin I-mail din ka ya karbu
@@ -125,6 +127,8 @@ ha:
         sign_in_with_provider: shiga da %{provider}
         sign_up: Bayar de sabon bayanin akaut
       minimum_password_length:
+        one:
+        other:
     unlocks:
       new:
         resend_unlock_instructions: Sake  turo da bayanin bude akaut

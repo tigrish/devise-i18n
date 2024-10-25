@@ -26,7 +26,9 @@ nn-NO:
         unlock_token: Opplåsingskode
         updated_at: Oppdatert
     models:
-      user: Brukar
+      user:
+        one: Brukar
+        other: Brukar
   devise:
     confirmations:
       confirmed: E-postadressen din har blitt stadfesta.

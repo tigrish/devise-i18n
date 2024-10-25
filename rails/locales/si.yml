@@ -26,7 +26,9 @@ si:
         unlock_token: ටෝකනය ඇවුරුම
         updated_at: යාවත්කාලීන කලේ
     models:
-      user: පරිශීලක
+      user:
+        one: පරිශීලක
+        other: පරිශීලක
   devise:
     confirmations:
       confirmed: ඔබගේ විද්යුත් තැපැල් ලිපිනය සාර්ථක ලෙස තහවුරු කර ඇත.
@@ -125,6 +127,8 @@ si:
         sign_in_with_provider: ඇතුළුවන්න සමගින්  %{provider}
         sign_up: ලියාපදිංචි වන්න
       minimum_password_length:
+        one:
+        other:
     unlocks:
       new:
         resend_unlock_instructions: 'ඇගුළු හැරීමේ උපදෙස් නැවත එවන්න '

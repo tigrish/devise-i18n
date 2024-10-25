@@ -26,7 +26,11 @@ be:
         unlock_token: Токен разблакоўкі
         updated_at:
     models:
-      user: Карыстальнік
+      user:
+        few: Карыстальнік
+        many: Карыстальнік
+        one: Карыстальнік
+        other: Карыстальнік
   devise:
     confirmations:
       confirmed: Ваш адрас эл. пошты паспяхова пацверджаны.

@@ -26,7 +26,9 @@
         unlock_token: Nøkkelsymbol
         updated_at: Oppdatert
     models:
-      user: Bruker
+      user:
+        one: Bruker
+        other: Bruker
   devise:
     confirmations:
       confirmed: Din konto er aktivert og du er nå innlogget.
@@ -125,6 +127,8 @@
         sign_in_with_provider: Logg inn med %{provider}
         sign_up: Opprett konto
       minimum_password_length:
+        one:
+        other:
     unlocks:
       new:
         resend_unlock_instructions: Send nye aktiveringsinstruksjoner

@@ -26,9 +26,9 @@ ka:
         unlock_token: მარკერის გახსნა
         updated_at:
     models:
-      user: 'მომხმარებელი
-
-        '
+      user:
+        one: 'მომხმარებელი'
+        other: 'მომხმარებელი'
   devise:
     confirmations:
       confirmed: თქვენი ელ-ფოსტა წარმატებულად დადასტურდა.
@@ -127,6 +127,8 @@ ka:
         sign_in_with_provider: "%{provider}-ით ავთენტიკაცია"
         sign_up: რეგისტრაცია
       minimum_password_length:
+        one:
+        other:
     unlocks:
       new:
         resend_unlock_instructions: 'ხელახლა ანგარიშის გახსნის ინსტრუქციის გაგზავნა '

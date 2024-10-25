@@ -26,7 +26,11 @@ uk:
         unlock_token: Токен розблокування
         updated_at: Змінений
     models:
-      user: Користувач
+      user:
+        few: Користувач
+        many: Користувач
+        one: Користувач
+        other: Користувач
   devise:
     confirmations:
       confirmed: Ваш обліковий запис підтверджено. Ви увійшли в систему.

@@ -26,7 +26,9 @@ is:
         unlock_token: Aflæsa tákni
         updated_at: Uppfært kl
     models:
-      user: Notandi
+      user:
+        one: Notandi
+        other: Notandi
   devise:
     confirmations:
       confirmed: Aðgangurinn hefur verið staðfestur. Þú ert núna innskráð(ur).

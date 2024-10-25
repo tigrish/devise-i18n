@@ -26,7 +26,9 @@ fa:
         unlock_token: نشان امنیتی بازگشایی
         updated_at: بروزرسانی در
     models:
-      user: کاربر
+      user:
+        one: کاربر
+        other: کاربر
   devise:
     confirmations:
       confirmed: حسابتان با موفقیت تایید شد. هم اکنون وارد شدید.
@@ -124,7 +126,9 @@ fa:
         sign_in: ورود
         sign_in_with_provider: ورود با %{provider}
         sign_up: ثبت نام
-      minimum_password_length: "(حداقل %{count} حرف)"
+      minimum_password_length:
+        one: "(حداقل %{count} حرف)"
+        other: "(حداقل %{count} حرف)"
     unlocks:
       new:
         resend_unlock_instructions: ارسال مجدد راهنمای بازکردن حساب

@@ -26,7 +26,10 @@ ro:
         unlock_token: Deblochează jetonul
         updated_at: Actualizat la
     models:
-      user: Utilizator
+      user:
+        few: Utilizator
+        one: Utilizator
+        other: Utilizator
   devise:
     confirmations:
       confirmed: Contul dvs. a fost confirmat cu succes.

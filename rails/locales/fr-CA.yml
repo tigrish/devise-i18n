@@ -26,7 +26,9 @@ fr-CA:
         unlock_token: Clé de déverrouillage
         updated_at: Date de mise à jour
     models:
-      user: Utilisateur
+      user:
+        one: Utilisateur
+        other: Utilisateur
   devise:
     confirmations:
       confirmed: Votre compte a été confirmé avec succès.

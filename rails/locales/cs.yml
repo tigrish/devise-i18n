@@ -26,7 +26,10 @@ cs:
         unlock_token: Odemykací token
         updated_at: Upraveno
     models:
-      user: Uživatel
+      user:
+        few: Uživatel
+        one: Uživatel
+        other: Uživatel
   devise:
     confirmations:
       confirmed: Vaše e-mailová adresa byla úspěšně potvrzena.

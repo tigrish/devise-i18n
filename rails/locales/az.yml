@@ -26,7 +26,9 @@ az:
         unlock_token: Nişanəni aktivləşdir
         updated_at: Yeniləndi
     models:
-      user: İstifadəçi
+      user:
+        one: İstifadəçi
+        other: İstifadəçi
   devise:
     confirmations:
       confirmed: Sizin email ünvanınız uğurla təsdiqləndi.
@@ -124,7 +126,9 @@ az:
         sign_in: Daxil ol
         sign_in_with_provider: "%{provider} ilə daxil ol"
         sign_up: Qeydiyyat
-      minimum_password_length: "(minimum %{count} simvol)"
+      minimum_password_length:
+        one: "(minimum %{count} simvol)"
+        other: "(minimum %{count} simvol)"
     unlocks:
       new:
         resend_unlock_instructions: Bərpa ilə bağlı təlimatları yenidən göndər
@@ -138,4 +142,6 @@ az:
       expired: vaxtı bitmişdir, zəhmət olmasa yenisini istəyin
       not_found: tapılmadı
       not_locked: bloklanmış deyildi
-      not_saved: "%{count} səhv / səhvlər %{resource} resursunun yenilənməsinə mane olur"
+      not_saved:
+        one: "%{count} səhv / səhvlər %{resource} resursunun yenilənməsinə mane olur"
+        other: "%{count} səhv / səhvlər %{resource} resursunun yenilənməsinə mane olur"
