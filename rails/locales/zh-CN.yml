@@ -1,4 +1,4 @@
-zh_CN:
+zh-CN:
   activerecord:
     attributes:
       user:
@@ -27,6 +27,7 @@ zh_CN:
         updated_at: 更新于
     models:
       user:
+        one: 用户
         other: 用户
   devise:
     confirmations:
@@ -141,4 +142,5 @@ zh_CN:
       not_found: 找不到
       not_locked: 未被锁定
       not_saved:
+        one: "发生 %{count} 个错误，导致%{resource}保存失败："
         other: "发生 %{count} 个错误，导致%{resource}保存失败："

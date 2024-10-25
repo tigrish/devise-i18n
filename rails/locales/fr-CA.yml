@@ -1,4 +1,4 @@
-fr_CA:
+fr-CA:
   activerecord:
     attributes:
       user:

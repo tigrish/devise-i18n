@@ -27,6 +27,7 @@ ms:
         updated_at: Dikemaskinikan pada
     models:
       user:
+        one: User
         other: User
   devise:
     confirmations:
@@ -126,6 +127,7 @@ ms:
         sign_in_with_provider: "Log masuk dengan %{provider}"
         sign_up: Daftar
       minimum_password_length:
+        one: ""
         other: ""
     unlocks:
       new:
@@ -141,4 +143,5 @@ ms:
       not_found: tidak dijumpai
       not_locked: tidak dikunci
       not_saved:
+        one: "%{count} ralat telah melarang %{resource} daripada disimpan:"
         other: "%{count} ralat telah melarang %{resource} daripada disimpan:"

@@ -1,4 +1,4 @@
-sr_RS:
+sr-RS:
   activerecord:
     attributes:
       user:
@@ -29,6 +29,7 @@ sr_RS:
       user:
         one: Корисник
         few: Корисника
+        many: Корисника
         other: Корисника
   devise:
     confirmations:
@@ -130,6 +131,7 @@ sr_RS:
       minimum_password_length:
         one: "(%{count} знак минимум)"
         few: "(%{count} знака минимум)"
+        many: "(%{count} знакова минимум)"
         other: "(%{count} знакова минимум)"
     unlocks:
       new:
@@ -147,4 +149,5 @@ sr_RS:
       not_saved:
         one: '1 грешка спречава снимање %{resource}:'
         few: "%{count} грешке спречавају снимање %{resource}:"
+        many: "%{count} грешака спречавају снимање %{resource}:"
         other: "%{count} грешака спречавају снимање %{resource}:"

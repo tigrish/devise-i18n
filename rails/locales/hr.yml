@@ -29,6 +29,7 @@ hr:
       user:
         one: Korisnik
         few: Korisnika
+        many: Korisnika
         other: Korisnika
   devise:
     confirmations:
@@ -130,6 +131,7 @@ hr:
       minimum_password_length:
         one: "(najmanje %{count} znak)"
         few: "(najmanje %{count} znaka)"
+        many: "(najmanje %{count} znakova)"
         other: "(najmanje %{count} znakova)"
     unlocks:
       new:
@@ -147,4 +149,5 @@ hr:
       not_saved:
         one: '1 greška sprečava snimanje %{resource}:'
         few: "%{count} greške sprečavaju snimanje %{resource}:"
+        many: "%{count} grešaka sprečavaju snimanje %{resource}:"
         other: "%{count} grešaka sprečavaju snimanje %{resource}:"

@@ -27,6 +27,7 @@ yo:
         updated_at: ""
     models:
       user:
+        one: aṣàmúlò
         other: aṣàmúlò
   devise:
     confirmations:
@@ -128,6 +129,7 @@ yo:
         sign_in_with_provider: "Wọlé pẹ̀lú %{provider}"
         sign_up: Forúkọsílẹ̀
       minimum_password_length:
+        one: ""
         other: ""
     unlocks:
       new:
@@ -143,4 +145,5 @@ yo:
       not_found: "Kò sí\n"
       not_locked: A kò tí
       not_saved:
+        one: "%{count}àsìse sèdíwọ elè yìí %{resource} láti lè fi pamọ́"
         other: "%{count}àsìse sèdíwọ elè yìí %{resource} láti lè fi pamọ́"

@@ -27,6 +27,7 @@ vi:
         updated_at: Được cập nhật lúc
     models:
       user:
+        one: Người dùng
         other: Người dùng
   devise:
     confirmations:
@@ -126,6 +127,7 @@ vi:
         sign_in_with_provider: "Đăng nhập với %{provider}"
         sign_up: Đăng ký
       minimum_password_length:
+        one: "(Tối thiểu %{count} ký tự)"
         other: "(Tối thiểu %{count} ký tự)"
     unlocks:
       new:
@@ -141,4 +143,5 @@ vi:
       not_found: không tìm thấy
       not_locked: không bị khóa
       not_saved:
+        one: "%{count} lỗi khi lưu %{resource}:"
         other: "%{count} lỗi khi lưu %{resource}:"

@@ -1,4 +1,4 @@
-zh_HK:
+zh-HK:
   activerecord:
     attributes:
       user:
@@ -27,6 +27,7 @@ zh_HK:
         updated_at: ""
     models:
       user:
+        one: ''
         other: ''
   devise:
     confirmations:
@@ -126,6 +127,7 @@ zh_HK:
         sign_in_with_provider: ""
         sign_up: ""
       minimum_password_length:
+        one: ""
         other: ""
     unlocks:
       new:
@@ -141,4 +143,5 @@ zh_HK:
       not_found: 搵唔到
       not_locked: 無鎖到
       not_saved:
+        one: ''
         other: "有%{count}個問題，%{resource}儲存唔到。"

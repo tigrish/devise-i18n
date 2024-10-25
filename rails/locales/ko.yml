@@ -27,6 +27,7 @@ ko:
         updated_at: 업데이트된 시간
     models:
       user:
+        one: 사용자
         other: 사용자
   devise:
     confirmations:
@@ -126,6 +127,7 @@ ko:
         sign_in_with_provider: "%{provider}(으)로 로그인"
         sign_up: 회원 가입
       minimum_password_length:
+        one: "최소 길이 %{count} 자"
         other: "최소 길이 %{count} 자"
     unlocks:
       new:
@@ -141,4 +143,5 @@ ko:
       not_found: 찾을 수 없습니다.
       not_locked: 은(는) 잠기지 않았습니다.
       not_saved:
+        one: "%{count}개의 오류로 인해 %{resource}이(가) 저장되지 못했습니다."
         other: "%{count}개의 오류로 인해 %{resource}이(가) 저장되지 못했습니다."

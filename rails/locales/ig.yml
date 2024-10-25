@@ -27,6 +27,7 @@ ig:
         updated_at: ""
     models:
       user:
+        one: Onye nwe
         other: Onye nwe
   devise:
     confirmations:
@@ -126,6 +127,7 @@ ig:
         sign_in_with_provider: "Were %{provider} banye"
         sign_up: Dabanye aha
       minimum_password_length:
+        one: ""
         other: ""
     unlocks:
       new:
@@ -141,4 +143,5 @@ ig:
       not_found: Ahughi ya
       not_locked: Agbachi ya
       not_saved:
+        one: "%{count} che mmebi nke gbochiri nkea %{resource}  na idekwaba ya. "
         other: "%{count} che mmebi nke gbochiri nkea %{resource}  na idekwaba ya. "

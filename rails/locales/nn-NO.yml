@@ -1,4 +1,4 @@
-nn_NO:
+nn-NO:
   activerecord:
     attributes:
       user:

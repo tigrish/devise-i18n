@@ -27,6 +27,7 @@ th:
         updated_at: แก้ไขเมื่อ
     models:
       user:
+        one: ผู้ใช้งาน
         other: ผู้ใช้งาน
   devise:
     confirmations:
@@ -126,6 +127,7 @@ th:
         sign_in_with_provider: "เข้าสู่ระบบด้วย %{provider}"
         sign_up: สมัครสมาชิก
       minimum_password_length:
+        one: "(จำนวนตัวอักษรขั้นต่ำ %{count} ตัวอักษร)"
         other: "(จำนวนตัวอักษรขั้นต่ำ %{count} ตัวอักษร)"
     unlocks:
       new:
@@ -141,4 +143,5 @@ th:
       not_found: ไม่พบ
       not_locked: ไม่ถูกล็อก
       not_saved:
+        one: "%{count} ผิดพลาด %{resource} นี้ถูกห้ามบันทึก:"
         other: "%{count} ผิดพลาด %{resource} นี้ถูกห้ามบันทึก:"

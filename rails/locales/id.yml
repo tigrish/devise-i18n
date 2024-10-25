@@ -27,6 +27,7 @@ id:
         updated_at: Diubah pada
     models:
       user:
+        one: Pengguna
         other: Pengguna
   devise:
     confirmations:
@@ -126,6 +127,7 @@ id:
         sign_in_with_provider: "Masuk dengan akun %{provider}"
         sign_up: Mendaftar
       minimum_password_length:
+        one: "(%{count} karakter minimal)"
         other: "(%{count} karakter minimal)"
     unlocks:
       new:
@@ -141,4 +143,5 @@ id:
       not_found: tidak ditemukan
       not_locked: tidak dikunci
       not_saved:
+        one: "%{count} kesalahan membuat %{resource} tidak bisa disimpan:"
         other: "%{count} kesalahan membuat %{resource} tidak bisa disimpan:"

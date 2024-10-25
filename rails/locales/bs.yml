@@ -29,6 +29,7 @@ bs:
       user:
         one: ''
         few: ''
+        many: ''
         other: ''
   devise:
     confirmations:
@@ -130,6 +131,7 @@ bs:
       minimum_password_length:
         one: ""
         few: ""
+        many: ""
         other: ""
     unlocks:
       new:
@@ -147,4 +149,5 @@ bs:
       not_saved:
         one: '1 greška sprječava sačuvanje %{resource}:'
         few: "%{count} greške sprječavaju sačuvanje %{resource}:"
+        many: "%{count} grešaka sprječavaju sačuvanje %{resource}:"
         other: "%{count} grešaka sprječavaju sačuvanje %{resource}:"
