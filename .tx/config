@@ -1,0 +1,10 @@
+[main]
+host = https://www.transifex.com
+
+[o:devise-i18n:p:devise-i18n-1:r:enyml]
+file_filter   = rails/locales/<lang>.yml
+source_file   = rails/locales/en.yml
+type          = YML
+minimum_perc  = 0
+resource_name = en.yml
+lang_map      = de_CH: de-CH, en_GB: en-GB, es_CL: es-CL, es_CO: es-CO, es_MX: es-MX, fr_CA: fr-CA, lo_LA: lo-LA, nn_NO: nn-NO, pt_BR: pt-BR, sr_RS: sr-RS, zh_CN: zh-CN, zh_HK: zh-HK, zh_TW: zh-TW
