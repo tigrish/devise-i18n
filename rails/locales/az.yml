@@ -8,7 +8,7 @@ az:
         created_at: Yaradıldı
         current_password: Hazırki şifrə
         current_sign_in_at: Hazırki giriş
-        current_sign_in_ip: 'Hazırki girişin IP ünvanı '
+        current_sign_in_ip: "Hazırki girişin IP ünvanı "
         email: E-poçt
         encrypted_password: Şifrələnmiş şifrə
         failed_attempts: Uğursuz cəhdlər
@@ -35,47 +35,47 @@ az:
       new:
         resend_confirmation_instructions: Təsdiqləmə təlimatlarını yenidən göndər
       send_instructions: Bir neçə dəqiqə ərzində hesabınızı təstiqləməklə bağlı təlimatlar email ünvanınıza göndəriləcəkdir.
-      send_paranoid_instructions: Əgər email ünvanınız bazamızda varsa, bir neçə dəqiqə ərzində hesabınızı təsdiqləmək üçün sizə təlimat göndəriləcəkdir.
+      send_paranoid_instructions: "Əgər email ünvanınız bazamızda varsa, bir neçə dəqiqə ərzində hesabınızı təsdiqləmək üçün sizə təlimat göndəriləcəkdir."
     failure:
       already_authenticated: Siz artıq hesabınıza daxil olmuşsunuz.
       inactive: Sizin hesabınız hələ ki aktivləşdirilməyib.
-      invalid: Şifrə və ya %{authentication_keys} yanlışdır.
+      invalid: "Şifrə və ya %{authentication_keys} yanlışdır."
       last_attempt: Hesabınız bağlanmazdan öncə sizin daha bir cəhdiniz qalıb.
       locked: Sizin hesabınız bloklanmışdır.
-      not_found_in_database: Şifrə və ya %{authentication_keys} yanlışdır.
-      timeout: Sessiyanızın vaxtı bitmişdir. Davam etmək üçün, zəhmət olmasa yenidən daxil olun.
+      not_found_in_database: "Şifrə və ya %{authentication_keys} yanlışdır."
+      timeout: "Sessiyanızın vaxtı bitmişdir. Davam etmək üçün, zəhmət olmasa yenidən daxil olun."
       unauthenticated: Davam etmək üçün hesabınıza daxil olmalı və ya qeydiyyatdan keçməlisiniz.
       unconfirmed: Davam etmək üçün hesabınızı təsdiqləməlisiniz.
     mailer:
       confirmation_instructions:
         action: Hesabımı təsdiqlə
-        greeting: Xoş gəlmisiniz, %{recipient}!
-        instruction: Hesabınızı aşağıdakı keçiddən istifadə etməklə təsdiqləyə bilərsiniz.
+        greeting: "Xoş gəlmisiniz, %{recipient}!"
+        instruction: 'Hesabınızı aşağıdakı keçiddən istifadə etməklə təsdiqləyə bilərsiniz.'
         subject: Təsdiqləmə təlimatları
       email_changed:
-        greeting: Salam, %{recipient}!
-        message: Bu məktub, elektron ünvanınızın %{email} ilə dəyişdirildiyini bildirmək üçün, sizə göndərilib.
-        message_unconfirmed:
+        greeting: "Salam, %{recipient}!"
+        message: "Bu məktub, elektron ünvanınızın %{email} ilə dəyişdirildiyini bildirmək üçün, sizə göndərilib."
+        message_unconfirmed: ""
         subject: Elektron ünvanınız dəyişdirildi
       password_change:
-        greeting: Salam, %{recipient}!
-        message: Bu məktub, şifrənizin dəyişildiyini bildirmək üçün sizə göndərilib.
+        greeting: "Salam, %{recipient}!"
+        message: "Bu məktub, şifrənizin dəyişildiyini bildirmək üçün sizə göndərilib."
         subject: Şifrə dəyişildi
       reset_password_instructions:
         action: Şifrəmi dəyiş
-        greeting: Salam, %{recipient}!
-        instruction: Kimsə şifrəni yeniləmək üçün keçid istədi. Aşağıdaki keçiddən istifadə etməklə, şifrənizi dəyişə bilərsiniz.
-        instruction_2: Əgər keçidi siz istəməmisinizsə, zəhmət olmasa bu məktubu boş verin.
-        instruction_3: Yuxarıdakı keçiddən istifadə etmədiyiniz və yeni şifrə təyin etmədiyiniz müddətdə, şifrəniz dəyişilməyəcək.
+        greeting: "Salam, %{recipient}!"
+        instruction: "Kimsə şifrəni yeniləmək üçün keçid istədi. Aşağıdaki keçiddən istifadə etməklə, şifrənizi dəyişə bilərsiniz."
+        instruction_2: "Əgər keçidi siz istəməmisinizsə, zəhmət olmasa bu məktubu boş verin."
+        instruction_3: "Yuxarıdakı keçiddən istifadə etmədiyiniz və yeni şifrə təyin etmədiyiniz müddətdə, şifrəniz dəyişilməyəcək."
         subject: Şifrənin yenilənməsi
       unlock_instructions:
         action: Hesabımı blokdan çıxar
-        greeting: Salam, %{recipient}!
+        greeting: "Salam, %{recipient}!"
         instruction: 'Hesabınızı blokdan çıxarmaq üçün, aşağıdakı keçidə klik edin:'
-        message: Uğursuz giriş cəhdləri sayının həddən artıq olması səbəbi ilə, hesabınız dondurulmuşdur.
+        message: "Uğursuz giriş cəhdləri sayının həddən artıq olması səbəbi ilə, hesabınız dondurulmuşdur."
         subject: Hesabın blokdan çıxardılması
     omniauth_callbacks:
-      failure: '"%{reason}" səbəbindən sizi %{kind} autentikasiya etmək mümkün olmadı.'
+      failure: "\"%{reason}\" səbəbindən sizi %{kind} autentikasiya etmək mümkün olmadı."
       success: "%{kind} hesabıyla uğurla daxil oldunuz."
     passwords:
       edit:
@@ -84,33 +84,33 @@ az:
         confirm_new_password: Yeni şifrəni təsdiqləyin
         new_password: Yeni şifrə
       new:
-        forgot_your_password: Şifrənizi unutmusunuz?
+        forgot_your_password: "Şifrənizi unutmusunuz?"
         send_me_reset_password_instructions: Şifrənin yenilənməsi ilə bağlı təlimatlar al
-      no_token: Bu səhifəyə şifrəni yeniləmə məktubundan keçid etmisinizsə,  tam URL-dən istifadə etdiyinizi yoxlayın. Əks halda səhifəni görə bilməzsiniz.
-      send_instructions: Siz bir neçə dəqiqə ərazində, şifrənizi dəyişməklə bağlı təlimatlar olan email qəbul edəcəksiniz.
-      send_paranoid_instructions: Əgər email ünvanınız bazamızda varsa, sizə bir neçə dəqiqə ərzində şifrəni bərpanı etmək üçün keçid göndəriləcəkdir.
+      no_token: "Bu səhifəyə şifrəni yeniləmə məktubundan keçid etmisinizsə,  tam URL-dən istifadə etdiyinizi yoxlayın. Əks halda səhifəni görə bilməzsiniz."
+      send_instructions: "Siz bir neçə dəqiqə ərazində, şifrənizi dəyişməklə bağlı təlimatlar olan email qəbul edəcəksiniz."
+      send_paranoid_instructions: "Əgər email ünvanınız bazamızda varsa, sizə bir neçə dəqiqə ərzində şifrəni bərpanı etmək üçün keçid göndəriləcəkdir."
       updated: Şifrəniz uğurla dəyişdirildi. Siz hazırda sistemə daxil olmusunuz.
       updated_not_active: Şifrəniz uğurla dəyişdirildi.
     registrations:
-      destroyed: Hesabınız sistemimizdən uğurla çıxarıldı. Sizi qısa zamanda yenidən görmək ümidi ilə, hələlik!
+      destroyed: "Hesabınız sistemimizdən uğurla çıxarıldı. Sizi qısa zamanda yenidən görmək ümidi ilə, hələlik!"
       edit:
-        are_you_sure: Əminsiniz?
+        are_you_sure: "Əminsiniz?"
         cancel_my_account: Hesabımı ləğv et
-        currently_waiting_confirmation_for_email: Hazırda %{email} ünvanının təsdiqlənməsi gözlənilir
-        leave_blank_if_you_don_t_want_to_change_it: dəyişmək istəmirsinizsə, boş buraxın
+        currently_waiting_confirmation_for_email: 'Hazırda %{email} ünvanının təsdiqlənməsi gözlənilir'
+        leave_blank_if_you_don_t_want_to_change_it: "dəyişmək istəmirsinizsə, boş buraxın"
         title: "%{resource} resursunun redaktəsi"
-        unhappy: Narazısınız?
+        unhappy: "Narazısınız?"
         update: Yenilə
-        we_need_your_current_password_to_confirm_your_changes: dəyişiklikləri təsdiq etmək üçün, hazırki şifrənizi daxil etməlisiniz
+        we_need_your_current_password_to_confirm_your_changes: "dəyişiklikləri təsdiq etmək üçün, hazırki şifrənizi daxil etməlisiniz"
       new:
         sign_up: Qeydiyyat
       signed_up: Təbriklər! Siz uğurla qeydiyyatdan keçdiniz.
-      signed_up_but_inactive: Siz uğurla qeydiyyatdan keçdiniz. Halbuki, sistemə yalnız hesabınızı aktiv etdikdən sonra daxil ola bilərsiniz.
+      signed_up_but_inactive: "Siz uğurla qeydiyyatdan keçdiniz. Halbuki, sistemə yalnız hesabınızı aktiv etdikdən sonra daxil ola bilərsiniz."
       signed_up_but_locked: Siz uğurla qeydiyyatdan keçdiniz. Ancaq hesabınız blokda olduğu üçün biz sizi sistemə daxil edə bilmirik.
       signed_up_but_unconfirmed: Təstiq linkini özündə saxlayan məktub sizə email vasitəsiylə göndərildi. Hesabınızı aktivləşdirmək üçün zəhmət olmasa linki açın.
-      update_needs_confirmation: Hesabınızı uğurla yenilədiniz, ancaq biz sizin email ünvanınızı yoxlamalıyıq. Zəhmət olmasa email qutunuzu yoxlayın və təstiq linkinə daxil olaraq yeni email ünvanınızı təstiqləyin.
+      update_needs_confirmation: "Hesabınızı uğurla yenilədiniz, ancaq biz sizin email ünvanınızı yoxlamalıyıq. Zəhmət olmasa email qutunuzu yoxlayın və təstiq linkinə daxil olaraq yeni email ünvanınızı təstiqləyin."
       updated: Hesabınızı uğurla yenilədiniz.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: ""
     sessions:
       already_signed_out: Ugurlu cıxış.
       new:
@@ -120,9 +120,9 @@ az:
     shared:
       links:
         back: Geri
-        didn_t_receive_confirmation_instructions: Təsdiqləmə təlimatları almamısınız?
-        didn_t_receive_unlock_instructions: Blokdan çıxarma təlimatları almamısınız?
-        forgot_your_password: Şifrənizi unutmusunuz?
+        didn_t_receive_confirmation_instructions: "Təsdiqləmə təlimatları almamısınız?"
+        didn_t_receive_unlock_instructions: "Blokdan çıxarma təlimatları almamısınız?"
+        forgot_your_password: "Şifrənizi unutmusunuz?"
         sign_in: Daxil ol
         sign_in_with_provider: "%{provider} ilə daxil ol"
         sign_up: Qeydiyyat
@@ -133,15 +133,15 @@ az:
       new:
         resend_unlock_instructions: Bərpa ilə bağlı təlimatları yenidən göndər
       send_instructions: Bir neçə dəqiqə ərzində hesabınızı blokdan çıxarmaqla bağlı təlimatlar email ünvanınıza göndəriləcəkdir.
-      send_paranoid_instructions: Əgər bazada belə bir hesab varsa, bir neçə dəqiqə ərzində hesabınızı blokdan çıxarmaqla bağlı təlimatlar email ünvanınıza göndəriləcəkdir.
-      unlocked: Hesabınız uğurla blokdan çıxarıldı, davam etmək üçün zəhmət olmasa hesabınıza daxil olun
+      send_paranoid_instructions: "Əgər bazada belə bir hesab varsa, bir neçə dəqiqə ərzində hesabınızı blokdan çıxarmaqla bağlı təlimatlar email ünvanınıza göndəriləcəkdir."
+      unlocked: "Hesabınız uğurla blokdan çıxarıldı, davam etmək üçün zəhmət olmasa hesabınıza daxil olun"
   errors:
     messages:
-      already_confirmed: artıq təsdiq olunmuşdur, zəhmət olmasa daxil olmağa çalışın
+      already_confirmed: "artıq təsdiq olunmuşdur, zəhmət olmasa daxil olmağa çalışın"
       confirmation_period_expired: ", %{period} ərzində təstiqlənməlidir, zəhmət olmasa yenisini istəyin"
-      expired: vaxtı bitmişdir, zəhmət olmasa yenisini istəyin
+      expired: "vaxtı bitmişdir, zəhmət olmasa yenisini istəyin"
       not_found: tapılmadı
       not_locked: bloklanmış deyildi
       not_saved:
-        one: "%{count} səhv / səhvlər %{resource} resursunun yenilənməsinə mane olur"
+        one: '%{count} səhv / səhvlər %{resource} resursunun yenilənməsinə mane olur'
         other: "%{count} səhv / səhvlər %{resource} resursunun yenilənməsinə mane olur"

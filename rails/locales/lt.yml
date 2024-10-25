@@ -27,121 +27,127 @@ lt:
         updated_at: Atnaujinta
     models:
       user:
-        few: Vartotojai
-        one: Vartotojas
-        other: Vartotojai
+        one: ''
+        few: ''
+        many: ''
+        other: ''
   devise:
     confirmations:
       confirmed: Jūsų el. pašto adresas sėkmingai patvirtintas.
       new:
-        resend_confirmation_instructions:
+        resend_confirmation_instructions: ""
       send_instructions: Už keleto minučių sulauksite elektroninio laiško su instrukcijomis kaip patvirtinti jūsų vartotojo paskyrą.
-      send_paranoid_instructions: Jei esatę prisiregistravę šiuo e-pašto adresu, už keleto minučių sulauksite elektroninio laiško su instrukcijomis kaip patvirtinti jūsų vartotojo paskyrą
+      send_paranoid_instructions: "Jei esatę prisiregistravę šiuo e-pašto adresu, už keleto minučių sulauksite elektroninio laiško su instrukcijomis kaip patvirtinti jūsų vartotojo paskyrą"
     failure:
       already_authenticated: Jūs jau prisijungęs.
       inactive: Jūsų paskyra dar neaktyvuota.
-      invalid: Nevalidus slaptažodis arba %{authentication_keys}.
+      invalid: "Nevalidus slaptažodis arba %{authentication_keys}."
       last_attempt: Jums liko paskutinis bandymas prieš užblokuojant paskyrą.
       locked: Jūsų paskyra laikinai užblokuota.
-      not_found_in_database: Nevalidus slaptažodis arba  %{authentication_keys}.
+      not_found_in_database: "Nevalidus slaptažodis arba  %{authentication_keys}."
       timeout: Jūsų sesija baigta. Prisijunkite iš naujo norėdami tęsti.
       unauthenticated: Būtina prisijungti arba prisiregistruoti prieš tęsiant.
       unconfirmed: Būtina patvirtinti e-pašto adresą prieš tęsiant.
     mailer:
       confirmation_instructions:
         action: Patvirtinti mano paskyrą
-        greeting: Sveiki %{recipient}!
-        instruction:
+        greeting: "Sveiki %{recipient}!"
+        instruction: ''
         subject: Paskyros patvirtinimo instrukcijos
       email_changed:
-        greeting: Sveiki %{recipient}!
-        message:
-        message_unconfirmed:
+        greeting: "Sveiki %{recipient}!"
+        message: ""
+        message_unconfirmed: ""
         subject: El. paštas pakeistas
       password_change:
-        greeting: Sveiki %{recipient}!
-        message:
+        greeting: "Sveiki %{recipient}!"
+        message: ""
         subject: Slaptažodis pakeistas
       reset_password_instructions:
         action: Pakeisti mano slaptažodį
-        greeting:
-        instruction:
-        instruction_2:
-        instruction_3:
+        greeting: ""
+        instruction: ""
+        instruction_2: ""
+        instruction_3: ""
         subject: Slaptažodžio keitimo instrukcijos
       unlock_instructions:
-        action:
-        greeting:
-        instruction:
-        message:
+        action: ""
+        greeting: ""
+        instruction: ''
+        message: ""
         subject: Paskyros atblokavimo instrukcijos
     omniauth_callbacks:
-      failure: 'Nepavyko autentikaciją per %{kind}, klaida: "%{reason}".'
-      success: Sėkmingai prisijungėte su savo %{kind} paskyra.
+      failure: "Nepavyko autentikaciją per %{kind}, klaida: \"%{reason}\"."
+      success: "Sėkmingai prisijungėte su savo %{kind} paskyra."
     passwords:
       edit:
-        change_my_password:
-        change_your_password:
-        confirm_new_password:
-        new_password:
+        change_my_password: ""
+        change_your_password: ""
+        confirm_new_password: ""
+        new_password: ""
       new:
-        forgot_your_password:
-        send_me_reset_password_instructions:
-      no_token: Jūs negalite pasiekti šio puslapio tiesiogiai, tą turite padaryti iš slaptažodžio keitimo laiško. Jei jūs atėjote naudodami nuorodą, pateiktą slaptažodžio keitimo laiške, įsitikinkite, kad nukopijavote ją visą.
+        forgot_your_password: ""
+        send_me_reset_password_instructions: ""
+      no_token: "Jūs negalite pasiekti šio puslapio tiesiogiai, tą turite padaryti iš slaptažodžio keitimo laiško. Jei jūs atėjote naudodami nuorodą, pateiktą slaptažodžio keitimo laiške, įsitikinkite, kad nukopijavote ją visą."
       send_instructions: Jūs gausite el. laišką su slaptažodžio pakeitimo instrukcijomis netrukus.
-      send_paranoid_instructions: Jei prisiregistravote šiuo e-pašto adresu, netrukus gausite el. laišką su slaptažodžio pakeitimo instrukcijomis.
+      send_paranoid_instructions: "Jei prisiregistravote šiuo e-pašto adresu, netrukus gausite el. laišką su slaptažodžio pakeitimo instrukcijomis."
       updated: Jūsų slaptažodis pakeistas sėkmingai. Jūs esate prisijungę.
       updated_not_active: Jūsų slaptažodis pakeistas sėkmingai.
     registrations:
-      destroyed: Iki! Jūsų paskyra dabar yra panaikinta. Tikimės, kad ateityje sugrįšite.
+      destroyed: "Iki! Jūsų paskyra dabar yra panaikinta. Tikimės, kad ateityje sugrįšite."
       edit:
-        are_you_sure:
-        cancel_my_account:
-        currently_waiting_confirmation_for_email:
-        leave_blank_if_you_don_t_want_to_change_it:
-        title:
-        unhappy:
-        update:
-        we_need_your_current_password_to_confirm_your_changes:
+        are_you_sure: ""
+        cancel_my_account: ""
+        currently_waiting_confirmation_for_email: ''
+        leave_blank_if_you_don_t_want_to_change_it: ""
+        title: ""
+        unhappy: ""
+        update: ""
+        we_need_your_current_password_to_confirm_your_changes: ""
       new:
-        sign_up:
-      signed_up: Sveiki, jūs sėkmingai prisiregistravote.
-      signed_up_but_inactive: Jūs sėkmingai prisiregistravote. Deja dar negalime jūsų prijungti, nes jūsų paskyra nėra aktyvuota.
-      signed_up_but_locked: Jūs sėkmingai prisiregistravote. Deja dar negalime jūsų prijungti, nes jūsų paskyra laikinai užblokuota.
+        sign_up: ""
+      signed_up: "Sveiki, jūs sėkmingai prisiregistravote."
+      signed_up_but_inactive: "Jūs sėkmingai prisiregistravote. Deja dar negalime jūsų prijungti, nes jūsų paskyra nėra aktyvuota."
+      signed_up_but_locked: "Jūs sėkmingai prisiregistravote. Deja dar negalime jūsų prijungti, nes jūsų paskyra laikinai užblokuota."
       signed_up_but_unconfirmed: El. laiškas buvo išsiųstas jūsų pateiktu adresu. Sekite nuorodą laiške paskyrai aktyvuoti.
-      update_needs_confirmation: Jūsų paskyra sėkmingai atnaujinta, tačiau mums reikia patvirtinti jūsų naują el. pašto adresą. Prašome pasitikrinkite savo e-paštą ir sekite instrukcijas laiške.
+      update_needs_confirmation: "Jūsų paskyra sėkmingai atnaujinta, tačiau mums reikia patvirtinti jūsų naują el. pašto adresą. Prašome pasitikrinkite savo e-paštą ir sekite instrukcijas laiške."
       updated: Jūsų duomenys sėkmingai atnaujinti.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: ""
     sessions:
       already_signed_out: Jau esate atsijungę.
       new:
-        sign_in:
+        sign_in: ""
       signed_in: Jūs prisijungėte.
       signed_out: Sėkmingai atsijungėte iš savo paskyros.
     shared:
       links:
-        back:
-        didn_t_receive_confirmation_instructions:
-        didn_t_receive_unlock_instructions:
-        forgot_your_password:
-        sign_in:
-        sign_in_with_provider:
-        sign_up:
+        back: ""
+        didn_t_receive_confirmation_instructions: ""
+        didn_t_receive_unlock_instructions: ""
+        forgot_your_password: ""
+        sign_in: ""
+        sign_in_with_provider: ""
+        sign_up: ""
       minimum_password_length:
+        one: ""
+        few: ""
+        many: ""
+        other: ""
     unlocks:
       new:
-        resend_unlock_instructions:
-      send_instructions: Netrukus sulauksite el. laiško su instrukcijomis, kaip atblokuoti paskyrą.
-      send_paranoid_instructions: Jei registracijai naudojote šį e-pašto adresą, netrukus sulauksite el. laiško su instrukcijomis, kaip atblokuoti paskyrą.
+        resend_unlock_instructions: ""
+      send_instructions: "Netrukus sulauksite el. laiško su instrukcijomis, kaip atblokuoti paskyrą."
+      send_paranoid_instructions: "Jei registracijai naudojote šį e-pašto adresą, netrukus sulauksite el. laiško su instrukcijomis, kaip atblokuoti paskyrą."
       unlocked: Jūsų paskyra atblokuota. Prisijunkite prie paskyros darbui tęsti.
   errors:
     messages:
-      already_confirmed: jau buvo patvirtintas, pamėginkite prisijungti
-      confirmation_period_expired: privalo būti patvirtintas per %{period}.
-      expired: nebegalioja, aktyvuokite naują
+      already_confirmed: "jau buvo patvirtintas, pamėginkite prisijungti"
+      confirmation_period_expired: "privalo būti patvirtintas per %{period}."
+      expired: "nebegalioja, aktyvuokite naują"
       not_found: nerastas
       not_locked: nebuvo užblokuota
       not_saved:
-        few: 'Dėl %{count} klaidos(-ų) nepavyko išsaugoti %{resource}:'
-        one: 'Dėl klaidos nepavyko išsaugoti %{resource}:'
-        other: 'Dėl %{count} klaidos(-ų) nepavyko išsaugoti %{resource}:'
+        one: ''
+        few: ""
+        many: ""
+        other: ""

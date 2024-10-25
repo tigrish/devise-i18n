@@ -49,34 +49,34 @@ fa:
     mailer:
       confirmation_instructions:
         action: حساب مرا تایید کن
-        greeting: خوش آمدید %{recipient}!
+        greeting: "خوش آمدید %{recipient}!"
         instruction: 'شما می توانید ایمیل حساب کاربری خود را از طریق لینک زیر تایید کنید:'
         subject: راهنمای تایید
       email_changed:
-        greeting: سلام %{recipient}!
-        message: با شما تماس گرفته ایم تا شما را مطلع کنیم که ایمیل شما به %{email} تغییر کرده است.
-        message_unconfirmed:
+        greeting: "سلام %{recipient}!"
+        message: "با شما تماس گرفته ایم تا شما را مطلع کنیم که ایمیل شما به %{email} تغییر کرده است."
+        message_unconfirmed: ""
         subject: تغییر ایمیل
       password_change:
-        greeting: سلام %{recipient}!
+        greeting: "سلام %{recipient}!"
         message: با شما تماس گرفته ایم تا شما را مطلع کنیم که کلمه عبور شما تغییر کرده است.
         subject: تغییر رمز عبور
       reset_password_instructions:
         action: رمز عبور مرا تغییر بده
-        greeting: سلام %{recipient}!
+        greeting: "سلام %{recipient}!"
         instruction: شخصی درخواست تغییر رمز عبور شما را داده و شما می توانید این کار را از طریق لینک زیر انجام دهید.
         instruction_2: اگر شما این درخواست را ارسال نکرده اید لطفا این ایمیل را نادیده بگیرید.
         instruction_3: رمز عبور شما تا زمانی که به لینک بالا مراجعه نکنید و رمز عبور جدید نسازید تغییر نخواهد کرد
         subject: راهنمای بازنشانی رمز عبور
       unlock_instructions:
         action: حساب مرا باز کن
-        greeting: سلام %{recipient}!
+        greeting: "سلام %{recipient}!"
         instruction: 'برای باز کردن حساب خود بر روی لینک زیر کلیک کنید:'
         message: حساب شما بخاطر تلاش های ناموفق مکرر برای ورود قفل شد.
         subject: راهنمای باز کردن
     omniauth_callbacks:
-      failure: امکان استفاده از مجوز %{kind} نبود زیرا "%{reason}".
-      success: با موفقیت مجوز استفاده از  %{kind} دریافت شد.
+      failure: "امکان استفاده از مجوز %{kind} نبود زیرا \"%{reason}\"."
+      success: "با موفقیت مجوز استفاده از  %{kind} دریافت شد."
     passwords:
       edit:
         change_my_password: رمز عبور مرا تغییر بده
@@ -98,10 +98,10 @@ fa:
         cancel_my_account: حساب مرا لغو کن
         currently_waiting_confirmation_for_email: 'در حال انتظار برای تایید :  %{email}'
         leave_blank_if_you_don_t_want_to_change_it: اگر نمی خواهید تغییر دهید خالی بگذارید
-        title: تغییر %{resource}
+        title: "تغییر %{resource}"
         unhappy: ناراحت
         update: بروز رسانی
-        we_need_your_current_password_to_confirm_your_changes: 'ما برای تایید تغییرات به کلمه عبور فعلی نیاز داریم:'
+        we_need_your_current_password_to_confirm_your_changes: "ما برای تایید تغییرات به کلمه عبور فعلی نیاز داریم:"
       new:
         sign_up: ثبت نام
       signed_up: خوش آمدید! با موفقیت ثبت نام کردید.
@@ -124,7 +124,7 @@ fa:
         didn_t_receive_unlock_instructions: ایمیل راهنمای بازکردن حساب را دریافت نکرده اید؟
         forgot_your_password: کلمه عبور خود را فراموش کرده اید؟
         sign_in: ورود
-        sign_in_with_provider: ورود با %{provider}
+        sign_in_with_provider: "ورود با %{provider}"
         sign_up: ثبت نام
       minimum_password_length:
         one: "(حداقل %{count} حرف)"
@@ -138,7 +138,7 @@ fa:
   errors:
     messages:
       already_confirmed: قبلا تایید شده است
-      confirmation_period_expired: باید در مدت %{period} تایید می‌شد، لطفا یکی دیگر درخواست نمایید
+      confirmation_period_expired: "باید در مدت %{period} تایید می‌شد، لطفا یکی دیگر درخواست نمایید"
       expired: منقضی شده. لطفا یکی دیگر درخواست کنید.
       not_found: یافت نشد
       not_locked: قفل نشده است

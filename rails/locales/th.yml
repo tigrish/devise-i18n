@@ -26,7 +26,8 @@ th:
         unlock_token: รหัสลับสำหรับปลดล็อก
         updated_at: แก้ไขเมื่อ
     models:
-      user: ผู้ใช้งาน
+      user:
+        other: ผู้ใช้งาน
   devise:
     confirmations:
       confirmed: คุณได้ยืนยันบัญชีของคุณเรียบร้อยแล้ว ขณะนี้คุณสามารถเข้าสู่ระบบได้
@@ -47,34 +48,34 @@ th:
     mailer:
       confirmation_instructions:
         action: ยืนยันบัญชีของฉัน
-        greeting: ยินดีต้อนรับคุณ %{recipient}!
+        greeting: "ยินดีต้อนรับคุณ %{recipient}!"
         instruction: 'คุณสามารถยืนยันอีเมล์ที่ใช้สมัครสมาชิกได้จากลิงค์ข้างล่างนี้:'
         subject: คำแนะนำการยืนยัน
       email_changed:
-        greeting: สวัสดี %{recipient}
-        message: เราติดต่อคุณในครั้งนี้เพื่อแจ้งให้ทราบว่าอีเมลของคุณได้ถูกเปลี่ยนเป็น %{email} สำเร็จแล้ว
-        message_unconfirmed: เราติดต่อคุณในครั้งนี้เพื่อแจ้งให้ทราบว่าอีเมลของคุณจะถูกเปลี่ยนเป็น %{email}
+        greeting: "สวัสดี %{recipient}"
+        message: "เราติดต่อคุณในครั้งนี้เพื่อแจ้งให้ทราบว่าอีเมลของคุณได้ถูกเปลี่ยนเป็น %{email} สำเร็จแล้ว"
+        message_unconfirmed: "เราติดต่อคุณในครั้งนี้เพื่อแจ้งให้ทราบว่าอีเมลของคุณจะถูกเปลี่ยนเป็น %{email}"
         subject: การเปลี่ยนแปลงอีเมลสำเร็จ
       password_change:
-        greeting: สวัสดี %{recipient}
+        greeting: "สวัสดี %{recipient}"
         message: เราติดต่อคุณในครั้งนี้เพื่อแจ้งให้ทราบว่ารหัสผ่านของคุณได้ถูกเปลี่ยนสำเร็จแล้ว
         subject: การเปลี่ยนแปลงรหัสผ่านสำเร็จ
       reset_password_instructions:
         action: เปลี่ยนรหัสผ่านของฉัน
-        greeting: สวัสดีคุณ %{recipient}!
+        greeting: "สวัสดีคุณ %{recipient}!"
         instruction: ทางเวบได้รับคำขอเปลี่ยนรหัสผ่านของคุณ และคุณสามารถตั้งรหัสผ่านใหม่จากลิงค์ข้างล่างนี้
         instruction_2: ถ้าคุณไม่ได้ขอเปลี่ยนรหัสผ่าน กรุณาเพิกเฉยต่อเมล์ฉบับนี้
         instruction_3: รหัสผ่านของคุณยังไม่ได้ถูกเปลี่ยนแปลง จนกว่าคุณจะเข้าลิงค์ด้านบนนี้และตั้งรหัสผ่านใหม่
         subject: คำแนะนำการตั้งค่ารหัสผ่าน
       unlock_instructions:
         action: ปลดล็อคบัญชีของฉัน
-        greeting: สวัสดีคุณ %{recipient}!
+        greeting: "สวัสดีคุณ %{recipient}!"
         instruction: 'คลิกลิงค์ทางด้านล่างนี้เพื่อปลดล็อคบัญชีของคุณ:'
         message: บัญชีของคุณโดนล็อค เนื่องจากคุณใส่รหัสผ่านผิดเกินจำนวนครั้งที่ทางเรากำหนด
         subject: คำแนะนำการปลดล็อก
     omniauth_callbacks:
-      failure: ไม่สามารถยืนยันตัวคุณจาก %{kind} เพราะ "%{reason}"
-      success: ยืนยันตัวตนจากบัญชี %{kind}
+      failure: "ไม่สามารถยืนยันตัวคุณจาก %{kind} เพราะ \"%{reason}\""
+      success: "ยืนยันตัวตนจากบัญชี %{kind}"
     passwords:
       edit:
         change_my_password: เปลี่ยนรหัสผ่านของคุณ
@@ -82,7 +83,7 @@ th:
         confirm_new_password: ยืนยันรหัสผ่านใหม่
         new_password: รหัสผ่านใหม่
       new:
-        forgot_your_password: ลืมรหัสผ่าน?
+        forgot_your_password: "ลืมรหัสผ่าน?"
         send_me_reset_password_instructions: ส่งคำขอตั้งรหัสผ่านใหม่
       no_token: คุณไม่สามารถเข้าถึงหน้าเว็บนี้โดยไม่ได้คลิกลิงค์จากอีเมล์ตั้งค่ารหัสผ่าน หากคุณคลิกลิงค์จากอีเมล์ตั้งค่ารหัสผ่านกรุณาตรวจสอบให้แน่ใจว่า URL ถูกต้องตามที่เราให้ไว้
       send_instructions: คุณจะได้รับอีเมล์แนะนำการตั้งค่ารหัสผ่านในไม่ช้า
@@ -92,11 +93,11 @@ th:
     registrations:
       destroyed: ลาก่อน! บัญชีของคุณถูกยกเลิกเรียบร้อยแล้ว เราหวังว่าจะได้พบคุณใหม่ในไม่ช้า
       edit:
-        are_you_sure: คุณแน่ใจหรือไม่?
+        are_you_sure: "คุณแน่ใจหรือไม่?"
         cancel_my_account: ยกเลิกบัญชีของฉัน
-        currently_waiting_confirmation_for_email: ขณะนี้ ระบบรอการยืนยันอีเมล์ %{email} อยู่
+        currently_waiting_confirmation_for_email: 'ขณะนี้ ระบบรอการยืนยันอีเมล์ %{email} อยู่'
         leave_blank_if_you_don_t_want_to_change_it: เว้นว่างไว้ถ้าคุณไม่ต้องการจะเปลี่ยนแปลง
-        title: แก้ไข %{resource}
+        title: "แก้ไข %{resource}"
         unhappy: ไม่พอใจ
         update: ปรับข้อมูล
         we_need_your_current_password_to_confirm_your_changes: เราต้องการรหัสผ่านปัจจุบันเพื่อยืนยันการเปลี่ยนรหัสของคุณ
@@ -118,13 +119,14 @@ th:
     shared:
       links:
         back: กลับ
-        didn_t_receive_confirmation_instructions: ไม่ได้รับการยืนยันคำขอ?
-        didn_t_receive_unlock_instructions: ไม่ได้รับคำขอปลดล็อค?
-        forgot_your_password: ลืมรหัสผ่าน?
+        didn_t_receive_confirmation_instructions: "ไม่ได้รับการยืนยันคำขอ?"
+        didn_t_receive_unlock_instructions: "ไม่ได้รับคำขอปลดล็อค?"
+        forgot_your_password: "ลืมรหัสผ่าน?"
         sign_in: เข้าสู่ระบบ
-        sign_in_with_provider: เข้าสู่ระบบด้วย %{provider}
+        sign_in_with_provider: "เข้าสู่ระบบด้วย %{provider}"
         sign_up: สมัครสมาชิก
-      minimum_password_length: "(จำนวนตัวอักษรขั้นต่ำ %{count} ตัวอักษร)"
+      minimum_password_length:
+        other: "(จำนวนตัวอักษรขั้นต่ำ %{count} ตัวอักษร)"
     unlocks:
       new:
         resend_unlock_instructions: ส่งคำขอปลดล็อคอีกครั้ง
@@ -134,8 +136,9 @@ th:
   errors:
     messages:
       already_confirmed: ยืนยันแล้ว ลองเข้าสู่ระบบ
-      confirmation_period_expired: จำเป็นต้องได้รับการยืนยันในเวลา %{period}, กรุณาทำใหม่อีกครั้ง
+      confirmation_period_expired: "จำเป็นต้องได้รับการยืนยันในเวลา %{period}, กรุณาทำใหม่อีกครั้ง"
       expired: การยืนยันหมดอายุแล้ว กรุณาขอใหม่อีกครั้ง
       not_found: ไม่พบ
       not_locked: ไม่ถูกล็อก
-      not_saved: "%{count} ผิดพลาด %{resource} นี้ถูกห้ามบันทึก:"
+      not_saved:
+        other: "%{count} ผิดพลาด %{resource} นี้ถูกห้ามบันทึก:"

@@ -1,11 +1,9 @@
-es-CO:
+es_CO:
   activerecord:
     attributes:
       user:
         confirmation_sent_at: Confirmación enviada a
-        confirmation_token: 'Código de confirmación
-
-          '
+        confirmation_token: "Código de confirmación\n"
         confirmed_at: Confirmado en
         created_at: Creado en
         current_password: Contraseña actual
@@ -29,15 +27,16 @@ es-CO:
         updated_at: Fecha de actualización
     models:
       user:
-        one: Usuario
-        other: Usuarios
+        one: ''
+        many: ''
+        other: ''
   devise:
     confirmations:
       confirmed: Tu dirección de correo electrónico se ha confirmado correctamente.
       new:
         resend_confirmation_instructions: Reenviar instrucciones de confirmación
       send_instructions: En unos minutos recibirás un correo electrónico con instrucciones sobre cómo confirmar tu correo electrónico.
-      send_paranoid_instructions: Si tu correo electrónico ya existe en nuestra base de datos, en unos minutos recibirás un correo electrónico con instrucciones de como confirmar tu correo electrónico.
+      send_paranoid_instructions: "Si tu correo electrónico ya existe en nuestra base de datos, en unos minutos recibirás un correo electrónico con instrucciones de como confirmar tu correo electrónico."
     failure:
       already_authenticated: Ya has iniciado sesión.
       inactive: Tu cuenta aún no está activa.
@@ -45,7 +44,7 @@ es-CO:
       last_attempt: Tienes un intento más antes de que tu cuenta sea bloqueada.
       locked: Tu cuenta está bloqueada.
       not_found_in_database: "%{authentication_keys} o contraseña inválida."
-      timeout: Tu sesión ha expirado. Por favor, inicia sesión nuevamente para continuar.
+      timeout: "Tu sesión ha expirado. Por favor, inicia sesión nuevamente para continuar."
       unauthenticated: Tienes que iniciar sesión o registrarte para poder continuar.
       unconfirmed: Tienes que confirmar tu correo electrónico para poder continuar.
     mailer:
@@ -55,9 +54,9 @@ es-CO:
         instruction: 'Puedes confirmar tu correo electrónico a través del siguiente enlace:'
         subject: Instrucciones de confirmación
       email_changed:
-        greeting: Hola %{recipient}!
-        message: Te estamos contactando para notificarte que tu correo electrónico a cambiado a %{email}.
-        message_unconfirmed: Te estamos contactando para notificarte que tu correo electrónico fue cambiado a %{email}.
+        greeting: "Hola %{recipient}!"
+        message: "Te estamos contactando para notificarte que tu correo electrónico a cambiado a %{email}."
+        message_unconfirmed: "Te estamos contactando para notificarte que tu correo electrónico fue cambiado a %{email}."
         subject: El correo electrónico cambió
       password_change:
         greeting: "¡Hola %{recipient}!"
@@ -67,7 +66,7 @@ es-CO:
         action: Cambiar mi contraseña
         greeting: "¡Hola %{recipient}!"
         instruction: Alguien ha solicitado un enlace para cambiar tu contraseña. Puedes hacerlo a través del siguiente enlace.
-        instruction_2: Si no solicitaste esto, por favor ignora este correo electrónico.
+        instruction_2: "Si no solicitaste esto, por favor ignora este correo electrónico."
         instruction_3: Tu contraseña no será cambiada hasta que usted acceda al enlace y cree una nueva contraseña.
         subject: Instrucciones de recuperación de contraseña
       unlock_instructions:
@@ -77,8 +76,8 @@ es-CO:
         message: Su cuenta ha sido bloqueada debido a una cantidad excesiva de intentos fallidos para iniciar sesión.
         subject: Instrucciones para desbloquear tu cuenta
     omniauth_callbacks:
-      failure: No has sido autorizado en la cuenta %{kind} porque "%{reason}".
-      success: Has sido autenticado exitosamente desde la cuenta de %{kind}.
+      failure: "No has sido autorizado en la cuenta %{kind} porque \"%{reason}\"."
+      success: "Has sido autenticado exitosamente desde la cuenta de %{kind}."
     passwords:
       edit:
         change_my_password: Cambiar mi contraseña
@@ -88,31 +87,31 @@ es-CO:
       new:
         forgot_your_password: "¿Ha olvidado su contraseña?"
         send_me_reset_password_instructions: Enviarme instrucciones para restablecer la contraseña
-      no_token: No puedes acceder a esta página si no es a través de un enlace para restablecer tu contraseña. Si has llegado hasta aquí desde el correo para restablecer tu contraseña, por favor asegúrese de que la URL introducida está completa.
+      no_token: "No puedes acceder a esta página si no es a través de un enlace para restablecer tu contraseña. Si has llegado hasta aquí desde el correo para restablecer tu contraseña, por favor asegúrese de que la URL introducida está completa."
       send_instructions: En unos minutos recibirás un correo con instrucciones sobre cómo restablecer tu contraseña.
-      send_paranoid_instructions: Si tu correo existe en nuestra base de datos, recibirás un correo electrónico con instrucciones sobre cómo restablecer tu contraseña.
+      send_paranoid_instructions: "Si tu correo existe en nuestra base de datos, recibirás un correo electrónico con instrucciones sobre cómo restablecer tu contraseña."
       updated: Tu contraseña ha sido cambiada exitosamente. Ya puedes iniciar sesión.
       updated_not_active: Tu contraseña ha sido cambiada.
     registrations:
-      destroyed: "¡Adiós! Tu cuenta ha sido cancelada exitosamente. Esperamos verte pronto."
+      destroyed: ¡Adiós! Tu cuenta ha sido cancelada exitosamente. Esperamos verte pronto.
       edit:
         are_you_sure: "¿Está usted seguro?"
         cancel_my_account: Eliminar mi cuenta
         currently_waiting_confirmation_for_email: 'Actualmente esperando la confirmación de: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: dejar en blanco si no desea cambiarlo
-        title: Editar %{resource}
+        title: "Editar %{resource}"
         unhappy: No se encuentra feliz
         update: Actualizar
         we_need_your_current_password_to_confirm_your_changes: necesitamos su contraseña actual para confirmar los cambios
       new:
         sign_up: Registrarse
       signed_up: Bienvenido. Tu cuenta ha sido creada.
-      signed_up_but_inactive: Tu cuenta ha sido creada exitosamente. Sin embargo, no puedes iniciar sesión ya que tu cuenta aún no está activada.
-      signed_up_but_locked: Tu cuenta ha sido creada correctamente. Sin embargo, no es posible iniciar la sesión porque que tu cuenta se encuentra bloqueada.
+      signed_up_but_inactive: "Tu cuenta ha sido creada exitosamente. Sin embargo, no puedes iniciar sesión ya que tu cuenta aún no está activada."
+      signed_up_but_locked: "Tu cuenta ha sido creada correctamente. Sin embargo, no es posible iniciar la sesión porque que tu cuenta se encuentra bloqueada."
       signed_up_but_unconfirmed: Se ha enviado un mensaje con un enlace de confirmación a tu correo electrónico. Ingresa al enlace para activar tu cuenta.
-      update_needs_confirmation: Has actualizado tu cuenta exitosamente; pero es necesario confirmar tu nuevo correo electrónico. Por favor, comprueba tu correo electrónico e ingresa al enlace de confirmación para finalizar la comprobación del nuevo correo electrónico.
+      update_needs_confirmation: "Has actualizado tu cuenta exitosamente; pero es necesario confirmar tu nuevo correo electrónico. Por favor, comprueba tu correo electrónico e ingresa al enlace de confirmación para finalizar la comprobación del nuevo correo electrónico."
       updated: Tu cuenta ha sido actualizada exitosamente.
-      updated_but_not_signed_in: Tu cuenta ha sido actualizada exitosamente; pero, como tu contraseña cambió, necesitas iniciar sesión nuevamente.
+      updated_but_not_signed_in: "Tu cuenta ha sido actualizada exitosamente; pero, como tu contraseña cambió, necesitas iniciar sesión nuevamente."
     sessions:
       already_signed_out: Se ha cerrado la sesión con éxito.
       new:
@@ -126,24 +125,26 @@ es-CO:
         didn_t_receive_unlock_instructions: "¿No ha recibido instrucciones para desbloquear su cuenta?"
         forgot_your_password: "¿Ha olvidado su contraseña?"
         sign_in: Iniciar sesión
-        sign_in_with_provider: Iniciar sesión con %{provider}
+        sign_in_with_provider: "Iniciar sesión con %{provider}"
         sign_up: Registrarse
       minimum_password_length:
-        one: "(Mínimo %{count} carácter)"
-        other: "(Mínimo %{count} caracteres)"
+        one: ""
+        many: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instrucciones para desbloquear la cuenta
       send_instructions: En unos minutos recibirás instrucciones para desbloquear tu cuenta.
-      send_paranoid_instructions: Si tu cuenta existe, en unos minutos recibirás instrucciones para desbloquear tu cuenta.
+      send_paranoid_instructions: "Si tu cuenta existe, en unos minutos recibirás instrucciones para desbloquear tu cuenta."
       unlocked: Tu cuenta ha sido desbloqueada. Ya puedes iniciar sesión.
   errors:
     messages:
-      already_confirmed: ya fue confirmada, por favor intenta iniciar sesión
-      confirmation_period_expired: necesita confirmarse dentro de %{period}, por favor solicita una nueva
+      already_confirmed: "ya fue confirmada, por favor intenta iniciar sesión"
+      confirmation_period_expired: "necesita confirmarse dentro de %{period}, por favor solicita una nueva"
       expired: ha expirado; por favor solicita una nueva
       not_found: no se encontró
       not_locked: no se encuentra bloqueada
       not_saved:
-        one: 'Un error ocurrió al tratar de guardar %{resource}:'
-        other: "%{count} errores ocurrieron al tratar de guardar %{resource}:"
+        one: ''
+        many: ""
+        other: ""

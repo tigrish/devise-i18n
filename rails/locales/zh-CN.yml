@@ -1,4 +1,4 @@
-zh-CN:
+zh_CN:
   activerecord:
     attributes:
       user:
@@ -26,7 +26,8 @@ zh-CN:
         unlock_token: 帐户解锁令牌
         updated_at: 更新于
     models:
-      user: 用户
+      user:
+        other: 用户
   devise:
     confirmations:
       confirmed: 成功验证您的邮箱。
@@ -47,34 +48,34 @@ zh-CN:
     mailer:
       confirmation_instructions:
         action: 确认我的帐户
-        greeting: 欢迎 %{recipient}！
-        instruction: 您可以通过下面的链接确认您的帐户的电子邮件：
+        greeting: "欢迎 %{recipient}！"
+        instruction: '您可以通过下面的链接确认您的帐户的电子邮件：'
         subject: 帐户确认信息
       email_changed:
-        greeting: 您好 %{recipient}！
-        message: 收到此邮件是因为您的电子邮件地址已被更改为 %{email}。
-        message_unconfirmed: 收到此邮件是因为您的电子邮件地址正被更改为 %{email}。
+        greeting: "您好 %{recipient}！"
+        message: "收到此邮件是因为您的电子邮件地址已被更改为 %{email}。"
+        message_unconfirmed: "收到此邮件是因为您的电子邮件地址正被更改为 %{email}。"
         subject: 电子邮件已被修改
       password_change:
-        greeting: 您好 %{recipient}！
+        greeting: "您好 %{recipient}！"
         message: 收到此邮件是因为您的帐户密码已被修改。
         subject: 密码已被重置
       reset_password_instructions:
         action: 更改我的密码
-        greeting: 您好 %{recipient}！
+        greeting: "您好 %{recipient}！"
         instruction: 有人要求更改密码的链接，您可以通过下面的链接更改密码：
         instruction_2: 如果您没有要求请求更改密码，请忽略此电子邮件。
         instruction_3: 如果您没有访问上面的链接并更改密码，您的密码就不会被改变。
         subject: 重置密码信息
       unlock_instructions:
         action: 帐户解锁
-        greeting: 您好 %{recipient}！
-        instruction: 点击下面的链接以解锁您的帐户：
+        greeting: "您好 %{recipient}！"
+        instruction: '点击下面的链接以解锁您的帐户：'
         message: 由于多次登录失败，您的帐户已被锁定。
         subject: 帐户解锁信息
     omniauth_callbacks:
-      failure: 由于%{reason}，无法从%{kind}获得授权。
-      success: 成功地从%{kind}获得授权。
+      failure: "由于%{reason}，无法从%{kind}获得授权。"
+      success: "成功地从%{kind}获得授权。"
     passwords:
       edit:
         change_my_password: 更改我的密码
@@ -94,9 +95,9 @@ zh-CN:
       edit:
         are_you_sure: 您确定吗？
         cancel_my_account: 注销我的帐户
-        currently_waiting_confirmation_for_email: 等待确认 %{email}
+        currently_waiting_confirmation_for_email: '等待确认 %{email}'
         leave_blank_if_you_don_t_want_to_change_it: 如不想更改，则无需填写
-        title: 修改%{resource}
+        title: "修改%{resource}"
         unhappy: 不喜欢
         update: 更新
         we_need_your_current_password_to_confirm_your_changes: 我们需要您的当前密码以确认更改
@@ -122,9 +123,10 @@ zh-CN:
         didn_t_receive_unlock_instructions: 没有收到解锁邮件？
         forgot_your_password: 忘记密码？
         sign_in: 登录
-        sign_in_with_provider: 通过 %{provider} 登录
+        sign_in_with_provider: "通过 %{provider} 登录"
         sign_up: 注册
-      minimum_password_length: "（最少%{count}个字符）"
+      minimum_password_length:
+        other: "（最少%{count}个字符）"
     unlocks:
       new:
         resend_unlock_instructions: 重发解锁邮件
@@ -134,10 +136,9 @@ zh-CN:
   errors:
     messages:
       already_confirmed: 已经确认，请重新登录。
-      confirmation_period_expired: 注册帐号后须在%{period}以内确认。请重新注册。
+      confirmation_period_expired: "注册帐号后须在%{period}以内确认。请重新注册。"
       expired: 邮件确认已过期，请重新注册。
       not_found: 找不到
       not_locked: 未被锁定
       not_saved:
-        one: 发生 1 个错误，导致%{resource}保存失败：
-        other: 发生 %{count} 个错误，导致%{resource}保存失败：
+        other: "发生 %{count} 个错误，导致%{resource}保存失败："

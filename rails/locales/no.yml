@@ -1,4 +1,4 @@
-'no':
+"no":
   activerecord:
     attributes:
       user:
@@ -39,44 +39,44 @@
     failure:
       already_authenticated: Du er allerede logget inn.
       inactive: Din konto er ikke aktivert enda.
-      invalid:
+      invalid: ""
       last_attempt: Du har et forsøk til før din konto blir låst.
       locked: Din konto er låst.
-      not_found_in_database:
+      not_found_in_database: ""
       timeout: Din sesjon er utløpt. Logg inn igjen for å kunne fortsette.
       unauthenticated: Du må logge inn eller registrere deg for å kunne fortsette.
       unconfirmed: Du må bekrefte kontoen din for å kunne fortsette.
     mailer:
       confirmation_instructions:
         action: Bekreft min konto
-        greeting: Velkommen %{recipient}!
+        greeting: "Velkommen %{recipient}!"
         instruction: 'Du kan bekrefte kontoen din gjennom linken nedenfor:'
         subject: Bekreftelsesinstruksjoner
       email_changed:
-        greeting: Hei %{recipient}!
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: "Hei %{recipient}!"
+        message: ""
+        message_unconfirmed: ""
+        subject: ""
       password_change:
-        greeting: Hallo %{recipient}!
+        greeting: "Hallo %{recipient}!"
         message: Vi kontakter deg for å meddele at ditt passord har blitt endret.
         subject: Passord endret
       reset_password_instructions:
         action: Endre passord
-        greeting: Hallo %{recipient}!
+        greeting: "Hallo %{recipient}!"
         instruction: Noen har bedt om en link til å endre ditt passord og du kan gjøre det her.
-        instruction_2: Hvis du ikke har bedt om dette, vennligst overse denne eposten.
+        instruction_2: "Hvis du ikke har bedt om dette, vennligst overse denne eposten."
         instruction_3: Ditt passord vil ikke bli endret med mindre du følger linken ovenfor og oppretter et nytt ett.
         subject: Nullstilling av passord
       unlock_instructions:
         action: Lås opp konto
-        greeting: Hallo %{recipient}!
+        greeting: "Hallo %{recipient}!"
         instruction: 'Klikk på linken nedenfor for å låse opp kontoen din:'
         message: Kontoen din har blitt låst på grunn av alt for mange mislykkede påloggingsforsøk.
         subject: Gjenåpning av konto
     omniauth_callbacks:
-      failure: Kunne ikke autorisere deg fra %{kind} fordi "%{reason}".
-      success: Vellykket autorisering fra %{kind}.
+      failure: "Kunne ikke autorisere deg fra %{kind} fordi \"%{reason}\"."
+      success: "Vellykket autorisering fra %{kind}."
     passwords:
       edit:
         change_my_password: Endre passord
@@ -84,9 +84,9 @@
         confirm_new_password: Bekreft nytt passord
         new_password: Nytt passord
       new:
-        forgot_your_password: Glemt passord?
+        forgot_your_password: "Glemt passord?"
         send_me_reset_password_instructions: Send meg instruksjoner for å sette nytt passord
-      no_token: Du kan ikke aksessere denne siden uten å bli videresendt fra en epost med intrukssjoner for å tilbakestille passord. Hvis dette er tilfelle, vennligst sørg for at du brukte hele lenken inneholdt i eposten.
+      no_token: "Du kan ikke aksessere denne siden uten å bli videresendt fra en epost med intrukssjoner for å tilbakestille passord. Hvis dette er tilfelle, vennligst sørg for at du brukte hele lenken inneholdt i eposten."
       send_instructions: Du vil innen få minutter motta en epost med instruksjoner for å nullstille passordet ditt.
       send_paranoid_instructions: Hvis epostadressen din finnes i vår database vil du innen få minutter motta en epost med instruksjoner for å nullstille passordet ditt.
       updated: Ditt passord er endret og du er nå innlogget.
@@ -94,12 +94,12 @@
     registrations:
       destroyed: Farvel! Din konto er nå slettet. Vi håper å se deg igjen snart.
       edit:
-        are_you_sure: Er du sikker?
+        are_you_sure: "Er du sikker?"
         cancel_my_account: Deaktiver konto
         currently_waiting_confirmation_for_email: 'Venter på bekreftelse for: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: la stå tomt dersom du ikke vil endre det
-        title: Rediger %{resource}
-        unhappy: Misfornøyd?
+        title: "Rediger %{resource}"
+        unhappy: "Misfornøyd?"
         update: Oppdater
         we_need_your_current_password_to_confirm_your_changes: vi trenger du nåværende passord for å bekrefte endringene du har gjort
       new:
@@ -108,9 +108,9 @@
       signed_up_but_inactive: Du er registrert. Vi kan derimot ikke logge deg på siden kontoen din ennå ikke er aktivert.
       signed_up_but_locked: Du er registrert. Vi kan derimot ikke logge deg på siden kontoen din er låst.
       signed_up_but_unconfirmed: En epost med en aktiveringslink er sent til din epostadresse.  Vennligst klikk på linken for å aktivere din konto.
-      update_needs_confirmation: Din profil er oppdatert, men vi trenger å bekrefte din nye epost-adresse. Vennligst sjekk din innboks og klikk på lenken inneholdt i eposten for å bekrefte endring av din epost-adresse.
+      update_needs_confirmation: "Din profil er oppdatert, men vi trenger å bekrefte din nye epost-adresse. Vennligst sjekk din innboks og klikk på lenken inneholdt i eposten for å bekrefte endring av din epost-adresse."
       updated: Din profil er oppdatert.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: ""
     sessions:
       already_signed_out: Logget ut
       new:
@@ -120,15 +120,15 @@
     shared:
       links:
         back: Tilbake
-        didn_t_receive_confirmation_instructions: Ikke mottatt bekreftelsesinstruksjoner?
-        didn_t_receive_unlock_instructions: Ikke mottatt aktiveringsinstruksjoner?
-        forgot_your_password: Glemt passord?
+        didn_t_receive_confirmation_instructions: "Ikke mottatt bekreftelsesinstruksjoner?"
+        didn_t_receive_unlock_instructions: "Ikke mottatt aktiveringsinstruksjoner?"
+        forgot_your_password: "Glemt passord?"
         sign_in: Logg inn
-        sign_in_with_provider: Logg inn med %{provider}
+        sign_in_with_provider: "Logg inn med %{provider}"
         sign_up: Opprett konto
       minimum_password_length:
-        one:
-        other:
+        one: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: Send nye aktiveringsinstruksjoner
@@ -137,9 +137,9 @@
       unlocked: Din konto er gjenåpnet. Vennligst logg inn for å fortsette.
   errors:
     messages:
-      already_confirmed: har allerede blitt bekreftet, forsøk å logg inn
-      confirmation_period_expired: må bekreftes innen %{period}, vennligst forespør en ny en
-      expired: har utløpt, vennligst få en ny en
+      already_confirmed: "har allerede blitt bekreftet, forsøk å logg inn"
+      confirmation_period_expired: "må bekreftes innen %{period}, vennligst forespør en ny en"
+      expired: "har utløpt, vennligst få en ny en"
       not_found: ikke funnet
       not_locked: var ikke låst
       not_saved:

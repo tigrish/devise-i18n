@@ -27,12 +27,12 @@ ar:
         updated_at: تم التحديث في
     models:
       user:
+        zero: المستخدم
+        one: المستخدم
+        two: المستخدم
         few: المستخدم
         many: المستخدم
-        one: المستخدم
         other: المستخدم
-        two: المستخدم
-        zero: المستخدم
   devise:
     confirmations:
       confirmed: تم تأكيد عنوان بريدك الإلكتروني بنجاح.
@@ -53,34 +53,34 @@ ar:
     mailer:
       confirmation_instructions:
         action: تأكيد حسابي
-        greeting: مرحباً %{recipient}
+        greeting: "مرحباً %{recipient}"
         instruction: 'يُمكنك تأكيد بريدك الإلكتروني من خلال الرابط أدناه:'
         subject: تعليمات التأكيد
       email_changed:
-        greeting: أهلا %{recipient} !
-        message: نتصل بك لإخبارك أنّ عنوان بريدك الإلكتروني قد تم تغييره إلى %{email}.
-        message_unconfirmed: نقوم بالتواصل معك لإعلامك بتغيير بريدك الإلكتروني إلى %{email}.
+        greeting: "أهلا %{recipient} !"
+        message: "نتصل بك لإخبارك أنّ عنوان بريدك الإلكتروني قد تم تغييره إلى %{email}."
+        message_unconfirmed: "نقوم بالتواصل معك لإعلامك بتغيير بريدك الإلكتروني إلى %{email}."
         subject: تم تغيير عنوان البريد الإلكتروني
       password_change:
-        greeting: مرحباً %{recipient}
+        greeting: "مرحباً %{recipient}"
         message: لقد قمنا بالاتصال بك لإخبارك أنه قد تم تغيير كلمة مرورك.
         subject: تم تغيير كلمة المرور
       reset_password_instructions:
         action: تغيير كلمة مروري
-        greeting: مرحباً %{recipient}
+        greeting: "مرحباً %{recipient}"
         instruction: لقد طلب شخص ما رابط لتغيير كلمة مرورك، ويُمكنك القيام بذلك من خلال الرابط أدناه.
         instruction_2: إذا لم تقم بطلب ذلك، الرجاء تجاهل هذه الرسالة.
         instruction_3: لن يتم تغيير كلمة مرورك حتى تقوم بفتح الرابط أعلاه وإنشاء كلمة مرور جديدة.
         subject: تعليمات إعادة تعيين كلمة المرور
       unlock_instructions:
         action: إلغاء قفل حسابي
-        greeting: مرحباً %{recipient}
+        greeting: "مرحباً %{recipient}"
         instruction: 'انقر فوق الرابط أدناه لإلغاء قفل حسابك:'
         message: تم غلق حسابك بسبب العدد الكبير من محاولات تسجيل الدخول غير الناجحة.
         subject: تعليمات إلغاء القفل
     omniauth_callbacks:
-      failure: تعذر التحقق منك من %{kind} بسبب "%{reason}".
-      success: تمت المصادقة بنجاح من حساب %{kind}.
+      failure: "تعذر التحقق منك من %{kind} بسبب \"%{reason}\"."
+      success: "تمت المصادقة بنجاح من حساب %{kind}."
     passwords:
       edit:
         change_my_password: تغيير كلمة مروري
@@ -102,7 +102,7 @@ ar:
         cancel_my_account: إلغاء حسابي
         currently_waiting_confirmation_for_email: 'قيد انتظار التأكيد حالياً لـ: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: اتركه فارغاً إذا كنت لا ترغب في تغييره
-        title: تحرير %{resource}
+        title: "تحرير %{resource}"
         unhappy: غير سعيد؟
         update: تحديث
         we_need_your_current_password_to_confirm_your_changes: نحتاج إلى كلمة مرورك الحالية لتأكيد التغيرات التي قمت بها
@@ -128,9 +128,15 @@ ar:
         didn_t_receive_unlock_instructions: لم تتلقى تعليمات إلغاء القفل؟
         forgot_your_password: نسيت كلمة مرورك؟
         sign_in: تسجيل الدخول
-        sign_in_with_provider: تسجيل الدخول باستخدام %{provider}
+        sign_in_with_provider: "تسجيل الدخول باستخدام %{provider}"
         sign_up: التسجيل
       minimum_password_length:
+        zero: ""
+        one: ""
+        two: ""
+        few: ""
+        many: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: إعادة إرسال تعليمات إلغاء القفل
@@ -140,14 +146,14 @@ ar:
   errors:
     messages:
       already_confirmed: تم تأكيده بالفعل، الرجاء محاولة تسجيل الدخول
-      confirmation_period_expired: يحتاج إلى التأكيد في غضون %{period}،الرجاء طلب رابط تأكيد جديد
+      confirmation_period_expired: "يحتاج إلى التأكيد في غضون %{period}،الرجاء طلب رابط تأكيد جديد"
       expired: قد انتهت المدة، الرجاء طلب رابط تأكيد جديد
       not_found: غير موجود
       not_locked: لم يتم إلغاء قفله
       not_saved:
+        zero: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"
+        one: '1 خطأ منع %{resource} هذا من أن يتم حفظه:'
+        two: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"
         few: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"
         many: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"
-        one: '1 خطأ منع %{resource} هذا من أن يتم حفظه:'
         other: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"
-        two: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"
-        zero: "%{count} أخطاء منع %{resource} هذا من أن يتم حفظه:"

@@ -35,48 +35,48 @@ sv:
       new:
         resend_confirmation_instructions: Skicka instruktioner för att bekräfta konto igen
       send_instructions: Du kommer att få epost med instruktioner om hur du kan bekräfta ditt konto inom några minuter.
-      send_paranoid_instructions: Om din epostadress finns i vår databas, kommer du att få ett epost-meddelande inom några minuter med instruktioner om hur du ska göra för att aktivera ditt konto igen.
+      send_paranoid_instructions: "Om din epostadress finns i vår databas, kommer du att få ett epost-meddelande inom några minuter med instruktioner om hur du ska göra för att aktivera ditt konto igen."
     failure:
       already_authenticated: Du är redan inloggad.
       inactive: Ditt konto har inte aktiverats ännu.
-      invalid: Ogiltig %{authentication_keys} eller lösenord
-      last_attempt: Du har ett försök kvar, sen låser vi ditt konto.
+      invalid: "Ogiltig %{authentication_keys} eller lösenord"
+      last_attempt: "Du har ett försök kvar, sen låser vi ditt konto."
       locked: Ditt konto är låst.
-      not_found_in_database: Ogiltig %{authentication_keys} eller lösenord
-      timeout: Din session är inte längre giltig, vänligen logga in igen för att fortsätta.
+      not_found_in_database: "Ogiltig %{authentication_keys} eller lösenord"
+      timeout: "Din session är inte längre giltig, vänligen logga in igen för att fortsätta."
       unauthenticated: Du måste logga in eller skapa ett konto innan du kan fortsätta.
       unconfirmed: Du måste bekräfta ditt konto innan du kan fortsätta.
     mailer:
       confirmation_instructions:
         action: Bekräfta mitt konto
-        greeting: Välkommen %{recipient}!
+        greeting: "Välkommen %{recipient}!"
         instruction: 'Du kan bekräfta ditt konto med länken nedan:'
         subject: Instruktioner för bekräftning av konto
       email_changed:
-        greeting: Hej %{recipient}!
-        message: Vi kontaktar dig för att meddela att din e-post ändras till %{email}.
-        message_unconfirmed:
+        greeting: "Hej %{recipient}!"
+        message: "Vi kontaktar dig för att meddela att din e-post ändras till %{email}."
+        message_unconfirmed: ""
         subject: E-post ändrades
       password_change:
-        greeting: Hej %{recipient}!
+        greeting: "Hej %{recipient}!"
         message: Vi kontaktar dig för att meddela dig att att ditt lösenord har blivit ändrat.
         subject: Lösenorded uppdaterades
       reset_password_instructions:
         action: Byt lösenord
-        greeting: Hej %{recipient}!
+        greeting: "Hej %{recipient}!"
         instruction: Någon har begärt att ändra ditt lösenord. Du kan göra det genom länken nedan.
-        instruction_2: Om ändringen inte begärdes utav dig, var snäll att ignorera detta email.
+        instruction_2: "Om ändringen inte begärdes utav dig, var snäll att ignorera detta email."
         instruction_3: Ditt lösenord ändras ej förrän du följer länken ovan och skapar ett nytt lösenord.
         subject: Instruktioner för återställning av lösenord
       unlock_instructions:
         action: Lås upp mitt konto
-        greeting: Hej %{recipient}!
+        greeting: "Hej %{recipient}!"
         instruction: 'Följ länken nedan för att låsa upp ditt konto:'
         message: Ditt konto har låsts på grund av för många felaktiga inloggningsförsök.
         subject: Instruktioner för upplåsning av konto
     omniauth_callbacks:
-      failure: Kunde inte autentisera dig med %{kind} för "%{reason}".
-      success: Autentiserat med %{kind}-konto.
+      failure: "Kunde inte autentisera dig med %{kind} för \"%{reason}\"."
+      success: "Autentiserat med %{kind}-konto."
     passwords:
       edit:
         change_my_password: Ändra mitt lösenord
@@ -84,9 +84,9 @@ sv:
         confirm_new_password: Bekräfta nytt lösenord
         new_password: Nytt lösenord
       new:
-        forgot_your_password: Glömt ditt lösenord?
+        forgot_your_password: "Glömt ditt lösenord?"
         send_me_reset_password_instructions: Skicka instruktion för återställning av lösenord
-      no_token: Tillgång till den här sidan kräver att du kommer från ett mejl som sätter tillbaka ditt lösenord. Om du kom hit från ett sånt mejl, säkerställ att du har använt hela URL:en.
+      no_token: "Tillgång till den här sidan kräver att du kommer från ett mejl som sätter tillbaka ditt lösenord. Om du kom hit från ett sånt mejl, säkerställ att du har använt hela URL:en."
       send_instructions: Du kommer få epost med instruktioner för hur du kan återställa ditt lösenord inom några minuter.
       send_paranoid_instructions: Om din epostadress finns i vår databas kommer du att få en lösenordslänk skickad till din epost.
       updated: Ditt lösenord har uppdaterats. Du är nu inloggad.
@@ -94,23 +94,23 @@ sv:
     registrations:
       destroyed: Hej då! Ditt konto har avregistrerats. Vi hoppas få se dig snart igen.
       edit:
-        are_you_sure: Är du säker?
+        are_you_sure: "Är du säker?"
         cancel_my_account: Avsluta mitt konto
         currently_waiting_confirmation_for_email: 'Väntar på bekräftelse för: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: lämna tomt om du inte vill byta det
-        title: Ändra %{resource}
+        title: "Ändra %{resource}"
         unhappy: Missnöjd
         update: Uppdatera
         we_need_your_current_password_to_confirm_your_changes: vi behöver ditt nuvarande lösenord för att bekräfta dina ändringar
       new:
         sign_up: Registrera dig
       signed_up: Välkommen! Ditt nya konto har skapats.
-      signed_up_but_inactive: Du är nu registrerad. Däremot kunde vi inte logga in dig, eftersom ditt konto ännu inte aktiverats.
-      signed_up_but_locked: Du är nu registrerad. Däremot kunde vi inte logga in dig, eftersom ditt konto är låst.
+      signed_up_but_inactive: "Du är nu registrerad. Däremot kunde vi inte logga in dig, eftersom ditt konto ännu inte aktiverats."
+      signed_up_but_locked: "Du är nu registrerad. Däremot kunde vi inte logga in dig, eftersom ditt konto är låst."
       signed_up_but_unconfirmed: Ett meddelande med en länk för att bekräfta din registrering har skickats till din epostadress. Följ länken för att aktivera ditt konto.
-      update_needs_confirmation: Ditt konto uppdaterades, men vi behöver verifiera din nya epostadress. Kontrollera din epost och klicka på länken för att bekräfta din nya epostadress.
+      update_needs_confirmation: "Ditt konto uppdaterades, men vi behöver verifiera din nya epostadress. Kontrollera din epost och klicka på länken för att bekräfta din nya epostadress."
       updated: Ditt konto har uppdaterats.
-      updated_but_not_signed_in: Kontot uppdaterades, men eftersom att lösenordet ändrades behöver ni logga in igen
+      updated_but_not_signed_in: "Kontot uppdaterades, men eftersom att lösenordet ändrades behöver ni logga in igen"
     sessions:
       already_signed_out: Du är nu utloggad.
       new:
@@ -120,11 +120,11 @@ sv:
     shared:
       links:
         back: Tillbaka
-        didn_t_receive_confirmation_instructions: Fick du inga bekräftelseinstruktioner?
-        didn_t_receive_unlock_instructions: Fick du inga instruktioner om hur du låser upp ditt konto?
-        forgot_your_password: Glömt ditt lösenord?
+        didn_t_receive_confirmation_instructions: "Fick du inga bekräftelseinstruktioner?"
+        didn_t_receive_unlock_instructions: "Fick du inga instruktioner om hur du låser upp ditt konto?"
+        forgot_your_password: "Glömt ditt lösenord?"
         sign_in: Logga in
-        sign_in_with_provider: Logga in med %{provider}
+        sign_in_with_provider: "Logga in med %{provider}"
         sign_up: Registrera dig
       minimum_password_length:
         one: "(minst %{count} tecken)"
@@ -133,12 +133,12 @@ sv:
       new:
         resend_unlock_instructions: Skicka instruktioner för upplåsning av konto igen
       send_instructions: Du kommer få epost med instruktioner om hur du kan låsa upp ditt konto inom några minuter.
-      send_paranoid_instructions: Om ditt konto finns, kommer du att få ett email med instruktioner om hur du låser upp det inom några minuter.
+      send_paranoid_instructions: "Om ditt konto finns, kommer du att få ett email med instruktioner om hur du låser upp det inom några minuter."
       unlocked: Ditt konto har låsts upp. Du är nu inloggad.
   errors:
     messages:
-      already_confirmed: är redan bekräftad, vänligen logga in igen
-      confirmation_period_expired: behöver bekräftas inom %{period}. Vänligen begär en ny
+      already_confirmed: "är redan bekräftad, vänligen logga in igen"
+      confirmation_period_expired: "behöver bekräftas inom %{period}. Vänligen begär en ny"
       expired: är inte längre giltig. Vänligen begär en ny
       not_found: hittades inte
       not_locked: var inte låst

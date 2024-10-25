@@ -2,78 +2,79 @@ ig:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at:
-        confirmation_token:
-        confirmed_at:
-        created_at:
+        confirmation_sent_at: ""
+        confirmation_token: ""
+        confirmed_at: ""
+        created_at: ""
         current_password: Okwuntughe nke di ire ugbua
-        current_sign_in_at:
-        current_sign_in_ip:
+        current_sign_in_at: ""
+        current_sign_in_ip: ""
         email: Imeel
-        encrypted_password:
-        failed_attempts:
-        last_sign_in_at:
-        last_sign_in_ip:
-        locked_at:
+        encrypted_password: ""
+        failed_attempts: ""
+        last_sign_in_at: ""
+        last_sign_in_ip: ""
+        locked_at: ""
         password: Okwuntughe
         password_confirmation: Nkwenta okwuntughe
-        remember_created_at:
+        remember_created_at: ""
         remember_me: Cheta m
-        reset_password_sent_at:
+        reset_password_sent_at: ""
         reset_password_token: Tugharia Okwuntughe
-        sign_in_count:
-        unconfirmed_email:
+        sign_in_count: ""
+        unconfirmed_email: ""
         unlock_token: Mee hie obere
-        updated_at:
+        updated_at: ""
     models:
-      user: Onye nwe
+      user:
+        other: Onye nwe
   devise:
     confirmations:
-      confirmed: 'Imeel adreesi gi agala nke oma '
+      confirmed: "Imeel adreesi gi agala nke oma "
       new:
         resend_confirmation_instructions: Zighachi ozi usoro nkweta
       send_instructions: I ga enweta ozi imeel na usoro esi ekweta ya n’oge adighi anya
-      send_paranoid_instructions: Oburu na imeel adireesi gi dina akara ulo anyi, I ga enweta ozi otu esi eleta imeeli adireesi gi n’ oge adighi anyi
+      send_paranoid_instructions: "Oburu na imeel adireesi gi dina akara ulo anyi, I ga enweta ozi otu esi eleta imeeli adireesi gi n’ oge adighi anyi"
     failure:
       already_authenticated: ibanye la rii
       inactive: akauntu gi arubabeghi oru
-      invalid:
+      invalid: ""
       last_attempt: " I nwere otu ohere tupu agbachie akauntu gi"
       locked: Agbachiela akauntu gi
-      not_found_in_database:
-      timeout: oge enyere gi agwula biko bidokwa ozo wee banye, ka iwe gaba n’iru
+      not_found_in_database: ""
+      timeout: "oge enyere gi agwula biko bidokwa ozo wee banye, ka iwe gaba n’iru"
       unauthenticated: ": I ga abanye, ma o bu debanye aha tupu I gabakwa n’iru"
       unconfirmed: I ga ekwetara imeel adreesi tupu igabakwa n’iru
     mailer:
       confirmation_instructions:
         action: kwetara akauntu
-        greeting: Nnoo! %{recipient}!
-        instruction: I ga ekwetara akauntu gi site n’akara a di na-okpuru.
+        greeting: "Nnoo! %{recipient}!"
+        instruction: 'I ga ekwetara akauntu gi site n’akara a di na-okpuru.'
         subject: Usoro esi ekwenye
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: ""
+        message: ""
+        message_unconfirmed: ""
+        subject: ""
       password_change:
-        greeting: kedu %{recipient}!
-        message: Anyi na-akpoturu gi, igwa gi na okwuntughe gi agbanweela
+        greeting: "kedu %{recipient}!"
+        message: "Anyi na-akpoturu gi, igwa gi na okwuntughe gi agbanweela"
         subject: Mgbanwe okwuntughe
       reset_password_instructions:
         action: Gbanwe okwuntughe m
-        greeting: kedu %{recipient}!
-        instruction: Were onye naacho ka agbanwe okwuntughe gi, ma i ga eme nkea site na-akara dina okpuru
-        instruction_2: O buru na ichoghi nkea, biko le – ghara imeel a
-        instruction_3: 'Okwuntughe gi agaghi agbanwe ruo-mgbe ibara n! ime akara a di n’elu, wee mepee nke ohuru    '
+        greeting: "kedu %{recipient}!"
+        instruction: "Were onye naacho ka agbanwe okwuntughe gi, ma i ga eme nkea site na-akara dina okpuru"
+        instruction_2: "O buru na ichoghi nkea, biko le – ghara imeel a"
+        instruction_3: "Okwuntughe gi agaghi agbanwe ruo-mgbe ibara n! ime akara a di n’elu, wee mepee nke ohuru    "
         subject: Usoro esi atughari okwuntughe
       unlock_instructions:
         action: " Gbaghee akauntu m"
-        greeting: kedu %{recipient}!
-        instruction: Pia akara di n’okpuru, wee kpoghe akauntu gi
+        greeting: "kedu %{recipient}!"
+        instruction: 'Pia akara di n’okpuru, wee kpoghe akauntu gi'
         message: Akpochiela akauntu gi site na otutu ugboro ichoro ibanye mana onweghi isi
         subject: usoro esi Akpoghe
     omniauth_callbacks:
-      failure: onweghi ike ihu gi %{kind} maka "%{reason}".
+      failure: "onweghi ike ihu gi %{kind} maka \"%{reason}\"."
       success: " inwela ike ka ahu gi nke oma site na %{kind} akauntu gi"
     passwords:
       edit:
@@ -82,33 +83,33 @@ ig:
         confirm_new_password: kwetara okwuntughe ohuru
         new_password: okwuntughe ohuru
       new:
-        forgot_your_password: I chefuru Okwuntughe gi?
+        forgot_your_password: "I chefuru Okwuntughe gi?"
         send_me_reset_password_instructions: zitere m usoro mgbanwe Okwuntughe
-      no_token: Igaghi enwe ike ibanye na-ohere a na-esiteghi na okuruntughe mgbanwe imeel. Oburu na – isighi na mgbanwe okwuntughe imeel, biko were URL nile enyeregi
-      send_instructions: 'I ga enweta usoro imeel out esi atughari okwuntughe n’oge etegi aka '
-      send_paranoid_instructions: Oburu na imeel gi di na – ulo data anyi, I ga enweta ozi inwetachi okwuntughe n’akara anyi na – imeel ugbua
+      no_token: "Igaghi enwe ike ibanye na-ohere a na-esiteghi na okuruntughe mgbanwe imeel. Oburu na – isighi na mgbanwe okwuntughe imeel, biko were URL nile enyeregi"
+      send_instructions: "I ga enweta usoro imeel out esi atughari okwuntughe n’oge etegi aka "
+      send_paranoid_instructions: "Oburu na imeel gi di na – ulo data anyi, I ga enweta ozi inwetachi okwuntughe n’akara anyi na – imeel ugbua"
       updated: Agbanwela okwuntughe gi nke oma. I banye Kwala
       updated_not_active: Wwe hope to see you again soon. Agbanwela Okwuntughe gi nke oma
     registrations:
-      destroyed: Ka odi? Akagbuola akauntu gi
+      destroyed: "Ka odi? Akagbuola akauntu gi"
       edit:
-        are_you_sure: Obu ka osi mee?
+        are_you_sure: "Obu ka osi mee?"
         cancel_my_account: Kagbuo akauntu m
-        currently_waiting_confirmation_for_email: Ugbua, ana echere nkweta nke %{email}
+        currently_waiting_confirmation_for_email: 'Ugbua, ana echere nkweta nke %{email}'
         leave_blank_if_you_don_t_want_to_change_it: Hapa ya oghe ma o buru na ichogi igbanwe ya
-        title: Degharia %{resource}
-        unhappy: 'Inwegi anuri? '
+        title: "Degharia %{resource}"
+        unhappy: "Inwegi anuri? "
         update: Bunite ya na nke ohuru
-        we_need_your_current_password_to_confirm_your_changes: Anyi choro okwuntughe ohuru gi, ka ewee kwenye na mgbanwe
+        we_need_your_current_password_to_confirm_your_changes: "Anyi choro okwuntughe ohuru gi, ka ewee kwenye na mgbanwe"
       new:
         sign_up: Debanye aha
       signed_up: Nnoo! I debanyela nke oma
-      signed_up_but_inactive: I debanyela nke oma. Kama, any enweghi ike igbaghere gi maka na akauntu gi ebi do beghi ruba oru
+      signed_up_but_inactive: "I debanyela nke oma. Kama, any enweghi ike igbaghere gi maka na akauntu gi ebi do beghi ruba oru"
       signed_up_but_locked: ": I deabanyela nke oma. Kama anyi enweghi ike igbaghere gi maka na akauntu gi gbachiri agbachi"
-      signed_up_but_unconfirmed: Ezi jere la gi ozi nkweta na imeel adreesi gi. Biko, soro akara anyi were gbaghee akauntu gi
-      update_needs_confirmation: Ibunitela akauntu gi nke ohuru nke oma, mana anyi choro inyocha imeel adreesi ohuru gi. Biko leta imeela gi ma soro akara nkweta wee kwetara imeel adreesi ohuru gi
+      signed_up_but_unconfirmed: "Ezi jere la gi ozi nkweta na imeel adreesi gi. Biko, soro akara anyi were gbaghee akauntu gi"
+      update_needs_confirmation: "Ibunitela akauntu gi nke ohuru nke oma, mana anyi choro inyocha imeel adreesi ohuru gi. Biko leta imeela gi ma soro akara nkweta wee kwetara imeel adreesi ohuru gi"
       updated: Ebunitela akauntu gi na nke ohuru nke oma
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: ""
     sessions:
       already_signed_out: Emechiela ya nke oma
       new:
@@ -118,26 +119,26 @@ ig:
     shared:
       links:
         back: Chigha-azu
-        didn_t_receive_confirmation_instructions: Inwetaghi usoro nkwekokita?
-        didn_t_receive_unlock_instructions: Inwetaghi usoro mgbaghe?
-        forgot_your_password: I chefuru okwuntughe gi?
+        didn_t_receive_confirmation_instructions: "Inwetaghi usoro nkwekokita?"
+        didn_t_receive_unlock_instructions: "Inwetaghi usoro mgbaghe?"
+        forgot_your_password: "I chefuru okwuntughe gi?"
         sign_in: Banye
-        sign_in_with_provider: Were %{provider} banye
+        sign_in_with_provider: "Were %{provider} banye"
         sign_up: Dabanye aha
       minimum_password_length:
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: Zighachi usoro mgbaghe
       send_instructions: I ga enweta ozi imeel na otu esi agbaghe akauntu gi n’oge eteghi aka
-      send_paranoid_instructions: Oburu na inwerego akauntu, I ga enweta imeel na usoro otu esi agbaghe ya n’oge eteghi aka
+      send_paranoid_instructions: "Oburu na inwerego akauntu, I ga enweta imeel na usoro otu esi agbaghe ya n’oge eteghi aka"
       unlocked: Agbaghela akauntu gi nke oma. Biko banye ka I wee ga n’iru
   errors:
     messages:
-      already_confirmed: 'Ekwenyela ari, biko, mee ka i banye '
-      confirmation_period_expired: Okwesiri ka enkweta n’ime %{period}, Biko yoo ka enye gi nke ohuru
+      already_confirmed: "Ekwenyela ari, biko, mee ka i banye "
+      confirmation_period_expired: "Okwesiri ka enkweta n’ime %{period}, Biko yoo ka enye gi nke ohuru"
       expired: "Nkea emebiela. Biko yoo ka enye gi nke ohuru.\n86.\tNot found: Ahughi ya\n"
       not_found: Ahughi ya
       not_locked: Agbachi ya
       not_saved:
-        one: otu ihe mmebi gbochiri   nkea %{resource} na idekwaba ya.
         other: "%{count} che mmebi nke gbochiri nkea %{resource}  na idekwaba ya. "

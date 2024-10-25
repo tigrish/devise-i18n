@@ -1,4 +1,4 @@
-zh-TW:
+zh_TW:
   activerecord:
     attributes:
       user:
@@ -26,7 +26,8 @@ zh-TW:
         unlock_token: 解鎖令牌
         updated_at: 更新於
     models:
-      user: 使用者
+      user:
+        other: 使用者
   devise:
     confirmations:
       confirmed: 您的信箱已通過驗證，現在您已成功登入。
@@ -48,12 +49,12 @@ zh-TW:
       confirmation_instructions:
         action: 確認帳號
         greeting: "%{recipient} 您好！"
-        instruction: 您可以利用下面的連結確認您的帳戶的電子郵件：
+        instruction: '您可以利用下面的連結確認您的帳戶的電子郵件：'
         subject: 帳號驗證步驟
       email_changed:
         greeting: "%{recipient} 您好！"
-        message: 我們寫信是爲了通知您，您的信箱已被修改爲 %{email}。
-        message_unconfirmed:
+        message: "我們寫信是爲了通知您，您的信箱已被修改爲 %{email}。"
+        message_unconfirmed: ""
         subject: 信箱已被修改
       password_change:
         greeting: "%{recipient} 您好！"
@@ -69,12 +70,12 @@ zh-TW:
       unlock_instructions:
         action: 帳戶解鎖
         greeting: "%{recipient} 您好！"
-        instruction: 點擊下面的連結到您的帳戶進行解鎖：
+        instruction: '點擊下面的連結到您的帳戶進行解鎖：'
         message: 由於多次不成功的登入嘗試，您的帳戶已被鎖定。
         subject: 帳號解鎖步驟
     omniauth_callbacks:
-      failure: 無法從 %{kind} 驗證，因為 "%{reason}"。
-      success: 成功從 %{kind} 驗證。
+      failure: "無法從 %{kind} 驗證，因為 \"%{reason}\"。"
+      success: "成功從 %{kind} 驗證。"
     passwords:
       edit:
         change_my_password: 更改我的密碼
@@ -94,9 +95,9 @@ zh-TW:
       edit:
         are_you_sure: 您確定嗎？
         cancel_my_account: 取消我的帳戶
-        currently_waiting_confirmation_for_email: 等待 %{email} 的確認
+        currently_waiting_confirmation_for_email: '等待 %{email} 的確認'
         leave_blank_if_you_don_t_want_to_change_it: 不想修改的話就不需要填寫這個欄位
-        title: 修改 %{resource}
+        title: "修改 %{resource}"
         unhappy: 不喜歡
         update: 更新
         we_need_your_current_password_to_confirm_your_changes: 我們需要您的目前的密碼以確認您的更改
@@ -122,9 +123,10 @@ zh-TW:
         didn_t_receive_unlock_instructions: 沒有收到解鎖信件？
         forgot_your_password: 忘記密碼？
         sign_in: 登入
-        sign_in_with_provider: 用 %{provider} 登入
+        sign_in_with_provider: "用 %{provider} 登入"
         sign_up: 註冊
-      minimum_password_length: "（最少%{count}個字符）"
+      minimum_password_length:
+        other: "（最少%{count}個字符）"
     unlocks:
       new:
         resend_unlock_instructions: 重發解鎖說明信件
@@ -134,10 +136,9 @@ zh-TW:
   errors:
     messages:
       already_confirmed: 已經驗證，請直接登入。
-      confirmation_period_expired: 必須在 %{period} 內驗證，請重新申請。
+      confirmation_period_expired: "必須在 %{period} 內驗證，請重新申請。"
       expired: 已經過期，請重新申請。
       not_found: 找不到。
       not_locked: 並未被鎖定。
       not_saved:
-        one: 有一個錯誤導致 %{resource} 不能被儲存：
-        other: 有 %{count} 個錯誤導致 %{resource} 不能被儲存：
+        other: "有 %{count} 個錯誤導致 %{resource} 不能被儲存："

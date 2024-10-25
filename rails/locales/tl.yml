@@ -2,79 +2,81 @@ tl:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at:
-        confirmation_token:
-        confirmed_at:
-        created_at:
-        current_password:
-        current_sign_in_at:
-        current_sign_in_ip:
-        email:
-        encrypted_password:
-        failed_attempts:
-        last_sign_in_at:
-        last_sign_in_ip:
-        locked_at:
-        password:
-        password_confirmation:
-        remember_created_at:
-        remember_me:
-        reset_password_sent_at:
-        reset_password_token:
-        sign_in_count:
-        unconfirmed_email:
-        unlock_token:
-        updated_at:
+        confirmation_sent_at: ""
+        confirmation_token: ""
+        confirmed_at: ""
+        created_at: ""
+        current_password: ""
+        current_sign_in_at: ""
+        current_sign_in_ip: ""
+        email: ""
+        encrypted_password: ""
+        failed_attempts: ""
+        last_sign_in_at: ""
+        last_sign_in_ip: ""
+        locked_at: ""
+        password: ""
+        password_confirmation: ""
+        remember_created_at: ""
+        remember_me: ""
+        reset_password_sent_at: ""
+        reset_password_token: ""
+        sign_in_count: ""
+        unconfirmed_email: ""
+        unlock_token: ""
+        updated_at: ""
     models:
       user:
+        one: ''
+        other: ''
   devise:
     confirmations:
       confirmed: Ang iyong email address ay matagumpay na nakumpirma.
       new:
         resend_confirmation_instructions: Muling ipadala ang mga tagubilin sa pagkumpirma.
       send_instructions: Makakatanggap ka ng isang email na may instructions kung paano kukumpirmahin ang iyong email address san loob ng mga ilang minuto.
-      send_paranoid_instructions: Kung ang iyong email address ay nakikita sa aming database, makakatanggap ka ng isang email na may instructions kung paano kukumpirmahin ang iyong email address sa loob ng mga ilang minuto.
+      send_paranoid_instructions: "Kung ang iyong email address ay nakikita sa aming database, makakatanggap ka ng isang email na may instructions kung paano kukumpirmahin ang iyong email address sa loob ng mga ilang minuto."
     failure:
       already_authenticated: Naka-sign in ka na.
       inactive: Hindi pa na-activate ang iyong account.
-      invalid:
+      invalid: ""
       last_attempt: Mayroon kang isa pang pagtatangka bago mai-lock ang iyong account.
       locked: Naka-lock ang iyong account.
-      not_found_in_database:
+      not_found_in_database: ""
       timeout: Na-expire na ang iyong session. Mag-sign in ulit para magpatuloy.
       unauthenticated: Kailangan mong mag-sign in o mag-sign up bago magpatuloy.
       unconfirmed: Kailangan mong kumpirmahin ang iyong email address bago magpatuloy.
     mailer:
       confirmation_instructions:
         action: Ikumpirma ang aking account
-        greeting: Maligayang pagdating %{recipient}!
+        greeting: "Maligayang pagdating %{recipient}!"
         instruction: 'Maaari mong kumpirmahin ang iyong account email sa pamamagitan ng link sa ibaba:'
         subject: Mga Tagubilin ng Pagkumpirma
       email_changed:
-        greeting:
-        message:
-        message_unconfirmed:
-        subject:
+        greeting: ""
+        message: ""
+        message_unconfirmed: ""
+        subject: ""
       password_change:
-        greeting: Hello %{recipient}!
+        greeting: "Hello %{recipient}!"
         message: Kami'y nakikipag-ugnay sa iyo para abisuhan (notify) ka na nabago ang iyong password.
         subject: Nabago ang Password
       reset_password_instructions:
         action: Baguhin ang aking password
-        greeting: Hello %{recipient}!
-        instruction: May isang tao na humiling ng isang link upang baguhin ang iyong password, at magagawa mo ito sa pamamagitan ng link sa ibaba.
-        instruction_2: Kung hindi mo hiniling ito, huwag pansinin ang email na ito.
+        greeting: "Hello %{recipient}!"
+        instruction: "May isang tao na humiling ng isang link upang baguhin ang iyong password, at magagawa mo ito sa pamamagitan ng link sa ibaba."
+        instruction_2: "Kung hindi mo hiniling ito, huwag pansinin ang email na ito."
         instruction_3: Ang iyong password ay hindi magbabago hanggang ia-access mo ang link sa itaas at lumikha ng bago.
         subject: I-reset ang mga tagubilin tungkol sa password
       unlock_instructions:
         action: I-unlock ang aking account
-        greeting: Hello %{recipient}!
+        greeting: "Hello %{recipient}!"
         instruction: 'I-click ang link sa ibaba upang i-unlock ang iyong account:'
         message: Na-lock ang iyong account dahil sa labis na dami ng hindi matagumpay na mga pagtatangka sa pag-sign in.
         subject: Mga tagubilin sa pag-unlock
     omniauth_callbacks:
-      failure: Hindi ka ma-authenticate galing sa %{kind} dahil "%{reason}".
-      success: Matagumpay na na-authenticate galing sa %{kind} na account.
+      failure: "Hindi ka ma-authenticate galing sa %{kind} dahil \"%{reason}\"."
+      success: "Matagumpay na na-authenticate galing sa %{kind} na account."
     passwords:
       edit:
         change_my_password: Baguhin ang aking password
@@ -82,33 +84,33 @@ tl:
         confirm_new_password: Kumpirmahin ang bagong password
         new_password: Bagong password
       new:
-        forgot_your_password: Nakalimutang ang iyong password?
+        forgot_your_password: "Nakalimutang ang iyong password?"
         send_me_reset_password_instructions: Padalhan mo ako ng mga tagubilin sa pag-reset ng password
-      no_token: Hindi mo ma-access ang pahinang ito nang hindi nanggagaling sa isang email sa pag-reset ng password. Kung ikaw ay nagmula sa isang email ng pag-reset ng password, siguraduhin na ginamit mo ang buong URL na ibinigay.
+      no_token: "Hindi mo ma-access ang pahinang ito nang hindi nanggagaling sa isang email sa pag-reset ng password. Kung ikaw ay nagmula sa isang email ng pag-reset ng password, siguraduhin na ginamit mo ang buong URL na ibinigay."
       send_instructions: Makakatanggap ka ng isang email na may mga tagubilin kung paano i-reset ang iyong password sa loob ng mga ilang minuto.
-      send_paranoid_instructions: Kung ang iyong email address ay nakikita sa aming database, makakatanggap ng isang password recovery link sa iyong email address sa loob ng mga ilang minuto.
+      send_paranoid_instructions: "Kung ang iyong email address ay nakikita sa aming database, makakatanggap ng isang password recovery link sa iyong email address sa loob ng mga ilang minuto."
       updated: Matagumpay na nabago ang iyong password. Naka-sign in ka na ngayon.
       updated_not_active: Matagumpay na nabago ang iyong password.
     registrations:
       destroyed: Paalam! Matagumpay na na-kansela ang iyong account. Inaasahan naming makita ka muli sa lalong madaling panahon.
       edit:
-        are_you_sure: Sigurado ka ba?
+        are_you_sure: "Sigurado ka ba?"
         cancel_my_account: Ikansela ang aking account
         currently_waiting_confirmation_for_email: 'Kasalukuyang naghihintay ng kumpirmasyon para kay/sa: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: iwanang blangko kung ayaw mong baguhin ito
-        title: I-edit ang %{resource}
-        unhappy: Hindi masaya?
+        title: "I-edit ang %{resource}"
+        unhappy: "Hindi masaya?"
         update: I-update
         we_need_your_current_password_to_confirm_your_changes: kailangan namin ang iyong kasalukuyang password para makumpirma ang iyong mga pagbabago
       new:
         sign_up: Mag-sign up
       signed_up: Maligayang pagdating! Matagumpay kang nakapag-sign up.
-      signed_up_but_inactive: Matagumpay kang nakapag-sign up. Gayunpaman, hindi ka namin mai-sign in dahil hindi pa na-activate ang iyong account.
-      signed_up_but_locked: Matagumpay kang nakapag-sign up. Gayunpaman, hindi ka namin mai-sign in dahil naka-lock ang iyong account.
+      signed_up_but_inactive: "Matagumpay kang nakapag-sign up. Gayunpaman, hindi ka namin mai-sign in dahil hindi pa na-activate ang iyong account."
+      signed_up_but_locked: "Matagumpay kang nakapag-sign up. Gayunpaman, hindi ka namin mai-sign in dahil naka-lock ang iyong account."
       signed_up_but_unconfirmed: Isang mensahe na may link sa pagkumpirma ay ipinadala sa iyong email address. Paki-sundan ang link upang maisaaktibo ang iyong account.
-      update_needs_confirmation: Matagumpay mong na-update ang iyong account, ngunit kailangan naming i-verify ang iyong bagong email address. Paki-suri ng iyong email at sundin ang link ng kumpirmasyon upang kumpirmahin ang iyong bagong email address..
+      update_needs_confirmation: "Matagumpay mong na-update ang iyong account, ngunit kailangan naming i-verify ang iyong bagong email address. Paki-suri ng iyong email at sundin ang link ng kumpirmasyon upang kumpirmahin ang iyong bagong email address.."
       updated: Matagumpay na na-update ang iyong account.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: ""
     sessions:
       already_signed_out: Matagumpay na nakapag-sign out.
       new:
@@ -118,24 +120,26 @@ tl:
     shared:
       links:
         back: Bumalik
-        didn_t_receive_confirmation_instructions: Hindi nakatanggap ng mga tagubilin sa pagkumpirma?
-        didn_t_receive_unlock_instructions: Hindi nakatanggap ng mga tagubilin sa pag-unlock?
-        forgot_your_password: Nakalimutang ang iyong password?
+        didn_t_receive_confirmation_instructions: "Hindi nakatanggap ng mga tagubilin sa pagkumpirma?"
+        didn_t_receive_unlock_instructions: "Hindi nakatanggap ng mga tagubilin sa pag-unlock?"
+        forgot_your_password: "Nakalimutang ang iyong password?"
         sign_in: Mag-sign in
-        sign_in_with_provider: Mag-sign in gamit ang %{provider}
+        sign_in_with_provider: "Mag-sign in gamit ang %{provider}"
         sign_up: Mag-sign up
       minimum_password_length:
+        one: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: Muling ipadala ang mga tagubilin sa pag-unlock
       send_instructions: Makakatanggap kayo ng isang email na may tagubilin kung paano i-unlock ang iyong account sa loob ng mga ilang minuto.
-      send_paranoid_instructions: Kung ang iyong account ay nag-eexist, makakatanggap kayo ng isang email na may tagubilin kung paano i-unlock ang iyong account sa ilang minuto.
+      send_paranoid_instructions: "Kung ang iyong account ay nag-eexist, makakatanggap kayo ng isang email na may tagubilin kung paano i-unlock ang iyong account sa ilang minuto."
       unlocked: Ang iyong account ay matagumpay na nai-unlock. Mag-sign in para magpatuloy.
   errors:
     messages:
-      already_confirmed: ay nakumpirma na, pakisubukang mag-sign in
-      confirmation_period_expired: kailangang kumpirmahin sa loob %{period}, humiling ng bago
-      expired: ay na-expire na, humiling ng bago
+      already_confirmed: "ay nakumpirma na, pakisubukang mag-sign in"
+      confirmation_period_expired: "kailangang kumpirmahin sa loob %{period}, humiling ng bago"
+      expired: "ay na-expire na, humiling ng bago"
       not_found: hindi mahanap
       not_locked: ay hindi naka-lock
       not_saved:

@@ -35,48 +35,48 @@ sq:
       new:
         resend_confirmation_instructions: Ridërgo udhëzime ripohimi
       send_instructions: Pas pak minutash do të merrni një email me udhëzime se si të ripohoni adresën tuaj email.
-      send_paranoid_instructions: Nëse adresa juaj email gjendet në bazën tonë të të dhënave, pas pak minutash do të merrni një email me udhëzime se si të ripohoni adresën tuaj email.
+      send_paranoid_instructions: "Nëse adresa juaj email gjendet në bazën tonë të të dhënave, pas pak minutash do të merrni një email me udhëzime se si të ripohoni adresën tuaj email."
     failure:
       already_authenticated: E keni bërë hyrjen tashmë.
       inactive: Llogaria juaj s’është ende aktive.
       invalid: "%{authentication_keys} ose fjalëkalim i pavlefshëm."
-      last_attempt: Keni edhe një provë të fundit, përpara se llogaria juaj të kyçet.
+      last_attempt: "Keni edhe një provë të fundit, përpara se llogaria juaj të kyçet."
       locked: Llogaria juaj është e kyçur.
       not_found_in_database: "%{authentication_keys} ose fjalëkalim i pavlefshëm."
-      timeout: Sesioni juaj skadoi. Ju lutemi, që të vazhdohet, ribëni hyrjen.
-      unauthenticated: Përpara se të vazhdohet, lypset të bëni hyrjen ose të regjistroheni.
-      unconfirmed: Përpara se të vazhdohet, duhet të ripohoni email-in tuaj.
+      timeout: "Sesioni juaj skadoi. Ju lutemi, që të vazhdohet, ribëni hyrjen."
+      unauthenticated: "Përpara se të vazhdohet, lypset të bëni hyrjen ose të regjistroheni."
+      unconfirmed: "Përpara se të vazhdohet, duhet të ripohoni email-in tuaj."
     mailer:
       confirmation_instructions:
         action: Ripoho llogarinë time
-        greeting: Mirë se vini %{recipient}!
+        greeting: "Mirë se vini %{recipient}!"
         instruction: 'Llogarinë tuaj email mund ta ripohoni përmes lidhjes më poshtë:'
         subject: Udhëzime ripohimi
       email_changed:
-        greeting: Tungjatjeta %{recipient}!
-        message: Po lidhemi me ju për t’ju njoftuar se email-i juaj po ndryshohet në %{email}.
-        message_unconfirmed:
+        greeting: "Tungjatjeta %{recipient}!"
+        message: "Po lidhemi me ju për t’ju njoftuar se email-i juaj po ndryshohet në %{email}."
+        message_unconfirmed: ""
         subject: Email-i u Ndryshua
       password_change:
-        greeting: Tungjatjeta %{recipient}!
+        greeting: "Tungjatjeta %{recipient}!"
         message: Po lidhemi me ju për t’ju njoftuar se fjalëkalimi juaj është ndryshuar.
         subject: Fjalëkalimi u Ndryshua
       reset_password_instructions:
         action: Ndryshoje fjalëkalimin tim
-        greeting: Tungjatjeta %{recipient}!
+        greeting: "Tungjatjeta %{recipient}!"
         instruction: Dikush ka kërkuar një lidhje për ndryshim të fjalëkalimit tuaj. Këtë mund ta bëni përmes lidhjes më poshtë.
-        instruction_2: Nëse s’e kërkuat një gjë të tillë, ju lutemi, shpërfilleni këtë email.
+        instruction_2: "Nëse s’e kërkuat një gjë të tillë, ju lutemi, shpërfilleni këtë email."
         instruction_3: Fjalëkalimi juaj nuk do të ndryshohet pa u përdorur lidhja më sipër dhe të krijohet një i ri.
         subject: Udhëzime ricaktimi fjalëkalimi
       unlock_instructions:
         action: Shkyçeni llogarinë time
-        greeting: Tungjatjeta %{recipient}!
+        greeting: "Tungjatjeta %{recipient}!"
         instruction: 'Që të shkyçet llogaria juaj, klikoni mbi lidhjen më poshtë:'
         message: Llogaria juaj është kyçur për shkak të një numri të tepruar përpjekjesh të pasuksesshme për hyrje.
         subject: Udhëzime shkyçjeje
     omniauth_callbacks:
-      failure: S’u bë dot mirëfilltësimi për ju prej %{kind} për shkak se "%{reason}".
-      success: U bë mirëfilltësim me sukses prej llogarisë %{kind}.
+      failure: "S’u bë dot mirëfilltësimi për ju prej %{kind} për shkak se \"%{reason}\"."
+      success: "U bë mirëfilltësim me sukses prej llogarisë %{kind}."
     passwords:
       edit:
         change_my_password: Ndryshoje fjalëkalimin tim
@@ -84,33 +84,33 @@ sq:
         confirm_new_password: Ripohoni fjalëkalimin e ri
         new_password: Fjalëkalimi i ri
       new:
-        forgot_your_password: Harruat fjalëkalimin tuaj?
+        forgot_your_password: "Harruat fjalëkalimin tuaj?"
         send_me_reset_password_instructions: Dërgomëni udhëzime ricaktimi fjalëkalimi
-      no_token: S’mund të hyni në këtë faqe pa ardhur prej një email-i ricaktimi fjalëkalimi. Nëse po vini prej një email-i ricaktimi fjalëkalimi, ju lutemi, sigurohuni se keni përdorur URL e plotë të furnizuar.
+      no_token: "S’mund të hyni në këtë faqe pa ardhur prej një email-i ricaktimi fjalëkalimi. Nëse po vini prej një email-i ricaktimi fjalëkalimi, ju lutemi, sigurohuni se keni përdorur URL e plotë të furnizuar."
       send_instructions: Pas pak minutash do të merrni një email me udhëzime se si të ricaktoni fjalëkalimin tuaj.
-      send_paranoid_instructions: Nëse adresa juaj email gjendet në bazën tonë të të dhënave, pas pak minutash në të do të merrni një lidhje rimarrjeje fjalëkalimi.
+      send_paranoid_instructions: "Nëse adresa juaj email gjendet në bazën tonë të të dhënave, pas pak minutash në të do të merrni një lidhje rimarrjeje fjalëkalimi."
       updated: Fjalëkalimi juaj u ndryshua me sukses. Tani jeni i futur.
       updated_not_active: Fjalëkalimi juaj u ndryshua me sukses.
     registrations:
       destroyed: Shëndet! Llogaria juaj u fshi me sukses. Shpresojmë t’ju shohim sërish së shpejti.
       edit:
-        are_you_sure: Jeni i sigurt?
+        are_you_sure: "Jeni i sigurt?"
         cancel_my_account: Fshijeni llogarinë time
         currently_waiting_confirmation_for_email: 'Në pritje të ripohimit për: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: lëreni të zbrazët nëse s’doni të ndryshohet
-        title: Përpunoni %{resource}
-        unhappy: I pakënaqur?
+        title: "Përpunoni %{resource}"
+        unhappy: "I pakënaqur?"
         update: Përditësoje
         we_need_your_current_password_to_confirm_your_changes: na duhet fjalëkalimi juaj i tanishëm që të ripohohen ndryshimet tuaja
       new:
         sign_up: Regjistrohuni
       signed_up: Mirë se vini! U regjistruat me sukses.
-      signed_up_but_inactive: U regjistruat me sukses. Por s’ju futëm dot në llogarinë tuaj, ngaqë ajo s’është ende e aktivizuar.
-      signed_up_but_locked: U regjistruat me sukses. Por s’ju futëm dot në llogarinë tuaj, ngaqë ajo është e kyçur.
-      signed_up_but_unconfirmed: Te adresa juaj email është dërguar një mesazh me një lidhje ripohimi. Që të aktivizoni llogarinë tuaj, ju lutemi, ndiqni lidhjen.
-      update_needs_confirmation: E përditësuat me sukses llogarinë tuaj, por na duhet të verifikojmë adresën tuaj të re email. Ju lutemi, për të ripohuar adresën tuaj të re email, shihni te email-et tuaj dhe ndiqni lidhjen e ripohimit.
+      signed_up_but_inactive: "U regjistruat me sukses. Por s’ju futëm dot në llogarinë tuaj, ngaqë ajo s’është ende e aktivizuar."
+      signed_up_but_locked: "U regjistruat me sukses. Por s’ju futëm dot në llogarinë tuaj, ngaqë ajo është e kyçur."
+      signed_up_but_unconfirmed: "Te adresa juaj email është dërguar një mesazh me një lidhje ripohimi. Që të aktivizoni llogarinë tuaj, ju lutemi, ndiqni lidhjen."
+      update_needs_confirmation: "E përditësuat me sukses llogarinë tuaj, por na duhet të verifikojmë adresën tuaj të re email. Ju lutemi, për të ripohuar adresën tuaj të re email, shihni te email-et tuaj dhe ndiqni lidhjen e ripohimit."
       updated: Llogaria juaj u përditësua me sukses.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: ""
     sessions:
       already_signed_out: Dolët me sukses.
       new:
@@ -120,11 +120,11 @@ sq:
     shared:
       links:
         back: Mbrapsht
-        didn_t_receive_confirmation_instructions: Nuk i morët udhëzimet për ripohim?
-        didn_t_receive_unlock_instructions: Nuk i morët udhëzimet për shkyçje?
-        forgot_your_password: Harruat fjalëkalimin tuaj?
+        didn_t_receive_confirmation_instructions: "Nuk i morët udhëzimet për ripohim?"
+        didn_t_receive_unlock_instructions: "Nuk i morët udhëzimet për shkyçje?"
+        forgot_your_password: "Harruat fjalëkalimin tuaj?"
         sign_in: Hyni
-        sign_in_with_provider: Hyni me %{provider}
+        sign_in_with_provider: "Hyni me %{provider}"
         sign_up: Regjistrohuni
       minimum_password_length:
         one: "(%{count} shenjë e pakta)"
@@ -133,15 +133,15 @@ sq:
       new:
         resend_unlock_instructions: Ridërgo udhëzime shkyçjeje
       send_instructions: Pas pak minutash do të merrni një email me udhëzime se si të shkyçni llogarinë tuaj.
-      send_paranoid_instructions: Nëse llogaria juaj ekziston, pas pak minutash do të merrni një email me udhëzime se si ta shkyçni.
-      unlocked: Llogaria juaj u shkyç me sukses. Ju lutemi, që të vazhdohet, bëni hyrjen.
+      send_paranoid_instructions: "Nëse llogaria juaj ekziston, pas pak minutash do të merrni një email me udhëzime se si ta shkyçni."
+      unlocked: "Llogaria juaj u shkyç me sukses. Ju lutemi, që të vazhdohet, bëni hyrjen."
   errors:
     messages:
-      already_confirmed: qe ripohuar tashmë, ju lutemi, provoni të bëni hyrjen
-      confirmation_period_expired: lypset të ripohohet brenda %{period}, ju lutemi kërkoni një të ri
-      expired: ka skaduar, ju lutemi kërkoni një të ri
+      already_confirmed: "qe ripohuar tashmë, ju lutemi, provoni të bëni hyrjen"
+      confirmation_period_expired: "lypset të ripohohet brenda %{period}, ju lutemi kërkoni një të ri"
+      expired: "ka skaduar, ju lutemi kërkoni një të ri"
       not_found: s’u gjet
       not_locked: s’qe e kyçur
       not_saved:
         one: 'Ruajtja e këtij %{resource} u pengua nga 1 gabim:'
-        other: 'Ruajtja e këtij %{resource} u pengua nga %{count} gabime:'
+        other: "Ruajtja e këtij %{resource} u pengua nga %{count} gabime:"
