@@ -26,9 +26,7 @@ zh-HK:
         unlock_token: ""
         updated_at: ""
     models:
-      user:
-        one: ''
-        other: ''
+      user: ''
   devise:
     confirmations:
       confirmed: 啟用同埋登入咗帳戶。
@@ -126,9 +124,7 @@ zh-HK:
         sign_in: ""
         sign_in_with_provider: ""
         sign_up: ""
-      minimum_password_length:
-        one: ""
-        other: ""
+      minimum_password_length: ""
     unlocks:
       new:
         resend_unlock_instructions: ""
@@ -142,6 +138,4 @@ zh-HK:
       expired: 超時。請重新要過個。
       not_found: 搵唔到
       not_locked: 無鎖到
-      not_saved:
-        one: ''
-        other: "有%{count}個問題，%{resource}儲存唔到。"
+      not_saved: "有%{count}個問題，%{resource}儲存唔到。"

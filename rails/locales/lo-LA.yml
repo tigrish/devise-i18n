@@ -26,13 +26,7 @@ lo-LA:
         unlock_token: ປົດລັອກ token
         updated_at: ""
     models:
-      user:
-        few: ຜູ່ໃຊ້
-        one: ຜູ່ໃຊ້
-        two: ຜູ່ໃຊ້
-        many: ຜູ່ໃຊ້
-        other: ຜູ່ໃຊ້
-        zero: ຜູ່ໃຊ້
+      user: ຜູ່ໃຊ້
   devise:
     confirmations:
       confirmed: ລະຫັດຜ່ານຂອງທ່ານໄດ້ຮັບການຢືນຢັນແລ້ວ.
@@ -130,13 +124,7 @@ lo-LA:
         sign_in: ເຂົ້າສູ່ລະບົບ
         sign_in_with_provider: "ເຂົ້າສູ່ລະບົບດ້ວຍ %{provider}"
         sign_up: ສະໝັກ
-      minimum_password_length:
-        few: ""
-        one: ""
-        many: ""
-        other: ""
-        two: ""
-        zero: ""
+      minimum_password_length: ""
     unlocks:
       new:
         resend_unlock_instructions: ສົ່ງຂັ້ນຕອນການປົດລັອກໃໝ່
@@ -150,10 +138,4 @@ lo-LA:
       expired: "ໝົດກຳນັດແລ້ວ, ກະລຸນາຮ້ອງຂໍໃໝ່ອີກຄັ້ງ"
       not_found: ບໍ່ພັບເຫັນ
       not_locked: ບໍ່ໄດ້ຖືກລັອກ
-      not_saved:
-        few: "ຂໍ້ຜິດພາດ %{count}ຢ່າງໄດ້ຢຸດ %{resource} ບໍ່ໃຫ້ຖືກບັນທຶກໄດ້."
-        many: "ຂໍ້ຜິດພາດ %{count}ຢ່າງໄດ້ຢຸດ %{resource} ບໍ່ໃຫ້ຖືກບັນທຶກໄດ້."
-        one: "ຂໍ້ຜິດພາດ %{count}ຢ່າງໄດ້ຢຸດ %{resource} ບໍ່ໃຫ້ຖືກບັນທຶກໄດ້."
-        other: "ຂໍ້ຜິດພາດ %{count}ຢ່າງໄດ້ຢຸດ %{resource} ບໍ່ໃຫ້ຖືກບັນທຶກໄດ້."
-        two: "ຂໍ້ຜິດພາດ %{count}ຢ່າງໄດ້ຢຸດ %{resource} ບໍ່ໃຫ້ຖືກບັນທຶກໄດ້."
-        zero: "ຂໍ້ຜິດພາດ %{count}ຢ່າງໄດ້ຢຸດ %{resource} ບໍ່ໃຫ້ຖືກບັນທຶກໄດ້."
+      not_saved: "ຂໍ້ຜິດພາດ %{count}ຢ່າງໄດ້ຢຸດ %{resource} ບໍ່ໃຫ້ຖືກບັນທຶກໄດ້."

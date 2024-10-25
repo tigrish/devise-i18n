@@ -26,9 +26,7 @@ id:
         unlock_token: Token buka kunci
         updated_at: Diubah pada
     models:
-      user:
-        one: Pengguna
-        other: Pengguna
+      user: Pengguna
   devise:
     confirmations:
       confirmed: Akun anda telah berhasil dikonfirmasi.
@@ -126,9 +124,7 @@ id:
         sign_in: Masuk
         sign_in_with_provider: "Masuk dengan akun %{provider}"
         sign_up: Mendaftar
-      minimum_password_length:
-        one: "(%{count} karakter minimal)"
-        other: "(%{count} karakter minimal)"
+      minimum_password_length: "(%{count} karakter minimal)"
     unlocks:
       new:
         resend_unlock_instructions: Kirim ulang instruksi untuk membuka kunci akun
@@ -142,6 +138,4 @@ id:
       expired: "telah kadaluarsa, tolong pesan lagi"
       not_found: tidak ditemukan
       not_locked: tidak dikunci
-      not_saved:
-        one: "%{count} kesalahan membuat %{resource} tidak bisa disimpan:"
-        other: "%{count} kesalahan membuat %{resource} tidak bisa disimpan:"
+      not_saved: "%{count} kesalahan membuat %{resource} tidak bisa disimpan:"

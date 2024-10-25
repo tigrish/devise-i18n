@@ -26,9 +26,7 @@ vi:
         unlock_token: Mã mở khoá
         updated_at: Được cập nhật lúc
     models:
-      user:
-        one: Người dùng
-        other: Người dùng
+      user: Người dùng
   devise:
     confirmations:
       confirmed: Xác nhận tài khoản thành công! Bạn hiện đang đăng nhập.
@@ -126,9 +124,7 @@ vi:
         sign_in: Đăng nhập
         sign_in_with_provider: "Đăng nhập với %{provider}"
         sign_up: Đăng ký
-      minimum_password_length:
-        one: "(Tối thiểu %{count} ký tự)"
-        other: "(Tối thiểu %{count} ký tự)"
+      minimum_password_length: "(Tối thiểu %{count} ký tự)"
     unlocks:
       new:
         resend_unlock_instructions: Gửi lại hướng dẫn mở khoá tài khoản
@@ -142,6 +138,4 @@ vi:
       expired: "đã hết hạn, vui lòng gửi yêu cầu mới."
       not_found: không tìm thấy
       not_locked: không bị khóa
-      not_saved:
-        one: "%{count} lỗi khi lưu %{resource}:"
-        other: "%{count} lỗi khi lưu %{resource}:"
+      not_saved: "%{count} lỗi khi lưu %{resource}:"

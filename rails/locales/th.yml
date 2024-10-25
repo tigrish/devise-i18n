@@ -26,9 +26,7 @@ th:
         unlock_token: รหัสลับสำหรับปลดล็อก
         updated_at: แก้ไขเมื่อ
     models:
-      user:
-        one: ผู้ใช้งาน
-        other: ผู้ใช้งาน
+      user: ผู้ใช้งาน
   devise:
     confirmations:
       confirmed: คุณได้ยืนยันบัญชีของคุณเรียบร้อยแล้ว ขณะนี้คุณสามารถเข้าสู่ระบบได้
@@ -126,9 +124,7 @@ th:
         sign_in: เข้าสู่ระบบ
         sign_in_with_provider: "เข้าสู่ระบบด้วย %{provider}"
         sign_up: สมัครสมาชิก
-      minimum_password_length:
-        one: "(จำนวนตัวอักษรขั้นต่ำ %{count} ตัวอักษร)"
-        other: "(จำนวนตัวอักษรขั้นต่ำ %{count} ตัวอักษร)"
+      minimum_password_length: "(จำนวนตัวอักษรขั้นต่ำ %{count} ตัวอักษร)"
     unlocks:
       new:
         resend_unlock_instructions: ส่งคำขอปลดล็อคอีกครั้ง
@@ -142,6 +138,4 @@ th:
       expired: การยืนยันหมดอายุแล้ว กรุณาขอใหม่อีกครั้ง
       not_found: ไม่พบ
       not_locked: ไม่ถูกล็อก
-      not_saved:
-        one: "%{count} ผิดพลาด %{resource} นี้ถูกห้ามบันทึก:"
-        other: "%{count} ผิดพลาด %{resource} นี้ถูกห้ามบันทึก:"
+      not_saved: "%{count} ผิดพลาด %{resource} นี้ถูกห้ามบันทึก:"
