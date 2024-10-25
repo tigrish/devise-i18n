@@ -2,34 +2,37 @@ lt:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at:
-        confirmation_token:
-        confirmed_at:
-        created_at:
-        current_password:
-        current_sign_in_at:
-        current_sign_in_ip:
-        email:
-        encrypted_password:
-        failed_attempts:
-        last_sign_in_at:
-        last_sign_in_ip:
-        locked_at:
-        password:
-        password_confirmation:
-        remember_created_at:
-        remember_me:
-        reset_password_sent_at:
-        reset_password_token:
-        sign_in_count:
-        unconfirmed_email:
-        unlock_token:
-        updated_at:
+        confirmation_sent_at: Patvirtinimas išsiųstas
+        confirmation_token: Patvirtinimo žymė
+        confirmed_at: Patvirtinta
+        created_at: Sukurta
+        current_password: Dabartinis slaptažodis
+        current_sign_in_at: Dabartinis prisijungimas
+        current_sign_in_ip: Dabartinio prisijungimo IP
+        email: El. paštas
+        encrypted_password: Užšifruotas slaptažodis
+        failed_attempts: Nepavykę bandymai
+        last_sign_in_at: Paskutinį kartą prisijungta
+        last_sign_in_ip: Paskutinio prisijungimo IP
+        locked_at: Užblokuota
+        password: Slaptažodis
+        password_confirmation: Slaptažodžio patvirtinimas
+        remember_created_at: Priminti mane sukurta
+        remember_me: Prisiminti mane
+        reset_password_sent_at: Slaptažodžio nustatymas iš naujo išsiųstas
+        reset_password_token: Slaptažodžio nustatymo iš naujo žymė
+        sign_in_count: Prisijungta kartų
+        unconfirmed_email: Nepatvirtintas slaptažodis
+        unlock_token: Atblokuoti žymę
+        updated_at: Atnaujinta
     models:
       user:
+        few: Vartotojai
+        one: Vartotojas
+        other: Vartotojai
   devise:
     confirmations:
-      confirmed: Jūsų e-pašto adresas sėkmingai patvirtintas.
+      confirmed: Jūsų el. pašto adresas sėkmingai patvirtintas.
       new:
         resend_confirmation_instructions:
       send_instructions: Už keleto minučių sulauksite elektroninio laiško su instrukcijomis kaip patvirtinti jūsų vartotojo paskyrą.
@@ -37,30 +40,30 @@ lt:
     failure:
       already_authenticated: Jūs jau prisijungęs.
       inactive: Jūsų paskyra dar neaktyvuota.
-      invalid:
+      invalid: Nevalidus slaptažodis arba %{authentication_keys}.
       last_attempt: Jums liko paskutinis bandymas prieš užblokuojant paskyrą.
       locked: Jūsų paskyra laikinai užblokuota.
-      not_found_in_database:
+      not_found_in_database: Nevalidus slaptažodis arba  %{authentication_keys}.
       timeout: Jūsų sesija baigta. Prisijunkite iš naujo norėdami tęsti.
       unauthenticated: Būtina prisijungti arba prisiregistruoti prieš tęsiant.
       unconfirmed: Būtina patvirtinti e-pašto adresą prieš tęsiant.
     mailer:
       confirmation_instructions:
-        action:
-        greeting:
+        action: Patvirtinti mano paskyrą
+        greeting: Sveiki %{recipient}!
         instruction:
         subject: Paskyros patvirtinimo instrukcijos
       email_changed:
-        greeting:
+        greeting: Sveiki %{recipient}!
         message:
         message_unconfirmed:
-        subject:
+        subject: El. paštas pakeistas
       password_change:
-        greeting:
+        greeting: Sveiki %{recipient}!
         message:
-        subject:
+        subject: Slaptažodis pakeistas
       reset_password_instructions:
-        action:
+        action: Pakeisti mano slaptažodį
         greeting:
         instruction:
         instruction_2:
