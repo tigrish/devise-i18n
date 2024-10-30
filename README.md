@@ -78,8 +78,8 @@ which will generate `config/locales/devise.views.it.yml`. If you're doing this t
 
 ## Contributing translations to devise-i18n
 
-Edit the translations directly on the [devise-i18n](https://app.localeapp.com/projects/377) project on Locale. **That's it!**
-The maintainer will periodically pull translations from the Locale project and push to GitHub.
+Edit the translations directly on the [devise-i18n](https://app.transifex.com/devise-i18n/devise-i18n-1/dashboard/) project on Transifex. **That's it!**
+The maintainer will periodically pull translations from the Transifex project and push to GitHub.
 
 Alternately, you can create a pull request on GitHub.
 
