@@ -26,7 +26,8 @@ ig:
         unlock_token: Mee hie obere
         updated_at: ""
     models:
-      user: Onye nwe
+      user:
+        other: Onye nwe
   devise:
     confirmations:
       confirmed: "Imeel adreesi gi agala nke oma "
@@ -124,7 +125,8 @@ ig:
         sign_in: Banye
         sign_in_with_provider: "Were %{provider} banye"
         sign_up: Dabanye aha
-      minimum_password_length: ""
+      minimum_password_length:
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: Zighachi usoro mgbaghe
@@ -138,4 +140,5 @@ ig:
       expired: "Nkea emebiela. Biko yoo ka enye gi nke ohuru.\n86.\tNot found: Ahughi ya\n"
       not_found: Ahughi ya
       not_locked: Agbachi ya
-      not_saved: "%{count} che mmebi nke gbochiri nkea %{resource}  na idekwaba ya. "
+      not_saved:
+        other: "%{count} che mmebi nke gbochiri nkea %{resource}  na idekwaba ya. "

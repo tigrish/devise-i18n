@@ -26,7 +26,8 @@ yo:
         unlock_token: Síí àmì
         updated_at: ""
     models:
-      user: aṣàmúlò
+      user:
+        other: aṣàmúlò
   devise:
     confirmations:
       confirmed: "ìfàṣẹsí ti wà fún í-meèlì rẹ tí a ti ní "
@@ -126,7 +127,8 @@ yo:
         sign_in: Wọlé
         sign_in_with_provider: "Wọlé pẹ̀lú %{provider}"
         sign_up: Forúkọsílẹ̀
-      minimum_password_length: ""
+      minimum_password_length:
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: "Fi kọ́kọ́rọ́ ilana ṣọwó lẹ́ẹ̀kàn si\n"
@@ -140,4 +142,5 @@ yo:
       expired: "O ti kú, Jọ̀wọ́ béèrè fún tuntun\n"
       not_found: "Kò sí\n"
       not_locked: A kò tí
-      not_saved: "%{count}àsìse sèdíwọ elè yìí %{resource} láti lè fi pamọ́"
+      not_saved:
+        other: "%{count}àsìse sèdíwọ elè yìí %{resource} láti lè fi pamọ́"

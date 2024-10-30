@@ -26,7 +26,10 @@ bs:
         unlock_token: ""
         updated_at: ""
     models:
-      user: ''
+      user:
+        one: ''
+        few: ''
+        other: ''
   devise:
     confirmations:
       confirmed: Vaš račun je potvrđen.
@@ -124,7 +127,10 @@ bs:
         sign_in: ""
         sign_in_with_provider: ""
         sign_up: ""
-      minimum_password_length: ""
+      minimum_password_length:
+        one: ""
+        few: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: ""
@@ -141,5 +147,4 @@ bs:
       not_saved:
         one: '1 greška sprječava sačuvanje %{resource}:'
         few: "%{count} greške sprječavaju sačuvanje %{resource}:"
-        many: "%{count} grešaka sprječavaju sačuvanje %{resource}:"
         other: "%{count} grešaka sprječavaju sačuvanje %{resource}:"

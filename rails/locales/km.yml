@@ -26,7 +26,8 @@ km:
         unlock_token: តូឃុនសំរាប់ដោះសោ
         updated_at: ថ្ងៃដែលបានធ្វើបច្ចុប្បន្នភាព
     models:
-      user: អ្នកប្រើប្រាស់
+      user:
+        other: អ្នកប្រើប្រាស់
   devise:
     confirmations:
       confirmed: អ្នកបានចុះឈ្មោះចូលក្នុងប្រព័ន្ធរួចរាល់ហើយ
@@ -124,7 +125,8 @@ km:
         sign_in: ចូល
         sign_in_with_provider: "ចូលតាមរយ: %{provider}"
         sign_up: ចុះឈ្មោះ
-      minimum_password_length: "(ច្រើនជាង%{count}តួអក្សរ។)"
+      minimum_password_length:
+        other: "(ច្រើនជាង%{count}តួអក្សរ។)"
     unlocks:
       new:
         resend_unlock_instructions: ផ្ញើអ៊ីមែលម្ដងទៀតអំពីរបៀបដោះសោគណនី
@@ -138,4 +140,5 @@ km:
       expired: រយៈពេលប្រើប្រាស់បានផុតកំណត់។ សូមធ្វើសំណើថ្មី។
       not_found: ស្វែងរកមិនឃើញ
       not_locked: មិនបានចាក់សោ
-      not_saved: "%{resource}មិនត្រូវបានរក្សាទុកដោយសារមានកំហុស។"
+      not_saved:
+        other: "%{resource}មិនត្រូវបានរក្សាទុកដោយសារមានកំហុស។"

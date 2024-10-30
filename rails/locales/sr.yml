@@ -29,7 +29,6 @@ sr:
       user:
         one: Korisnik
         few: Korisnika
-        many: Korisnika
         other: Korisnika
   devise:
     confirmations:
@@ -128,7 +127,10 @@ sr:
         sign_in: Prijavi se
         sign_in_with_provider: ""
         sign_up: ""
-      minimum_password_length: ""
+      minimum_password_length:
+        one: ""
+        few: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: ""
@@ -145,5 +147,4 @@ sr:
       not_saved:
         one: '1 greška sprečava snimanje %{resource}:'
         few: "%{count} greške sprečavaju snimanje %{resource}:"
-        many: "%{count} grešaka sprečavaju snimanje %{resource}:"
         other: "%{count} grešaka sprečavaju snimanje %{resource}:"

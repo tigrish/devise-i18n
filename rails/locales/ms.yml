@@ -26,7 +26,8 @@ ms:
         unlock_token: Buka token
         updated_at: Dikemaskinikan pada
     models:
-      user: User
+      user:
+        other: User
   devise:
     confirmations:
       confirmed: Alamat e-mel anda telah berjaya disahkan.
@@ -124,7 +125,8 @@ ms:
         sign_in: Log masuk
         sign_in_with_provider: "Log masuk dengan %{provider}"
         sign_up: Daftar
-      minimum_password_length: ""
+      minimum_password_length:
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: Hantar semula arahan buka akaun
@@ -138,4 +140,5 @@ ms:
       expired: "telah tamat, sila minta yang baharu"
       not_found: tidak dijumpai
       not_locked: tidak dikunci
-      not_saved: "%{count} ralat telah melarang %{resource} daripada disimpan:"
+      not_saved:
+        other: "%{count} ralat telah melarang %{resource} daripada disimpan:"
