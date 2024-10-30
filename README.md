@@ -1,3 +1,9 @@
+# Moved to https://github.com/devise-i18n/devise-i18n
+
+Further work on the devise-i18n project will be done in [devise-i18n/devise-i18n](https://github.com/devise-i18n/devise-i18n). Please reference that repository for latest releases and for filing issues and pull requests.
+
+---
+
 # devise-i18n
 
 [![CI](https://github.com/tigrish/devise-i18n/actions/workflows/ci.yml/badge.svg)](https://github.com/tigrish/devise-i18n/actions/workflows/ci.yml)
